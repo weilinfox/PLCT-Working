@@ -1,0 +1,267 @@
+# legacy __NR_...
+socketcall01
+socketcall02
+socketcall03
+readdir21
+sgetmask01
+sysctl01
+sysctl03
+sysctl04
+sysfs01
+sysfs02
+sysfs03
+sysfs04
+sysfs05
+ustat01
+ustat02
+sysctl01_sh
+tbio
+
+# not have __NR_cacheflush, instead __NR_riscv_flush_icache
+cacheflush01
+
+# not support 16-bit syscalls
+chown01_16
+chown02_16
+chown03_16
+chown04_16
+chown05_16
+fchown01_16
+fchown02_16
+fchown03_16
+fchown04_16
+fchown05_16
+getegid01_16
+getegid02_16
+geteuid01_16
+geteuid02_16
+getgid01_16
+getgid03_16
+getgroups01_16
+getgroups03_16
+getresgid01_16
+getresgid02_16
+getresgid03_16
+getresuid01_16
+getresuid02_16
+getresuid03_16
+getuid01_16
+getuid03_16
+lchown01_16
+lchown02_16
+lchown03_16
+setfsgid01_16
+setfsgid02_16
+setfsgid03_16
+setfsuid01_16
+setfsuid02_16
+setfsuid03_16
+setfsuid04_16
+setgid01_16
+setgid02_16
+setgid03_16
+setgroups01_16
+setgroups02_16
+setgroups03_16
+setgroups04_16
+setregid01_16
+setregid02_16
+setregid03_16
+setregid04_16
+setresgid01_16
+setresgid02_16
+setresgid03_16
+setresgid04_16
+setresuid01_16
+setresuid02_16
+setresuid03_16
+setresuid04_16
+setresuid05_16
+setreuid01_16
+setreuid02_16
+setreuid03_16
+setreuid04_16
+setreuid05_16
+setreuid06_16
+setreuid07_16
+setuid01_16
+setuid03_16
+setuid04_16
+
+# not support CONFIG_TIME_NS until kernel 5.16
+clock_nanosleep03
+clock_gettime03
+sysinfo03
+timerfd04
+timens01
+
+# not support __NR_epoll_pwait2 until kernel 5.11
+epoll_pwait05
+
+# only arm64 has __NR_eventfd, __NR_futimesat, __NR_ssetmask
+eventfd01
+futimesat01
+ssetmask01
+
+# not adapted for linux
+fcntl06
+fcntl06_64
+
+# not support NUMA until kernel 5.12
+get_mempolicy01
+get_mempolicy02
+mbind01
+mbind02
+mbind03
+mbind04
+migrate_pages03
+move_pages01
+move_pages02
+move_pages03
+move_pages04
+move_pages05
+move_pages06
+move_pages07
+move_pages09
+move_pages10
+move_pages11
+move_pages12
+set_mempolicy01
+set_mempolicy02
+set_mempolicy03
+set_mempolicy04
+ksm02
+ksm02_1
+ksm04
+ksm04_1
+ksm06
+ksm06_1
+ksm06_2
+cpuset01
+oom02
+oom04
+oom05
+vma02
+vma04
+cpuset_base_ops
+cpuset_inherit
+cpuset_exclusive
+cpuset_hierarchy
+cpuset_syscall
+cpuset_sched_domains
+cpuset_load_balance
+cpuset_hotplug
+cpuset_memory
+cpuset_memory_pressure
+cpuset_memory_spread
+
+# QEMU cannot emulate a SCSI DVD Writer etc.
+ioctl_sg01
+cve-2018-1000204
+
+# not support FANOTIFY_UNPRIV until kernel 5.13
+fanotify18
+fanotify19
+# not support FAN_REPORT_PIDFD until kernel 5.15
+fanotify20
+fanotify21
+# not support FAN_FS_ERROR until kernel 5.16
+fanotify22
+
+# x86 special
+ioperm01
+ioperm02
+iopl01
+iopl02
+prctl10
+ptrace07
+ptrace08
+ptrace09
+ptrace10
+signal06
+perf_event_open03
+mmapstress08
+runpwtests01
+runpwtests02
+runpwtests03
+runpwtests04
+runpwtests06
+smt_smp_enabled
+smt_smp_affinity
+cve-2015-3290
+cve-2017-15537
+cve-2017-5754
+cve-2017-17053
+cve-2018-8897
+cve-2018-1000199
+cve-2020-25704
+umip_basic_test
+
+# not support CONFIG_USER_DECRYPTED_DATA until kernel 5.18
+keyctl09
+
+# __NR_migrate_pages, NUMA relative
+migrate_pages01
+migrate_pages02
+
+# not support __NR_mount_setattr until kernel 5.12
+mount_setattr01
+
+# x86, sparc special
+pkey01
+
+# for 32-bit architecture
+msgctl05
+semctl08
+shmctl06
+vma03
+cve-2011-2496
+cve-2016-4997
+cve-2017-7616
+
+# not support CONFIG_MEMORY_FAILURE
+madvise07
+
+# not support UFFD_FEATURE_MINOR_SHMEM until kernel 5.14
+dirtyc0w_shmem
+cve-2022-2590
+
+# Blackfin special
+ptrace04
+
+# s390 special
+sbrk03
+
+# powerpc special
+switch01
+
+# not support until kernel 5.16
+futex_waitv01
+futex_waitv02
+futex_waitv03
+
+# not support CONFIG_TRANSPARENT_HUGEPAGE until kernel 5.14
+thp02
+thp03
+thp04
+cve-2017-1000405
+
+# not support
+set_thread_area01
+hugemmap24
+
+# not support ACPI
+ltp_acpi
+cpufreq_boost
+
+# bypass
+pty03
+pty04
+pty05
+
+# proc01
+proc01
+
+# kernel panic
+cve-2022-4378
+

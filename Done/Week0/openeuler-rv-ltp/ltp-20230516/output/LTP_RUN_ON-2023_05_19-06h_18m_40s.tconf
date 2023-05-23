@@ -1,0 +1,210 @@
+acct01 acct01
+acct02 acct02
+cacheflush01 exit 32;
+chown01_16 exit 32;
+chown02_16 exit 32;
+chown03_16 exit 32;
+chown04_16 exit 32;
+chown05_16 exit 32;
+clock_nanosleep03 exit 32;
+clock_gettime03 exit 32;
+delete_module01 delete_module01
+delete_module03 delete_module03
+epoll_pwait05 exit 32;
+eventfd01 exit 32;
+fsetxattr02 fsetxattr02
+fchown01_16 exit 32;
+fchown02_16 exit 32;
+fchown03_16 exit 32;
+fchown04_16 exit 32;
+fchown05_16 exit 32;
+finit_module01 finit_module01
+finit_module02 finit_module02
+flistxattr01 flistxattr01
+flistxattr02 flistxattr02
+flistxattr03 flistxattr03
+fork14 fork14
+futimesat01 exit 32;
+getegid01_16 exit 32;
+getegid02_16 exit 32;
+geteuid01_16 exit 32;
+geteuid02_16 exit 32;
+getgid01_16 exit 32;
+getgid03_16 exit 32;
+getgroups01_16 exit 32;
+getgroups03_16 exit 32;
+getresgid01_16 exit 32;
+getresgid02_16 exit 32;
+getresgid03_16 exit 32;
+getresuid01_16 exit 32;
+getresuid02_16 exit 32;
+getresuid03_16 exit 32;
+get_mempolicy01 exit 32;
+get_mempolicy02 exit 32;
+getuid01_16 exit 32;
+getuid03_16 exit 32;
+init_module01 init_module01
+init_module02 init_module02
+ioctl08 ioctl08
+ioctl_sg01 exit 32;
+fanotify01 fanotify01
+fanotify02 fanotify02
+fanotify03 fanotify03
+fanotify04 fanotify04
+fanotify05 fanotify05
+fanotify06 fanotify06
+fanotify07 fanotify07
+fanotify08 fanotify08
+fanotify09 fanotify09
+fanotify11 fanotify11
+fanotify12 fanotify12
+fanotify13 fanotify13
+fanotify14 fanotify14
+fanotify15 fanotify15
+fanotify16 fanotify16
+fanotify17 fanotify17
+fanotify18 exit 32;
+fanotify19 exit 32;
+fanotify20 exit 32;
+fanotify21 exit 32;
+fanotify22 exit 32;
+ioperm01 exit 32;
+ioperm02 exit 32;
+iopl01 exit 32;
+iopl02 exit 32;
+keyctl09 exit 32;
+kill13 kill13
+lchown01_16 exit 32;
+lchown02_16 exit 32;
+lchown03_16 exit 32;
+lgetxattr01 lgetxattr01
+lgetxattr02 lgetxattr02
+listxattr01 listxattr01
+listxattr02 listxattr02
+listxattr03 listxattr03
+llistxattr01 llistxattr01
+llistxattr02 llistxattr02
+llistxattr03 llistxattr03
+mbind01 exit 32;
+mbind02 exit 32;
+mbind03 exit 32;
+mbind04 exit 32;
+migrate_pages01 exit 32;
+migrate_pages02 exit 32;
+migrate_pages03 exit 32;
+mount_setattr01 exit 32;
+move_pages01 exit 32;
+move_pages02 exit 32;
+move_pages03 exit 32;
+move_pages04 exit 32;
+move_pages05 exit 32;
+move_pages06 exit 32;
+move_pages07 exit 32;
+move_pages09 exit 32;
+move_pages10 exit 32;
+move_pages11 exit 32;
+move_pages12 exit 32;
+pkey01 exit 32;
+msgctl05 exit 32;
+madvise06 madvise06
+madvise07 exit 32;
+madvise09 madvise09
+madvise11 madvise11
+prctl10 exit 32;
+dirtyc0w_shmem exit 32;
+ptrace04 exit 32;
+ptrace07 exit 32;
+ptrace08 exit 32;
+ptrace09 exit 32;
+ptrace10 exit 32;
+quotactl01 quotactl01
+quotactl02 quotactl02
+quotactl03 quotactl03
+quotactl04 quotactl04
+quotactl05 quotactl05
+quotactl06 quotactl06
+quotactl07 quotactl07
+quotactl08 quotactl08
+quotactl09 quotactl09
+readahead02 readahead02
+readdir21 exit 32;
+recvmsg03 recvmsg03
+sbrk03 exit 32;
+semctl08 exit 32;
+sendto02 sendto02
+set_mempolicy01 exit 32;
+set_mempolicy02 exit 32;
+set_mempolicy03 exit 32;
+set_mempolicy04 exit 32;
+set_thread_area01 exit 32;
+setfsgid01_16 exit 32;
+setfsgid02_16 exit 32;
+setfsgid03_16 exit 32;
+setfsuid01_16 exit 32;
+setfsuid02_16 exit 32;
+setfsuid03_16 exit 32;
+setfsuid04_16 exit 32;
+setgid01_16 exit 32;
+setgid02_16 exit 32;
+setgid03_16 exit 32;
+sgetmask01 exit 32;
+setgroups01_16 exit 32;
+setgroups02_16 exit 32;
+setgroups03_16 exit 32;
+setgroups04_16 exit 32;
+setregid01_16 exit 32;
+setregid02_16 exit 32;
+setregid03_16 exit 32;
+setregid04_16 exit 32;
+setresgid01_16 exit 32;
+setresgid02_16 exit 32;
+setresgid03_16 exit 32;
+setresgid04_16 exit 32;
+setresuid01_16 exit 32;
+setresuid02_16 exit 32;
+setresuid03_16 exit 32;
+setresuid04_16 exit 32;
+setresuid05_16 exit 32;
+setreuid01_16 exit 32;
+setreuid02_16 exit 32;
+setreuid03_16 exit 32;
+setreuid04_16 exit 32;
+setreuid05_16 exit 32;
+setreuid06_16 exit 32;
+setreuid07_16 exit 32;
+setsockopt08 setsockopt08
+setuid01_16 exit 32;
+setuid03_16 exit 32;
+setuid04_16 exit 32;
+shmctl06 exit 32;
+signal06 exit 32;
+socketcall01 exit 32;
+socketcall02 exit 32;
+socketcall03 exit 32;
+ssetmask01 exit 32;
+switch01 exit 32;
+sysctl01 exit 32;
+sysctl03 exit 32;
+sysctl04 exit 32;
+sysfs01 exit 32;
+sysfs02 exit 32;
+sysfs03 exit 32;
+sysfs04 exit 32;
+sysfs05 exit 32;
+sysinfo03 exit 32;
+timerfd04 exit 32;
+userfaultfd01 userfaultfd01
+ustat01 exit 32;
+ustat02 exit 32;
+futex_waitv01 exit 32;
+futex_waitv02 exit 32;
+futex_waitv03 exit 32;
+statx05 statx05
+statx07 statx07
+statx09 statx09
+perf_event_open03 exit 32;
+proc01 exit 32;
+quota_remount_test01 quota_remount_test01.sh
+binfmt_misc01 binfmt_misc01.sh
+binfmt_misc02 binfmt_misc02.sh
+squashfs01 squashfs01

@@ -1,0 +1,14 @@
+bpf_prog06 bpf_prog06
+leapsec01 leapsec01
+clock_settime03 clock_settime03
+epoll_pwait02 epoll_pwait02
+epoll_pwait03 epoll_pwait03
+epoll_pwait04 epoll_pwait04
+getxattr04 getxattr04
+inotify12 inotify12
+fanotify10 fanotify10
+openat04 openat04
+perf_event_open02 perf_event_open02
+read_all_proc read_all -d /proc -q -r 3
+isofs isofs.sh
+fs_fill fs_fill

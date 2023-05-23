@@ -1,0 +1,19 @@
+vma05 vma05.sh
+irqbalance01 irqbalance01
+memcontrol02 memcontrol02
+memcontrol03 memcontrol03
+memcontrol04 memcontrol04
+io_control01 io_control01
+hugemmap15 hugemmap15
+df01_sh df01.sh
+mkfs01_sh mkfs01.sh
+mkfs01_ext2_sh mkfs01.sh -f ext2
+mkfs01_ext3_sh mkfs01.sh -f ext3
+mkfs01_ext4_sh mkfs01.sh -f ext4
+mkfs01_xfs_sh mkfs01.sh -f xfs
+mkfs01_btrfs_sh mkfs01.sh -f btrfs
+mkfs01_minix_sh mkfs01.sh -f minix
+mkfs01_msdos_sh mkfs01.sh -f msdos
+mkfs01_vfat_sh mkfs01.sh -f vfat
+mkfs01_ntfs_sh mkfs01.sh -f ntfs
+mkswap01_sh mkswap01.sh

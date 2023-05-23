@@ -1,0 +1,1227 @@
+
+******2023/5/19 12:43:13******
+[17598.598426] LTP: starting gf17 (growfiles -W gf17 -b -e 1 -i 0 -L 120 -u -g 5000 -T 101 -t 499990 -l -C 10 -c 1000 -S 10 -f Lgf03_ -d $TMPDIR)
+[17719.582820] LTP: starting gf18 (growfiles -W gf18 -b -e 1 -i 0 -L 120 -w -u -r 10-5000 -I r -l -S 2 -f Lgf04_ -d $TMPDIR)
+[17806.710644] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[17806.710644] 
+[17843.799660] LTP: starting gf19 (growfiles -W gf19 -b -e 1 -g 5000 -i 500 -t 49900 -T10 -c9 -I p -o O_RDWR,O_CREAT,O_TRUNC -u -f gf08i_ -d $TMPDIR)
+[17844.583686] LTP: starting gf20 (growfiles -W gf20 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 1-256000:512 -R 512-256000 -T 4 -f gfbigio-$$ -d $TMPDIR)
+[17905.541061] LTP: starting gf21 (growfiles -W gf21 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -g 20480 -T 10 -t 20480 -f gf-bld-$$ -d $TMPDIR)
+[17905.573677] LTP: starting gf22 (growfiles -W gf22 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -g 20480 -T 10 -t 20480 -f gf-bldf-$$ -d $TMPDIR)
+[17905.603755] LTP: starting gf23 (growfiles -W gf23 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 512-64000:1024 -R 1-384000 -T 4 -f gf-inf-$$ -d $TMPDIR)
+[17924.865755] LTP: starting gf24 (growfiles -W gf24 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -g 20480 -f gf-jbld-$$ -d $TMPDIR)
+[17924.895658] LTP: starting gf25 (growfiles -W gf25 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 1024000-2048000:2048 -R 4095-2048000 -T 1 -f gf-large-gs-$$ -d $TMPDIR)
+[17924.969155] LTP: starting gf26 (growfiles -W gf26 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -r 128-32768:128 -R 512-64000 -T 4 -f gfsmallio-$$ -d $TMPDIR)
+[17985.539788] LTP: starting gf27 (growfiles -W gf27 -b -D 0 -w -g 8b -C 1 -b -i 1000 -u -f gfsparse-1-$$ -d $TMPDIR)
+[17985.727511] LTP: starting gf28 (growfiles -W gf28 -b -D 0 -w -g 16b -C 1 -b -i 1000 -u -f gfsparse-2-$$ -d $TMPDIR)
+[17986.015842] LTP: starting gf29 (growfiles -W gf29 -b -D 0 -r 1-4096 -R 0-33554432 -i 0 -L 60 -C 1 -u -f gfsparse-3-$$ -d $TMPDIR)
+[18046.568422] LTP: starting gf30 (growfiles -W gf30 -D 0 -b -i 0 -L 60 -u -B 1000b -e 1 -o O_RDWR,O_CREAT,O_SYNC -g 20480 -T 10 -t 20480 -f gf-sync-$$ -d $TMPDIR)
+[18046.725145] LTP: starting rwtest01 (export LTPROOT; rwtest -N rwtest01 -c -q -i 60s  -f sync 10%25000:$TMPDIR/rw-sync-$$)
+[18108.284830] LTP: starting rwtest02 (export LTPROOT; rwtest -N rwtest02 -c -q -i 60s  -f buffered 10%25000:$TMPDIR/rw-buffered-$$)
+[18168.587051] LTP: starting rwtest03 (export LTPROOT; rwtest -N rwtest03 -c -q -i 60s -n 2  -f buffered -s mmread,mmwrite -m random -Dv 10%25000:$TMPDIR/mm-buff-$$)
+[18220.696987] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[18220.696987] 
+[18230.370212] LTP: starting rwtest04 (export LTPROOT; rwtest -N rwtest04 -c -q -i 60s -n 2  -f sync -s mmread,mmwrite -m random -Dv 10%25000:$TMPDIR/mm-sync-$$)
+[18291.556765] LTP: starting rwtest05 (export LTPROOT; rwtest -N rwtest05 -c -q -i 50 -T 64b 500b:$TMPDIR/rwtest01%s)
+[18291.675304] LTP: starting iogen01 (export LTPROOT; rwtest -N iogen01 -i 120s -s read,write -Da -Dv -n 2 500b:$TMPDIR/doio.f1.$$ 1000b:$TMPDIR/doio.f2.$$)
+[18412.976731] LTP: starting fs_inod01 (fs_inod $TMPDIR 10 10 10)
+[18421.764306] LTP: starting linker01 (linktest.sh)
+[18430.627576] LTP: starting openfile01 (openfile -f10 -t10)
+[18430.677086] LTP: starting inode01
+[18430.740690] LTP: starting inode02
+[18431.872570] LTP: starting stream01
+[18431.890065] LTP: starting stream02
+[18431.906613] LTP: starting stream03
+[18431.918455] LTP: starting stream04
+[18431.932280] LTP: starting stream05
+[18431.944317] LTP: starting ftest01
+[18475.915898] LTP: starting ftest02
+[18476.299227] LTP: starting ftest03
+[18506.812393] LTP: starting ftest04
+[18522.691388] LTP: starting ftest05
+[18552.088990] LTP: starting ftest06
+[18552.412902] LTP: starting ftest07
+[18603.266441] LTP: starting ftest08
+[18620.115209] LTP: starting lftest01 (lftest)
+[18627.221531] LTP: starting writetest01 (writetest)
+[18627.476639] LTP: starting fs_di (fs_di -d $TMPDIR)
+[18634.685734] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[18634.685734] 
+[18654.258757] LTP: starting proc01 (exit 32;)
+[18654.263156] LTP: starting read_all_dev (read_all -d /dev -p -q -r 3)
+[18654.357855] LTP: starting read_all_proc (read_all -d /proc -q -r 3)
+[18654.401551] ICMPv6: process `read_all' is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time - use net.ipv6.neigh.default.base_reachable_time_ms instead
+[18663.839936] RTW: ERROR _btmpoper_cmd: Sequence number not match!(12!=11)!
+[18677.317348] RTW: ERROR _btmpoper_cmd: Sequence number not match!(10!=9)!
+[18677.334871] RTW: ERROR _btmpoper_cmd: Sequence number not match!(11!=10)!
+[18689.117564] RTW: ERROR _btmpoper_cmd: Sequence number not match!(2!=1)!
+[18689.130483] RTW: ERROR _btmpoper_cmd: Sequence number not match!(3!=2)!
+[18696.781167] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18697.709006] RTW: ERROR _btmpoper_cmd: Sequence number not match!(2!=1)!
+[18724.072011] RTW: ERROR _btmpoper_cmd: Sequence number not match!(1!=0)!
+[18726.070201] RTW: ERROR _btmpoper_cmd: Sequence number not match!(1!=0)!
+[18736.916416] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18751.880893] RTW: ERROR _btmpoper_cmd: Sequence number not match!(8!=7)!
+[18760.619977] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18760.669371] RTW: ERROR _btmpoper_cmd: Sequence number not match!(11!=10)!
+[18768.779824] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18783.179558] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18796.463306] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18797.372909] RTW: ERROR _btmpoper_cmd: Sequence number not match!(3!=2)!
+[18826.650799] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18835.085520] RTW: ERROR _btmpoper_cmd: Sequence number not match!(8!=7)!
+[18842.030922] RTW: ERROR _btmpoper_cmd: Sequence number not match!(13!=12)!
+[18849.224705] RTW: ERROR _btmpoper_cmd: Sequence number not match!(15!=14)!
+[18857.869387] RTW: ERROR _btmpoper_cmd: Sequence number not match!(5!=4)!
+[18875.657825] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18875.671383] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18875.813851] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18878.747256] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18879.629752] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18879.727231] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18894.373472] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18899.837370] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18902.651046] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18902.758571] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18908.189209] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18916.537056] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18920.072986] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18920.220982] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18924.558202] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18931.196781] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18933.580730] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18937.438655] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18937.596659] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18939.362204] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18939.508624] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18939.894050] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18941.416586] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18951.740390] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18958.704255] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18961.448205] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18961.584202] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18962.304192] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18972.048012] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18975.751936] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18980.135860] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18983.323795] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18986.167736] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18988.185077] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18989.811672] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18992.195628] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18996.047554] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[18997.759523] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19000.201036] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19000.331470] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19004.403394] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19005.215380] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19005.324665] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19008.011324] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19012.275243] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19014.067209] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19015.108725] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19015.217041] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19022.647049] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19029.138925] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19029.246915] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19032.036209] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19032.054881] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19032.236404] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19032.502864] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19033.158850] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19037.194777] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19037.334771] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19037.482768] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19037.636516] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19042.912171] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19044.710631] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19045.406616] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19046.342609] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19046.366606] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19046.486602] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19046.658594] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19048.770559] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19049.934637] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[19049.934637] 
+[19053.198473] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19053.370467] RTW: ERROR Wait for cpwm event  than 100 ms!!!
+[19054.356030] LTP: starting read_all_sys (read_all -d /sys -q -r 3)
+[19054.922214] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19054.941648] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19055.938723] RTW: clear key for addr:a2:33:c1:0d:f6:32, camid:0
+[19055.947183] RTW: clear key for addr:a2:33:c1:0d:f6:32, camid:1
+[19056.404931] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.426589] echo flag|reg|val > es7210
+[19056.430348] eg read star address=0x06,count 0x10:echo 0610 >es7210
+[19056.434470] echo flag|reg|val > es7210
+[19056.440335] eg read star address=0x06,count 0x10:echo 0610 >es7210
+[19056.446441] eg write star address=0x90,value=0x3c,count=4:echo 4903c >es7210
+[19056.450621] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.452121] echo flag|reg|val > es7210
+[19056.452127] eg read star address=0x06,count 0x10:echo 0610 >es7210
+[19056.452131] eg write star address=0x90,value=0x3c,count=4:echo 4903c >es7210
+[19056.471433] eg write star address=0x90,value=0x3c,count=4:echo 4903c >es7210
+[19056.472908] WARNING! power/level is deprecated; use power/control instead
+[19056.477379] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.511605] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.553649] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.560399] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.615318] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.655593] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.666925] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.673663] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.680411] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.687153] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.693897] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.700647] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.707391] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.714128] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.720890] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.727640] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.734436] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.741179] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.785182] RTW: rtw_set_802_11_connect(p2p0)  fw_state=0x00000008
+[19056.975359] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.982112] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.988866] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19056.995634] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19057.002481] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19057.301588] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19057.308348] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19057.324367] bdi 7:6: the stable_pages_required attribute has been removed. Use the stable_writes queue attribute instead.
+[19057.948290] LTP: starting fs_racer (fs_racer.sh -t 5)
+[19058.408875] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.530589] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.621142] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.627996] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.634821] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.642249] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.649071] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.731809] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.738574] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.751258] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19058.758062] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.193431] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.362259] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.369087] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.375869] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.382635] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.389399] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.396196] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19059.448240] RTW: rtw_set_802_11_connect(p2p0)  fw_state=0x00000008
+[19059.761363] RTW: start auth
+[19059.769224] RTW: auth success, start assoc
+[19063.511296] LTP: starting quota_remount_test01 (quota_remount_test01.sh)
+[19063.769326] LTP: starting isofs (isofs.sh)
+[19065.465132] RTW: rtw_set_802_11_connect(p2p0)  fw_state=0x00000008
+[19065.700479] RTW: start auth
+[19065.706010] RTW: OnDeAuth(p2p0) reason=1, ta=a2:33:c1:0d:f6:32, ignore=0
+[19065.803956] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19065.810708] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.022034] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.028803] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.035566] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.042291] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.049039] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.055811] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.107746] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.328777] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.335517] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.342247] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.348966] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.355682] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.362399] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.942986] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.949738] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.956474] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.963196] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.969915] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.976631] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.983356] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.990072] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19066.996792] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.003509] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.250765] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.257512] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.264243] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.270962] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.277679] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.284396] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.291118] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.297836] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.304551] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.311279] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.886443] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.893225] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19067.999864] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19068.006606] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19068.013337] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19068.020066] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19068.026789] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.388607] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.395377] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.402112] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.408847] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.415578] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.489650] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.496423] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.503159] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.509898] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.516627] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.523351] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.530073] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.536798] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.543518] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.550246] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.556971] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.563695] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.570417] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19069.577137] RTW: OnDeAuth(p2p0) reason=7, ta=a2:33:c1:0d:f6:32, ignore=0
+[19074.806138] RTW: rtw_set_802_11_connect(p2p0)  fw_state=0x00000008
+[19075.121148] RTW: start auth
+[19075.131842] RTW: auth success, start assoc
+[19075.180064] RTW: assoc success
+[19075.183583] RTW: ============ STA [a2:33:c1:0d:f6:32]  ===================
+[19075.191153] RTW: mac_id : 0
+[19075.191159] RTW: recv eapol packet 1/4
+[19075.198346] RTW: send eapol packet 2/4
+[19075.214090] RTW: wireless_mode : 0x0b
+[19075.219246] RTW: mimo_type : 0
+[19075.230127] RTW: static smps : N
+[19075.233372] RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+[19075.250092] RTW: rate_id : 3
+[19075.252985] RTW: rssi : 84 (%), rssi_level : 0
+[19075.274052] RTW: is_support_sgi : Y, is_vht_enable : N
+[19075.279245] RTW: disable_ra : N, disable_pt : N
+[19075.306071] RTW: is_noisy : N
+[19075.309054] RTW: txrx_state : 0
+[19075.342058] RTW: curr_tx_rate : CCK_1M (L)
+[19075.346479] RTW: curr_tx_bw : 20MHz
+[19075.349974] RTW: curr_retry_ratio : 0
+[19075.370055] RTW: ra_mask : 0x00000000000fffff
+[19075.370055] 
+[19075.431803] RTW: recv eapol packet 3/4
+[19075.438356] RTW: send eapol packet 4/4
+[19075.442498] RTW: set pairwise key camid:0, addr:a2:33:c1:0d:f6:32, kid:0, type:AES
+[19075.450549] IPv6: ADDRCONF(NETDEV_CHANGE): p2p0: link becomes ready
+[19075.467234] RTW: set group key camid:1, addr:a2:33:c1:0d:f6:32, kid:1, type:AES
+[19075.865686] LTP: starting fs_fill
+[19076.845554] EXT4-fs (sda1): mounting ext2 file system using the ext4 subsystem
+[19076.930174] EXT4-fs (sda1): mounted filesystem without journal. Opts: (null)
+[19121.940371] EXT4-fs (sda1): mounting ext3 file system using the ext4 subsystem
+[19122.026378] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[19182.240190] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[19463.671718] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[19463.671718] 
+[19877.661717] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[19877.661717] 
+[19974.361935] LTP: starting binfmt_misc01 (binfmt_misc01.sh)
+[19974.571787] LTP: starting binfmt_misc02 (binfmt_misc02.sh)
+[19974.764226] LTP: starting squashfs01
+[19974.793842] LTP: starting fs_perms01 (fs_perms 005 99 99 12 100 x 0)
+[19974.869109] LTP: starting fs_perms02 (fs_perms 050 99 99 200 99 x 0)
+[19974.916788] LTP: starting fs_perms03 (fs_perms 500 99 99 99 500 x 0)
+[19974.996775] LTP: starting fs_perms04 (fs_perms 002 99 99 12 100 w 0)
+[19975.030829] LTP: starting fs_perms05 (fs_perms 020 99 99 200 99 w 0)
+[19975.068068] LTP: starting fs_perms06 (fs_perms 200 99 99 99 500 w 0)
+[19975.098679] LTP: starting fs_perms07 (fs_perms 004 99 99 12 100 r 0)
+[19975.131777] LTP: starting fs_perms08 (fs_perms 040 99 99 200 99 r 0)
+[19975.164374] LTP: starting fs_perms09 (fs_perms 400 99 99 99 500 r 0)
+[19975.194620] LTP: starting fs_perms10 (fs_perms 000 99 99 99 99  r 1)
+[19975.224741] LTP: starting fs_perms11 (fs_perms 000 99 99 99 99  w 1)
+[19975.254603] LTP: starting fs_perms12 (fs_perms 000 99 99 99 99  x 1)
+[19975.295464] LTP: starting fs_perms13 (fs_perms 010 99 99 99 500 x 1)
+[19975.326726] LTP: starting fs_perms14 (fs_perms 100 99 99 200 99 x 1)
+[19975.368217] LTP: starting fs_perms15 (fs_perms 020 99 99 99 500 w 1)
+[19975.398619] LTP: starting fs_perms16 (fs_perms 200 99 99 200 99 w 1)
+[19975.431178] LTP: starting fs_perms17 (fs_perms 040 99 99 99 500 r 1)
+[19975.450580] LTP: starting fs_perms18 (fs_perms 400 99 99 200 99 r 1)
+[19975.481143] LTP: starting fsx-linux (export TCbin=$LTPROOT/testcases/bin;fsxtest02 10000)
+[19977.180035] LTP: starting dio01 (diotest1)
+[19977.263812] LTP: starting dio02 (diotest2)
+[19977.722217] LTP: starting dio03 (diotest3)
+[19978.536603] LTP: starting dio04 (diotest4)
+[19978.579909] LTP: starting dio05 (diotest5)
+[19979.546571] LTP: starting dio06 (diotest6)
+[19983.531653] LTP: starting dio07 (diotest1 -b 65536)
+[19983.894436] LTP: starting dio08 (diotest2 -b 65536)
+[19986.784757] LTP: starting dio09 (diotest3 -b 65536)
+[19990.351054] LTP: starting dio10 (diotest4 -b 65536)
+[20093.747660] LTP: starting dio11 (diotest5 -b 65536)
+[20108.719689] LTP: starting dio12 (diotest6 -b 65536)
+[20161.991184] LTP: starting dio13 (diotest1 -b 65536 -n 2000)
+[20189.724949] LTP: starting dio14 (diotest2 -b 65536 -i 1000)
+[20210.976714] LTP: starting dio15 (diotest3 -b 65536 -i 1000)
+[20236.283359] LTP: starting dio16 (diotest5 -b 65536 -i 1000)
+[20291.653912] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[20291.653912] 
+[20534.174467] sdhci-dwcmshc ffe7090000.sd: Card stuck in wrong state! card_busy_detect status: 0xd00
+[20705.645456] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[20705.645456] 
+[20842.072466] LTP: starting dio17 (diotest6 -b 65536 -i 1000)
+[21119.638266] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[21119.638266] 
+[21254.182167] LTP: starting dio18 (diotest2 -b 65536 -i 1000 -o 1024000)
+[21271.745482] LTP: starting dio19 (diotest3 -b 65536 -i 1000 -o 1024000)
+[21309.749433] LTP: starting dio20 (diotest5 -b 65536 -i 1000 -o 1024000)
+[21533.629839] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[21533.629839] 
+[21834.953456] sdhci-dwcmshc ffe7090000.sd: Card stuck in wrong state! card_busy_detect status: 0xd00
+[21881.488254] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21881.494994] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21881.538316] mmc1: tried to HW reset card, got error -110
+[21881.543654] mmcblk1: recovery failed!
+[21881.547358] blk_update_request: I/O error, dev mmcblk1, sector 175116240 op 0x1:(WRITE) flags 0xc800 phys_seg 83 prio class 0
+[21881.564109] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21881.570569] mmcblk1: recovery failed!
+[21881.574283] blk_update_request: I/O error, dev mmcblk1, sector 175117264 op 0x1:(WRITE) flags 0xc800 phys_seg 69 prio class 0
+[21881.579680] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21881.592081] mmcblk1: recovery failed!
+[21881.595781] blk_update_request: I/O error, dev mmcblk1, sector 175118288 op 0x1:(WRITE) flags 0x8800 phys_seg 16 prio class 0
+[21881.610339] LTP: starting dio21 (diotest6 -b 65536 -i 1000 -o 1024000)
+[21881.710431] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21881.716894] mmcblk1: recovery failed!
+[21881.720629] blk_update_request: I/O error, dev mmcblk1, sector 175124432 op 0x1:(WRITE) flags 0x4800 phys_seg 118 prio class 0
+[21881.737141] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21881.743600] mmcblk1: recovery failed!
+[21881.747331] blk_update_request: I/O error, dev mmcblk1, sector 175125456 op 0x1:(WRITE) flags 0x4800 phys_seg 31 prio class 0
+[21881.752699] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21881.765100] mmcblk1: recovery failed!
+[21881.768809] blk_update_request: I/O error, dev mmcblk1, sector 175126480 op 0x1:(WRITE) flags 0x800 phys_seg 5 prio class 0
+[21881.779976] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21890816)
+[21881.791558] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21890874)
+[21881.791737] Buffer I/O error on device mmcblk1p1, logical block 21890298
+[21881.832515] Buffer I/O error on device mmcblk1p1, logical block 21890299
+[21881.856284] Buffer I/O error on device mmcblk1p1, logical block 21890300
+[21881.872513] Buffer I/O error on device mmcblk1p1, logical block 21890301
+[21881.879421] Buffer I/O error on device mmcblk1p1, logical block 21890302
+[21881.896508] Buffer I/O error on device mmcblk1p1, logical block 21890303
+[21881.912526] Buffer I/O error on device mmcblk1p1, logical block 21890304
+[21881.919415] Buffer I/O error on device mmcblk1p1, logical block 21890305
+[21881.936506] Buffer I/O error on device mmcblk1p1, logical block 21890306
+[21881.952508] Buffer I/O error on device mmcblk1p1, logical block 21890307
+[21882.070895] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.077366] mmcblk1: recovery failed!
+[21882.081118] blk_update_request: I/O error, dev mmcblk1, sector 175132624 op 0x1:(WRITE) flags 0xc800 phys_seg 45 prio class 0
+[21882.097541] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.103999] mmcblk1: recovery failed!
+[21882.107729] blk_update_request: I/O error, dev mmcblk1, sector 175133648 op 0x1:(WRITE) flags 0xc800 phys_seg 32 prio class 0
+[21882.113120] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.125499] mmcblk1: recovery failed!
+[21882.129195] blk_update_request: I/O error, dev mmcblk1, sector 175134672 op 0x1:(WRITE) flags 0x8800 phys_seg 32 prio class 0
+[21882.286113] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.292573] mmcblk1: recovery failed!
+[21882.296301] blk_update_request: I/O error, dev mmcblk1, sector 175140816 op 0x1:(WRITE) flags 0xc800 phys_seg 89 prio class 0
+[21882.313891] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.320355] mmcblk1: recovery failed!
+[21882.329471] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.335934] mmcblk1: recovery failed!
+[21882.342982] LTP: starting dio22 (diotest2 -b 65536 -i 1000 -o 104857600)
+[21882.371111] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.377582] mmcblk1: recovery failed!
+[21882.381298] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21894032)
+[21882.401588] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.408055] mmcblk1: recovery failed!
+[21882.420163] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.426632] mmcblk1: recovery failed!
+[21882.431703] LTP: starting dio23 (diotest3 -b 65536 -i 1000 -o 104857600)
+[21882.450052] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.456542] mmcblk1: recovery failed!
+[21882.460241] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21900560)
+[21882.484867] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.491339] mmcblk1: recovery failed!
+[21882.504543] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.511016] mmcblk1: recovery failed!
+[21882.516942] LTP: starting dio24 (diotest5 -b 65536 -i 1000 -o 104857600)
+[21882.725318] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.731790] mmcblk1: recovery failed!
+[21882.740960] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.747419] mmcblk1: recovery failed!
+[21882.756556] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.763018] mmcblk1: recovery failed!
+[21882.766721] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21907008)
+[21882.980987] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21882.987448] mmcblk1: recovery failed!
+[21882.996652] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.003126] mmcblk1: recovery failed!
+[21883.012238] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.018723] mmcblk1: recovery failed!
+[21883.217696] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.224158] mmcblk1: recovery failed!
+[21883.233332] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.239797] mmcblk1: recovery failed!
+[21883.248909] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.255388] mmcblk1: recovery failed!
+[21883.263683] LTP: starting dio25 (diotest6 -b 65536 -i 1000 -o 104857600)
+[21883.357134] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.363609] mmcblk1: recovery failed!
+[21883.372751] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.379211] mmcblk1: recovery failed!
+[21883.388341] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.394810] mmcblk1: recovery failed!
+[21883.398530] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21913106)
+[21883.410117] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21913152)
+[21883.481626] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.488089] mmcblk1: recovery failed!
+[21883.497318] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.503792] mmcblk1: recovery failed!
+[21883.512925] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.519398] mmcblk1: recovery failed!
+[21883.580571] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.587045] mmcblk1: recovery failed!
+[21883.596192] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.602654] mmcblk1: recovery failed!
+[21883.611799] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.618266] mmcblk1: recovery failed!
+[21883.625486] LTP: starting dio26 (diotest6 -b 8192 -v 100)
+[21883.674497] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.680963] mmcblk1: recovery failed!
+[21883.690119] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.696591] mmcblk1: recovery failed!
+[21883.700300] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21890248)
+[21883.789858] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.796318] mmcblk1: recovery failed!
+[21883.805441] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.811914] mmcblk1: recovery failed!
+[21883.889507] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.895975] mmcblk1: recovery failed!
+[21883.905168] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.911627] mmcblk1: recovery failed!
+[21883.917819] LTP: starting dio27 (diotest6 -b 8192 -o 1024000 -i 1000 -v 100)
+[21883.968489] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.974954] mmcblk1: recovery failed!
+[21883.984122] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21883.990598] mmcblk1: recovery failed!
+[21883.994311] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21893826)
+[21884.111803] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.118270] mmcblk1: recovery failed!
+[21884.127399] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.133860] mmcblk1: recovery failed!
+[21884.193765] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.200226] mmcblk1: recovery failed!
+[21884.209368] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.215841] mmcblk1: recovery failed!
+[21884.222043] LTP: starting dio28 (diotest6 -b 8192 -o 1024000 -i 1000 -v 200)
+[21884.307491] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.313968] mmcblk1: recovery failed!
+[21884.323192] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.329656] mmcblk1: recovery failed!
+[21884.338777] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.345256] mmcblk1: recovery failed!
+[21884.348983] EXT4-fs warning (device mmcblk1p1): ext4_end_bio:347: I/O error 10 writing to inode 4980798 starting block 21901568)
+[21884.365731] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.372193] mmcblk1: recovery failed!
+[21884.381398] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.387860] mmcblk1: recovery failed!
+[21884.468628] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.475104] mmcblk1: recovery failed!
+[21884.484246] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.490715] mmcblk1: recovery failed!
+[21884.499862] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.506344] mmcblk1: recovery failed!
+[21884.515458] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.521941] mmcblk1: recovery failed!
+[21884.531118] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.537587] mmcblk1: recovery failed!
+[21884.616741] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.623217] mmcblk1: recovery failed!
+[21884.632418] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.638887] mmcblk1: recovery failed!
+[21884.648087] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.654556] mmcblk1: recovery failed!
+[21884.663737] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.670203] mmcblk1: recovery failed!
+[21884.679397] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.685861] mmcblk1: recovery failed!
+[21884.693301] LTP: starting dio29 (diotest3 -b 65536 -n 100 -i 100 -o 1024000)
+[21884.724722] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.731240] mmcblk1: recovery failed!
+[21884.740530] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.747009] mmcblk1: recovery failed!
+[21884.756308] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.762803] mmcblk1: recovery failed!
+[21884.772125] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.778609] mmcblk1: recovery failed!
+[21884.787911] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.794410] mmcblk1: recovery failed!
+[21884.803842] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.810325] mmcblk1: recovery failed!
+[21884.819597] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.826094] mmcblk1: recovery failed!
+[21884.835340] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.841837] mmcblk1: recovery failed!
+[21884.851059] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.857566] mmcblk1: recovery failed!
+[21884.866727] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.873207] mmcblk1: recovery failed!
+[21884.882341] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.888818] mmcblk1: recovery failed!
+[21884.897934] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.904410] mmcblk1: recovery failed!
+[21884.913584] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.920042] mmcblk1: recovery failed!
+[21884.929234] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.935708] mmcblk1: recovery failed!
+[21884.944866] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.951327] mmcblk1: recovery failed!
+[21884.960504] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.966984] mmcblk1: recovery failed!
+[21884.976110] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.982598] mmcblk1: recovery failed!
+[21884.991707] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21884.998182] mmcblk1: recovery failed!
+[21885.007364] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.013841] mmcblk1: recovery failed!
+[21885.023010] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.029492] mmcblk1: recovery failed!
+[21885.038681] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.045147] mmcblk1: recovery failed!
+[21885.054296] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.060766] mmcblk1: recovery failed!
+[21885.069948] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.076407] mmcblk1: recovery failed!
+[21885.085771] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.092241] mmcblk1: recovery failed!
+[21885.101370] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.107842] mmcblk1: recovery failed!
+[21885.116967] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.123429] mmcblk1: recovery failed!
+[21885.132588] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.139049] mmcblk1: recovery failed!
+[21885.148193] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.154673] mmcblk1: recovery failed!
+[21885.163786] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.170253] mmcblk1: recovery failed!
+[21885.179390] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.185853] mmcblk1: recovery failed!
+[21885.194988] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.201471] mmcblk1: recovery failed!
+[21885.210660] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.217128] mmcblk1: recovery failed!
+[21885.226292] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.232758] mmcblk1: recovery failed!
+[21885.241929] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.248390] mmcblk1: recovery failed!
+[21885.257586] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.264052] mmcblk1: recovery failed!
+[21885.273250] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.279731] mmcblk1: recovery failed!
+[21885.288865] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.295338] mmcblk1: recovery failed!
+[21885.304491] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.310943] mmcblk1: recovery failed!
+[21885.320063] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.326540] mmcblk1: recovery failed!
+[21885.335684] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.342161] mmcblk1: recovery failed!
+[21885.351346] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.357823] mmcblk1: recovery failed!
+[21885.366990] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.373460] mmcblk1: recovery failed!
+[21885.382825] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.389307] mmcblk1: recovery failed!
+[21885.398652] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.405121] mmcblk1: recovery failed!
+[21885.414460] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.420940] mmcblk1: recovery failed!
+[21885.430289] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.436763] mmcblk1: recovery failed!
+[21885.446136] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.452615] mmcblk1: recovery failed!
+[21885.461945] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.468424] mmcblk1: recovery failed!
+[21885.477834] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.484302] mmcblk1: recovery failed!
+[21885.493660] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.500151] mmcblk1: recovery failed!
+[21885.509287] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.515747] mmcblk1: recovery failed!
+[21885.524902] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.531370] mmcblk1: recovery failed!
+[21885.540483] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.546967] mmcblk1: recovery failed!
+[21885.556127] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.562606] mmcblk1: recovery failed!
+[21885.571741] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.578219] mmcblk1: recovery failed!
+[21885.587346] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.593821] mmcblk1: recovery failed!
+[21885.603218] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.609697] mmcblk1: recovery failed!
+[21885.656773] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.663278] mmcblk1: recovery failed!
+[21885.690655] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.697151] mmcblk1: recovery failed!
+[21885.707804] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.714288] mmcblk1: recovery failed!
+[21885.724307] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.730799] mmcblk1: recovery failed!
+[21885.741200] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.747671] mmcblk1: recovery failed!
+[21885.757215] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.763698] mmcblk1: recovery failed!
+[21885.773214] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.779691] mmcblk1: recovery failed!
+[21885.789225] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.795686] mmcblk1: recovery failed!
+[21885.805208] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.811678] mmcblk1: recovery failed!
+[21885.821172] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.827649] mmcblk1: recovery failed!
+[21885.837209] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.843683] mmcblk1: recovery failed!
+[21885.853153] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.859631] mmcblk1: recovery failed!
+[21885.869150] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.875611] mmcblk1: recovery failed!
+[21885.885177] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.891639] mmcblk1: recovery failed!
+[21885.901146] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.907618] mmcblk1: recovery failed!
+[21885.917104] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.923573] mmcblk1: recovery failed!
+[21885.933085] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.939544] mmcblk1: recovery failed!
+[21885.948999] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.955483] mmcblk1: recovery failed!
+[21885.964949] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.971422] mmcblk1: recovery failed!
+[21885.980913] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21885.987373] mmcblk1: recovery failed!
+[21885.996851] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.003327] mmcblk1: recovery failed!
+[21886.012818] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.019279] mmcblk1: recovery failed!
+[21886.028814] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.035275] mmcblk1: recovery failed!
+[21886.044770] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.051247] mmcblk1: recovery failed!
+[21886.060787] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.067245] mmcblk1: recovery failed!
+[21886.076794] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.083270] mmcblk1: recovery failed!
+[21886.092759] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.099246] mmcblk1: recovery failed!
+[21886.108760] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.115221] mmcblk1: recovery failed!
+[21886.124841] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.131303] mmcblk1: recovery failed!
+[21886.140467] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.146942] mmcblk1: recovery failed!
+[21886.150655] Buffer I/O error on dev mmcblk1p1, logical block 13153722, lost sync page write
+[21886.159112] EXT4-fs error (device mmcblk1p1): ext4_check_bdev_write_error:217: comm diotest3: Error while async write back metadata
+[21886.159220] Aborting journal on device mmcblk1p1-8.
+[21886.180959] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.187426] mmcblk1: recovery failed!
+[21886.191503] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.199353] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.205664] EXT4-fs error (device mmcblk1p1) in ext4_free_blocks:5558: Journal has aborted
+[21886.218707] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.225174] mmcblk1: recovery failed!
+[21886.228882] Buffer I/O error on dev mmcblk1p1, logical block 13139968, lost sync page write
+[21886.237310] JBD2: Error -5 detected when updating journal superblock for mmcblk1p1-8.
+[21886.250989] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.257462] mmcblk1: recovery failed!
+[21886.261172] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.268970] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.275282] EXT4-fs error (device mmcblk1p1): ext4_check_bdev_write_error:217: comm diotest3: Error while async write back metadata
+[21886.321907] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.328388] mmcblk1: recovery failed!
+[21886.332087] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.339952] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.346410] EXT4-fs error (device mmcblk1p1) in ext4_reserve_inode_write:5832: Journal has aborted
+[21886.373899] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.380374] mmcblk1: recovery failed!
+[21886.384072] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.391915] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.398369] EXT4-fs error (device mmcblk1p1): __ext4_ext_dirty:182: inode #4980798: comm diotest3: mark_inode_dirty error
+[21886.433900] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.440361] mmcblk1: recovery failed!
+[21886.444063] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.451867] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.458180] EXT4-fs error (device mmcblk1p1): ext4_check_bdev_write_error:217: comm diotest3: Error while async write back metadata
+[21886.475513] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.481982] mmcblk1: recovery failed!
+[21886.485692] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.493494] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.499799] EXT4-fs error (device mmcblk1p1) in ext4_reserve_inode_write:5832: Journal has aborted
+[21886.522476] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.528939] mmcblk1: recovery failed!
+[21886.532631] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.540449] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.546737] EXT4-fs error (device mmcblk1p1): __ext4_ext_dirty:182: inode #4980798: comm diotest3: mark_inode_dirty error
+[21886.573878] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.580344] mmcblk1: recovery failed!
+[21886.584042] print_req_error: 148 callbacks suppressed
+[21886.584050] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.599836] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[21886.607630] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.613944] EXT4-fs error (device mmcblk1p1) in ext4_ext_remove_space:3061: Journal has aborted
+[21886.641901] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.648374] mmcblk1: recovery failed!
+[21886.652073] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.662821] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.669133] EXT4-fs error (device mmcblk1p1): ext4_check_bdev_write_error:217: comm diotest3: Error while async write back metadata
+[21886.697881] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.704352] mmcblk1: recovery failed!
+[21886.708050] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.718818] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[21886.730603] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.737066] mmcblk1: recovery failed!
+[21886.740757] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.756952] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.763424] mmcblk1: recovery failed!
+[21886.767125] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.783309] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.789769] mmcblk1: recovery failed!
+[21886.793458] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.809654] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.816123] mmcblk1: recovery failed!
+[21886.819810] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.836032] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.842505] mmcblk1: recovery failed!
+[21886.846217] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.862401] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.868864] mmcblk1: recovery failed!
+[21886.872568] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.888808] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.895284] mmcblk1: recovery failed!
+[21886.898977] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[21886.915184] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[21886.921642] mmcblk1: recovery failed!
+[21886.925361] EXT4-fs error (device mmcblk1p1): ext4_journal_check_start:83: Detected aborted journal
+[21886.925369] EXT4-fs error (device mmcblk1p1): ext4_journal_check_start:83: Detected aborted journal
+[21887.022281] LTP: starting dio30 (diotest6 -b 65536 -n 100 -i 100 -o 1024000)
+[21947.621482] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[21947.621482] 
+[22141.644909] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22141.689216] mmc1: tried to HW reset card, got error -110
+[22141.694546] mmcblk1: recovery failed!
+[22141.698246] print_req_error: 1 callbacks suppressed
+[22141.698256] blk_update_request: I/O error, dev mmcblk1, sector 209717120 op 0x0:(READ) flags 0x80700 phys_seg 1 prio class 0
+[22141.719818] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22141.726272] mmcblk1: recovery failed!
+[22141.729961] blk_update_request: I/O error, dev mmcblk1, sector 209717120 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+[22141.740851] buffer_io_error: 10 callbacks suppressed
+[22141.740857] Buffer I/O error on dev mmcblk1p1, logical block 26214384, async page read
+[22167.899661] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22167.906133] mmcblk1: recovery failed!
+[22167.909834] blk_update_request: I/O error, dev mmcblk1, sector 2048 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[22167.920559] Buffer I/O error on dev mmcblk1p1, logical block 0, lost sync page write
+[22167.928348] EXT4-fs: 9 callbacks suppressed
+[22167.928353] EXT4-fs (mmcblk1p1): I/O error while writing superblock
+[22167.950909] EXT4-fs error (device mmcblk1p1): ext4_remount:5886: Abort forced by user
+[22345.963232] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22345.969708] mmcblk1: recovery failed!
+[22345.973406] blk_update_request: I/O error, dev mmcblk1, sector 76144 op 0x0:(READ) flags 0x3000 phys_seg 1 prio class 0
+[22345.984301] EXT4-fs warning: 103 callbacks suppressed
+[22345.984309] EXT4-fs warning (device mmcblk1p1): htree_dirblock_to_tree:1021: inode #2: lblock 0: comm ls: error -5 reading directory block
+[22353.139023] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22353.145490] mmcblk1: recovery failed!
+[22353.149188] blk_update_request: I/O error, dev mmcblk1, sector 209791376 op 0x0:(READ) flags 0x3000 phys_seg 1 prio class 0
+[22353.160370] EXT4-fs warning (device mmcblk1p2): htree_dirblock_to_tree:1021: inode #2: lblock 0: comm ls: error -5 reading directory block
+[22353.188804] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22353.195265] mmcblk1: recovery failed!
+[22353.198956] blk_update_request: I/O error, dev mmcblk1, sector 209725840 op 0x0:(READ) flags 0x3000 phys_seg 1 prio class 0
+[22353.210138] EXT4-fs error (device mmcblk1p2): ext4_get_inode_loc:4543: inode #2: block 1074: comm ls: unable to read itable block
+[22353.239390] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22353.245862] mmcblk1: recovery failed!
+[22353.249560] blk_update_request: I/O error, dev mmcblk1, sector 209717248 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[22353.260732] Buffer I/O error on dev mmcblk1p2, logical block 0, lost sync page write
+[22353.268548] EXT4-fs (mmcblk1p2): I/O error while writing superblock
+[22353.274988] EXT4-fs error (device mmcblk1p2) in ext4_reserve_inode_write:5832: IO failure
+[22353.296872] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22353.303352] mmcblk1: recovery failed!
+[22353.307035] blk_update_request: I/O error, dev mmcblk1, sector 209717248 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[22353.318212] Buffer I/O error on dev mmcblk1p2, logical block 0, lost sync page write
+[22353.326046] EXT4-fs (mmcblk1p2): I/O error while writing superblock
+[22353.332483] EXT4-fs error (device mmcblk1p2): ext4_dirty_inode:6034: inode #2: comm ls: mark_inode_dirty error
+[22353.356814] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22353.363285] mmcblk1: recovery failed!
+[22353.366985] blk_update_request: I/O error, dev mmcblk1, sector 209717248 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[22353.378159] Buffer I/O error on dev mmcblk1p2, logical block 0, lost sync page write
+[22353.385993] EXT4-fs (mmcblk1p2): I/O error while writing superblock
+[22358.612732] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22358.619198] mmcblk1: recovery failed!
+[22358.622917] blk_update_request: I/O error, dev mmcblk1, sector 344199200 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[22358.634103] Aborting journal on device mmcblk1p2-8.
+[22358.644447] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22358.650904] mmcblk1: recovery failed!
+[22358.654622] blk_update_request: I/O error, dev mmcblk1, sector 344197120 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+[22358.665787] Buffer I/O error on dev mmcblk1p2, logical block 16809984, lost sync page write
+[22358.674188] JBD2: Error -5 detected when updating journal superblock for mmcblk1p2-8.
+[22361.614000] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[22361.614000] 
+[22435.861440] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22435.867910] mmcblk1: recovery failed!
+[22435.871623] blk_update_request: I/O error, dev mmcblk1, sector 209791376 op 0x0:(READ) flags 0x3000 phys_seg 1 prio class 0
+[22435.882827] EXT4-fs warning (device mmcblk1p2): htree_dirblock_to_tree:1021: inode #2: lblock 0: comm ls: error -5 reading directory block
+[22440.865019] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22440.871486] mmcblk1: recovery failed!
+[22440.875193] blk_update_request: I/O error, dev mmcblk1, sector 76144 op 0x0:(READ) flags 0x3000 phys_seg 1 prio class 0
+[22440.886353] EXT4-fs warning (device mmcblk1p1): htree_dirblock_to_tree:1021: inode #2: lblock 0: comm ls: error -5 reading directory block
+[22775.607453] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[22775.607453] 
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/modprobe[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/sshd-keygen[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/systemd-coredump[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mGraphical Interface[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mMulti-User System[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mLogin Prompts[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mNetwork is Online[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mrpc_pipefs.target[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mRPC Port Mapper[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSound Card[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mTimer Units[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mdnf makecache --timer[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mRun system activit鈥unting tool every 10 minutes[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mGenerate summary o鈥sterday's process accou[22898.801856] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+nting[0m.
+[[0[22898.808987] mmcblk1: recovery failed!
+;32m  OK  [0m] [22898.809012] blk_update_request: I/O error, dev mmcblk1, sector 209717248 op 0x1:(WRITE) flags 0x800 phys_seg 1 prio class 0
+Stopped [0;1;39[22898.826567] Buffer I/O error on dev mmcblk1p2, logical block 0, lost sync page write
+mDaily Cleanup o[22898.826830] EXT4-fs (mmcblk1p2): I/O error while writing superblock
+f Temporary Directories[0m.
+[[0;32m  OK  [0m] Stopped target[22898.847503] EXT4-fs error (device mmcblk1p2): ext4_journal_check_start:83: Detected aborted journal
+ [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mLVM2 poll daemon socket[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mProcess Core Dump Socket[0m.
+         Unmounting [0;1;39mRPC Pipe File System[0m...
+[[0;32m  OK  [0m] Stopped [0;1;3         Stopping [0;1;39mSerial Getty on ttyS0[0m...
+[22898.886700] EXT4-fs (mmcblk1p2): Remounting filesystem read-only
+         Stopping [0;1;39mOpenSSH server daemon[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mResets System Activity Logs[0m.
+         Stopping [0;1;39mUser Login Management[0m...
+         Stopping [0;1;39mLoad/Save Random Seed[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mirqbalance daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mOpenSSH server daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCommand Scheduler[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mSerial Getty on ttyS0[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mGetty on tty2[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39mRPC Pipe File System[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mHardware Monitoring Sensors[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mLoad/Save Random Seed[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/serial-getty[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39msshd-keygen.target[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mUser Login Management[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mUpdate RTC With System Clock[0m.
+[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (3s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (3s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (4s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (4s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (5s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (5s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (6s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (6s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (7s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (7s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (8s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (8s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (9s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (9s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (10s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (10s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (11s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (11s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (12s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (12s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (13s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (13s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (14s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (14s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (15s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (15s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (16s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (16s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (17s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (17s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (18s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (18s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (19s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (19s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (20s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (20s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (21s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (21s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (22s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (22s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (23s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (23s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (24s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (24s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (25s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (25s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (26s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (26s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (27s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (27s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (28s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (28s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (29s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (29s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (30s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (30s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (31s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (31s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (32s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (32s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (33s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (33s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (34s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (34s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (35s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (35s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (36s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (36s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (37s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (37s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (38s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (38s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (39s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (39s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (40s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (40s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (41s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (41s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (42s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (42s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (43s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (43s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (44s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (44s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (45s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (45s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (46s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (46s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (47s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (47s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (48s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (48s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (49s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (49s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (50s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (50s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (51s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (51s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (52s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (52s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (53s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (53s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (54s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (54s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (55s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (55s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (56s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (56s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (57s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (57s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (58s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (58s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (59s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (59s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 1s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 1s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 2s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 2s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (1min 3s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 3s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 4s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 4s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 5s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 5s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 6s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (1min 6s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 7s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 7s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 8s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 8s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 9s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 9s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (1min 10s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 10s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 11s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 11s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 12s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 12s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 13s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (1min 13s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 14s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 14s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 15s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 15s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 16s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 16s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (1min 17s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 17s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 18s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 18s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 19s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 19s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 20s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (1min 20s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 21s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 21s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 22s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 22s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 23s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 23s / 1min 30s)
+M[K[     [0;31m*[0m] A stop job is running for Getty on tty1 (1min 24s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 24s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 25s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 25s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 26s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 26s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 27s / 1min 30s)
+M[K[[0m[0;31m*     [0m] A stop job is running for Getty on tty1 (1min 27s / 1min 30s)
+M[K[[0;1;31m*[0m[0;31m*    [0m] A stop job is running for Getty on tty1 (1min 28s / 1min 30s)
+M[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A stop job is running for Getty on tty1 (1min 28s / 1min 30s)
+M[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A stop job is running for Getty on tty1 (1min 29s / 1min 30s)
+M[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A stop job is running for Getty on tty1 (1min 29s / 1min 30s)
+M[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A stop job is running for Getty on tty1 (1min 30s / 1min 30s)
+M[K[    [0;31m*[0;1;31m*[0m] A stop job is running for Getty on tty1 (1min 30s / 1min 30s)
+M[K[[0;32m  OK  [0m] Stopped [0;1;39mGetty on tty1[0m.
+[K[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/getty[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39m/etc/rc.d/rc.local Compatibility[0m.
+         Stopping [0;1;39mPermit User Sessions[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mPermit User Sessions[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mRemote File Systems[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mPreparation for Remote File Systems[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mNFS client services[0m.
+         Stopping [0;1;39mGSSAPI Proxy Daemon[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mGSSAPI Proxy Daemon[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mNetwork[0m.
+         Stopping [0;1;39mNetwork Manager[0m...
+         Stopping [0;1;39mWPA supplicant[0m...
+[22989.634256] RTW: clear key for addr:a2:33:c1:0d:f6:32, camid:0
+[22989.651476] RTW: clear key for addr:a2:33:c1:0d:f6:32, camid:1
+[22989.696446] RTW: ERROR Free disconnecting network of scanned_queue failed due to pwlan == NULL
+[22989.696446] 
+[[0;32m  OK  [0m] Stopped [0;1;39mWPA supplicant[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mNetwork Manager[0m.
+         Stopping [0;1;39mD-Bus System Message Bus[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mD-Bus System Message Bus[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mBasic System[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mPath Units[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mDispatch Password 鈥s to Console Directory Watch[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R鈥ests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSlice Units[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mUser and Session Slice[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSocket Units[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mD-Bus System Message Bus Socket[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSystem Initialization[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mApply Kernel Variables[0m.
+         Stopping [0;1;39mNetwork Time Synchronization[0m...
+         Stopping [0;1;39mRecord System Boot/Shutdown in UTMP[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mRecord System Boot/Shutdown in UTMP[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCreate Volatile Files and Directories[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mLocal File Systems[0m.
+         Unmounting [0;1;39m/boot[0m...
+         Unmounting [0;1;39m/home[0m...
+         Unmounting [0;1;39m/opt/tmp/ltp-zn鈥Kls/LTP_fs_vldP4d/mntpoint[0m...
+         Unmounting [0;1;39mTemporary Directory /tmp[0m...
+[[0;32m  OK  [0m] Unmounted [0;1;39m/boot[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/home[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39mTemporary Directory /tmp[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSwaps[0m.
+         Deactivating swap [0;1;39m/opt/swapfile[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mFile System Check on /dev/mmcblk1p2[0m.
+[[0;1;31mFAILED[0m] Failed deactivating swap [0;1;39m/opt/swapfile[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/opt/tmp/ltp-znvgVECKls/LTP_fs_vldP4d/mntpoint[0m.
+         Unmounting [0;1;39m/opt[0m...
+[[0;1;31mFAILED[0m] Failed unmounting [0;1;39m/opt[0m.
+-------------fuser -mv /opt----------------
+		USER		PID	COMMAND
+/opt:
+		root		kernel	/opt/swapfile
+		root		kernel	/opt
+		root		795241	read_all -d /proc -q -r 3
+		root		795242	read_all -d /proc -q -r 3
+		root		795243	read_all -d /proc -q -r 3
+		root		795244	read_all -d /proc -q -r 3
+		root		795245	read_all -d /proc -q -r 3
+		root		795246	read_all -d /proc -q -r 3
+----------------------------------------------------------------------
+[[0;32m  OK  [0m] Reached target [0;1;39mUnmount All Filesystems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mFile System Check on /dev/mmcblk1p1[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/systemd-fsck[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mPreparation for Local File Systems[0m.
+         Stopping [0;1;39mMonitoring of LVM鈥eventd or progress polling[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mRemount Root and Kernel File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCreate Static Device Nodes in /dev[0m.
+[22990.942008] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22990.948504] mmcblk1: recovery failed!
+[22990.952230] blk_update_request: I/O error, dev mmcblk1, sector 0 op 0x0:(READ) flags 0x0 phys_seg 5 prio class 0
+[22990.957605] sdhci-dwcmshc ffe7090000.sd: error -110 requesting status
+[22990.968886] mmcblk1: recovery failed!
+[22990.972591] blk_update_request: I/O error, dev mmcblk1, sector 209717248 op 0x0:(READ) flags 0x0 phys_seg 5 prio class 0
+[[0;32m  OK  [0m] Stopped [0;1;39mMonitoring of LVM2鈥?dmeventd or progress polling[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Shutdown[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLate Shutdown Services[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mSystem Reboot[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Reboot[0m.
+[22991.267842] watchdog: watchdog0: watchdog did not stop!
+[22991.402503] systemd-shutdown[1]: Syncing filesystems and block devices.
+[22991.425989] systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+[22991.441864] systemd-journald[196]: Received SIGTERM from PID 1 (systemd-shutdow).
+[23001.451543] systemd-shutdown[1]: Waiting for process: read_all, read_all, read_all, read_all, read_all, read_all
+[23081.469345] systemd-shutdown[1]: Sending SIGKILL to remaining processes...
+[23081.480641] systemd-shutdown[1]: Sending SIGKILL to PID 795241 (read_all).
+[23081.497563] systemd-shutdown[1]: Sending SIGKILL to PID 795242 (read_all).
+[23081.504682] systemd-shutdown[1]: Sending SIGKILL to PID 795243 (read_all).
+[23081.533521] systemd-shutdown[1]: Sending SIGKILL to PID 795244 (read_all).
+[23081.540630] systemd-shutdown[1]: Sending SIGKILL to PID 795245 (read_all).
+[23081.557522] systemd-shutdown[1]: Sending SIGKILL to PID 795246 (read_all).
+[23091.566584] systemd-shutdown[1]: Waiting for process: read_all, read_all, read_all, read_all, read_all, read_all
+[systemd-shutdown] -----------------------------------------------------------------
+[systemd-shutdown] USER	PID	PPID	CMD
+[systemd-shutdown] root	1	0	/usr/lib/systemd/systemd-s鈥t 1 --log-target kmsg --log-color
+[systemd-shutdown] root	795241	1	read_all -d /proc -q -r 3
+[systemd-shutdown] root	795242	1	read_all -d /proc -q -r 3
+[systemd-shutdown] root	795243	1	read_all -d /proc -q -r 3
+[systemd-shutdown] root	795244	1	read_all -d /proc -q -r 3
+[systemd-shutdown] root	795245	1	read_all -d /proc -q -r 3
+[systemd-shutdown] root	795246	1	read_all -d /proc -q -r 3
+[systemd-shutdown] root	800856	1	(kworker/u8:1-galcore
+[systemd-shutdown] root	801824	1	(process_status)
+[systemd-shutdown] ------------------------------------------------------------------
+[23171.820580] systemd-shutdown[1]: Using hardware watchdog 'Synopsys DesignWare Watchdog', version 0, device /dev/watchdog
+[23171.840772] systemd-shutdown[1]: Unmounting file systems.
+[23171.872330] (sd-umount)[801825]: Unmounting '/opt'.
+Unmounting '/opt'.
+[23171.879700] (sd-umount)[801825]: Failed to unmount /opt: Device or resource busy
+Failed to unmount '/opt'.
+[23171.924311] (sd-remount)[801826]: Remounting '/' read-only in with options '(null)'.
+[23171.965997] EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+[23171.985417] systemd-shutdown[1]: Not all file systems unmounted, 1 left.
+[23171.992168] systemd-shutdown[1]: Deactivating swaps.
+[23171.997288] systemd-shutdown[1]: Deactivating swap /opt/swapfile.
+[23172.015593] systemd-shutdown[1]: Could not deactivate swap /opt/swapfile: Read-only file system
+[23172.024327] systemd-shutdown[1]: Not all swaps deactivated, 1 left.
+[23172.043571] systemd-shutdown[1]: Detaching loop devices.
+[23172.052145] systemd-shutdown[1]: All loop devices detached.
+[23172.079572] systemd-shutdown[1]: Stopping MD devices.
+[23172.084899] systemd-shutdown[1]: All MD devices stopped.
+[23172.099565] systemd-shutdown[1]: Detaching DM devices.
+[23172.104942] systemd-shutdown[1]: All DM devices detached.
+[23172.119933] systemd-shutdown[1]: Unmounting file systems.
+[23172.140347] (sd-umount)[801827]: Unmounting '/opt'.
+Unmounting '/opt'.
+[23172.155664] (sd-umount)[801827]: Failed to unmount /opt: Device or resource busy
+Failed to unmount '/opt'.
+[23172.180337] systemd-shutdown[1]: Not all file systems unmounted, 1 left.
+[23172.187100] systemd-shutdown[1]: Deactivating swaps.
+[23172.192217] systemd-shutdown[1]: Deactivating swap /opt/swapfile.
+[23172.207582] systemd-shutdown[1]: Could not deactivate swap /opt/swapfile: Read-only file system
+[23172.216306] systemd-shutdown[1]: Not all swaps deactivated, 1 left.
+[23172.247560] systemd-shutdown[1]: Cannot finalize remaining file systems, swap devices, continuing.
+[23172.275139] systemd-shutdown[1]: Failed to finalize file systems, swap devices, ignoring.
+[23172.283825] systemd-shutdown[1]: Syncing filesystems and block devices.
+[23172.300724] systemd-shutdown[1]: Rebooting.
+[23172.304943] kvm: exiting hardware virtualization
+[23173.379534] es8156_set_bias_level codec_uninit_sequence
+[23173.387531] reboot: Restarting system
+ brom_ver 8
+[APP][E] protocol_connect failed, exit.

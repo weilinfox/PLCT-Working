@@ -1,0 +1,17 @@
+leapsec01 leapsec01
+clock_settime03 clock_settime03
+epoll_pwait02 epoll_pwait02
+epoll_pwait03 epoll_pwait03
+epoll_pwait04 epoll_pwait04
+epoll_pwait05 epoll_pwait05
+get_mempolicy01 get_mempolicy01
+getxattr04 getxattr04
+pread02 pread02
+pread02_64 pread02_64
+perf_event_open02 perf_event_open02
+read_all_proc read_all -d /proc -q -r 3
+vma05 vma05.sh
+irqbalance01 irqbalance01
+df01_xfs_sh df01.sh -f xfs
+mkfs01_xfs_sh mkfs01.sh -f xfs
+rtc02 rtc02
