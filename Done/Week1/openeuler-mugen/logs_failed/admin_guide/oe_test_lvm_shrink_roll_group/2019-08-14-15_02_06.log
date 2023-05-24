@@ -1,0 +1,215 @@
++ source ../common/disk_lib.sh
+++ source /root/mugen/libs/locallibs/common_lib.sh
++++ python3 --version
++++ '[' 0 -eq 0 ']'
++++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed Aug 14 15:02:10 2019 - INFO  - Start environment preparation.
++ check_free_disk
+++ TEST_DISK
+++ id=1
+++ python3 /root/mugen/libs/locallibs/get_test_device.py --device disk --node 1
++ disks=vdb
++ disk_list=($disks)
++ local_disk=vdb
++ local_disk1=
++ local_disk2=
++ local_disk3=
++ pvcreate -y /dev/vdb
+  Physical volume "/dev/vdb" successfully created.
++ vgcreate openeulertest /dev/vdb -y
+  Volume group "openeulertest" successfully created
++ lvcreate -L 1G -n test openeulertest -y
+  Volume group "openeulertest" has insufficient free space (124 extents): 256 required.
++ mkfs.ext4 /dev/openeulertest/test
+mke2fs 1.46.5 (30-Dec-2021)
+The file /dev/openeulertest/test does not exist and no size was specified.
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed Aug 14 15:02:23 2019 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed Aug 14 15:02:24 2019 - INFO  - Start executing testcase!
++ pvdisplay
++ grep 'PV Name'
++ grep /dev/vdb
+  PV Name               /dev/vdb
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vgdisplay
++ grep 'VG Name'
++ grep openeulertest
+  VG Name               openeulertest
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vgextend openeulertest /dev/ -y
+  No device found for /dev/.
++ CHECK_RESULT 5
++ actual_result=5
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 5 ']'
++ '[' 0 -eq 0 ']'
++ test 5x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_lvm_shrink_roll_group.sh line 37'
++ message='oe_test_lvm_shrink_roll_group.sh line 37'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_lvm_shrink_roll_group.sh line 37'
+Wed Aug 14 15:02:26 2019 - ERROR - oe_test_lvm_shrink_roll_group.sh line 37
++ '[' 0 -eq 1 ']'
++ return 0
++ lvreduce --resizefs -L 640M openeulertest/test -y
+  Failed to find logical volume "openeulertest/test"
++ CHECK_RESULT 5
++ actual_result=5
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 5 ']'
++ '[' 0 -eq 0 ']'
++ test 5x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_lvm_shrink_roll_group.sh line 39'
++ message='oe_test_lvm_shrink_roll_group.sh line 39'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_lvm_shrink_roll_group.sh line 39'
+Wed Aug 14 15:02:28 2019 - ERROR - oe_test_lvm_shrink_roll_group.sh line 39
++ '[' 0 -eq 1 ']'
++ return 0
++ lvreduce --resizefs -L 64M openeulertest/test -y
+  Failed to find logical volume "openeulertest/test"
++ CHECK_RESULT 5
++ actual_result=5
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 5 ']'
++ '[' 0 -eq 0 ']'
++ test 5x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_lvm_shrink_roll_group.sh line 41'
++ message='oe_test_lvm_shrink_roll_group.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_lvm_shrink_roll_group.sh line 41'
+Wed Aug 14 15:02:29 2019 - ERROR - oe_test_lvm_shrink_roll_group.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ lvextend -L +1G /dev/openeulertest/test
+  Failed to find logical volume "openeulertest/test"
++ CHECK_RESULT 5
++ actual_result=5
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 5 ']'
++ '[' 0 -eq 0 ']'
++ test 5x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_lvm_shrink_roll_group.sh line 43'
++ message='oe_test_lvm_shrink_roll_group.sh line 43'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_lvm_shrink_roll_group.sh line 43'
+Wed Aug 14 15:02:31 2019 - ERROR - oe_test_lvm_shrink_roll_group.sh line 43
++ '[' 0 -eq 1 ']'
++ return 0
++ lvextend -l +100%FREE /dev/openeulertest/test
+  Failed to find logical volume "openeulertest/test"
++ CHECK_RESULT 5
++ actual_result=5
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 5 ']'
++ '[' 0 -eq 0 ']'
++ test 5x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_lvm_shrink_roll_group.sh line 45'
++ message='oe_test_lvm_shrink_roll_group.sh line 45'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_lvm_shrink_roll_group.sh line 45'
+Wed Aug 14 15:02:32 2019 - ERROR - oe_test_lvm_shrink_roll_group.sh line 45
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed Aug 14 15:02:33 2019 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z 5
++ test 5 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:02:34 2019 - ERROR - failed to execute the case.
++ exit 5
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:02:35 2019 - INFO  - start environment cleanup.
++ lvremove -y openeulertest/test
+  Failed to find logical volume "openeulertest/test"
++ vgremove -y openeulertest
+  Volume group "openeulertest" successfully removed
++ pvremove -y /dev/vdb /dev/
+  No device found for /dev/.
+  Labels on physical volume "/dev/vdb" successfully wiped.
++ mkfs.ext4 /dev/vdb
+mke2fs 1.46.5 (30-Dec-2021)
+Discarding device blocks:      0/512000             done                            
+Creating filesystem with 512000 1k blocks and 128016 inodes
+Filesystem UUID: 208ad1d0-a12e-479e-9211-1b92a755943b
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345, 73729, 204801, 221185, 401409
+
+Allocating group tables:  0/63     done                            
+Writing inode tables:  0/63     done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information:  0/63     done
+
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:02:38 2019 - INFO  - Finish environment cleanup.

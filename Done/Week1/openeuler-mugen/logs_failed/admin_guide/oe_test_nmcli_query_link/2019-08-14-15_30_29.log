@@ -1,0 +1,183 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n function ']'
++ config_params
++ LOG_INFO 'Start loading data!'
++ message='Start loading data!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start loading data!'
+Wed Aug 14 15:30:33 2019 - INFO  - Start loading data!
+++ ls /sys/class/net/
+++ grep -Ewv 'lo.*|docker.*|bond.*|vlan.*|virbr.*|br.*'
+++ sed -n 1p
++++ ip route
++++ awk '{print$3}'
++++ grep 127.0.0.1
+++ grep -v
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
++ test_eth=
++ LOG_INFO 'Loading data is complete!'
++ message='Loading data is complete!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Loading data is complete!'
+Wed Aug 14 15:30:34 2019 - INFO  - Loading data is complete!
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed Aug 14 15:30:35 2019 - INFO  - Start executing testcase!
++ nmcli con add type ethernet ifname
++ grep successfully
+Error: value for 'ifname' is missing.
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_nmcli_query_link.sh line 29'
++ message='oe_test_nmcli_query_link.sh line 29'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_nmcli_query_link.sh line 29'
+Wed Aug 14 15:30:37 2019 - ERROR - oe_test_nmcli_query_link.sh line 29
++ '[' 0 -eq 1 ']'
++ return 0
++ nmcli general status
++ grep connected
+connected  full          enabled  enabled  enabled  enabled 
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ nmcli connection show
++ grep ethernet-
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_nmcli_query_link.sh line 34'
++ message='oe_test_nmcli_query_link.sh line 34'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_nmcli_query_link.sh line 34'
+Wed Aug 14 15:30:39 2019 - ERROR - oe_test_nmcli_query_link.sh line 34
++ '[' 0 -eq 1 ']'
++ return 0
++ nmcli connection show --active
++ grep ethernet
+Wired connection 1  44e6af0b-2632-3e50-afc1-f60534110c12  ethernet  eth0   
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ nmcli device status
++ grep connected
+eth0    ethernet  connected  Wired connection 1 
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ nmcli connection up id ethernet-
+Error: unknown connection 'ethernet-'.
++ CHECK_RESULT 10
++ actual_result=10
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 10 ']'
++ '[' 0 -eq 0 ']'
++ test 10x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_nmcli_query_link.sh line 40'
++ message='oe_test_nmcli_query_link.sh line 40'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_nmcli_query_link.sh line 40'
+Wed Aug 14 15:30:41 2019 - ERROR - oe_test_nmcli_query_link.sh line 40
++ '[' 0 -eq 1 ']'
++ return 0
++ nmcli device disconnect
+Error: No interface specified.
++ CHECK_RESULT 2
++ actual_result=2
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 0 -eq 0 ']'
++ test 2x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_nmcli_query_link.sh line 42'
++ message='oe_test_nmcli_query_link.sh line 42'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_nmcli_query_link.sh line 42'
+Wed Aug 14 15:30:43 2019 - ERROR - oe_test_nmcli_query_link.sh line 42
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed Aug 14 15:30:44 2019 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z 4
++ test 4 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:30:45 2019 - ERROR - failed to execute the case.
++ exit 4
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:30:46 2019 - INFO  - start environment cleanup.
+++ nmcli con show
+++ awk -F ' ' '{print$1}'
+++ grep ethernet-
++ nmcli con delete
+Error: No connection specified.
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:30:48 2019 - INFO  - Finish environment cleanup.

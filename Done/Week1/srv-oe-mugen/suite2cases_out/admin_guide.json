@@ -1,0 +1,155 @@
+{
+    "path": "$OET_PATH/testcases/doc-test/admin_guide",
+    "machine type": "kvm",
+    "add network interface": 2,
+    "add disk": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "machine num": 2,
+    "cases": [
+        {
+            "name": "oe_test_basic_del_user"
+        },
+        {
+            "name": "oe_test_basic_system_info"
+        },
+        {
+            "name": "oe_test_basic_set_pwd_empty"
+        },
+        {
+            "name": "oe_test_httpd_check_configuration_status"
+        },
+        {
+            "name": "oe_test_lvm_pvdispay",
+            "add disk": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "oe_test_basic_Hwclcok_setting"
+        },
+        {
+            "name": "oe_test_basic_mod_current_user_pwd"
+        },
+        {
+            "name": "oe_test_lvm_pvchange",
+            "add disk": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "oe_test_lvm_lvremove_lvchange",
+            "add disk": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "oe_test_basic_local_setting"
+        },
+        {
+            "name": "oe_test_basic_mod_user_home_directory"
+        },
+        {
+            "name": "oe_test_basic_mod_UID"
+        },
+        {
+            "name": "oe_test_lvm_lvchange",
+            "add disk": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "oe_test_basic_view_disk_info"
+        },
+        {
+            "name": "oe_test_dnf_package_operate"
+        },
+        {
+            "name": "oe_test_basic_configure_keyboard"
+        },
+        {
+            "name": "oe_test_lvm_pvremvoe",
+            "add disk": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "oe_test_lvm_vgcreate_vgdisplay",
+            "add disk": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "oe_test_httpd_manage_module_ssl"
+        },
+        {
+            "name": "oe_test_basic_set_time"
+        },
+        {
+            "name": "oe_test_basic_view_user_group_ids"
+        },
+        {
+            "name": "oe_test_dnf_source_set"
+        },
+        {
+            "name": "oe_test_basic_add_user"
+        },
+        {
+            "name": "oe_test_basic_related_account_info"
+        },
+        {
+            "name": "oe_test_dnf_display_config_info"
+        },
+        {
+            "name": "oe_test_basic_expiration_time_setting"
+        },
+        {
+            "name": "oe_test_lvm_vgchange_vgremove",
+            "add disk": [
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "oe_test_httpd_verify_status"
+        },
+        {
+            "name": "oe_test_nmcli_config_hostname"
+        },
+        {
+            "name": "oe_test_procmgmt_ps_top_kill"
+        },
+        {
+            "name": "oe_test_set_XLL_Forwarding"
+        },
+        {
+            "name": "oe_test_server_verify_service_status"
+        },
+        {
+            "name": "oe_test_procmgmt_create_another_cron_file"
+        }
+    ]
+}

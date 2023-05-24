@@ -1,0 +1,219 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed Aug 14 15:41:15 2019 - INFO  - Start environment preparation.
++ DNF_INSTALL at
++ pkgs=at
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs at --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: -1379 days, 23:23:28 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package     Architecture     Version                   Repository         Size
+================================================================================
+Installing:
+ at          riscv64          3.2.5-1.oe2303            mainline           52 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 52 k
+Installed size: 116 k
+Downloading Packages:
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[FAILED] at-3.2.5-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  at-3.2.5-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: -1379 days, 23:23:28 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package     Architecture     Version                   Repository         Size
+================================================================================
+Installing:
+ at          riscv64          3.2.5-1.oe2303            mainline           52 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 52 k
+Installed size: 116 k
+Downloading Packages:
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[FAILED] at-3.2.5-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  at-3.2.5-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed Aug 14 15:41:49 2019 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed Aug 14 15:41:50 2019 - INFO  - Start executing testcase!
++ echo -e 'ls\n\004\n'
++ at 4:30pm
+oe_test_procmgmt_run_programs_regularly.sh: line 28: at: command not found
++ echo -e 'ls\n\004\n'
++ at 16:35
+oe_test_procmgmt_run_programs_regularly.sh: line 29: at: command not found
++ echo -e 'ls\n\004\n'
++ at now+4 hours
+oe_test_procmgmt_run_programs_regularly.sh: line 30: at: command not found
++ echo -e 'ls\n\004\n'
++ at now+ 240 minutes
+oe_test_procmgmt_run_programs_regularly.sh: line 31: at: command not found
++ echo -e 'ls\n\004\n'
++ at 16:30 12.12.29
+oe_test_procmgmt_run_programs_regularly.sh: line 32: at: command not found
++ echo -e 'ls\n\004\n'
++ at 16:30 12/12/29
+oe_test_procmgmt_run_programs_regularly.sh: line 33: at: command not found
++ echo -e 'ls\n\004\n'
++ at 16:30 Dec 12
+oe_test_procmgmt_run_programs_regularly.sh: line 34: at: command not found
+++ atq
+oe_test_procmgmt_run_programs_regularly.sh: line 35: atq: command not found
+++ wc -l
++ ret=0
++ CHECK_RESULT 0 7
++ actual_result=0
++ expect_result=7
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 7x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_procmgmt_run_programs_regularly.sh line 36'
++ message='oe_test_procmgmt_run_programs_regularly.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_procmgmt_run_programs_regularly.sh line 36'
+Wed Aug 14 15:41:51 2019 - ERROR - oe_test_procmgmt_run_programs_regularly.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed Aug 14 15:41:52 2019 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z 1
++ test 1 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:41:53 2019 - ERROR - failed to execute the case.
++ exit 1
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:41:53 2019 - INFO  - start environment cleanup.
+++ atq
+++ awk -F ' ' '{print$1}'
+oe_test_procmgmt_run_programs_regularly.sh: line 42: atq: command not found
++ atrm
+oe_test_procmgmt_run_programs_regularly.sh: line 42: atrm: command not found
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: -1379 days, 23:23:28 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package     Architecture     Version                   Repository         Size
+================================================================================
+Installing:
+ at          riscv64          3.2.5-1.oe2303            mainline           52 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 52 k
+Installed size: 116 k
+Downloading Packages:
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[FAILED] at-3.2.5-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  at-3.2.5-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: -1379 days, 23:23:28 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package     Architecture     Version                   Repository         Size
+================================================================================
+Installing:
+ at          riscv64          3.2.5-1.oe2303            mainline           52 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 52 k
+Installed size: 116 k
+Downloading Packages:
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]
+[FAILED] at-3.2.5-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  at-3.2.5-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "Last metadata expiration check: -1379 days, 23:23:28 ago on Tue 23 May 2023 04:18:18 PM CST.\nDependencies resolved.\n================================================================================\n Package     Architecture     Version                   Repository         Size\n================================================================================\nInstalling:\n at          riscv64          3.2.5-1.oe2303            mainline           52 k\n\nTransaction Summary\n================================================================================\nInstall  1 Package\n\nTotal download size: 52 k\nInstalled size: 116 k\nDownloading Packages:\n[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]\n[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]\n[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]\n[MIRROR] at-3.2.5-1.oe2303.riscv64.rpm: Curl error (6): Couldn't resolve host name for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/at-3.2.5-1.oe2303.riscv64.rpm [Could not resolve host: mirror.iscas.ac.cn]\n[FAILED] at-3.2.5-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success\n\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Error downloading packages:\n  at-3.2.5-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success"
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:41:58 2019 - INFO  - Finish environment cleanup.

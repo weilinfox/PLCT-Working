@@ -1,0 +1,454 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to pre test.'
++ message='Start to pre test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to pre test.'
+Wed May 24 22:10:13 2023 - INFO  - Start to pre test.
+++ date +%Y%m%d
++ testfile1=myfile20230524
+++ date +%Y%m%d
++ testfile2=mycpfile20230524
++ LOG_INFO 'Start to pre test.'
++ message='Start to pre test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to pre test.'
+Wed May 24 22:10:14 2023 - INFO  - Start to pre test.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed May 24 22:10:15 2023 - INFO  - Start to run test.
+++ seq 1 10
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 209.456 s, 5.0 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ awk '{print$5}'
++ ls -l myfile20230524
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ dd if=/dev/zero of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 43.8201 s, 23.9 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ awk '{print$5}'
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 215.972 s, 4.9 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ awk '{print$5}'
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ dd if=/dev/zero of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 45.0734 s, 23.3 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ awk '{print$5}'
++ grep -w 1048576000
++ ls -l myfile20230524
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 222.498 s, 4.7 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ awk '{print$5}'
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ dd if=/dev/zero of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 46.8102 s, 22.4 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ grep -w 1048576000
++ awk '{print$5}'
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 216.656 s, 4.8 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ awk '{print$5}'
++ ls -l myfile20230524
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ dd if=/dev/zero of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 46.2307 s, 22.7 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ grep -w 1048576000
++ ls -l myfile20230524
++ awk '{print$5}'
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 217.673 s, 4.8 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ awk '{print$5}'
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ dd if=/dev/zero of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 46.826 s, 22.4 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ awk '{print$5}'
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 212.268 s, 4.9 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ awk '{print$5}'
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ dd if=/dev/zero of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 45.851 s, 22.9 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ grep -w 1048576000
++ awk '{print$5}'
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000
+Wed May 24 22:40:09 2023 - ERROR - Timeout : Command 'bash -x oe_test_IOaccess_1Gfile.sh' timed out after 1799.998806900001 seconds
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 216.112 s, 4.9 MB/s
+++ post_test
+++ LOG_INFO 'Start to restore the test environment.'
+++ message='Start to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed May 24 22:40:34 2023 - INFO  - Start to restore the test environment.
+++ rm -rf myfile20230524 mycpfile20230524 myfile20230524.zip
+++ LOG_INFO 'End to restore the test environment.'
+++ message='End to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed May 24 22:40:37 2023 - INFO  - End to restore the test environment.
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ls -l myfile20230524
++ awk '{print$5}'
++ grep -w 1048576000
+ls: cannot access 'myfile20230524': No such file or directory
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_IOaccess_1Gfile.sh line 34'
++ message='oe_test_IOaccess_1Gfile.sh line 34'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_IOaccess_1Gfile.sh line 34'
+Wed May 24 22:40:39 2023 - ERROR - oe_test_IOaccess_1Gfile.sh line 34
++ '[' 0 -eq 1 ']'
++ return 0
++ dd if=/dev/zero of=myfile20230524 bs=1M count=1000
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 49.0321 s, 21.4 MB/s
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ awk '{print$5}'
++ ls -l myfile20230524
++ grep -w 1048576000
+1048576000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ for i in $(seq 1 10)
++ dd if=/dev/urandom of=myfile20230524 bs=1M count=1000

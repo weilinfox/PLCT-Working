@@ -1,0 +1,368 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed Aug 14 15:49:08 2019 - INFO  - Start environment preparation.
++ DNF_INSTALL 'vsftpd ftp'
++ pkgs='vsftpd ftp'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'vsftpd ftp' --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: -1380 days, 21:10:40 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package        Architecture    Version                  Repository        Size
+================================================================================
+Installing:
+ ftp            riscv64         0.17-80.oe2303           mainline          47 k
+ vsftpd         riscv64         3.0.5-1.oe2303           mainline          91 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 138 k
+Installed size: 331 k
+Downloading Packages:
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] ftp-0.17-80.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  ftp-0.17-80.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: -1380 days, 21:10:40 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package        Architecture    Version                  Repository        Size
+================================================================================
+Installing:
+ ftp            riscv64         0.17-80.oe2303           mainline          47 k
+ vsftpd         riscv64         3.0.5-1.oe2303           mainline          91 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 138 k
+Installed size: 331 k
+Downloading Packages:
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] ftp-0.17-80.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  ftp-0.17-80.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ systemctl start vsftpd
+Failed to start vsftpd.service: Unit vsftpd.service not found.
++ useradd -m ftpuser1
++ echo 'openEuler12#$'
++ passwd --stdin ftpuser1
+Changing password for user ftpuser1.
+passwd: all authentication tokens updated successfully.
++ useradd -m ftpuser2
++ passwd --stdin ftpuser2
++ echo 'openEuler12#$'
+Changing password for user ftpuser2.
+passwd: all authentication tokens updated successfully.
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed Aug 14 15:49:45 2019 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Wed Aug 14 15:49:46 2019 - INFO  - Start executing testcase.
++ cp /etc/vsftpd/vsftpd.conf /etc/vsftpd/vsftpd.conf.bak
+cp: cannot stat '/etc/vsftpd/vsftpd.conf': No such file or directory
++ echo use_localtime=YES
+oe_test_vsftpd_conf.sh: line 34: /etc/vsftpd/vsftpd.conf: No such file or directory
++ systemctl restart vsftpd
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
++ systemctl enable vsftpd
+Failed to enable unit: Unit file vsftpd.service does not exist.
++ systemctl status vsftpd
++ grep running
+Unit vsftpd.service could not be found.
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 38'
++ message='oe_test_vsftpd_conf.sh line 38'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 38'
+Wed Aug 14 15:49:47 2019 - ERROR - oe_test_vsftpd_conf.sh line 38
++ '[' 0 -eq 1 ']'
++ return 0
++ echo banner_file=/etc/vsftpd/welcome.txt
+oe_test_vsftpd_conf.sh: line 40: /etc/vsftpd/vsftpd.conf: No such file or directory
++ echo 'Welcome to this FTP server!'
+oe_test_vsftpd_conf.sh: line 41: /etc/vsftpd/welcome.txt: No such file or directory
++ echo ftpuser2
+oe_test_vsftpd_conf.sh: line 43: /etc/vsftpd/user_list: No such file or directory
++ echo ftpuser2
+oe_test_vsftpd_conf.sh: line 44: /etc/vsftpd/ftpusers: No such file or directory
++ systemctl restart vsftpd
+Failed to restart vsftpd.service: Unit vsftpd.service not found.
++ expect
+spawn ftp localhost
+couldn't execute "ftp": no such file or directory
+    while executing
+"spawn ftp localhost"
++ grep 'Welcome to this FTP server' testlog
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 62'
++ message='oe_test_vsftpd_conf.sh line 62'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 62'
+Wed Aug 14 15:49:49 2019 - ERROR - oe_test_vsftpd_conf.sh line 62
++ '[' 0 -eq 1 ']'
++ return 0
++ grep '230 Login successful' testlog
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 64'
++ message='oe_test_vsftpd_conf.sh line 64'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 64'
+Wed Aug 14 15:49:50 2019 - ERROR - oe_test_vsftpd_conf.sh line 64
++ '[' 0 -eq 1 ']'
++ return 0
++ grep 257 testlog
++ grep ftpuser1
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 66'
++ message='oe_test_vsftpd_conf.sh line 66'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 66'
+Wed Aug 14 15:49:51 2019 - ERROR - oe_test_vsftpd_conf.sh line 66
++ '[' 0 -eq 1 ']'
++ return 0
++ grep '221 Goodbye' testlog
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 68'
++ message='oe_test_vsftpd_conf.sh line 68'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 68'
+Wed Aug 14 15:49:52 2019 - ERROR - oe_test_vsftpd_conf.sh line 68
++ '[' 0 -eq 1 ']'
++ return 0
++ expect
+spawn ftp localhost
+couldn't execute "ftp": no such file or directory
+    while executing
+"spawn ftp localhost"
++ grep 'Welcome to this FTP server' testlog1
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 84'
++ message='oe_test_vsftpd_conf.sh line 84'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 84'
+Wed Aug 14 15:49:53 2019 - ERROR - oe_test_vsftpd_conf.sh line 84
++ '[' 0 -eq 1 ']'
++ return 0
++ grep -i 'Login failed' testlog1
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 86'
++ message='oe_test_vsftpd_conf.sh line 86'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 86'
+Wed Aug 14 15:49:54 2019 - ERROR - oe_test_vsftpd_conf.sh line 86
++ '[' 0 -eq 1 ']'
++ return 0
++ grep '530 Permission denied' testlog1
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vsftpd_conf.sh line 88'
++ message='oe_test_vsftpd_conf.sh line 88'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vsftpd_conf.sh line 88'
+Wed Aug 14 15:49:55 2019 - ERROR - oe_test_vsftpd_conf.sh line 88
++ '[' 0 -eq 1 ']'
++ return 0
++ CASE_RESULT 0
++ case_re=0
++ test -z 8
++ test 8 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:49:55 2019 - ERROR - failed to execute the case.
++ exit 8
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:49:56 2019 - INFO  - start environment cleanup.
++ sed -i /ftpuser2/d /etc/vsftpd/user_list
+sed: can't read /etc/vsftpd/user_list: No such file or directory
++ sed -i /ftpuser2/d /etc/vsftpd/ftpusers
+sed: can't read /etc/vsftpd/ftpusers: No such file or directory
++ mv /etc/vsftpd/vsftpd.conf.bak /etc/vsftpd/vsftpd.conf
+mv: cannot stat '/etc/vsftpd/vsftpd.conf.bak': No such file or directory
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: -1380 days, 21:10:40 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package        Architecture    Version                  Repository        Size
+================================================================================
+Installing:
+ ftp            riscv64         0.17-80.oe2303           mainline          47 k
+ vsftpd         riscv64         3.0.5-1.oe2303           mainline          91 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 138 k
+Installed size: 331 k
+Downloading Packages:
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] ftp-0.17-80.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  ftp-0.17-80.oe2303.riscv64: Cannot download, all mirrors were already tried without success ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: -1380 days, 21:10:40 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package        Architecture    Version                  Repository        Size
+================================================================================
+Installing:
+ ftp            riscv64         0.17-80.oe2303           mainline          47 k
+ vsftpd         riscv64         3.0.5-1.oe2303           mainline          91 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 138 k
+Installed size: 331 k
+Downloading Packages:
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] ftp-0.17-80.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  ftp-0.17-80.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 181, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 152, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "Last metadata expiration check: -1380 days, 21:10:40 ago on Wed 24 May 2023 06:38:57 PM CST.\nDependencies resolved.\n================================================================================\n Package        Architecture    Version                  Repository        Size\n================================================================================\nInstalling:\n ftp            riscv64         0.17-80.oe2303           mainline          47 k\n vsftpd         riscv64         3.0.5-1.oe2303           mainline          91 k\n\nTransaction Summary\n================================================================================\nInstall  2 Packages\n\nTotal download size: 138 k\nInstalled size: 331 k\nDownloading Packages:\n[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] vsftpd-3.0.5-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/vsftpd-3.0.5-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] ftp-0.17-80.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/ftp-0.17-80.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[FAILED] ftp-0.17-80.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success\n\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Error downloading packages:\n  ftp-0.17-80.oe2303.riscv64: Cannot download, all mirrors were already tried without success"
++ '[' 0 -ne 0 ']'
++ userdel -r ftpuser1
++ userdel -r ftpuser2
++ rm -rf testlog testlog1
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:50:02 2019 - INFO  - Finish environment cleanup.

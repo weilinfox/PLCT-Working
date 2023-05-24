@@ -1,0 +1,644 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed Aug 14 15:22:20 2019 - INFO  - Start environment preparation.
++ systemctl stop firewalld
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
++ systemctl disable firewalld
+Failed to disable unit: Unit file firewalld.service does not exist.
++ setenforce 0
+setenforce: SELinux is disabled
++ groupadd mysql
++ useradd -g mysql mysql
++ echo 'openEuler12#$'
++ passwd --stdin mysql
+Changing password for user mysql.
+passwd: all authentication tokens updated successfully.
++ test -d /data/mariadb
++ cd /data/mariadb
++ mkdir data tmp run log
+mkdir: cannot create directory ‘data’: File exists
+mkdir: cannot create directory ‘tmp’: File exists
+mkdir: cannot create directory ‘run’: File exists
+mkdir: cannot create directory ‘log’: File exists
++ chown -R mysql:mysql /data
++ cd -
+/root/mugen/testcases/doc-test/admin_guide/oe_test_mariadb_backup_restore_db
++ DNF_INSTALL mariadb-server
++ pkgs=mariadb-server
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs mariadb-server --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: -1379 days, 23:04:37 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                 Arch      Version                     Repository  Size
+================================================================================
+Installing:
+ mariadb-server          riscv64   4:10.5.16-3.oe2303          mainline    18 M
+Installing dependencies:
+ greatsql-mysql-config   riscv64   8.0.25-16.7.oe2303.oe2303   mainline   9.4 k
+ mariadb                 riscv64   4:10.5.16-3.oe2303          mainline   6.0 M
+ mariadb-common          riscv64   4:10.5.16-3.oe2303          mainline    28 k
+ mariadb-connector-c     riscv64   3.1.13-2.oe2303             mainline   178 k
+ mariadb-errmsg          riscv64   4:10.5.16-3.oe2303          mainline   231 k
+ perl-DBD-MariaDB        riscv64   1.22-1.oe2303               mainline   118 k
+ perl-DBI                riscv64   1.643-3.oe2303              mainline   453 k
+Installing weak dependencies:
+ mariadb-backup          riscv64   4:10.5.16-3.oe2303          mainline   6.5 M
+ mariadb-gssapi-server   riscv64   4:10.5.16-3.oe2303          mainline    13 k
+ mariadb-server-utils    riscv64   4:10.5.16-3.oe2303          mainline   1.1 M
+
+Transaction Summary
+================================================================================
+Install  11 Packages
+
+Total download size: 33 M
+Installed size: 174 M
+Downloading Packages:
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-backup-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-backup-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: -1379 days, 23:04:37 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                 Arch      Version                     Repository  Size
+================================================================================
+Installing:
+ mariadb-server          riscv64   4:10.5.16-3.oe2303          mainline    18 M
+Installing dependencies:
+ greatsql-mysql-config   riscv64   8.0.25-16.7.oe2303.oe2303   mainline   9.4 k
+ mariadb                 riscv64   4:10.5.16-3.oe2303          mainline   6.0 M
+ mariadb-common          riscv64   4:10.5.16-3.oe2303          mainline    28 k
+ mariadb-connector-c     riscv64   3.1.13-2.oe2303             mainline   178 k
+ mariadb-errmsg          riscv64   4:10.5.16-3.oe2303          mainline   231 k
+ perl-DBD-MariaDB        riscv64   1.22-1.oe2303               mainline   118 k
+ perl-DBI                riscv64   1.643-3.oe2303              mainline   453 k
+Installing weak dependencies:
+ mariadb-backup          riscv64   4:10.5.16-3.oe2303          mainline   6.5 M
+ mariadb-gssapi-server   riscv64   4:10.5.16-3.oe2303          mainline    13 k
+ mariadb-server-utils    riscv64   4:10.5.16-3.oe2303          mainline   1.1 M
+
+Transaction Summary
+================================================================================
+Install  11 Packages
+
+Total download size: 33 M
+Installed size: 174 M
+Downloading Packages:
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-backup-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-backup-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ rm -rf '/var/lib/mysql/*'
++ systemctl start mariadb
+Failed to start mariadb.service: Unit mariadb.service not found.
++ mysqladmin -uroot password 'openEuler12#$'
+oe_test_mariadb_backup_restore_db.sh: line 36: mysqladmin: command not found
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed Aug 14 15:23:02 2019 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Wed Aug 14 15:23:03 2019 - INFO  - Start executing testcase.
++ expect -c '
+    set timeout 10
+    log_file testlog
+    spawn mysql -u root -p 
+    expect {
+        "Enter*" { send "openEuler12#$\r";
+        expect "Maria*" { send "CREATE DATABASE db1;\r"}
+        expect "Maria*" { send "CREATE DATABASE db2;\r"}
+        expect "Maria*" { send "use db1;\r"}
+	expect "Maria*" { send "create table tb1(id int(3), id1 int (3));\r"}
+	expect "Maria*" { send "INSERT INTO tb1(id, id1) VALUES (123,123);\r"}
+        expect "Maria*" { send "CREATE DATABASE db3;\r"}
+        expect "Maria*" { send "use db3;\r"}
+	expect "Maria*" { send "create table tb1(id int(3), name char(8));\r"}
+        expect "Maria*" { send "SHOW DATABASES;\r"}
+        expect "Maria*" { send "exit\r"}
+}
+}
+expect eof
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p "
++ grep '\|' testlog
++ grep -cwE 'db1|db2|db3'
++ grep Database -A 5
+0
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 63'
++ message='oe_test_mariadb_backup_restore_db.sh line 63'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 63'
+Wed Aug 14 15:23:04 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 63
++ '[' 0 -eq 1 ']'
++ return 0
++ expect -c '
+    set timeout 10
+    log_file testlog1
+    spawn mysql -u root -p 
+    expect {
+        "Enter*" { send "openEuler12#$\r";
+        expect "Maria*" { send "grant all privileges on *.* to '\''root'\''@'\''127.0.0.1'\'' IDENTIFIED BY '\''openEuler12#$'\'' WITH GRANT OPTION;\r"}
+        expect "Maria*" { send "flush privileges;\r"}
+        expect "Maria*" { send "exit\r"}
+}
+}
+expect eof
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p "
++ grep -iE 'error|fail' testlog1
++ CHECK_RESULT 1 1
++ actual_result=1
++ expect_result=1
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 1x
++ return 0
++ mysqldump -uroot '-popenEuler12#$' --all-databases
+oe_test_mariadb_backup_restore_db.sh: line 79: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 80'
++ message='oe_test_mariadb_backup_restore_db.sh line 80'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 80'
+Wed Aug 14 15:23:06 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 80
++ '[' 0 -eq 1 ']'
++ return 0
+++ db1
+oe_test_mariadb_backup_restore_db.sh: line 81: db1: command not found
++ grep 'CREATE DATABASE .* ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 82'
++ message='oe_test_mariadb_backup_restore_db.sh line 82'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 82'
+Wed Aug 14 15:23:07 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 82
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mariadb_backup_restore_db.sh: line 83: tb1: command not found
++ grep 'CREATE TABLE ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 84'
++ message='oe_test_mariadb_backup_restore_db.sh line 84'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 84'
+Wed Aug 14 15:23:08 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 84
++ '[' 0 -eq 1 ']'
++ return 0
+++ db2
+oe_test_mariadb_backup_restore_db.sh: line 85: db2: command not found
++ grep 'CREATE DATABASE .* ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 86'
++ message='oe_test_mariadb_backup_restore_db.sh line 86'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 86'
+Wed Aug 14 15:23:09 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 86
++ '[' 0 -eq 1 ']'
++ return 0
+++ db3
+oe_test_mariadb_backup_restore_db.sh: line 87: db3: command not found
++ grep 'CREATE DATABASE .* ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 88'
++ message='oe_test_mariadb_backup_restore_db.sh line 88'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 88'
+Wed Aug 14 15:23:10 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 88
++ '[' 0 -eq 1 ']'
++ return 0
++ mysqldump -uroot '-popenEuler12#$' --databases db1
+oe_test_mariadb_backup_restore_db.sh: line 90: mysqldump: command not found
+++ tb1
+oe_test_mariadb_backup_restore_db.sh: line 91: tb1: command not found
++ grep 'CREATE TABLE ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 92'
++ message='oe_test_mariadb_backup_restore_db.sh line 92'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 92'
+Wed Aug 14 15:23:12 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 92
++ '[' 0 -eq 1 ']'
++ return 0
+++ db1
+oe_test_mariadb_backup_restore_db.sh: line 93: db1: command not found
++ grep 'CREATE DATABASE .* ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 94'
++ message='oe_test_mariadb_backup_restore_db.sh line 94'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 94'
+Wed Aug 14 15:23:13 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 94
++ '[' 0 -eq 1 ']'
++ return 0
++ mysqldump -uroot '-popenEuler12#$' db1 tb1
+oe_test_mariadb_backup_restore_db.sh: line 96: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 97'
++ message='oe_test_mariadb_backup_restore_db.sh line 97'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 97'
+Wed Aug 14 15:23:14 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 97
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mariadb_backup_restore_db.sh: line 98: tb1: command not found
++ grep 'CREATE TABLE ' db1tb1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 99'
++ message='oe_test_mariadb_backup_restore_db.sh line 99'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 99'
+Wed Aug 14 15:23:15 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 99
++ '[' 0 -eq 1 ']'
++ return 0
++ rm -rf db1.sql
++ mysqldump -uroot '-popenEuler12#$' -d db1
+oe_test_mariadb_backup_restore_db.sh: line 102: mysqldump: command not found
+++ tb1
+oe_test_mariadb_backup_restore_db.sh: line 103: tb1: command not found
++ grep 'CREATE TABLE ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 104'
++ message='oe_test_mariadb_backup_restore_db.sh line 104'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 104'
+Wed Aug 14 15:23:16 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 104
++ '[' 0 -eq 1 ']'
++ return 0
++ rm -rf db1.sql
++ mysqldump -uroot '-popenEuler12#$' -t db1
+oe_test_mariadb_backup_restore_db.sh: line 107: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 108'
++ message='oe_test_mariadb_backup_restore_db.sh line 108'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 108'
+Wed Aug 14 15:23:17 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 108
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mariadb_backup_restore_db.sh: line 109: tb1: command not found
++ grep 'INSERT INTO ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 110'
++ message='oe_test_mariadb_backup_restore_db.sh line 110'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 110'
+Wed Aug 14 15:23:18 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 110
++ '[' 0 -eq 1 ']'
++ return 0
++ mysql -uroot '-popenEuler12#$' -t db3
+oe_test_mariadb_backup_restore_db.sh: line 112: mysql: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 113'
++ message='oe_test_mariadb_backup_restore_db.sh line 113'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 113'
+Wed Aug 14 15:23:19 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 113
++ '[' 0 -eq 1 ']'
++ return 0
++ expect -c '
+    log_file testlogm
+    set timeout 10
+    spawn mysql -u root -p 
+    expect {
+        "Enter*" { send "openEuler12#$\r";
+        expect "Maria*" { send "use db3;\r"}
+        expect "Maria*" { send "show tables;\r"}
+        expect "Maria*" { send "exit\r"}
+}
+}
+expect
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p "
++ grep tb1 testlogm
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mariadb_backup_restore_db.sh line 128'
++ message='oe_test_mariadb_backup_restore_db.sh line 128'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mariadb_backup_restore_db.sh line 128'
+Wed Aug 14 15:23:20 2019 - ERROR - oe_test_mariadb_backup_restore_db.sh line 128
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution.'
++ message='End of testcase execution.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution.'
+Wed Aug 14 15:23:21 2019 - INFO  - End of testcase execution.
++ CASE_RESULT 0
++ case_re=0
++ test -z 15
++ test 15 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:23:22 2019 - ERROR - failed to execute the case.
++ exit 15
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:23:23 2019 - INFO  - start environment cleanup.
++ expect -c '
+    set timeout 10
+    spawn mysql -u root -p 
+    expect {
+        "Enter*" { send "openEuler12#$\r";
+        expect "Maria*" { send "DROP DATABASE db1;\r"}
+        expect "Maria*" { send "DROP DATABASE db2;\r"}
+        expect "Maria*" { send "DROP DATABASE db3;\r"}
+        expect "Maria*" { send "exit\r"}
+}
+}
+expect eof
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p "
++ setenforce 1
+setenforce: SELinux is disabled
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: -1379 days, 23:04:37 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                 Arch      Version                     Repository  Size
+================================================================================
+Installing:
+ mariadb-server          riscv64   4:10.5.16-3.oe2303          mainline    18 M
+Installing dependencies:
+ greatsql-mysql-config   riscv64   8.0.25-16.7.oe2303.oe2303   mainline   9.4 k
+ mariadb                 riscv64   4:10.5.16-3.oe2303          mainline   6.0 M
+ mariadb-common          riscv64   4:10.5.16-3.oe2303          mainline    28 k
+ mariadb-connector-c     riscv64   3.1.13-2.oe2303             mainline   178 k
+ mariadb-errmsg          riscv64   4:10.5.16-3.oe2303          mainline   231 k
+ perl-DBD-MariaDB        riscv64   1.22-1.oe2303               mainline   118 k
+ perl-DBI                riscv64   1.643-3.oe2303              mainline   453 k
+Installing weak dependencies:
+ mariadb-backup          riscv64   4:10.5.16-3.oe2303          mainline   6.5 M
+ mariadb-gssapi-server   riscv64   4:10.5.16-3.oe2303          mainline    13 k
+ mariadb-server-utils    riscv64   4:10.5.16-3.oe2303          mainline   1.1 M
+
+Transaction Summary
+================================================================================
+Install  11 Packages
+
+Total download size: 33 M
+Installed size: 174 M
+Downloading Packages:
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-backup-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-backup-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64: Cannot download, all mirrors were already tried without success ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: -1379 days, 23:04:37 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                 Arch      Version                     Repository  Size
+================================================================================
+Installing:
+ mariadb-server          riscv64   4:10.5.16-3.oe2303          mainline    18 M
+Installing dependencies:
+ greatsql-mysql-config   riscv64   8.0.25-16.7.oe2303.oe2303   mainline   9.4 k
+ mariadb                 riscv64   4:10.5.16-3.oe2303          mainline   6.0 M
+ mariadb-common          riscv64   4:10.5.16-3.oe2303          mainline    28 k
+ mariadb-connector-c     riscv64   3.1.13-2.oe2303             mainline   178 k
+ mariadb-errmsg          riscv64   4:10.5.16-3.oe2303          mainline   231 k
+ perl-DBD-MariaDB        riscv64   1.22-1.oe2303               mainline   118 k
+ perl-DBI                riscv64   1.643-3.oe2303              mainline   453 k
+Installing weak dependencies:
+ mariadb-backup          riscv64   4:10.5.16-3.oe2303          mainline   6.5 M
+ mariadb-gssapi-server   riscv64   4:10.5.16-3.oe2303          mainline    13 k
+ mariadb-server-utils    riscv64   4:10.5.16-3.oe2303          mainline   1.1 M
+
+Transaction Summary
+================================================================================
+Install  11 Packages
+
+Total download size: 33 M
+Installed size: 174 M
+Downloading Packages:
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-backup-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-backup-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "Last metadata expiration check: -1379 days, 23:04:37 ago on Tue 23 May 2023 04:18:18 PM CST.\nDependencies resolved.\n================================================================================\n Package                 Arch      Version                     Repository  Size\n================================================================================\nInstalling:\n mariadb-server          riscv64   4:10.5.16-3.oe2303          mainline    18 M\nInstalling dependencies:\n greatsql-mysql-config   riscv64   8.0.25-16.7.oe2303.oe2303   mainline   9.4 k\n mariadb                 riscv64   4:10.5.16-3.oe2303          mainline   6.0 M\n mariadb-common          riscv64   4:10.5.16-3.oe2303          mainline    28 k\n mariadb-connector-c     riscv64   3.1.13-2.oe2303             mainline   178 k\n mariadb-errmsg          riscv64   4:10.5.16-3.oe2303          mainline   231 k\n perl-DBD-MariaDB        riscv64   1.22-1.oe2303               mainline   118 k\n perl-DBI                riscv64   1.643-3.oe2303              mainline   453 k\nInstalling weak dependencies:\n mariadb-backup          riscv64   4:10.5.16-3.oe2303          mainline   6.5 M\n mariadb-gssapi-server   riscv64   4:10.5.16-3.oe2303          mainline    13 k\n mariadb-server-utils    riscv64   4:10.5.16-3.oe2303          mainline   1.1 M\n\nTransaction Summary\n================================================================================\nInstall  11 Packages\n\nTotal download size: 33 M\nInstalled size: 174 M\nDownloading Packages:\n[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] mariadb-backup-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-backup-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] mariadb-10.5.16-3.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/mariadb-10.5.16-3.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[FAILED] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success\n\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Error downloading packages:\n  greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64: Cannot download, all mirrors were already tried without success"
++ '[' 0 -ne 0 ']'
++ userdel -r mysql
++ groupdel mysql
+groupdel: group 'mysql' does not exist
++ rm -rf db1.sql db1tb1.sql alldb.sql data tmp run testlog testlog1 testlogm
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:23:29 2019 - INFO  - Finish environment cleanup.

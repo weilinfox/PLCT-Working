@@ -1,0 +1,1881 @@
+May 24 21:15:48 openeuler-riscv64 useradd[25638]: new user: name=testuser, UID=1001, GID=1001, home=/home/testuser, shell=/bin/bash, from=none
+May 24 21:15:49 openeuler-riscv64 passwd[25646]: pam_unix(passwd:chauthtok): password changed for testuser
+May 24 21:15:49 openeuler-riscv64 su[25647]: (to testuser) root on none
+May 24 21:15:49 openeuler-riscv64 su[25647]: pam_unix(su-l:session): session opened for user testuser(uid=1001) by (uid=0)
+May 24 21:15:49 openeuler-riscv64 dbus-daemon[266]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.177' (uid=1001 pid=25651 comm="/usr/bin/hostnamectl --transient")
+May 24 21:15:49 openeuler-riscv64 systemd[1]: Starting Hostname Service...
+░░ Subject: A start job for unit systemd-hostnamed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has begun execution.
+░░ 
+░░ The job identifier is 20348.
+May 24 21:15:51 openeuler-riscv64 dbus-daemon[266]: [system] Successfully activated service 'org.freedesktop.hostname1'
+May 24 21:15:51 openeuler-riscv64 systemd[1]: Started Hostname Service.
+░░ Subject: A start job for unit systemd-hostnamed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has finished successfully.
+░░ 
+░░ The job identifier is 20348.
+May 24 21:15:53 openeuler-riscv64 su[25647]: pam_unix(su-l:session): session closed for user testuser
+May 24 21:15:53 openeuler-riscv64 su[25707]: (to root) root on none
+May 24 21:15:53 openeuler-riscv64 su[25707]: pam_unix(su-l:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:15:56 openeuler-riscv64 su[25707]: pam_unix(su-l:session): session closed for user root
+May 24 21:15:56 openeuler-riscv64 su[25767]: (to root) root on none
+May 24 21:15:56 openeuler-riscv64 su[25767]: pam_unix(su-l:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:15:59 openeuler-riscv64 su[25767]: pam_unix(su-l:session): session closed for user root
+May 24 21:16:00 openeuler-riscv64 systemd[1]: systemd-timedated.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-timedated.service has successfully entered the 'dead' state.
+May 24 21:16:02 openeuler-riscv64 userdel[25832]: delete user 'testuser'
+May 24 21:16:02 openeuler-riscv64 userdel[25832]: removed group 'testuser' owned by 'testuser'
+May 24 21:16:02 openeuler-riscv64 userdel[25832]: removed shadow group 'testuser' owned by 'testuser'
+May 24 21:16:06 openeuler-riscv64 sudo[25578]: pam_unix(sudo:session): session closed for user root
+May 24 21:16:07 openeuler-riscv64 sudo[25850]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_disk_tuned_modify -x
+May 24 21:16:07 openeuler-riscv64 sudo[25850]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:16:26 openeuler-riscv64 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+May 24 21:17:10 openeuler-riscv64 [RPM][25928]: Transaction ID 646e0e56 started
+May 24 21:17:12 openeuler-riscv64 [RPM][25928]: install nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:17:14 openeuler-riscv64 systemctl[25935]: [systemctl try-reload-or-restart bind.service] called by PID 25934 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:17:14 openeuler-riscv64 systemctl[25936]: [systemctl try-restart ipsec.service] called by PID 25934 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:17:14 openeuler-riscv64 systemctl[25937]: [systemctl try-restart sshd.service] called by PID 25934 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:17:14 openeuler-riscv64 systemd[1]: Stopping OpenSSH server daemon...
+░░ Subject: A stop job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20412.
+May 24 21:17:14 openeuler-riscv64 sshd[25434]: Received signal 15; terminating.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sshd.service has successfully entered the 'dead' state.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 316 (sshd) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 319 (sshd) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 320 (python3) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20679 (sshd) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20688 (sshd) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20689 (bash) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25849 (sh) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25850 (sudo) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25851 (tee) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25852 (bash) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25896 (python3) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25897 (bash) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25910 (python3) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25928 (dnf) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25932 (sh) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25933 (update-crypto-p) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25934 (bash) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25937 (systemctl) remains running after unit stopped.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: Stopped OpenSSH server daemon.
+░░ Subject: A stop job for unit sshd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has finished.
+░░ 
+░░ The job identifier is 20412 and the job result is done.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: Stopped target sshd-keygen.target.
+░░ Subject: A stop job for unit sshd-keygen.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has finished.
+░░ 
+░░ The job identifier is 20479 and the job result is done.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: Stopping sshd-keygen.target...
+░░ Subject: A stop job for unit sshd-keygen.target has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has begun execution.
+░░ 
+░░ The job identifier is 20479.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ecdsa Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ecdsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ecdsa.service has finished successfully.
+░░ 
+░░ The job identifier is 20478.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ed25519 Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ed25519.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ed25519.service has finished successfully.
+░░ 
+░░ The job identifier is 20476.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: Reached target sshd-keygen.target.
+░░ Subject: A start job for unit sshd-keygen.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen.target has finished successfully.
+░░ 
+░░ The job identifier is 20479.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 316 (sshd) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 319 (sshd) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 320 (python3) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20679 (sshd) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20688 (sshd) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20689 (bash) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25849 (sh) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25850 (sudo) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25851 (tee) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25852 (bash) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25896 (python3) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25897 (bash) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25910 (python3) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25928 (dnf) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25932 (sh) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25933 (update-crypto-p) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25934 (bash) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25937 (systemctl) in control group while starting unit. Ignoring.
+May 24 21:17:14 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:17:15 openeuler-riscv64 systemd[1]: Starting OpenSSH server daemon...
+░░ Subject: A start job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20412.
+May 24 21:17:15 openeuler-riscv64 sshd[25938]: Server listening on 0.0.0.0 port 22.
+May 24 21:17:15 openeuler-riscv64 sshd[25938]: Server listening on :: port 22.
+May 24 21:17:15 openeuler-riscv64 systemd[1]: Started OpenSSH server daemon.
+░░ Subject: A start job for unit sshd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has finished successfully.
+░░ 
+░░ The job identifier is 20412.
+May 24 21:17:15 openeuler-riscv64 [RPM][25928]: install nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:17:16 openeuler-riscv64 [RPM][25928]: install nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:17:16 openeuler-riscv64 [RPM][25928]: install nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:17:17 openeuler-riscv64 [RPM][25928]: install systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:17:22 openeuler-riscv64 [RPM][25928]: install systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:17:22 openeuler-riscv64 systemctl[25944]: [/bin/systemctl enable systemtap.service] called by PID 25943 (/bin/sh /var/tmp/rpm-tmp.qBmzHA 1)
+May 24 21:17:22 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:17:25 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:17:28 openeuler-riscv64 [RPM][25928]: install systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:17:28 openeuler-riscv64 [RPM][25928]: install python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:17:29 openeuler-riscv64 [RPM][25928]: install python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:17:29 openeuler-riscv64 [RPM][25928]: install python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:17:29 openeuler-riscv64 [RPM][25928]: install python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:17:29 openeuler-riscv64 [RPM][25928]: install python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:17:29 openeuler-riscv64 [RPM][25928]: install python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:17:32 openeuler-riscv64 [RPM][25928]: install hwdata-0.366-1.oe2303.noarch: success
+May 24 21:17:32 openeuler-riscv64 [RPM][25928]: install pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:17:33 openeuler-riscv64 systemctl[25960]: [/usr/bin/systemctl --no-reload preset cpupower.service] called by PID 25958 (/bin/sh /var/tmp/rpm-tmp.O1PMsL 1)
+May 24 21:17:33 openeuler-riscv64 [RPM][25928]: install kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:17:34 openeuler-riscv64 systemctl[25963]: [/usr/bin/systemctl --no-reload preset powertop.service] called by PID 25962 (/bin/sh /var/tmp/rpm-tmp.E2FzRO 1)
+May 24 21:17:34 openeuler-riscv64 [RPM][25928]: install powertop-2.14-2.oe2303.riscv64: success
+May 24 21:17:34 openeuler-riscv64 [RPM][25928]: install hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:17:34 openeuler-riscv64 [RPM][25928]: install ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:17:34 openeuler-riscv64 [RPM][25928]: install dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:17:34 openeuler-riscv64 [RPM][25928]: install virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:17:35 openeuler-riscv64 dbus-daemon[266]: [system] Reloaded configuration
+May 24 21:17:36 openeuler-riscv64 dbus-daemon[266]: [system] Reloaded configuration
+May 24 21:17:36 openeuler-riscv64 systemctl[25968]: [systemctl preset tuned.service] called by PID 25967 (/bin/sh /var/tmp/rpm-tmp.OtcbqL 1)
+May 24 21:17:36 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:17:38 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:17:42 openeuler-riscv64 [RPM][25928]: install tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:17:42 openeuler-riscv64 [RPM][25928]: install tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:17:43 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-re3e9413941b4416c847af8eedf537d95.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-re3e9413941b4416c847af8eedf537d95.service has finished successfully.
+░░ 
+░░ The job identifier is 20482.
+May 24 21:17:43 openeuler-riscv64 systemctl[25985]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+May 24 21:17:44 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 20545.
+May 24 21:17:44 openeuler-riscv64 systemctl[25995]: [/usr/bin/systemctl daemon-reload] called by PID 25990 (/bin/sh /var/tmp/rpm-tmp.Fuhrqe 0)
+May 24 21:17:44 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:17:46 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:17:50 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+May 24 21:17:50 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 20545.
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install hwdata-0.366-1.oe2303.noarch: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install powertop-2.14-2.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 systemd[1]: run-re3e9413941b4416c847af8eedf537d95.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-re3e9413941b4416c847af8eedf537d95.service has successfully entered the 'dead' state.
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: install tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:17:51 openeuler-riscv64 [RPM][25928]: Transaction ID 646e0e56 finished: 0
+May 24 21:17:55 openeuler-riscv64 systemctl[26016]: [systemctl --now enable tuned] called by PID 25897 (bash -x oe_test_disk_tuned_modify.sh)
+May 24 21:17:55 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:17:57 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:18:01 openeuler-riscv64 systemd[1]: Starting Dynamic System Tuning Daemon...
+░░ Subject: A start job for unit tuned.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit tuned.service has begun execution.
+░░ 
+░░ The job identifier is 20548.
+May 24 21:18:11 openeuler-riscv64 tuned[26027]: libperf: mmap_per_cpu: nr cpu values 4 nr threads 1
+May 24 21:18:11 openeuler-riscv64 tuned[26027]: libperf: idx 0: mmapping fd 8
+May 24 21:18:11 openeuler-riscv64 tuned[26027]: libperf: idx 1: mmapping fd 9
+May 24 21:18:11 openeuler-riscv64 tuned[26027]: libperf: idx 2: mmapping fd 10
+May 24 21:18:11 openeuler-riscv64 tuned[26027]: libperf: idx 3: mmapping fd 11
+May 24 21:18:11 openeuler-riscv64 systemd[1]: Started Dynamic System Tuning Daemon.
+░░ Subject: A start job for unit tuned.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit tuned.service has finished successfully.
+░░ 
+░░ The job identifier is 20548.
+May 24 21:18:40 openeuler-riscv64 [RPM][26254]: Transaction ID 646e0eb0 started
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase powertop-2.14-2.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase hwdata-0.366-1.oe2303.noarch: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 [RPM][26254]: erase python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:18:41 openeuler-riscv64 systemctl[26259]: [systemctl --no-reload disable tuned.service] called by PID 26258 (/bin/sh /var/tmp/rpm-tmp.Km3fmP 0)
+May 24 21:18:42 openeuler-riscv64 systemctl[26260]: [systemctl stop tuned.service] called by PID 26258 (/bin/sh /var/tmp/rpm-tmp.Km3fmP 0)
+May 24 21:18:42 openeuler-riscv64 systemd[1]: Stopping Dynamic System Tuning Daemon...
+░░ Subject: A stop job for unit tuned.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit tuned.service has begun execution.
+░░ 
+░░ The job identifier is 20618.
+May 24 21:18:42 openeuler-riscv64 systemd[1]: tuned.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit tuned.service has successfully entered the 'dead' state.
+May 24 21:18:42 openeuler-riscv64 systemd[1]: Stopped Dynamic System Tuning Daemon.
+░░ Subject: A stop job for unit tuned.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit tuned.service has finished.
+░░ 
+░░ The job identifier is 20618 and the job result is done.
+May 24 21:18:43 openeuler-riscv64 dbus-daemon[266]: [system] Reloaded configuration
+May 24 21:18:43 openeuler-riscv64 systemctl[26268]: [/usr/bin/systemctl daemon-reload] called by PID 26266 (/bin/sh /var/tmp/rpm-tmp.OTYZX9 0)
+May 24 21:18:43 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:18:46 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:18:50 openeuler-riscv64 systemctl[26280]: [systemctl daemon-reload] called by PID 26279 (/bin/sh /var/tmp/rpm-tmp.cLsyVG 0)
+May 24 21:18:50 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:18:52 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:18:55 openeuler-riscv64 [RPM][26254]: erase tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:18:56 openeuler-riscv64 systemctl[26293]: [/bin/systemctl --no-reload disable systemtap.service] called by PID 26292 (/bin/sh /var/tmp/rpm-tmp.EVwWQW 0)
+May 24 21:18:56 openeuler-riscv64 systemctl[26294]: [/bin/systemctl stop systemtap.service] called by PID 26292 (/bin/sh /var/tmp/rpm-tmp.EVwWQW 0)
+May 24 21:18:56 openeuler-riscv64 [RPM][26254]: erase systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:18:58 openeuler-riscv64 [RPM][26254]: erase systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:18:58 openeuler-riscv64 [RPM][26254]: erase systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:18:58 openeuler-riscv64 [RPM][26254]: erase nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:18:58 openeuler-riscv64 [RPM][26254]: erase nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:19:00 openeuler-riscv64 systemctl[26300]: [systemctl try-reload-or-restart bind.service] called by PID 26299 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:19:00 openeuler-riscv64 systemctl[26301]: [systemctl try-restart ipsec.service] called by PID 26299 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:19:00 openeuler-riscv64 systemctl[26302]: [systemctl try-restart sshd.service] called by PID 26299 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:19:00 openeuler-riscv64 systemd[1]: Stopping OpenSSH server daemon...
+░░ Subject: A stop job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20621.
+May 24 21:19:00 openeuler-riscv64 sshd[25938]: Received signal 15; terminating.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sshd.service has successfully entered the 'dead' state.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 316 (sshd) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 319 (sshd) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 320 (python3) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20679 (sshd) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20688 (sshd) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20689 (bash) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25849 (sh) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25850 (sudo) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25851 (tee) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25852 (bash) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25896 (python3) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 25897 (bash) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26253 (python3) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26254 (dnf) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26297 (sh) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26298 (update-crypto-p) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26299 (bash) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26302 (systemctl) remains running after unit stopped.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Stopped OpenSSH server daemon.
+░░ Subject: A stop job for unit sshd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has finished.
+░░ 
+░░ The job identifier is 20621 and the job result is done.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Stopped target sshd-keygen.target.
+░░ Subject: A stop job for unit sshd-keygen.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has finished.
+░░ 
+░░ The job identifier is 20688 and the job result is done.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Stopping sshd-keygen.target...
+░░ Subject: A stop job for unit sshd-keygen.target has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has begun execution.
+░░ 
+░░ The job identifier is 20688.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ecdsa Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ecdsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ecdsa.service has finished successfully.
+░░ 
+░░ The job identifier is 20685.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ed25519 Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ed25519.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ed25519.service has finished successfully.
+░░ 
+░░ The job identifier is 20687.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Reached target sshd-keygen.target.
+░░ Subject: A start job for unit sshd-keygen.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen.target has finished successfully.
+░░ 
+░░ The job identifier is 20688.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 316 (sshd) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 319 (sshd) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 320 (python3) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20679 (sshd) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20688 (sshd) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20689 (bash) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25849 (sh) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25850 (sudo) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25851 (tee) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25852 (bash) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25896 (python3) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 25897 (bash) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26253 (python3) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26254 (dnf) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26297 (sh) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26298 (update-crypto-p) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26299 (bash) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26302 (systemctl) in control group while starting unit. Ignoring.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Starting OpenSSH server daemon...
+░░ Subject: A start job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20621.
+May 24 21:19:01 openeuler-riscv64 sshd[26303]: Server listening on 0.0.0.0 port 22.
+May 24 21:19:01 openeuler-riscv64 sshd[26303]: Server listening on :: port 22.
+May 24 21:19:01 openeuler-riscv64 systemd[1]: Started OpenSSH server daemon.
+░░ Subject: A start job for unit sshd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has finished successfully.
+░░ 
+░░ The job identifier is 20621.
+May 24 21:19:01 openeuler-riscv64 [RPM][26254]: erase nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:19:01 openeuler-riscv64 systemctl[26305]: [/usr/bin/systemctl --no-reload --now disable powertop.service] called by PID 26304 (/bin/sh /var/tmp/rpm-tmp.6DD6Iu 0)
+May 24 21:19:02 openeuler-riscv64 [RPM][26254]: erase powertop-2.14-2.oe2303.riscv64: success
+May 24 21:19:02 openeuler-riscv64 [RPM][26254]: erase virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:19:02 openeuler-riscv64 systemctl[26311]: [/usr/bin/systemctl --no-reload --now disable cpupower.service] called by PID 26310 (/bin/sh /var/tmp/rpm-tmp.WoNb1V 0)
+May 24 21:19:03 openeuler-riscv64 [RPM][26254]: erase kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:19:03 openeuler-riscv64 [RPM][26254]: erase python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:19:03 openeuler-riscv64 [RPM][26254]: erase python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:19:03 openeuler-riscv64 [RPM][26254]: erase python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase hwdata-0.366-1.oe2303.noarch: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:19:04 openeuler-riscv64 [RPM][26254]: erase python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:19:05 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r6abca9ae7a2948e1a1a7fc04d6ce3e98.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r6abca9ae7a2948e1a1a7fc04d6ce3e98.service has finished successfully.
+░░ 
+░░ The job identifier is 20691.
+May 24 21:19:06 openeuler-riscv64 systemctl[26320]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+May 24 21:19:06 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 20754.
+May 24 21:19:06 openeuler-riscv64 [RPM][26254]: Transaction ID 646e0eb0 finished: 0
+May 24 21:19:08 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+May 24 21:19:08 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 20754.
+May 24 21:19:08 openeuler-riscv64 systemd[1]: run-r6abca9ae7a2948e1a1a7fc04d6ce3e98.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r6abca9ae7a2948e1a1a7fc04d6ce3e98.service has successfully entered the 'dead' state.
+May 24 21:19:13 openeuler-riscv64 sudo[25850]: pam_unix(sudo:session): session closed for user root
+May 24 21:19:14 openeuler-riscv64 sudo[26347]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_disk_tuned_disable -x
+May 24 21:19:14 openeuler-riscv64 sudo[26347]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:20:12 openeuler-riscv64 [RPM][26417]: Transaction ID 646e0f0b started
+May 24 21:20:13 openeuler-riscv64 [RPM][26417]: install nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:20:16 openeuler-riscv64 systemctl[26426]: [systemctl try-reload-or-restart bind.service] called by PID 26425 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:20:16 openeuler-riscv64 systemctl[26427]: [systemctl try-restart ipsec.service] called by PID 26425 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:20:16 openeuler-riscv64 systemctl[26428]: [systemctl try-restart sshd.service] called by PID 26425 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Stopping OpenSSH server daemon...
+░░ Subject: A stop job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20757.
+May 24 21:20:16 openeuler-riscv64 sshd[26303]: Received signal 15; terminating.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sshd.service has successfully entered the 'dead' state.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 316 (sshd) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 319 (sshd) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 320 (python3) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20679 (sshd) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20688 (sshd) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20689 (bash) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26346 (sh) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26347 (sudo) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26348 (tee) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26349 (bash) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26393 (python3) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26394 (bash) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26402 (python3) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26417 (dnf) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26423 (sh) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26424 (update-crypto-p) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26425 (bash) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26428 (systemctl) remains running after unit stopped.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Stopped OpenSSH server daemon.
+░░ Subject: A stop job for unit sshd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has finished.
+░░ 
+░░ The job identifier is 20757 and the job result is done.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Stopped target sshd-keygen.target.
+░░ Subject: A stop job for unit sshd-keygen.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has finished.
+░░ 
+░░ The job identifier is 20824 and the job result is done.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Stopping sshd-keygen.target...
+░░ Subject: A stop job for unit sshd-keygen.target has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has begun execution.
+░░ 
+░░ The job identifier is 20824.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ecdsa Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ecdsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ecdsa.service has finished successfully.
+░░ 
+░░ The job identifier is 20821.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ed25519 Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ed25519.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ed25519.service has finished successfully.
+░░ 
+░░ The job identifier is 20823.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Reached target sshd-keygen.target.
+░░ Subject: A start job for unit sshd-keygen.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen.target has finished successfully.
+░░ 
+░░ The job identifier is 20824.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 316 (sshd) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 319 (sshd) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 320 (python3) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20679 (sshd) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20688 (sshd) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20689 (bash) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26346 (sh) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26347 (sudo) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26348 (tee) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26349 (bash) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26393 (python3) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26394 (bash) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26402 (python3) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26417 (dnf) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26423 (sh) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26424 (update-crypto-p) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26425 (bash) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26428 (systemctl) in control group while starting unit. Ignoring.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Starting OpenSSH server daemon...
+░░ Subject: A start job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20757.
+May 24 21:20:16 openeuler-riscv64 sshd[26429]: Server listening on 0.0.0.0 port 22.
+May 24 21:20:16 openeuler-riscv64 sshd[26429]: Server listening on :: port 22.
+May 24 21:20:16 openeuler-riscv64 systemd[1]: Started OpenSSH server daemon.
+░░ Subject: A start job for unit sshd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has finished successfully.
+░░ 
+░░ The job identifier is 20757.
+May 24 21:20:16 openeuler-riscv64 [RPM][26417]: install nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:20:17 openeuler-riscv64 [RPM][26417]: install nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:20:18 openeuler-riscv64 [RPM][26417]: install nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:20:19 openeuler-riscv64 [RPM][26417]: install systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:20:24 openeuler-riscv64 [RPM][26417]: install systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:20:24 openeuler-riscv64 systemctl[26435]: [/bin/systemctl enable systemtap.service] called by PID 26434 (/bin/sh /var/tmp/rpm-tmp.wGEaec 1)
+May 24 21:20:24 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:20:26 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:20:30 openeuler-riscv64 [RPM][26417]: install systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:20:30 openeuler-riscv64 [RPM][26417]: install python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:20:30 openeuler-riscv64 [RPM][26417]: install python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:20:30 openeuler-riscv64 [RPM][26417]: install python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:20:30 openeuler-riscv64 [RPM][26417]: install python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:20:31 openeuler-riscv64 [RPM][26417]: install python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:20:31 openeuler-riscv64 [RPM][26417]: install python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:20:33 openeuler-riscv64 [RPM][26417]: install hwdata-0.366-1.oe2303.noarch: success
+May 24 21:20:33 openeuler-riscv64 [RPM][26417]: install pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:20:34 openeuler-riscv64 systemctl[26451]: [/usr/bin/systemctl --no-reload preset cpupower.service] called by PID 26449 (/bin/sh /var/tmp/rpm-tmp.cEg2Tg 1)
+May 24 21:20:34 openeuler-riscv64 [RPM][26417]: install kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:20:35 openeuler-riscv64 systemctl[26454]: [/usr/bin/systemctl --no-reload preset powertop.service] called by PID 26453 (/bin/sh /var/tmp/rpm-tmp.0bkI3Z 1)
+May 24 21:20:35 openeuler-riscv64 [RPM][26417]: install powertop-2.14-2.oe2303.riscv64: success
+May 24 21:20:35 openeuler-riscv64 [RPM][26417]: install hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:20:35 openeuler-riscv64 [RPM][26417]: install ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:20:35 openeuler-riscv64 [RPM][26417]: install dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:20:36 openeuler-riscv64 [RPM][26417]: install virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:20:36 openeuler-riscv64 dbus-daemon[266]: [system] Reloaded configuration
+May 24 21:20:37 openeuler-riscv64 dbus-daemon[266]: [system] Reloaded configuration
+May 24 21:20:37 openeuler-riscv64 systemctl[26459]: [systemctl preset tuned.service] called by PID 26458 (/bin/sh /var/tmp/rpm-tmp.4h9P6A 1)
+May 24 21:20:37 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:20:39 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:20:43 openeuler-riscv64 [RPM][26417]: install tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:20:43 openeuler-riscv64 [RPM][26417]: install tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:20:44 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rff40ec4a112a4716af2f620953dd2c4a.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rff40ec4a112a4716af2f620953dd2c4a.service has finished successfully.
+░░ 
+░░ The job identifier is 20827.
+May 24 21:20:44 openeuler-riscv64 systemctl[26476]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+May 24 21:20:45 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 20890.
+May 24 21:20:45 openeuler-riscv64 systemctl[26483]: [/usr/bin/systemctl daemon-reload] called by PID 26481 (/bin/sh /var/tmp/rpm-tmp.LfSQCF 0)
+May 24 21:20:45 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:20:47 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:20:51 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+May 24 21:20:51 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 20890.
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install hwdata-0.366-1.oe2303.noarch: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install powertop-2.14-2.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 systemd[1]: run-rff40ec4a112a4716af2f620953dd2c4a.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rff40ec4a112a4716af2f620953dd2c4a.service has successfully entered the 'dead' state.
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: install tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:20:52 openeuler-riscv64 [RPM][26417]: Transaction ID 646e0f0b finished: 0
+May 24 21:20:57 openeuler-riscv64 systemctl[26509]: [systemctl --now enable tuned] called by PID 26394 (bash -x oe_test_disk_tuned_disable.sh)
+May 24 21:20:57 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:20:59 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:21:03 openeuler-riscv64 systemd[1]: Starting Dynamic System Tuning Daemon...
+░░ Subject: A start job for unit tuned.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit tuned.service has begun execution.
+░░ 
+░░ The job identifier is 20893.
+May 24 21:21:12 openeuler-riscv64 tuned[26520]: libperf: mmap_per_cpu: nr cpu values 4 nr threads 1
+May 24 21:21:12 openeuler-riscv64 tuned[26520]: libperf: idx 0: mmapping fd 8
+May 24 21:21:12 openeuler-riscv64 tuned[26520]: libperf: idx 1: mmapping fd 9
+May 24 21:21:12 openeuler-riscv64 tuned[26520]: libperf: idx 2: mmapping fd 10
+May 24 21:21:12 openeuler-riscv64 tuned[26520]: libperf: idx 3: mmapping fd 11
+May 24 21:21:13 openeuler-riscv64 systemd[1]: Started Dynamic System Tuning Daemon.
+░░ Subject: A start job for unit tuned.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit tuned.service has finished successfully.
+░░ 
+░░ The job identifier is 20893.
+May 24 21:21:18 openeuler-riscv64 systemctl[26734]: [systemctl --now disable tuned] called by PID 26394 (bash -x oe_test_disk_tuned_disable.sh)
+May 24 21:21:18 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:21:20 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:21:24 openeuler-riscv64 systemd[1]: Stopping Dynamic System Tuning Daemon...
+░░ Subject: A stop job for unit tuned.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit tuned.service has begun execution.
+░░ 
+░░ The job identifier is 20963.
+May 24 21:21:24 openeuler-riscv64 systemd[1]: tuned.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit tuned.service has successfully entered the 'dead' state.
+May 24 21:21:24 openeuler-riscv64 systemd[1]: Stopped Dynamic System Tuning Daemon.
+░░ Subject: A stop job for unit tuned.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit tuned.service has finished.
+░░ 
+░░ The job identifier is 20963 and the job result is done.
+May 24 21:21:37 openeuler-riscv64 [RPM][26752]: Transaction ID 646e0f61 started
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase powertop-2.14-2.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase hwdata-0.366-1.oe2303.noarch: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 [RPM][26752]: erase python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:21:39 openeuler-riscv64 systemctl[26757]: [systemctl --no-reload disable tuned.service] called by PID 26756 (/bin/sh /var/tmp/rpm-tmp.VQOOVe 0)
+May 24 21:21:39 openeuler-riscv64 systemctl[26758]: [systemctl stop tuned.service] called by PID 26756 (/bin/sh /var/tmp/rpm-tmp.VQOOVe 0)
+May 24 21:21:40 openeuler-riscv64 dbus-daemon[266]: [system] Reloaded configuration
+May 24 21:21:40 openeuler-riscv64 systemctl[26763]: [/usr/bin/systemctl daemon-reload] called by PID 26761 (/bin/sh /var/tmp/rpm-tmp.xZPTvU 0)
+May 24 21:21:40 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:21:42 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:21:46 openeuler-riscv64 systemctl[26775]: [systemctl daemon-reload] called by PID 26774 (/bin/sh /var/tmp/rpm-tmp.7s1qN3 0)
+May 24 21:21:46 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:21:48 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:21:52 openeuler-riscv64 [RPM][26752]: erase tuned-2.19.0-3.oe2303.noarch: success
+May 24 21:21:52 openeuler-riscv64 systemctl[26788]: [/bin/systemctl --no-reload disable systemtap.service] called by PID 26787 (/bin/sh /var/tmp/rpm-tmp.7mf9U8 0)
+May 24 21:21:52 openeuler-riscv64 systemctl[26789]: [/bin/systemctl stop systemtap.service] called by PID 26787 (/bin/sh /var/tmp/rpm-tmp.7mf9U8 0)
+May 24 21:21:52 openeuler-riscv64 [RPM][26752]: erase systemtap-4.5-5.oe2303.riscv64: success
+May 24 21:21:54 openeuler-riscv64 [RPM][26752]: erase systemtap-client-4.5-5.oe2303.riscv64: success
+May 24 21:21:54 openeuler-riscv64 [RPM][26752]: erase systemtap-runtime-4.5-5.oe2303.riscv64: success
+May 24 21:21:54 openeuler-riscv64 [RPM][26752]: erase nss-softokn-3.85.0-2.oe2303.riscv64: success
+May 24 21:21:55 openeuler-riscv64 [RPM][26752]: erase nss-util-3.85.0-2.oe2303.riscv64: success
+May 24 21:21:56 openeuler-riscv64 systemctl[26795]: [systemctl try-reload-or-restart bind.service] called by PID 26794 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:21:57 openeuler-riscv64 systemctl[26796]: [systemctl try-restart ipsec.service] called by PID 26794 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:21:57 openeuler-riscv64 systemctl[26797]: [systemctl try-restart sshd.service] called by PID 26794 (/bin/bash /usr/share/crypto-policies/reload-cmds.sh)
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Stopping OpenSSH server daemon...
+░░ Subject: A stop job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20967.
+May 24 21:21:57 openeuler-riscv64 sshd[26429]: Received signal 15; terminating.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sshd.service has successfully entered the 'dead' state.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 316 (sshd) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 319 (sshd) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 320 (python3) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20679 (sshd) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20688 (sshd) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 20689 (bash) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26346 (sh) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26347 (sudo) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26348 (tee) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26349 (bash) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26393 (python3) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26394 (bash) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26751 (python3) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26752 (dnf) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26792 (sh) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26793 (update-crypto-p) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26794 (bash) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Unit process 26797 (systemctl) remains running after unit stopped.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Stopped OpenSSH server daemon.
+░░ Subject: A stop job for unit sshd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd.service has finished.
+░░ 
+░░ The job identifier is 20967 and the job result is done.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Stopped target sshd-keygen.target.
+░░ Subject: A stop job for unit sshd-keygen.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has finished.
+░░ 
+░░ The job identifier is 21034 and the job result is done.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Stopping sshd-keygen.target...
+░░ Subject: A stop job for unit sshd-keygen.target has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sshd-keygen.target has begun execution.
+░░ 
+░░ The job identifier is 21034.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ecdsa Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ecdsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ecdsa.service has finished successfully.
+░░ 
+░░ The job identifier is 21031.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ed25519 Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ed25519.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ed25519.service has finished successfully.
+░░ 
+░░ The job identifier is 21033.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Reached target sshd-keygen.target.
+░░ Subject: A start job for unit sshd-keygen.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen.target has finished successfully.
+░░ 
+░░ The job identifier is 21034.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 316 (sshd) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 319 (sshd) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 320 (python3) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20679 (sshd) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20688 (sshd) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 20689 (bash) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26346 (sh) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26347 (sudo) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26348 (tee) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26349 (bash) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26393 (python3) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26394 (bash) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26751 (python3) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26752 (dnf) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26792 (sh) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26793 (update-crypto-p) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26794 (bash) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: sshd.service: Found left-over process 26797 (systemctl) in control group while starting unit. Ignoring.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Starting OpenSSH server daemon...
+░░ Subject: A start job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 20967.
+May 24 21:21:57 openeuler-riscv64 sshd[26798]: Server listening on 0.0.0.0 port 22.
+May 24 21:21:57 openeuler-riscv64 sshd[26798]: Server listening on :: port 22.
+May 24 21:21:57 openeuler-riscv64 systemd[1]: Started OpenSSH server daemon.
+░░ Subject: A start job for unit sshd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has finished successfully.
+░░ 
+░░ The job identifier is 20967.
+May 24 21:21:57 openeuler-riscv64 [RPM][26752]: erase nss-3.85.0-2.oe2303.riscv64: success
+May 24 21:21:58 openeuler-riscv64 systemctl[26800]: [/usr/bin/systemctl --no-reload --now disable powertop.service] called by PID 26799 (/bin/sh /var/tmp/rpm-tmp.lULXz8 0)
+May 24 21:21:58 openeuler-riscv64 [RPM][26752]: erase powertop-2.14-2.oe2303.riscv64: success
+May 24 21:21:58 openeuler-riscv64 [RPM][26752]: erase virt-what-1.25-1.oe2303.riscv64: success
+May 24 21:21:59 openeuler-riscv64 systemctl[26806]: [/usr/bin/systemctl --no-reload --now disable cpupower.service] called by PID 26805 (/bin/sh /var/tmp/rpm-tmp.j74G1t 0)
+May 24 21:21:59 openeuler-riscv64 [RPM][26752]: erase kernel-tools-6.1.8-3.oe2303.riscv64: success
+May 24 21:21:59 openeuler-riscv64 [RPM][26752]: erase python3-configobj-5.0.6-18.oe2303.noarch: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase python3-decorator-5.1.1-1.oe2303.noarch: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase python3-linux-procfs-0.7.1-1.oe2303.noarch: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase python3-pyudev-0.24.0-1.oe2303.noarch: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase pciutils-3.9.0-1.oe2303.riscv64: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase hwdata-0.366-1.oe2303.noarch: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase dmidecode-1:3.4-2.oe2303.riscv64: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase nspr-4.35.0-2.oe2303.riscv64: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase hdparm-9.65-1.oe2303.riscv64: success
+May 24 21:22:00 openeuler-riscv64 [RPM][26752]: erase python3-perf-6.1.8-3.oe2303.riscv64: success
+May 24 21:22:01 openeuler-riscv64 [RPM][26752]: erase python3-schedutils-0.6-7.oe2303.riscv64: success
+May 24 21:22:02 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r0ee57661292447cd85d09fb355fa5e66.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r0ee57661292447cd85d09fb355fa5e66.service has finished successfully.
+░░ 
+░░ The job identifier is 21037.
+May 24 21:22:02 openeuler-riscv64 systemctl[26815]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+May 24 21:22:02 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 21100.
+May 24 21:22:02 openeuler-riscv64 [RPM][26752]: Transaction ID 646e0f61 finished: 0
+May 24 21:22:04 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+May 24 21:22:04 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 21100.
+May 24 21:22:04 openeuler-riscv64 systemd[1]: run-r0ee57661292447cd85d09fb355fa5e66.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r0ee57661292447cd85d09fb355fa5e66.service has successfully entered the 'dead' state.
+May 24 21:22:08 openeuler-riscv64 sudo[26347]: pam_unix(sudo:session): session closed for user root
+May 24 21:22:09 openeuler-riscv64 sudo[26846]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_basic_create_group -x
+May 24 21:22:09 openeuler-riscv64 sudo[26846]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:22:18 openeuler-riscv64 groupadd[26903]: group added to /etc/group: name=testgroup, GID=1001
+May 24 21:22:18 openeuler-riscv64 groupadd[26903]: group added to /etc/gshadow: name=testgroup
+May 24 21:22:18 openeuler-riscv64 groupadd[26903]: new group: name=testgroup, GID=1001
+May 24 21:22:19 openeuler-riscv64 groupadd[26911]: group added to /etc/group: name=testgroup1, GID=6666
+May 24 21:22:19 openeuler-riscv64 groupadd[26911]: group added to /etc/gshadow: name=testgroup1
+May 24 21:22:19 openeuler-riscv64 groupadd[26911]: new group: name=testgroup1, GID=6666
+May 24 21:22:19 openeuler-riscv64 groupadd[26920]: group added to /etc/group: name=testgroup2, GID=9999
+May 24 21:22:19 openeuler-riscv64 groupadd[26920]: group added to /etc/gshadow: name=testgroup2
+May 24 21:22:19 openeuler-riscv64 groupadd[26920]: new group: name=testgroup2, GID=9999
+May 24 21:22:23 openeuler-riscv64 groupdel[26933]: group 'testgroup' removed from /etc/group
+May 24 21:22:23 openeuler-riscv64 groupdel[26933]: group 'testgroup' removed from /etc/gshadow
+May 24 21:22:23 openeuler-riscv64 groupdel[26933]: group 'testgroup' removed
+May 24 21:22:23 openeuler-riscv64 groupdel[26939]: group 'testgroup1' removed from /etc/group
+May 24 21:22:23 openeuler-riscv64 groupdel[26939]: group 'testgroup1' removed from /etc/gshadow
+May 24 21:22:23 openeuler-riscv64 groupdel[26939]: group 'testgroup1' removed
+May 24 21:22:23 openeuler-riscv64 groupdel[26945]: group 'testgroup2' removed from /etc/group
+May 24 21:22:23 openeuler-riscv64 groupdel[26945]: group 'testgroup2' removed from /etc/gshadow
+May 24 21:22:23 openeuler-riscv64 groupdel[26945]: group 'testgroup2' removed
+May 24 21:22:27 openeuler-riscv64 sudo[26846]: pam_unix(sudo:session): session closed for user root
+May 24 21:22:28 openeuler-riscv64 sudo[26962]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_basic_modify_group -x
+May 24 21:22:28 openeuler-riscv64 sudo[26962]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:22:36 openeuler-riscv64 useradd[27019]: new group: name=testuser1, GID=1001
+May 24 21:22:36 openeuler-riscv64 useradd[27019]: new user: name=testuser1, UID=1001, GID=1001, home=/home/testuser1, shell=/bin/bash, from=none
+May 24 21:22:37 openeuler-riscv64 groupadd[27026]: group added to /etc/group: name=testgroup1, GID=1002
+May 24 21:22:37 openeuler-riscv64 groupadd[27026]: group added to /etc/gshadow: name=testgroup1
+May 24 21:22:37 openeuler-riscv64 groupadd[27026]: new group: name=testgroup1, GID=1002
+May 24 21:22:37 openeuler-riscv64 groupmod[27032]: group changed in /etc/group (group testgroup1/1002, new gid: 6666)
+May 24 21:22:37 openeuler-riscv64 groupmod[27032]: group changed in /etc/passwd (group testgroup1/1002, new gid: 6666)
+May 24 21:22:39 openeuler-riscv64 groupmod[27043]: group changed in /etc/group (group testgroup1/6666, new gid: 8888)
+May 24 21:22:39 openeuler-riscv64 groupmod[27043]: group changed in /etc/passwd (group testgroup1/6666, new gid: 8888)
+May 24 21:22:39 openeuler-riscv64 groupmod[27051]: group changed in /etc/group (group testgroup1/8888, new name: testgroup2)
+May 24 21:22:39 openeuler-riscv64 groupmod[27051]: group changed in /etc/gshadow (group testgroup1, new name: testgroup2)
+May 24 21:22:40 openeuler-riscv64 usermod[27060]: add 'testuser1' to group 'testgroup2'
+May 24 21:22:40 openeuler-riscv64 usermod[27060]: add 'testuser1' to shadow group 'testgroup2'
+May 24 21:22:43 openeuler-riscv64 groupdel[27074]: group 'testgroup2' removed from /etc/group
+May 24 21:22:43 openeuler-riscv64 groupdel[27074]: group 'testgroup2' removed from /etc/gshadow
+May 24 21:22:43 openeuler-riscv64 groupdel[27074]: group 'testgroup2' removed
+May 24 21:22:43 openeuler-riscv64 userdel[27080]: delete user 'testuser1'
+May 24 21:22:43 openeuler-riscv64 userdel[27080]: removed group 'testuser1' owned by 'testuser1'
+May 24 21:22:43 openeuler-riscv64 userdel[27080]: removed shadow group 'testuser1' owned by 'testuser1'
+May 24 21:22:47 openeuler-riscv64 sudo[26962]: pam_unix(sudo:session): session closed for user root
+May 24 21:22:48 openeuler-riscv64 sudo[27098]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_basic_modify_user -x
+May 24 21:22:48 openeuler-riscv64 sudo[27098]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:22:58 openeuler-riscv64 useradd[27155]: new group: name=testuser, GID=1001
+May 24 21:22:58 openeuler-riscv64 useradd[27155]: new user: name=testuser, UID=555, GID=1001, home=/home/testuser, shell=/bin/bash, from=none
+May 24 21:22:58 openeuler-riscv64 groupmod[27162]: group changed in /etc/group (group testuser/1001, new gid: 555)
+May 24 21:22:58 openeuler-riscv64 groupmod[27162]: group changed in /etc/passwd (group testuser/1001, new gid: 555)
+May 24 21:22:59 openeuler-riscv64 groupadd[27168]: group added to /etc/group: name=testgroup1, GID=72
+May 24 21:22:59 openeuler-riscv64 groupadd[27168]: group added to /etc/gshadow: name=testgroup1
+May 24 21:22:59 openeuler-riscv64 groupadd[27168]: new group: name=testgroup1, GID=72
+May 24 21:23:01 openeuler-riscv64 usermod[27177]: change user 'testuser' UID from '555' to '666'
+May 24 21:23:01 openeuler-riscv64 usermod[27187]: change user 'testuser' GID from '555' to '72'
+May 24 21:23:04 openeuler-riscv64 userdel[27202]: delete user 'testuser'
+May 24 21:23:05 openeuler-riscv64 groupdel[27209]: group 'testgroup1' removed from /etc/group
+May 24 21:23:05 openeuler-riscv64 groupdel[27209]: group 'testgroup1' removed from /etc/gshadow
+May 24 21:23:05 openeuler-riscv64 groupdel[27209]: group 'testgroup1' removed
+May 24 21:23:08 openeuler-riscv64 sudo[27098]: pam_unix(sudo:session): session closed for user root
+May 24 21:23:09 openeuler-riscv64 sudo[27226]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_chrony_chronyc_cmd -x
+May 24 21:23:09 openeuler-riscv64 sudo[27226]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:23:52 openeuler-riscv64 [RPM][27296]: Transaction ID 646e0fe8 started
+May 24 21:23:53 openeuler-riscv64 groupadd[27300]: group added to /etc/group: name=chrony, GID=554
+May 24 21:23:53 openeuler-riscv64 groupadd[27300]: group added to /etc/gshadow: name=chrony
+May 24 21:23:53 openeuler-riscv64 groupadd[27300]: new group: name=chrony, GID=554
+May 24 21:23:54 openeuler-riscv64 useradd[27307]: new user: name=chrony, UID=988, GID=554, home=/var/lib/chrony, shell=/sbin/nologin, from=none
+May 24 21:23:54 openeuler-riscv64 systemctl[27315]: [/usr/bin/systemctl --no-reload preset chronyd.service chrony-wait.service] called by PID 27314 (/bin/sh /var/tmp/rpm-tmp.EIzZgx 1)
+May 24 21:23:54 openeuler-riscv64 [RPM][27296]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:23:56 openeuler-riscv64 systemctl[27319]: [/usr/bin/systemctl daemon-reload] called by PID 27318 (/bin/sh /var/tmp/rpm-tmp.9vrr1e 0)
+May 24 21:23:56 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:23:58 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:24:01 openeuler-riscv64 [RPM][27296]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:24:01 openeuler-riscv64 [RPM][27296]: Transaction ID 646e0fe8 finished: 0
+May 24 21:24:05 openeuler-riscv64 systemctl[27332]: [systemctl start chronyd] called by PID 27273 (bash -x oe_test_chrony_chronyc_cmd.sh)
+May 24 21:24:05 openeuler-riscv64 ntpd[2087]: ntpd exiting on signal 15 (Terminated)
+May 24 21:24:05 openeuler-riscv64 systemd[1]: Stopping Network Time Service...
+░░ Subject: A stop job for unit ntpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit ntpd.service has begun execution.
+░░ 
+░░ The job identifier is 21166.
+May 24 21:24:05 openeuler-riscv64 systemd[1]: ntpd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit ntpd.service has successfully entered the 'dead' state.
+May 24 21:24:05 openeuler-riscv64 systemd[1]: Stopped Network Time Service.
+░░ Subject: A stop job for unit ntpd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit ntpd.service has finished.
+░░ 
+░░ The job identifier is 21166 and the job result is done.
+May 24 21:24:05 openeuler-riscv64 systemd[1]: Starting NTP client/server...
+░░ Subject: A start job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21103.
+May 24 21:24:06 openeuler-riscv64 chronyd[27338]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS -NTS +SECHASH +IPV6 +DEBUG)
+May 24 21:24:06 openeuler-riscv64 systemd[1]: Started NTP client/server.
+░░ Subject: A start job for unit chronyd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has finished successfully.
+░░ 
+░░ The job identifier is 21103.
+May 24 21:24:12 openeuler-riscv64 systemctl[27356]: [systemctl stop chronyd] called by PID 27273 (bash -x oe_test_chrony_chronyc_cmd.sh)
+May 24 21:24:12 openeuler-riscv64 chronyd[27338]: chronyd exiting
+May 24 21:24:12 openeuler-riscv64 systemd[1]: Stopping NTP client/server...
+░░ Subject: A stop job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21168.
+May 24 21:24:12 openeuler-riscv64 systemd[1]: chronyd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit chronyd.service has successfully entered the 'dead' state.
+May 24 21:24:12 openeuler-riscv64 systemd[1]: Stopped NTP client/server.
+░░ Subject: A stop job for unit chronyd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has finished.
+░░ 
+░░ The job identifier is 21168 and the job result is done.
+May 24 21:24:22 openeuler-riscv64 [RPM][27362]: Transaction ID 646e1006 started
+May 24 21:24:23 openeuler-riscv64 [RPM][27362]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:24:23 openeuler-riscv64 systemctl[27367]: [/usr/bin/systemctl --no-reload --now disable chronyd.service chrony-wait.service] called by PID 27366 (/bin/sh /var/tmp/rpm-tmp.81jXwp 0)
+May 24 21:24:24 openeuler-riscv64 systemctl[27370]: [/usr/bin/systemctl daemon-reload] called by PID 27368 (/bin/sh /var/tmp/rpm-tmp.0U09lr 0)
+May 24 21:24:24 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:24:26 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:24:29 openeuler-riscv64 [RPM][27362]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:24:30 openeuler-riscv64 [RPM][27362]: Transaction ID 646e1006 finished: 0
+May 24 21:24:36 openeuler-riscv64 sudo[27226]: pam_unix(sudo:session): session closed for user root
+May 24 21:24:36 openeuler-riscv64 sudo[27393]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_chrony_chronyc_hardwaretime -x
+May 24 21:24:36 openeuler-riscv64 sudo[27393]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:25:18 openeuler-riscv64 [RPM][27463]: Transaction ID 646e103e started
+May 24 21:25:19 openeuler-riscv64 systemctl[27470]: [/usr/bin/systemctl --no-reload preset chronyd.service chrony-wait.service] called by PID 27469 (/bin/sh /var/tmp/rpm-tmp.dYCtku 1)
+May 24 21:25:19 openeuler-riscv64 [RPM][27463]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:25:20 openeuler-riscv64 systemctl[27474]: [/usr/bin/systemctl daemon-reload] called by PID 27473 (/bin/sh /var/tmp/rpm-tmp.gXOrDY 0)
+May 24 21:25:20 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:25:22 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:25:26 openeuler-riscv64 [RPM][27463]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:25:26 openeuler-riscv64 [RPM][27463]: Transaction ID 646e103e finished: 0
+May 24 21:25:28 openeuler-riscv64 systemctl[27485]: [systemctl start chronyd] called by PID 27440 (bash -x oe_test_chrony_chronyc_hardwaretime.sh)
+May 24 21:25:28 openeuler-riscv64 systemd[1]: Starting NTP client/server...
+░░ Subject: A start job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21171.
+May 24 21:25:29 openeuler-riscv64 chronyd[27488]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS -NTS +SECHASH +IPV6 +DEBUG)
+May 24 21:25:29 openeuler-riscv64 systemd[1]: Started NTP client/server.
+░░ Subject: A start job for unit chronyd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has finished successfully.
+░░ 
+░░ The job identifier is 21171.
+May 24 21:25:35 openeuler-riscv64 chronyd[27488]: Selected source 162.159.200.123 (pool.ntp.org)
+May 24 21:25:35 openeuler-riscv64 chronyd[27488]: System clock wrong by 91.505201 seconds
+May 24 21:27:07 openeuler-riscv64 systemd[1]: Time has been changed
+░░ Subject: Time change
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+May 24 21:27:07 openeuler-riscv64 chronyd[27488]: System clock was stepped by 91.505201 seconds
+May 24 21:27:07 openeuler-riscv64 systemctl[27504]: [systemctl stop chronyd] called by PID 27440 (bash -x oe_test_chrony_chronyc_hardwaretime.sh)
+May 24 21:27:07 openeuler-riscv64 chronyd[27488]: chronyd exiting
+May 24 21:27:07 openeuler-riscv64 systemd[1]: Stopping NTP client/server...
+░░ Subject: A stop job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21236.
+May 24 21:27:07 openeuler-riscv64 systemd[1]: chronyd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit chronyd.service has successfully entered the 'dead' state.
+May 24 21:27:07 openeuler-riscv64 systemd[1]: Stopped NTP client/server.
+░░ Subject: A stop job for unit chronyd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has finished.
+░░ 
+░░ The job identifier is 21236 and the job result is done.
+May 24 21:27:17 openeuler-riscv64 [RPM][27509]: Transaction ID 646e10b5 started
+May 24 21:27:17 openeuler-riscv64 [RPM][27509]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:27:18 openeuler-riscv64 systemctl[27514]: [/usr/bin/systemctl --no-reload --now disable chronyd.service chrony-wait.service] called by PID 27513 (/bin/sh /var/tmp/rpm-tmp.cf6fay 0)
+May 24 21:27:18 openeuler-riscv64 systemctl[27517]: [/usr/bin/systemctl daemon-reload] called by PID 27515 (/bin/sh /var/tmp/rpm-tmp.gMxl9W 0)
+May 24 21:27:18 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:27:21 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:27:24 openeuler-riscv64 [RPM][27509]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:27:25 openeuler-riscv64 [RPM][27509]: Transaction ID 646e10b5 finished: 0
+May 24 21:27:31 openeuler-riscv64 sudo[27393]: pam_unix(sudo:session): session closed for user root
+May 24 21:27:31 openeuler-riscv64 sudo[27540]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_chrony_chronyc_ntpstat -x
+May 24 21:27:31 openeuler-riscv64 sudo[27540]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:28:14 openeuler-riscv64 [RPM][27610]: Transaction ID 646e10ee started
+May 24 21:28:15 openeuler-riscv64 systemctl[27616]: [/usr/bin/systemctl --no-reload preset chronyd.service chrony-wait.service] called by PID 27615 (/bin/sh /var/tmp/rpm-tmp.RS7HDY 1)
+May 24 21:28:15 openeuler-riscv64 [RPM][27610]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:28:16 openeuler-riscv64 systemctl[27620]: [/usr/bin/systemctl daemon-reload] called by PID 27619 (/bin/sh /var/tmp/rpm-tmp.GO0lPq 0)
+May 24 21:28:16 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:28:19 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:28:23 openeuler-riscv64 [RPM][27610]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:28:23 openeuler-riscv64 [RPM][27610]: Transaction ID 646e10ee finished: 0
+May 24 21:28:26 openeuler-riscv64 systemctl[27631]: [systemctl start ntpd] called by PID 27587 (bash -x oe_test_chrony_chronyc_ntpstat.sh)
+May 24 21:28:26 openeuler-riscv64 systemd[1]: Starting Network Time Service...
+░░ Subject: A start job for unit ntpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit ntpd.service has begun execution.
+░░ 
+░░ The job identifier is 21239.
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: ntpd 4.2.8p15@1.3728-o Mon Mar 20 22:33:43 UTC 2023 (1): Starting
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: Command line: /usr/sbin/ntpd -u ntp:ntp -g
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: ----------------------------------------------------
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: ntp-4 is maintained by Network Time Foundation,
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: Inc. (NTF), a non-profit 501(c)(3) public-benefit
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: corporation.  Support and training for ntp-4 are
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: available at https://www.nwtime.org/support
+May 24 21:28:26 openeuler-riscv64 ntpd[27632]: ----------------------------------------------------
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: proto: precision = 1.100 usec (-20)
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: basedate set to 2023-03-08
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: gps base set to 2023-03-12 (week 2253)
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listen and drop on 0 v6wildcard [::]:123
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listen normally on 2 lo 127.0.0.1:123
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listen normally on 3 eth0 10.0.2.15:123
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listen normally on 4 lo [::1]:123
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listen normally on 5 eth0 [fec0::65b9:afee:8e37:700c]:123
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listen normally on 6 eth0 [fe80::11d5:53cb:b556:fc1b%2]:123
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: Listening on routing socket on fd #23 for interface updates
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: kernel reports TIME_ERROR: 0x2041: Clock Unsynchronized
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: kernel reports TIME_ERROR: 0x2041: Clock Unsynchronized
+May 24 21:28:26 openeuler-riscv64 systemd[1]: Started Network Time Service.
+░░ Subject: A start job for unit ntpd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit ntpd.service has finished successfully.
+░░ 
+░░ The job identifier is 21239.
+May 24 21:28:26 openeuler-riscv64 systemctl[27636]: [systemctl start chronyd] called by PID 27587 (bash -x oe_test_chrony_chronyc_ntpstat.sh)
+May 24 21:28:26 openeuler-riscv64 ntpd[27634]: ntpd exiting on signal 15 (Terminated)
+May 24 21:28:26 openeuler-riscv64 systemd[1]: Stopping Network Time Service...
+░░ Subject: A stop job for unit ntpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit ntpd.service has begun execution.
+░░ 
+░░ The job identifier is 21367.
+May 24 21:28:26 openeuler-riscv64 systemd[1]: ntpd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit ntpd.service has successfully entered the 'dead' state.
+May 24 21:28:26 openeuler-riscv64 systemd[1]: Stopped Network Time Service.
+░░ Subject: A stop job for unit ntpd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit ntpd.service has finished.
+░░ 
+░░ The job identifier is 21367 and the job result is done.
+May 24 21:28:27 openeuler-riscv64 systemd[1]: Starting NTP client/server...
+░░ Subject: A start job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21304.
+May 24 21:28:27 openeuler-riscv64 chronyd[27642]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS -NTS +SECHASH +IPV6 +DEBUG)
+May 24 21:28:27 openeuler-riscv64 systemd[1]: Started NTP client/server.
+░░ Subject: A start job for unit chronyd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has finished successfully.
+░░ 
+░░ The job identifier is 21304.
+May 24 21:28:30 openeuler-riscv64 systemctl[27653]: [systemctl restart ntpd] called by PID 27587 (bash -x oe_test_chrony_chronyc_ntpstat.sh)
+May 24 21:28:30 openeuler-riscv64 chronyd[27642]: chronyd exiting
+May 24 21:28:30 openeuler-riscv64 systemd[1]: Stopping NTP client/server...
+░░ Subject: A stop job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21432.
+May 24 21:28:30 openeuler-riscv64 systemd[1]: chronyd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit chronyd.service has successfully entered the 'dead' state.
+May 24 21:28:30 openeuler-riscv64 systemd[1]: Stopped NTP client/server.
+░░ Subject: A stop job for unit chronyd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has finished.
+░░ 
+░░ The job identifier is 21432 and the job result is done.
+May 24 21:28:30 openeuler-riscv64 systemd[1]: Starting Network Time Service...
+░░ Subject: A start job for unit ntpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit ntpd.service has begun execution.
+░░ 
+░░ The job identifier is 21369.
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: ntpd 4.2.8p15@1.3728-o Mon Mar 20 22:33:43 UTC 2023 (1): Starting
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: Command line: /usr/sbin/ntpd -u ntp:ntp -g
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: ----------------------------------------------------
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: ntp-4 is maintained by Network Time Foundation,
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: Inc. (NTF), a non-profit 501(c)(3) public-benefit
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: corporation.  Support and training for ntp-4 are
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: available at https://www.nwtime.org/support
+May 24 21:28:30 openeuler-riscv64 ntpd[27657]: ----------------------------------------------------
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: proto: precision = 1.200 usec (-20)
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: basedate set to 2023-03-08
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: gps base set to 2023-03-12 (week 2253)
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listen and drop on 0 v6wildcard [::]:123
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listen normally on 2 lo 127.0.0.1:123
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listen normally on 3 eth0 10.0.2.15:123
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listen normally on 4 lo [::1]:123
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listen normally on 5 eth0 [fec0::65b9:afee:8e37:700c]:123
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listen normally on 6 eth0 [fe80::11d5:53cb:b556:fc1b%2]:123
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: Listening on routing socket on fd #23 for interface updates
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+May 24 21:28:30 openeuler-riscv64 ntpd[27660]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+May 24 21:28:30 openeuler-riscv64 systemd[1]: Started Network Time Service.
+░░ Subject: A start job for unit ntpd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit ntpd.service has finished successfully.
+░░ 
+░░ The job identifier is 21369.
+May 24 21:28:39 openeuler-riscv64 systemctl[27710]: [systemctl stop chronyd] called by PID 27587 (bash -x oe_test_chrony_chronyc_ntpstat.sh)
+May 24 21:28:49 openeuler-riscv64 [RPM][27712]: Transaction ID 646e1111 started
+May 24 21:28:50 openeuler-riscv64 [RPM][27712]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:28:50 openeuler-riscv64 systemctl[27717]: [/usr/bin/systemctl --no-reload --now disable chronyd.service chrony-wait.service] called by PID 27716 (/bin/sh /var/tmp/rpm-tmp.HU01OV 0)
+May 24 21:28:51 openeuler-riscv64 systemctl[27720]: [/usr/bin/systemctl daemon-reload] called by PID 27718 (/bin/sh /var/tmp/rpm-tmp.HhH7oE 0)
+May 24 21:28:51 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:28:53 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:28:57 openeuler-riscv64 [RPM][27712]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:28:57 openeuler-riscv64 [RPM][27712]: Transaction ID 646e1111 finished: 0
+May 24 21:29:04 openeuler-riscv64 sudo[27540]: pam_unix(sudo:session): session closed for user root
+May 24 21:29:04 openeuler-riscv64 sudo[27743]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_chrony_chronyd -x
+May 24 21:29:04 openeuler-riscv64 sudo[27743]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:29:50 openeuler-riscv64 [RPM][27813]: Transaction ID 646e114e started
+May 24 21:29:51 openeuler-riscv64 systemctl[27819]: [/usr/bin/systemctl --no-reload preset chronyd.service chrony-wait.service] called by PID 27818 (/bin/sh /var/tmp/rpm-tmp.6Iwrzq 1)
+May 24 21:29:52 openeuler-riscv64 [RPM][27813]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:29:53 openeuler-riscv64 systemctl[27823]: [/usr/bin/systemctl daemon-reload] called by PID 27822 (/bin/sh /var/tmp/rpm-tmp.RqT9IG 0)
+May 24 21:29:53 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:29:55 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:29:58 openeuler-riscv64 [RPM][27813]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:29:58 openeuler-riscv64 [RPM][27813]: Transaction ID 646e114e finished: 0
+May 24 21:30:03 openeuler-riscv64 systemctl[27844]: [systemctl start chronyd] called by PID 27790 (bash -x oe_test_chrony_chronyd.sh)
+May 24 21:30:03 openeuler-riscv64 ntpd[27660]: ntpd exiting on signal 15 (Terminated)
+May 24 21:30:03 openeuler-riscv64 systemd[1]: Stopping Network Time Service...
+░░ Subject: A stop job for unit ntpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit ntpd.service has begun execution.
+░░ 
+░░ The job identifier is 21501.
+May 24 21:30:03 openeuler-riscv64 ntpd[27660]: 127.127.1.0 local addr 127.0.0.1 -> <null>
+May 24 21:30:03 openeuler-riscv64 systemd[1]: ntpd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit ntpd.service has successfully entered the 'dead' state.
+May 24 21:30:03 openeuler-riscv64 systemd[1]: Stopped Network Time Service.
+░░ Subject: A stop job for unit ntpd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit ntpd.service has finished.
+░░ 
+░░ The job identifier is 21501 and the job result is done.
+May 24 21:30:03 openeuler-riscv64 systemd[1]: Starting NTP client/server...
+░░ Subject: A start job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21437.
+May 24 21:30:04 openeuler-riscv64 chronyd[27851]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS -NTS +SECHASH +IPV6 +DEBUG)
+May 24 21:30:04 openeuler-riscv64 systemd[1]: Started NTP client/server.
+░░ Subject: A start job for unit chronyd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has finished successfully.
+░░ 
+░░ The job identifier is 21437.
+May 24 21:30:04 openeuler-riscv64 systemctl[27859]: [systemctl stop chronyd] called by PID 27790 (bash -x oe_test_chrony_chronyd.sh)
+May 24 21:30:04 openeuler-riscv64 chronyd[27851]: chronyd exiting
+May 24 21:30:04 openeuler-riscv64 systemd[1]: Stopping NTP client/server...
+░░ Subject: A stop job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21502.
+May 24 21:30:04 openeuler-riscv64 systemd[1]: chronyd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit chronyd.service has successfully entered the 'dead' state.
+May 24 21:30:04 openeuler-riscv64 systemd[1]: Stopped NTP client/server.
+░░ Subject: A stop job for unit chronyd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has finished.
+░░ 
+░░ The job identifier is 21502 and the job result is done.
+May 24 21:30:17 openeuler-riscv64 [RPM][27870]: Transaction ID 646e1169 started
+May 24 21:30:18 openeuler-riscv64 [RPM][27870]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:30:18 openeuler-riscv64 systemctl[27875]: [/usr/bin/systemctl --no-reload --now disable chronyd.service chrony-wait.service] called by PID 27874 (/bin/sh /var/tmp/rpm-tmp.YY6MAm 0)
+May 24 21:30:19 openeuler-riscv64 systemctl[27878]: [/usr/bin/systemctl daemon-reload] called by PID 27876 (/bin/sh /var/tmp/rpm-tmp.i0ALxr 0)
+May 24 21:30:19 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:30:21 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:30:24 openeuler-riscv64 [RPM][27870]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:30:25 openeuler-riscv64 [RPM][27870]: Transaction ID 646e1169 finished: 0
+May 24 21:30:31 openeuler-riscv64 sudo[27743]: pam_unix(sudo:session): session closed for user root
+May 24 21:30:31 openeuler-riscv64 sudo[27901]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_chrony_Manuall -x
+May 24 21:30:31 openeuler-riscv64 sudo[27901]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:31:15 openeuler-riscv64 [RPM][27971]: Transaction ID 646e11a3 started
+May 24 21:31:17 openeuler-riscv64 systemctl[27977]: [/usr/bin/systemctl --no-reload preset chronyd.service chrony-wait.service] called by PID 27976 (/bin/sh /var/tmp/rpm-tmp.nOu5nE 1)
+May 24 21:31:17 openeuler-riscv64 [RPM][27971]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:31:18 openeuler-riscv64 systemctl[27981]: [/usr/bin/systemctl daemon-reload] called by PID 27980 (/bin/sh /var/tmp/rpm-tmp.Ig71Dr 0)
+May 24 21:31:18 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:31:20 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:31:23 openeuler-riscv64 [RPM][27971]: install chrony-4.3-1.oe2303.riscv64: success
+May 24 21:31:23 openeuler-riscv64 [RPM][27971]: Transaction ID 646e11a3 finished: 0
+May 24 21:31:26 openeuler-riscv64 systemctl[27992]: [systemctl start chronyd] called by PID 27948 (bash -x oe_test_chrony_Manuall.sh)
+May 24 21:31:26 openeuler-riscv64 systemd[1]: Starting NTP client/server...
+░░ Subject: A start job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21505.
+May 24 21:31:27 openeuler-riscv64 chronyd[27995]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS -NTS +SECHASH +IPV6 +DEBUG)
+May 24 21:31:27 openeuler-riscv64 systemd[1]: Started NTP client/server.
+░░ Subject: A start job for unit chronyd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit chronyd.service has finished successfully.
+░░ 
+░░ The job identifier is 21505.
+May 24 21:31:29 openeuler-riscv64 chronyd[27995]: System clock was stepped by 0.000000 seconds
+May 24 21:31:32 openeuler-riscv64 systemctl[28007]: [systemctl stop chronyd] called by PID 27948 (bash -x oe_test_chrony_Manuall.sh)
+May 24 21:31:32 openeuler-riscv64 chronyd[27995]: chronyd exiting
+May 24 21:31:32 openeuler-riscv64 systemd[1]: Stopping NTP client/server...
+░░ Subject: A stop job for unit chronyd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has begun execution.
+░░ 
+░░ The job identifier is 21570.
+May 24 21:31:32 openeuler-riscv64 systemd[1]: chronyd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit chronyd.service has successfully entered the 'dead' state.
+May 24 21:31:32 openeuler-riscv64 systemd[1]: Stopped NTP client/server.
+░░ Subject: A stop job for unit chronyd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit chronyd.service has finished.
+░░ 
+░░ The job identifier is 21570 and the job result is done.
+May 24 21:31:42 openeuler-riscv64 [RPM][28012]: Transaction ID 646e11be started
+May 24 21:31:42 openeuler-riscv64 [RPM][28012]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:31:43 openeuler-riscv64 systemctl[28017]: [/usr/bin/systemctl --no-reload --now disable chronyd.service chrony-wait.service] called by PID 28016 (/bin/sh /var/tmp/rpm-tmp.2AkN5u 0)
+May 24 21:31:43 openeuler-riscv64 systemctl[28020]: [/usr/bin/systemctl daemon-reload] called by PID 28018 (/bin/sh /var/tmp/rpm-tmp.Oiorzz 0)
+May 24 21:31:43 openeuler-riscv64 systemd[1]: Reloading.
+May 24 21:31:45 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 21:31:49 openeuler-riscv64 [RPM][28012]: erase chrony-4.3-1.oe2303.riscv64: success
+May 24 21:31:49 openeuler-riscv64 [RPM][28012]: Transaction ID 646e11be finished: 0
+May 24 21:31:55 openeuler-riscv64 sudo[27901]: pam_unix(sudo:session): session closed for user root
+May 24 21:31:56 openeuler-riscv64 sudo[28044]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_cmd_id -x
+May 24 21:31:56 openeuler-riscv64 sudo[28044]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:32:13 openeuler-riscv64 sudo[28044]: pam_unix(sudo:session): session closed for user root
+May 24 21:32:13 openeuler-riscv64 sudo[28128]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_cmd_sudo -x
+May 24 21:32:13 openeuler-riscv64 sudo[28128]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:32:23 openeuler-riscv64 useradd[28184]: new group: name=test, GID=1001
+May 24 21:32:23 openeuler-riscv64 useradd[28184]: new user: name=test, UID=1001, GID=1001, home=/home/test, shell=/bin/bash, from=none
+May 24 21:32:24 openeuler-riscv64 passwd[28192]: pam_unix(passwd:chauthtok): password changed for test
+May 24 21:32:26 openeuler-riscv64 su[28200]: (to test) root on none
+May 24 21:32:26 openeuler-riscv64 su[28200]: pam_unix(su-l:session): session opened for user test(uid=1001) by (uid=0)
+May 24 21:32:26 openeuler-riscv64 dbus-daemon[266]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.188' (uid=1001 pid=28204 comm="/usr/bin/hostnamectl --transient")
+May 24 21:32:27 openeuler-riscv64 systemd[1]: Starting Hostname Service...
+░░ Subject: A start job for unit systemd-hostnamed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has begun execution.
+░░ 
+░░ The job identifier is 21573.
+May 24 21:32:28 openeuler-riscv64 dbus-daemon[266]: [system] Successfully activated service 'org.freedesktop.hostname1'
+May 24 21:32:28 openeuler-riscv64 systemd[1]: Started Hostname Service.
+░░ Subject: A start job for unit systemd-hostnamed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has finished successfully.
+░░ 
+░░ The job identifier is 21573.
+May 24 21:32:31 openeuler-riscv64 su[28200]: pam_unix(su-l:session): session closed for user test
+May 24 21:32:34 openeuler-riscv64 userdel[28266]: delete user 'test'
+May 24 21:32:34 openeuler-riscv64 userdel[28266]: removed group 'test' owned by 'test'
+May 24 21:32:34 openeuler-riscv64 userdel[28266]: removed shadow group 'test' owned by 'test'
+May 24 21:32:38 openeuler-riscv64 sudo[28128]: pam_unix(sudo:session): session closed for user root
+May 24 21:32:39 openeuler-riscv64 sudo[28285]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_hwclock -x
+May 24 21:32:39 openeuler-riscv64 sudo[28285]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 21:32:48 openeuler-riscv64 systemd[1]: Time has been changed
+░░ Subject: Time change
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+May 24 21:32:48 openeuler-riscv64 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+May 24 21:32:53 openeuler-riscv64 sudo[28285]: pam_unix(sudo:session): session closed for user root
+May 24 21:32:53 openeuler-riscv64 sudo[28377]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_IOaccess_500Mfile -x
+May 24 21:32:53 openeuler-riscv64 sudo[28377]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 22:00:56 openeuler-riscv64 sudo[28377]: pam_unix(sudo:session): session closed for user root
+May 24 22:00:57 openeuler-riscv64 sudo[28664]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_group_access -x
+May 24 22:00:57 openeuler-riscv64 sudo[28664]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 22:01:01 openeuler-riscv64 CROND[28712]: (root) CMD (run-parts /etc/cron.hourly)
+May 24 22:01:02 openeuler-riscv64 run-parts[28715]: (/etc/cron.hourly) starting 0anacron
+May 24 22:01:02 openeuler-riscv64 run-parts[28721]: (/etc/cron.hourly) finished 0anacron
+May 24 22:01:02 openeuler-riscv64 CROND[28711]: (root) CMDEND (run-parts /etc/cron.hourly)
+May 24 22:01:07 openeuler-riscv64 useradd[28733]: new group: name=testuser1, GID=1001
+May 24 22:01:07 openeuler-riscv64 useradd[28733]: new user: name=testuser1, UID=1001, GID=1001, home=/home/testuser1, shell=/bin/bash, from=none
+May 24 22:01:11 openeuler-riscv64 groupadd[28741]: group added to /etc/group: name=myproject, GID=1002
+May 24 22:01:11 openeuler-riscv64 groupadd[28741]: group added to /etc/gshadow: name=myproject
+May 24 22:01:11 openeuler-riscv64 groupadd[28741]: new group: name=myproject, GID=1002
+May 24 22:01:13 openeuler-riscv64 usermod[28755]: add 'testuser1' to group 'myproject'
+May 24 22:01:13 openeuler-riscv64 usermod[28755]: add 'testuser1' to shadow group 'myproject'
+May 24 22:01:13 openeuler-riscv64 su[28762]: (to testuser1) root on none
+May 24 22:01:13 openeuler-riscv64 su[28762]: pam_unix(su-l:session): session opened for user testuser1(uid=1001) by (uid=0)
+May 24 22:01:14 openeuler-riscv64 dbus-daemon[266]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.190' (uid=1001 pid=28766 comm="/usr/bin/hostnamectl --transient")
+May 24 22:01:14 openeuler-riscv64 systemd[1]: Starting Hostname Service...
+░░ Subject: A start job for unit systemd-hostnamed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has begun execution.
+░░ 
+░░ The job identifier is 21637.
+May 24 22:01:15 openeuler-riscv64 dbus-daemon[266]: [system] Successfully activated service 'org.freedesktop.hostname1'
+May 24 22:01:15 openeuler-riscv64 systemd[1]: Started Hostname Service.
+░░ Subject: A start job for unit systemd-hostnamed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has finished successfully.
+░░ 
+░░ The job identifier is 21637.
+May 24 22:01:17 openeuler-riscv64 su[28762]: pam_unix(su-l:session): session closed for user testuser1
+May 24 22:01:20 openeuler-riscv64 userdel[28823]: delete user 'testuser1'
+May 24 22:01:20 openeuler-riscv64 userdel[28823]: delete 'testuser1' from group 'myproject'
+May 24 22:01:20 openeuler-riscv64 userdel[28823]: removed group 'testuser1' owned by 'testuser1'
+May 24 22:01:20 openeuler-riscv64 userdel[28823]: removed shadow group 'testuser1' owned by 'testuser1'
+May 24 22:01:20 openeuler-riscv64 userdel[28823]: delete 'testuser1' from shadow group 'myproject'
+May 24 22:01:21 openeuler-riscv64 groupdel[28830]: group 'myproject' removed from /etc/group
+May 24 22:01:21 openeuler-riscv64 groupdel[28830]: group 'myproject' removed from /etc/gshadow
+May 24 22:01:21 openeuler-riscv64 groupdel[28830]: group 'myproject' removed
+May 24 22:01:25 openeuler-riscv64 sudo[28664]: pam_unix(sudo:session): session closed for user root
+May 24 22:01:25 openeuler-riscv64 sudo[28848]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_kernel_sysctl -x
+May 24 22:01:25 openeuler-riscv64 sudo[28848]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 22:01:33 openeuler-riscv64 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 28905 (sysctl)
+May 24 22:01:33 openeuler-riscv64 systemd[1]: Mounting Arbitrary Executable File Formats File System...
+░░ Subject: A start job for unit proc-sys-fs-binfmt_misc.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit proc-sys-fs-binfmt_misc.mount has begun execution.
+░░ 
+░░ The job identifier is 21701.
+May 24 22:01:34 openeuler-riscv64 systemd[1]: Mounted Arbitrary Executable File Formats File System.
+░░ Subject: A start job for unit proc-sys-fs-binfmt_misc.mount has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit proc-sys-fs-binfmt_misc.mount has finished successfully.
+░░ 
+░░ The job identifier is 21701.
+May 24 22:01:42 openeuler-riscv64 sudo[28848]: pam_unix(sudo:session): session closed for user root
+May 24 22:01:43 openeuler-riscv64 sudo[28936]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f os-basic -r oe_test_kernel_kdump -x
+May 24 22:01:43 openeuler-riscv64 sudo[28936]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+May 24 22:01:45 openeuler-riscv64 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+May 24 22:02:47 openeuler-riscv64 [RPM][29012]: Transaction ID 646e1907 started
+May 24 22:02:48 openeuler-riscv64 [RPM][29012]: install pigz-2.7-1.oe2303.riscv64: success
+May 24 22:02:49 openeuler-riscv64 [RPM][29012]: install lzo-2.10-2.oe2303.riscv64: success
+May 24 22:02:49 openeuler-riscv64 [RPM][29012]: install squashfs-tools-4.5.1-2.oe2303.riscv64: success
+May 24 22:02:49 openeuler-riscv64 [RPM][29012]: install libkcapi-1.4.0-1.oe2303.riscv64: success
+May 24 22:02:49 openeuler-riscv64 [RPM][29012]: install kpartx-0.8.7-8.oe2303.riscv64: success
+May 24 22:02:51 openeuler-riscv64 [RPM][29012]: install dracut-059-1.oe2303.riscv64: success
+May 24 22:02:51 openeuler-riscv64 [RPM][29012]: install dracut-squash-059-1.oe2303.riscv64: success
+May 24 22:02:51 openeuler-riscv64 [RPM][29012]: install ipcalc-1.0.2-1.oe2303.riscv64: success
+May 24 22:02:51 openeuler-riscv64 groupadd[29019]: group added to /etc/group: name=dhcpd, GID=177
+May 24 22:02:51 openeuler-riscv64 groupadd[29019]: group added to /etc/gshadow: name=dhcpd
+May 24 22:02:51 openeuler-riscv64 groupadd[29019]: new group: name=dhcpd, GID=177
+May 24 22:02:52 openeuler-riscv64 useradd[29027]: new user: name=dhcpd, UID=177, GID=177, home=/, shell=/sbin/nologin, from=none
+May 24 22:02:56 openeuler-riscv64 systemctl[29036]: [/usr/bin/systemctl --no-reload preset dhcpd.service dhcpd6.service dhcrelay.service] called by PID 29034 (/bin/sh /var/tmp/rpm-tmp.kM9DCk 1)
+May 24 22:02:56 openeuler-riscv64 [RPM][29012]: install dhcp-12:4.4.3-1.oe2303.riscv64: success
+May 24 22:02:57 openeuler-riscv64 [RPM][29012]: install dracut-network-059-1.oe2303.riscv64: success
+May 24 22:02:57 openeuler-riscv64 [RPM][29012]: install ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 22:02:57 openeuler-riscv64 systemctl[29038]: [/usr/bin/systemctl --no-reload preset kdump.service] called by PID 29037 (/bin/sh /var/tmp/rpm-tmp.0nFNxJ 1)
+May 24 22:02:58 openeuler-riscv64 [RPM][29012]: install kexec-tools-2.0.23-3.oe2303.riscv64: success
+May 24 22:02:59 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r38f2fe04d3e0495d961e49a54482f411.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r38f2fe04d3e0495d961e49a54482f411.service has finished successfully.
+░░ 
+░░ The job identifier is 21705.
+May 24 22:02:59 openeuler-riscv64 systemctl[29044]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+May 24 22:02:59 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 21768.
+May 24 22:03:00 openeuler-riscv64 systemctl[29057]: [/usr/bin/systemctl daemon-reload] called by PID 29055 (/bin/sh /var/tmp/rpm-tmp.jrwJhD 0)
+May 24 22:03:00 openeuler-riscv64 systemd[1]: Reloading.
+May 24 22:03:02 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 22:03:06 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install pigz-2.7-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 21768.
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install lzo-2.10-2.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install squashfs-tools-4.5.1-2.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install libkcapi-1.4.0-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install kpartx-0.8.7-8.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install dracut-059-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install dracut-squash-059-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install ipcalc-1.0.2-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install dhcp-12:4.4.3-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install dracut-network-059-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install ethtool-2:5.19-1.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: install kexec-tools-2.0.23-3.oe2303.riscv64: success
+May 24 22:03:06 openeuler-riscv64 [RPM][29012]: Transaction ID 646e1907 finished: 0
+May 24 22:03:07 openeuler-riscv64 systemd[1]: run-r38f2fe04d3e0495d961e49a54482f411.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r38f2fe04d3e0495d961e49a54482f411.service has successfully entered the 'dead' state.
+May 24 22:03:12 openeuler-riscv64 systemctl[29084]: [systemctl enable kdump.service] called by PID 28989 (bash -x oe_test_kernel_kdump.sh)
+May 24 22:03:12 openeuler-riscv64 systemd[1]: Reloading.
+May 24 22:03:14 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 22:03:18 openeuler-riscv64 systemctl[29097]: [systemctl start kdump.service] called by PID 28989 (bash -x oe_test_kernel_kdump.sh)
+May 24 22:03:18 openeuler-riscv64 systemd[1]: Starting Crash recovery kernel arming...
+░░ Subject: A start job for unit kdump.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit kdump.service has begun execution.
+░░ 
+░░ The job identifier is 21772.
+May 24 22:03:18 openeuler-riscv64 kdumpctl[29100]: Kdump is not supported on this kernel
+May 24 22:03:18 openeuler-riscv64 kdumpctl[29100]: Starting kdump: [FAILED]
+May 24 22:03:18 openeuler-riscv64 systemd[1]: kdump.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit kdump.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+May 24 22:03:18 openeuler-riscv64 systemd[1]: kdump.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit kdump.service has entered the 'failed' state with result 'exit-code'.
+May 24 22:03:18 openeuler-riscv64 systemd[1]: Failed to start Crash recovery kernel arming.
+░░ Subject: A start job for unit kdump.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit kdump.service has finished with a failure.
+░░ 
+░░ The job identifier is 21772 and the job result is failed.
+May 24 22:03:19 openeuler-riscv64 systemctl[29107]: [systemctl stop kdump.serviceactive] called by PID 28989 (bash -x oe_test_kernel_kdump.sh)
+May 24 22:03:19 openeuler-riscv64 systemctl[29108]: [systemctl disable kdump.service] called by PID 28989 (bash -x oe_test_kernel_kdump.sh)
+May 24 22:03:20 openeuler-riscv64 systemd[1]: Reloading.
+May 24 22:03:22 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 22:03:29 openeuler-riscv64 systemctl[29126]: [systemctl enable kdump.service] called by PID 28989 (bash -x oe_test_kernel_kdump.sh)
+May 24 22:03:29 openeuler-riscv64 systemd[1]: Reloading.
+May 24 22:03:31 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+May 24 22:03:35 openeuler-riscv64 systemctl[29139]: [systemctl start kdump.service] called by PID 28989 (bash -x oe_test_kernel_kdump.sh)
+May 24 22:03:35 openeuler-riscv64 systemd[1]: Starting Crash recovery kernel arming...
+░░ Subject: A start job for unit kdump.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit kdump.service has begun execution.
+░░ 
+░░ The job identifier is 21775.
+May 24 22:03:35 openeuler-riscv64 kdumpctl[29142]: Kdump is not supported on this kernel
+May 24 22:03:35 openeuler-riscv64 kdumpctl[29142]: Starting kdump: [FAILED]
+May 24 22:03:35 openeuler-riscv64 systemd[1]: kdump.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit kdump.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+May 24 22:03:36 openeuler-riscv64 systemd[1]: kdump.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit kdump.service has entered the 'failed' state with result 'exit-code'.
+May 24 22:03:36 openeuler-riscv64 systemd[1]: Failed to start Crash recovery kernel arming.
+░░ Subject: A start job for unit kdump.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit kdump.service has finished with a failure.
+░░ 
+░░ The job identifier is 21775 and the job result is failed.
+May 24 22:03:39 openeuler-riscv64 sudo[28936]: pam_unix(sudo:session): session closed for user root
+May 24 22:03:40 openeuler-riscv64 sudo[29151]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/journalctl -xe --no-pager
+May 24 22:03:40 openeuler-riscv64 sudo[29151]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)

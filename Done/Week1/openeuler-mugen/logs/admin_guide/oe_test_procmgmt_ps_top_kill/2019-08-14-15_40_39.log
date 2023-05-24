@@ -1,0 +1,274 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n '' ']'
++ trap POST_TEST_DEFAULT EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed Aug 14 15:40:43 2019 - INFO  - Start executing testcase!
++ ps -a
++ grep PID
+    PID TTY          TIME CMD
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ps -ef
++ grep root
+root           1       0  2 14:03 ?        00:02:42 /sbin/init
+root           2       0  0 14:03 ?        00:00:00 [kthreadd]
+root           3       2  0 14:03 ?        00:00:00 [rcu_gp]
+root           4       2  0 14:03 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 14:03 ?        00:00:00 [slub_flushwq]
+root           6       2  0 14:03 ?        00:00:00 [netns]
+root           8       2  0 14:03 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 14:03 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 14:03 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          12       2  0 14:03 ?        00:00:00 [ksoftirqd/0]
+root          13       2  0 14:03 ?        00:00:26 [rcu_sched]
+root          14       2  0 14:03 ?        00:00:01 [migration/0]
+root          16       2  0 14:03 ?        00:00:00 [cpuhp/0]
+root          17       2  0 14:03 ?        00:00:00 [cpuhp/1]
+root          18       2  0 14:03 ?        00:00:01 [migration/1]
+root          19       2  0 14:03 ?        00:00:00 [ksoftirqd/1]
+root          21       2  0 14:03 ?        00:00:00 [kworker/1:0H-kblockd]
+root          22       2  0 14:03 ?        00:00:00 [cpuhp/2]
+root          23       2  0 14:03 ?        00:00:00 [migration/2]
+root          24       2  0 14:03 ?        00:00:00 [ksoftirqd/2]
+root          26       2  0 14:03 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          27       2  0 14:03 ?        00:00:00 [cpuhp/3]
+root          28       2  0 14:03 ?        00:00:01 [migration/3]
+root          29       2  0 14:03 ?        00:00:00 [ksoftirqd/3]
+root          31       2  0 14:03 ?        00:00:00 [kworker/3:0H-kblockd]
+root          32       2  0 14:03 ?        00:00:00 [kdevtmpfs]
+root          33       2  0 14:03 ?        00:00:00 [inet_frag_wq]
+root          34       2  0 14:03 ?        00:00:00 [kauditd]
+root          35       2  0 14:03 ?        00:00:00 [khungtaskd]
+root          36       2  0 14:03 ?        00:00:00 [oom_reaper]
+root          38       2  0 14:03 ?        00:00:00 [writeback]
+root          39       2  0 14:03 ?        00:00:01 [kcompactd0]
+root          40       2  0 14:03 ?        00:00:02 [khugepaged]
+root          41       2  0 14:03 ?        00:00:00 [pencrypt_serial]
+root          42       2  0 14:03 ?        00:00:00 [pdecrypt_serial]
+root          43       2  0 14:03 ?        00:00:00 [cryptd]
+root          44       2  0 14:03 ?        00:00:00 [kblockd]
+root          45       2  0 14:03 ?        00:00:00 [blkcg_punt_bio]
+root          46       2  0 14:03 ?        00:00:00 [ata_sff]
+root          48       2  0 14:03 ?        00:00:00 [rpciod]
+root          49       2  0 14:03 ?        00:00:00 [kworker/0:1H-kblockd]
+root          50       2  0 14:03 ?        00:00:00 [xprtiod]
+root          52       2  0 14:03 ?        00:00:00 [kswapd0]
+root          53       2  0 14:03 ?        00:00:00 [nfsiod]
+root          54       2  0 14:03 ?        00:00:00 [kthrotld]
+root          56       2  0 14:03 ?        00:00:00 [hwrng]
+root          57       2  0 14:03 ?        00:00:00 [kworker/1:1H-kblockd]
+root          58       2  0 14:03 ?        00:00:00 [uas]
+root          59       2  0 14:03 ?        00:00:00 [mld]
+root          61       2  0 14:03 ?        00:00:00 [ipv6_addrconf]
+root          62       2  0 14:03 ?        00:00:00 [kworker/2:1H-kblockd]
+root         161       2  0 14:03 ?        00:00:03 [jbd2/vda2-8]
+root         163       2  0 14:03 ?        00:00:00 [ext4-rsv-conver]
+root         167       2  0 14:03 ?        00:00:00 [kworker/3:1H-kblockd]
+root         194       1  0 14:03 ?        00:00:14 /usr/lib/systemd/systemd-journald
+root         208       2  0 14:03 ?        00:00:01 [kworker/0:3-events]
+root         219       1  0 14:03 ?        00:00:12 /usr/lib/systemd/systemd-udevd
+root         248       2  0 14:04 ?        00:00:00 [ext4-rsv-conver]
+root         264       1  0 14:04 ?        00:00:14 /usr/lib/systemd/systemd-logind
+root         266       1  0 14:04 ?        00:00:09 /usr/sbin/NetworkManager --no-daemon
+root         271       1  0 14:04 ?        00:00:01 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         287       1  0 14:04 ?        00:00:00 /usr/sbin/crond -n
+root         289       1  0 14:04 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         290       1  0 14:04 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0 vt220
+root         314     271  0 14:04 ?        00:00:00 sshd: root [priv]
+root         317     314  0 14:04 ?        00:00:01 sshd: root@notty
+root         318     317  0 14:04 ?        00:00:04 python3 mugen_riscv.py -l list_temp --addDisk -m -g -x
+root        3475       1  0 14:16 ?        00:00:00 bash -x oe_test_basic_query_cpu.sh
+root        3498    3475  0 14:17 ?        00:00:00 grep /proc/cpuinfo
+root        4622       2  0 14:50 ?        00:00:01 [kworker/u8:0-ext4-rsv-conversion]
+root        5903       2  0 14:56 ?        00:00:00 [kworker/2:5-events]
+root        5905       2  0 14:56 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+root        6930       1  0 15:01 ?        00:00:00 /usr/sbin/anacron -s
+root        9293       2  0 15:14 ?        00:00:00 [kworker/3:1-cgroup_pidlist_destroy]
+root        9534       2  0 15:15 ?        00:00:00 [kworker/1:1-cgroup_pidlist_destroy]
+root       11578       2  0 15:28 ?        00:00:00 [kworker/3:2-events]
+root       12435       2  0 15:32 ?        00:00:00 [kworker/1:4-cgroup_destroy]
+root       12901       2  0 15:34 ?        00:00:00 [kworker/u8:2-events_unbound]
+root       13228       2  0 15:35 ?        00:00:00 [kworker/2:2-cgroup_destroy]
+root       13229       2  0 15:35 ?        00:00:00 [kworker/0:0]
+root       13504       2  0 15:36 ?        00:00:00 [kworker/3:0-cgroup_destroy]
+root       13952       2  0 15:39 ?        00:00:00 [kworker/3:3-inet_frag_wq]
+root       13972       2  0 15:39 ?        00:00:00 [kworker/u8:1]
+root       13973       2  0 15:39 ?        00:00:00 [kworker/u8:3-ext4-rsv-conversion]
+root       14097     318  0 15:40 ?        00:00:00 sh -c sudo bash mugen.sh -f admin_guide -r oe_test_procmgmt_ps_top_kill -x 2>&1 | tee -a exec.log
+root       14098   14097  2 15:40 ?        00:00:00 sudo bash mugen.sh -f admin_guide -r oe_test_procmgmt_ps_top_kill -x
+root       14099   14097  0 15:40 ?        00:00:00 tee -a exec.log
+root       14100   14098  3 15:40 ?        00:00:00 bash mugen.sh -f admin_guide -r oe_test_procmgmt_ps_top_kill -x
+root       14144   14100 23 15:40 ?        00:00:01 python3 /root/mugen/libs/locallibs/sleep_wait.py --time 30m --cmd bash -x oe_test_procmgmt_ps_top_kill.sh --mode 1
+root       14145   14144  6 15:40 ?        00:00:00 bash -x oe_test_procmgmt_ps_top_kill.sh
+root       14156   14145 99 15:40 ?        00:00:00 ps -ef
+root       14157   14145 60 15:40 ?        00:00:00 grep root
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ top -n 1 -b
++ grep root
+  14158 root      20   0   25948   4868   2928 R  23.1   0.1   0:00.28 top
+      1 root      20   0  167796  14220   8120 S   0.0   0.4   2:42.87 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.07 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_perc+
+     11 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     12 root      20   0       0      0      0 S   0.0   0.0   0:00.25 ksoftir+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:26.00 rcu_sch+
+     14 root      rt   0       0      0      0 S   0.0   0.0   0:01.07 migrati+
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     18 root      rt   0       0      0      0 S   0.0   0.0   0:01.05 migrati+
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.20 ksoftir+
+     21 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2
+     23 root      rt   0       0      0      0 S   0.0   0.0   0:00.12 migrati+
+     24 root      20   0       0      0      0 S   0.0   0.0   0:00.15 ksoftir+
+     26 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     27 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3
+     28 root      rt   0       0      0      0 S   0.0   0.0   0:01.05 migrati+
+     29 root      20   0       0      0      0 S   0.0   0.0   0:00.16 ksoftir+
+     31 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     32 root      20   0       0      0      0 S   0.0   0.0   0:00.07 kdevtmp+
+     33 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 inet_fr+
+     34 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     35 root      20   0       0      0      0 S   0.0   0.0   0:00.01 khungta+
+     36 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
+     38 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeba+
+     39 root      20   0       0      0      0 S   0.0   0.0   0:01.02 kcompac+
+     40 root      39  19       0      0      0 S   0.0   0.0   0:02.42 khugepa+
+     41 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 pencryp+
+     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 pdecryp+
+     43 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 cryptd
+     44 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kblockd
+     45 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 blkcg_p+
+     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ata_sff
+     48 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rpciod
+     49 root       0 -20       0      0      0 I   0.0   0.0   0:00.35 kworker+
+     50 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 xprtiod
+     52 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
+     53 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nfsiod
+     54 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kthrotld
+     56 root      20   0       0      0      0 S   0.0   0.0   0:00.04 hwrng
+     57 root       0 -20       0      0      0 I   0.0   0.0   0:00.29 kworker+
+     58 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 uas
+     59 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mld
+     61 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ipv6_ad+
+     62 root       0 -20       0      0      0 I   0.0   0.0   0:00.27 kworker+
+    161 root      20   0       0      0      0 S   0.0   0.0   0:03.11 jbd2/vd+
+    163 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rs+
+    167 root       0 -20       0      0      0 I   0.0   0.0   0:00.24 kworker+
+    194 root      20   0   64464  22784  17608 S   0.0   0.6   0:14.24 systemd+
+    208 root      20   0       0      0      0 I   0.0   0.0   0:01.13 kworker+
+    219 root      20   0   26856   7768   6420 S   0.0   0.2   0:12.87 systemd+
+    248 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rs+
+    264 root      20   0   15168   6544   5648 S   0.0   0.2   0:14.25 systemd+
+    266 root      20   0  271696  22720  15736 S   0.0   0.6   0:09.33 Network+
+    271 root      20   0   14308   7808   6632 S   0.0   0.2   0:01.25 sshd
+    287 root      20   0   22816   2584   2268 S   0.0   0.1   0:00.49 crond
+    289 root      20   0   21184   1636   1532 S   0.0   0.0   0:00.16 agetty
+    290 root      20   0   20808   1848   1740 S   0.0   0.0   0:00.19 agetty
+    314 root      20   0   16044   8728   7232 S   0.0   0.2   0:00.80 sshd
+    317 root      20   0   16304   5984   4308 S   0.0   0.1   0:01.19 sshd
+    318 root      20   0   32320  12404   5348 S   0.0   0.3   0:04.47 python3
+   3475 root      20   0   22380   3260   2812 S   0.0   0.1   0:00.40 bash
+   3498 root      20   0   21612   1768   1668 S   0.0   0.0   0:00.06 grep
+   4622 root      20   0       0      0      0 I   0.0   0.0   0:01.28 kworker+
+   5903 root      20   0       0      0      0 I   0.0   0.0   0:00.57 kworker+
+   5905 root      20   0       0      0      0 I   0.0   0.0   0:00.46 kworker+
+   6930 root      20   0   21916   1672   1440 S   0.0   0.0   0:00.05 anacron
+   9293 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   9534 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  11578 root      20   0       0      0      0 I   0.0   0.0   0:00.34 kworker+
+  12435 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  12901 root      20   0       0      0      0 I   0.0   0.0   0:00.27 kworker+
+  13228 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  13229 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  13504 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  13952 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  13972 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  13973 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+  14097 root      20   0   22248   2904   2672 S   0.0   0.1   0:00.06 sh
+  14098 root      20   0   31408   6408   5420 S   0.0   0.2   0:00.26 sudo
+  14099 root      20   0   20768    668    600 S   0.0   0.0   0:00.06 tee
+  14100 root      20   0   22644   3468   2772 S   0.0   0.1   0:00.36 bash
+  14144 root      20   0   31364  10452   5544 S   0.0   0.3   0:01.09 python3
+  14145 root      20   0   22380   3256   2820 S   0.0   0.1   0:00.24 bash
+  14159 root      20   0   21612   1776   1676 S   0.0   0.0   0:00.05 grep
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ kill -l
++ grep SIGHUP
+ 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed Aug 14 15:40:45 2019 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Aug 14 15:40:46 2019 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ POST_TEST_DEFAULT
++ LOG_INFO 'oe_test_procmgmt_ps_top_kill.sh post_test'
++ message='oe_test_procmgmt_ps_top_kill.sh post_test'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'oe_test_procmgmt_ps_top_kill.sh post_test'
+Wed Aug 14 15:40:47 2019 - INFO  - oe_test_procmgmt_ps_top_kill.sh post_test

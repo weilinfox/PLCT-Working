@@ -1,0 +1,40 @@
+Wed May 24 18:46:52 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoconf-2.13.
+Wed May 24 18:48:09 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:48:10 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoconf-2.13.
+Wed May 24 18:48:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:48:16 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoheader-2.13.
+Wed May 24 18:49:30 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:49:31 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoheader-2.13.
+Wed May 24 18:49:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:49:37 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoreconf-2.13_01.
+Wed May 24 18:50:46 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:50:48 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoreconf-2.13_01.
+Wed May 24 18:50:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:50:54 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoreconf-2.13_02.
+Wed May 24 18:52:06 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:52:07 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoreconf-2.13_02.
+Wed May 24 18:52:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:52:14 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoreconf-2.13_03.
+Wed May 24 18:53:29 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:53:30 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoreconf-2.13_03.
+Wed May 24 18:53:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:53:36 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoreconf-2.13_04.
+Wed May 24 18:54:52 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:54:53 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoreconf-2.13_04.
+Wed May 24 18:54:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:55:00 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoreconf-2.13_05.
+Wed May 24 18:56:19 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:56:20 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoreconf-2.13_05.
+Wed May 24 18:56:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:56:27 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoreconf-2.13_06.
+Wed May 24 18:57:42 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:57:43 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoreconf-2.13_06.
+Wed May 24 18:57:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:57:49 2023 - INFO  - start to run testcase:oe_test_autoconf213_autoupdate-2.13.
+Wed May 24 18:59:05 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:59:06 2023 - INFO  - End to run testcase:oe_test_autoconf213_autoupdate-2.13.
+Wed May 24 18:59:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:59:13 2023 - INFO  - start to run testcase:oe_test_autoconf213_ifnames-2.13.
+Wed May 24 19:00:26 2023 - INFO  - The case exit by code 0.
+Wed May 24 19:00:27 2023 - INFO  - End to run testcase:oe_test_autoconf213_ifnames-2.13.
+Wed May 24 19:00:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

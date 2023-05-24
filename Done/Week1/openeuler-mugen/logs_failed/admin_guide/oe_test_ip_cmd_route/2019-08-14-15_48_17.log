@@ -1,0 +1,156 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ grep expect
++ rpm -qa
+++ type -t config_params
++ '[' -n function ']'
++ config_params
++ LOG_INFO 'Start loading data!'
++ message='Start loading data!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start loading data!'
+Wed Aug 14 15:48:21 2019 - INFO  - Start loading data!
+++ ls /sys/class/net/
+++ grep -Ewv 'lo.*|docker.*|bond.*|vlan.*|virbr.*|br.*'
+++ sed -n 1p
++++ ip route
++++ grep 127.0.0.1
++++ awk '{print$3}'
+++ grep -v
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
++ test_eth1=
++ LOG_INFO 'Loading data is complete!'
++ message='Loading data is complete!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Loading data is complete!'
+Wed Aug 14 15:48:22 2019 - INFO  - Loading data is complete!
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed Aug 14 15:48:23 2019 - INFO  - Start executing testcase!
++ ip addr add 192.168.2.100/24 dev
+Command line is not complete. Try option "help"
++ ip addr add 2001:222::2/64 dev
+Command line is not complete. Try option "help"
++ CHECK_RESULT 255
++ actual_result=255
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 0 -eq 0 ']'
++ test 255x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_cmd_route.sh line 29'
++ message='oe_test_ip_cmd_route.sh line 29'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_cmd_route.sh line 29'
+Wed Aug 14 15:48:24 2019 - ERROR - oe_test_ip_cmd_route.sh line 29
++ '[' 0 -eq 1 ']'
++ return 0
++ ip -6 route add 2001:224::0/64 via 2001:222::1 mtu lock 1500
+RTNETLINK answers: No route to host
++ CHECK_RESULT 2
++ actual_result=2
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 0 -eq 0 ']'
++ test 2x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_cmd_route.sh line 31'
++ message='oe_test_ip_cmd_route.sh line 31'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_cmd_route.sh line 31'
+Wed Aug 14 15:48:25 2019 - ERROR - oe_test_ip_cmd_route.sh line 31
++ '[' 0 -eq 1 ']'
++ return 0
++ ip -6 route
++ grep 2001:224::/64
++ grep mtu
++ grep 1500
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_cmd_route.sh line 33'
++ message='oe_test_ip_cmd_route.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_cmd_route.sh line 33'
+Wed Aug 14 15:48:26 2019 - ERROR - oe_test_ip_cmd_route.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ ip -6 route del 2001:224::0/64
+RTNETLINK answers: No such process
++ CHECK_RESULT 2
++ actual_result=2
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 0 -eq 0 ']'
++ test 2x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_cmd_route.sh line 35'
++ message='oe_test_ip_cmd_route.sh line 35'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_cmd_route.sh line 35'
+Wed Aug 14 15:48:27 2019 - ERROR - oe_test_ip_cmd_route.sh line 35
++ '[' 0 -eq 1 ']'
++ return 0
++ grep 2001:224::0/64
++ ip -6 route
++ CHECK_RESULT 1 0 1
++ actual_result=1
++ expect_result=0
++ mode=1
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 1 -eq 0 ']'
++ test 1x == 0x
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed Aug 14 15:48:28 2019 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z 4
++ test 4 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:48:29 2019 - ERROR - failed to execute the case.
++ exit 4
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:48:30 2019 - INFO  - start environment cleanup.
++ nmcli con delete
+Error: No connection specified.
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:48:32 2019 - INFO  - Finish environment cleanup.

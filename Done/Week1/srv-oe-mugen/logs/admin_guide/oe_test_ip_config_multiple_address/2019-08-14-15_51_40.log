@@ -1,0 +1,122 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n function ']'
++ config_params
++ LOG_INFO 'Start loading data!'
++ message='Start loading data!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start loading data!'
+Wed Aug 14 15:51:44 2019 - INFO  - Start loading data!
+++ ls /sys/class/net/
+++ grep -Ewv 'lo.*|docker.*|bond.*|vlan.*|virbr.*|br.*'
+++ sed -n 1p
++++ ip route
++++ awk '{print$3}'
++++ grep 127.0.0.1
+++ grep -v
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
++ test_eth1=
++ LOG_INFO 'Loading data is complete!'
++ message='Loading data is complete!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Loading data is complete!'
+Wed Aug 14 15:51:45 2019 - INFO  - Loading data is complete!
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed Aug 14 15:51:45 2019 - INFO  - Start executing testcase!
++ ip address add 192.168.2.223/24 dev
+Command line is not complete. Try option "help"
++ CHECK_RESULT 255
++ actual_result=255
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 0 -eq 0 ']'
++ test 255x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_multiple_address.sh line 29'
++ message='oe_test_ip_config_multiple_address.sh line 29'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_multiple_address.sh line 29'
+Wed Aug 14 15:51:46 2019 - ERROR - oe_test_ip_config_multiple_address.sh line 29
++ '[' 0 -eq 1 ']'
++ return 0
++ ip address add 192.168.4.223/24 dev
+Command line is not complete. Try option "help"
++ CHECK_RESULT 255
++ actual_result=255
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 0 -eq 0 ']'
++ test 255x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_multiple_address.sh line 31'
++ message='oe_test_ip_config_multiple_address.sh line 31'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_multiple_address.sh line 31'
+Wed Aug 14 15:51:47 2019 - ERROR - oe_test_ip_config_multiple_address.sh line 31
++ '[' 0 -eq 1 ']'
++ return 0
+++ ip addr show dev
+++ grep -cE '192.168.2.223|192.168.4.223'
+Command line is not complete. Try option "help"
++ CHECK_RESULT 0 2
++ actual_result=0
++ expect_result=2
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 2x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_multiple_address.sh line 32'
++ message='oe_test_ip_config_multiple_address.sh line 32'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_multiple_address.sh line 32'
+Wed Aug 14 15:51:48 2019 - ERROR - oe_test_ip_config_multiple_address.sh line 32
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed Aug 14 15:51:49 2019 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z 3
++ test 3 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:51:50 2019 - ERROR - failed to execute the case.
++ exit 3
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:51:51 2019 - INFO  - start environment cleanup.
++ nmcli con delete
+Error: No connection specified.
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:51:52 2019 - INFO  - Finish environment cleanup.

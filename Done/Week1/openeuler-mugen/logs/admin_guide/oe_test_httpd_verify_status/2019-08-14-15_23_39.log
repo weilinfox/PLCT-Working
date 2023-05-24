@@ -1,0 +1,248 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed Aug 14 15:23:43 2019 - INFO  - Start environment preparation.
++ DNF_INSTALL httpd
++ pkgs=httpd
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs httpd --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: -1379 days, 23:05:58 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                   Arch        Version               Repository    Size
+================================================================================
+Installing:
+ httpd                     riscv64     2.4.55-1.oe2303       mainline     1.2 M
+Installing dependencies:
+ apr                       riscv64     1.7.0-5.oe2303        mainline     105 k
+ apr-util                  riscv64     1.6.1-14.oe2303       mainline     110 k
+ httpd-filesystem          noarch      2.4.55-1.oe2303       mainline      11 k
+ httpd-tools               riscv64     2.4.55-1.oe2303       mainline      67 k
+ mailcap                   noarch      2.1.53-3.oe2303       mainline      34 k
+ mariadb-connector-c       riscv64     3.1.13-2.oe2303       mainline     178 k
+ mod_http2                 riscv64     2.0.3-1.oe2303        mainline     115 k
+ openEuler-logos-httpd     noarch      1.0-8.oe2303          mainline      11 k
+
+Transaction Summary
+================================================================================
+Install  9 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] httpd-2.4.55-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/httpd-2.4.55-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] apr-1.7.0-5.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: -1379 days, 23:05:58 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                   Arch        Version               Repository    Size
+================================================================================
+Installing:
+ httpd                     riscv64     2.4.55-1.oe2303       mainline     1.2 M
+Installing dependencies:
+ apr                       riscv64     1.7.0-5.oe2303        mainline     105 k
+ apr-util                  riscv64     1.6.1-14.oe2303       mainline     110 k
+ httpd-filesystem          noarch      2.4.55-1.oe2303       mainline      11 k
+ httpd-tools               riscv64     2.4.55-1.oe2303       mainline      67 k
+ mailcap                   noarch      2.1.53-3.oe2303       mainline      34 k
+ mariadb-connector-c       riscv64     3.1.13-2.oe2303       mainline     178 k
+ mod_http2                 riscv64     2.0.3-1.oe2303        mainline     115 k
+ openEuler-logos-httpd     noarch      1.0-8.oe2303          mainline      11 k
+
+Transaction Summary
+================================================================================
+Install  9 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] httpd-2.4.55-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/httpd-2.4.55-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] apr-1.7.0-5.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed Aug 14 15:24:22 2019 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Wed Aug 14 15:24:23 2019 - INFO  - Start executing testcase.
++ systemctl enable httpd
+Failed to enable unit: Unit file httpd.service does not exist.
++ systemctl daemon-reload
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl restart httpd
+Failed to restart httpd.service: Unit httpd.service not found.
++ SLEEP_WAIT 8
++ wait_time=8
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 8 --cmd '' --mode 1
++ systemctl start httpd
+Failed to start httpd.service: Unit httpd.service not found.
++ SLEEP_WAIT 7
++ wait_time=7
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 7 --cmd '' --mode 1
++ systemctl is-active httpd.service
++ grep active
+inactive
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End of  executing testcase.'
++ message='End of  executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of  executing testcase.'
+Wed Aug 14 15:24:52 2019 - INFO  - End of  executing testcase.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Aug 14 15:24:53 2019 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:24:54 2019 - INFO  - start environment cleanup.
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: -1379 days, 23:05:58 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                   Arch        Version               Repository    Size
+================================================================================
+Installing:
+ httpd                     riscv64     2.4.55-1.oe2303       mainline     1.2 M
+Installing dependencies:
+ apr                       riscv64     1.7.0-5.oe2303        mainline     105 k
+ apr-util                  riscv64     1.6.1-14.oe2303       mainline     110 k
+ httpd-filesystem          noarch      2.4.55-1.oe2303       mainline      11 k
+ httpd-tools               riscv64     2.4.55-1.oe2303       mainline      67 k
+ mailcap                   noarch      2.1.53-3.oe2303       mainline      34 k
+ mariadb-connector-c       riscv64     3.1.13-2.oe2303       mainline     178 k
+ mod_http2                 riscv64     2.0.3-1.oe2303        mainline     115 k
+ openEuler-logos-httpd     noarch      1.0-8.oe2303          mainline      11 k
+
+Transaction Summary
+================================================================================
+Install  9 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] httpd-2.4.55-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/httpd-2.4.55-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] apr-1.7.0-5.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2303.riscv64: Cannot download, all mirrors were already tried without success ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: -1379 days, 23:05:58 ago on Tue 23 May 2023 04:18:18 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                   Arch        Version               Repository    Size
+================================================================================
+Installing:
+ httpd                     riscv64     2.4.55-1.oe2303       mainline     1.2 M
+Installing dependencies:
+ apr                       riscv64     1.7.0-5.oe2303        mainline     105 k
+ apr-util                  riscv64     1.6.1-14.oe2303       mainline     110 k
+ httpd-filesystem          noarch      2.4.55-1.oe2303       mainline      11 k
+ httpd-tools               riscv64     2.4.55-1.oe2303       mainline      67 k
+ mailcap                   noarch      2.1.53-3.oe2303       mainline      34 k
+ mariadb-connector-c       riscv64     3.1.13-2.oe2303       mainline     178 k
+ mod_http2                 riscv64     2.0.3-1.oe2303        mainline     115 k
+ openEuler-logos-httpd     noarch      1.0-8.oe2303          mainline      11 k
+
+Transaction Summary
+================================================================================
+Install  9 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] httpd-2.4.55-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/httpd-2.4.55-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] apr-1.7.0-5.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "Last metadata expiration check: -1379 days, 23:05:58 ago on Tue 23 May 2023 04:18:18 PM CST.\nDependencies resolved.\n================================================================================\n Package                   Arch        Version               Repository    Size\n================================================================================\nInstalling:\n httpd                     riscv64     2.4.55-1.oe2303       mainline     1.2 M\nInstalling dependencies:\n apr                       riscv64     1.7.0-5.oe2303        mainline     105 k\n apr-util                  riscv64     1.6.1-14.oe2303       mainline     110 k\n httpd-filesystem          noarch      2.4.55-1.oe2303       mainline      11 k\n httpd-tools               riscv64     2.4.55-1.oe2303       mainline      67 k\n mailcap                   noarch      2.1.53-3.oe2303       mainline      34 k\n mariadb-connector-c       riscv64     3.1.13-2.oe2303       mainline     178 k\n mod_http2                 riscv64     2.0.3-1.oe2303        mainline     115 k\n openEuler-logos-httpd     noarch      1.0-8.oe2303          mainline      11 k\n\nTransaction Summary\n================================================================================\nInstall  9 Packages\n\nTotal download size: 1.8 M\nInstalled size: 5.6 M\nDownloading Packages:\n[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] httpd-2.4.55-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/httpd-2.4.55-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] apr-1.7.0-5.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-1.7.0-5.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] apr-util-1.6.1-14.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/apr-util-1.6.1-14.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[FAILED] apr-1.7.0-5.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success\n\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Error downloading packages:\n  apr-1.7.0-5.oe2303.riscv64: Cannot download, all mirrors were already tried without success"
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:24:59 2019 - INFO  - Finish environment cleanup.

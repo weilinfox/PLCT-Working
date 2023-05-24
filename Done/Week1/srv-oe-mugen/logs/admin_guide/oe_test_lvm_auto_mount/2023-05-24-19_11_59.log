@@ -1,0 +1,134 @@
++ source ../common/disk_lib.sh
+++ source /root/mugen/libs/locallibs/common_lib.sh
++++ python3 --version
++++ '[' 0 -eq 0 ']'
++++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed May 24 19:12:03 2023 - INFO  - Start environment preparation.
++ check_free_disk
+++ TEST_DISK
+++ id=1
+++ python3 /root/mugen/libs/locallibs/get_test_device.py --device disk --node 1
++ disks=vdb
++ disk_list=($disks)
++ local_disk=vdb
++ local_disk1=
++ local_disk2=
++ local_disk3=
++ pvcreate -y /dev/vdb /dev/
+  No device found for /dev/.
+  Physical volume "/dev/vdb" successfully created.
++ vgcreate -y vg1 /dev/vdb /dev/
+  No device found for /dev/.
+  Command requires all devices to be found.
++ lvcreate -y -L 2G -n lv1 vg1
+  Volume group "vg1" not found
+  Cannot process volume group vg1
++ mkfs.ext4 /dev/vg1/lv1
+mke2fs 1.46.5 (30-Dec-2021)
+The file /dev/vg1/lv1 does not exist and no size was specified.
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed May 24 19:12:18 2023 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed May 24 19:12:19 2023 - INFO  - Start executing testcase!
++ mkdir /tmp/test
++ blkid /dev/vg1/lv1
++ CHECK_RESULT 2
++ actual_result=2
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 0 -eq 0 ']'
++ test 2x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_lvm_auto_mount.sh line 34'
++ message='oe_test_lvm_auto_mount.sh line 34'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_lvm_auto_mount.sh line 34'
+Wed May 24 19:12:20 2023 - ERROR - oe_test_lvm_auto_mount.sh line 34
++ '[' 0 -eq 1 ']'
++ return 0
+++ blkid /dev/vg1/lv1
+++ awk -F '"' '{print$2}'
++ lv_uuid=
++ echo 'UUID= /tmp/test ext4 defaults 0 0'
++ mount -a
+mount: /tmp/test: special device UUID= does not exist.
++ lsblk
++ grep vg1-lv1
++ grep /tmp/test
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_lvm_auto_mount.sh line 39'
++ message='oe_test_lvm_auto_mount.sh line 39'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_lvm_auto_mount.sh line 39'
+Wed May 24 19:12:21 2023 - ERROR - oe_test_lvm_auto_mount.sh line 39
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed May 24 19:12:22 2023 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z 2
++ test 2 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed May 24 19:12:23 2023 - ERROR - failed to execute the case.
++ exit 2
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed May 24 19:12:24 2023 - INFO  - start environment cleanup.
++ umount /tmp/test
+umount: /tmp/test: not mounted.
++ rm -rf /tmp/test
++ lvremove /dev/vg1/lv1 -y
+  Volume group "vg1" not found
+  Cannot process volume group vg1
++ vgremove /dev/vg1
+  Volume group "vg1" not found
+  Cannot process volume group vg1
++ pvremove /dev/vdb /dev/
+  No device found for /dev/.
+  Labels on physical volume "/dev/vdb" successfully wiped.
++ sed -i //d /etc/fstab
+sed: -e expression #1, char 0: no previous regular expression
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed May 24 19:12:27 2023 - INFO  - Finish environment cleanup.

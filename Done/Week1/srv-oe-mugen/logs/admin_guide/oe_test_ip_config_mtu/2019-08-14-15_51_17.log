@@ -1,0 +1,223 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n function ']'
++ config_params
++ LOG_INFO 'Start loading data!'
++ message='Start loading data!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start loading data!'
+Wed Aug 14 15:51:20 2019 - INFO  - Start loading data!
+++ ls /sys/class/net/
+++ grep -Ewv 'lo.*|docker.*|bond.*|vlan.*|virbr.*|br.*'
+++ sed -n 1p
++++ ip route
++++ grep 127.0.0.1
++++ awk '{print$3}'
+++ grep -v
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
++ test_eth1=
++ LOG_INFO 'Loading data is complete!'
++ message='Loading data is complete!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Loading data is complete!'
+Wed Aug 14 15:51:21 2019 - INFO  - Loading data is complete!
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase!'
++ message='Start executing testcase!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase!'
+Wed Aug 14 15:51:22 2019 - INFO  - Start executing testcase!
++ ip address add 192.168.2.100/24 dev
+Command line is not complete. Try option "help"
++ CHECK_RESULT 255
++ actual_result=255
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 0 -eq 0 ']'
++ test 255x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_mtu.sh line 28'
++ message='oe_test_ip_config_mtu.sh line 28'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_mtu.sh line 28'
+Wed Aug 14 15:51:23 2019 - ERROR - oe_test_ip_config_mtu.sh line 28
++ '[' 0 -eq 1 ']'
++ return 0
++ ip addr show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 52:54:00:11:45:03 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute eth0
+       valid_lft 79891sec preferred_lft 79891sec
+    inet6 fec0::7a72:ddf7:aa57:852b/64 scope site dynamic noprefixroute 
+       valid_lft 86371sec preferred_lft 14371sec
+    inet6 fe80::7817:77c5:98b8:399f/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/sit 0.0.0.0 brd 0.0.0.0
++ ip link set dev mtu 1200
+Error: either "dev" is duplicate, or "1200" is a garbage.
++ CHECK_RESULT 255
++ actual_result=255
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 0 -eq 0 ']'
++ test 255x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_mtu.sh line 31'
++ message='oe_test_ip_config_mtu.sh line 31'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_mtu.sh line 31'
+Wed Aug 14 15:51:24 2019 - ERROR - oe_test_ip_config_mtu.sh line 31
++ '[' 0 -eq 1 ']'
++ return 0
++ ip addr show
++ grep mtu
++ grep 1200
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_mtu.sh line 33'
++ message='oe_test_ip_config_mtu.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_mtu.sh line 33'
+Wed Aug 14 15:51:25 2019 - ERROR - oe_test_ip_config_mtu.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ ip addr add 2001:222::2/64 dev
+Command line is not complete. Try option "help"
++ CHECK_RESULT 255 0 1
++ actual_result=255
++ expect_result=0
++ mode=1
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 1 -eq 0 ']'
++ test 255x == 0x
++ return 0
++ ip link set dev mtu 1500
+Error: either "dev" is duplicate, or "1500" is a garbage.
++ CHECK_RESULT 255
++ actual_result=255
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 0 -eq 0 ']'
++ test 255x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_mtu.sh line 37'
++ message='oe_test_ip_config_mtu.sh line 37'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_mtu.sh line 37'
+Wed Aug 14 15:51:26 2019 - ERROR - oe_test_ip_config_mtu.sh line 37
++ '[' 0 -eq 1 ']'
++ return 0
++ ip addr show
++ grep mtu
++ grep 1500
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ ip addr add 2001:222::2/64 dev
+Command line is not complete. Try option "help"
++ CHECK_RESULT 255
++ actual_result=255
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 255 ']'
++ '[' 0 -eq 0 ']'
++ test 255x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_mtu.sh line 41'
++ message='oe_test_ip_config_mtu.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_mtu.sh line 41'
+Wed Aug 14 15:51:27 2019 - ERROR - oe_test_ip_config_mtu.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ ip addr show
++ grep inet6
++ grep 2001:222::2/64
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ip_config_mtu.sh line 43'
++ message='oe_test_ip_config_mtu.sh line 43'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ip_config_mtu.sh line 43'
+Wed Aug 14 15:51:28 2019 - ERROR - oe_test_ip_config_mtu.sh line 43
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution!'
++ message='End of testcase execution!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution!'
+Wed Aug 14 15:51:29 2019 - INFO  - End of testcase execution!
++ CASE_RESULT 0
++ case_re=0
++ test -z 6
++ test 6 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:51:30 2019 - ERROR - failed to execute the case.
++ exit 6
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:51:31 2019 - INFO  - start environment cleanup.
++ nmcli con delete
+Error: No connection specified.
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:51:32 2019 - INFO  - Finish environment cleanup.

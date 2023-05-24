@@ -1,0 +1,226 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed Aug 14 15:27:47 2019 - INFO  - Start environment preparation.
++ DNF_INSTALL createrepo
++ pkgs=createrepo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs createrepo --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: -1380 days, 20:49:25 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package            Architecture  Version                  Repository      Size
+================================================================================
+Installing:
+ createrepo_c       riscv64       0.20.1-1.oe2303          mainline       130 k
+Installing dependencies:
+ drpm               riscv64       0.5.1-1.oe2303           mainline        58 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 188 k
+Installed size: 508 k
+Downloading Packages:
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] drpm-0.5.1-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  drpm-0.5.1-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: -1380 days, 20:49:25 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package            Architecture  Version                  Repository      Size
+================================================================================
+Installing:
+ createrepo_c       riscv64       0.20.1-1.oe2303          mainline       130 k
+Installing dependencies:
+ drpm               riscv64       0.5.1-1.oe2303           mainline        58 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 188 k
+Installed size: 508 k
+Downloading Packages:
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] drpm-0.5.1-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  drpm-0.5.1-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ LOG_INFO 'environment preparation is over.'
++ message='environment preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'environment preparation is over.'
+Wed Aug 14 15:28:29 2019 - INFO  - environment preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Wed Aug 14 15:28:30 2019 - INFO  - Start executing testcase.
++ mount /dev/cdrom /mnt
+mount: /mnt: special device /dev/cdrom does not exist.
++ mkdir -p /srv/repo/
++ cp -r /mnt/Packages /srv/repo/
+cp: cannot stat '/mnt/Packages': No such file or directory
++ createrepo --database /srv/repo/
+oe_test_dnf_create_local_repository.sh: line 31: createrepo: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_dnf_create_local_repository.sh line 32'
++ message='oe_test_dnf_create_local_repository.sh line 32'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_dnf_create_local_repository.sh line 32'
+Wed Aug 14 15:28:31 2019 - ERROR - oe_test_dnf_create_local_repository.sh line 32
++ '[' 0 -eq 1 ']'
++ return 0
++ find /srv/repo/repodata
+find: ‘/srv/repo/repodata’: No such file or directory
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_dnf_create_local_repository.sh line 34'
++ message='oe_test_dnf_create_local_repository.sh line 34'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_dnf_create_local_repository.sh line 34'
+Wed Aug 14 15:28:32 2019 - ERROR - oe_test_dnf_create_local_repository.sh line 34
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution.'
++ message='End of testcase execution.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution.'
+Wed Aug 14 15:28:33 2019 - INFO  - End of testcase execution.
++ CASE_RESULT 0
++ case_re=0
++ test -z 2
++ test 2 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:28:34 2019 - ERROR - failed to execute the case.
++ exit 2
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:28:35 2019 - INFO  - start environment cleanup.
++ umount /mnt
+umount: /mnt: not mounted.
++ rm -rf '/srv/repo/*'
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: -1380 days, 20:49:25 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package            Architecture  Version                  Repository      Size
+================================================================================
+Installing:
+ createrepo_c       riscv64       0.20.1-1.oe2303          mainline       130 k
+Installing dependencies:
+ drpm               riscv64       0.5.1-1.oe2303           mainline        58 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 188 k
+Installed size: 508 k
+Downloading Packages:
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] drpm-0.5.1-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  drpm-0.5.1-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: -1380 days, 20:49:25 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package            Architecture  Version                  Repository      Size
+================================================================================
+Installing:
+ createrepo_c       riscv64       0.20.1-1.oe2303          mainline       130 k
+Installing dependencies:
+ drpm               riscv64       0.5.1-1.oe2303           mainline        58 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 188 k
+Installed size: 508 k
+Downloading Packages:
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] drpm-0.5.1-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  drpm-0.5.1-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 181, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 152, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "Last metadata expiration check: -1380 days, 20:49:25 ago on Wed 24 May 2023 06:38:57 PM CST.\nDependencies resolved.\n================================================================================\n Package            Architecture  Version                  Repository      Size\n================================================================================\nInstalling:\n createrepo_c       riscv64       0.20.1-1.oe2303          mainline       130 k\nInstalling dependencies:\n drpm               riscv64       0.5.1-1.oe2303           mainline        58 k\n\nTransaction Summary\n================================================================================\nInstall  2 Packages\n\nTotal download size: 188 k\nInstalled size: 508 k\nDownloading Packages:\n[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] createrepo_c-0.20.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/createrepo_c-0.20.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] drpm-0.5.1-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/drpm-0.5.1-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[FAILED] drpm-0.5.1-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success\n\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Error downloading packages:\n  drpm-0.5.1-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success"
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:28:40 2019 - INFO  - Finish environment cleanup.

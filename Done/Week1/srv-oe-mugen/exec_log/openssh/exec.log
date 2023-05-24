@@ -1,0 +1,28 @@
+Wed May 24 18:27:43 2023 - INFO  - start to run testcase:oe_test_openssh_cipher.
+Wed May 24 18:28:32 2023 - ERROR - The case exit by code 2.
+Wed May 24 18:28:33 2023 - INFO  - End to run testcase:oe_test_openssh_cipher.
+Wed May 24 18:28:34 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Wed May 24 18:28:40 2023 - INFO  - start to run testcase:oe_test_service_sshd.
+Wed May 24 18:29:42 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:29:43 2023 - INFO  - End to run testcase:oe_test_service_sshd.
+Wed May 24 18:29:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:29:50 2023 - INFO  - start to run testcase:oe_test_socket_sshd.
+Wed May 24 18:30:01 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:30:02 2023 - INFO  - End to run testcase:oe_test_socket_sshd.
+Wed May 24 18:30:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:30:09 2023 - INFO  - start to run testcase:oe_test_target_sshd-keygen.
+Wed May 24 18:30:40 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:30:41 2023 - INFO  - End to run testcase:oe_test_target_sshd-keygen.
+Wed May 24 18:30:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:30:48 2023 - INFO  - start to run testcase:oe_test_start_ssh.
+Wed May 24 18:31:13 2023 - INFO  - The case exit by code 0.
+Wed May 24 18:31:14 2023 - INFO  - End to run testcase:oe_test_start_ssh.
+Wed May 24 18:31:15 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed May 24 18:31:20 2023 - INFO  - start to run testcase:oe_test_sec_ssh.
+Wed May 24 18:33:50 2023 - ERROR - The case exit by code 4.
+Wed May 24 18:33:51 2023 - INFO  - End to run testcase:oe_test_sec_ssh.
+Wed May 24 18:33:52 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Wed May 24 18:33:58 2023 - INFO  - start to run testcase:oe_test_sec_jump_login.
+Wed May 24 18:34:13 2023 - ERROR - The case exit by code 2.
+Wed May 24 18:34:15 2023 - INFO  - End to run testcase:oe_test_sec_jump_login.
+Wed May 24 18:34:16 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

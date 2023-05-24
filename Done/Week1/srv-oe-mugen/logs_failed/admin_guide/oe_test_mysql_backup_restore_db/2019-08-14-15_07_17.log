@@ -1,0 +1,704 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ source ../common/mysql_pre.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed Aug 14 15:07:21 2019 - INFO  - Start environment preparation.
++ yum list
++ grep 'mysql.*-server'
+mysql-server.riscv64                                    8.0.30-2.oe2303                                   mainline     
++ '[' 0 -eq 0 ']'
+++ yum list --installed
+++ grep 'mysql.*-server'
+++ awk -F ' ' '{print $1}'
++ rmpck=
++ '[' x '!=' x ']'
++ rm -rf '/var/lib/mysql/*'
+++ yum list
+++ grep 'mysql.*-server'
+++ awk -F ' ' '{print $1}'
++ pck=mysql-server.riscv64
++ DNF_INSTALL mysql-server.riscv64
++ pkgs=mysql-server.riscv64
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs mysql-server.riscv64 --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: -1380 days, 20:30:22 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                      Arch    Version                    Repo      Size
+================================================================================
+Installing:
+ mysql-server                 riscv64 8.0.30-2.oe2303            mainline  31 M
+Installing dependencies:
+ audit                        riscv64 1:3.0.9-1.oe2303           mainline 178 k
+ checkpolicy                  riscv64 3.4-2.oe2303               mainline 289 k
+ greatsql-mysql-config        riscv64 8.0.25-16.7.oe2303.oe2303  mainline 9.4 k
+ mecab                        riscv64 0.996-2.oe2303             mainline 365 k
+ mysql                        riscv64 8.0.30-2.oe2303            mainline  13 M
+ mysql-common                 riscv64 8.0.30-2.oe2303            mainline  30 k
+ mysql-errmsg                 riscv64 8.0.30-2.oe2303            mainline 556 k
+ numactl-libs                 riscv64 2.0.16-3.oe2303            mainline  28 k
+ policycoreutils              riscv64 3.4-1.oe2303               mainline 156 k
+ policycoreutils-python-utils noarch  3.4-1.oe2303               mainline  24 k
+ protobuf-lite                riscv64 3.14.0-6.oe2303            mainline 207 k
+ python3-IPy                  noarch  1.01-2.oe2303              mainline  37 k
+ python3-audit                riscv64 1:3.0.9-1.oe2303           mainline  72 k
+ python3-libselinux           riscv64 3.4-1.oe2303               mainline 159 k
+ python3-libsemanage          riscv64 3.4-1.oe2303               mainline  66 k
+ python3-policycoreutils      noarch  3.4-1.oe2303               mainline 2.1 M
+ python3-setools              riscv64 4.4.0-3.oe2303             mainline 504 k
+
+Transaction Summary
+================================================================================
+Install  18 Packages
+
+Total download size: 49 M
+Installed size: 263 M
+Downloading Packages:
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] audit-3.0.9-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  audit-1:3.0.9-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: -1380 days, 20:30:22 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                      Arch    Version                    Repo      Size
+================================================================================
+Installing:
+ mysql-server                 riscv64 8.0.30-2.oe2303            mainline  31 M
+Installing dependencies:
+ audit                        riscv64 1:3.0.9-1.oe2303           mainline 178 k
+ checkpolicy                  riscv64 3.4-2.oe2303               mainline 289 k
+ greatsql-mysql-config        riscv64 8.0.25-16.7.oe2303.oe2303  mainline 9.4 k
+ mecab                        riscv64 0.996-2.oe2303             mainline 365 k
+ mysql                        riscv64 8.0.30-2.oe2303            mainline  13 M
+ mysql-common                 riscv64 8.0.30-2.oe2303            mainline  30 k
+ mysql-errmsg                 riscv64 8.0.30-2.oe2303            mainline 556 k
+ numactl-libs                 riscv64 2.0.16-3.oe2303            mainline  28 k
+ policycoreutils              riscv64 3.4-1.oe2303               mainline 156 k
+ policycoreutils-python-utils noarch  3.4-1.oe2303               mainline  24 k
+ protobuf-lite                riscv64 3.14.0-6.oe2303            mainline 207 k
+ python3-IPy                  noarch  1.01-2.oe2303              mainline  37 k
+ python3-audit                riscv64 1:3.0.9-1.oe2303           mainline  72 k
+ python3-libselinux           riscv64 3.4-1.oe2303               mainline 159 k
+ python3-libsemanage          riscv64 3.4-1.oe2303               mainline  66 k
+ python3-policycoreutils      noarch  3.4-1.oe2303               mainline 2.1 M
+ python3-setools              riscv64 4.4.0-3.oe2303             mainline 504 k
+
+Transaction Summary
+================================================================================
+Install  18 Packages
+
+Total download size: 49 M
+Installed size: 263 M
+Downloading Packages:
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] audit-3.0.9-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  audit-1:3.0.9-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
++ systemctl start mysqld
+Failed to start mysqld.service: Unit mysqld.service not found.
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed Aug 14 15:09:26 2019 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Wed Aug 14 15:09:27 2019 - INFO  - Start executing testcase.
++ expect -c '
+    set timeout 10
+    log_file testlog
+    spawn mysql -u root -p
+    expect {
+        "Enter*" { send "\r"; 
+	expect "mysql>" { send "alter user '\''root'\''@'\''localhost'\'' identified by '\''openEuler12#$'\'';\r"}
+        expect "mysql>" { send "CREATE DATABASE db1;\r"}
+        expect "mysql>" { send "CREATE DATABASE db2;\r"}
+        expect "mysql>" { send "use db1;\r"}
+        expect "mysql>" { send "create table tb1(id int(3), num int(3));\r"}
+        expect "mysql" { send "INSERT INTO tb1(id, num) VALUES (123, 123);\r"}
+        expect "mysql>" { send "CREATE DATABASE db3;\r"}
+        expect "mysql>" { send "use db3;\r"}
+        expect "mysql>" { send "create table tb1(id int(3), name char(8));\r"}
+        expect "mysql>" { send "SHOW DATABASES;\r"}
+        expect "mysql>" { send "exit\r"}
+}
+}
+expect eof
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p"
++ grep -iE 'error|fail' testlog
++ CHECK_RESULT 1 1
++ actual_result=1
++ expect_result=1
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 1x
++ return 0
++ grep '\|' testlog
++ grep Database -A 5
++ grep -cwE 'db1|db2|db3'
+0
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 66'
++ message='oe_test_mysql_backup_restore_db.sh line 66'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 66'
+Wed Aug 14 15:09:28 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 66
++ '[' 0 -eq 1 ']'
++ return 0
++ rm -rf testlog
++ expect -c '
+    set timeout 10
+    log_file testlog
+    spawn mysql -u root -p
+    expect {
+        "Enter*" { send "openEuler12#$\r";
+        expect "mysql>" { send "create user '\''root'\''@'\''%'\'' identified by '\''openEuler12#$'\'';\r"}
+        expect "mysql>" { send "grant all privileges on *.* to '\''root'\''@'\''%'\'';\r"}
+        expect "mysql>" { send "flush privileges;\r"}
+        expect "mysql>" { send "exit\r"}
+}
+}
+expect eof
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p"
++ grep -iE 'error|fail' testlog
++ CHECK_RESULT 1 1
++ actual_result=1
++ expect_result=1
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 1x
++ return 0
++ mysqldump -h 127.0.0.1 -P 3306 -uroot '-popenEuler12#$' --all-databases
+oe_test_mysql_backup_restore_db.sh: line 85: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 86'
++ message='oe_test_mysql_backup_restore_db.sh line 86'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 86'
+Wed Aug 14 15:09:30 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 86
++ '[' 0 -eq 1 ']'
++ return 0
+++ db1
+oe_test_mysql_backup_restore_db.sh: line 87: db1: command not found
++ grep 'CREATE DATABASE .* ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 88'
++ message='oe_test_mysql_backup_restore_db.sh line 88'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 88'
+Wed Aug 14 15:09:31 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 88
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mysql_backup_restore_db.sh: line 89: tb1: command not found
++ grep 'CREATE TABLE ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 90'
++ message='oe_test_mysql_backup_restore_db.sh line 90'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 90'
+Wed Aug 14 15:09:32 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 90
++ '[' 0 -eq 1 ']'
++ return 0
+++ db2
+oe_test_mysql_backup_restore_db.sh: line 91: db2: command not found
++ grep 'CREATE DATABASE .* ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 92'
++ message='oe_test_mysql_backup_restore_db.sh line 92'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 92'
+Wed Aug 14 15:09:33 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 92
++ '[' 0 -eq 1 ']'
++ return 0
+++ db3
+oe_test_mysql_backup_restore_db.sh: line 93: db3: command not found
++ grep 'CREATE DATABASE .* ' alldb.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 94'
++ message='oe_test_mysql_backup_restore_db.sh line 94'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 94'
+Wed Aug 14 15:09:34 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 94
++ '[' 0 -eq 1 ']'
++ return 0
++ mysqldump -h 127.0.0.1 -P 3306 -uroot '-popenEuler12#$' --databases db1
+oe_test_mysql_backup_restore_db.sh: line 96: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 97'
++ message='oe_test_mysql_backup_restore_db.sh line 97'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 97'
+Wed Aug 14 15:09:35 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 97
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mysql_backup_restore_db.sh: line 98: tb1: command not found
++ grep 'CREATE TABLE ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 99'
++ message='oe_test_mysql_backup_restore_db.sh line 99'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 99'
+Wed Aug 14 15:09:36 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 99
++ '[' 0 -eq 1 ']'
++ return 0
+++ db1
+oe_test_mysql_backup_restore_db.sh: line 100: db1: command not found
++ grep 'CREATE DATABASE .* ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 101'
++ message='oe_test_mysql_backup_restore_db.sh line 101'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 101'
+Wed Aug 14 15:09:37 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 101
++ '[' 0 -eq 1 ']'
++ return 0
++ mysqldump -h 127.0.0.1 -P 3306 -uroot '-popenEuler12#$' db1 tb1
+oe_test_mysql_backup_restore_db.sh: line 103: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 104'
++ message='oe_test_mysql_backup_restore_db.sh line 104'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 104'
+Wed Aug 14 15:09:38 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 104
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mysql_backup_restore_db.sh: line 105: tb1: command not found
++ grep 'CREATE TABLE ' db1tb1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 106'
++ message='oe_test_mysql_backup_restore_db.sh line 106'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 106'
+Wed Aug 14 15:09:39 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 106
++ '[' 0 -eq 1 ']'
++ return 0
++ rm -rf db1.sql
++ mysqldump -h 127.0.0.1 -P 3306 -uroot '-popenEuler12#$' -d db1
+oe_test_mysql_backup_restore_db.sh: line 109: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 110'
++ message='oe_test_mysql_backup_restore_db.sh line 110'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 110'
+Wed Aug 14 15:09:40 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 110
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mysql_backup_restore_db.sh: line 111: tb1: command not found
++ grep 'CREATE TABLE ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 112'
++ message='oe_test_mysql_backup_restore_db.sh line 112'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 112'
+Wed Aug 14 15:09:41 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 112
++ '[' 0 -eq 1 ']'
++ return 0
++ rm -rf db1.sql
++ mysqldump -h 127.0.0.1 -P 3306 -uroot '-popenEuler12#$' -t db1
+oe_test_mysql_backup_restore_db.sh: line 115: mysqldump: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 116'
++ message='oe_test_mysql_backup_restore_db.sh line 116'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 116'
+Wed Aug 14 15:09:42 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 116
++ '[' 0 -eq 1 ']'
++ return 0
+++ tb1
+oe_test_mysql_backup_restore_db.sh: line 117: tb1: command not found
++ grep 'INSERT INTO ' db1.sql
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 118'
++ message='oe_test_mysql_backup_restore_db.sh line 118'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 118'
+Wed Aug 14 15:09:44 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 118
++ '[' 0 -eq 1 ']'
++ return 0
++ mysql -h 127.0.0.1 -P 3306 -uroot '-popenEuler12#$' -t db3
+oe_test_mysql_backup_restore_db.sh: line 120: mysql: command not found
++ CHECK_RESULT 127
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 121'
++ message='oe_test_mysql_backup_restore_db.sh line 121'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 121'
+Wed Aug 14 15:09:45 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 121
++ '[' 0 -eq 1 ']'
++ return 0
++ expect -c '
+    log_file testlogm
+    set timeout 10
+    spawn mysql -u root -p
+    expect {
+        "Enter*" { send "openEuler12#$\r";
+        expect "mysql*" { send "use db3;\r"}
+        expect "mysql*" { send "show tables;\r"}
+        expect "mysql*" { send "exit\r"}
+}
+}
+expect
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p"
++ grep tb1 testlogm
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_mysql_backup_restore_db.sh line 136'
++ message='oe_test_mysql_backup_restore_db.sh line 136'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_mysql_backup_restore_db.sh line 136'
+Wed Aug 14 15:09:46 2019 - ERROR - oe_test_mysql_backup_restore_db.sh line 136
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution.'
++ message='End of testcase execution.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution.'
+Wed Aug 14 15:09:47 2019 - INFO  - End of testcase execution.
++ CASE_RESULT 0
++ case_re=0
++ test -z 17
++ test 17 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Aug 14 15:09:48 2019 - ERROR - failed to execute the case.
++ exit 17
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Aug 14 15:09:49 2019 - INFO  - start environment cleanup.
++ expect -c '
+    set timeout 10
+    spawn mysql -u root -p
+    expect {
+        "Enter*" { send "openEuler12#$\r";
+        expect "mysql>" { send "DROP DATABASE db1;\r"}
+        expect "mysql>" { send "DROP DATABASE db2;\r"}
+	expect "mysql>" { send "DROP DATABASE db3;\r"}
+	expect "mysql>" { send "DROP USER '\''root'\''@'\''%'\'';\r"}
+        expect "mysql>" { send "exit\r"}
+}
+}
+expect eof
+'
+spawn mysql -u root -p
+couldn't execute "mysql": no such file or directory
+    while executing
+"spawn mysql -u root -p"
++ test -z
++ rm -rf log testlog testlogm db1.sql db1tb1.sql alldb.sql
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: -1380 days, 20:30:22 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                      Arch    Version                    Repo      Size
+================================================================================
+Installing:
+ mysql-server                 riscv64 8.0.30-2.oe2303            mainline  31 M
+Installing dependencies:
+ audit                        riscv64 1:3.0.9-1.oe2303           mainline 178 k
+ checkpolicy                  riscv64 3.4-2.oe2303               mainline 289 k
+ greatsql-mysql-config        riscv64 8.0.25-16.7.oe2303.oe2303  mainline 9.4 k
+ mecab                        riscv64 0.996-2.oe2303             mainline 365 k
+ mysql                        riscv64 8.0.30-2.oe2303            mainline  13 M
+ mysql-common                 riscv64 8.0.30-2.oe2303            mainline  30 k
+ mysql-errmsg                 riscv64 8.0.30-2.oe2303            mainline 556 k
+ numactl-libs                 riscv64 2.0.16-3.oe2303            mainline  28 k
+ policycoreutils              riscv64 3.4-1.oe2303               mainline 156 k
+ policycoreutils-python-utils noarch  3.4-1.oe2303               mainline  24 k
+ protobuf-lite                riscv64 3.14.0-6.oe2303            mainline 207 k
+ python3-IPy                  noarch  1.01-2.oe2303              mainline  37 k
+ python3-audit                riscv64 1:3.0.9-1.oe2303           mainline  72 k
+ python3-libselinux           riscv64 3.4-1.oe2303               mainline 159 k
+ python3-libsemanage          riscv64 3.4-1.oe2303               mainline  66 k
+ python3-policycoreutils      noarch  3.4-1.oe2303               mainline 2.1 M
+ python3-setools              riscv64 4.4.0-3.oe2303             mainline 504 k
+
+Transaction Summary
+================================================================================
+Install  18 Packages
+
+Total download size: 49 M
+Installed size: 263 M
+Downloading Packages:
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] audit-3.0.9-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  audit-1:3.0.9-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: -1380 days, 20:30:22 ago on Wed 24 May 2023 06:38:57 PM CST.
+Dependencies resolved.
+================================================================================
+ Package                      Arch    Version                    Repo      Size
+================================================================================
+Installing:
+ mysql-server                 riscv64 8.0.30-2.oe2303            mainline  31 M
+Installing dependencies:
+ audit                        riscv64 1:3.0.9-1.oe2303           mainline 178 k
+ checkpolicy                  riscv64 3.4-2.oe2303               mainline 289 k
+ greatsql-mysql-config        riscv64 8.0.25-16.7.oe2303.oe2303  mainline 9.4 k
+ mecab                        riscv64 0.996-2.oe2303             mainline 365 k
+ mysql                        riscv64 8.0.30-2.oe2303            mainline  13 M
+ mysql-common                 riscv64 8.0.30-2.oe2303            mainline  30 k
+ mysql-errmsg                 riscv64 8.0.30-2.oe2303            mainline 556 k
+ numactl-libs                 riscv64 2.0.16-3.oe2303            mainline  28 k
+ policycoreutils              riscv64 3.4-1.oe2303               mainline 156 k
+ policycoreutils-python-utils noarch  3.4-1.oe2303               mainline  24 k
+ protobuf-lite                riscv64 3.14.0-6.oe2303            mainline 207 k
+ python3-IPy                  noarch  1.01-2.oe2303              mainline  37 k
+ python3-audit                riscv64 1:3.0.9-1.oe2303           mainline  72 k
+ python3-libselinux           riscv64 3.4-1.oe2303               mainline 159 k
+ python3-libsemanage          riscv64 3.4-1.oe2303               mainline  66 k
+ python3-policycoreutils      noarch  3.4-1.oe2303               mainline 2.1 M
+ python3-setools              riscv64 4.4.0-3.oe2303             mainline 504 k
+
+Transaction Summary
+================================================================================
+Install  18 Packages
+
+Total download size: 49 M
+Installed size: 263 M
+Downloading Packages:
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]
+[FAILED] audit-3.0.9-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  audit-1:3.0.9-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 181, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 152, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "Last metadata expiration check: -1380 days, 20:30:22 ago on Wed 24 May 2023 06:38:57 PM CST.\nDependencies resolved.\n================================================================================\n Package                      Arch    Version                    Repo      Size\n================================================================================\nInstalling:\n mysql-server                 riscv64 8.0.30-2.oe2303            mainline  31 M\nInstalling dependencies:\n audit                        riscv64 1:3.0.9-1.oe2303           mainline 178 k\n checkpolicy                  riscv64 3.4-2.oe2303               mainline 289 k\n greatsql-mysql-config        riscv64 8.0.25-16.7.oe2303.oe2303  mainline 9.4 k\n mecab                        riscv64 0.996-2.oe2303             mainline 365 k\n mysql                        riscv64 8.0.30-2.oe2303            mainline  13 M\n mysql-common                 riscv64 8.0.30-2.oe2303            mainline  30 k\n mysql-errmsg                 riscv64 8.0.30-2.oe2303            mainline 556 k\n numactl-libs                 riscv64 2.0.16-3.oe2303            mainline  28 k\n policycoreutils              riscv64 3.4-1.oe2303               mainline 156 k\n policycoreutils-python-utils noarch  3.4-1.oe2303               mainline  24 k\n protobuf-lite                riscv64 3.14.0-6.oe2303            mainline 207 k\n python3-IPy                  noarch  1.01-2.oe2303              mainline  37 k\n python3-audit                riscv64 1:3.0.9-1.oe2303           mainline  72 k\n python3-libselinux           riscv64 3.4-1.oe2303               mainline 159 k\n python3-libsemanage          riscv64 3.4-1.oe2303               mainline  66 k\n python3-policycoreutils      noarch  3.4-1.oe2303               mainline 2.1 M\n python3-setools              riscv64 4.4.0-3.oe2303             mainline 504 k\n\nTransaction Summary\n================================================================================\nInstall  18 Packages\n\nTotal download size: 49 M\nInstalled size: 263 M\nDownloading Packages:\n[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/greatsql-mysql-config-8.0.25-16.7.oe2303.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] audit-3.0.9-1.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/audit-3.0.9-1.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[MIRROR] checkpolicy-3.4-2.oe2303.riscv64.rpm: Curl error (60): SSL peer certificate or SSH remote key was not OK for https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/testing/20230331_openEuler-23.03-V1-riscv64/repo/23.03/mainline/riscv64/checkpolicy-3.4-2.oe2303.riscv64.rpm [SSL certificate problem: certificate is not yet valid]\n[FAILED] audit-3.0.9-1.oe2303.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success\n\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Error downloading packages:\n  audit-1:3.0.9-1.oe2303.riscv64: Cannot download, all mirrors were already tried without success"
++ '[' 0 -ne 0 ']'
++ '[' x '!=' x ']'
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed Aug 14 15:09:54 2019 - INFO  - Finish environment cleanup.

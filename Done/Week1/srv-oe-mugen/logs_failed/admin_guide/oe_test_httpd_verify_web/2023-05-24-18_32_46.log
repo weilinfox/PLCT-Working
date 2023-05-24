@@ -1,0 +1,164 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environment preparation.'
++ message='Start environment preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environment preparation.'
+Wed May 24 18:32:51 2023 - INFO  - Start environment preparation.
++ DNF_INSTALL 'httpd net-tools firewalld'
++ pkgs='httpd net-tools firewalld'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'httpd net-tools firewalld' --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpey_3mdfn
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpey_3mdfn
++ systemctl start httpd
++ systemctl start firewalld
++ LOG_INFO 'Environmental preparation is over.'
++ message='Environmental preparation is over.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Environmental preparation is over.'
+Wed May 24 18:34:22 2023 - INFO  - Environmental preparation is over.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Wed May 24 18:34:24 2023 - INFO  - Start executing testcase.
++ ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fec0::7a72:ddf7:aa57:852b  prefixlen 64  scopeid 0x40<site>
+        inet6 fe80::7817:77c5:98b8:399f  prefixlen 64  scopeid 0x20<link>
+        ether 52:54:00:11:45:03  txqueuelen 1000  (Ethernet)
+        RX packets 4723  bytes 6458201 (6.1 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 581  bytes 55854 (54.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 57  bytes 8330 (8.1 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 57  bytes 8330 (8.1 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ firewall-cmd --add-service=http --permanent
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ firewall-cmd --reload
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SSH_CMD 'curl http://127.0.0.1'
++ cmd='curl http://127.0.0.1'
++ remoteip=
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'curl http://127.0.0.1' -i '' -u root -p 'openEuler12#$' -t 300 -o 22
++ python3 -m http.server 8080
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]+ ret=1
++ test 1 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:1'
++ message='Failed in remote CMD operation:1'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:1'
+Wed May 24 18:34:52 2023 - ERROR - Failed in remote CMD operation:1
++ return 1
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_httpd_verify_web.sh line 38'
++ message='oe_test_httpd_verify_web.sh line 38'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_httpd_verify_web.sh line 38'
+Wed May 24 18:34:54 2023 - ERROR - oe_test_httpd_verify_web.sh line 38
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End of testcase execution.'
++ message='End of testcase execution.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of testcase execution.'
+Wed May 24 18:34:55 2023 - INFO  - End of testcase execution.
++ CASE_RESULT 0
++ case_re=0
++ test -z 1
++ test 1 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed May 24 18:34:56 2023 - ERROR - failed to execute the case.
++ exit 1
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed May 24 18:34:57 2023 - INFO  - start environment cleanup.
+++ pgrep -f http.server
++ kill -9 2225
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpey_3mdfn ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpey_3mdfn
+/root/mugen/libs/locallibs/common_lib_python.sh: line 97:  2225 Killed                  python3 -m http.server 8080
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'Finish environment cleanup.'
++ message='Finish environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup.'
+Wed May 24 18:35:38 2023 - INFO  - Finish environment cleanup.
