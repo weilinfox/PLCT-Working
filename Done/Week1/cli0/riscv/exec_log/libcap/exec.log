@@ -1,0 +1,36 @@
+Thu May 25 17:12:37 2023 - INFO  - start to run testcase:oe_test_libcap.
+Thu May 25 17:12:54 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:12:56 2023 - INFO  - End to run testcase:oe_test_libcap.
+Thu May 25 17:12:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:13:02 2023 - INFO  - start to run testcase:oe_test_acl_ignore_dal_across.
+Thu May 25 17:13:25 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:13:26 2023 - INFO  - End to run testcase:oe_test_acl_ignore_dal_across.
+Thu May 25 17:13:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:13:33 2023 - INFO  - start to run testcase:oe_test_acl_verwrite_previous_rules.
+Thu May 25 17:13:45 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:13:46 2023 - INFO  - End to run testcase:oe_test_acl_verwrite_previous_rules.
+Thu May 25 17:13:47 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:13:53 2023 - INFO  - start to run testcase:oe_test_acl_allow_change_ownership.
+Thu May 25 17:14:16 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:14:17 2023 - INFO  - End to run testcase:oe_test_acl_allow_change_ownership.
+Thu May 25 17:14:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:14:24 2023 - INFO  - start to run testcase:oe_test_acl_allow_change_nochange.
+Thu May 25 17:14:57 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:14:58 2023 - INFO  - End to run testcase:oe_test_acl_allow_change_nochange.
+Thu May 25 17:14:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:15:05 2023 - INFO  - start to run testcase:oe_test_acl_send_kill_notbelong.
+Thu May 25 17:15:31 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:15:32 2023 - INFO  - End to run testcase:oe_test_acl_send_kill_notbelong.
+Thu May 25 17:15:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:15:38 2023 - INFO  - start to run testcase:oe_test_acl_ordinary_users_setgid.
+Thu May 25 17:16:08 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:16:09 2023 - INFO  - End to run testcase:oe_test_acl_ordinary_users_setgid.
+Thu May 25 17:16:10 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:16:15 2023 - INFO  - start to run testcase:oe_test_acl_bind_port.
+Thu May 25 17:17:58 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:17:59 2023 - INFO  - End to run testcase:oe_test_acl_bind_port.
+Thu May 25 17:18:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:18:07 2023 - INFO  - start to run testcase:oe_test_acl_manage_net.
+Thu May 25 17:18:45 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:18:47 2023 - INFO  - End to run testcase:oe_test_acl_manage_net.
+Thu May 25 17:18:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
