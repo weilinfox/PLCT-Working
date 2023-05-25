@@ -1,0 +1,104 @@
+Thu May 25 16:28:34 2023 - INFO  - start to run testcase:oe_test_service_blk-availability.
+Thu May 25 16:28:52 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:28:52 2023 - INFO  - End to run testcase:oe_test_service_blk-availability.
+Thu May 25 16:28:52 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:28:52 2023 - INFO  - start to run testcase:oe_test_service_dm-event.
+Thu May 25 16:29:10 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:29:10 2023 - INFO  - End to run testcase:oe_test_service_dm-event.
+Thu May 25 16:29:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:29:11 2023 - INFO  - start to run testcase:oe_test_service_lvm2-lvmdbusd.
+Thu May 25 16:29:50 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:29:50 2023 - INFO  - End to run testcase:oe_test_service_lvm2-lvmdbusd.
+Thu May 25 16:29:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:29:51 2023 - INFO  - start to run testcase:oe_test_service_lvm2-lvmpolld.
+Thu May 25 16:30:08 2023 - ERROR - The case exit by code 4.
+Thu May 25 16:30:09 2023 - INFO  - End to run testcase:oe_test_service_lvm2-lvmpolld.
+Thu May 25 16:30:09 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:30:09 2023 - INFO  - start to run testcase:oe_test_service_lvm2-monitor.
+Thu May 25 16:30:28 2023 - ERROR - The case exit by code 6.
+Thu May 25 16:30:28 2023 - INFO  - End to run testcase:oe_test_service_lvm2-monitor.
+Thu May 25 16:30:28 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:30:28 2023 - INFO  - start to run testcase:oe_test_service_lvmlockd.
+Thu May 25 16:30:56 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:30:56 2023 - INFO  - End to run testcase:oe_test_service_lvmlockd.
+Thu May 25 16:30:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:30:56 2023 - INFO  - start to run testcase:oe_test_service_lvmlocks.
+Thu May 25 16:31:26 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:31:26 2023 - INFO  - End to run testcase:oe_test_service_lvmlocks.
+Thu May 25 16:31:26 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:31:26 2023 - INFO  - start to run testcase:oe_test_socket_dm-event.
+Thu May 25 16:31:44 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:31:44 2023 - INFO  - End to run testcase:oe_test_socket_dm-event.
+Thu May 25 16:31:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:31:45 2023 - INFO  - start to run testcase:oe_test_socket_lvm2-lvmpolld.
+Thu May 25 16:32:02 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:32:03 2023 - INFO  - End to run testcase:oe_test_socket_lvm2-lvmpolld.
+Thu May 25 16:32:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:32:03 2023 - INFO  - start to run testcase:oe_test_lvm2_pvremove_001.
+Thu May 25 16:32:33 2023 - ERROR - The case exit by code 13.
+Thu May 25 16:32:33 2023 - INFO  - End to run testcase:oe_test_lvm2_pvremove_001.
+Thu May 25 16:32:33 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:32:34 2023 - INFO  - start to run testcase:oe_test_lvm2_pvcreate_002.
+Thu May 25 16:32:55 2023 - ERROR - The case exit by code 8.
+Thu May 25 16:32:55 2023 - INFO  - End to run testcase:oe_test_lvm2_pvcreate_002.
+Thu May 25 16:32:55 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:32:55 2023 - INFO  - start to run testcase:oe_test_lvm2_pvresize_001.
+Thu May 25 16:33:02 2023 - ERROR - The case exit by code 8.
+Thu May 25 16:33:02 2023 - INFO  - End to run testcase:oe_test_lvm2_pvresize_001.
+Thu May 25 16:33:02 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:33:02 2023 - INFO  - start to run testcase:oe_test_lvm2_pvcreate_001.
+Thu May 25 16:33:15 2023 - ERROR - The case exit by code 13.
+Thu May 25 16:33:15 2023 - INFO  - End to run testcase:oe_test_lvm2_pvcreate_001.
+Thu May 25 16:33:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:33:15 2023 - INFO  - start to run testcase:oe_test_lvm2_pvmove_001.
+Thu May 25 16:33:27 2023 - ERROR - The case exit by code 8.
+Thu May 25 16:33:27 2023 - INFO  - End to run testcase:oe_test_lvm2_pvmove_001.
+Thu May 25 16:33:27 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:33:27 2023 - INFO  - start to run testcase:oe_test_lvm2_vgcreate_001.
+Thu May 25 16:33:43 2023 - ERROR - The case exit by code 24.
+Thu May 25 16:33:43 2023 - INFO  - End to run testcase:oe_test_lvm2_vgcreate_001.
+Thu May 25 16:33:43 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:33:43 2023 - INFO  - start to run testcase:oe_test_lvm2_pvdisplay_002.
+Thu May 25 16:33:51 2023 - ERROR - The case exit by code 11.
+Thu May 25 16:33:51 2023 - INFO  - End to run testcase:oe_test_lvm2_pvdisplay_002.
+Thu May 25 16:33:51 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:33:52 2023 - INFO  - start to run testcase:oe_test_lvm2_vgdisplay_001.
+Thu May 25 16:34:01 2023 - ERROR - The case exit by code 13.
+Thu May 25 16:34:01 2023 - INFO  - End to run testcase:oe_test_lvm2_vgdisplay_001.
+Thu May 25 16:34:01 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:34:01 2023 - INFO  - start to run testcase:oe_test_lvm2_vgrename_001.
+Thu May 25 16:34:09 2023 - ERROR - The case exit by code 11.
+Thu May 25 16:34:09 2023 - INFO  - End to run testcase:oe_test_lvm2_vgrename_001.
+Thu May 25 16:34:09 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:34:09 2023 - INFO  - start to run testcase:oe_test_lvm2_pvdisplay_001.
+Thu May 25 16:34:16 2023 - ERROR - The case exit by code 12.
+Thu May 25 16:34:16 2023 - INFO  - End to run testcase:oe_test_lvm2_pvdisplay_001.
+Thu May 25 16:34:16 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:34:17 2023 - INFO  - start to run testcase:oe_test_lvm2_pvmove_002.
+Thu May 25 16:34:44 2023 - ERROR - The case exit by code 11.
+Thu May 25 16:34:44 2023 - INFO  - End to run testcase:oe_test_lvm2_pvmove_002.
+Thu May 25 16:34:44 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:34:45 2023 - INFO  - start to run testcase:oe_test_lvm2_pvchange_001.
+Thu May 25 16:34:52 2023 - ERROR - The case exit by code 6.
+Thu May 25 16:34:52 2023 - INFO  - End to run testcase:oe_test_lvm2_pvchange_001.
+Thu May 25 16:34:52 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:34:52 2023 - INFO  - start to run testcase:oe_test_lvm2_vgchange_001.
+Thu May 25 16:35:00 2023 - ERROR - The case exit by code 17.
+Thu May 25 16:35:00 2023 - INFO  - End to run testcase:oe_test_lvm2_vgchange_001.
+Thu May 25 16:35:00 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:35:00 2023 - INFO  - start to run testcase:oe_test_lvm2_vgextend_002.
+Thu May 25 16:35:10 2023 - ERROR - The case exit by code 16.
+Thu May 25 16:35:10 2023 - INFO  - End to run testcase:oe_test_lvm2_vgextend_002.
+Thu May 25 16:35:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:35:10 2023 - INFO  - start to run testcase:oe_test_lvm2_vgextend_001.
+Thu May 25 16:35:24 2023 - ERROR - The case exit by code 25.
+Thu May 25 16:35:24 2023 - INFO  - End to run testcase:oe_test_lvm2_vgextend_001.
+Thu May 25 16:35:24 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:35:25 2023 - INFO  - start to run testcase:oe_test_lvm2_vgexport_001.
+Thu May 25 16:35:31 2023 - ERROR - The case exit by code 12.
+Thu May 25 16:35:31 2023 - INFO  - End to run testcase:oe_test_lvm2_vgexport_001.
+Thu May 25 16:35:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:35:31 2023 - INFO  - start to run testcase:oe_test_lvm2_vgchange_002.
+Thu May 25 16:35:38 2023 - ERROR - The case exit by code 9.
+Thu May 25 16:35:38 2023 - INFO  - End to run testcase:oe_test_lvm2_vgchange_002.
+Thu May 25 16:35:38 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

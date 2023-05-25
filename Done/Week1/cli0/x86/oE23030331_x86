@@ -1,0 +1,16 @@
+{
+    "workingDir":"/home/hachi/Desktop/Work/mugen/qemu-imgs/workingDir/",
+    "kernel":"vmlinuz",
+    "drive":"mugen_ready.qcow2",
+    "user":"root",
+    "password":"openEuler12#$",
+    "threads":3,
+    "cores":4,
+    "memory":4,
+    "mugenNative":1,
+    "detailed":1,
+    "addDisk":1,
+    "mugenDir":"/root/mugen/",
+    "listFile":"lists/cli0_failed.txt",
+    "generate":1
+}

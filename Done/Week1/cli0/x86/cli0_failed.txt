@@ -1,0 +1,17 @@
+lvm2
+kernel
+libarchive
+hostname
+glib2
+crontabs
+dnf
+iputils
+kmod
+libuuid
+openssh
+net-tools
+systemd
+NetworkManager
+acl
+openssl
+osc

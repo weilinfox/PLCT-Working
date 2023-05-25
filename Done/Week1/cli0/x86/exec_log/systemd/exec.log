@@ -1,0 +1,632 @@
+Thu May 25 16:43:16 2023 - INFO  - start to run testcase:oe_test_service_console-getty.
+Thu May 25 16:43:34 2023 - ERROR - The case exit by code 3.
+Thu May 25 16:43:35 2023 - INFO  - End to run testcase:oe_test_service_console-getty.
+Thu May 25 16:43:35 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:43:35 2023 - INFO  - start to run testcase:oe_test_service_dbus-org.freedesktop.hostname1.
+Thu May 25 16:43:52 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:43:52 2023 - INFO  - End to run testcase:oe_test_service_dbus-org.freedesktop.hostname1.
+Thu May 25 16:43:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:43:53 2023 - INFO  - start to run testcase:oe_test_service_dbus-org.freedesktop.import1.
+Thu May 25 16:44:16 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:44:16 2023 - INFO  - End to run testcase:oe_test_service_dbus-org.freedesktop.import1.
+Thu May 25 16:44:16 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:44:16 2023 - INFO  - start to run testcase:oe_test_service_dbus-org.freedesktop.locale1.
+Thu May 25 16:44:33 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:44:33 2023 - INFO  - End to run testcase:oe_test_service_dbus-org.freedesktop.locale1.
+Thu May 25 16:44:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:44:33 2023 - INFO  - start to run testcase:oe_test_service_dbus-org.freedesktop.login1.
+Thu May 25 16:44:50 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:44:50 2023 - INFO  - End to run testcase:oe_test_service_dbus-org.freedesktop.login1.
+Thu May 25 16:44:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:44:51 2023 - INFO  - start to run testcase:oe_test_service_dbus-org.freedesktop.machine1.
+Thu May 25 16:45:15 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:45:16 2023 - INFO  - End to run testcase:oe_test_service_dbus-org.freedesktop.machine1.
+Thu May 25 16:45:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:45:16 2023 - INFO  - start to run testcase:oe_test_service_dbus-org.freedesktop.portable1.
+Thu May 25 16:45:34 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:45:34 2023 - INFO  - End to run testcase:oe_test_service_dbus-org.freedesktop.portable1.
+Thu May 25 16:45:34 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:45:35 2023 - INFO  - start to run testcase:oe_test_service_dbus-org.freedesktop.timedate1.
+Thu May 25 16:45:51 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:45:51 2023 - INFO  - End to run testcase:oe_test_service_dbus-org.freedesktop.timedate1.
+Thu May 25 16:45:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:45:52 2023 - INFO  - start to run testcase:oe_test_service_debug-shell.
+Thu May 25 16:46:09 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:46:09 2023 - INFO  - End to run testcase:oe_test_service_debug-shell.
+Thu May 25 16:46:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:46:09 2023 - INFO  - start to run testcase:oe_test_service_hwclock-save.
+Thu May 25 16:46:27 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:46:27 2023 - INFO  - End to run testcase:oe_test_service_hwclock-save.
+Thu May 25 16:46:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:46:28 2023 - INFO  - start to run testcase:oe_test_service_initrd-cleanup.
+Thu May 25 16:46:30 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:46:30 2023 - INFO  - End to run testcase:oe_test_service_initrd-cleanup.
+Thu May 25 16:46:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:46:30 2023 - INFO  - start to run testcase:oe_test_service_initrd-parse-etc.
+Thu May 25 16:46:33 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:46:34 2023 - INFO  - End to run testcase:oe_test_service_initrd-parse-etc.
+Thu May 25 16:46:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:46:34 2023 - INFO  - start to run testcase:oe_test_service_initrd-switch-root.
+Thu May 25 16:46:36 2023 - ERROR - The case exit by code 2.
+Thu May 25 16:46:36 2023 - INFO  - End to run testcase:oe_test_service_initrd-switch-root.
+Thu May 25 16:46:37 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:46:37 2023 - INFO  - start to run testcase:oe_test_service_initrd-udevadm-cleanup-db.
+Thu May 25 16:46:39 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:46:39 2023 - INFO  - End to run testcase:oe_test_service_initrd-udevadm-cleanup-db.
+Thu May 25 16:46:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:46:40 2023 - INFO  - start to run testcase:oe_test_service_kmod-static-nodes.
+Thu May 25 16:46:57 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:46:57 2023 - INFO  - End to run testcase:oe_test_service_kmod-static-nodes.
+Thu May 25 16:46:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:46:57 2023 - INFO  - start to run testcase:oe_test_service_ldconfig.
+Thu May 25 16:47:15 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:47:15 2023 - INFO  - End to run testcase:oe_test_service_ldconfig.
+Thu May 25 16:47:15 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:47:15 2023 - INFO  - start to run testcase:oe_test_service_quotaon.
+Thu May 25 16:47:42 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:47:42 2023 - INFO  - End to run testcase:oe_test_service_quotaon.
+Thu May 25 16:47:42 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:47:42 2023 - INFO  - start to run testcase:oe_test_service_rc-local.
+Thu May 25 16:48:00 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:00 2023 - INFO  - End to run testcase:oe_test_service_rc-local.
+Thu May 25 16:48:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:00 2023 - INFO  - start to run testcase:oe_test_service_rescue.
+Thu May 25 16:48:17 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:17 2023 - INFO  - End to run testcase:oe_test_service_rescue.
+Thu May 25 16:48:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:17 2023 - INFO  - start to run testcase:oe_test_service_systemd-ask-password-console.
+Thu May 25 16:48:34 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:34 2023 - INFO  - End to run testcase:oe_test_service_systemd-ask-password-console.
+Thu May 25 16:48:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:34 2023 - INFO  - start to run testcase:oe_test_service_systemd-ask-password-wall.
+Thu May 25 16:48:51 2023 - ERROR - The case exit by code 1.
+Thu May 25 16:48:51 2023 - INFO  - End to run testcase:oe_test_service_systemd-ask-password-wall.
+Thu May 25 16:48:51 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:48:52 2023 - INFO  - start to run testcase:oe_test_service_systemd-binfmt.
+Thu May 25 16:48:53 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:53 2023 - INFO  - End to run testcase:oe_test_service_systemd-binfmt.
+Thu May 25 16:48:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:54 2023 - INFO  - start to run testcase:oe_test_service_systemd-bless-boot.
+Thu May 25 16:48:55 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:55 2023 - INFO  - End to run testcase:oe_test_service_systemd-bless-boot.
+Thu May 25 16:48:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:55 2023 - INFO  - start to run testcase:oe_test_service_systemd-boot-system-token.
+Thu May 25 16:48:56 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:56 2023 - INFO  - End to run testcase:oe_test_service_systemd-boot-system-token.
+Thu May 25 16:48:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:56 2023 - INFO  - start to run testcase:oe_test_service_systemd-exit.
+Thu May 25 16:48:57 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:57 2023 - INFO  - End to run testcase:oe_test_service_systemd-exit.
+Thu May 25 16:48:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:57 2023 - INFO  - start to run testcase:oe_test_service_systemd-firstboot.
+Thu May 25 16:48:58 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:48:58 2023 - INFO  - End to run testcase:oe_test_service_systemd-firstboot.
+Thu May 25 16:48:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:48:58 2023 - INFO  - start to run testcase:oe_test_service_systemd-fsck-root.
+Thu May 25 16:48:59 2023 - ERROR - The case exit by code 1.
+Thu May 25 16:48:59 2023 - INFO  - End to run testcase:oe_test_service_systemd-fsck-root.
+Thu May 25 16:49:00 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:49:00 2023 - INFO  - start to run testcase:oe_test_service_systemd-halt.
+Thu May 25 16:49:01 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:49:01 2023 - INFO  - End to run testcase:oe_test_service_systemd-halt.
+Thu May 25 16:49:01 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:49:02 2023 - INFO  - start to run testcase:oe_test_service_systemd-hibernate.
+Thu May 25 16:49:03 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:49:03 2023 - INFO  - End to run testcase:oe_test_service_systemd-hibernate.
+Thu May 25 16:49:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:49:03 2023 - INFO  - start to run testcase:oe_test_service_systemd-hostnamed.
+Thu May 25 16:49:20 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:49:20 2023 - INFO  - End to run testcase:oe_test_service_systemd-hostnamed.
+Thu May 25 16:49:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:49:21 2023 - INFO  - start to run testcase:oe_test_service_systemd-hwdb-update.
+Thu May 25 16:49:40 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:49:40 2023 - INFO  - End to run testcase:oe_test_service_systemd-hwdb-update.
+Thu May 25 16:49:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:49:41 2023 - INFO  - start to run testcase:oe_test_service_systemd-hybrid-sleep.
+Thu May 25 16:49:42 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:49:42 2023 - INFO  - End to run testcase:oe_test_service_systemd-hybrid-sleep.
+Thu May 25 16:49:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:49:42 2023 - INFO  - start to run testcase:oe_test_service_systemd-importd.
+Thu May 25 16:50:07 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:50:07 2023 - INFO  - End to run testcase:oe_test_service_systemd-importd.
+Thu May 25 16:50:08 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:50:08 2023 - INFO  - start to run testcase:oe_test_service_systemd-initctl.
+Thu May 25 16:50:25 2023 - ERROR - The case exit by code 4.
+Thu May 25 16:50:25 2023 - INFO  - End to run testcase:oe_test_service_systemd-initctl.
+Thu May 25 16:50:25 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:50:25 2023 - INFO  - start to run testcase:oe_test_service_systemd-journal-catalog-update.
+Thu May 25 16:50:42 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:50:42 2023 - INFO  - End to run testcase:oe_test_service_systemd-journal-catalog-update.
+Thu May 25 16:50:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:50:43 2023 - INFO  - start to run testcase:oe_test_service_systemd-journald.
+Thu May 25 16:50:59 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:50:59 2023 - INFO  - End to run testcase:oe_test_service_systemd-journald.
+Thu May 25 16:51:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:51:00 2023 - INFO  - start to run testcase:oe_test_service_systemd-journal-flush.
+Thu May 25 16:51:16 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:51:16 2023 - INFO  - End to run testcase:oe_test_service_systemd-journal-flush.
+Thu May 25 16:51:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:51:17 2023 - INFO  - start to run testcase:oe_test_service_systemd-journal-gatewayd.
+Thu May 25 16:51:38 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:51:38 2023 - INFO  - End to run testcase:oe_test_service_systemd-journal-gatewayd.
+Thu May 25 16:51:38 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:51:38 2023 - INFO  - start to run testcase:oe_test_service_systemd-journal-remote.
+Thu May 25 16:51:59 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:51:59 2023 - INFO  - End to run testcase:oe_test_service_systemd-journal-remote.
+Thu May 25 16:52:00 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:52:00 2023 - INFO  - start to run testcase:oe_test_service_systemd-journal-upload.
+Thu May 25 16:52:20 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:52:20 2023 - INFO  - End to run testcase:oe_test_service_systemd-journal-upload.
+Thu May 25 16:52:20 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:52:21 2023 - INFO  - start to run testcase:oe_test_service_systemd-kexec.
+Thu May 25 16:52:21 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:52:21 2023 - INFO  - End to run testcase:oe_test_service_systemd-kexec.
+Thu May 25 16:52:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:52:22 2023 - INFO  - start to run testcase:oe_test_service_systemd-localed.
+Thu May 25 16:52:38 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:52:38 2023 - INFO  - End to run testcase:oe_test_service_systemd-localed.
+Thu May 25 16:52:38 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:52:39 2023 - INFO  - start to run testcase:oe_test_service_systemd-logind.
+Thu May 25 16:52:55 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:52:55 2023 - INFO  - End to run testcase:oe_test_service_systemd-logind.
+Thu May 25 16:52:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:52:55 2023 - INFO  - start to run testcase:oe_test_service_systemd-machined.
+Thu May 25 16:53:18 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:53:18 2023 - INFO  - End to run testcase:oe_test_service_systemd-machined.
+Thu May 25 16:53:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:53:18 2023 - INFO  - start to run testcase:oe_test_service_systemd-machine-id-commit.
+Thu May 25 16:53:19 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:53:19 2023 - INFO  - End to run testcase:oe_test_service_systemd-machine-id-commit.
+Thu May 25 16:53:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:53:19 2023 - INFO  - start to run testcase:oe_test_service_systemd-modules-load.
+Thu May 25 16:53:20 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:53:20 2023 - INFO  - End to run testcase:oe_test_service_systemd-modules-load.
+Thu May 25 16:53:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:53:20 2023 - INFO  - start to run testcase:oe_test_service_systemd-networkd.
+Thu May 25 16:53:38 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:53:38 2023 - INFO  - End to run testcase:oe_test_service_systemd-networkd.
+Thu May 25 16:53:38 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:53:38 2023 - INFO  - start to run testcase:oe_test_service_systemd-networkd-wait-online.
+Thu May 25 16:53:55 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:53:55 2023 - INFO  - End to run testcase:oe_test_service_systemd-networkd-wait-online.
+Thu May 25 16:53:55 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:53:56 2023 - INFO  - start to run testcase:oe_test_service_systemd-network-generator.
+Thu May 25 16:53:57 2023 - ERROR - The case exit by code 1.
+Thu May 25 16:53:57 2023 - INFO  - End to run testcase:oe_test_service_systemd-network-generator.
+Thu May 25 16:53:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:53:57 2023 - INFO  - start to run testcase:oe_test_service_systemd-portabled.
+Thu May 25 16:54:14 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:54:14 2023 - INFO  - End to run testcase:oe_test_service_systemd-portabled.
+Thu May 25 16:54:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:54:15 2023 - INFO  - start to run testcase:oe_test_service_systemd-poweroff.
+Thu May 25 16:54:16 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:54:16 2023 - INFO  - End to run testcase:oe_test_service_systemd-poweroff.
+Thu May 25 16:54:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:54:16 2023 - INFO  - start to run testcase:oe_test_service_systemd-pstore.
+Thu May 25 16:54:17 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:54:17 2023 - INFO  - End to run testcase:oe_test_service_systemd-pstore.
+Thu May 25 16:54:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:54:18 2023 - INFO  - start to run testcase:oe_test_service_systemd-quotacheck.
+Thu May 25 16:54:35 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:54:35 2023 - INFO  - End to run testcase:oe_test_service_systemd-quotacheck.
+Thu May 25 16:54:36 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:54:36 2023 - INFO  - start to run testcase:oe_test_service_systemd-random-seed.
+Thu May 25 16:54:52 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:54:52 2023 - INFO  - End to run testcase:oe_test_service_systemd-random-seed.
+Thu May 25 16:54:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:54:53 2023 - INFO  - start to run testcase:oe_test_service_systemd-reboot.
+Thu May 25 16:54:54 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:54:54 2023 - INFO  - End to run testcase:oe_test_service_systemd-reboot.
+Thu May 25 16:54:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:54:54 2023 - INFO  - start to run testcase:oe_test_service_systemd-remount-fs.
+Thu May 25 16:55:10 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:55:11 2023 - INFO  - End to run testcase:oe_test_service_systemd-remount-fs.
+Thu May 25 16:55:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:55:11 2023 - INFO  - start to run testcase:oe_test_service_systemd-resolved.
+Thu May 25 16:55:28 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:55:28 2023 - INFO  - End to run testcase:oe_test_service_systemd-resolved.
+Thu May 25 16:55:28 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:55:29 2023 - INFO  - start to run testcase:oe_test_service_systemd-rfkill.
+Thu May 25 16:55:35 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:55:35 2023 - INFO  - End to run testcase:oe_test_service_systemd-rfkill.
+Thu May 25 16:55:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:55:35 2023 - INFO  - start to run testcase:oe_test_service_systemd-suspend.
+Thu May 25 16:55:36 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:55:36 2023 - INFO  - End to run testcase:oe_test_service_systemd-suspend.
+Thu May 25 16:55:36 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:55:36 2023 - INFO  - start to run testcase:oe_test_service_systemd-suspend-then-hibernate.
+Thu May 25 16:55:38 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:55:38 2023 - INFO  - End to run testcase:oe_test_service_systemd-suspend-then-hibernate.
+Thu May 25 16:55:38 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:55:38 2023 - INFO  - start to run testcase:oe_test_service_systemd-sysctl.
+Thu May 25 16:55:55 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:55:55 2023 - INFO  - End to run testcase:oe_test_service_systemd-sysctl.
+Thu May 25 16:55:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:55:55 2023 - INFO  - start to run testcase:oe_test_service_systemd-sysusers.
+Thu May 25 16:56:12 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:56:12 2023 - INFO  - End to run testcase:oe_test_service_systemd-sysusers.
+Thu May 25 16:56:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:56:12 2023 - INFO  - start to run testcase:oe_test_service_systemd-timedated.
+Thu May 25 16:56:29 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:56:29 2023 - INFO  - End to run testcase:oe_test_service_systemd-timedated.
+Thu May 25 16:56:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:56:29 2023 - INFO  - start to run testcase:oe_test_service_systemd-timesyncd.
+Thu May 25 16:56:46 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:56:46 2023 - INFO  - End to run testcase:oe_test_service_systemd-timesyncd.
+Thu May 25 16:56:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:56:46 2023 - INFO  - start to run testcase:oe_test_service_systemd-time-wait-sync.
+Thu May 25 16:57:04 2023 - ERROR - The case exit by code 7.
+Thu May 25 16:57:04 2023 - INFO  - End to run testcase:oe_test_service_systemd-time-wait-sync.
+Thu May 25 16:57:04 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:57:05 2023 - INFO  - start to run testcase:oe_test_service_systemd-tmpfiles-clean.
+Thu May 25 16:57:05 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:57:05 2023 - INFO  - End to run testcase:oe_test_service_systemd-tmpfiles-clean.
+Thu May 25 16:57:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:57:06 2023 - INFO  - start to run testcase:oe_test_service_systemd-tmpfiles-setup-dev.
+Thu May 25 16:57:22 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:57:22 2023 - INFO  - End to run testcase:oe_test_service_systemd-tmpfiles-setup-dev.
+Thu May 25 16:57:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:57:23 2023 - INFO  - start to run testcase:oe_test_service_systemd-tmpfiles-setup.
+Thu May 25 16:57:23 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:57:24 2023 - INFO  - End to run testcase:oe_test_service_systemd-tmpfiles-setup.
+Thu May 25 16:57:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:57:24 2023 - INFO  - start to run testcase:oe_test_service_systemd-udevd.
+Thu May 25 16:57:41 2023 - ERROR - The case exit by code 1.
+Thu May 25 16:57:41 2023 - INFO  - End to run testcase:oe_test_service_systemd-udevd.
+Thu May 25 16:57:41 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 16:57:41 2023 - INFO  - start to run testcase:oe_test_service_systemd-udev-settle.
+Thu May 25 16:57:58 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:57:58 2023 - INFO  - End to run testcase:oe_test_service_systemd-udev-settle.
+Thu May 25 16:57:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:57:58 2023 - INFO  - start to run testcase:oe_test_service_systemd-udev-trigger.
+Thu May 25 16:57:59 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:57:59 2023 - INFO  - End to run testcase:oe_test_service_systemd-udev-trigger.
+Thu May 25 16:57:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:58:00 2023 - INFO  - start to run testcase:oe_test_service_systemd-update-done.
+Thu May 25 16:58:11 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:58:11 2023 - INFO  - End to run testcase:oe_test_service_systemd-update-done.
+Thu May 25 16:58:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:58:12 2023 - INFO  - start to run testcase:oe_test_service_systemd-update-utmp-runlevel.
+Thu May 25 16:58:13 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:58:13 2023 - INFO  - End to run testcase:oe_test_service_systemd-update-utmp-runlevel.
+Thu May 25 16:58:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:58:13 2023 - INFO  - start to run testcase:oe_test_service_systemd-update-utmp.
+Thu May 25 16:58:29 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:58:29 2023 - INFO  - End to run testcase:oe_test_service_systemd-update-utmp.
+Thu May 25 16:58:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:58:30 2023 - INFO  - start to run testcase:oe_test_service_systemd-user-sessions.
+Thu May 25 16:58:46 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:58:46 2023 - INFO  - End to run testcase:oe_test_service_systemd-user-sessions.
+Thu May 25 16:58:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:58:47 2023 - INFO  - start to run testcase:oe_test_service_systemd-vconsole-setup.
+Thu May 25 16:59:03 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:59:03 2023 - INFO  - End to run testcase:oe_test_service_systemd-vconsole-setup.
+Thu May 25 16:59:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:59:04 2023 - INFO  - start to run testcase:oe_test_service_systemd-volatile-root.
+Thu May 25 16:59:04 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:59:05 2023 - INFO  - End to run testcase:oe_test_service_systemd-volatile-root.
+Thu May 25 16:59:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:59:05 2023 - INFO  - start to run testcase:oe_test_socket_syslog.
+Thu May 25 16:59:23 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:59:23 2023 - INFO  - End to run testcase:oe_test_socket_syslog.
+Thu May 25 16:59:23 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:59:24 2023 - INFO  - start to run testcase:oe_test_socket_systemd-coredump.
+Thu May 25 16:59:40 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:59:40 2023 - INFO  - End to run testcase:oe_test_socket_systemd-coredump.
+Thu May 25 16:59:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:59:41 2023 - INFO  - start to run testcase:oe_test_socket_systemd-initctl.
+Thu May 25 16:59:57 2023 - INFO  - The case exit by code 0.
+Thu May 25 16:59:57 2023 - INFO  - End to run testcase:oe_test_socket_systemd-initctl.
+Thu May 25 16:59:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 16:59:57 2023 - INFO  - start to run testcase:oe_test_socket_systemd-journald-audit.
+Thu May 25 17:00:14 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:00:14 2023 - INFO  - End to run testcase:oe_test_socket_systemd-journald-audit.
+Thu May 25 17:00:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:00:14 2023 - INFO  - start to run testcase:oe_test_socket_systemd-journald-dev-log.
+Thu May 25 17:00:32 2023 - ERROR - The case exit by code 4.
+Thu May 25 17:00:32 2023 - INFO  - End to run testcase:oe_test_socket_systemd-journald-dev-log.
+Thu May 25 17:00:32 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:00:32 2023 - INFO  - start to run testcase:oe_test_socket_systemd-journald.
+Thu May 25 17:00:49 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:00:49 2023 - INFO  - End to run testcase:oe_test_socket_systemd-journald.
+Thu May 25 17:00:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:00:49 2023 - INFO  - start to run testcase:oe_test_socket_systemd-journal-gatewayd.
+Thu May 25 17:01:10 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:01:10 2023 - INFO  - End to run testcase:oe_test_socket_systemd-journal-gatewayd.
+Thu May 25 17:01:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:01:10 2023 - INFO  - start to run testcase:oe_test_socket_systemd-journal-remote.
+Thu May 25 17:01:31 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:01:31 2023 - INFO  - End to run testcase:oe_test_socket_systemd-journal-remote.
+Thu May 25 17:01:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:01:31 2023 - INFO  - start to run testcase:oe_test_socket_systemd-networkd.
+Thu May 25 17:01:48 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:01:49 2023 - INFO  - End to run testcase:oe_test_socket_systemd-networkd.
+Thu May 25 17:01:49 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:01:49 2023 - INFO  - start to run testcase:oe_test_socket_systemd-rfkill.
+Thu May 25 17:02:06 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:02:06 2023 - INFO  - End to run testcase:oe_test_socket_systemd-rfkill.
+Thu May 25 17:02:06 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:02:06 2023 - INFO  - start to run testcase:oe_test_socket_systemd-udevd-control.
+Thu May 25 17:02:23 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:02:23 2023 - INFO  - End to run testcase:oe_test_socket_systemd-udevd-control.
+Thu May 25 17:02:23 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:02:23 2023 - INFO  - start to run testcase:oe_test_socket_systemd-udevd-kernel.
+Thu May 25 17:02:40 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:02:40 2023 - INFO  - End to run testcase:oe_test_socket_systemd-udevd-kernel.
+Thu May 25 17:02:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:02:40 2023 - INFO  - start to run testcase:oe_test_target_basic.
+Thu May 25 17:02:57 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:02:57 2023 - INFO  - End to run testcase:oe_test_target_basic.
+Thu May 25 17:02:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:02:57 2023 - INFO  - start to run testcase:oe_test_target_boot-complete.
+Thu May 25 17:03:13 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:03:14 2023 - INFO  - End to run testcase:oe_test_target_boot-complete.
+Thu May 25 17:03:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:03:14 2023 - INFO  - start to run testcase:oe_test_target_cryptsetup-pre.
+Thu May 25 17:03:15 2023 - ERROR - The case exit by code 3.
+Thu May 25 17:03:15 2023 - INFO  - End to run testcase:oe_test_target_cryptsetup-pre.
+Thu May 25 17:03:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:03:16 2023 - INFO  - start to run testcase:oe_test_target_cryptsetup.
+Thu May 25 17:03:33 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:03:33 2023 - INFO  - End to run testcase:oe_test_target_cryptsetup.
+Thu May 25 17:03:33 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:03:33 2023 - INFO  - start to run testcase:oe_test_target_ctrl-alt-del.
+Thu May 25 17:03:34 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:03:34 2023 - INFO  - End to run testcase:oe_test_target_ctrl-alt-del.
+Thu May 25 17:03:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:03:35 2023 - INFO  - start to run testcase:oe_test_target_default.
+Thu May 25 17:03:51 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:03:51 2023 - INFO  - End to run testcase:oe_test_target_default.
+Thu May 25 17:03:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:03:52 2023 - INFO  - start to run testcase:oe_test_target_exit.
+Thu May 25 17:03:53 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:03:53 2023 - INFO  - End to run testcase:oe_test_target_exit.
+Thu May 25 17:03:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:03:54 2023 - INFO  - start to run testcase:oe_test_target_final.
+Thu May 25 17:03:55 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:03:55 2023 - INFO  - End to run testcase:oe_test_target_final.
+Thu May 25 17:03:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:03:55 2023 - INFO  - start to run testcase:oe_test_target_getty-pre.
+Thu May 25 17:04:12 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:04:12 2023 - INFO  - End to run testcase:oe_test_target_getty-pre.
+Thu May 25 17:04:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:04:12 2023 - INFO  - start to run testcase:oe_test_target_getty.
+Thu May 25 17:04:28 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:04:28 2023 - INFO  - End to run testcase:oe_test_target_getty.
+Thu May 25 17:04:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:04:29 2023 - INFO  - start to run testcase:oe_test_target_graphical.
+Thu May 25 17:04:45 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:04:45 2023 - INFO  - End to run testcase:oe_test_target_graphical.
+Thu May 25 17:04:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:04:45 2023 - INFO  - start to run testcase:oe_test_target_halt.
+Thu May 25 17:04:47 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:04:47 2023 - INFO  - End to run testcase:oe_test_target_halt.
+Thu May 25 17:04:47 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:04:48 2023 - INFO  - start to run testcase:oe_test_target_hibernate.
+Thu May 25 17:04:48 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:04:49 2023 - INFO  - End to run testcase:oe_test_target_hibernate.
+Thu May 25 17:04:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:04:49 2023 - INFO  - start to run testcase:oe_test_target_hybrid-sleep.
+Thu May 25 17:04:50 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:04:50 2023 - INFO  - End to run testcase:oe_test_target_hybrid-sleep.
+Thu May 25 17:04:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:04:50 2023 - INFO  - start to run testcase:oe_test_target_initrd-fs.
+Thu May 25 17:05:07 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:05:07 2023 - INFO  - End to run testcase:oe_test_target_initrd-fs.
+Thu May 25 17:05:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:05:07 2023 - INFO  - start to run testcase:oe_test_target_initrd-root-device.
+Thu May 25 17:05:24 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:05:24 2023 - INFO  - End to run testcase:oe_test_target_initrd-root-device.
+Thu May 25 17:05:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:05:24 2023 - INFO  - start to run testcase:oe_test_target_initrd-root-fs.
+Thu May 25 17:05:41 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:05:41 2023 - INFO  - End to run testcase:oe_test_target_initrd-root-fs.
+Thu May 25 17:05:41 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:05:41 2023 - INFO  - start to run testcase:oe_test_target_initrd.
+Thu May 25 17:05:42 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:05:42 2023 - INFO  - End to run testcase:oe_test_target_initrd.
+Thu May 25 17:05:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:05:43 2023 - INFO  - start to run testcase:oe_test_target_initrd-switch-root.
+Thu May 25 17:05:43 2023 - ERROR - The case exit by code 1.
+Thu May 25 17:05:44 2023 - INFO  - End to run testcase:oe_test_target_initrd-switch-root.
+Thu May 25 17:05:44 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:05:44 2023 - INFO  - start to run testcase:oe_test_target_kexec.
+Thu May 25 17:05:46 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:05:46 2023 - INFO  - End to run testcase:oe_test_target_kexec.
+Thu May 25 17:05:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:05:47 2023 - INFO  - start to run testcase:oe_test_target_local-fs-pre.
+Thu May 25 17:05:47 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:05:48 2023 - INFO  - End to run testcase:oe_test_target_local-fs-pre.
+Thu May 25 17:05:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:05:48 2023 - INFO  - start to run testcase:oe_test_target_local-fs.
+Thu May 25 17:06:04 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:06:04 2023 - INFO  - End to run testcase:oe_test_target_local-fs.
+Thu May 25 17:06:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:06:05 2023 - INFO  - start to run testcase:oe_test_target_machines.
+Thu May 25 17:06:22 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:06:22 2023 - INFO  - End to run testcase:oe_test_target_machines.
+Thu May 25 17:06:22 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:06:22 2023 - INFO  - start to run testcase:oe_test_target_multi-user.
+Thu May 25 17:06:38 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:06:38 2023 - INFO  - End to run testcase:oe_test_target_multi-user.
+Thu May 25 17:06:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:06:39 2023 - INFO  - start to run testcase:oe_test_target_network-online.
+Thu May 25 17:06:55 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:06:55 2023 - INFO  - End to run testcase:oe_test_target_network-online.
+Thu May 25 17:06:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:06:55 2023 - INFO  - start to run testcase:oe_test_target_network-pre.
+Thu May 25 17:06:56 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:06:56 2023 - INFO  - End to run testcase:oe_test_target_network-pre.
+Thu May 25 17:06:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:06:57 2023 - INFO  - start to run testcase:oe_test_target_network.
+Thu May 25 17:06:58 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:06:58 2023 - INFO  - End to run testcase:oe_test_target_network.
+Thu May 25 17:06:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:06:58 2023 - INFO  - start to run testcase:oe_test_target_nss-lookup.
+Thu May 25 17:06:59 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:06:59 2023 - INFO  - End to run testcase:oe_test_target_nss-lookup.
+Thu May 25 17:06:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:06:59 2023 - INFO  - start to run testcase:oe_test_target_nss-user-lookup.
+Thu May 25 17:07:00 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:07:00 2023 - INFO  - End to run testcase:oe_test_target_nss-user-lookup.
+Thu May 25 17:07:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:07:01 2023 - INFO  - start to run testcase:oe_test_target_paths.
+Thu May 25 17:07:17 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:07:17 2023 - INFO  - End to run testcase:oe_test_target_paths.
+Thu May 25 17:07:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:07:17 2023 - INFO  - start to run testcase:oe_test_target_poweroff.
+Thu May 25 17:07:19 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:07:19 2023 - INFO  - End to run testcase:oe_test_target_poweroff.
+Thu May 25 17:07:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:07:20 2023 - INFO  - start to run testcase:oe_test_target_reboot.
+Thu May 25 17:07:21 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:07:21 2023 - INFO  - End to run testcase:oe_test_target_reboot.
+Thu May 25 17:07:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:07:22 2023 - INFO  - start to run testcase:oe_test_target_remote-cryptsetup.
+Thu May 25 17:07:39 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:07:39 2023 - INFO  - End to run testcase:oe_test_target_remote-cryptsetup.
+Thu May 25 17:07:39 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:07:39 2023 - INFO  - start to run testcase:oe_test_target_remote-fs-pre.
+Thu May 25 17:07:40 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:07:40 2023 - INFO  - End to run testcase:oe_test_target_remote-fs-pre.
+Thu May 25 17:07:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:07:40 2023 - INFO  - start to run testcase:oe_test_target_remote-fs.
+Thu May 25 17:07:57 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:07:57 2023 - INFO  - End to run testcase:oe_test_target_remote-fs.
+Thu May 25 17:07:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:07:57 2023 - INFO  - start to run testcase:oe_test_target_rescue.
+Thu May 25 17:08:14 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:08:14 2023 - INFO  - End to run testcase:oe_test_target_rescue.
+Thu May 25 17:08:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:08:14 2023 - INFO  - start to run testcase:oe_test_target_rpcbind.
+Thu May 25 17:08:15 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:08:15 2023 - INFO  - End to run testcase:oe_test_target_rpcbind.
+Thu May 25 17:08:15 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:08:16 2023 - INFO  - start to run testcase:oe_test_target_runlevel0.
+Thu May 25 17:08:17 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:08:17 2023 - INFO  - End to run testcase:oe_test_target_runlevel0.
+Thu May 25 17:08:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:08:17 2023 - INFO  - start to run testcase:oe_test_target_runlevel1.
+Thu May 25 17:08:34 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:08:34 2023 - INFO  - End to run testcase:oe_test_target_runlevel1.
+Thu May 25 17:08:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:08:34 2023 - INFO  - start to run testcase:oe_test_target_runlevel2.
+Thu May 25 17:08:51 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:08:51 2023 - INFO  - End to run testcase:oe_test_target_runlevel2.
+Thu May 25 17:08:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:08:51 2023 - INFO  - start to run testcase:oe_test_target_runlevel3.
+Thu May 25 17:09:07 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:09:07 2023 - INFO  - End to run testcase:oe_test_target_runlevel3.
+Thu May 25 17:09:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:09:08 2023 - INFO  - start to run testcase:oe_test_target_runlevel4.
+Thu May 25 17:09:24 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:09:24 2023 - INFO  - End to run testcase:oe_test_target_runlevel4.
+Thu May 25 17:09:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:09:24 2023 - INFO  - start to run testcase:oe_test_target_runlevel5.
+Thu May 25 17:09:41 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:09:41 2023 - INFO  - End to run testcase:oe_test_target_runlevel5.
+Thu May 25 17:09:41 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:09:41 2023 - INFO  - start to run testcase:oe_test_target_runlevel6.
+Thu May 25 17:09:42 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:09:42 2023 - INFO  - End to run testcase:oe_test_target_runlevel6.
+Thu May 25 17:09:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:09:43 2023 - INFO  - start to run testcase:oe_test_target_shutdown.
+Thu May 25 17:09:43 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:09:43 2023 - INFO  - End to run testcase:oe_test_target_shutdown.
+Thu May 25 17:09:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:09:44 2023 - INFO  - start to run testcase:oe_test_target_sigpwr.
+Thu May 25 17:10:00 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:10:00 2023 - INFO  - End to run testcase:oe_test_target_sigpwr.
+Thu May 25 17:10:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:10:01 2023 - INFO  - start to run testcase:oe_test_target_sleep.
+Thu May 25 17:10:01 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:10:01 2023 - INFO  - End to run testcase:oe_test_target_sleep.
+Thu May 25 17:10:01 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:10:02 2023 - INFO  - start to run testcase:oe_test_target_slices.
+Thu May 25 17:10:18 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:10:18 2023 - INFO  - End to run testcase:oe_test_target_slices.
+Thu May 25 17:10:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:10:18 2023 - INFO  - start to run testcase:oe_test_target_sockets.
+Thu May 25 17:10:35 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:10:35 2023 - INFO  - End to run testcase:oe_test_target_sockets.
+Thu May 25 17:10:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:10:35 2023 - INFO  - start to run testcase:oe_test_target_suspend.
+Thu May 25 17:10:36 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:10:36 2023 - INFO  - End to run testcase:oe_test_target_suspend.
+Thu May 25 17:10:36 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:10:36 2023 - INFO  - start to run testcase:oe_test_target_suspend-then-hibernate.
+Thu May 25 17:10:37 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:10:37 2023 - INFO  - End to run testcase:oe_test_target_suspend-then-hibernate.
+Thu May 25 17:10:37 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:10:37 2023 - INFO  - start to run testcase:oe_test_target_swap.
+Thu May 25 17:10:53 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:10:53 2023 - INFO  - End to run testcase:oe_test_target_swap.
+Thu May 25 17:10:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:10:54 2023 - INFO  - start to run testcase:oe_test_target_sysinit.
+Thu May 25 17:11:12 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:12 2023 - INFO  - End to run testcase:oe_test_target_sysinit.
+Thu May 25 17:11:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:12 2023 - INFO  - start to run testcase:oe_test_target_system-update-pre.
+Thu May 25 17:11:13 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:13 2023 - INFO  - End to run testcase:oe_test_target_system-update-pre.
+Thu May 25 17:11:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:13 2023 - INFO  - start to run testcase:oe_test_target_system-update.
+Thu May 25 17:11:30 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:30 2023 - INFO  - End to run testcase:oe_test_target_system-update.
+Thu May 25 17:11:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:30 2023 - INFO  - start to run testcase:oe_test_target_timers.
+Thu May 25 17:11:46 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:46 2023 - INFO  - End to run testcase:oe_test_target_timers.
+Thu May 25 17:11:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:46 2023 - INFO  - start to run testcase:oe_test_target_time-set.
+Thu May 25 17:11:47 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:47 2023 - INFO  - End to run testcase:oe_test_target_time-set.
+Thu May 25 17:11:47 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:47 2023 - INFO  - start to run testcase:oe_test_target_time-sync.
+Thu May 25 17:11:48 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:48 2023 - INFO  - End to run testcase:oe_test_target_time-sync.
+Thu May 25 17:11:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:48 2023 - INFO  - start to run testcase:oe_test_target_umount.
+Thu May 25 17:11:49 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:49 2023 - INFO  - End to run testcase:oe_test_target_umount.
+Thu May 25 17:11:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:49 2023 - INFO  - start to run testcase:oe_test_service_emergency.
+Thu May 25 17:11:50 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:50 2023 - INFO  - End to run testcase:oe_test_service_emergency.
+Thu May 25 17:11:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:51 2023 - INFO  - start to run testcase:oe_test_target_emergency.
+Thu May 25 17:11:51 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:11:52 2023 - INFO  - End to run testcase:oe_test_target_emergency.
+Thu May 25 17:11:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:11:52 2023 - INFO  - start to run testcase:oe_test_service_systemd-sysext.
+Thu May 25 17:12:09 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:12:09 2023 - INFO  - End to run testcase:oe_test_service_systemd-sysext.
+Thu May 25 17:12:09 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:12:09 2023 - INFO  - start to run testcase:oe_test_service_systemd-userdbd.
+Thu May 25 17:12:26 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:12:26 2023 - INFO  - End to run testcase:oe_test_service_systemd-userdbd.
+Thu May 25 17:12:26 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:12:26 2023 - INFO  - start to run testcase:oe_test_socket_systemd-userdbd.
+Thu May 25 17:12:43 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:12:43 2023 - INFO  - End to run testcase:oe_test_socket_systemd-userdbd.
+Thu May 25 17:12:43 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:12:44 2023 - INFO  - start to run testcase:oe_test_target_first-boot-complete.
+Thu May 25 17:12:44 2023 - INFO  - The case exit by code 0.
+Thu May 25 17:12:44 2023 - INFO  - End to run testcase:oe_test_target_first-boot-complete.
+Thu May 25 17:12:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu May 25 17:12:45 2023 - INFO  - start to run testcase:oe_test_target_remote-veritysetup.
+Thu May 25 17:13:02 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:13:02 2023 - INFO  - End to run testcase:oe_test_target_remote-veritysetup.
+Thu May 25 17:13:02 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:13:02 2023 - INFO  - start to run testcase:oe_test_target_usb-gadget.
+Thu May 25 17:13:19 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:13:19 2023 - INFO  - End to run testcase:oe_test_target_usb-gadget.
+Thu May 25 17:13:19 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:13:19 2023 - INFO  - start to run testcase:oe_test_target_veritysetup.
+Thu May 25 17:13:36 2023 - ERROR - The case exit by code 7.
+Thu May 25 17:13:36 2023 - INFO  - End to run testcase:oe_test_target_veritysetup.
+Thu May 25 17:13:36 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu May 25 17:13:36 2023 - INFO  - start to run testcase:oe_test_target_veritysetup-pre.
+Thu May 25 17:13:37 2023 - ERROR - The case exit by code 3.
+Thu May 25 17:13:37 2023 - INFO  - End to run testcase:oe_test_target_veritysetup-pre.
+Thu May 25 17:13:37 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
