@@ -1,0 +1,27 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因
+lvm2,oe_test_service_lvmlocks,fail,./riscv/logs_failed/lvm2/oe_test_service_lvmlocks/2023-05-25-17_32_35.log,oerv 缺失软件包 lvm2-locked
+lvm2,oe_test_service_lvmlockd,fail,./riscv/logs_failed/lvm2/oe_test_service_lvmlockd/2023-05-25-17_30_48.log,oerv 缺失软件包 lvm2-locked
+kernel,oe_test_vport-geneve,fail,./riscv/logs_failed/kernel/oe_test_vport-geneve/2023-05-25-17_10_48.log,内核模块缺失 vport-geneve
+kernel,oe_test_kernel_cmd_01,fail,./riscv/logs_failed/kernel/oe_test_kernel_cmd_01/2023-05-25-17_00_23.log,测试使用 hostnamectl | grep Virtualization 判断是否为虚拟机，而 qemu-system-riscv64 不适用这个方法
+kernel,oe_test_xfs,fail,./riscv/logs_failed/kernel/oe_test_xfs/2023-05-25-17_13_30.log,内核模块缺失 xfs
+kernel,oe_test_hqlogic,fail,./riscv/logs_failed/kernel/oe_test_hqlogic/2023-05-25-17_09_19.log,内核模块缺失 qla2xxx
+kernel,oe_test_qxl,fail,./riscv/logs_failed/kernel/oe_test_qxl/2023-05-25-17_10_14.log,内核模块缺失 qxl
+kernel,oe_test_ipip,fail,./riscv/logs_failed/kernel/oe_test_ipip/2023-05-25-17_07_08.log,内核模块缺失 ipip
+kernel,oe_test_snd_aloop,fail,./riscv/logs_failed/kernel/oe_test_snd_aloop/2023-05-25-17_08_23.log,内核模块缺失 snd-aloop
+kernel,oe_test_wangxun,fail,./riscv/logs_failed/kernel/oe_test_wangxun/2023-05-25-17_13_55.log,内核模块缺失 ngbe.ko txgbe.ko
+kernel,oe_test_service_cpupower,fail,./riscv/logs_failed/kernel/oe_test_service_cpupower/2023-05-25-17_06_08.log,测试使用 hostnamectl | grep Virtualization 判断是否为虚拟机，而 qemu-system-riscv64 不适用这个方法
+kernel,oe_test_lpfc,fail,./riscv/logs_failed/kernel/oe_test_lpfc/2023-05-25-17_11_35.log,内核模块缺失 lpfc
+kernel,oe_test_softdog,fail,./riscv/logs_failed/kernel/oe_test_softdog/2023-05-25-17_12_40.log,内核模块缺失 softdog
+glib2,oe_test_glib2,fail,./riscv/logs_failed/glib2/oe_test_glib2/2023-05-25-16_48_06.log,镜像没有预装测试所需的 kernel-headers
+dnf,oe_test_dnf_makecache_clean,fail,./riscv/logs_failed/dnf/oe_test_dnf_makecache_clean/2023-05-25-16_56_12.log,oerv 和 x86 的软件源结构不同
+dnf,oe_test_dnf_nobest_nodocs_nogpgcheck,fail,./riscv/logs_failed/dnf/oe_test_dnf_nobest_nodocs_nogpgcheck/2023-05-25-17_16_55.log,oerv 和 x86 的软件源结构不同
+dnf,oe_test_dnf_repeat-install,fail,./riscv/logs_failed/dnf/oe_test_dnf_repeat-install/2023-05-25-17_23_20.log,oerv 和 x86 的软件源结构不同
+dnf,oe_test_dnf_all-repos,fail,./riscv/logs_failed/dnf/oe_test_dnf_all-repos/2023-05-25-16_43_17.log,oerv 和 x86 的软件源结构不同
+dnf,oe_test_dnf_enhancement_exclude,fail,./riscv/logs_failed/dnf/oe_test_dnf_enhancement_exclude/2023-05-25-17_11_41.log,oerv 和 x86 的软件源结构不同
+dnf,oe_test_dnf_provides_randomwait,fail,./riscv/logs_failed/dnf/oe_test_dnf_provides_randomwait/2023-05-25-17_19_15.log,oerv 和 x86 的软件源结构不同
+dnf,oe_test_dnf_priority,fail,./riscv/logs_failed/dnf/oe_test_dnf_priority/2023-05-25-17_18_28.log,oerv 和 x86 的软件源结构不同
+kmod,oe_test_rmmod,fail,./riscv/logs_failed/kmod/oe_test_rmmod/2023-05-25-17_05_55.log,内核模块缺失 dm_log dm_mirror dm_region_hash
+kmod,oe_test_weak-modules,fail,./riscv/logs_failed/kmod/oe_test_weak-modules/2023-05-25-17_06_19.log,镜像没有预装测试所需的 dracut （引入后 Unable to decompress /boot/initramfs-6.1.8-3.oe2303.riscv64.img: Unknown format）
+systemd,oe_test_socket_syslog,fail,./riscv/logs_failed/systemd/oe_test_socket_syslog/2023-05-25-21_41_08.log,镜像没有预装测试所需的 rsyslog
+NetworkManager,oe_test_libnetfilter_conntrack,fail,./riscv/logs_failed/NetworkManager/oe_test_libnetfilter_conntrack/2023-05-25-16_27_41.log,镜像没有预装测试所需的 kernel-headers
+acl,oe_test_acl_default_kernel_setting,fail,./riscv/logs_failed/acl/oe_test_acl_default_kernel_setting/2023-05-25-16_29_46.log,未打开 CONFIG_XFS_POSIX_ACL=y

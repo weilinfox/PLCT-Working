@@ -1,4 +1,4 @@
-²âÊÔÌ×/Èí¼ş°üÃû,²âÊÔÓÃÀıÃû,×´Ì¬,ÈÕÖ¾ÎÄ¼ş,Ô­Òò
+æµ‹è¯•å¥—/è½¯ä»¶åŒ…å,æµ‹è¯•ç”¨ä¾‹å,çŠ¶æ€,æ—¥å¿—æ–‡ä»¶,åŸå› 
 lvm2,oe_test_service_lvmlocks,fail,./riscv/logs_failed/lvm2/oe_test_service_lvmlocks/2023-05-25-17_32_35.log,"file missing
 systemd unit restart failure
 systemd unit runtime error"
