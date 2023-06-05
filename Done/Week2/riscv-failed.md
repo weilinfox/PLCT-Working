@@ -21,12 +21,12 @@
 |:-:|:-:|:-:|
 |kernel|oe_test_kernel_cmd_01|测试使用 ``hostnamectl \| grep Virtualization`` 判断是否为虚拟机，而 qemu-system-riscv64 不适用这个方法|
 |kernel|oe_test_service_cpupower|测试使用 ``hostnamectl \| grep Virtualization`` 判断是否为虚拟机，而 qemu-system-riscv64 不适用这个方法|
-|glib2|oe_test_glib2|没有引入依赖包 kernel-headers ，引入后通过|
-|dnf|oe_test_dnf_makecache_clean|测试套检查了 oerv 中没有的 OS 和 everything 源|
-|dnf|oe_test_dnf_enabled_enablerepo|测试套依赖 oerv 中没有的 OS 和 everything 源，测试用例直接操作 /etc/yum.repo.d/openEuler.repo 然后把它搞坏了|
-|kmod|oe_test_weak-modules|没有引入依赖包 dracut <br/>引入后 Unable to decompress /boot/initramfs-6.1.8-3.oe2303.riscv64.img: Unknown format|
-|systemd|oe_test_socket_syslog|没有引入依赖包 rsyslog ，引入后通过|
-|NetworkManager|oe_test_libnetfilter_conntrack|没有引入依赖包 kernel-headers ，引入后通过|
+|glib2|oe_test_glib2|镜像没有预装测试所需的 kernel-headers ，引入后通过|
+|dnf|oe_test_dnf_makecache_clean|oerv 和 x86 的软件源结构不同，测试套检查了 oerv 中没有的 OS 和 everything 源|
+|dnf|oe_test_dnf_enabled_enablerepo|oerv 和 x86 的软件源结构不同，测试套依赖 oerv 中没有的 OS 和 everything 源，测试用例直接操作 /etc/yum.repo.d/openEuler.repo 然后把它搞坏了|
+|kmod|oe_test_weak-modules|镜像没有预装测试所需的 dracut <br/>引入后 Unable to decompress /boot/initramfs-6.1.8-3.oe2303.riscv64.img: Unknown format|
+|systemd|oe_test_socket_syslog|镜像没有预装测试所需的 rsyslog ，引入后通过|
+|NetworkManager|oe_test_libnetfilter_conntrack|镜像没有预装测试所需的 kernel-headers ，引入后通过|
 
 ### 内核模块缺失/选项未打开
 

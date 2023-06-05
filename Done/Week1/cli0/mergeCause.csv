@@ -21,10 +21,7 @@ lvm2,oe_test_lvm2_pvresize_001,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_pv
 lvm2,oe_test_lvm2_vgextend_002,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_vgextend_002/2023-05-25-17_52_49.log,unknown,./x86/logs_failed/lvm2/oe_test_lvm2_vgextend_002/2023-05-25-16_35_00.log,unknown
 lvm2,oe_test_lvm2_vgextend_001,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_vgextend_001/2023-05-25-17_54_11.log,unknown,./x86/logs_failed/lvm2/oe_test_lvm2_vgextend_001/2023-05-25-16_35_10.log,unknown
 lvm2,oe_test_lvm2_vgchange_002,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_vgchange_002/2023-05-25-17_57_25.log,unknown,./x86/logs_failed/lvm2/oe_test_lvm2_vgchange_002/2023-05-25-16_35_31.log,unknown
-lvm2,oe_test_service_lvmlocks,fail,./riscv/logs_failed/lvm2/oe_test_service_lvmlocks/2023-05-25-17_32_35.log,"file missing
-systemd unit restart failure
-systemd unit runtime error
-",,
+lvm2,oe_test_service_lvmlocks,fail,./riscv/logs_failed/lvm2/oe_test_service_lvmlocks/2023-05-25-17_32_35.log,"Missing package lvm2-locked",,
 lvm2,oe_test_lvm2_pvmove_001,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_pvmove_001/2023-05-25-17_42_15.log,"kernel module absent
 file missing
 ",./x86/logs_failed/lvm2/oe_test_lvm2_pvmove_001/2023-05-25-16_33_15.log,"file missing
@@ -36,10 +33,7 @@ lvm2,oe_test_lvm2_pvremove_001,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_pv
 lvm2,oe_test_lvm2_vgcreate_001,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_vgcreate_001/2023-05-25-17_43_21.log,"file missing
 ",./x86/logs_failed/lvm2/oe_test_lvm2_vgcreate_001/2023-05-25-16_33_27.log,"file missing
 "
-lvm2,oe_test_service_lvmlockd,fail,./riscv/logs_failed/lvm2/oe_test_service_lvmlockd/2023-05-25-17_30_48.log,"file missing
-systemd unit restart failure
-systemd unit runtime error
-",,
+lvm2,oe_test_service_lvmlockd,fail,./riscv/logs_failed/lvm2/oe_test_service_lvmlockd/2023-05-25-17_30_48.log,"Missing package lvm2-locked",,
 lvm2,oe_test_lvm2_vgdisplay_001,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_vgdisplay_001/2023-05-25-17_45_56.log,unknown,./x86/logs_failed/lvm2/oe_test_lvm2_vgdisplay_001/2023-05-25-16_33_52.log,unknown
 lvm2,oe_test_lvm2_pvcreate_002,x86 fail,./riscv/logs_failed/lvm2/oe_test_lvm2_pvcreate_002/2023-05-25-17_38_17.log,"file missing
 ",./x86/logs_failed/lvm2/oe_test_lvm2_pvcreate_002/2023-05-25-16_32_34.log,"file missing
