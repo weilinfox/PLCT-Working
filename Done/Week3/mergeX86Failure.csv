@@ -1,0 +1,259 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因,x86 日志文件,x86 原因
+lvm2,oe_test_lvm2_vgexport_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgexport_001/2023-05-25-17_56_06.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgexport_001/2023-05-25-16_35_25.log,unknown
+lvm2,oe_test_service_lvm2-monitor,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_service_lvm2-monitor/systemctl_for_2023-05-25-17_29_55.log,没有引入测试对象软件包 lvm2,Week1/cli0/x86/logs_failed/lvm2/oe_test_service_lvm2-monitor/systemctl_for_2023-05-25-16_30_09.log,"Broken testcase"
+lvm2,oe_test_lvm2_pvdisplay_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvdisplay_001/2023-05-25-17_47_58.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvdisplay_001/2023-05-25-16_34_09.log,unknown
+lvm2,oe_test_lvm2_pvchange_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvchange_001/2023-05-25-17_50_26.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvchange_001/2023-05-25-16_34_45.log,unknown
+lvm2,oe_test_lvm2_vgrename_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgrename_001/2023-05-25-17_46_56.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgrename_001/2023-05-25-16_34_01.log,unknown
+lvm2,oe_test_lvm2_pvmove_002,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvmove_002/2023-05-25-17_49_01.log,lvm2.json 缺少配置 "add disk": [3] 且缺少内核模块 dm-mirror,Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvmove_002/2023-05-25-16_34_17.log,unknown
+lvm2,oe_test_lvm2_pvresize_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvresize_001/2023-05-25-17_40_21.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvresize_001/2023-05-25-16_32_55.log,"file missing"
+lvm2,oe_test_lvm2_vgextend_002,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgextend_002/2023-05-25-17_52_49.log,lvm2.json 缺少配置 "add disk": [3],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgextend_002/2023-05-25-16_35_00.log,unknown
+lvm2,oe_test_lvm2_vgextend_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgextend_001/2023-05-25-17_54_11.log,lvm2.json 缺少配置 "add disk": [3],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgextend_001/2023-05-25-16_35_10.log,unknown
+lvm2,oe_test_lvm2_vgchange_002,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgchange_002/2023-05-25-17_57_25.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgchange_002/2023-05-25-16_35_31.log,unknown
+lvm2,oe_test_lvm2_pvmove_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvmove_001/2023-05-25-17_42_15.log,lvm2.json 缺少配置 "add disk": [3] 且缺少内核模块 dm-mirror,Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvmove_001/2023-05-25-16_33_15.log,"file missing"
+lvm2,oe_test_lvm2_pvcreate_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvcreate_001/2023-05-25-17_41_15.log,lvm2.json 缺少配置 "add disk": [2] 去掉 sed -n 3p,Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvcreate_001/2023-05-25-16_33_02.log,unknown
+lvm2,oe_test_lvm2_pvremove_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvremove_001/2023-05-25-17_35_39.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvremove_001/2023-05-25-16_32_03.log,"file missing"
+lvm2,oe_test_lvm2_vgcreate_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgcreate_001/2023-05-25-17_43_21.log,lvm2.json 缺少配置 "add disk": [4],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgcreate_001/2023-05-25-16_33_27.log,"file missing"
+lvm2,oe_test_lvm2_vgdisplay_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgdisplay_001/2023-05-25-17_45_56.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgdisplay_001/2023-05-25-16_33_52.log,unknown
+lvm2,oe_test_lvm2_pvcreate_002,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvcreate_002/2023-05-25-17_38_17.log,lvm2.json 缺少配置 "add disk": [2] ，L50 语法错误,Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvcreate_002/2023-05-25-16_32_34.log,"file missing"
+lvm2,oe_test_lvm2_pvdisplay_002,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_pvdisplay_002/2023-05-25-17_44_50.log,lvm2.json 缺少配置 "add disk": [2],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_pvdisplay_002/2023-05-25-16_33_43.log,unknown
+lvm2,oe_test_service_lvm2-lvmpolld,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_service_lvm2-lvmpolld/2023-05-25-17_29_04.log,没有引入测试对象软件包 lvm2,Week1/cli0/x86/logs_failed/lvm2/oe_test_service_lvm2-lvmpolld/2023-05-25-16_29_51.log,"preinstall absent/systemd unit restart failure/systemd unit runtime error"
+lvm2,oe_test_lvm2_vgchange_001,x86 fail,Week1/cli0/riscv/logs_failed/lvm2/oe_test_lvm2_vgchange_001/2023-05-25-17_51_19.log,lvm2.json 缺少配置 "add disk": [3],Week1/cli0/x86/logs_failed/lvm2/oe_test_lvm2_vgchange_001/2023-05-25-16_34_52.log,"file missing"
+kernel,oe_test_cpu_rand,x86 fail,Week1/cli0/riscv/logs_failed/kernel/oe_test_cpu_rand/2023-05-25-17_09_52.log,unknown,Week1/cli0/x86/logs_failed/kernel/oe_test_cpu_rand/2023-05-25-16_29_52.log,unknown
+kernel,oe_test_swap_compress,x86 fail,Week1/cli0/riscv/logs_failed/kernel/oe_test_swap_compress/2023-05-25-17_11_12.log,"preinstall absent",Week1/cli0/x86/logs_failed/kernel/oe_test_swap_compress/2023-05-25-16_29_55.log,"preinstall absent"
+kernel,oe_test_hinic,x86 fail,Week1/cli0/riscv/logs_failed/kernel/oe_test_hinic/2023-05-25-17_08_46.log,"kernel module absent",Week1/cli0/x86/logs_failed/kernel/oe_test_hinic/2023-05-25-16_29_48.log,unknown
+kernel,oe_test_io_sched,x86 fail,Week1/cli0/riscv/logs_failed/kernel/oe_test_io_sched/2023-05-25-17_07_36.log,"preinstall absent",Week1/cli0/x86/logs_failed/kernel/oe_test_io_sched/2023-05-25-16_29_43.log,"preinstall absent"
+kernel,oe_test_check_huge_task,x86 fail,Week1/cli0/riscv/logs_failed/kernel/oe_test_check_huge_task/2023-05-25-17_11_57.log,"timeout",Week1/cli0/x86/logs_failed/kernel/oe_test_check_huge_task/2023-05-25-16_29_59.log,"timeout"
+kernel,oe_test_cifs,x86 fail,Week1/cli0/riscv/logs_failed/kernel/oe_test_cifs/2023-05-25-17_13_05.log,"kernel module absent",Week1/cli0/x86/logs_failed/kernel/oe_test_cifs/2023-05-25-16_30_03.log,unknown
+hostname,oe_test_service_nis-domainname,x86 fail,Week1/cli0/riscv/logs_failed/hostname/oe_test_service_nis-domainname/2023-05-25-16_57_06.log,"preinstall absent/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure",Week1/cli0/x86/logs_failed/hostname/oe_test_service_nis-domainname/2023-05-25-16_30_21.log,"preinstall absent/systemd unit restart failure/systemd unit runtime error"
+crontabs,oe_test_crontabs,x86 fail,Week1/cli0/riscv/logs_failed/crontabs/oe_test_crontabs/2023-05-25-16_38_51.log,unknown,Week1/cli0/x86/logs_failed/crontabs/oe_test_crontabs/2023-05-25-16_32_22.log,unknown
+dnf,oe_test_dnf_enabled_enablerepo,x86 fail,Week1/cli0/riscv/logs_failed/dnf/oe_test_dnf_enabled_enablerepo/2023-05-25-17_06_44.log,oerv 和 x86 的软件源结构不同（暂定）,Week1/cli0/x86/logs_failed/dnf/oe_test_dnf_enabled_enablerepo/2023-05-25-16_38_59.log,unknown
+dnf,oe_test_dnf_list_mark,x86 fail,Week1/cli0/riscv/logs_failed/dnf/oe_test_dnf_list_mark/2023-05-25-17_14_32.log,oerv 和 x86 的软件源结构不同（暂定）,Week1/cli0/x86/logs_failed/dnf/oe_test_dnf_list_mark/2023-05-25-16_40_09.log,"timeout"
+dnf,oe_test_dnf_reinstall_repoinfo,x86 fail,Week1/cli0/riscv/logs_failed/dnf/oe_test_dnf_reinstall_repoinfo/2023-05-25-17_20_55.log,"oerv 和 x86 的软件源结构不同（暂定）",Week1/cli0/x86/logs_failed/dnf/oe_test_dnf_reinstall_repoinfo/2023-05-25-16_44_44.log,unknown
+dnf,oe_test_dnf_repeat-upgrade-downgrade,x86 fail,Week1/cli0/riscv/logs_failed/dnf/oe_test_dnf_repeat-upgrade-downgrade/2023-05-25-17_35_52.log,"oerv 和 x86 的软件源结构不同（暂定）",Week1/cli0/x86/logs_failed/dnf/oe_test_dnf_repeat-upgrade-downgrade/2023-05-25-16_46_43.log,"timeout"
+iputils,oe_test_service_rdisc,x86 fail,Week1/cli0/riscv/logs_failed/iputils/oe_test_service_rdisc/2023-05-25-16_59_05.log,"preinstall absent/systemd unit restart failure/systemd unit runtime error",Week1/cli0/x86/logs_failed/iputils/oe_test_service_rdisc/2023-05-25-16_36_40.log,"preinstall absent/systemd unit restart failure/systemd unit runtime error"
+iputils,oe_test_service_ninfod,x86 fail,Week1/cli0/riscv/logs_failed/iputils/oe_test_service_ninfod/2023-05-25-16_57_27.log,"file missing/systemd unit restart failure/systemd unit runtime error",Week1/cli0/x86/logs_failed/iputils/oe_test_service_ninfod/2023-05-25-16_36_18.log,"file missing/systemd unit restart failure/systemd unit runtime error"
+kmod,oe_test_modprobe,x86 fail,Week1/cli0/riscv/logs_failed/kmod/oe_test_modprobe/2023-05-25-17_05_03.log,"kernel module absenttimeout",Week1/cli0/x86/logs_failed/kmod/oe_test_modprobe/2023-05-25-16_37_44.log,"timeout"
+kmod,oe_test_insmod-lsmod,x86 fail,Week1/cli0/riscv/logs_failed/kmod/oe_test_insmod-lsmod/2023-05-25-17_03_47.log,unknown,Week1/cli0/x86/logs_failed/kmod/oe_test_insmod-lsmod/2023-05-25-16_37_33.log,unknown
+kmod,oe_test_modinfo,x86 fail,Week1/cli0/riscv/logs_failed/kmod/oe_test_modinfo/2023-05-25-17_04_39.log,unknown,Week1/cli0/x86/logs_failed/kmod/oe_test_modinfo/2023-05-25-16_37_42.log,unknown
+kmod,oe_test_depmod,x86 fail,Week1/cli0/riscv/logs_failed/kmod/oe_test_depmod/2023-05-25-17_02_28.log,"timeout",Week1/cli0/x86/logs_failed/kmod/oe_test_depmod/2023-05-25-16_37_11.log,"preinstall absent"
+openssh,oe_test_sec_ssh,x86 fail,Week1/cli0/riscv/logs_failed/openssh/oe_test_sec_ssh/2023-05-25-17_55_51.log,"file missing",Week1/cli0/x86/logs_failed/openssh/oe_test_sec_ssh/2023-05-25-16_41_51.log,"file missing"
+openssh,oe_test_openssh_cipher,x86 fail,Week1/cli0/riscv/logs_failed/openssh/oe_test_openssh_cipher/2023-05-25-17_52_21.log,unknown,Week1/cli0/x86/logs_failed/openssh/oe_test_openssh_cipher/2023-05-25-16_40_44.log,unknown
+openssh,oe_test_sec_jump_login,x86 fail,Week1/cli0/riscv/logs_failed/openssh/oe_test_sec_jump_login/2023-05-25-17_58_23.log,unknown,Week1/cli0/x86/logs_failed/openssh/oe_test_sec_jump_login/2023-05-25-16_42_10.log,unknown
+net-tools,oe_test_net-tools_route,x86 fail,Week1/cli0/riscv/logs_failed/net-tools/oe_test_net-tools_route/2023-05-25-17_30_48.log,unknown,Week1/cli0/x86/logs_failed/net-tools/oe_test_net-tools_route/2023-05-25-16_41_36.log,unknown
+net-tools,oe_test_net-tools_ipmaddr,x86 fail,Week1/cli0/riscv/logs_failed/net-tools/oe_test_net-tools_ipmaddr/2023-05-25-17_31_35.log,unknown,Week1/cli0/x86/logs_failed/net-tools/oe_test_net-tools_ipmaddr/2023-05-25-16_41_40.log,unknown
+systemd,oe_test_service_systemd-portabled,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-portabled/2023-05-25-21_27_05.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-portabled/2023-05-25-16_53_57.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_target_usb-gadget,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_usb-gadget/2023-05-25-22_23_39.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_target_usb-gadget/2023-05-25-17_13_02.log,"preinstall absent
+"
+systemd,oe_test_service_systemd-initctl,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-initctl/2023-05-25-21_15_07.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-initctl/2023-05-25-16_50_08.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_socket_systemd-userdbd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_socket_systemd-userdbd/2023-05-25-22_21_49.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_socket_systemd-userdbd/2023-05-25-17_12_26.log,"preinstall absent
+"
+systemd,oe_test_service_systemd-journal-remote,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-journal-remote/2023-05-25-21_19_03.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-journal-remote/2023-05-25-16_51_38.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-quotacheck,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-quotacheck/2023-05-25-21_28_24.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-quotacheck/2023-05-25-16_54_18.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-sysext,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-sysext/2023-05-25-22_20_13.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-sysext/2023-05-25-17_11_52.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-networkd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-networkd/2023-05-25-21_25_00.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-networkd/2023-05-25-16_53_20.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_socket_systemd-networkd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_socket_systemd-networkd/2023-05-25-21_48_03.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_socket_systemd-networkd/2023-05-25-17_01_31.log,"preinstall absent
+"
+systemd,oe_test_target_remote-veritysetup,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_remote-veritysetup/2023-05-25-22_22_51.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_target_remote-veritysetup/2023-05-25-17_12_45.log,"preinstall absent
+"
+systemd,oe_test_socket_systemd-journal-remote,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_socket_systemd-journal-remote/2023-05-25-21_46_40.log,"file missing
+",Week1/cli0/x86/logs_failed/systemd/oe_test_socket_systemd-journal-remote/2023-05-25-17_01_10.log,"file missing
+"
+systemd,oe_test_target_remote-cryptsetup,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_remote-cryptsetup/2023-05-25-22_06_49.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_target_remote-cryptsetup/2023-05-25-17_07_22.log,"preinstall absent
+"
+systemd,oe_test_service_initrd-switch-root,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_initrd-switch-root/2023-05-25-21_03_47.log,"preinstall absent
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_initrd-switch-root/2023-05-25-16_46_34.log,"preinstall absent
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-journal-gatewayd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-journal-gatewayd/2023-05-25-21_17_42.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-journal-gatewayd/2023-05-25-16_51_17.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-networkd-wait-online,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-networkd-wait-online/2023-05-25-21_25_47.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-networkd-wait-online/2023-05-25-16_53_38.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-importd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-importd/2023-05-25-21_14_07.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-importd/2023-05-25-16_49_42.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-userdbd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-userdbd/2023-05-25-22_21_02.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-userdbd/2023-05-25-17_12_09.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-udevd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-udevd/2023-05-25-21_36_49.log,"systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-udevd/2023-05-25-16_57_24.log,"systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_socket_systemd-journal-gatewayd,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_socket_systemd-journal-gatewayd/2023-05-25-21_45_19.log,"file missing
+",Week1/cli0/x86/logs_failed/systemd/oe_test_socket_systemd-journal-gatewayd/2023-05-25-17_00_49.log,"file missing
+"
+systemd,oe_test_service_systemd-network-generator,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-network-generator/2023-05-25-21_26_35.log,"preinstall absent
+systemd unit runtime error
+systemd unit enable failure
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-network-generator/2023-05-25-16_53_56.log,"preinstall absent
+systemd unit runtime error
+systemd unit enable failure
+"
+systemd,oe_test_service_dbus-org.freedesktop.import1,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_dbus-org.freedesktop.import1/2023-05-25-20_55_26.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_dbus-org.freedesktop.import1/2023-05-25-16_43_53.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_target_cryptsetup-pre,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_cryptsetup-pre/2023-05-25-21_52_09.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_target_cryptsetup-pre/2023-05-25-17_03_14.log,"preinstall absent
+"
+systemd,oe_test_socket_systemd-rfkill,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_socket_systemd-rfkill/2023-05-25-21_48_49.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_socket_systemd-rfkill/2023-05-25-17_01_49.log,"preinstall absent
+"
+systemd,oe_test_target_initrd-switch-root,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_initrd-switch-root/2023-05-25-22_00_18.log,unknown,Week1/cli0/x86/logs_failed/systemd/oe_test_target_initrd-switch-root/2023-05-25-17_05_43.log,unknown
+systemd,oe_test_service_console-getty,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_console-getty/2023-05-25-20_53_53.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_console-getty/2023-05-25-16_43_16.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+"
+systemd,oe_test_service_systemd-fsck-root,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-fsck-root/2023-05-25-21_11_31.log,"systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-fsck-root/2023-05-25-16_48_58.log,"systemd unit runtime error
+"
+systemd,oe_test_service_dbus-org.freedesktop.portable1,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_dbus-org.freedesktop.portable1/2023-05-25-21_00_01.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_dbus-org.freedesktop.portable1/2023-05-25-16_45_16.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_quotaon,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_quotaon/2023-05-25-21_05_38.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_quotaon/2023-05-25-16_47_15.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_service_systemd-resolved,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-resolved/2023-05-25-21_30_35.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-resolved/2023-05-25-16_55_11.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_target_cryptsetup,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_cryptsetup/2023-05-25-21_52_29.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_target_cryptsetup/2023-05-25-17_03_16.log,"preinstall absent
+"
+systemd,oe_test_service_systemd-journal-upload,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-journal-upload/2023-05-25-21_20_33.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-journal-upload/2023-05-25-16_52_00.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_target_veritysetup-pre,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_veritysetup-pre/2023-05-25-22_25_11.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_target_veritysetup-pre/2023-05-25-17_13_36.log,"preinstall absent
+"
+systemd,oe_test_target_veritysetup,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_target_veritysetup/2023-05-25-22_24_25.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/systemd/oe_test_target_veritysetup/2023-05-25-17_13_19.log,"preinstall absent
+"
+systemd,oe_test_service_systemd-ask-password-wall,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_service_systemd-ask-password-wall/2023-05-25-21_09_30.log,"systemd unit restart failure
+systemd unit runtime error
+",Week1/cli0/x86/logs_failed/systemd/oe_test_service_systemd-ask-password-wall/2023-05-25-16_48_34.log,"systemd unit restart failure
+systemd unit runtime error
+"
+systemd,oe_test_socket_systemd-journald-dev-log,x86 fail,Week1/cli0/riscv/logs_failed/systemd/oe_test_socket_systemd-journald-dev-log/2023-05-25-21_43_55.log,unknown,Week1/cli0/x86/logs_failed/systemd/oe_test_socket_systemd-journald-dev-log/2023-05-25-17_00_14.log,unknown
+acl,oe_test_access_providepam,x86 fail,Week1/cli0/riscv/logs_failed/acl/oe_test_access_providepam/2023-05-25-16_28_24.log,unknown,Week1/cli0/x86/logs_failed/acl/oe_test_access_providepam/2023-05-25-16_47_19.log,unknown
+openssl,oe_test_openssl_encrypte_decrypte_emails,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_encrypte_decrypte_emails/2023-05-25-18_08_18.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_encrypte_decrypte_emails/2023-05-25-16_50_00.log,unknown
+openssl,oe_test_openssl_expired_certificate,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_expired_certificate/2023-05-25-18_09_01.log,"file missing
+",Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_expired_certificate/2023-05-25-16_50_03.log,"file missing
+"
+openssl,oe_test_openssl_create_CA_applying_certificate,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_create_CA_applying_certificate/2023-05-25-18_01_37.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_create_CA_applying_certificate/2023-05-25-16_49_06.log,unknown
+openssl,oe_test_openssl_delete_configuration_file,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_delete_configuration_file/2023-05-25-18_03_32.log,"file missing
+",Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_delete_configuration_file/2023-05-25-16_49_22.log,"file missing
+"
+openssl,oe_test_openssl_repeat_restart,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_repeat_restart/2023-05-25-18_24_17.log,"file missing
+",Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_repeat_restart/2023-05-25-16_51_31.log,"file missing
+"
+openssl,oe_test_openssl_Implements_https,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_Implements_https/2023-05-25-18_13_15.log,"file missing
+",Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_Implements_https/2023-05-25-16_50_35.log,"file missing
+"
+openssl,oe_test_openssl_generate_password,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_generate_password/2023-05-25-18_12_30.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_generate_password/2023-05-25-16_50_22.log,unknown
+openssl,oe_test_openssl_incorrect_public_private_key,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_incorrect_public_private_key/2023-05-25-18_15_37.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_incorrect_public_private_key/2023-05-25-16_50_48.log,unknown
+openssl,oe_test_openssl_reliability,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_reliability/2023-05-25-18_17_52.log,"file missing
+",Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_reliability/2023-05-25-16_50_59.log,"file missing
+"
+openssl,oe_test_openssl_remove_mod_ssl,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_remove_mod_ssl/2023-05-25-18_20_08.log,"file missing
+",Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_remove_mod_ssl/2023-05-25-16_51_13.log,"file missing
+"
+openssl,oe_test_openssl_empty_private_key,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_empty_private_key/2023-05-25-18_06_55.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_empty_private_key/2023-05-25-16_49_53.log,unknown
+openssl,oe_test_openssl_generate_key_pair,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_generate_key_pair/2023-05-25-18_12_02.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_generate_key_pair/2023-05-25-16_50_21.log,unknown
+openssl,oe_test_openssl_empty_public_key,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_empty_public_key/2023-05-25-18_07_23.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_empty_public_key/2023-05-25-16_49_55.log,unknown
+openssl,oe_test_openssl_DSA_algorithm,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_DSA_algorithm/2023-05-25-18_06_26.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_DSA_algorithm/2023-05-25-16_49_49.log,unknown
+openssl,oe_test_openssl_encrypt_decrypt_file_asymmetrically,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_encrypt_decrypt_file_asymmetrically/2023-05-25-18_07_52.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_encrypt_decrypt_file_asymmetrically/2023-05-25-16_49_57.log,unknown
+openssl,oe_test_openssl_file_signature_verification,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_file_signature_verification/2023-05-25-18_11_19.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_file_signature_verification/2023-05-25-16_50_19.log,unknown
+openssl,oe_test_openssl_rc4_encryption_file,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_rc4_encryption_file/2023-05-25-18_32_45.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_rc4_encryption_file/2023-05-25-16_54_14.log,unknown
+openssl,oe_test_openssl_RSA_algorithm,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_RSA_algorithm/2023-05-25-18_30_50.log,"preinstall absent
+",Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_RSA_algorithm/2023-05-25-16_53_38.log,"preinstall absent
+"
+openssl,oe_test_openssl_Diffie_Hellman,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_Diffie_Hellman/2023-05-25-18_05_42.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_Diffie_Hellman/2023-05-25-16_49_40.log,unknown
+openssl,oe_test_openssl_speed,x86 fail,Week1/cli0/riscv/logs_failed/openssl/oe_test_openssl_speed/2023-05-25-18_34_13.log,unknown,Week1/cli0/x86/logs_failed/openssl/oe_test_openssl_speed/2023-05-25-16_54_21.log,unknown
+osc,oe_test_osc_build,x86 fail,Week1/cli0/riscv/logs_failed/osc/oe_test_osc_build/2023-05-25-18_19_19.log,"file missing
+",Week1/cli0/x86/logs_failed/osc/oe_test_osc_build/2023-05-25-17_03_09.log,"file missing
+"
+osc,oe_test_osc_04,x86 fail,Week1/cli0/riscv/logs_failed/osc/oe_test_osc_04/2023-05-25-18_07_22.log,unknown,Week1/cli0/x86/logs_failed/osc/oe_test_osc_04/2023-05-25-16_59_24.log,unknown
