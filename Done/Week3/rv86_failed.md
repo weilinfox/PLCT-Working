@@ -33,7 +33,16 @@
 
 ```
 # crontab -u root -l -s
+
 Cannot obtain SELinux process context
+```
+
+在 VirtualBox
+
+```
+# crontab -u root -l -s
+
+no crontab for root
 ```
 
 ## dnf
