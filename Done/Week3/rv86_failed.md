@@ -1,5 +1,7 @@
 # x86 fail 用例汇总
 
+[CSV文档](./mergeX86Failure.csv)
+
 ## 写在前面
 
 虽然某个测试在 oerv 和 x86 都 fail 了，但大部分原因都不同。
