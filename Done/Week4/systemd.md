@@ -1,5 +1,7 @@
 # systemd 排查
 
+汇总表格 [systemd.csv](./systemd.csv)
+
 ## 测试结果不符合预期但是原因不明
 
 + ``oe_test_service_console-getty`` ： restart 有错误日志：Failed with result 'start-limit-hit'
