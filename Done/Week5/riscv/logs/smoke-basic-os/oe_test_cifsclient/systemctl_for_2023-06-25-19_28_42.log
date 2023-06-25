@@ -1,0 +1,13 @@
+× smb.service - Samba SMB Daemon
+     Loaded: loaded (/usr/lib/systemd/system/smb.service; bad; vendor preset: disabled)
+     Active: failed (Result: exit-code) since Sun 2023-06-25 19:30:10 CST; 38s ago
+       Docs: man:smbd(8)
+             man:samba(7)
+             man:smb.conf(5)
+   Main PID: 11423 (code=exited, status=127)
+
+Jun 25 19:30:10 openeuler-riscv64 systemd[1]: Starting Samba SMB Daemon...
+Jun 25 19:30:10 openeuler-riscv64 smbd[11423]: /usr/sbin/smbd: error while loading shared libraries: libmessages-util-samba4.so: cannot open shared object file: No such file or directory
+Jun 25 19:30:10 openeuler-riscv64 systemd[1]: smb.service: Main process exited, code=exited, status=127/n/a
+Jun 25 19:30:10 openeuler-riscv64 systemd[1]: smb.service: Failed with result 'exit-code'.
+Jun 25 19:30:10 openeuler-riscv64 systemd[1]: Failed to start Samba SMB Daemon.
