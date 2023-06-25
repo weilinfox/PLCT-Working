@@ -1,8 +1,26 @@
 
+
 **修订记录**
-|日期|修订版本|修改描述|作者|
-|-|-|-|-|
-|2023-06-21|0.0.1|Demo|Kevin.MX;桜風の狐|
+| 日期       | 修订版本 | 修改描述| 作者|
+| ---------- | -------- | ------------------ |-|
+| 2023-06-21 | 0.0.1    | Demo | Kevin.MX;桜風の狐 |
+| 2023-06-24 | 0.0.2    | 格式更改和文档汇总 | 桜風の狐|
+
+**表格图例**
+
+\*: 可参考上游官方文档补全。
+
+\*\*: 与 sig-QA 的质量评估标准同步。
+
+●：表示特性不稳定，风险高。
+
+▲：表示特性基本可用，遗留少量问题。
+
+█：表示特性质量良好。
+
+×：特性不可用/不支持 RISC-V。
+
+N/A：不适用评估标准。
 
 # 目录
 
@@ -19,7 +37,7 @@
    + Unmatched
    + Visionfive 1
    + Visionfive 2
- + 桌面
++ 桌面
    + 需求清单
    + UKUI
    + DDE
@@ -28,7 +46,7 @@
    + Kiran
    + Cinnamon
    + 新增备份还原功能支持
- + 桌面应用
++ 桌面应用
    + 需求清单
    + Firefox
    + Chromium
@@ -36,7 +54,7 @@
    + LibreOffice
    + VLC
    + GIMP
- + 容器
++ 容器
    + 需求清单
    + Docker
    + iSulad
@@ -48,26 +66,49 @@
    + eggo
    + NestOS
    + 虚拟化 Virt
- + k8s 相关
++ k8s 相关
    + 需求清单
    + kubernetes
    + kubeOS
    + KubeSphere
    + k3s
- + 内存管理
++ 内存管理
    + 需求清单
    + etmem
- + 内核
++ 内核
    + 需求清单
    + kernel
    + kconfigDetector
- + Web 服务
++ Web 服务
    + 需求清单
    + OpenResty
- + 编译器
++ 数据库
+   + 需求清单
+   + Mysql
++ 编译器
    + 需求清单
    + jdk
    + 毕昇 JDK
++ 其他
+   + 需求清单
+   + A-Tune
+   + secPaver
+   + secGear
+   + openGauss
+   + 用户态协议栈 gazelle
+   + 容器场景在离线混合部署 rubik
+   + A-ops
+   + IO 智能多流
+   + pkgship
+   + mindspore
+   + pod 带宽管理 oncn-bwm
+   + ROS/ROS2
+   + 高性能服务网格数据面 Kmesh
+   + 虚拟机热迁移
+   + 虚拟化热补丁 libcareplus
+   + 定制裁剪工具 (imageTailor和oemaker)
+   + 国密算法
+   + libstorage 针对 NVME 的 IO 栈
 
 # 摘要
 
@@ -171,7 +212,7 @@ openEuler 是一款开源操作系统。当前 openEuler 内核源于 Linux ，�
 | ----------------------------- | ----------------------------------------------- | ---------------------------------------------- |
 | Wifi 使用                     | 可以找到无线网卡                                | 无法找到无线网卡                               |
 | Firefox 桌面启动              | 正常启动 Firefox 浏览器                         | 正常启动 Firefox 浏览器                        |
-| Firefox 终端启动              | 正常启动 Firefox 浏览器                         | 无法正常启动，终端报错 ``Illegal instruction`` |
+| Firefox 终端启动              | 正常启动 Firefox 浏览器                         | 无法正常启动，终端报错 `Illegal instruction` |
 | 在 Firefox 观看 Bilibili 视频 | 能正常播放 Bilibili 视频                        | 网页报错，无法打开网页，进而无法进行视频播放   |
 | Ping 需要管理员权限           | Ping 指令正常运行                               | Terminal 提示需要管理员权限                    |
 | 从终端启动 Chromium           | Chromium 启动成功                               | Chromium 启动失败                              |
@@ -202,8 +243,8 @@ openEuler 是一款开源操作系统。当前 openEuler 内核源于 Linux ，�
 ### 失败的测试用例
 
 | 测试用例            | 预期结果                                        | 实际结果                                                                                                                                                                                                                                       |
-| ------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ping 权限设置不正确 | ping 指令正常运行                               | ping 报错： ``ping: socket: Operation not permitted``                                                                                                                                                                                          |
+| ------------------- | ----------------------------------------------- | -|
+| Ping 权限设置不正确 | ping 指令正常运行                               | ping 报错： `ping: socket: Operation not permitted` |
 | 启动 Chromium       | Chromium 启动成功                               | Chromium 启动失败。无法显示界面，但鼠标放到相应位置时，光标有相应变化。[报错 log](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/Hardware_Test/LicheeRV/failed_case/%E5%90%AF%E5%8A%A8Chromium.md#%E6%8A%A5%E9%94%99-log) |
 | 启动 Firefox        | 正常启动 Firefox 浏览器                         | 无法启动，报错 ``Illegal instruction``                                                                                                                                                                                                         |
 | 启动 LibreOffice    | LibreOffice 启动成功，显示 LibreOffice 欢迎页面 | LibreOffice 启动失败，显示加载页面后闪退                                                                                                                                                                                                       |
@@ -233,7 +274,7 @@ openEuler 是一款开源操作系统。当前 openEuler 内核源于 Linux ，�
 
 | 测试用例            | 预期结果                     | 实际结果                                                                                                                                                                                                    |
 | ------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ping 权限设置不正确 | ping 指令正常运行            | ping 报错 ``ping: socket: Operation not permitted``                                                                                                                                                         |
+| ping 权限设置不正确 | ping 指令正常运行            | ping 报错 `ping: socket: Operation not permitted`                                                                                                                                                         |
 | firefox 启动卡死    | firefox 启动成功             | 系统在 firefox 打开之前卡死，或者 firefox 窗口显示后卡死。 卡死指图形界面、串口和已经连入的 ssh 均无任何响应                                                                                                |
 | gdm 启动报错        | gdm 正常打开，显示出登录界面 | gdm 报错[截图](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/Hardware_Test/Unmatched/failed_case/gdm%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99.md#%E5%AE%9E%E9%99%85%E7%BB%93%E6%9E%9C)     |
 | gnome 启动报错      | GNOME 正常打开，显示出桌面   | GNOME 报错[截图](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/Hardware_Test/Unmatched/failed_case/gnome%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99.md#%E5%AE%9E%E9%99%85%E7%BB%93%E6%9E%9C) |
@@ -496,30 +537,11 @@ useradd -m -G wheel sihuan
 passwd sihuan
 ```
 
-另外由于已知的 6.1.8 版本新内核会造成 `gdm` 启动异常的问题，需要手动降级内核版本到  5.10.0 版本，执行以下步骤：
+针对 QEMU 平台可能出现的无法启动/内核错误，请向启动脚本的 `cmd` 中添加如下内容。注意，需要 QEMU >= 8.0.0。
 
-1. 从[此处](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/)下载 5.10.0-10 版本 `kernel`、`kernel-devel`、`kernel-headers` 包。
-
-   > 你可以执行下面三条命令分别下载上述软件包
-   >
-   > ```shell
-   > wget https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/kernel-5.10.0-10.oe2203.riscv64.rpm
-   > wget https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/kernel-devel-5.10.0-10.oe2203.riscv64.rpm
-   > wget https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/kernel-headers-5.10.0-10.oe2203.riscv64.rpm
-   > 
-   > ```
-
-2. 手动安装上述软件包。
-
-   > 确保当前目录下没有其他 `.rpm ` 后缀的文件，以防止以外安装。执行以下命令
-   >
-   > ```shell
-   > rpm -Uv --oldpackage ./*.rpm
-   > ```
-
-3. 编辑 `/boot/extlinux/extlinux.conf` 文件，替换其中的 `vmlinuz-openEuler` 为 `Image`。
-
-现在可以关闭虚拟机，可以使用 `shutdown now` 命令。
+```bash
+-cpu rv64,sv39=on \
+```
 
 ### 启动 GNOME 桌面环境
 
@@ -652,27 +674,10 @@ sudo systemctl set-default graphical.target
 ```
 
 
-7. 由于已知的 6.1.19 版本新内核会造成 lightdm 启动异常的问题，需要手动降级内核版本到 5.10.0 版本，执行以下步骤：
-
-从[此处](https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/)下载 5.10.0-10 版本 kernel、kernel-devel、kernel-headers 包。
-
-可以执行以下操作进行：
+7. 针对 QEMU 平台可能出现的无法启动/内核错误，请向启动脚本的 `cmd` 中添加如下内容。注意，需要 QEMU >= 8.0.0。
 
 ```bash
-wget https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/kernel-5.10.0-10.oe2203.riscv64.rpm
-wget https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/kernel-devel-5.10.0-10.oe2203.riscv64.rpm
-wget https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-22.03-V2-riscv64/repo/22.03/mainline/riscv64/kernel-headers-5.10.0-10.oe2203.riscv64.rpm
-```
-
-接着手动安装下载好的 rpm 包：
-```rpm -Uv --oldpackage ./*.rpm```
-
-最后编辑 ```/boot/extlinux/extlinux.conf``` 文件，替换其中的 ```vmlinuz-openEuler``` 为 ```Image```。
-
-8. 可以使用 shutdown now 命令关闭虚拟机，然后使用 start_vm_xfce.sh 脚本启动虚拟机，即可看到登陆界面。
-
-```bash
-bash ./start_vm_xfce.sh
+-cpu rv64,sv39=on \
 ```
 
 ### 参考资料
@@ -1611,9 +1616,9 @@ $ qemu-img create -f qcow2 ext1g.qcow2 1G
 
 ### 软件说明
 
-`kconfigDetector` 是为内核配置提供的一系列检测工具. 包括：  
+`kconfigDetector` 是为内核配置提供的一系列检测工具. 包括：
 
-* kconfigDepDetector 内核配置项错误值检测工具   
+* kconfigDepDetector 内核配置项错误值检测工具
   依据内核源码中各配置项的Kconfig定义，检测出内核配置文件中不满足依赖、取值等约束条件的错误值，并提供父类和子类配置项查询功能。  
 
 ### 环境配置
@@ -1707,6 +1712,18 @@ https://www.runoob.com/w3cnote/openresty-intro.html
 
 [仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/openResty)
 
+# 数据库
+
+## 需求清单
+
+清单中不存在但是被测试过。
+
+## Mysql
+
+### 测试结果
+
+[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/MYSQL)
+
 # 编译器
 
 ## 需求清单
@@ -1782,7 +1799,7 @@ jtreg -va -ignore:quiet -jit -conc:auto -timeout:5 -tl:3590 $HOME/jdk19u/test/jd
 
 ### 测试结果
 
-测试结束，但出现部分失败/错误。jtreg 输出的日志存放在 JTreport 中，详见[JTreport]([.](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK/testcases/jtreg-openjdk19/JTreport/index.html)。
+测试结束，但出现部分失败/错误。jtreg 输出的日志存放在 JTreport 中，详见 [JTreport](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK/testcases/jtreg-openjdk19/JTreport/index.html)。
 
 > Note: 笔者执行测试时使用的测试套路径不同，详细结果中的路径与上述步骤可能有所偏差。这不会影响测试结果。
 
@@ -1806,71 +1823,812 @@ Error: Some tests failed or other problems occurred.
 
 # 其他
 
-# 特性测试汇总表
-
-## 硬件支持
-
-
-## 特性测试
+## 需求清单
 
 | 名称                                      | 说明                                                                                                                                                                                                                                             | 安装文档 | 使用文档 | 已测试 | 测试用例 | 当前有包/可安装 | issues                                                                                                                                                                                                                                                                                                                                                          | 特性质量评估** | SIG 组                       | 负责人 |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | -------- | ------ | -------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------------------------- | ------ |
-| UKUI                                      | 较为卡顿，需要 GPU 的部分窗口特效可能无法启动(TODO)，QEMU 下需要指定 sv39 页表                                                                                                                                                                   | Y        | Y        | Y      | Y        | Y               | [I6TGR9](https://gitee.com/openeuler/RISC-V/issues/I6TGR9) [I6O31D](https://gitee.com/openeuler/RISC-V/issues/I6O31D) [I6Q24G](https://gitee.com/openeuler/RISC-V/issues/I6Q24G) [~~I6Q27C~~](https://gitee.com/openeuler/RISC-V/issues/I6Q27C)                                                                                                                 | ▲              | sig-UKUI                     |        |
-| DDE                                       | 需要手动选择 DDE Session 启动，QEMU 下需要指定 sv39 页表                                                                                                                                                                                         | Y        | Y        | Y      | Y        | Y               | [I6VGN4](https://gitee.com/openeuler/RISC-V/issues/I6VGN4)                                                                                                                                                                                                                                                                                                      | ▲              | sig-DDE                      |        |
-| xfce                                      | 镜像自带，QEMU 下需要指定 sv39 页表                                                                                                                                                                                                              | Y        | Y        | P      | P        | Y               |                                                                                                                                                                                                                                                                                                                                                                 | ▲              | xfce                         |        |
-| GNOME                                     | QEMU 下需要指定 sv39 页表                                                                                                                                                                                                                        | Y        | \*       | P      | P        | Y               | [I6QETO](https://gitee.com/openeuler/RISC-V/issues/I6QETO) [I6QETK](https://gitee.com/openeuler/RISC-V/issues/I6QETK) [I6QETA](https://gitee.com/openeuler/RISC-V/issues/I6QETA) [I6QET6](https://gitee.com/openeuler/RISC-V/issues/I6QET6) [I6O3AY](https://gitee.com/openeuler/RISC-V/issues/I6O3AY?from=project-issue#note_17078724_link)                    | ▲              | GNOME                        |        |
-| Kiran                                     | QEMU 下需要指定 sv39 页表                                                                                                                                                                                                                        | Y        | Y        | Y      | Y        | Y               | [I6OZ5N](https://gitee.com/openeuler/RISC-V/issues/I6OZ5N) [I6OYL4](https://gitee.com/openeuler/RISC-V/issues/I6OYL4) [I6WHYU](https://gitee.com/openeuler/RISC-V/issues/I6WHYU)                                                                                                                                                                                | ▲              | sig-KIRAN-DESKTOP            |        |
-| Cinnamon                                  | 使用手册待补完，绝大部分应用从桌面无法直接启动，QEMU 下需要指定 sv39 页表                                                                                                                                                                        | Y        | \*       | Y      | Y        | Y               | [I6QV1V](https://gitee.com/openeuler/RISC-V/issues/I6QV1V?from=project-issue) [I6QUT1](https://gitee.com/openeuler/RISC-V/issues/I6QUT1?from=project-issue) [I6QV8A](https://gitee.com/openeuler/RISC-V/issues/I6QV8A?from=project-issue) [I6QVEN](https://gitee.com/openeuler/RISC-V/issues/I6QVEN) [I6QVV6](https://gitee.com/openeuler/RISC-V/issues/I6QVV6) | ●              | sig-cinnamon                 |        |
-| 容器(isula/docker/安全容器/系统容器/镜像) | 见 [I6QQLB](https://gitee.com/openeuler/iSulad/issues/I6QQLB) 有 iSulad sig 官方的黑盒测试工具；iSulad新增native network 特性                                                                                                                    | Y        | Y        | Y      | Y        | P               | [I6R1UT](https://gitee.com/openeuler/RISC-V/issues/I6R1UT) [I6R9OQ](https://gitee.com/openeuler/RISC-V/issues/I6R9OQ) [I6RDWA](https://gitee.com/openeuler/RISC-V/issues/I6RDWA) [I6RSAC](https://gitee.com/openeuler/RISC-V/issues/I6RSAC) [I6R5DH](https://gitee.com/openeuler/RISC-V/issues/I6R5DH)                                                          | ▲              | iSulad                       |        |
-| 编译器 (gcc/jdk)                          | gcc 在基础测试中已完成，JDK 官方回归测试套件 jtreg 需要自行编译执行，上游和 oErv 源均不提供，目前已完成 OpenJDK 19; QEMU 下执行 JDK 11/17/19 需要指定 sv39 页表；GCC编译器插件框架支持LTO复杂优化，实现插件IR覆盖Gimple 80%的功能 （未测试）                                                  | P        | \*       | P      | P        | P               |                                                                                                                                                                                                                                                                                                                                                                 | █              | Compiler                     |        |
-| HA/高可用                                 | 仅安装成功                                                                                                                                                                                                                                       | Y        | Y        | N      | Y        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-Ha                       |        |
-| KubeSphere                                | [安装文档](https://docs.openeuler.org/zh/docs/23.03/docs/desktop/kubesphere.html)                                                                                                                                                                |          |          |        |          |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-CloudNative              |        |
-| OpenStack Train & Wallaby                 |                                                                                                                                                                                                                                                  |          |          |        |          |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-openstack                |        |
 | A-Tune                                    | 无法启动                                                                                                                                                                                                                                         | Y        | Y        | N      | Y        | Y               | [I6R8CR](https://gitee.com/openeuler/RISC-V/issues/I6R8CR?from=project-issue)                                                                                                                                                                                                                                                                                   | ×              | A-Tune                       |        |
 | secPaver                                  | oErv 不支持 SELinux，暂无法使用                                                                                                                                                                                                                  | Y        | \*       | Y      | Y        | Y               |                                                                                                                                                                                                                                                                                                                                                                 | ×              | sig-security-facility        |        |
 | secGear                                   | 缺依赖 penlaisdk                                                                                                                                                                                                                                 | \*       | \*       | N      | N        | N               |                                                                                                                                                                                                                                                                                                                                                                 | ×              | sig-confidential-computing   |        |
-| eggo                                      | 软件包存在，可安装，未测试                                                                                                                                                                                                                       | \*       | \*       | N      | N        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-CloudNative              |        |
-| kubeOS                                    |                                                                                                                                                                                                                                                  | \*       | \*       | N      | N        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-CloudNative              |        |
-| NestOS                                    | 不支持 RISC-V                                                                                                                                                                                                                                    |          |          |        |          |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-CloudNative              |        |
-| OpenResty                                 |                                                                                                                                                                                                                                                  | Y        | Y        | N      | Y        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-OpenResty                |        |
-| etmem                                     | 启动失败                                                                                                                                                                                                                                         | \*       | \*       | N      | N        | Y               | [I6V7C0](https://gitee.com/openeuler/RISC-V/issues/I6V7C0)                                                                                                                                                                                                                                                                                                      | ×              | Storage                      |        |
 | openGauss                                 | 不支持                                                                                                                                                                                                                                           | \*       | \*       | N      | N        | N               |                                                                                                                                                                                                                                                                                                                                                                 | ×              | DB                           |        |
 | 用户态协议栈 gazelle                      | 缺包，不支持                                                                                                                                                                                                                                     | \*       | \*       | N      | N        | N               |                                                                                                                                                                                                                                                                                                                                                                 | 0              | sig-high-performance-network |        |
 | 容器场景在离线混合部署 rubik              | 缺包，不支持                                                                                                                                                                                                                                     | \*       | \*       | N      | N        | N               |                                                                                                                                                                                                                                                                                                                                                                 | 0              | sig-CloudNative              |        |
 | A-ops                                     | 部分依赖组件如 elasticsearch 不支持 RISC-V                                                                                                                                                                                                       | Y        | \*       | Y      | N        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-ops                      |        |
-| k3s                                       | 23.03 需要回归测试                                                                                                                                                                                                                               | Y        | \*       | N      | N        | Y               | [I6RRJT](https://gitee.com/openeuler/RISC-V/issues/I6RRJT)                                                                                                                                                                                                                                                                                                      |                | sig-K8sDistro                |        |
 | IO 智能多流 astream                       |                                                                                                                                                                                                                                                  | Y        | \*       | N      | N        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                |                              |        |
 | pkgship                                   | 有 redis 但 ElasticSearch 目前不支持 rv64，依赖不全无法启动                                                                                                                                                                                      | Y        | \*       | Y      | Y        | P               | [I6RR6R](https://gitee.com/openeuler/RISC-V/issues/I6RR6R) [I6RR83](https://gitee.com/openeuler/RISC-V/issues/I6RR83)                                                                                                                                                                                                                                           | 0              | sig-EasyLife                 |        |
-| mindspore                                 | 缺包，不支持                                                                                                                                                                                                                                     | \*       | \*       | N      | N        | N               | [I6V7YG](https://gitee.com/openeuler/RISC-V/issues/I6V7YG?from=project-issue)                                                                                                                                                                                                                                                                                   | 0              | ai                           |        |
-| pod 带宽管理 oncn-bwm                     | 无法启动                                                                                                                                                                                                                                         | Y        | Y*       | Y      | Y        | Y               |                                                                                                                                                                                                                                                                                                                                                                 | ×              | sig-high-performance-network |        |
-| kubernetes                                |                                                                                                                                                                                                                                                  | Y        | \*       | Y      | Y        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-CloudNative              |        |
 | ROS/ROS2                                  | ROS 2 暂不支持                                                                                                                                                                                                                                   | N        | N        | N      | N        |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-ROS                      |        |
-| kconfigDetector                           | OBS 已有且构建成功，暂未进源                                                                                                                                                                                                                     | Y        | Y        | Y      | Y        | Y               | [I6V7CP](https://gitee.com/openeuler/RISC-V/issues/I6V7CP)                                                                                                                                                                                                                                                                                                      | █              |                              |        |
-| 使用开源测试套LTP/mmtest                  | LTP 已纳入基础测试且已完成                                                                                                                                                                                                                       | Y        | Y        | Y      | Y        | N/A             |                                                                                                                                                                                                                                                                                                                                                                 | ▲              | sig-kernel/sig-QA            |        |
-| 高性能服务网格数据面Kmesh                 | oErv 暂不支持，软件包缺失，有 [官方文档-23.03](https://docs.openeuler.org/zh/docs/23.03/docs/Kmesh/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.html)                                                                                                         | \*       | \*       | N      | N        | N               |                                                                                                                                                                                                                                                                                                                                                                 | ×              | sig-ebpf                     |        |
 | 虚拟机热迁移                              | [QEMU 文档](https://www.qemu.org/docs/master/devel/migration.html)；[openEuler 文档](https://docs.openeuler.org/zh/docs/23.03/docs/Virtualization/%E7%83%AD%E8%BF%81%E7%A7%BB%E8%99%9A%E6%8B%9F%E6%9C%BA.html)                                   |          |          |        |          |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | Virt                         |        |
-| 虚拟化 Virt                               | 优先级低，目前市面上尚无支持虚拟化的 RISC-V 硬件；openEuler 目前暂未实现，有虚拟化测试框架 avicado-vt，当前状态：[avocado-vt test on openEuler-riscv](https://gitee.com/lvxiaoqian/memo/blob/master/avocado-vt%20test%20on%20openEuler-riscv.md) | Y        | \*       | N      | N        | Y               |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-Virt                     |        |
 | 虚拟化热补丁libcareplus                   | TODO: 官方测试工具；**可能需要针对 RISC-V 平台本身的一些特性进行测试**（e.g. ELF 重定位类型）                                                                                                                                                    | Y        | Y        | Y      | Y        | Y               |                                                                                                                                                                                                                                                                                                                                                                 | █              | sig-Virt                     |        |
 | 定制裁剪工具(imageTailor和oemaker)        | 需要测试：目前不支持，后续如有发版生成镜像需要会做                                                                                                                                                                                               |          |          |        |          |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-OS-Builder               |        |
 | 国密算法                                  | 需要测试，SM2/3/4 目前已加入内核 Kconfig                                                                                                                                                                                                         |          |          |        |          |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | sig-security-facility?       |        |
 | libstorage 针对 NVME 的 IO 栈             | 目前仅测试 libstorage 非 NVME 部分                                                                                                                                                                                                               | \*       | \*       | N      | N        |                 |                                                                                                                                                                                                                                                                                                                                                                 |                | ?                            |        |
 
-Note:
+## A-Tune
 
-\*: 可参考上游官方文档补全。
+### 软件说明
 
-\*\*: 与 sig-QA 的质量评估标准同步。
+A-Tune是一款基于AI的操作系统性能调优引擎。A-Tune利用AI技术，使操作系统“懂”业务，简化IT系统调优工作的同时，让应用程序发挥出色性能。
 
-●：表示特性不稳定，风险高。
+### 安装方法
 
-▲：表示特性基本可用，遗留少量问题。
+#### 一、安装A-Tune
 
-█：表示特性质量良好。
+支持操作系统：openEuler 20.03 LTS 及以上版本
 
-×：特性不可用/不支持 RISC-V。
+##### 使用 openEuler 默认自带的 A-Tune
 
-N/A：不适用评估标准。
+```
+dnf install atune
+```
 
+##### openEuler 20.09 及以上版本还需安装 atune-engine
+
+```
+dnf install atune-engine
+```
+
+**注：** 直接安装后尝试执行`systemctl start atuned`会出现报错信息，原因是未配置认证证书，解决方法如下：
+
+1. 配置证书，使用https安全连接
+
+- 生成服务端和客户端的证书文件，并
+- 修改`/etc/atuned/atuned.cnf`中的60 ~ 62行、67 ~ 69行为证书文件的绝对路径，同时
+- 修改`/etc/atuned/engine.cnf`中的23 ~ 25行为证书的绝对路径
+- 相关证书生成方式可参考代码仓中`Makefile`文件的"restcerts"和"enginecerts"
+
+2. 取消证书认证，使用http非安全连接
+
+- 在安全要求不高的场景下（如本地测试使用等），可以通过使用http连接规避该问题
+- 修改`/etc/atuned/atuned.cnf`中的rest_tls(L59)和engine_tls(L66)为false
+- 修改`/etc/atuned/engine.cnf`中的engine_tls(L22)为false
+
+
+
+#### 二、快速使用指南
+
+##### 1、配置 A-Tune 服务
+
+###### 修改atuned.cnf配置文件中网卡和磁盘的信息
+
+注：如果通过'make install'安装了atuned服务，网卡和磁盘已经自动更新为当前机器中的默认设备。如果需要从其他设备收集数据，请按照以下步骤配置 atuned 服务。
+
+通过以下命令可以查找当前需要采集或者执行网卡相关优化时需要指定的网卡，并修改/etc/atuned/atuned.cnf中的network配置选项为对应的指定网卡。
+
+```
+ip addr
+```
+
+通过以下命令可以查找当前需要采集或者执行磁盘相关优化时需要指定的磁盘，并修改/etc/atuned/atuned.cnf中的disk配置选项为对应的指定磁盘。
+
+```
+fdisk -l | grep dev
+```
+
+##### 2、管理 A-Tune 服务
+
+###### 加载并启动atuned和atune-engine服务
+
+```
+systemctl daemon-reload
+systemctl start atuned
+systemctl start atune-engine
+```
+
+**注意**：此处 ```systemctl start atuned``` 启动失败，相关 issue：https://gitee.com/openeuler/RISC-V/issues/I6R8CR
+
+###### 查看atuned或atune-engine服务状态
+
+```
+systemctl status atuned
+systemctl status atune-engine
+```
+
+### 参考资料
+
+[openEuler Docs 22.03 LTS SP1 - A-Tune 用户指南](https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/A-Tune/A-Tune.html)
+
+## secPaver
+
+### 软件说明
+
+secPaver是一个帮助管理员定义应用程序安全策略的工具。用户可以使用secPaver为应用程序生成不同安全机制下的策略文件。
+
+目前secPaver支持的安全机制为SELinux，AppArmor即将支持，不同的安全机制生成模块以插件（plugin）形式加载。
+
+### 安装 secpaver
+
+``` bash
+sudo dnf install secpaver
+```
+### 下载源码
+
+测试文件位于 tests 目录
+``` bash
+git clone https://gitee.com/openeuler/secpaver
+cd secpaver/tests
+```
+
+### 测试
+
+```
+sudo systemctl start pavd
+bash test.sh
+```
+
+### 参考资料
+
+https://gitee.com/openeuler/secpaver
+
+https://gitee.com/openeuler/secpaver/blob/master/doc/manual.md
+
+https://gitee.com/openeuler/secpaver/blob/master/doc/cmd.md
+
+### 测试结果
+
+当前 openEuler risc-v 不支持 selinux
+且 pavd 无法使用 [相关问题](https://gitee.com/openeuler/RISC-V/issues/I6R07N) 。
+
+[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secPaver)
+
+## secGear
+
+### 软件说明
+
+secGear 是面向计算产业的机密计算安全应用开发套件，旨在方便开发者在不同的硬件设备上提供统一开发框架。目前 secGear 支持 Intel SGX 硬件，Trustzone itrustee，以及 RISC-V 蓬莱 TEE。
+
+### 安装方法
+
+``` bash
+sudo dnf install secGear-devel
+```
+
+## 参考资料
+
+[openEuler Docs 23.03 - 安装 secGear]https://docs.openeuler.org/zh/docs/23.03/docs/secGear/%E5%AE%89%E8%A3%85secGear.html
+
+### 测试结果
+
+目前 openEuler RISC-V 缺少相关软件包，无法安装。
+
+[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secGear)
+
+## openGauss
+
+不支持
+
+## 用户态协议栈 gazelle
+
+缺包，不支持
+
+## 容器场景在离线混合部署 rubik
+
+缺包，不支持
+
+## A-ops
+
+### 软件说明
+
+A-Ops 是 openEuler 的一套智能运维框架。
+
+### 环境配置
+
+> 注意：A-Ops 需要两台机器用于部署。
+
+机器 A：
+- 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
+- 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
+- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
+
+机器 B：
+- 硬件信息：HiFive Unmatched
+- 操作系统版本：openEuler 23.03 riscv64, Linux 6.1.0-10.oe2303.riscv64
+- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
+
+### 运行步骤
+
+#### 机器 A
+
+请以 root 用户登录，或执行切换至 root 用户然后再执行如下操作。
+
+1. 安装 A-Ops 及其依赖包：
+
+```bash
+dnf install -y aops-tools
+```
+
+2. 部署 MySQL：
+
+```bash
+/opt/aops/scripts/aops-basedatabase mysql
+```
+
+3. 修改 MySQL 配置文件：
+
+查看本机 IP，并添加进 MySQL 的配置文件中。
+
+```bash
+ip a
+```
+
+修改 `/etc/my.cnf`，在 [mysqld] 字段新增 `bind-address`，值为上一步获取到的本机 IP。
+
+```
+[mysqld]
+...
+bind-address=xx.xx.xx.xx
+...
+```
+
+修改完成后，重启 `mysqld.service`：`sudo systemctl restart mysqld.service`
+
+4. 连接数据库，设置权限：
+
+```bash
+mysql
+show databases;
+use mysql;
+select user,host from user; //出现user为root，host为localhost时，说明mysql只允许本机连接，外网和本地软件客户端则无法连接。
+update user set host = '%' where user='root';
+flush privileges; //刷新权限
+exit
+```
+
+5. 部署 ElasticSearch：
+
+```bash
+/opt/aops/scripts/aops-basedatabase elasticsearch
+```
+
+6. 修改 ElasticSearch 配置文件：
+
+```bash
+vim /etc/elasticsearch/elasticsearch.yml
+```
+
+修改其中的 `node.name`, `network.host`, `http.port`, `cluster.initial_master_nodes` 项：
+```
+node.name: node-1
+network.host: xx.xx.xx.xx
+http.port: 9200
+cluster.initial_master_nodes: ["node-1"]
+```
+
+修改完成后重启 ElasticSearch 服务：
+```bash
+systemctl restart elasticsearch
+```
+
+6. 安装 aops-manager：
+
+```bash
+dnf install -y aops-manager
+```
+
+修改配置文件 `vim /etc/aops/manager.ini`：
+
+```ini
+[manager]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=11111
+host_vault_dir=/opt/aops
+host_vars=/opt/aops/host_vars
+
+[uwsgi]
+wsgi-file=manage.py
+daemonize=/var/log/aops/uwsgi/manager.log
+http-timeout=600
+harakiri=600
+
+[elasticsearch]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=9200
+max_es_query_num=10000000
+
+[mysql]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=3306
+database_name=aops
+engine_format=mysql+pymysql://@%s:%s/%s
+pool_size=10000
+pool_recycle=7200
+
+[aops_check]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=11112
+```
+
+启动 `aops-manager` 服务：
+
+`systemctl start aops-manager`
+
+7. 安装 aops-web：
+
+```
+dnf install -y aops-web
+```
+
+修改配置文件，由于将所有服务都部署在机器 A，故需将 web 访问的各服务地址配置成机器 A 的真实 IP。
+
+```
+vim /etc/nginx/aops-nginx.conf
+```
+
+部分服务配置：
+
+```conf
+# 保证前端路由变动时 nginx 仍以 index.html 作为入口
+location / {
+  try_files $uri $uri/ /index.html;
+  if (!-e $request_filename){
+    rewrite ^(.*)$ /index.html last;
+  }
+}
+
+location /api/ {
+  proxy_pass http://192.168.1.1:11111/;
+}
+
+location /api/domain {
+  proxy_pass http://192.168.1.1:11114/;
+  rewrite ^/api/(.*) /$1 break;
+}
+
+location /api/host {
+  proxy_pass http://192.168.1.1:11114/;
+  rewrite ^/api/(.*) /$1 break;
+}
+```
+
+开启 `aops-web` 服务：
+
+```bash
+systemctl start aops-web
+```
+
+8. 部署 kafka
+
+安装：
+
+```
+dnf install kafka
+```
+
+修改配置文件：
+
+```
+vim /opt/kafka/config/server.properties
+```
+
+将listener 改为本机ip：
+
+```
+listeners=PLAINTEXT://192.168.1.1:9092
+```
+
+启动kafka服务: 
+
+```
+cd /opt/kafka/bin
+nohup ./kafka-server-start.sh ../config/server.properties &
+tail -f ./nohup.out  # 查看nohup所有的输出出现A本机ip 以及 kafka启动成功INFO；
+```
+
+9. 部署aops-check
+
+安装aops-check：
+
+```
+dnf install aops-check
+```
+
+修改配置文件：
+
+```
+vim /etc/aops/check.ini
+```
+
+将配置文件中各服务的地址修改为真实地址，由于将所有服务都部署在机器A，故需把IP地址配为机器A的地址。
+
+```
+[check]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=11112
+mode=configurable  // 该模式为configurable模式，用于常规诊断模式下的调度器。
+timing_check=on
+
+[default_mode]
+period=30
+step=30
+
+[elasticsearch]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=9200
+
+[mysql]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=3306
+database_name=aops
+engine_format=mysql+pymysql://@%s:%s/%s
+pool_size=10000
+pool_recycle=7200
+
+[prometheus]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=9090
+query_range_step=15s
+
+[agent]
+default_instance_port=8888
+
+[manager]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=11111
+
+[consumer]
+kafka_server_list=192.168.1.1:9092  // 此处及后续服务ip修改为机器A真实ip
+enable_auto_commit=False
+auto_offset_reset=earliest
+timeout_ms=5
+max_records=3
+task_name=CHECK_TASK
+task_group_id=CHECK_TASK_GROUP_ID
+result_name=CHECK_RESULT
+[producer]
+kafka_server_list = 192.168.1.1:9092  // 此处及后续服务ip修改为机器A真实ip
+api_version = 0.11.5
+acks = 1
+retries = 3
+retry_backoff_ms = 100
+task_name=CHECK_TASK
+task_group_id=CHECK_TASK_GROUP_ID
+```
+
+启动aops-check服务（configurable模式）：
+
+```
+systemctl start aops-check
+```
+
+10. 部署客户端服务
+
+客户端机器的服务需要部署aops-agent及gala-gopher，具体可参考[aops-agent部署指南](aops-agent部署指南.md)。
+
+注意：主机注册时需要先在前端添加主机组操作，确保该主机所属的主机组存在。此处只对机器A做部署、纳管。
+
+11. 部署 prometheus
+
+安装prometheus:
+
+```
+dnf install prometheus2
+```
+
+修改配置文件：
+
+```
+vim /etc/prometheus/prometheus.yml
+```
+
+将所有客户端的gala-gopher地址新增到prometheus的监控节点中。
+
+```yaml
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090', '192.168.1.1:8888']
+```
+
+启动服务：
+
+```
+systemctl start prometheus
+```
+
+12. 部署gala-ragdoll
+
+A-Ops配置溯源功能依赖gala-ragdoll实现，通过Git实现配置文件的变动监测。
+
+安装gala-ragdoll：
+
+```shell
+dnf install gala-ragdoll # A-Ops 配置溯源
+```
+
+修改配置文件：
+
+```shell
+vim /etc/ragdoll/gala-ragdoll.conf
+```
+
+将collect节点collect_address中IP地址修改为机器A的地址，collect_api与collect_port修改为实际接口地址。
+
+```
+[git]
+git_dir = "/home/confTraceTest"
+user_name = "user_name"
+user_email = "user_email"
+
+[collect]
+collect_address = "http://192.168.1.1"    //此处修改为机器A的真实IP
+collect_api = "/manage/config/collect"    //此处修改为配置文件采集的实际接口
+collect_port = 11111                      //此处修改为服务的实际端口
+
+[sync]
+sync_address = "http://0.0.0.0"
+sync_api = "/demo/syncConf"
+sync_port = 11114
+
+
+[ragdoll]
+port = 11114
+
+```
+
+启动gala-ragdoll服务：
+
+```shell
+systemctl start gala-ragdoll
+```
+
+#### 机器 B
+
+1. 安装 `aops-check`：
+
+```bash
+dnf install aops-check
+```
+
+2. 修改配置文件：`vim /etc/aops/check.ini`
+
+将配置文件中各服务的地址修改为真实地址，除check服务为机器B的地址外，其他服务都部署在机器A，故需把IP地址配置为机器A的地址即可。
+
+```ini
+[check]
+ip=192.168.1.2  // 此处ip改为机器B真实ip
+port=11112
+mode=executor  // executor，用于常规诊断模式下的执行器
+timing_check=on
+
+[default_mode]
+period=30
+step=30
+
+[elasticsearch]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=9200
+
+[mysql]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=3306
+database_name=aops
+engine_format=mysql+pymysql://@%s:%s/%s
+pool_size=10000
+pool_recycle=7200
+
+[prometheus]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=9090
+query_range_step=15s
+
+[agent]
+default_instance_port=8888
+
+[manager]
+ip=192.168.1.1  // 此处及后续服务ip修改为机器A真实ip
+port=11111
+
+[consumer]
+kafka_server_list=192.168.1.1:9092  // 此处及后续服务ip修改为机器A真实ip
+enable_auto_commit=False
+auto_offset_reset=earliest
+timeout_ms=5
+max_records=3
+task_name=CHECK_TASK
+task_group_id=CHECK_TASK_GROUP_ID
+result_name=CHECK_RESULT
+[producer]
+kafka_server_list = 192.168.1.1:9092  // 此处及后续服务ip修改为机器A真实ip
+api_version = 0.11.5
+acks = 1
+retries = 3
+retry_backoff_ms = 100
+task_name=CHECK_TASK
+task_group_id=CHECK_TASK_GROUP_ID
+```
+
+启动 `aops-check` 服务（`executor` 模式）：
+
+```bash
+systemctl start aops-check
+```
+
+至此，部署完成。
+
+### 参考资料
+
+[openEuler Docs 22.09 - A-Ops 用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/A-Ops/overview.html)
+
+### 测试结果
+
+[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/A-Ops)
+
+#### 预期结果
+
+成功按上述步骤部署 A-Ops。
+
+#### 实际结果
+
+缺少部分组件，未能成功部署。仅成功使用 A-ops 安装 MySQL，未安装其他组件。
+
+|  软件包名称  |  失败原因   |
+|-------------|------------|
+|elasticsearch|不支持 RISC-V|
+|aops-manager |  软件包缺失 |
+|  aops-web   |  软件包缺失 |
+|  zookeeper  |  软件包缺失 |
+|    kafka    |  软件包缺失 |
+| aops-check  |  软件包缺失 |
+
+## IO 智能多流 
+
+### 软件说明
+
+astream是一款支持用户自定义配置目标文件的流信息，以使能NVMe SSD磁盘的多流（multi-stream）特性，从而延长磁盘寿命的便捷工具。
+
+### 安装方法
+```
+dnf install astream
+```
+### 参考资料
+https://gitee.com/openeuler/astream
+
+[openEuler Docs 23.03 - atream 用户指南](https://docs.openeuler.org/zh/docs/23.03/docs/astream/overview.html)
+
+### 测试结果
+
+[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/astream)
+
+## pkgship
+
+### 软件说明
+
+pkgship是一款管理OS软件包依赖关系，提供依赖和被依赖关系完整图谱的查询工具，pkgship提供软件包依赖查询、生命周期管理、补丁查询等功能。
+
+1. 软件包依赖查询：方便社区人员在软件包引入、更新和删除的时候了解软件的影响范围。
+2. 补丁查询：方便社区人员了解openEuler软件包的补丁情况以及提取补丁内容，详细内容请参见[patch-tracking](https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/userguide/patch-tracking.html)。
+
+### 环境配置
+
+```
+Name         : pkgship
+Version      : 3.0.0
+Release      : 1.oe2303
+Architecture : noarch
+Size         : 800 k
+Source       : pkgship-3.0.0-1.oe2303.src.rpm
+Repository   : @System
+From repo    : mainline
+Summary      : Pkgship implements rpm package dependence ,maintainer, patch query and so on.
+URL          : https://gitee.com/openeuler/pkgship
+License      : Mulan 2.0
+Description  : Pkgship implements rpm package dependence ,maintainer, patch query and so no.
+```
+
+### 安装方法
+
+```
+sudo dnf install pkgship
+```
+
+### 测试方法
+
+可以安装成功,但是无法运行其一个脚本使其服务启动
+
+mugen 有相关测试套
+
+### 相关 issue
+
+- [#I6RR6R 23.02pkgship服务启动失败](https://gitee.com/openeuler/RISC-V/issues/I6RR6R)
+- [#I6RR83 23.02pkgship安装elasticsearch失败](https://gitee.com/openeuler/RISC-V/issues/I6RR83)
+
+提问相关的:
+
+- [#I6QLEL 请问openEuler这边对pkgship使用什么样的方法进行功能测试](https://gitee.com/openeuler/pkgship/issues/I6QLEL)
+
+### 参考资料
+
+[openEuler Docs 23.03 - pkgship](https://docs.openeuler.org/zh/docs/23.03/docs/userguide/pkgship.html)
+
+## mindspore
+
+仓库暂未支持这款软件
+
+## pod 带宽管理 oncn-bwm
+
+### 软件说明
+
+oncn-bwm 是一款适用于离线业务混合部署场景的 Pod 带宽管理工具，它会根据 QoS 分级对节点内的网络资源进行合理调度，保障在线业务服务体验的同时，大幅提升节点整体的网络带宽利用率。
+
+oncn-bwm 工具支持如下功能：
+
+- 使能/去除/查询 Pod 带宽管理
+- 设置 Pod 网络优先级
+- 设置离线业务带宽范围和在线业务水线
+- 内部统计信息查询
+
+### 摘要
+
+oncn-bwm 工具提供了 `bwmcli` 命令行工具来使能 Pod 带宽管理或进行相关配置。
+
+### 安装方法
+
+```bash
+sudo dnf install -y oncn-bwm
+```
+
+### 运行步骤
+
+Shell 运行：
+
+```bash
+ip link #查看网卡名称
+sudo bwmcli -e eth0 #开启 eth0 的 Pod 带宽管理
+```
+
+### 参考资料
+[openEuler Docs 22.09 - oncn-bwm 用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/oncn-bwm/overview.html)
+
+### 测试结果
+
+[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/oncn-bwm)
+
+#### 预期结果
+
+成功开启带宽管理：`enable eth0 success`
+
+#### 实际结果
+
+未能成功开启带宽管理。
+
+## ROS/ROS2
+
+ROS 2 暂不支持
+
+## 高性能服务网格数据面 Kmesh
+
+oErv 暂不支持，软件包缺失
+
+## 虚拟机热迁移
+
+暂无
+
+## 虚拟化热补丁 libcareplus
+
+### 软件说明
+
+LibcarePlus 是一个用户态进程热补丁框架，可以在不重启进程的情况下对 Linux 系统上运行的目标进程进行热补丁操作。热补丁可以应用于 CVE 漏洞修复，也可以应用于不中断应用服务的紧急 bug 修复。
+
+### 环境配置
+
+- 硬件信息：QEMU 7.2.1 on Arch Linux (WSL 2)，8*vCPU + 8GB RAM
+- 操作系统版本：openEuler 23.03 preview riscv64, Linux 6.1.19-2.oe2303.riscv64
+- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
+
+### 参考资料
+
+[openEuler Docs 23.03 - LibcarePlus](https://docs.openeuler.org/zh/docs/23.03/docs/Virtualization/LibcarePlus.html#%E5%AE%89%E8%A3%85-libcareplus)
+
+## 定制裁剪工具 (imageTailor和oemaker)
+
+目前不支持，后续如有发版生成镜像需要会做
+
+## 国密算法
+
+需要测试，SM2/3/4 目前已加入内核 Kconfig
+
+## libstorage 针对 NVME 的 IO 栈
+
+目前仅测试 libstorage 非 NVME 部分
 
 # 参考文献
 
