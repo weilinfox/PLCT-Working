@@ -2,8 +2,9 @@
 **修订记录**
 | 日期       | 修订版本 | 修改描述           | 作者              |
 | ---------- | -------- | ------------------ | ----------------- |
-| 2023-06-21 | 0.0.1    | Demo               | KevinMX;桜風の狐 |
+| 2023-06-21 | 0.0.1    | Demo               | KevinMX; 桜風の狐 |
 | 2023-06-24 | 0.0.2    | 格式更改和文档汇总 | 桜風の狐          |
+| 2023-06-25 | 0.0.3    | 完善文档内容 | 桜風の狐          |
 
 **表格图例**
 
@@ -995,11 +996,16 @@ VLC Media Player 是一款可播放大多数格式，而无需安装编解码器
 
 Docker 是一个开源的 Linux 容器引擎项目， 用以实现应用的快速打包、部署和交付。Docker 的英文本意是码头工人，码头工人的工作就是将商品打包到 container （集装箱）并且搬运 container、装载 container。 对应到 Linux 中，Docker 就是将 APP 打包到 container，通过 container 实现 APP 在各种平台上的部署、运行。Docker 通过 Linux Container 技术将 APP 变成一个标准化的、可移植的、自管理的组件，从而实现应用的“一次构建，到处运行”。Docker 技术特点就是：应用快速发布、部署简单、管理方便，应用密度更高。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：docker-engine-2:18.09.0-320.oe2303.riscv64
+
+#### 测试环境信息
 
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-3.oe2303.riscv64
-- 软件版本：docker-engine-2:18.09.0-320.oe2303.riscv64
 
 ### 参考资料
 
@@ -1007,9 +1013,17 @@ Docker 是一个开源的 Linux 容器引擎项目， 用以实现应用的快�
 - [openEuler 官方文档/容器用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/Container/container.html)
 - [RISC-V openEuler包移植从零开始](https://gitee.com/yunxiangluo/riscv-openeuler/) 
 
+### 测试内容
+
+使用人工测试的方式，测试 Docker 的安装卸载和基本功能，共计 31 个测试用例。
+
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/Docker)
+| 测试用例总数 | 通过数 | 失败数 |
+|-|-|-|
+| 31 | 31 | 0 |
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/Docker)
 
 ## iSulad
 
@@ -1017,17 +1031,21 @@ Docker 是一个开源的 Linux 容器引擎项目， 用以实现应用的快�
 
 iSulad是一个由C/C++编写实现的轻量级容器引擎，具有轻、灵、巧、快的特点，不受硬件规格和架构限制，底噪开销更小，可应用的领域更为广泛。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
+
+#### 测试环境信息
 
 环境 1:
 - 硬件信息：QEMU 7.2.0，8*vCPU，8GB RAM
 - 操作系统版本：openEuler 23.03 riscv64, Linux 6.1.8-3.oe2303.riscv64
-- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
 
 环境 2:
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
-- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
 
 除非另有说明，测试默认在 StarFive VisionFive 2 平台进行。
 
@@ -1035,33 +1053,39 @@ iSulad是一个由C/C++编写实现的轻量级容器引擎，具有轻、灵、
 
 - [openEuler 官方文档/容器用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/Container/container.html)
 
+### 测试内容
+
+使用人工测试的方式，测试 iSulad 的安装卸载和基本功能，共计 25 个测试用例。
+
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/iSulad)
+| 测试用例总数 | 通过数 | 失败数 |
+|-|-|-|
+| 25 | 25 | 0 |
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/iSulad)
 
 ## 安全容器
 
-### 摘要
+### 软件说明
 
 安全容器依赖于 `docker-engine`、`qemu` 以及 `kata-containers`，需要进行安装。
 
-### 运行步骤
+### 安装方法
 
 1. 运行：`sudo dnf install -y docker-engine`
 2. 运行：`sudo dnf install -y qemu`
 3. 运行：`sudo dnf install -y kata-containers`。
 
+### 测试内容
+
+使用人工测试的方式，测试安全容器功能是否能够正常安装和卸载。
+
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/%E5%AE%89%E5%85%A8%E5%AE%B9%E5%99%A8)
-
-#### 预期结果
-
-三个软件包及其依赖安装成功。
-
-#### 实际结果
-
 `docker-engine` 和 `qemu` 安装成功，`kata-containers` 软件包缺失，安装失败。
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/%E5%AE%89%E5%85%A8%E5%AE%B9%E5%99%A8)
 
 ## 容器镜像构建
 
@@ -1071,31 +1095,39 @@ iSulad是一个由C/C++编写实现的轻量级容器引擎，具有轻、灵、
 
 `isula-build` 采用服务端/客户端模式，其中，`isula-build` 为客户端，提供了一组命令行工具，用于镜像构建及管理等；`isula-builder` 为服务端，用于处理客户端管理请求，作为守护进程常驻后台。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：isula-build-0.9.6-19.oe2303.riscv64
+
+#### 测试环境信息
 
 环境 1:
 - 硬件信息：QEMU 7.2.0，8*vCPU，8GB RAM
 - 操作系统版本：openEuler 23.03 riscv64, Linux 6.1.8-3.oe2303.riscv64
-- 软件版本：isula-build-0.9.6-19.oe2303..riscv64
 
 环境 2:
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
-- 软件版本：isula-build-0.9.6-19.oe2303..riscv64
 
 除非另有说明，测试默认在 StarFive VisionFive 2 平台进行。
 
+### 测试内容
+
+测试采用人工测试的方式进行，测试了容器镜像的安装卸载和基本功能，共计 13 个测试用例。
+
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/%E5%AE%B9%E5%99%A8%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA)
+| 测试用例总数 | 通过数 | 失败数 |
+|-|-|-|
+| 13 | 13 | 0 |
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/%E5%AE%B9%E5%99%A8%E9%95%9C%E5%83%8F%E6%9E%84%E5%BB%BA)
 
 ## 系统容器
 
-### 摘要
-
-安装系统容器所依赖的软件包。
-
-### 操作步骤
+### 安装方法
 
 1. 安装 iSulad 容器引擎：`sudo dnf install -y iSulad`
 2. 安装系统容器依赖包：`sudo dnf install -y syscontainer-tools authz lxcfs-tools lxcfs`
@@ -1104,17 +1136,15 @@ iSulad是一个由C/C++编写实现的轻量级容器引擎，具有轻、灵、
 5. 检查 `lxcfs` 服务是否启动成功：`sudo systemctl status lxcfs`
 6. 检查 `authz` 服务是否启动成功：`sudo systemctl status authz`
 
+### 测试内容
+
+安装系统容器所依赖的软件包。
+
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/%E7%B3%BB%E7%BB%9F%E5%AE%B9%E5%99%A8)
-
-#### 预期结果
-
 iSulad 容器引擎及依赖包安装成功，并且成功启动 `lxcfs` 和 `authz` 服务。
 
-#### 实际结果
-
-iSulad 容器引擎及依赖包安装成功，并且成功启动 `lxcfs` 和 `authz` 服务。
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/Containers/%E7%B3%BB%E7%BB%9F%E5%AE%B9%E5%99%A8)
 
 ## HA/高可用
 
@@ -1126,7 +1156,7 @@ dnf install openresty
 
 ### 使用方法
 
-> 需要至少两台安装了openEuler 23.03 的物理机/虚拟机（现以两台为例）  
+> 需要至少两台安装了openEuler 23.03 的物理机/虚拟机（现以两台为例）
 > 两台主机均需要进行以下操作，现以其中一台为例，下文中使用的IP仅供参考。
 
 #### 1. 修改主机名
@@ -1217,16 +1247,15 @@ systemctl start corosync
 
 上述服务启动后，可以在 `http://localhost:2224` 看到前端管理页面。
 
-
 ### 参考文档
 
 https://docs.openeuler.org/zh/docs/23.03/docs/thirdparty_migration/installha.html
 
 ### 测试结果
 
-暂无
+暂无测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/HA)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/HA)
 
 # k8s 相关
 
@@ -1243,18 +1272,16 @@ https://docs.openeuler.org/zh/docs/23.03/docs/thirdparty_migration/installha.htm
 
 ### 软件说明
 
-#### 什么是kubernetes
-
 Kubernetes（也称 k8s 或 “kube”）是一个[开源](https://www.redhat.com/zh/topics/open-source/what-is-open-source)的容器编排平台，可以自动完成在部署、管理和扩展容器化应用过程中涉及的许多手动操作。
 
 Kubernetes 最初由 Google 的工程师开发和设计。Google 是最早研发 Linux 容器技术的企业之一，曾公开分享 [Google 如何将一切都运行于容器之中](https://speakerdeck.com/jbeda/containers-at-scale)。（这是在 Google [云服务](https://www.redhat.com/zh/topics/cloud-computing/what-are-cloud-services)背后的技术。）
 
 Google 每周产生超过 20 亿个容器部署，全都由内部平台 [Borg](http://blog.kubernetes.io/2015/04/borg-predecessor-to-kubernetes.html) 支撑。Borg 是 Kubernetes 的前身，多年来开发 Borg 的经验教训成了影响 Kubernetes 中许多技术的主要因素。
 
-### 环境配置
+### 测试信息
 
-- 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
-- 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
+#### 测试对象版本
+
 - 软件版本：
 
 ```
@@ -1272,13 +1299,34 @@ License      : ASL 2.0
 Description  : Container cluster management.
 ```
 
-### 测试方法
+#### 测试环境信息
 
-mugen拥有其测试用例,但是两个用例有问题
+- 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
+- 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
+
+### 安装方法
+
+```bash
+sudo dnf install -y kubernetes*
+```
+
+### 测试内容
+
+使用人工测试的方式测试其是否能够正常安装和卸载。
+
+使用 mugen 进行功能上的测试。
+
+### 测试结果
+
+``kubernetes`` 及其依赖安装成功。
+
+mugen 拥有其测试用例，但是两个用例有问题。
 
 上游使用 E2E 测试，即 kubetest，该工具已被 Kubernetes 上游 Deprecated，目前在 Go 1.19 下无法执行。
 
-### 相关issue
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kubernetes)
+
+#### 相关issue
 
 向mugen上游提出的:
 
@@ -1288,29 +1336,42 @@ mugen拥有其测试用例,但是两个用例有问题
 
 - [#I6QIGJ 请问openEuler这边对kubernetes使用什么样的方法进行测试](https://gitee.com/openeuler/cloudnative/issues/I6QIGJ)
 
-### 测试结果
-
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kubernetes)
-
 ## kubeOS
 
 ### 软件说明
 
 KubeOS 是针对业务以容器的形式运行的场景，专门设计的一种轻量级操作系统。KubeOS 通过 kubernetes CRD + operator 扩展机制将将 OS 作为组件接入 kubernetes，使 OS 和业务处于同等地位，用户通过 kubernetes 集群统一管理节点上的容器和节点 OS，实现一套系统管理容器和 OS。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：KubeOS-1.0.2-9.oe2303.riscv64
+
+#### 测试环境信息
 
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
-- 软件版本：KubeOS-1.0.2-9.oe2303.riscv64
+
+### 安装方法
+
+```bash
+sudo dnf install -y KubeOS*
+```
 
 ### 参考资料
 
 [openEuler Docs 22.09 - 容器 OS 升级用户指南](https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/KubeOS/overview.html)
 
+### 测试内容
+
+使用人工测试的方式，安装 KubeOS 及其依赖包
+
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kubeOS)
+``KubeOS`` 及其依赖安装成功。
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kubeOS)
 
 ## KubeSphere
 
@@ -1338,7 +1399,6 @@ kk create cluster --with-kubesphere v3.1.1
 kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f
 ```
 
-
 ### 参考资料
 
 [openEuler Docs 23.03 - KubeSphere 部署指南]https://docs.openeuler.org/zh/docs/23.03/docs/desktop/kubesphere.html
@@ -1347,7 +1407,7 @@ kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=
 
 目前KubeKey包存在错误，无法部署 KubeSphere 集群
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kubesphere)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kubesphere)
 
 ## OpenStack Train & Wallaby
 
@@ -1359,35 +1419,176 @@ kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=
 
 ## NestOS
 
-### 摘要
+### 测试内容
 
 测试 NestOS 能否在 openEuler 23.03 V1 Risc-V 上正常运行。
 
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/NestOS)
-
-#### 预期结果
-
-NestOS 能够正常在 openEuler 23.03 V1 Risc-V 部署运行。
-
-#### 实际结果
-
 根据 openEuler [官方文档](https://docs.openeuler.org/zh/docs/23.03/docs/NestOS/安装与部署.html)的描述：目前 NestOS 已支持 x86_64 和 aarch64 架构。尚未支持 Risc-V。
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/NestOS)
 
 ## 虚拟化 Virt
 
-[软件说明](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/raw/master/System_and_Feature_Test/Virt/README.md)
+### 软件说明
+
+在计算机技术中，虚拟化是一种资源管理技术，它将计算机的各种实体资源（处理器、内存、磁盘、网络适配器等）予以抽象、转换后呈现，并可分割、组合为一个或多个计算机配置环境。这种资源管理技术打破了实体结构不可分割的障碍，使这些资源在虚拟化后不受现有资源的架设方式、地域或物理配置限制，从而让用户可以更好地应用计算机硬件资源，提高资源利用率。
+
+虚拟化使得一台物理服务器上可以运行多台虚拟机，虚拟机共享物理机的处理器、内存、I/O设备等资源，但逻辑上虚拟机之间是互相隔离的。在虚拟化技术中，通常将这个物理服务器称为宿主机，宿主机上运行的虚拟机也叫客户机，虚拟机内部运行的操作系统称为客户机操作系统。在宿主机和虚拟机之间存在一层叫虚拟化层的软件，用于实现虚拟硬件的模拟，通常这个虚拟化层被称为虚拟机监视器，如下图所示：
+
+**图 1** 虚拟化架构
+![img](https://docs.openeuler.org/zh/docs/22.03_LTS/docs/Virtualization/figures/virtualized-architecture.png)
+
+openEuler软件包中提供的虚拟化相关组件：
+
+- KVM：提供核心的虚拟化基础设施，使Linux系统成为一个hypervisor，支持多个虚拟机同时在该主机上运行。
+- QEMU：模拟处理器并提供一组设备模型，配合KVM实现基于硬件的虚拟化模拟加速。
+- Libvirt：为管理虚拟机提供工具集，主要包含统一、稳定、开放的应用程序接口（API）、守护进程 （Libvirtd）和一个默认命令行管理工具（virsh）。
+- Open vSwitch：为虚拟机提供虚拟网络的工具集，支持编程扩展，以及标准的管理接口和协议（如NetFlow， sFlow，IPFIX， RSPAN， CLI， LACP， 802.1ag）。
+
+
+### 安装方法
+
+#### 前提条件
+
+1. yum.repo里要有这项([https://mirror.iscas.ac.cn/openeuler-sig-riscv/openEuler-RISC-V/preview/openEuler-23.03-V1-riscv64/repo/extra/ceph-user/](https://gitee.com/link?target=https%3A%2F%2Fmirror.iscas.ac.cn%2Fopeneuler-sig-riscv%2FopenEuler-RISC-V%2Fpreview%2FopenEuler-23.03-V1-riscv64%2Frepo%2Fextra%2Fceph-user%2F))
+2. 安装操作需要root用户权限。
+
+#### 安装步骤
+
+1. 安装QEMU组件。
+
+   ```shell
+   yum install -y qemu
+   ```
+
+2. 安装libvirt组件。
+
+   ```shell
+   yum install -y libvirt
+   ```
+
+3. 启动libvirtd服务。
+
+   ```shell
+   systemctl start libvirtd
+   ```
+
+**说明：**KVM模块已经集成在openEuler内核中，因此不需要单独安装。
+
+#### 验证安装是否成功
+
+1. 查看内核是否支持 KVM 虚拟化，即查看 /dev/kvm 和 /sys/module/kvm 文件是否存在，命令和回显如下：
+
+   ```shell
+   [root@openeuler-riscv64 ~]# ls /dev/kvm
+   /dev/kvm
+   [root@openeuler-riscv64 ~]# ls /sys/module/kvm
+   parameters  uevent
+   ```
+
+   若上述文件存在，说明内核支持 KVM 虚拟化。若上述文件不存在，则说明系统内核编译时未开启 KVM 虚拟化，需要更换支持 KVM 虚拟化的 Linux 内核。
+
+2. 确认 QEMU 是否安装成功。若安装成功则可以看到 QEMU 软件包信息，命令和回显如下：
+
+   ```shell
+   [root@openeuler-riscv64 ~]# rpm -qi qemu
+   Name        : qemu
+   Epoch       : 10
+   Version     : 6.2.0
+   Release     : 68.oe2303
+   Architecture: riscv64
+   Install Date: Sun 02 Apr 2023 09:22:48 PM CST
+   Group       : Unspecified
+   Size        : 20923916
+   License     : GPLv2 and BSD and MIT and CC-BY-SA-4.0
+   Signature   : RSA/SHA1, Thu 30 Mar 2023 01:01:10 AM CST, Key ID e8824b862466a8cc
+   Source RPM  : qemu-6.2.0-68.oe2303.src.rpm
+   Build Date  : Wed 29 Mar 2023 08:47:19 PM CST
+   Build Host  : oerv-obs-worker-01
+   Packager    : http://openeuler.org
+   Vendor      : http://openeuler.org
+   URL         : http://www.qemu.org
+   Summary     : QEMU is a generic and open source machine emulator and virtualizer
+   Description :
+   QEMU is a FAST! processor emulator using dynamic translation to achieve good emulation speed.
+   
+   QEMU has two operating modes:
+   
+      Full system emulation. In this mode, QEMU emulates a full system (for example a PC),
+      including one or several processors and various peripherals. It can be used to launch
+      different Operating Systems without rebooting the PC or to debug system code.
+   
+      User mode emulation. In this mode, QEMU can launch processes compiled for one CPU on another CPU.
+      It can be used to launch the Wine Windows API emulator (https://www.winehq.org) or to ease
+      cross-compilation and cross-debugging.
+   You can refer to https://www.qemu.org for more infortmation.
+   ```
+
+3. 确认libvirt是否安装成功。若安装成功则可以看到libvirt软件包信息，命令和回显如下：
+
+   ```shell
+   [root@openeuler-riscv64 ~]# rpm -qi libvirt
+   Name        : libvirt
+   Version     : 6.2.0
+   Release     : 52.oe2303
+   Architecture: riscv64
+   Install Date: Sun 02 Apr 2023 09:25:38 PM CST
+   Group       : Unspecified
+   Size        : 0
+   License     : LGPLv2+
+   Signature   : RSA/SHA1, Mon 20 Mar 2023 09:08:24 AM CST, Key ID e8824b862466a8cc
+   Source RPM  : libvirt-6.2.0-52.oe2303.src.rpm
+   Build Date  : Mon 20 Mar 2023 06:05:13 AM CST
+   Build Host  : oerv-obs-worker-06
+   Packager    : http://openeuler.org
+   Vendor      : http://openeuler.org
+   URL         : https://libvirt.org/
+   Summary     : Library providing a simple virtualization API
+   Description :
+   Libvirt is a C toolkit to interact with the virtualization capabilities
+   of recent versions of Linux (and other OSes). The main package includes
+   the libvirtd server exporting the virtualization support.
+   ```
+
+4. 查看libvirt服务是否启动成功。若服务处于“Active”状态，说明服务启动成功，可以正常使用libvirt提供的virsh命令行工具，命令和回显如下：
+
+   ```shell
+   [root@openeuler-riscv64 ~]# systemctl status libvirtd
+   ● libvirtd.service - Virtualization daemon
+        Loaded: loaded (/usr/lib/systemd/system/libvirtd.service; enabled; vendor >
+        Active: active (running) since Mon 2023-04-03 14:20:10 CST; 1s ago
+   TriggeredBy: ● libvirtd.socket
+                ● libvirtd-ro.socket
+                ● libvirtd-admin.socket
+          Docs: man:libvirtd(8)
+                https://libvirt.org
+      Main PID: 732 (libvirtd)
+         Tasks: 17 (limit: 32768)
+        Memory: 16.0M
+        CGroup: /system.slice/libvirtd.service
+                └─ 732 /usr/sbin/libvirtd --timeout 120
+   ```
+
+
+### 参考资料
+
+https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/Virtualization/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E5%8C%96.html
+
+### 测试内容
+
+使用人工测试的方式，验证虚拟化 Virt 功能能否正常安装和运行。
 
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/Virt)
+虚拟化 Virt 功能正常安装和运行。
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/Virt)
 
 ## k3s
 
 ### 软件说明
-
-#### 什么是K3s
 
 K3s 是一个轻量级的 Kubernetes 发行版，它针对边缘计算、物联网等场景进行了高度优化。K3s 有以下增强功能：
 
@@ -1410,7 +1611,9 @@ K3s 适用于以下场景：
 
 由于运行 K3s 所需的资源相对较少，所以 K3s 也适用于开发和测试场景。在这些场景中，如果开发或测试人员需要对某些功能进行验证，或对某些问题进行重现，那么使用 K3s 不仅能够缩短启动集群的时间，还能够减少集群需要消耗的资源。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
 
 ```
 Name         : k3s
@@ -1450,13 +1653,9 @@ sudo dnf install k3s
 
 ### 测试方法
 
-暂时在手测,但是安装出现问题
+使用人工测试的方式，验证 k3s 功能是否能正常安装。
 
-还未调研出官方是否有测试框架,mugen没有其测试用例
-
-### 相关issue
-
-- [#I6RRJT 23.02k3s安装过程中出现的一些关于AST的报错](https://gitee.com/openeuler/RISC-V/issues/I6RRJT)
+还未调研出官方是否有测试框架， mugen 没有其测试用例
 
 ### 参考资料
 
@@ -1468,9 +1667,13 @@ sudo dnf install k3s
 
 ### 测试结果
 
-暂无测试结果产出
+安装出现问题。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/k3s)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/k3s)
+
+#### 相关issue
+
+- [#I6RRJT 23.02k3s安装过程中出现的一些关于AST的报错](https://gitee.com/openeuler/RISC-V/issues/I6RRJT)
 
 # 内存管理
 
@@ -1497,21 +1700,24 @@ sudo dnf install k3s
 
 ## kernel
 
-### 功能说明
+### 软件说明
 
 openEuler 23.03 将 Linux 内核的版本更新到了 6.1。
 
-### 环境配置
+### 测试信息
 
-- OS 版本：openEuler 23.03 RISC-V V1
+#### 测试对象版本
 
 - 内核版本：6.1.19-2.oe2303.riscv64
 
-- 虚拟机版本：QEMU 8.0.0-1
+#### 测试环境信息
 
+- OS 版本：openEuler 23.03 RISC-V V1
+- 内核版本：6.1.19-2.oe2303.riscv64
+- 虚拟机版本：QEMU 8.0.0-1
 - 宿主机：Arch Linux on Windows 11 x86_64
 
-### 测试方法
+### 测试内容
 
 使用 Linux Test Project（简称 LTP）对内核进行测试。本次测试使用的 LTP 版本为 [20230127](https://github.com/linux-test-project/ltp/releases/tag/20230127)。
 
@@ -1733,7 +1939,7 @@ $ qemu-img create -f qcow2 ext1g.qcow2 1G
 
 详细的测试结果见附件。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/Kernel_6.1)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/Kernel_6.1)
 
 #### 附件
 
@@ -1749,20 +1955,46 @@ $ qemu-img create -f qcow2 ext1g.qcow2 1G
 
 ### 软件说明
 
-`kconfigDetector` 是为内核配置提供的一系列检测工具. 包括：
+`kconfigDetector` 是为内核配置提供的一系列检测工具。包括：
 
 * kconfigDepDetector 内核配置项错误值检测工具
   依据内核源码中各配置项的Kconfig定义，检测出内核配置文件中不满足依赖、取值等约束条件的错误值，并提供父类和子类配置项查询功能。  
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：kconfigDetector-v1.0.0-1.oe2303.riscv64
+
+#### 测试环境信息
 
 - 硬件信息：QEMU 7.2.1 on Arch Linux (on WSL 2)，8*vCPU + 8GB RAM
 - 操作系统版本：openEuler 23.03 preview riscv64, Linux 6.1.19-2.oe2303.riscv64
-- 软件版本：kconfigDetector-v1.0.0-1.oe2303.riscv64
+
+### 安装方法
+
+由于目前 openEuler RISC-V 23.03 软件源中暂无此软件包，但 OBS 已经成功构建完成，可手动下载 rpm 包，通过 dnf 安装。
+
+```bash
+wget http://obs-backend.tarsier-infra.com:82/openEuler:/23.03:/Epol/23.03/noarch/kconfigDetector-v1.0.0-1.oe2303.noarch.rpm
+sudo dnf install -y kconfigDetector-v1.0.0-1.oe2303.noarch.rpm
+```
 
 ### 参考资料
 
 [openeuler/kconfigDetector](https://gitee.com/openeuler/kconfigDetector)
+
+### 测试内容
+
+使用人工测试的方式，测试 kconfigDetector 安装卸载和基本功能，共 2 个测试用例。
+
+### 测试结果
+
+| 测试用例总数 | 通过数 | 失败数 |
+|-|-|-|
+|2|2|0|
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/kconfigDetector)
 
 # Web 服务
 
@@ -1843,7 +2075,7 @@ https://www.runoob.com/w3cnote/openresty-intro.html
 
 暂无测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/openResty)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/openResty)
 
 # 数据库
 
@@ -1853,9 +2085,17 @@ https://www.runoob.com/w3cnote/openresty-intro.html
 
 ## Mysql
 
+### 测试内容
+
+使用人工测试的方法，测试了 Mysql 数据库的基本功能，共计 49 个测试用例。
+
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/MYSQL)
+| 测试用例总数 | 通过数 | 失败数 |
+|-|-|-|
+| 49 | 48 | 1 |
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/MYSQL)
 
 # 编译器
 
@@ -1872,17 +2112,18 @@ https://www.runoob.com/w3cnote/openresty-intro.html
 
 JDK（Java Development Kit）是 Java 开发者进行 Java 开发所必须的软件包，包含 JRE（Java Runtime Environment）和编译、调测工具。此外，OpenJDK 也提供了 jtreg 作为回归测试框架，方便开发者进行测试代码的编写与执行。
 
-### 摘要
-
-使用 OpenJDK 官方回归测试框架 jtreg 对 OpenJDK 19 进行测试。
-
 ### 环境配置
+
+#### 测试对象版本
+
+- 软件版本：java-latest-openjdk-19.0.2.7-1.rolling.oe2303
+
+#### 测试环境信息
 
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
-- 软件版本：java-latest-openjdk-19.0.2.7-1.rolling.oe2303
 
-### 运行步骤
+### 测试方法
 
 1. 安装 OpenJDK 19。
 
@@ -1926,13 +2167,13 @@ export PATH=$JT_HOME/bin:$PATH
 jtreg -va -ignore:quiet -jit -conc:auto -timeout:5 -tl:3590 $HOME/jdk19u/test/jdk
 ```
 
-### 预期结果
+### 测试内容
 
-测试成功结束。
+使用 OpenJDK 官方回归测试框架 jtreg 对 OpenJDK 19 进行测试。
 
 ### 测试结果
 
-测试结束，但出现部分失败/错误。jtreg 输出的日志存放在 JTreport 中，详见 [JTreport](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK/testcases/jtreg-openjdk19/JTreport/index.html)。
+测试结束，但出现部分失败/错误。jtreg 输出的日志存放在 JTreport 中，详见 [JTreport](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK/testcases/jtreg-openjdk19/JTreport/index.html) 。
 
 > Note: 笔者执行测试时使用的测试套路径不同，详细结果中的路径与上述步骤可能有所偏差。这不会影响测试结果。
 
@@ -1948,7 +2189,7 @@ Error: Some tests failed or other problems occurred.
 - 测试用例执行超时。修改 timeout 时限后重试。
 - 未设置 X11 DISPLAY 变量。headless 环境下无法执行部分 GUI 测试。jtreg 执行这部分测试时依赖 vncserver 和 x11vnc。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/JDK)
 
 ## 毕昇 JDK
 
@@ -2015,8 +2256,6 @@ dnf install atune-engine
 - 修改`/etc/atuned/atuned.cnf`中的rest_tls(L59)和engine_tls(L66)为false
 - 修改`/etc/atuned/engine.cnf`中的engine_tls(L22)为false
 
-
-
 #### 二、快速使用指南
 
 ##### 1、配置 A-Tune 服务
@@ -2060,6 +2299,12 @@ systemctl status atune-engine
 
 [openEuler Docs 22.03 LTS SP1 - A-Tune 用户指南](https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/A-Tune/A-Tune.html)
 
+### 测试结果
+
+暂无测试结果
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/A-Tune)
+
 ## secPaver
 
 ### 软件说明
@@ -2099,9 +2344,10 @@ https://gitee.com/openeuler/secpaver/blob/master/doc/cmd.md
 ### 测试结果
 
 当前 openEuler risc-v 不支持 selinux
+
 且 pavd 无法使用 [相关问题](https://gitee.com/openeuler/RISC-V/issues/I6R07N) 。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secPaver)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secPaver)
 
 ## secGear
 
@@ -2115,25 +2361,31 @@ secGear 是面向计算产业的机密计算安全应用开发套件，旨在方
 sudo dnf install secGear-devel
 ```
 
-## 参考资料
+### 参考资料
 
-[openEuler Docs 23.03 - 安装 secGear]https://docs.openeuler.org/zh/docs/23.03/docs/secGear/%E5%AE%89%E8%A3%85secGear.html
+[openEuler Docs 23.03 - 安装 secGear](https://docs.openeuler.org/zh/docs/23.03/docs/secGear/%E5%AE%89%E8%A3%85secGear.html)
 
 ### 测试结果
 
 目前 openEuler RISC-V 缺少相关软件包，无法安装。
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secGear)
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/secGear)
 
 ## openGauss
+
+### 测试结果
 
 不支持
 
 ## 用户态协议栈 gazelle
 
+### 测试结果
+
 缺包，不支持
 
 ## 容器场景在离线混合部署 rubik
+
+### 测试结果
 
 缺包，不支持
 
@@ -2143,21 +2395,25 @@ sudo dnf install secGear-devel
 
 A-Ops 是 openEuler 的一套智能运维框架。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
+
+#### 测试环境信息
 
 > 注意：A-Ops 需要两台机器用于部署。
 
 机器 A：
 - 硬件信息：赛昉科技 昉·星光 2 / StarFive VisionFive 2 4GB
 - 操作系统版本：openEuler 23.03 riscv64, Linux 5.15.0-7.oe2303.riscv64
-- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
 
 机器 B：
 - 硬件信息：HiFive Unmatched
 - 操作系统版本：openEuler 23.03 riscv64, Linux 6.1.0-10.oe2303.riscv64
-- 软件版本：aops-tools-v1.1.1-2.oe2303.riscv64
 
-### 运行步骤
+### 安装方法
 
 #### 机器 A
 
@@ -2581,15 +2837,11 @@ systemctl start aops-check
 
 [openEuler Docs 22.09 - A-Ops 用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/A-Ops/overview.html)
 
+### 测试内容
+
+使用人工测试的方法，按安装方法所示步骤部署 A-Ops ，验证是否成功。
+
 ### 测试结果
-
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/A-Ops)
-
-#### 预期结果
-
-成功按上述步骤部署 A-Ops。
-
-#### 实际结果
 
 缺少部分组件，未能成功部署。仅成功使用 A-ops 安装 MySQL，未安装其他组件。
 
@@ -2602,24 +2854,31 @@ systemctl start aops-check
 |    kafka    |  软件包缺失 |
 | aops-check  |  软件包缺失 |
 
-## IO 智能多流 
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/A-Ops)
+
+## IO 智能多流
 
 ### 软件说明
 
 astream是一款支持用户自定义配置目标文件的流信息，以使能NVMe SSD磁盘的多流（multi-stream）特性，从而延长磁盘寿命的便捷工具。
 
 ### 安装方法
+
 ```
 dnf install astream
 ```
+
 ### 参考资料
+
 https://gitee.com/openeuler/astream
 
 [openEuler Docs 23.03 - atream 用户指南](https://docs.openeuler.org/zh/docs/23.03/docs/astream/overview.html)
 
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/astream)
+暂无测试结果
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/astream)
 
 ## pkgship
 
@@ -2630,7 +2889,9 @@ pkgship是一款管理OS软件包依赖关系，提供依赖和被依赖关系�
 1. 软件包依赖查询：方便社区人员在软件包引入、更新和删除的时候了解软件的影响范围。
 2. 补丁查询：方便社区人员了解openEuler软件包的补丁情况以及提取补丁内容，详细内容请参见[patch-tracking](https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/userguide/patch-tracking.html)。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
 
 ```
 Name         : pkgship
@@ -2653,13 +2914,23 @@ Description  : Pkgship implements rpm package dependence ,maintainer, patch quer
 sudo dnf install pkgship
 ```
 
-### 测试方法
+### 参考资料
 
-可以安装成功,但是无法运行其一个脚本使其服务启动
+[openEuler Docs 23.03 - pkgship](https://docs.openeuler.org/zh/docs/23.03/docs/userguide/pkgship.html)
 
-mugen 有相关测试套
+### 测试内容
 
-### 相关 issue
+使用人工测试的方式，验证是否能够正常安装和启动。
+
+mugen 有相关测试套进行功能测试。
+
+### 测试结果
+
+可以安装成功,但是无法运行其一个脚本使其服务启动。
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/pkgship)
+
+#### 相关 issue
 
 - [#I6RR6R 23.02pkgship服务启动失败](https://gitee.com/openeuler/RISC-V/issues/I6RR6R)
 - [#I6RR83 23.02pkgship安装elasticsearch失败](https://gitee.com/openeuler/RISC-V/issues/I6RR83)
@@ -2668,11 +2939,9 @@ mugen 有相关测试套
 
 - [#I6QLEL 请问openEuler这边对pkgship使用什么样的方法进行功能测试](https://gitee.com/openeuler/pkgship/issues/I6QLEL)
 
-### 参考资料
-
-[openEuler Docs 23.03 - pkgship](https://docs.openeuler.org/zh/docs/23.03/docs/userguide/pkgship.html)
-
 ## mindspore
+
+### 测试结果
 
 仓库暂未支持这款软件
 
@@ -2689,17 +2958,15 @@ oncn-bwm 工具支持如下功能：
 - 设置离线业务带宽范围和在线业务水线
 - 内部统计信息查询
 
-### 摘要
-
-oncn-bwm 工具提供了 `bwmcli` 命令行工具来使能 Pod 带宽管理或进行相关配置。
-
 ### 安装方法
 
 ```bash
 sudo dnf install -y oncn-bwm
 ```
 
-### 运行步骤
+### 使用方法
+
+oncn-bwm 工具提供了 `bwmcli` 命令行工具来使能 Pod 带宽管理或进行相关配置。
 
 Shell 运行：
 
@@ -2709,25 +2976,28 @@ sudo bwmcli -e eth0 #开启 eth0 的 Pod 带宽管理
 ```
 
 ### 参考资料
+
 [openEuler Docs 22.09 - oncn-bwm 用户指南](https://docs.openeuler.org/zh/docs/22.09/docs/oncn-bwm/overview.html)
+
+### 测试内容
+
+使用人工测试的方式，验证是否能正常安装卸载，并验证是否能成功开启带宽管理：`enable eth0 success`
 
 ### 测试结果
 
-[仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/oncn-bwm)
-
-#### 预期结果
-
-成功开启带宽管理：`enable eth0 success`
-
-#### 实际结果
-
 未能成功开启带宽管理。
 
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/blob/master/System_and_Feature_Test/oncn-bwm)
+
 ## ROS/ROS2
+
+### 测试结果
 
 ROS 2 暂不支持
 
 ## 高性能服务网格数据面 Kmesh
+
+### 测试结果
 
 oErv 暂不支持，软件包缺失
 
@@ -2741,15 +3011,32 @@ oErv 暂不支持，软件包缺失
 
 LibcarePlus 是一个用户态进程热补丁框架，可以在不重启进程的情况下对 Linux 系统上运行的目标进程进行热补丁操作。热补丁可以应用于 CVE 漏洞修复，也可以应用于不中断应用服务的紧急 bug 修复。
 
-### 环境配置
+### 测试信息
+
+#### 测试对象版本
+
+- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
+
+#### 测试环境信息
 
 - 硬件信息：QEMU 7.2.1 on Arch Linux (WSL 2)，8*vCPU + 8GB RAM
 - 操作系统版本：openEuler 23.03 preview riscv64, Linux 6.1.19-2.oe2303.riscv64
-- 软件版本：iSulad-2.1.1-7.oe2303.riscv64
 
 ### 参考资料
 
 [openEuler Docs 23.03 - LibcarePlus](https://docs.openeuler.org/zh/docs/23.03/docs/Virtualization/LibcarePlus.html#%E5%AE%89%E8%A3%85-libcareplus)
+
+### 测试内容
+
+使用人工测试的方式，验证 libcareplus 的安装以及热补丁基本功能，共计 5 个测试用例。
+
+### 测试结果
+
+| 测试用例总数 | 通过数 | 失败数 |
+|-|-|-|
+| 5 | 5 | 0 |
+
+[测试结果仓库](https://gitee.com/yunxiangluo/openeuler-riscv-2303-test/tree/master/System_and_Feature_Test/libcareplus)
 
 ## 定制裁剪工具 (imageTailor和oemaker)
 
