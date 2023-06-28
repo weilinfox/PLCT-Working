@@ -1,0 +1,162 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Jun 28 14:33:38 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL 'aide gcc'
++ pkgs='aide gcc'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'aide gcc' --node 1 --tempfile ''
++ tmpfile2=/tmp/tmp7ukw1wv8
++ '[' -z '' ']'
++ tmpfile=/tmp/tmp7ukw1wv8
++ sed -i '$a/home DATAONLY' /etc/aide.conf
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Wed Jun 28 14:34:15 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed Jun 28 14:34:15 2023 - INFO  - Start to run test.
++ aide --init
+Start timestamp: 2023-06-28 14:34:15 +0000 (AIDE 0.17.4)
+AIDE initialized database at /var/lib/aide/aide.db.new.gz
+
+Number of entries:	53909
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db.new.gz
+ MD5       : VQdQ/SHyyl0cJpsWJLcoxw==
+ SHA1      : Jqq4FHVtgkjAMkERiTazQa+2if8=
+ SHA256    : puTSpBtHxD5z16T4mUYsG8wVGg4GrSYP
+             apepvDFyOik=
+ SHA512    : 8k6I9dqPJuWJF/hC+q3REH0Fvmp4seCU
+             zW0GpUyvPlfaoVBS59+bVoZPQRG0Aw1O
+             sjgpJ6cudetC+4NYX4YpJQ==
+ RMD160    : gFVHxL1MOPzG/8wIriYdAA3v2Cs=
+ TIGER     : MQHxd5i4raDyFvR9jIOU6Wlm5J22fa5F
+ CRC32     : VnyR0A==
+ WHIRLPOOL : 8XmZ+oMkQEDNb3A3A5vU3H8geKNYvFh4
+             VT7/7ErC6dJoKl6mxVEiwIcZtrlExRAB
+             YwryJLSwR34mEFObzFKvOQ==
+ GOST      : /WM0T3f9YAHxXcH4tlElH5iCsmBS0USC
+             dpzhT5XP79g=
+ STRIBOG256: 4FmNuTbdQwbeRZBpnVFVRIF1SsgYQQr+
+             pQyLuvxEuKo=
+ STRIBOG512: MsXbj9scbAHC0191Y2ZYP+Om/5ofDGK7
+             ENKsbzB4IgDJ4Mh9muH8fLa9MHVxjaCd
+             yxvK1IpmmyawalReSiaYnQ==
+ SM3       : k2yvSh+ERMa8Q97Z6V6/bh/MQmIWRCJq
+             OM1YQZto48c=
+
+
+End timestamp: 2023-06-28 14:34:49 +0000 (run time: 0m 34s)
++ CHECK_RESULT 0 0 0 'initialization failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='initialization failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ mv /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
++ useradd testuser
++ aide -c /etc/aide.conf --update
++ grep -A 10 'Changed entries:'
++ grep /etc/group
+f > ... mci.H..  : /etc/group
+f < ... mc..H..  : /etc/group-
++ CHECK_RESULT 0 0 0 'Update execution failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Update execution failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ test -f /var/lib/aide/aide.db.new.gz
++ CHECK_RESULT 0 0 0 'Update execution failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Update execution failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ mv /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
++ aide --check
++ grep Changed entries:
+grep: entries:: No such file or directory
++ CHECK_RESULT 2 0 1 'Check execution failed'
++ actual_result=2
++ expect_result=0
++ mode=1
++ error_log='Check execution failed'
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 1 -eq 0 ']'
++ test 2x == 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Jun 28 14:36:30 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Jun 28 14:36:30 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Jun 28 14:36:30 2023 - INFO  - Start to restore the test environment.
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmp7ukw1wv8 ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmp7ukw1wv8
++ '[' 0 -ne 0 ']'
++ userdel -rf testuser
++ rm -rf testlog /var/log/aide/aide.log /var/lib/aide/aide.db.gz
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Jun 28 14:36:32 2023 - INFO  - End to restore the test environment.

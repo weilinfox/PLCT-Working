@@ -1,0 +1,104 @@
+测试套/软件包名,测试用例名,日志文件,原因,Broken testcase,pkg not found,preinstall absent,kernel module absent,file missing,systemd unit restart failure,systemd unit runtime error,systemd unit enable failure,timeout
+rocksdb,oe_test_rocksdb,2023-06-28-13_34_26.log,"file missing
+",0,0,0,0,1,0,0,0,0
+opencc-issue,oe_test_opencc_change_ocd,2023-06-28-13_34_26.log,"Broken testcase
+",1,0,0,0,0,0,0,0,0
+opencc-issue,oe_test_opencc_tsp,2023-06-28-13_34_55.log,"file missing
+",0,0,0,0,1,0,0,0,0
+rubygem-fluentd_1.14.5,oe_test_fluentd_03,2023-06-28-13_42_25.log,,0,0,0,0,0,0,0,0,0
+rubygem-fluentd_1.14.5,oe_test_fluentd_01,2023-06-28-13_40_32.log,,0,0,0,0,0,0,0,0,0
+rubygem-fluentd_1.14.5,oe_test_fluent_cat_02,2023-06-28-13_38_16.log,,0,0,0,0,0,0,0,0,0
+lighttpd_1.4.53,oe_test_lighttpd_1.4.53_service_lighttpd,2023-06-28-14_02_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+etmemd,oe_test_etmemd_001,2023-06-28-14_04_31.log,,0,0,0,0,0,0,0,0,0
+dnssec-triggerd,oe_test_dnssec-trigger-control_03,2023-06-28-14_08_05.log,"file missing
+",0,0,0,0,1,0,0,0,0
+dnssec-triggerd,oe_test_dnssec-trigger-control_04,2023-06-28-14_08_34.log,"file missing
+",0,0,0,0,1,0,0,0,0
+dnssec-triggerd,oe_test_dnssec-trigger-control-setup,2023-06-28-14_06_54.log,"file missing
+",0,0,0,0,1,0,0,0,0
+dnssec-triggerd,oe_test_dnssec-triggerd,2023-06-28-14_05_57.log,"file missing
+",0,0,0,0,1,0,0,0,0
+dnssec-triggerd,oe_test_dnssec-trigger-control_01,2023-06-28-14_07_02.log,"file missing
+",0,0,0,0,1,0,0,0,0
+dnssec-triggerd,oe_test_dnssec-trigger-control_02,2023-06-28-14_07_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+libgeotiff_20.03,oe_test_libgeotiff,2023-06-28-14_07_31.log,"file missing
+",0,0,0,0,1,0,0,0,0
+embedded_third_party_packages_test,oe_test_busybox_test_001,2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_elfutils_test_001,2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_procps_test_001,2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_libpcap_test_001,2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_libffi_test_001,2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_pam_test_001,2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_e2fsprogs_test_001,2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_shadow_test_001,2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_popt_test_001,2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_dosfstools_test_001,2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_ncurses_test_001,2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_util-linux_test_001,2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_json-c_test_001,2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_libcap_test_001,2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_zlib_test_001,2023-06-28-14_09_05.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_nfs-utils_test_001,2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_logrotate_test_001,2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+embedded_third_party_packages_test,oe_test_less_test_001,2023-06-28-14_09_05.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+python-keyring_13.2.1,oe_test_keyring-python3,2023-06-28-14_10_20.log,"file missing
+",0,0,0,0,1,0,0,0,0
+robotframework,oe_test_robotframework_run,2023-06-28-14_11_26.log,"file missing
+",0,0,0,0,1,0,0,0,0
+struts,oe_test_struts_001,2023-06-28-14_11_47.log,"file missing
+",0,0,0,0,1,0,0,0,0
+whois,oe_test_whois_01,2023-06-28-14_14_10.log,,0,0,0,0,0,0,0,0,0
+whois,oe_test_whois_03,2023-06-28-14_15_05.log,,0,0,0,0,0,0,0,0,0
+pyyaml,oe_test_pyyaml,2023-06-28-14_16_44.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_syslog_journald_001,2023-06-28-14_28_04.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_cat_001,2023-06-28-14_18_12.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_haproxy,2023-06-28-14_24_43.log,"file missing
+",0,0,0,0,1,0,0,0,0
+smoke-basic-os,oe_test_sevice_001,2023-06-28-14_27_07.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_arping,2023-06-28-14_36_32.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_network_001,2023-06-28-14_26_02.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_df,2023-06-28-14_20_57.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_rsync,2023-06-28-14_27_02.log,"file missing
+",0,0,0,0,1,0,0,0,0
+python_rsa_4.7.2,oe_test_python3-rsa_4.7.2,2023-06-28-14_27_10.log,"file missing
+",0,0,0,0,1,0,0,0,0

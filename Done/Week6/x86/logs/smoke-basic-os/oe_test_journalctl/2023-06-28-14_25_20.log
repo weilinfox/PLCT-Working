@@ -1,0 +1,144 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start testing...'
++ message='Start testing...'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start testing...'
+Wed Jun 28 14:25:20 2023 - INFO  - Start testing...
++ journalctl --no-pager
++ CHECK_RESULT 0 0 0 'journalctl --no-pager failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='journalctl --no-pager failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ cat all_log
++ grep -E 'LVM|NetworkManager'
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.2842] NetworkManager (version 1.32.12-16.oe2303) is starting... (for the first time)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.2842] Read config: /etc/NetworkManager/NetworkManager.conf
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.2887] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.2920] manager[0x56356fa32000]: monitoring kernel firmware directory '/lib/firmware'.
+Jun 28 14:18:03 localhost dbus-daemon[1279]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=0 pid=1285 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3848] hostname: hostname: using hostnamed
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3851] dns-mgr[0x56356fa17250]: init: dns=default rc-manager=symlink
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3909] manager[0x56356fa32000]: rfkill: Wi-Fi hardware radio set enabled
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3909] manager[0x56356fa32000]: rfkill: WWAN hardware radio set enabled
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3946] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-adsl.so)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3964] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-team.so)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3965] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3966] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3967] manager: Networking is enabled by state file
+Jun 28 14:18:03 localhost dbus-daemon[1279]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.1' (uid=0 pid=1285 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3971] dhcp-init: Using DHCP client 'dhclient'
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3980] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-settings-plugin-ifcfg-rh.so")
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3981] settings: Loaded settings plugin: keyfile (internal)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3994] device (lo): carrier: link connected
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.3996] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4004] manager: (ens6): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4045] device (ens6): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4052] device (ens6): carrier: link connected
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4078] settings: (ens6): created default wired connection 'Wired connection 1'
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4126] device (ens6): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4138] policy: auto-activating connection 'Wired connection 1' (b2aa2728-2481-3d70-b9f6-6b6e9cc51968)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4143] device (ens6): Activation: starting connection 'Wired connection 1' (b2aa2728-2481-3d70-b9f6-6b6e9cc51968)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4144] device (ens6): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4151] manager: NetworkManager state is now CONNECTING
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4155] device (ens6): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4162] device (ens6): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4171] dhcp4 (ens6): activation: beginning transaction (timeout in 45 seconds)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4201] dhcp4 (ens6): dhclient started with pid 1385
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4442] dhcp4 (ens6):   address 10.0.2.15
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4442] dhcp4 (ens6):   plen 24 (255.255.255.0)
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4443] dhcp4 (ens6):   gateway 10.0.2.2
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4443] dhcp4 (ens6):   lease time 86400
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4443] dhcp4 (ens6):   nameserver '10.0.2.3'
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4443] dhcp4 (ens6): state changed unknown -> bound, address=10.0.2.15
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4450] device (ens6): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4491] device (ens6): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4492] device (ens6): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4494] manager: NetworkManager state is now CONNECTED_LOCAL
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4496] manager: NetworkManager state is now CONNECTED_SITE
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.4496] policy: set 'Wired connection 1' (ens6) as default for IPv4 routing and DNS
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.5060] device (ens6): Activation: successful, device activated.
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.5079] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 28 14:18:03 localhost NetworkManager[1285]: <info>  [1687961883.5095] manager: startup complete
+Jun 28 14:18:04 localhost NetworkManager[1285]: <info>  [1687961884.8182] policy: set 'Wired connection 1' (ens6) as default for IPv6 routing and DNS
+Jun 28 14:18:05 localhost NetworkManager[1285]: <info>  [1687961885.1108] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Jun 28 14:18:06 localhost.localdomain NetworkManager[1285]: <info>  [1687961886.2580] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Jun 28 14:18:16 localhost.localdomain systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
++ CHECK_RESULT 0 0 0 'grep LVM|NetworkManager failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='grep LVM|NetworkManager failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ journalctl -k --no-pager
++ cat kernel_log
++ grep -i NetworkManager
++ CHECK_RESULT 1 0 1 'NetworkManager exist'
++ actual_result=1
++ expect_result=0
++ mode=1
++ error_log='NetworkManager exist'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 1 -eq 0 ']'
++ test 1x == 0x
++ return 0
++ journalctl -b --no-pager
++ CHECK_RESULT 0 0 0 'journalctl -b failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='journalctl -b failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'Finish test!'
++ message='Finish test!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish test!'
+Wed Jun 28 14:25:20 2023 - INFO  - Finish test!
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Jun 28 14:25:20 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Wed Jun 28 14:25:20 2023 - INFO  - start environment cleanup.
++ rm -rf all_log boot_log kernel_log
++ LOG_INFO 'Finsh environment cleanup! '
++ message='Finsh environment cleanup! '
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finsh environment cleanup! '
+Wed Jun 28 14:25:20 2023 - INFO  - Finsh environment cleanup! 
