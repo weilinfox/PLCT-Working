@@ -1,0 +1,154 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因,x86 日志文件,x86 原因
+rocksdb,oe_test_rocksdb,x86 fail,./riscv/logs_failed/rocksdb/oe_test_rocksdb/2023-06-25-17_05_57.log,"file missing
+",./x86/logs_failed/rocksdb/oe_test_rocksdb/2023-06-28-13_34_26.log,"file missing
+"
+opencc-issue,oe_test_opencc_change_ocd,x86 fail,./riscv/logs_failed/opencc-issue/oe_test_opencc_change_ocd/2023-06-25-14_41_06.log,"Broken testcase
+",./x86/logs_failed/opencc-issue/oe_test_opencc_change_ocd/2023-06-28-13_34_26.log,"Broken testcase
+"
+opencc-issue,oe_test_opencc_tsp,x86 fail,./riscv/logs_failed/opencc-issue/oe_test_opencc_tsp/2023-06-25-14_49_52.log,"file missing
+",./x86/logs_failed/opencc-issue/oe_test_opencc_tsp/2023-06-28-13_34_55.log,"file missing
+"
+rubygem-fluentd_1.14.5,oe_test_fluentd_03,x86 fail,./riscv/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluentd_03/2023-06-25-13_30_24.log,"file missing
+",./x86/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluentd_03/2023-06-28-13_42_25.log,unknown
+rubygem-fluentd_1.14.5,oe_test_fluentd_01,x86 fail,./riscv/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluentd_01/2023-06-25-12_56_07.log,"Broken testcase
+timeout
+",./x86/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluentd_01/2023-06-28-13_40_32.log,unknown
+rubygem-fluentd_1.14.5,oe_test_fluent_cat_02,x86 fail,./riscv/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluent_cat_02/2023-06-25-12_43_28.log,unknown,./x86/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluent_cat_02/2023-06-28-13_38_16.log,unknown
+lighttpd_1.4.53,oe_test_lighttpd_1.4.53_service_lighttpd,x86 fail,./riscv/logs_failed/lighttpd_1.4.53/oe_test_lighttpd_1.4.53_service_lighttpd/2023-06-25-16_49_17.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",./x86/logs_failed/lighttpd_1.4.53/oe_test_lighttpd_1.4.53_service_lighttpd/2023-06-28-14_02_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+"
+etmemd,oe_test_etmemd_001,x86 fail,./riscv/logs_failed/etmemd/oe_test_etmemd_001/2023-06-25-17_20_31.log,unknown,./x86/logs_failed/etmemd/oe_test_etmemd_001/2023-06-28-14_04_31.log,unknown
+dnssec-triggerd,oe_test_dnssec-trigger-control_03,x86 fail,./riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_03/2023-06-25-15_38_42.log,"file missing
+",./x86/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_03/2023-06-28-14_08_05.log,"file missing
+"
+dnssec-triggerd,oe_test_dnssec-trigger-control_04,x86 fail,./riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_04/2023-06-25-15_40_30.log,"file missing
+",./x86/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_04/2023-06-28-14_08_34.log,"file missing
+"
+dnssec-triggerd,oe_test_dnssec-trigger-control-setup,x86 fail,./riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control-setup/2023-06-25-15_33_13.log,"file missing
+",./x86/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control-setup/2023-06-28-14_06_54.log,"file missing
+"
+dnssec-triggerd,oe_test_dnssec-triggerd,x86 fail,./riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-triggerd/2023-06-25-15_29_08.log,"file missing
+",./x86/logs_failed/dnssec-triggerd/oe_test_dnssec-triggerd/2023-06-28-14_05_57.log,"file missing
+"
+dnssec-triggerd,oe_test_dnssec-trigger-control_01,x86 fail,./riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_01/2023-06-25-15_34_59.log,"file missing
+",./x86/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_01/2023-06-28-14_07_02.log,"file missing
+"
+dnssec-triggerd,oe_test_dnssec-trigger-control_02,x86 fail,./riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_02/2023-06-25-15_37_13.log,"file missing
+",./x86/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_02/2023-06-28-14_07_50.log,"file missing
+"
+libgeotiff_20.03,oe_test_libgeotiff,x86 fail,./riscv/logs_failed/libgeotiff_20.03/oe_test_libgeotiff/2023-06-25-17_39_58.log,"file missing
+",./x86/logs_failed/libgeotiff_20.03/oe_test_libgeotiff/2023-06-28-14_07_31.log,"file missing
+"
+embedded_third_party_packages_test,oe_test_busybox_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_busybox_test_001/2023-06-25-14_09_10.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_busybox_test_001/2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_elfutils_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_elfutils_test_001/2023-06-25-14_11_38.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_elfutils_test_001/2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_procps_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_procps_test_001/2023-06-25-14_11_50.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_procps_test_001/2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_libpcap_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_libpcap_test_001/2023-06-25-14_12_15.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_libpcap_test_001/2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_libffi_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_libffi_test_001/2023-06-25-14_10_26.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_libffi_test_001/2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_pam_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_pam_test_001/2023-06-25-14_11_03.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_pam_test_001/2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_e2fsprogs_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_e2fsprogs_test_001/2023-06-25-14_09_49.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_e2fsprogs_test_001/2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_shadow_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_shadow_test_001/2023-06-25-14_10_50.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_shadow_test_001/2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_popt_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_popt_test_001/2023-06-25-14_11_15.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_popt_test_001/2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_dosfstools_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_dosfstools_test_001/2023-06-25-14_09_36.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_dosfstools_test_001/2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_ncurses_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_ncurses_test_001/2023-06-25-14_12_03.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_ncurses_test_001/2023-06-28-14_09_04.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_util-linux_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_util-linux_test_001/2023-06-25-14_11_26.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_util-linux_test_001/2023-06-28-14_09_03.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_json-c_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_json-c_test_001/2023-06-25-14_09_24.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_json-c_test_001/2023-06-28-14_09_01.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_libcap_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_libcap_test_001/2023-06-25-14_10_38.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_libcap_test_001/2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_zlib_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_zlib_test_001/2023-06-25-14_12_37.log,"preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_zlib_test_001/2023-06-28-14_09_05.log,"preinstall absent
+"
+embedded_third_party_packages_test,oe_test_nfs-utils_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_nfs-utils_test_001/2023-06-25-14_10_13.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_nfs-utils_test_001/2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_logrotate_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_logrotate_test_001/2023-06-25-14_10_01.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_logrotate_test_001/2023-06-28-14_09_02.log,"Broken testcase
+preinstall absent
+"
+embedded_third_party_packages_test,oe_test_less_test_001,x86 fail,./riscv/logs_failed/embedded_third_party_packages_test/oe_test_less_test_001/2023-06-25-14_12_27.log,"Broken testcase
+preinstall absent
+",./x86/logs_failed/embedded_third_party_packages_test/oe_test_less_test_001/2023-06-28-14_09_05.log,"Broken testcase
+preinstall absent
+"
+python-keyring_13.2.1,oe_test_keyring-python3,x86 fail,./riscv/logs_failed/python-keyring_13.2.1/oe_test_keyring-python3/2023-06-25-16_57_47.log,"file missing
+",./x86/logs_failed/python-keyring_13.2.1/oe_test_keyring-python3/2023-06-28-14_10_20.log,"file missing
+"
+robotframework,oe_test_robotframework_run,x86 fail,./riscv/logs_failed/robotframework/oe_test_robotframework_run/2023-06-25-15_16_42.log,"timeout
+",./x86/logs_failed/robotframework/oe_test_robotframework_run/2023-06-28-14_11_26.log,"file missing
+"
+struts,oe_test_struts_001,x86 fail,./riscv/logs_failed/struts/oe_test_struts_001/2023-06-25-17_55_02.log,unknown,./x86/logs_failed/struts/oe_test_struts_001/2023-06-28-14_11_47.log,"file missing
+"
+whois,oe_test_whois_03,x86 fail,./riscv/logs_failed/whois/oe_test_whois_03/2023-06-25-16_44_16.log,unknown,./x86/logs_failed/whois/oe_test_whois_03/2023-06-28-14_15_05.log,unknown
+pyyaml,oe_test_pyyaml,x86 fail,./riscv/logs_failed/pyyaml/oe_test_pyyaml/2023-06-25-17_51_16.log,unknown,./x86/logs_failed/pyyaml/oe_test_pyyaml/2023-06-28-14_16_44.log,unknown
+smoke-basic-os,oe_test_cat_001,x86 fail,./riscv/logs_failed/smoke-basic-os/oe_test_cat_001/2023-06-25-17_07_30.log,unknown,./x86/logs_failed/smoke-basic-os/oe_test_cat_001/2023-06-28-14_18_12.log,unknown
+smoke-basic-os,oe_test_sevice_001,x86 fail,./riscv/logs_failed/smoke-basic-os/oe_test_sevice_001/2023-06-25-18_22_35.log,unknown,./x86/logs_failed/smoke-basic-os/oe_test_sevice_001/2023-06-28-14_27_07.log,unknown
+smoke-basic-os,oe_test_arping,x86 fail,./riscv/logs_failed/smoke-basic-os/oe_test_arping/2023-06-25-19_21_55.log,unknown,./x86/logs_failed/smoke-basic-os/oe_test_arping/2023-06-28-14_36_32.log,unknown
+smoke-basic-os,oe_test_network_001,x86 fail,./riscv/logs_failed/smoke-basic-os/oe_test_network_001/2023-06-25-18_12_41.log,"file missing
+",./x86/logs_failed/smoke-basic-os/oe_test_network_001/2023-06-28-14_26_02.log,unknown
+smoke-basic-os,oe_test_df,x86 fail,./riscv/logs_failed/smoke-basic-os/oe_test_df/2023-06-25-17_42_17.log,unknown,./x86/logs_failed/smoke-basic-os/oe_test_df/2023-06-28-14_20_57.log,unknown
+python_rsa_4.7.2,oe_test_python3-rsa_4.7.2,x86 fail,./riscv/logs_failed/python_rsa_4.7.2/oe_test_python3-rsa_4.7.2/2023-06-25-17_02_44.log,"file missing
+",./x86/logs_failed/python_rsa_4.7.2/oe_test_python3-rsa_4.7.2/2023-06-28-14_27_10.log,"file missing
+"
