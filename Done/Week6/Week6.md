@@ -6,7 +6,7 @@
 
 ## 遇到的问题
 
-1. mugen 在测试 ocaml-22.03 时坏掉了
+1. mugen 在测试 ocaml-22.03 时坏掉了，修复 mugen-riscv.py [pr](https://github.com/brsf11/mugen-riscv/pull/14)
    ```
    Traceback (most recent call last):
      File "/root/mugen/mugen_riscv.py", line 270, in <module>
