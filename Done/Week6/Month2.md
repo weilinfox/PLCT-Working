@@ -13,3 +13,8 @@
 2. mugen cli0 x86_fail 原因排查提交 pr [#7](https://github.com/KotorinMinami/res_list/pull/7)
 3. mugen rest0 测试结果和 fail 原因排查提交 pr [#9](https://github.com/KotorinMinami/res_list/pull/9)
 4. mugen-riscv.py 可能出现 utf-8 解码错误导致测试中断的情况，修复并提交 pr [#14](https://github.com/brsf11/mugen-riscv/pull/14)
+
+## Todo
+
+1. rest0 重测 ocaml-22.03 测试
+2. 补全 systemd 缺失的两个用例
