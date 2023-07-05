@@ -1,0 +1,130 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Tue Jul  4 21:36:02 2023 - INFO  - Start to run test.
++ expect
+spawn python3
+Python 3.10.9 (main, Apr  3 2023, 06:13:41) [GCC 10.3.1] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import urllib
+>>> import urllib.request
+>>> from urllib.parse import urlparse
+>>> parsed_result=urlparse('http://baidu123.com/')
+>>> print(parsed_result)
+ParseResult(scheme='http', netloc='baidu123.com', path='/', params='', query='', fragment='')
+>>> urllib.request.urlopen('http://gitee.com',timeout=2)
+<http.client.HTTPResponse object at 0xffffffb27ea860>
+>>> urllib.request.urlopen('http://gite.com',timeout=0.1)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib64/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib64/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib64/python3.10/http/client.py", line 941, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib64/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib64/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib64/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib64/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/usr/lib64/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib64/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib64/python3.10/urllib/request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib64/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
+>>> exit()
++ grep 'timed out' testlog
++ CHECK_RESULT 1 0 0 'No timeout'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='No timeout'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'No timeout'
++ LOG_ERROR 'No timeout'
++ message='No timeout'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'No timeout'
+Tue Jul  4 21:36:07 2023 - ERROR - No timeout
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_python_urllib3_urlopen_03.sh line 38'
++ message='oe_test_python_urllib3_urlopen_03.sh line 38'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_python_urllib3_urlopen_03.sh line 38'
+Tue Jul  4 21:36:08 2023 - ERROR - oe_test_python_urllib3_urlopen_03.sh line 38
++ '[' 0 -eq 1 ']'
++ return 0
++ grep -E 'scheme|netloc|path' testlog
+ParseResult(scheme='http', netloc='baidu123.com', path='/', params='', query='', fragment='')
++ CHECK_RESULT 0 0 0 'Parsing failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Parsing failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Tue Jul  4 21:36:09 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 1
++ test 1 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Tue Jul  4 21:36:10 2023 - ERROR - failed to execute the case.
++ exit 1
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Tue Jul  4 21:36:11 2023 - INFO  - Start to restore the test environment.
++ rm -rf testlog
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Tue Jul  4 21:36:12 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,130 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Tue Jul  4 22:46:15 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL sysstat
++ pkgs=sysstat
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs sysstat --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpg_o0m47t
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpg_o0m47t
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Tue Jul  4 22:47:17 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start testing...'
++ message='Start testing...'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start testing...'
+Tue Jul  4 22:47:18 2023 - INFO  - Start testing...
++ sar 1 10 -o test.data
+Linux 6.1.8-3.oe2303.riscv64 (openeuler-riscv64) 	07/04/2023 	_riscv64_	(4 CPU)
+
+10:47:19 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+10:47:20 PM     all      0.75      0.00      1.25      0.00      0.00     97.99
+10:47:21 PM     all      0.25      0.00      0.50      0.00      0.00     99.24
+10:47:22 PM     all      0.00      0.00      1.25      0.00      0.00     98.75
+10:47:23 PM     all      0.25      0.00      0.76      0.25      0.00     98.74
+10:47:24 PM     all      0.25      0.00      1.24      0.00      0.00     98.51
+10:47:25 PM     all      0.00      0.00      0.76      0.00      0.00     99.24
+10:47:26 PM     all      0.25      0.00      1.00      0.00      0.00     98.75
+10:47:27 PM     all      0.00      0.00      1.25      0.00      0.00     98.75
+10:47:28 PM     all      0.25      0.00      1.00      0.75      0.00     97.99
+10:47:29 PM     all      0.25      0.00      0.75      0.00      0.00     99.00
+Average:        all      0.23      0.00      0.98      0.10      0.00     98.70
++ CHECK_RESULT 0 0 0 'Failure to Collect Information'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failure to Collect Information'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ test -f test.data
++ CHECK_RESULT 0 0 0 'Failed to generate a file'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to generate a file'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sadf test.data
++ grep -w %system
+openeuler-riscv64	1	2023-07-04 14:47:20 UTC	all	%system	1.25
+openeuler-riscv64	1	2023-07-04 14:47:21 UTC	all	%system	0.50
+openeuler-riscv64	1	2023-07-04 14:47:22 UTC	all	%system	1.25
+openeuler-riscv64	1	2023-07-04 14:47:23 UTC	all	%system	0.76
+openeuler-riscv64	1	2023-07-04 14:47:24 UTC	all	%system	1.24
+openeuler-riscv64	1	2023-07-04 14:47:25 UTC	all	%system	0.76
+openeuler-riscv64	1	2023-07-04 14:47:26 UTC	all	%system	1.00
+openeuler-riscv64	1	2023-07-04 14:47:27 UTC	all	%system	1.25
+openeuler-riscv64	1	2023-07-04 14:47:28 UTC	all	%system	1.00
+openeuler-riscv64	1	2023-07-04 14:47:29 UTC	all	%system	0.75
++ CHECK_RESULT 0 0 0 'Failed to parse the file'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to parse the file'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO ' End testing...'
++ message=' End testing...'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message ' End testing...'
+Tue Jul  4 22:47:30 2023 - INFO  -  End testing...
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Tue Jul  4 22:47:31 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Tue Jul  4 22:47:31 2023 - INFO  - start environment cleanup.
++ rm -rf test.data
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpg_o0m47t ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpg_o0m47t
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'Finish environment cleanup!'
++ message='Finish environment cleanup!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup!'
+Tue Jul  4 22:47:56 2023 - INFO  - Finish environment cleanup!

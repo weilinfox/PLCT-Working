@@ -1,0 +1,2272 @@
+Jul 04 17:38:56 openeuler-riscv64 kernel: cryptd: max_cpu_qlen set to 1000
+Jul 04 17:38:56 openeuler-riscv64 kernel: iommu: Default domain type: Translated 
+Jul 04 17:38:56 openeuler-riscv64 kernel: iommu: DMA domain TLB invalidation policy: strict mode 
+Jul 04 17:38:56 openeuler-riscv64 kernel: SCSI subsystem initialized
+Jul 04 17:38:56 openeuler-riscv64 kernel: libata version 3.00 loaded.
+Jul 04 17:38:56 openeuler-riscv64 kernel: usbcore: registered new interface driver usbfs
+Jul 04 17:38:56 openeuler-riscv64 kernel: usbcore: registered new interface driver hub
+Jul 04 17:38:56 openeuler-riscv64 kernel: usbcore: registered new device driver usb
+Jul 04 17:38:56 openeuler-riscv64 kernel: vgaarb: loaded
+Jul 04 17:38:56 openeuler-riscv64 kernel: clocksource: Switched to clocksource riscv_clocksource
+Jul 04 17:38:56 openeuler-riscv64 kernel: NET: Registered PF_INET protocol family
+Jul 04 17:38:56 openeuler-riscv64 kernel: IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Jul 04 17:38:56 openeuler-riscv64 kernel: tcp_listen_portaddr_hash hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Jul 04 17:38:56 openeuler-riscv64 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Jul 04 17:38:56 openeuler-riscv64 kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jul 04 17:38:56 openeuler-riscv64 kernel: TCP bind hash table entries: 32768 (order: 9, 2097152 bytes, linear)
+Jul 04 17:38:56 openeuler-riscv64 kernel: TCP: Hash tables configured (established 32768 bind 32768)
+Jul 04 17:38:56 openeuler-riscv64 kernel: UDP hash table entries: 2048 (order: 5, 196608 bytes, linear)
+Jul 04 17:38:56 openeuler-riscv64 kernel: UDP-Lite hash table entries: 2048 (order: 5, 196608 bytes, linear)
+Jul 04 17:38:56 openeuler-riscv64 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Jul 04 17:38:56 openeuler-riscv64 kernel: RPC: Registered named UNIX socket transport module.
+Jul 04 17:38:56 openeuler-riscv64 kernel: RPC: Registered udp transport module.
+Jul 04 17:38:56 openeuler-riscv64 kernel: RPC: Registered tcp transport module.
+Jul 04 17:38:56 openeuler-riscv64 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul 04 17:38:56 openeuler-riscv64 kernel: PCI: CLS 0 bytes, default 64
+Jul 04 17:38:56 openeuler-riscv64 kernel: kvm [1]: hypervisor extension available
+Jul 04 17:38:56 openeuler-riscv64 kernel: kvm [1]: using Sv57x4 G-stage page table format
+Jul 04 17:38:56 openeuler-riscv64 kernel: kvm [1]: VMID 14 bits available
+Jul 04 17:38:56 openeuler-riscv64 kernel: workingset: timestamp_bits=46 max_order=20 bucket_order=0
+Jul 04 17:38:56 openeuler-riscv64 kernel: NFS: Registering the id_resolver key type
+Jul 04 17:38:56 openeuler-riscv64 kernel: Key type id_resolver registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: Key type id_legacy registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Jul 04 17:38:56 openeuler-riscv64 kernel: nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+Jul 04 17:38:56 openeuler-riscv64 kernel: 9p: Installing v9fs 9p2000 file system support
+Jul 04 17:38:56 openeuler-riscv64 kernel: NET: Registered PF_ALG protocol family
+Jul 04 17:38:56 openeuler-riscv64 kernel: Key type asymmetric registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: Asymmetric key parser 'x509' registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: Asymmetric key parser 'pkcs8' registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Jul 04 17:38:56 openeuler-riscv64 kernel: io scheduler mq-deadline registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: io scheduler kyber registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci-host-generic 30000000.pci: host bridge /soc/pci@30000000 ranges:
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci-host-generic 30000000.pci:       IO 0x0003000000..0x000300ffff -> 0x0000000000
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci-host-generic 30000000.pci:      MEM 0x0040000000..0x007fffffff -> 0x0040000000
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci-host-generic 30000000.pci:      MEM 0x0400000000..0x07ffffffff -> 0x0400000000
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci-host-generic 30000000.pci: Memory resource size exceeds max for 32 bits
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci-host-generic 30000000.pci: ECAM at [mem 0x30000000-0x3fffffff] for [bus 00-ff]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci-host-generic 30000000.pci: PCI host bridge to bus 0000:00
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci_bus 0000:00: root bus resource [mem 0x40000000-0x7fffffff]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci_bus 0000:00: root bus resource [mem 0x400000000-0x7ffffffff]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:01.0: [1b36:000d] type 00 class 0x0c0330
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:01.0: reg 0x10: [mem 0x40000000-0x40003fff 64bit]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: reg 0x10: [io  0x1000-0x101f]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: reg 0x14: [mem 0x40004000-0x40004fff]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: reg 0x20: [mem 0x40008000-0x4000bfff 64bit pref]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: reg 0x30: [mem 0x40040000-0x4007ffff pref]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: BAR 6: assigned [mem 0x40000000-0x4003ffff pref]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:01.0: BAR 0: assigned [mem 0x400000000-0x400003fff 64bit]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: BAR 4: assigned [mem 0x400004000-0x400007fff 64bit pref]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: BAR 1: assigned [mem 0x40040000-0x40040fff]
+Jul 04 17:38:56 openeuler-riscv64 kernel: pci 0000:00:02.0: BAR 0: assigned [io  0x0020-0x003f]
+Jul 04 17:38:56 openeuler-riscv64 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jul 04 17:38:56 openeuler-riscv64 kernel: printk: console [ttyS0] disabled
+Jul 04 17:38:56 openeuler-riscv64 kernel: 10000000.serial: ttyS0 at MMIO 0x10000000 (irq = 2, base_baud = 230400) is a 16550A
+Jul 04 17:38:56 openeuler-riscv64 kernel: printk: console [ttyS0] enabled
+Jul 04 17:38:56 openeuler-riscv64 kernel: printk: bootconsole [ns16550a0] disabled
+Jul 04 17:38:56 openeuler-riscv64 kernel: loop: module loaded
+Jul 04 17:38:56 openeuler-riscv64 kernel: virtio_blk virtio1: 1/0/0 default/read/poll queues
+Jul 04 17:38:56 openeuler-riscv64 kernel: virtio_blk virtio1: [vda] 41943040 512-byte logical blocks (21.5 GB/20.0 GiB)
+Jul 04 17:38:56 openeuler-riscv64 kernel:  vda: vda1 vda2
+Jul 04 17:38:56 openeuler-riscv64 kernel: e1000e: Intel(R) PRO/1000 Network Driver
+Jul 04 17:38:56 openeuler-riscv64 kernel: e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Jul 04 17:38:56 openeuler-riscv64 kernel: xhci_hcd 0000:00:01.0: xHCI Host Controller
+Jul 04 17:38:56 openeuler-riscv64 kernel: xhci_hcd 0000:00:01.0: new USB bus registered, assigned bus number 1
+Jul 04 17:38:56 openeuler-riscv64 kernel: xhci_hcd 0000:00:01.0: hcc params 0x00087001 hci version 0x100 quirks 0x0000000000000010
+Jul 04 17:38:56 openeuler-riscv64 kernel: xhci_hcd 0000:00:01.0: xHCI Host Controller
+Jul 04 17:38:56 openeuler-riscv64 kernel: xhci_hcd 0000:00:01.0: new USB bus registered, assigned bus number 2
+Jul 04 17:38:56 openeuler-riscv64 kernel: xhci_hcd 0000:00:01.0: Host supports USB 3.0 SuperSpeed
+Jul 04 17:38:56 openeuler-riscv64 kernel: hub 1-0:1.0: USB hub found
+Jul 04 17:38:56 openeuler-riscv64 kernel: hub 1-0:1.0: 4 ports detected
+Jul 04 17:38:56 openeuler-riscv64 kernel: usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+Jul 04 17:38:56 openeuler-riscv64 kernel: hub 2-0:1.0: USB hub found
+Jul 04 17:38:56 openeuler-riscv64 kernel: hub 2-0:1.0: 4 ports detected
+Jul 04 17:38:56 openeuler-riscv64 kernel: usbcore: registered new interface driver uas
+Jul 04 17:38:56 openeuler-riscv64 kernel: usbcore: registered new interface driver usb-storage
+Jul 04 17:38:56 openeuler-riscv64 kernel: mousedev: PS/2 mouse device common for all mice
+Jul 04 17:38:56 openeuler-riscv64 kernel: goldfish_rtc 101000.rtc: registered as rtc0
+Jul 04 17:38:56 openeuler-riscv64 kernel: goldfish_rtc 101000.rtc: setting system clock to 2023-07-04T09:38:50 UTC (1688463530)
+Jul 04 17:38:56 openeuler-riscv64 kernel: syscon-poweroff poweroff: pm_power_off already claimed for sbi_srst_power_off
+Jul 04 17:38:56 openeuler-riscv64 kernel: syscon-poweroff: probe of poweroff failed with error -16
+Jul 04 17:38:56 openeuler-riscv64 kernel: sdhci: Secure Digital Host Controller Interface driver
+Jul 04 17:38:56 openeuler-riscv64 kernel: sdhci: Copyright(c) Pierre Ossman
+Jul 04 17:38:56 openeuler-riscv64 kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Jul 04 17:38:56 openeuler-riscv64 kernel: usbcore: registered new interface driver usbhid
+Jul 04 17:38:56 openeuler-riscv64 kernel: usbhid: USB HID core driver
+Jul 04 17:38:56 openeuler-riscv64 kernel: riscv-pmu-sbi: SBI PMU extension is available
+Jul 04 17:38:56 openeuler-riscv64 kernel: riscv-pmu-sbi: 16 firmware and 18 hardware counters
+Jul 04 17:38:56 openeuler-riscv64 kernel: riscv-pmu-sbi: Perf sampling/filtering is not supported as sscof extension is not available
+Jul 04 17:38:56 openeuler-riscv64 kernel: NET: Registered PF_INET6 protocol family
+Jul 04 17:38:56 openeuler-riscv64 kernel: Segment Routing with IPv6
+Jul 04 17:38:56 openeuler-riscv64 kernel: In-situ OAM (IOAM) with IPv6
+Jul 04 17:38:56 openeuler-riscv64 kernel: sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Jul 04 17:38:56 openeuler-riscv64 kernel: NET: Registered PF_PACKET protocol family
+Jul 04 17:38:56 openeuler-riscv64 kernel: 9pnet: Installing 9P2000 support
+Jul 04 17:38:56 openeuler-riscv64 kernel: Key type dns_resolver registered
+Jul 04 17:38:56 openeuler-riscv64 kernel: start plist test
+Jul 04 17:38:56 openeuler-riscv64 kernel: end plist test
+Jul 04 17:38:56 openeuler-riscv64 kernel: debug_vm_pgtable: [debug_vm_pgtable         ]: Validating architecture page table helpers
+Jul 04 17:38:56 openeuler-riscv64 kernel: EXT4-fs (vda2): mounted filesystem with ordered data mode. Quota mode: disabled.
+Jul 04 17:38:56 openeuler-riscv64 kernel: VFS: Mounted root (ext4 filesystem) on device 254:2.
+Jul 04 17:38:56 openeuler-riscv64 kernel: devtmpfs: mounted
+Jul 04 17:38:56 openeuler-riscv64 kernel: Freeing unused kernel image (initmem) memory: 2248K
+Jul 04 17:38:56 openeuler-riscv64 kernel: Run /sbin/init as init process
+Jul 04 17:38:56 openeuler-riscv64 kernel:   with arguments:
+Jul 04 17:38:56 openeuler-riscv64 kernel:     /sbin/init
+Jul 04 17:38:56 openeuler-riscv64 kernel:   with environment:
+Jul 04 17:38:56 openeuler-riscv64 kernel:     HOME=/
+Jul 04 17:38:56 openeuler-riscv64 kernel:     TERM=linux
+Jul 04 17:38:56 openeuler-riscv64 kernel:     selinux=0
+Jul 04 17:38:56 openeuler-riscv64 kernel: usb 1-1: new high-speed USB device number 2 using xhci_hcd
+Jul 04 17:38:56 openeuler-riscv64 kernel: input: QEMU QEMU USB Keyboard as /devices/platform/soc/30000000.pci/pci0000:00/0000:00:01.0/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input0
+Jul 04 17:38:56 openeuler-riscv64 kernel: hid-generic 0003:0627:0001.0001: input: USB HID v1.11 Keyboard [QEMU QEMU USB Keyboard] on usb-0000:00:01.0-1/input0
+Jul 04 17:38:56 openeuler-riscv64 kernel: usb 1-2: new high-speed USB device number 3 using xhci_hcd
+Jul 04 17:38:56 openeuler-riscv64 kernel: input: QEMU QEMU USB Tablet as /devices/platform/soc/30000000.pci/pci0000:00/0000:00:01.0/usb1/1-2/1-2:1.0/0003:0627:0001.0002/input/input1
+Jul 04 17:38:56 openeuler-riscv64 kernel: hid-generic 0003:0627:0001.0002: input: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:01.0-2/input0
+Jul 04 17:38:56 openeuler-riscv64 kernel: usb 1-3: new full-speed USB device number 4 using xhci_hcd
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: systemd v249-49.oe2303 running in system mode (+PAM +AUDIT +SELINUX -APPARMOR +IMA -SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID -CURL -ELFUTILS -FIDO2 +IDN2 -IDN -IPTC +KMOD -LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB -ZSTD +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=legacy)
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Detected architecture riscv64.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Hostname set to <openeuler-riscv64>.
+Jul 04 17:38:56 openeuler-riscv64 systemd-rc-local-generator[173]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Queued start job for default target Graphical Interface.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Created slice Slice /system/getty.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Created slice Slice /system/modprobe.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Created slice Slice /system/serial-getty.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Created slice Slice /system/sshd-keygen.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Created slice Slice /system/systemd-fsck.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Created slice User and Session Slice.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Reached target Path Units.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Reached target Remote File Systems.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Reached target Slice Units.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Reached target Swaps.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on LVM2 poll daemon socket.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on Process Core Dump Socket.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on initctl Compatibility Named Pipe.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on Journal Socket (/dev/log).
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on Journal Socket.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on udev Control Socket.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on udev Kernel Socket.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Mounting Huge Pages File System...
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Mounting POSIX Message Queue File System...
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Mounting Kernel Debug File System...
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Mounting Kernel Trace File System...
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Mounting Temporary Directory /tmp...
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Starting Create List of Static Device Nodes...
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Starting Load Kernel Module configfs...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Load Kernel Module drm...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Load Kernel Module fuse...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: systemd-journald.service: unit configures an IP firewall, but the local system does not support BPF/cgroup firewalling.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: (This warning is only shown for the first unit using IP firewalling.)
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Journal Service...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in Load Kernel Modules being skipped.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Remount Root and Kernel File Systems...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Apply Kernel Variables...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Coldplug All udev Devices...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Mounted Huge Pages File System.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Mounted POSIX Message Queue File System.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Mounted Kernel Debug File System.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Mounted Kernel Trace File System.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Mounted Temporary Directory /tmp.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Create List of Static Device Nodes.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Load Kernel Module configfs.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: modprobe@drm.service: Deactivated successfully.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Load Kernel Module drm.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Load Kernel Module fuse.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in FUSE Control File System being skipped.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in Kernel Configuration File System being skipped.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Apply Kernel Variables.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jul 04 17:38:57 openeuler-riscv64 kernel: EXT4-fs (vda2): re-mounted. Quota mode: disabled.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Remount Root and Kernel File Systems.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Load/Save Random Seed...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in Create System Users being skipped.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Create Static Device Nodes in /dev...
+Jul 04 17:38:57 openeuler-riscv64 systemd-journald[195]: Journal started
+░░ Subject: The journal has been started
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system journal process has started up, opened the journal
+░░ files for writing and is now ready to process requests.
+Jul 04 17:38:57 openeuler-riscv64 systemd-journald[195]: Runtime Journal (/run/log/journal/7102c13a6be44f418d1f09210bcfbfd9) is 8.0M, max 78.7M, 70.7M free.
+░░ Subject: Disk space used by the journal
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Runtime Journal (/run/log/journal/7102c13a6be44f418d1f09210bcfbfd9) is currently using 8.0M.
+░░ Maximum allowed usage is set to 78.7M.
+░░ Leaving at least 39.3M free (of currently available 779.3M of disk space).
+░░ Enforced usage limit is thus 78.7M, of which 70.7M are still available.
+░░ 
+░░ The limits controlling how much disk space is used by the journal may
+░░ be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+░░ RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+░░ /etc/systemd/journald.conf. See journald.conf(5) for details.
+Jul 04 17:38:55 openeuler-riscv64 systemd-sysctl[198]: Couldn't write '0' to 'kernel/yama/ptrace_scope', ignoring: No such file or directory
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Started Journal Service.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Flush Journal to Persistent Storage...
+░░ Subject: A start job for unit systemd-journal-flush.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-journal-flush.service has begun execution.
+░░ 
+░░ The job identifier is 22.
+Jul 04 17:38:57 openeuler-riscv64 systemd-tmpfiles[214]: /usr/lib/tmpfiles.d/dbus.conf:13: Line references path below legacy directory /var/run/, updating /var/run/dbus/containers → /run/dbus/containers; please update the tmpfiles.d/ drop-in file accordingly.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Load/Save Random Seed.
+░░ Subject: A start job for unit systemd-random-seed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-random-seed.service has finished successfully.
+░░ 
+░░ The job identifier is 38.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Condition check resulted in First Boot Complete being skipped.
+░░ Subject: A start job for unit first-boot-complete.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit first-boot-complete.target has finished successfully.
+░░ 
+░░ The job identifier is 39.
+Jul 04 17:38:57 openeuler-riscv64 systemd-journald[195]: Time spent on flushing to /var/log/journal/7102c13a6be44f418d1f09210bcfbfd9 is 334.213ms for 292 entries.
+Jul 04 17:38:57 openeuler-riscv64 systemd-journald[195]: System Journal (/var/log/journal/7102c13a6be44f418d1f09210bcfbfd9) is 16.0M, max 1.9G, 1.8G free.
+░░ Subject: Disk space used by the journal
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ System Journal (/var/log/journal/7102c13a6be44f418d1f09210bcfbfd9) is currently using 16.0M.
+░░ Maximum allowed usage is set to 1.9G.
+░░ Leaving at least 974.0M free (of currently available 14.6G of disk space).
+░░ Enforced usage limit is thus 1.9G, of which 1.8G are still available.
+░░ 
+░░ The limits controlling how much disk space is used by the journal may
+░░ be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+░░ RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+░░ /etc/systemd/journald.conf. See journald.conf(5) for details.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Create Static Device Nodes in /dev.
+░░ Subject: A start job for unit systemd-tmpfiles-setup-dev.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup-dev.service has finished successfully.
+░░ 
+░░ The job identifier is 47.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Reached target Preparation for Local File Systems.
+░░ Subject: A start job for unit local-fs-pre.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit local-fs-pre.target has finished successfully.
+░░ 
+░░ The job identifier is 58.
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Starting Rule-based Manager for Device Events and Files...
+░░ Subject: A start job for unit systemd-udevd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udevd.service has begun execution.
+░░ 
+░░ The job identifier is 13.
+Jul 04 17:38:58 openeuler-riscv64 systemd[1]: Finished Flush Journal to Persistent Storage.
+░░ Subject: A start job for unit systemd-journal-flush.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-journal-flush.service has finished successfully.
+░░ 
+░░ The job identifier is 22.
+Jul 04 17:38:58 openeuler-riscv64 systemd[1]: Started Rule-based Manager for Device Events and Files.
+░░ Subject: A start job for unit systemd-udevd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udevd.service has finished successfully.
+░░ 
+░░ The job identifier is 13.
+Jul 04 17:39:01 openeuler-riscv64 systemd[1]: Found device /dev/ttyS0.
+░░ Subject: A start job for unit dev-ttyS0.device has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dev-ttyS0.device has finished successfully.
+░░ 
+░░ The job identifier is 84.
+Jul 04 17:39:01 openeuler-riscv64 systemd-udevd[230]: Using default interface naming scheme 'v249'.
+Jul 04 17:39:01 openeuler-riscv64 systemd[1]: Finished Coldplug All udev Devices.
+░░ Subject: A start job for unit systemd-udev-trigger.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udev-trigger.service has finished successfully.
+░░ 
+░░ The job identifier is 37.
+Jul 04 17:39:01 openeuler-riscv64 kernel: virtio_net virtio2 enp0s2: renamed from eth0
+Jul 04 17:39:01 openeuler-riscv64 systemd-udevd[230]: eth0: Network interface 2 is renamed from 'eth0' to 'enp0s2'
+Jul 04 17:39:02 openeuler-riscv64 systemd-udevd[236]: Using default interface naming scheme 'v249'.
+Jul 04 17:39:02 openeuler-riscv64 kernel: usb 1-3: unknown interface protocol 0x4, assuming v1
+Jul 04 17:39:02 openeuler-riscv64 systemd[1]: Found device /dev/disk/by-uuid/3f323731-a06b-4cd1-aa6c-f0647a95f6e6.
+░░ Subject: A start job for unit dev-disk-by\x2duuid-3f323731\x2da06b\x2d4cd1\x2daa6c\x2df0647a95f6e6.device has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dev-disk-by\x2duuid-3f323731\x2da06b\x2d4cd1\x2daa6c\x2df0647a95f6e6.device has finished successfully.
+░░ 
+░░ The job identifier is 54.
+Jul 04 17:39:02 openeuler-riscv64 systemd[1]: Starting File System Check on /dev/disk/by-uuid/3f323731-a06b-4cd1-aa6c-f0647a95f6e6...
+░░ Subject: A start job for unit systemd-fsck@dev-disk-by\x2duuid-3f323731\x2da06b\x2d4cd1\x2daa6c\x2df0647a95f6e6.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-fsck@dev-disk-by\x2duuid-3f323731\x2da06b\x2d4cd1\x2daa6c\x2df0647a95f6e6.service has begun execution.
+░░ 
+░░ The job identifier is 53.
+Jul 04 17:39:02 openeuler-riscv64 kernel: usbcore: registered new interface driver snd-usb-audio
+Jul 04 17:39:03 openeuler-riscv64 systemd-fsck[248]: /dev/vda1: clean, 33/32768 files, 19379/131072 blocks
+Jul 04 17:39:03 openeuler-riscv64 systemd[1]: Finished File System Check on /dev/disk/by-uuid/3f323731-a06b-4cd1-aa6c-f0647a95f6e6.
+░░ Subject: A start job for unit systemd-fsck@dev-disk-by\x2duuid-3f323731\x2da06b\x2d4cd1\x2daa6c\x2df0647a95f6e6.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-fsck@dev-disk-by\x2duuid-3f323731\x2da06b\x2d4cd1\x2daa6c\x2df0647a95f6e6.service has finished successfully.
+░░ 
+░░ The job identifier is 53.
+Jul 04 17:39:04 openeuler-riscv64 systemd[1]: Mounting /boot...
+░░ Subject: A start job for unit boot.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit boot.mount has begun execution.
+░░ 
+░░ The job identifier is 52.
+Jul 04 17:39:04 openeuler-riscv64 kernel: EXT4-fs (vda1): mounting ext2 file system using the ext4 subsystem
+Jul 04 17:39:04 openeuler-riscv64 kernel: EXT4-fs (vda1): mounted filesystem without journal. Quota mode: disabled.
+Jul 04 17:39:04 openeuler-riscv64 systemd[1]: Mounted /boot.
+░░ Subject: A start job for unit boot.mount has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit boot.mount has finished successfully.
+░░ 
+░░ The job identifier is 52.
+Jul 04 17:39:04 openeuler-riscv64 systemd[1]: Reached target Local File Systems.
+░░ Subject: A start job for unit local-fs.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit local-fs.target has finished successfully.
+░░ 
+░░ The job identifier is 51.
+Jul 04 17:39:04 openeuler-riscv64 systemd[1]: Condition check resulted in Rebuild Dynamic Linker Cache being skipped.
+░░ Subject: A start job for unit ldconfig.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit ldconfig.service has finished successfully.
+░░ 
+░░ The job identifier is 50.
+Jul 04 17:39:04 openeuler-riscv64 systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+░░ Subject: A start job for unit systemd-machine-id-commit.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-machine-id-commit.service has finished successfully.
+░░ 
+░░ The job identifier is 40.
+Jul 04 17:39:04 openeuler-riscv64 systemd[1]: Starting Create Volatile Files and Directories...
+░░ Subject: A start job for unit systemd-tmpfiles-setup.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup.service has begun execution.
+░░ 
+░░ The job identifier is 28.
+Jul 04 17:39:05 openeuler-riscv64 systemd-tmpfiles[259]: /usr/lib/tmpfiles.d/dbus.conf:13: Line references path below legacy directory /var/run/, updating /var/run/dbus/containers → /run/dbus/containers; please update the tmpfiles.d/ drop-in file accordingly.
+Jul 04 17:39:06 openeuler-riscv64 systemd[1]: Finished Create Volatile Files and Directories.
+░░ Subject: A start job for unit systemd-tmpfiles-setup.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup.service has finished successfully.
+░░ 
+░░ The job identifier is 28.
+Jul 04 17:39:07 openeuler-riscv64 systemd-udevd[251]: Using default interface naming scheme 'v249'.
+Jul 04 17:39:07 openeuler-riscv64 systemd[1]: Condition check resulted in Rebuild Journal Catalog being skipped.
+░░ Subject: A start job for unit systemd-journal-catalog-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-journal-catalog-update.service has finished successfully.
+░░ 
+░░ The job identifier is 21.
+Jul 04 17:39:07 openeuler-riscv64 systemd[1]: Starting Network Time Synchronization...
+░░ Subject: A start job for unit systemd-timesyncd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-timesyncd.service has begun execution.
+░░ 
+░░ The job identifier is 18.
+Jul 04 17:39:07 openeuler-riscv64 systemd[1]: Condition check resulted in Update is Completed being skipped.
+░░ Subject: A start job for unit systemd-update-done.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-done.service has finished successfully.
+░░ 
+░░ The job identifier is 49.
+Jul 04 17:39:07 openeuler-riscv64 systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+░░ Subject: A start job for unit systemd-update-utmp.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp.service has begun execution.
+░░ 
+░░ The job identifier is 95.
+Jul 04 17:39:08 openeuler-riscv64 systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+░░ Subject: A start job for unit systemd-update-utmp.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp.service has finished successfully.
+░░ 
+░░ The job identifier is 95.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Started Network Time Synchronization.
+░░ Subject: A start job for unit systemd-timesyncd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-timesyncd.service has finished successfully.
+░░ 
+░░ The job identifier is 18.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Reached target System Initialization.
+░░ Subject: A start job for unit sysinit.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sysinit.target has finished successfully.
+░░ 
+░░ The job identifier is 6.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Started dnf makecache --timer.
+░░ Subject: A start job for unit dnf-makecache.timer has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dnf-makecache.timer has finished successfully.
+░░ 
+░░ The job identifier is 64.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Started Daily Cleanup of Temporary Directories.
+░░ Subject: A start job for unit systemd-tmpfiles-clean.timer has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-clean.timer has finished successfully.
+░░ 
+░░ The job identifier is 70.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Reached target System Time Set.
+░░ Subject: A start job for unit time-set.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit time-set.target has finished successfully.
+░░ 
+░░ The job identifier is 19.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Reached target Timer Units.
+░░ Subject: A start job for unit timers.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit timers.target has finished successfully.
+░░ 
+░░ The job identifier is 63.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Listening on D-Bus System Message Bus Socket.
+░░ Subject: A start job for unit dbus.socket has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dbus.socket has finished successfully.
+░░ 
+░░ The job identifier is 68.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Reached target Socket Units.
+░░ Subject: A start job for unit sockets.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sockets.target has finished successfully.
+░░ 
+░░ The job identifier is 71.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Reached target Basic System.
+░░ Subject: A start job for unit basic.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit basic.target has finished successfully.
+░░ 
+░░ The job identifier is 3.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: System is tainted: cgroupsv1
+░░ Subject: The system is configured in a way that might cause problems
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The following "tags" are possible:
+░░ - "split-usr" — /usr is a separate file system and was not mounted when systemd
+░░   was booted
+░░ - "cgroups-missing" — the kernel was compiled without cgroup support or access
+░░   to expected interface files is restricted
+░░ - "var-run-bad" — /var/run is not a symlink to /run
+░░ - "overflowuid-not-65534" — the kernel user ID used for "unknown" users (with
+░░   NFS or user namespaces) is not 65534
+░░ - "overflowgid-not-65534" — the kernel group ID used for "unknown" users (with
+░░   NFS or user namespaces) is not 65534
+░░ Current system is tagged as cgroupsv1.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Starting D-Bus System Message Bus...
+░░ Subject: A start job for unit dbus.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dbus.service has begun execution.
+░░ 
+░░ The job identifier is 100.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Starting Update RTC With System Clock...
+░░ Subject: A start job for unit hwclock-save.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit hwclock-save.service has begun execution.
+░░ 
+░░ The job identifier is 20.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Started resize rootfs.
+░░ Subject: A start job for unit resize-rootfs.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit resize-rootfs.service has finished successfully.
+░░ 
+░░ The job identifier is 99.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ecdsa Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ecdsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ecdsa.service has finished successfully.
+░░ 
+░░ The job identifier is 93.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH ed25519 Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@ed25519.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ed25519.service has finished successfully.
+░░ 
+░░ The job identifier is 90.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Condition check resulted in OpenSSH rsa Server Key Generation being skipped.
+░░ Subject: A start job for unit sshd-keygen@rsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@rsa.service has finished successfully.
+░░ 
+░░ The job identifier is 92.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Reached target sshd-keygen.target.
+░░ Subject: A start job for unit sshd-keygen.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen.target has finished successfully.
+░░ 
+░░ The job identifier is 89.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Starting User Login Management...
+░░ Subject: A start job for unit systemd-logind.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-logind.service has begun execution.
+░░ 
+░░ The job identifier is 85.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Finished Update RTC With System Clock.
+░░ Subject: A start job for unit hwclock-save.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit hwclock-save.service has finished successfully.
+░░ 
+░░ The job identifier is 20.
+Jul 04 17:39:10 openeuler-riscv64 systemd[1]: Started D-Bus System Message Bus.
+░░ Subject: A start job for unit dbus.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dbus.service has finished successfully.
+░░ 
+░░ The job identifier is 100.
+Jul 04 17:39:11 openeuler-riscv64 systemd[1]: Reached target Sound Card.
+░░ Subject: A start job for unit sound.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sound.target has finished successfully.
+░░ 
+░░ The job identifier is 107.
+Jul 04 17:39:11 openeuler-riscv64 systemd[1]: Starting Network Manager...
+░░ Subject: A start job for unit NetworkManager.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager.service has begun execution.
+░░ 
+░░ The job identifier is 67.
+Jul 04 17:39:12 openeuler-riscv64 NetworkManager[278]: <info>  [1688463552.4052] NetworkManager (version 1.32.12-16.oe2303) is starting... (for the first time)
+Jul 04 17:39:12 openeuler-riscv64 NetworkManager[278]: <info>  [1688463552.4236] Read config: /etc/NetworkManager/NetworkManager.conf
+Jul 04 17:39:12 openeuler-riscv64 systemd-logind[276]: Watching system buttons on /dev/input/event0 (QEMU QEMU USB Keyboard)
+Jul 04 17:39:12 openeuler-riscv64 systemd-logind[276]: New seat seat0.
+░░ Subject: A new seat seat0 is now available
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new seat seat0 has been configured and is now available.
+Jul 04 17:39:12 openeuler-riscv64 systemd[1]: Started User Login Management.
+░░ Subject: A start job for unit systemd-logind.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-logind.service has finished successfully.
+░░ 
+░░ The job identifier is 85.
+Jul 04 17:39:12 openeuler-riscv64 systemd[1]: Started Network Manager.
+░░ Subject: A start job for unit NetworkManager.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager.service has finished successfully.
+░░ 
+░░ The job identifier is 67.
+Jul 04 17:39:12 openeuler-riscv64 systemd[1]: Reached target Network.
+░░ Subject: A start job for unit network.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit network.target has finished successfully.
+░░ 
+░░ The job identifier is 69.
+Jul 04 17:39:12 openeuler-riscv64 NetworkManager[278]: <info>  [1688463552.6866] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Jul 04 17:39:12 openeuler-riscv64 systemd[1]: Starting Network Manager Wait Online...
+░░ Subject: A start job for unit NetworkManager-wait-online.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-wait-online.service has begun execution.
+░░ 
+░░ The job identifier is 66.
+Jul 04 17:39:12 openeuler-riscv64 systemd[1]: Starting OpenSSH server daemon...
+░░ Subject: A start job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 88.
+Jul 04 17:39:12 openeuler-riscv64 systemd[1]: Starting Permit User Sessions...
+░░ Subject: A start job for unit systemd-user-sessions.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-user-sessions.service has begun execution.
+░░ 
+░░ The job identifier is 76.
+Jul 04 17:39:13 openeuler-riscv64 NetworkManager[278]: <info>  [1688463553.0107] manager[0xaaaaaab8101000]: monitoring kernel firmware directory '/lib/firmware'.
+Jul 04 17:39:13 openeuler-riscv64 dbus-daemon[272]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.3' (uid=0 pid=278 comm="/usr/sbin/NetworkManager --no-daemon")
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Starting Hostname Service...
+░░ Subject: A start job for unit systemd-hostnamed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has begun execution.
+░░ 
+░░ The job identifier is 109.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Finished Permit User Sessions.
+░░ Subject: A start job for unit systemd-user-sessions.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-user-sessions.service has finished successfully.
+░░ 
+░░ The job identifier is 76.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Started Command Scheduler.
+░░ Subject: A start job for unit crond.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit crond.service has finished successfully.
+░░ 
+░░ The job identifier is 97.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Started Getty on tty1.
+░░ Subject: A start job for unit getty@tty1.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit getty@tty1.service has finished successfully.
+░░ 
+░░ The job identifier is 78.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Started Serial Getty on ttyS0.
+░░ Subject: A start job for unit serial-getty@ttyS0.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit serial-getty@ttyS0.service has finished successfully.
+░░ 
+░░ The job identifier is 82.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Reached target Login Prompts.
+░░ Subject: A start job for unit getty.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit getty.target has finished successfully.
+░░ 
+░░ The job identifier is 77.
+Jul 04 17:39:13 openeuler-riscv64 crond[296]: (CRON) STARTUP (1.6.1)
+Jul 04 17:39:13 openeuler-riscv64 crond[296]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jul 04 17:39:13 openeuler-riscv64 crond[296]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 30% if used.)
+Jul 04 17:39:13 openeuler-riscv64 crond[296]: (CRON) INFO (running with inotify support)
+Jul 04 17:39:13 openeuler-riscv64 sshd[288]: Server listening on 0.0.0.0 port 22.
+Jul 04 17:39:13 openeuler-riscv64 sshd[288]: Server listening on :: port 22.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Started OpenSSH server daemon.
+░░ Subject: A start job for unit sshd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has finished successfully.
+░░ 
+░░ The job identifier is 88.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Reached target Multi-User System.
+░░ Subject: A start job for unit multi-user.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit multi-user.target has finished successfully.
+░░ 
+░░ The job identifier is 2.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Reached target Graphical Interface.
+░░ Subject: A start job for unit graphical.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit graphical.target has finished successfully.
+░░ 
+░░ The job identifier is 1.
+Jul 04 17:39:13 openeuler-riscv64 systemd[1]: Starting Record Runlevel Change in UTMP...
+░░ Subject: A start job for unit systemd-update-utmp-runlevel.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp-runlevel.service has begun execution.
+░░ 
+░░ The job identifier is 94.
+Jul 04 17:39:14 openeuler-riscv64 systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-update-utmp-runlevel.service has successfully entered the 'dead' state.
+Jul 04 17:39:14 openeuler-riscv64 systemd[1]: Finished Record Runlevel Change in UTMP.
+░░ Subject: A start job for unit systemd-update-utmp-runlevel.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp-runlevel.service has finished successfully.
+░░ 
+░░ The job identifier is 94.
+Jul 04 17:39:15 openeuler-riscv64 dbus-daemon[272]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 04 17:39:15 openeuler-riscv64 systemd[1]: Started Hostname Service.
+░░ Subject: A start job for unit systemd-hostnamed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has finished successfully.
+░░ 
+░░ The job identifier is 109.
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.2763] hostname: hostname: using hostnamed
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.2802] hostname: hostname changed from (none) to "openeuler-riscv64"
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.2966] dns-mgr[0xaaaaaab80e2250]: init: dns=default rc-manager=symlink
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.3889] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-adsl.so)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4161] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-team.so)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4265] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-wifi.so)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4353] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4397] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4421] manager: Networking is enabled by state file
+Jul 04 17:39:15 openeuler-riscv64 dbus-daemon[272]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=278 comm="/usr/sbin/NetworkManager --no-daemon")
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4589] dhcp-init: default DHCP client 'dhclient' is not available
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4602] dhcp-init: Using DHCP client 'internal'
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4846] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-settings-plugin-ifcfg-rh.so")
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4878] settings: Loaded settings plugin: keyfile (internal)
+Jul 04 17:39:15 openeuler-riscv64 systemd[1]: Starting Network Manager Script Dispatcher Service...
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has begun execution.
+░░ 
+░░ The job identifier is 175.
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.5458] device (lo): carrier: link connected
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.5569] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.5983] manager: (enp0s2): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.7170] settings: (enp0s2): created default wired connection 'Wired connection 1'
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.7365] device (enp0s2): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.7744] device (enp0s2): carrier: link connected
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.8291] manager: (sit0): new IPTunnel device (/org/freedesktop/NetworkManager/Devices/3)
+Jul 04 17:39:15 openeuler-riscv64 dbus-daemon[272]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 04 17:39:15 openeuler-riscv64 systemd[1]: Started Network Manager Script Dispatcher Service.
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has finished successfully.
+░░ 
+░░ The job identifier is 175.
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.9133] device (enp0s2): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.9443] policy: auto-activating connection 'Wired connection 1' (5315db38-9102-3975-b9ad-fa717ea7d2f1)
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.0610] device (enp0s2): Activation: starting connection 'Wired connection 1' (5315db38-9102-3975-b9ad-fa717ea7d2f1)
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.0661] device (enp0s2): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.0974] manager: NetworkManager state is now CONNECTING
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.1366] device (enp0s2): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.1789] device (enp0s2): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.2050] dhcp4 (enp0s2): activation: beginning transaction (timeout in 45 seconds)
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.3056] dhcp4 (enp0s2): state changed unknown -> bound, address=10.0.2.15
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.3402] device (enp0s2): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5587] device (enp0s2): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5646] device (enp0s2): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5806] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5931] manager: NetworkManager state is now CONNECTED_SITE
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5962] policy: set 'Wired connection 1' (enp0s2) as default for IPv4 routing and DNS
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.6607] device (enp0s2): Activation: successful, device activated.
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.6757] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.6943] manager: startup complete
+Jul 04 17:39:16 openeuler-riscv64 systemd[1]: Finished Network Manager Wait Online.
+░░ Subject: A start job for unit NetworkManager-wait-online.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-wait-online.service has finished successfully.
+░░ 
+░░ The job identifier is 66.
+Jul 04 17:39:16 openeuler-riscv64 systemd[1]: Reached target Network is Online.
+░░ Subject: A start job for unit network-online.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit network-online.target has finished successfully.
+░░ 
+░░ The job identifier is 65.
+Jul 04 17:39:16 openeuler-riscv64 systemd[1]: Startup finished in 2.761s (kernel) + 25.684s (userspace) = 28.445s.
+░░ Subject: System start-up is now complete
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ All system services necessary queued for starting at boot have been
+░░ started. Note that this does not mean that the machine is now idle as services
+░░ might still be busy with completing start-up.
+░░ 
+░░ Kernel start-up required 2761361 microseconds.
+░░ 
+░░ Initial RAM disk start-up required INITRD_USEC microseconds.
+░░ 
+░░ Userspace start-up required 25684135 microseconds.
+Jul 04 17:39:17 openeuler-riscv64 NetworkManager[278]: <info>  [1688463557.4623] policy: set 'Wired connection 1' (enp0s2) as default for IPv6 routing and DNS
+Jul 04 17:39:18 openeuler-riscv64 sshd[316]: Connection closed by 10.0.2.2 port 54590 [preauth]
+Jul 04 17:39:20 openeuler-riscv64 sshd[319]: Connection closed by 10.0.2.2 port 43648 [preauth]
+Jul 04 17:39:20 openeuler-riscv64 sshd[318]: Accepted password for root from 10.0.2.2 port 43222 ssh2
+Jul 04 17:39:20 openeuler-riscv64 sshd[318]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:39:20 openeuler-riscv64 sshd[318]: pam_unix(sshd:session): session closed for user root
+Jul 04 17:39:21 openeuler-riscv64 sshd[322]: Accepted password for root from 10.0.2.2 port 43224 ssh2
+Jul 04 17:39:21 openeuler-riscv64 sshd[322]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:39:27 openeuler-riscv64 sudo[384]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_acl_001 -x
+Jul 04 17:39:27 openeuler-riscv64 sudo[384]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:39:27 openeuler-riscv64 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Jul 04 17:39:28 openeuler-riscv64 sshd[407]: Connection closed by 10.0.2.2 port 55276 [preauth]
+Jul 04 17:39:37 openeuler-riscv64 useradd[444]: new group: name=testuser, GID=1001
+Jul 04 17:39:37 openeuler-riscv64 useradd[444]: new user: name=testuser, UID=1001, GID=1001, home=/home/testuser, shell=/bin/bash, from=none
+Jul 04 17:39:41 openeuler-riscv64 systemd[1]: Time has been changed
+░░ Subject: Time change
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+Jul 04 17:39:41 openeuler-riscv64 systemd-timesyncd[268]: Initial synchronization to time server 203.107.6.88:123 (ntp.aliyun.com).
+Jul 04 17:39:44 openeuler-riscv64 userdel[495]: delete user 'testuser'
+Jul 04 17:39:45 openeuler-riscv64 userdel[495]: removed group 'testuser' owned by 'testuser'
+Jul 04 17:39:45 openeuler-riscv64 userdel[495]: removed shadow group 'testuser' owned by 'testuser'
+Jul 04 17:39:46 openeuler-riscv64 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+Jul 04 17:39:49 openeuler-riscv64 sudo[384]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:39:50 openeuler-riscv64 sudo[516]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_basic_ssh_001 -x
+Jul 04 17:39:50 openeuler-riscv64 sudo[516]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:39:59 openeuler-riscv64 useradd[572]: new group: name=testuser1, GID=1001
+Jul 04 17:39:59 openeuler-riscv64 useradd[572]: new user: name=testuser1, UID=1001, GID=1001, home=/home/testuser1, shell=/bin/bash, from=none
+Jul 04 17:40:02 openeuler-riscv64 usermod[582]: add 'testuser1' to group 'wheel'
+Jul 04 17:40:02 openeuler-riscv64 usermod[582]: add 'testuser1' to shadow group 'wheel'
+Jul 04 17:40:02 openeuler-riscv64 passwd[589]: pam_unix(passwd:chauthtok): password changed for testuser1
+Jul 04 17:40:04 openeuler-riscv64 sshd[595]: Accepted password for testuser1 from 127.0.0.1 port 53656 ssh2
+Jul 04 17:40:04 openeuler-riscv64 sshd[595]: pam_unix(sshd:session): session opened for user testuser1(uid=1001) by (uid=0)
+Jul 04 17:40:07 openeuler-riscv64 sshd[597]: Received disconnect from 127.0.0.1 port 53656:11: disconnected by user
+Jul 04 17:40:07 openeuler-riscv64 sshd[597]: Disconnected from user testuser1 127.0.0.1 port 53656
+Jul 04 17:40:07 openeuler-riscv64 sshd[595]: pam_unix(sshd:session): session closed for user testuser1
+Jul 04 17:40:10 openeuler-riscv64 userdel[656]: delete user 'testuser1'
+Jul 04 17:40:10 openeuler-riscv64 userdel[656]: delete 'testuser1' from group 'wheel'
+Jul 04 17:40:10 openeuler-riscv64 userdel[656]: removed group 'testuser1' owned by 'testuser1'
+Jul 04 17:40:10 openeuler-riscv64 userdel[656]: removed shadow group 'testuser1' owned by 'testuser1'
+Jul 04 17:40:10 openeuler-riscv64 userdel[656]: delete 'testuser1' from shadow group 'wheel'
+Jul 04 17:40:15 openeuler-riscv64 sudo[516]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:40:15 openeuler-riscv64 sudo[675]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_cat_001 -x
+Jul 04 17:40:15 openeuler-riscv64 sudo[675]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:40:37 openeuler-riscv64 sudo[675]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:40:38 openeuler-riscv64 sudo[760]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_cd_002 -x
+Jul 04 17:40:38 openeuler-riscv64 sudo[760]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:40:57 openeuler-riscv64 sudo[760]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:40:57 openeuler-riscv64 sudo[842]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_chattr -x
+Jul 04 17:40:57 openeuler-riscv64 sudo[842]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:41:17 openeuler-riscv64 sudo[842]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:41:17 openeuler-riscv64 sudo[944]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_chmod_001 -x
+Jul 04 17:41:17 openeuler-riscv64 sudo[944]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:41:37 openeuler-riscv64 sudo[944]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:41:38 openeuler-riscv64 sudo[1047]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_chown_001 -x
+Jul 04 17:41:38 openeuler-riscv64 sudo[1047]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:41:50 openeuler-riscv64 useradd[1106]: new group: name=test, GID=1001
+Jul 04 17:41:50 openeuler-riscv64 useradd[1106]: new user: name=test, UID=1001, GID=1001, home=/home/test, shell=/bin/bash, from=none
+Jul 04 17:41:50 openeuler-riscv64 passwd[1114]: pam_unix(passwd:chauthtok): password changed for test
+Jul 04 17:41:55 openeuler-riscv64 userdel[1139]: delete user 'test'
+Jul 04 17:41:55 openeuler-riscv64 userdel[1139]: removed group 'test' owned by 'test'
+Jul 04 17:41:55 openeuler-riscv64 userdel[1139]: removed shadow group 'test' owned by 'test'
+Jul 04 17:41:59 openeuler-riscv64 sudo[1047]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:42:00 openeuler-riscv64 sudo[1157]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_cp_001 -x
+Jul 04 17:42:00 openeuler-riscv64 sudo[1157]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:42:20 openeuler-riscv64 sudo[1157]: pam_unix(sudo:session): session closed for user root
+Jul 04 17:42:21 openeuler-riscv64 sudo[1246]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_CPUinfo_001 -x
+Jul 04 17:42:21 openeuler-riscv64 sudo[1246]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 17:43:27 openeuler-riscv64 [RPM][1331]: Transaction ID 64a3e9be started
+Jul 04 17:43:30 openeuler-riscv64 [RPM][1331]: install hwdata-0.366-1.oe2303.noarch: success
+Jul 04 17:43:31 openeuler-riscv64 [RPM][1331]: install lshw-B.02.19.2-2.oe2303.riscv64: success
+Jul 04 17:43:32 openeuler-riscv64 [RPM][1331]: install hwdata-0.366-1.oe2303.noarch: success
+Jul 04 17:43:32 openeuler-riscv64 [RPM][1331]: install lshw-B.02.19.2-2.oe2303.riscv64: success
+Jul 04 17:43:32 openeuler-riscv64 [RPM][1331]: Transaction ID 64a3e9be finished: 0
+Jul 04 17:53:54 openeuler-riscv64 systemd[1]: Starting Cleanup of Temporary Directories...
+░░ Subject: A start job for unit systemd-tmpfiles-clean.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-clean.service has begun execution.
+░░ 
+░░ The job identifier is 241.
+Jul 04 17:53:55 openeuler-riscv64 systemd-tmpfiles[1357]: /usr/lib/tmpfiles.d/dbus.conf:13: Line references path below legacy directory /var/run/, updating /var/run/dbus/containers → /run/dbus/containers; please update the tmpfiles.d/ drop-in file accordingly.
+Jul 04 17:53:55 openeuler-riscv64 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-tmpfiles-clean.service has successfully entered the 'dead' state.
+Jul 04 17:53:55 openeuler-riscv64 systemd[1]: Finished Cleanup of Temporary Directories.
+░░ Subject: A start job for unit systemd-tmpfiles-clean.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-clean.service has finished successfully.
+░░ 
+░░ The job identifier is 241.
+Jul 04 18:01:01 openeuler-riscv64 CROND[1364]: (root) CMD (run-parts /etc/cron.hourly)
+Jul 04 18:01:02 openeuler-riscv64 run-parts[1367]: (/etc/cron.hourly) starting 0anacron
+Jul 04 18:01:02 openeuler-riscv64 anacron[1375]: Anacron started on 2023-07-04
+Jul 04 18:01:02 openeuler-riscv64 anacron[1375]: Will run job `cron.daily' in 30 min.
+Jul 04 18:01:02 openeuler-riscv64 anacron[1375]: Will run job `cron.weekly' in 50 min.
+Jul 04 18:01:02 openeuler-riscv64 anacron[1375]: Will run job `cron.monthly' in 70 min.
+Jul 04 18:01:02 openeuler-riscv64 anacron[1375]: Jobs will be executed sequentially
+Jul 04 18:01:02 openeuler-riscv64 run-parts[1377]: (/etc/cron.hourly) finished 0anacron
+Jul 04 18:01:02 openeuler-riscv64 CROND[1363]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jul 04 18:12:31 openeuler-riscv64 sudo[1246]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:12:32 openeuler-riscv64 sudo[1393]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_criu -x
+Jul 04 18:12:32 openeuler-riscv64 sudo[1393]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:13:49 openeuler-riscv64 sudo[1393]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:13:50 openeuler-riscv64 sudo[1519]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_dateinfo_001 -x
+Jul 04 18:13:50 openeuler-riscv64 sudo[1519]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:13:59 openeuler-riscv64 dbus-daemon[272]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.8' (uid=0 pid=1576 comm="timedatectl")
+Jul 04 18:14:00 openeuler-riscv64 systemd[1]: Starting Time & Date Service...
+░░ Subject: A start job for unit systemd-timedated.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-timedated.service has begun execution.
+░░ 
+░░ The job identifier is 245.
+Jul 04 18:14:01 openeuler-riscv64 dbus-daemon[272]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jul 04 18:14:01 openeuler-riscv64 systemd[1]: Started Time & Date Service.
+░░ Subject: A start job for unit systemd-timedated.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-timedated.service has finished successfully.
+░░ 
+░░ The job identifier is 245.
+Jul 04 18:14:08 openeuler-riscv64 sudo[1519]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:14:08 openeuler-riscv64 sudo[1592]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_dd_001 -x
+Jul 04 18:14:08 openeuler-riscv64 sudo[1592]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:14:32 openeuler-riscv64 systemd[1]: systemd-timedated.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-timedated.service has successfully entered the 'dead' state.
+Jul 04 18:15:15 openeuler-riscv64 sudo[1592]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:15:15 openeuler-riscv64 sudo[1676]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_df -x
+Jul 04 18:15:16 openeuler-riscv64 sudo[1676]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:15:34 openeuler-riscv64 sudo[1676]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:15:34 openeuler-riscv64 sudo[1778]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_file_001 -x
+Jul 04 18:15:34 openeuler-riscv64 sudo[1778]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:16:21 openeuler-riscv64 sudo[1778]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:16:22 openeuler-riscv64 sudo[1853]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_golang -x
+Jul 04 18:16:22 openeuler-riscv64 sudo[1853]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:19:23 openeuler-riscv64 [RPM][1932]: Transaction ID 64a3f21e started
+Jul 04 18:19:23 openeuler-riscv64 [RPM][1932]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:19:23 openeuler-riscv64 [RPM][1932]: install golang-1.19.4-2.oe2303.riscv64: success
+Jul 04 18:19:29 openeuler-riscv64 [RPM][1932]: install apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:19:29 openeuler-riscv64 [RPM][1932]: install utf8proc-2.8.0-1.oe2303.riscv64: success
+Jul 04 18:19:29 openeuler-riscv64 [RPM][1932]: install openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:19:29 openeuler-riscv64 [RPM][1932]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:19:30 openeuler-riscv64 [RPM][1932]: install apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:19:30 openeuler-riscv64 [RPM][1932]: install httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:19:30 openeuler-riscv64 [RPM][1932]: install libserf-1.3.9-16.oe2303.riscv64: success
+Jul 04 18:19:30 openeuler-riscv64 [RPM][1932]: install mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:19:31 openeuler-riscv64 groupadd[1945]: group added to /etc/group: name=apache, GID=48
+Jul 04 18:19:31 openeuler-riscv64 groupadd[1945]: group added to /etc/gshadow: name=apache
+Jul 04 18:19:31 openeuler-riscv64 groupadd[1945]: new group: name=apache, GID=48
+Jul 04 18:19:31 openeuler-riscv64 useradd[1952]: new user: name=apache, UID=48, GID=48, home=/usr/share/httpd, shell=/sbin/nologin, from=none
+Jul 04 18:19:31 openeuler-riscv64 [RPM][1932]: install httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:19:32 openeuler-riscv64 [RPM][1932]: install mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:19:34 openeuler-riscv64 systemctl[1960]: [/usr/bin/systemctl --no-reload preset httpd.service htcacheclean.service httpd.socket] called by PID 1959 (/bin/sh /var/tmp/rpm-tmp.7UOaPx 1)
+Jul 04 18:19:35 openeuler-riscv64 [RPM][1932]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:19:38 openeuler-riscv64 [RPM][1932]: install subversion-1.14.2-2.oe2303.riscv64: success
+Jul 04 18:20:42 openeuler-riscv64 [RPM][1932]: install golang-devel-1.19.4-2.oe2303.noarch: success
+Jul 04 18:22:33 openeuler-riscv64 [RPM][1932]: install golang-1.19.4-2.oe2303.riscv64: success
+Jul 04 18:22:33 openeuler-riscv64 systemctl[1966]: [/bin/systemctl --no-block try-restart httpd.service htcacheclean.service] called by PID 1965 (/bin/sh /var/tmp/rpm-tmp.FSZpl6 1)
+Jul 04 18:22:33 openeuler-riscv64 [RPM][1932]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:22:35 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rb083c63c44094b068e4b15e6478e8be9.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rb083c63c44094b068e4b15e6478e8be9.service has finished successfully.
+░░ 
+░░ The job identifier is 313.
+Jul 04 18:22:35 openeuler-riscv64 systemctl[1971]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:22:35 openeuler-riscv64 systemctl[1973]: [/usr/bin/systemctl daemon-reload] called by PID 1972 (/bin/sh /var/tmp/rpm-tmp.H3C5ke 0)
+Jul 04 18:22:35 openeuler-riscv64 systemd[1]: cgroup compatibility translation between legacy and unified hierarchy settings activated. See cgroup-compat debug messages for details.
+Jul 04 18:22:35 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 378.
+Jul 04 18:22:36 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:22:37 openeuler-riscv64 systemd-rc-local-generator[1986]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:22:39 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:22:43 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:22:43 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 378.
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install utf8proc-2.8.0-1.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install libserf-1.3.9-16.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install subversion-1.14.2-2.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 systemd[1]: run-rb083c63c44094b068e4b15e6478e8be9.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rb083c63c44094b068e4b15e6478e8be9.service has successfully entered the 'dead' state.
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install golang-devel-1.19.4-2.oe2303.noarch: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: install golang-1.19.4-2.oe2303.riscv64: success
+Jul 04 18:22:44 openeuler-riscv64 [RPM][1932]: Transaction ID 64a3f21e finished: 0
+Jul 04 18:23:16 openeuler-riscv64 [RPM][2083]: Transaction ID 64a3f314 started
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase golang-1.19.4-2.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase subversion-1.14.2-2.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase golang-devel-1.19.4-2.oe2303.noarch: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase libserf-1.3.9-16.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:23:20 openeuler-riscv64 [RPM][2083]: erase utf8proc-2.8.0-1.oe2303.riscv64: success
+Jul 04 18:23:22 openeuler-riscv64 [RPM][2083]: erase golang-1.19.4-2.oe2303.riscv64: success
+Jul 04 18:23:23 openeuler-riscv64 [RPM][2083]: erase subversion-1.14.2-2.oe2303.riscv64: success
+Jul 04 18:23:45 openeuler-riscv64 [RPM][2083]: erase golang-devel-1.19.4-2.oe2303.noarch: success
+Jul 04 18:23:45 openeuler-riscv64 systemctl[2092]: [/usr/bin/systemctl --no-reload --now disable httpd.service htcacheclean.service httpd.socket] called by PID 2091 (/bin/sh /var/tmp/rpm-tmp.IqSYZ7 0)
+Jul 04 18:23:47 openeuler-riscv64 systemctl[2095]: [/usr/bin/systemctl daemon-reload] called by PID 2093 (/bin/sh /var/tmp/rpm-tmp.6gLJZx 0)
+Jul 04 18:23:47 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:23:48 openeuler-riscv64 systemd-rc-local-generator[2102]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:23:49 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:23:54 openeuler-riscv64 [RPM][2083]: erase httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:23:54 openeuler-riscv64 [RPM][2083]: erase httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:23:54 openeuler-riscv64 [RPM][2083]: erase libserf-1.3.9-16.oe2303.riscv64: success
+Jul 04 18:23:54 openeuler-riscv64 [RPM][2083]: erase httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:23:54 openeuler-riscv64 [RPM][2083]: erase mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:23:54 openeuler-riscv64 [RPM][2083]: erase openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:23:55 openeuler-riscv64 [RPM][2083]: erase apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:23:55 openeuler-riscv64 [RPM][2083]: erase apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:23:55 openeuler-riscv64 [RPM][2083]: erase mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:23:55 openeuler-riscv64 [RPM][2083]: erase mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:23:55 openeuler-riscv64 [RPM][2083]: erase utf8proc-2.8.0-1.oe2303.riscv64: success
+Jul 04 18:23:56 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rf7f8cb2cf5f244fea98a18be89afc3a2.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rf7f8cb2cf5f244fea98a18be89afc3a2.service has finished successfully.
+░░ 
+░░ The job identifier is 384.
+Jul 04 18:23:56 openeuler-riscv64 [RPM][2083]: Transaction ID 64a3f314 finished: 0
+Jul 04 18:23:56 openeuler-riscv64 systemctl[2116]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:23:56 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 449.
+Jul 04 18:23:59 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:23:59 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 449.
+Jul 04 18:23:59 openeuler-riscv64 systemd[1]: run-rf7f8cb2cf5f244fea98a18be89afc3a2.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rf7f8cb2cf5f244fea98a18be89afc3a2.service has successfully entered the 'dead' state.
+Jul 04 18:24:04 openeuler-riscv64 sudo[1853]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:24:05 openeuler-riscv64 sudo[2143]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_grep_001 -x
+Jul 04 18:24:05 openeuler-riscv64 sudo[2143]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:24:26 openeuler-riscv64 sudo[2143]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:24:26 openeuler-riscv64 sudo[2227]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_group_001 -x
+Jul 04 18:24:26 openeuler-riscv64 sudo[2227]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:24:38 openeuler-riscv64 groupadd[2288]: group added to /etc/group: name=testgroup, GID=1001
+Jul 04 18:24:38 openeuler-riscv64 groupadd[2288]: group added to /etc/gshadow: name=testgroup
+Jul 04 18:24:38 openeuler-riscv64 groupadd[2288]: new group: name=testgroup, GID=1001
+Jul 04 18:24:39 openeuler-riscv64 groupadd[2295]: group added to /etc/group: name=testgroup1, GID=66
+Jul 04 18:24:39 openeuler-riscv64 groupadd[2295]: group added to /etc/gshadow: name=testgroup1
+Jul 04 18:24:39 openeuler-riscv64 groupadd[2295]: new group: name=testgroup1, GID=66
+Jul 04 18:24:39 openeuler-riscv64 groupadd[2303]: group added to /etc/group: name=testgroup2, GID=66
+Jul 04 18:24:39 openeuler-riscv64 groupadd[2303]: group added to /etc/gshadow: name=testgroup2
+Jul 04 18:24:39 openeuler-riscv64 groupadd[2303]: new group: name=testgroup2, GID=66
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2314]: group 'testgroup' removed from /etc/group
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2314]: group 'testgroup' removed from /etc/gshadow
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2314]: group 'testgroup' removed
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2320]: group 'testgroup1' removed from /etc/group
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2320]: group 'testgroup1' removed from /etc/gshadow
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2320]: group 'testgroup1' removed
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2326]: group 'testgroup2' removed from /etc/group
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2326]: group 'testgroup2' removed from /etc/gshadow
+Jul 04 18:24:40 openeuler-riscv64 groupdel[2326]: group 'testgroup2' removed
+Jul 04 18:24:47 openeuler-riscv64 sudo[2227]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:24:47 openeuler-riscv64 sudo[2345]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_group_002 -x
+Jul 04 18:24:47 openeuler-riscv64 sudo[2345]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:24:57 openeuler-riscv64 useradd[2401]: new group: name=testuser1, GID=1001
+Jul 04 18:24:57 openeuler-riscv64 useradd[2401]: new user: name=testuser1, UID=1001, GID=1001, home=/home/testuser1, shell=/bin/bash, from=none
+Jul 04 18:24:58 openeuler-riscv64 groupadd[2410]: group added to /etc/group: name=testgroup1, GID=1002
+Jul 04 18:24:58 openeuler-riscv64 groupadd[2410]: group added to /etc/gshadow: name=testgroup1
+Jul 04 18:24:58 openeuler-riscv64 groupadd[2410]: new group: name=testgroup1, GID=1002
+Jul 04 18:24:58 openeuler-riscv64 groupmod[2416]: group changed in /etc/group (group testgroup1/1002, new gid: 66)
+Jul 04 18:24:58 openeuler-riscv64 groupmod[2416]: group changed in /etc/passwd (group testgroup1/1002, new gid: 66)
+Jul 04 18:25:00 openeuler-riscv64 groupmod[2425]: group changed in /etc/group (group testgroup1/66, new gid: 99)
+Jul 04 18:25:00 openeuler-riscv64 groupmod[2425]: group changed in /etc/passwd (group testgroup1/66, new gid: 99)
+Jul 04 18:25:01 openeuler-riscv64 groupmod[2433]: group changed in /etc/group (group testgroup1/99, new name: testgroup2)
+Jul 04 18:25:01 openeuler-riscv64 groupmod[2433]: group changed in /etc/gshadow (group testgroup1, new name: testgroup2)
+Jul 04 18:25:01 openeuler-riscv64 usermod[2442]: add 'testuser1' to group 'testgroup2'
+Jul 04 18:25:01 openeuler-riscv64 usermod[2442]: add 'testuser1' to shadow group 'testgroup2'
+Jul 04 18:25:04 openeuler-riscv64 groupdel[2455]: group 'testgroup2' removed from /etc/group
+Jul 04 18:25:04 openeuler-riscv64 groupdel[2455]: group 'testgroup2' removed from /etc/gshadow
+Jul 04 18:25:04 openeuler-riscv64 groupdel[2455]: group 'testgroup2' removed
+Jul 04 18:25:05 openeuler-riscv64 userdel[2461]: delete user 'testuser1'
+Jul 04 18:25:05 openeuler-riscv64 userdel[2461]: removed group 'testuser1' owned by 'testuser1'
+Jul 04 18:25:05 openeuler-riscv64 userdel[2461]: removed shadow group 'testuser1' owned by 'testuser1'
+Jul 04 18:25:09 openeuler-riscv64 sudo[2345]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:25:10 openeuler-riscv64 sudo[2479]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_haproxy -x
+Jul 04 18:25:10 openeuler-riscv64 sudo[2479]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:26:11 openeuler-riscv64 [RPM][2558]: Transaction ID 64a3f3c3 started
+Jul 04 18:26:11 openeuler-riscv64 [RPM][2558]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:26:12 openeuler-riscv64 [RPM][2558]: install apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:26:12 openeuler-riscv64 [RPM][2558]: install openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:26:13 openeuler-riscv64 [RPM][2558]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:26:13 openeuler-riscv64 [RPM][2558]: install apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:26:13 openeuler-riscv64 [RPM][2558]: install httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:26:14 openeuler-riscv64 [RPM][2558]: install mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:26:14 openeuler-riscv64 [RPM][2558]: install httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:26:14 openeuler-riscv64 [RPM][2558]: install mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:26:17 openeuler-riscv64 systemctl[2572]: [/usr/bin/systemctl --no-reload preset httpd.service htcacheclean.service httpd.socket] called by PID 2571 (/bin/sh /var/tmp/rpm-tmp.tGxF8e 1)
+Jul 04 18:26:17 openeuler-riscv64 [RPM][2558]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:26:18 openeuler-riscv64 groupadd[2575]: group added to /etc/group: name=haproxy, GID=989
+Jul 04 18:26:18 openeuler-riscv64 groupadd[2575]: group added to /etc/gshadow: name=haproxy
+Jul 04 18:26:18 openeuler-riscv64 groupadd[2575]: new group: name=haproxy, GID=989
+Jul 04 18:26:18 openeuler-riscv64 useradd[2582]: new user: name=haproxy, UID=989, GID=989, home=/var/lib/haproxy, shell=/sbin/nologin, from=none
+Jul 04 18:26:20 openeuler-riscv64 systemctl[2590]: [/usr/bin/systemctl --no-reload preset haproxy.service] called by PID 2589 (/bin/sh /var/tmp/rpm-tmp.DlFwsu 1)
+Jul 04 18:26:20 openeuler-riscv64 [RPM][2558]: install haproxy-2.6.6-2.oe2303.riscv64: success
+Jul 04 18:26:20 openeuler-riscv64 systemctl[2592]: [/bin/systemctl --no-block try-restart httpd.service htcacheclean.service] called by PID 2591 (/bin/sh /var/tmp/rpm-tmp.gifrU6 1)
+Jul 04 18:26:20 openeuler-riscv64 [RPM][2558]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:26:22 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r08cbe70c04bc48028fb3f43450327d71.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r08cbe70c04bc48028fb3f43450327d71.service has finished successfully.
+░░ 
+░░ The job identifier is 454.
+Jul 04 18:26:22 openeuler-riscv64 systemctl[2597]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:26:22 openeuler-riscv64 systemctl[2599]: [/usr/bin/systemctl daemon-reload] called by PID 2598 (/bin/sh /var/tmp/rpm-tmp.TUAzLk 0)
+Jul 04 18:26:22 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 519.
+Jul 04 18:26:22 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:26:24 openeuler-riscv64 systemd-rc-local-generator[2612]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:26:25 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:26:30 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:26:30 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 519.
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: install haproxy-2.6.6-2.oe2303.riscv64: success
+Jul 04 18:26:31 openeuler-riscv64 [RPM][2558]: Transaction ID 64a3f3c3 finished: 0
+Jul 04 18:26:31 openeuler-riscv64 systemd[1]: run-r08cbe70c04bc48028fb3f43450327d71.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r08cbe70c04bc48028fb3f43450327d71.service has successfully entered the 'dead' state.
+Jul 04 18:26:34 openeuler-riscv64 systemctl[2629]: [systemctl stop haproxy] called by PID 2526 (bash -x oe_test_haproxy.sh)
+Jul 04 18:26:34 openeuler-riscv64 systemctl[2632]: [systemctl restart httpd] called by PID 2526 (bash -x oe_test_haproxy.sh)
+Jul 04 18:26:34 openeuler-riscv64 systemd[1]: Starting The Apache HTTP Server...
+░░ Subject: A start job for unit httpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit httpd.service has begun execution.
+░░ 
+░░ The job identifier is 523.
+Jul 04 18:26:36 openeuler-riscv64 httpd[2633]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::db24:dc3:6241:cfe6%enp0s2. Set the 'ServerName' directive globally to suppress this message
+Jul 04 18:26:36 openeuler-riscv64 systemd[1]: Started The Apache HTTP Server.
+░░ Subject: A start job for unit httpd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit httpd.service has finished successfully.
+░░ 
+░░ The job identifier is 523.
+Jul 04 18:26:38 openeuler-riscv64 systemctl[2819]: [systemctl restart haproxy] called by PID 2526 (bash -x oe_test_haproxy.sh)
+Jul 04 18:26:38 openeuler-riscv64 systemd[1]: Starting HAProxy Load Balancer...
+░░ Subject: A start job for unit haproxy.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit haproxy.service has begun execution.
+░░ 
+░░ The job identifier is 589.
+Jul 04 18:26:39 openeuler-riscv64 haproxy[2823]: [NOTICE]   (2823) : haproxy version is 2.6.6-274d1a4
+Jul 04 18:26:39 openeuler-riscv64 haproxy[2823]: [NOTICE]   (2823) : path to executable is /usr/sbin/haproxy
+Jul 04 18:26:39 openeuler-riscv64 haproxy[2823]: [ALERT]    (2823) : config : parsing [/etc/haproxy/haproxy.cfg:12] : 'pidfile' already specified. Continuing.
+Jul 04 18:26:39 openeuler-riscv64 haproxy[2823]: [NOTICE]   (2823) : New worker (2825) forked
+Jul 04 18:26:39 openeuler-riscv64 haproxy[2823]: [NOTICE]   (2823) : Loading success.
+Jul 04 18:26:40 openeuler-riscv64 systemd[1]: Started HAProxy Load Balancer.
+░░ Subject: A start job for unit haproxy.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit haproxy.service has finished successfully.
+░░ 
+░░ The job identifier is 589.
+Jul 04 18:26:40 openeuler-riscv64 haproxy[2825]: [WARNING]  (2825) : Server http_back/node2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 3 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+Jul 04 18:26:40 openeuler-riscv64 haproxy[2825]: [WARNING]  (2825) : Server http_back/node3 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 1ms. 2 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+Jul 04 18:26:41 openeuler-riscv64 haproxy[2825]: [WARNING]  (2825) : Server http_back/node4 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+Jul 04 18:26:43 openeuler-riscv64 systemctl[2891]: [systemctl stop haproxy] called by PID 2526 (bash -x oe_test_haproxy.sh)
+Jul 04 18:26:43 openeuler-riscv64 systemd[1]: Stopping HAProxy Load Balancer...
+░░ Subject: A stop job for unit haproxy.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit haproxy.service has begun execution.
+░░ 
+░░ The job identifier is 659.
+Jul 04 18:26:43 openeuler-riscv64 haproxy[2823]: [NOTICE]   (2823) : haproxy version is 2.6.6-274d1a4
+Jul 04 18:26:43 openeuler-riscv64 haproxy[2823]: [NOTICE]   (2823) : path to executable is /usr/sbin/haproxy
+Jul 04 18:26:43 openeuler-riscv64 haproxy[2823]: [WARNING]  (2823) : Exiting Master process...
+Jul 04 18:26:43 openeuler-riscv64 haproxy[2823]: [ALERT]    (2823) : Current worker (2825) exited with code 143 (Terminated)
+Jul 04 18:26:43 openeuler-riscv64 haproxy[2823]: [WARNING]  (2823) : All workers exited. Exiting... (0)
+Jul 04 18:26:43 openeuler-riscv64 systemd[1]: haproxy.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit haproxy.service has successfully entered the 'dead' state.
+Jul 04 18:26:43 openeuler-riscv64 systemd[1]: Stopped HAProxy Load Balancer.
+░░ Subject: A stop job for unit haproxy.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit haproxy.service has finished.
+░░ 
+░░ The job identifier is 659 and the job result is done.
+Jul 04 18:26:44 openeuler-riscv64 systemctl[2893]: [systemctl stop httpd] called by PID 2526 (bash -x oe_test_haproxy.sh)
+Jul 04 18:26:44 openeuler-riscv64 systemd[1]: Stopping The Apache HTTP Server...
+░░ Subject: A stop job for unit httpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit httpd.service has begun execution.
+░░ 
+░░ The job identifier is 660.
+Jul 04 18:26:45 openeuler-riscv64 systemd[1]: httpd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit httpd.service has successfully entered the 'dead' state.
+Jul 04 18:26:45 openeuler-riscv64 systemd[1]: Stopped The Apache HTTP Server.
+░░ Subject: A stop job for unit httpd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit httpd.service has finished.
+░░ 
+░░ The job identifier is 660 and the job result is done.
+Jul 04 18:26:57 openeuler-riscv64 [RPM][2903]: Transaction ID 64a3f3f1 started
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:26:58 openeuler-riscv64 [RPM][2903]: erase haproxy-2.6.6-2.oe2303.riscv64: success
+Jul 04 18:26:58 openeuler-riscv64 systemctl[2908]: [/usr/bin/systemctl --no-reload --now disable httpd.service htcacheclean.service httpd.socket] called by PID 2907 (/bin/sh /var/tmp/rpm-tmp.mEXn7E 0)
+Jul 04 18:27:00 openeuler-riscv64 systemctl[2911]: [/usr/bin/systemctl daemon-reload] called by PID 2909 (/bin/sh /var/tmp/rpm-tmp.fOPit0 0)
+Jul 04 18:27:00 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:27:01 openeuler-riscv64 systemd-rc-local-generator[2918]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:27:02 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:27:06 openeuler-riscv64 systemd[1]: Starting dnf makecache...
+░░ Subject: A start job for unit dnf-makecache.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dnf-makecache.service has begun execution.
+░░ 
+░░ The job identifier is 664.
+Jul 04 18:27:06 openeuler-riscv64 [RPM][2903]: erase httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:27:07 openeuler-riscv64 [RPM][2903]: erase httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:27:07 openeuler-riscv64 [RPM][2903]: erase mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:27:07 openeuler-riscv64 [RPM][2903]: erase openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:27:07 openeuler-riscv64 [RPM][2903]: erase httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:27:07 openeuler-riscv64 [RPM][2903]: erase apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:27:08 openeuler-riscv64 [RPM][2903]: erase apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:27:08 openeuler-riscv64 [RPM][2903]: erase mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:27:08 openeuler-riscv64 [RPM][2903]: erase mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:27:08 openeuler-riscv64 systemctl[2932]: [/usr/bin/systemctl --no-reload --now disable haproxy.service] called by PID 2931 (/bin/sh /var/tmp/rpm-tmp.1ge5Ca 0)
+Jul 04 18:27:09 openeuler-riscv64 [RPM][2903]: erase haproxy-2.6.6-2.oe2303.riscv64: success
+Jul 04 18:27:09 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rfbbcf77710b048a987a2310f81c24daf.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rfbbcf77710b048a987a2310f81c24daf.service has finished successfully.
+░░ 
+░░ The job identifier is 730.
+Jul 04 18:27:09 openeuler-riscv64 [RPM][2903]: Transaction ID 64a3f3f1 finished: 0
+Jul 04 18:27:09 openeuler-riscv64 systemctl[2937]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:27:10 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 795.
+Jul 04 18:27:11 openeuler-riscv64 dnf[2922]: Failed determining last makecache time.
+Jul 04 18:27:12 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:27:12 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 795.
+Jul 04 18:27:12 openeuler-riscv64 systemd[1]: run-rfbbcf77710b048a987a2310f81c24daf.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rfbbcf77710b048a987a2310f81c24daf.service has successfully entered the 'dead' state.
+Jul 04 18:27:13 openeuler-riscv64 dnf[2922]: mainline                                        2.1 kB/s | 3.0 kB     00:01
+Jul 04 18:27:15 openeuler-riscv64 dnf[2922]: epol                                            3.4 kB/s | 3.0 kB     00:00
+Jul 04 18:27:16 openeuler-riscv64 dnf[2922]: ceph-user                                       3.0 kB/s | 3.0 kB     00:01
+Jul 04 18:27:17 openeuler-riscv64 sudo[2479]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:27:17 openeuler-riscv64 dnf[2922]: chromium-user                                   3.6 kB/s | 3.0 kB     00:00
+Jul 04 18:27:17 openeuler-riscv64 sudo[2967]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_hdparm -x
+Jul 04 18:27:17 openeuler-riscv64 sudo[2967]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:27:26 openeuler-riscv64 dnf[2922]: libreoffice                                     361  B/s | 3.0 kB     00:08
+Jul 04 18:27:27 openeuler-riscv64 dnf[2922]: oetestsuite                                     3.5 kB/s | 3.0 kB     00:00
+Jul 04 18:27:27 openeuler-riscv64 dnf[2922]: Metadata cache created.
+Jul 04 18:27:27 openeuler-riscv64 systemd[1]: dnf-makecache.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit dnf-makecache.service has successfully entered the 'dead' state.
+Jul 04 18:27:27 openeuler-riscv64 systemd[1]: Finished dnf makecache.
+░░ Subject: A start job for unit dnf-makecache.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dnf-makecache.service has finished successfully.
+░░ 
+░░ The job identifier is 664.
+Jul 04 18:28:10 openeuler-riscv64 [RPM][3049]: Transaction ID 64a3f43a started
+Jul 04 18:28:11 openeuler-riscv64 [RPM][3049]: install hdparm-9.65-1.oe2303.riscv64: success
+Jul 04 18:28:11 openeuler-riscv64 [RPM][3049]: install hdparm-9.65-1.oe2303.riscv64: success
+Jul 04 18:28:11 openeuler-riscv64 [RPM][3049]: Transaction ID 64a3f43a finished: 0
+Jul 04 18:28:30 openeuler-riscv64 [RPM][3070]: Transaction ID 64a3f44e started
+Jul 04 18:28:30 openeuler-riscv64 [RPM][3070]: erase hdparm-9.65-1.oe2303.riscv64: success
+Jul 04 18:28:30 openeuler-riscv64 [RPM][3070]: erase hdparm-9.65-1.oe2303.riscv64: success
+Jul 04 18:28:30 openeuler-riscv64 [RPM][3070]: Transaction ID 64a3f44e finished: 0
+Jul 04 18:28:36 openeuler-riscv64 sudo[2967]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:28:37 openeuler-riscv64 sudo[3082]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_httpd -x
+Jul 04 18:28:37 openeuler-riscv64 sudo[3082]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:29:35 openeuler-riscv64 [RPM][3161]: Transaction ID 64a3f48f started
+Jul 04 18:29:35 openeuler-riscv64 [RPM][3161]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:29:36 openeuler-riscv64 [RPM][3161]: install apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:29:37 openeuler-riscv64 [RPM][3161]: install openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:29:37 openeuler-riscv64 [RPM][3161]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:29:37 openeuler-riscv64 [RPM][3161]: install apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:29:37 openeuler-riscv64 [RPM][3161]: install httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:29:38 openeuler-riscv64 [RPM][3161]: install mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:29:38 openeuler-riscv64 [RPM][3161]: install httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:29:38 openeuler-riscv64 [RPM][3161]: install mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:29:41 openeuler-riscv64 systemctl[3176]: [/usr/bin/systemctl --no-reload preset httpd.service htcacheclean.service httpd.socket] called by PID 3175 (/bin/sh /var/tmp/rpm-tmp.mv1D6n 1)
+Jul 04 18:29:41 openeuler-riscv64 [RPM][3161]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:29:42 openeuler-riscv64 systemctl[3178]: [/bin/systemctl --no-block try-restart httpd.service htcacheclean.service] called by PID 3177 (/bin/sh /var/tmp/rpm-tmp.FS7yIs 1)
+Jul 04 18:29:42 openeuler-riscv64 [RPM][3161]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:29:43 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rc5cfcb4ab19d4ed6aa9c5e8487cc258c.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rc5cfcb4ab19d4ed6aa9c5e8487cc258c.service has finished successfully.
+░░ 
+░░ The job identifier is 800.
+Jul 04 18:29:43 openeuler-riscv64 systemctl[3183]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:29:43 openeuler-riscv64 systemctl[3185]: [/usr/bin/systemctl daemon-reload] called by PID 3184 (/bin/sh /var/tmp/rpm-tmp.q2UmMJ 0)
+Jul 04 18:29:43 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 865.
+Jul 04 18:29:44 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:29:45 openeuler-riscv64 systemd-rc-local-generator[3202]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:29:47 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:29:51 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:29:51 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 865.
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:29:51 openeuler-riscv64 [RPM][3161]: install mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:29:52 openeuler-riscv64 [RPM][3161]: install httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:29:52 openeuler-riscv64 [RPM][3161]: Transaction ID 64a3f48f finished: 0
+Jul 04 18:29:52 openeuler-riscv64 systemd[1]: run-rc5cfcb4ab19d4ed6aa9c5e8487cc258c.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rc5cfcb4ab19d4ed6aa9c5e8487cc258c.service has successfully entered the 'dead' state.
+Jul 04 18:29:57 openeuler-riscv64 systemctl[3215]: [systemctl start httpd] called by PID 3129 (bash -x oe_test_httpd.sh)
+Jul 04 18:29:57 openeuler-riscv64 systemd[1]: Starting The Apache HTTP Server...
+░░ Subject: A start job for unit httpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit httpd.service has begun execution.
+░░ 
+░░ The job identifier is 868.
+Jul 04 18:30:03 openeuler-riscv64 httpd[3216]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::db24:dc3:6241:cfe6%enp0s2. Set the 'ServerName' directive globally to suppress this message
+Jul 04 18:30:03 openeuler-riscv64 systemd[1]: Started The Apache HTTP Server.
+░░ Subject: A start job for unit httpd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit httpd.service has finished successfully.
+░░ 
+░░ The job identifier is 868.
+Jul 04 18:30:07 openeuler-riscv64 systemctl[3401]: [systemctl stop httpd] called by PID 3129 (bash -x oe_test_httpd.sh)
+Jul 04 18:30:07 openeuler-riscv64 systemd[1]: Stopping The Apache HTTP Server...
+░░ Subject: A stop job for unit httpd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit httpd.service has begun execution.
+░░ 
+░░ The job identifier is 934.
+Jul 04 18:30:08 openeuler-riscv64 systemd[1]: httpd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit httpd.service has successfully entered the 'dead' state.
+Jul 04 18:30:08 openeuler-riscv64 systemd[1]: Stopped The Apache HTTP Server.
+░░ Subject: A stop job for unit httpd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit httpd.service has finished.
+░░ 
+░░ The job identifier is 934 and the job result is done.
+Jul 04 18:30:19 openeuler-riscv64 [RPM][3407]: Transaction ID 64a3f4bb started
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:30:20 openeuler-riscv64 [RPM][3407]: erase mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:30:20 openeuler-riscv64 systemctl[3412]: [/usr/bin/systemctl --no-reload --now disable httpd.service htcacheclean.service httpd.socket] called by PID 3411 (/bin/sh /var/tmp/rpm-tmp.cTo3Zb 0)
+Jul 04 18:30:22 openeuler-riscv64 systemctl[3415]: [/usr/bin/systemctl daemon-reload] called by PID 3413 (/bin/sh /var/tmp/rpm-tmp.cBU3cl 0)
+Jul 04 18:30:22 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:30:23 openeuler-riscv64 systemd-rc-local-generator[3422]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:30:24 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:30:29 openeuler-riscv64 [RPM][3407]: erase httpd-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:30:29 openeuler-riscv64 [RPM][3407]: erase httpd-filesystem-2.4.55-1.oe2303.noarch: success
+Jul 04 18:30:29 openeuler-riscv64 [RPM][3407]: erase mailcap-2.1.53-3.oe2303.noarch: success
+Jul 04 18:30:29 openeuler-riscv64 [RPM][3407]: erase openEuler-logos-httpd-1.0-8.oe2303.noarch: success
+Jul 04 18:30:29 openeuler-riscv64 [RPM][3407]: erase httpd-tools-2.4.55-1.oe2303.riscv64: success
+Jul 04 18:30:30 openeuler-riscv64 [RPM][3407]: erase apr-util-1.6.1-14.oe2303.riscv64: success
+Jul 04 18:30:30 openeuler-riscv64 [RPM][3407]: erase apr-1.7.0-5.oe2303.riscv64: success
+Jul 04 18:30:30 openeuler-riscv64 [RPM][3407]: erase mariadb-connector-c-3.1.13-7.oe2303.riscv64: success
+Jul 04 18:30:30 openeuler-riscv64 [RPM][3407]: erase mod_http2-2.0.3-1.oe2303.riscv64: success
+Jul 04 18:30:31 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-raaf59678bd8e41f0955338c2b7445abb.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-raaf59678bd8e41f0955338c2b7445abb.service has finished successfully.
+░░ 
+░░ The job identifier is 938.
+Jul 04 18:30:31 openeuler-riscv64 [RPM][3407]: Transaction ID 64a3f4bb finished: 0
+Jul 04 18:30:31 openeuler-riscv64 systemctl[3436]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:30:31 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1003.
+Jul 04 18:30:33 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:30:33 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1003.
+Jul 04 18:30:34 openeuler-riscv64 systemd[1]: run-raaf59678bd8e41f0955338c2b7445abb.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-raaf59678bd8e41f0955338c2b7445abb.service has successfully entered the 'dead' state.
+Jul 04 18:30:39 openeuler-riscv64 sudo[3082]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:30:39 openeuler-riscv64 sudo[3464]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f smoke-basic-os -r oe_test_iscsi -x
+Jul 04 18:30:39 openeuler-riscv64 sudo[3464]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Jul 04 18:31:02 openeuler-riscv64 anacron[1375]: Job `cron.daily' started
+Jul 04 18:31:02 openeuler-riscv64 run-parts[3526]: (/etc/cron.daily) starting logrotate
+Jul 04 18:31:03 openeuler-riscv64 run-parts[3531]: (/etc/cron.daily) finished logrotate
+Jul 04 18:31:03 openeuler-riscv64 run-parts[3533]: (/etc/cron.daily) starting man-db.cron
+Jul 04 18:31:04 openeuler-riscv64 run-parts[3546]: (/etc/cron.daily) finished man-db.cron
+Jul 04 18:31:04 openeuler-riscv64 run-parts[3548]: (/etc/cron.daily) starting rpm
+Jul 04 18:31:07 openeuler-riscv64 run-parts[3557]: (/etc/cron.daily) finished rpm
+Jul 04 18:31:07 openeuler-riscv64 anacron[1375]: Job `cron.daily' terminated
+Jul 04 18:31:45 openeuler-riscv64 [RPM][3576]: Transaction ID 64a3f511 started
+Jul 04 18:31:48 openeuler-riscv64 [RPM][3576]: install userspace-rcu-0.13.2-1.oe2303.riscv64: success
+Jul 04 18:31:50 openeuler-riscv64 [RPM][3576]: install python3-urwid-2.1.2-4.oe2303.riscv64: success
+Jul 04 18:31:50 openeuler-riscv64 [RPM][3576]: install python3-configshell-1.1.27-4.oe2303.noarch: success
+Jul 04 18:31:50 openeuler-riscv64 [RPM][3576]: install python3-pyudev-0.24.0-1.oe2303.noarch: success
+Jul 04 18:31:50 openeuler-riscv64 [RPM][3576]: install python3-kmod-30-2.oe2303.riscv64: success
+Jul 04 18:31:51 openeuler-riscv64 [RPM][3576]: install python3-rtslib-2.1.75-1.oe2303.noarch: success
+Jul 04 18:31:51 openeuler-riscv64 systemctl[3582]: [/usr/bin/systemctl --no-reload preset target.service] called by PID 3581 (/bin/sh /var/tmp/rpm-tmp.EMDb14 1)
+Jul 04 18:31:51 openeuler-riscv64 [RPM][3576]: install target-restore-2.1.75-1.oe2303.noarch: success
+Jul 04 18:31:51 openeuler-riscv64 [RPM][3576]: install open-isns-help-0.101-3.oe2303.noarch: success
+Jul 04 18:31:52 openeuler-riscv64 systemctl[3584]: [/usr/bin/systemctl --no-reload preset isnsd.service] called by PID 3583 (/bin/sh /var/tmp/rpm-tmp.oTAdAI 1)
+Jul 04 18:31:52 openeuler-riscv64 [RPM][3576]: install open-isns-0.101-3.oe2303.riscv64: success
+Jul 04 18:31:52 openeuler-riscv64 [RPM][3576]: install kpartx-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:31:53 openeuler-riscv64 [RPM][3576]: install gobject-introspection-1.74.0-1.oe2303.riscv64: success
+Jul 04 18:31:53 openeuler-riscv64 [RPM][3576]: install python3-gobject-base-3.42.2-1.oe2303.riscv64: success
+Jul 04 18:31:54 openeuler-riscv64 [RPM][3576]: install targetcli-2.1.54-1.oe2303.noarch: success
+Jul 04 18:31:55 openeuler-riscv64 [RPM][3576]: install multipath-tools-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:31:56 openeuler-riscv64 systemctl[3591]: [/usr/bin/systemctl --no-reload preset iscsi.service iscsid.service iscsid.socket] called by PID 3589 (/bin/sh /var/tmp/rpm-tmp.578LE0 1)
+Jul 04 18:31:56 openeuler-riscv64 systemctl[3593]: [/bin/systemctl enable iscsi.service] called by PID 3589 (/bin/sh /var/tmp/rpm-tmp.578LE0 1)
+Jul 04 18:31:56 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:31:57 openeuler-riscv64 systemd-rc-local-generator[3600]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:31:59 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:32:03 openeuler-riscv64 systemctl[3604]: [/bin/systemctl enable iscsid.socket] called by PID 3589 (/bin/sh /var/tmp/rpm-tmp.578LE0 1)
+Jul 04 18:32:03 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:32:04 openeuler-riscv64 systemd-rc-local-generator[3611]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:32:05 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:32:09 openeuler-riscv64 [RPM][3576]: install open-iscsi-2.1.5-12.oe2303.riscv64: success
+Jul 04 18:32:11 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r90f683b7441442d1a7e5f4bbf5e713c3.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r90f683b7441442d1a7e5f4bbf5e713c3.service has finished successfully.
+░░ 
+░░ The job identifier is 1006.
+Jul 04 18:32:11 openeuler-riscv64 systemctl[3619]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:32:11 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1071.
+Jul 04 18:32:11 openeuler-riscv64 systemctl[3625]: [/usr/bin/systemctl daemon-reload] called by PID 3623 (/bin/sh /var/tmp/rpm-tmp.luktlP 0)
+Jul 04 18:32:12 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:32:13 openeuler-riscv64 systemd-rc-local-generator[3632]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:32:15 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:32:19 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:32:19 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1071.
+Jul 04 18:32:19 openeuler-riscv64 systemd[1]: run-r90f683b7441442d1a7e5f4bbf5e713c3.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r90f683b7441442d1a7e5f4bbf5e713c3.service has successfully entered the 'dead' state.
+Jul 04 18:32:19 openeuler-riscv64 [RPM][3576]: install userspace-rcu-0.13.2-1.oe2303.riscv64: success
+Jul 04 18:32:19 openeuler-riscv64 [RPM][3576]: install python3-urwid-2.1.2-4.oe2303.riscv64: success
+Jul 04 18:32:19 openeuler-riscv64 [RPM][3576]: install python3-configshell-1.1.27-4.oe2303.noarch: success
+Jul 04 18:32:19 openeuler-riscv64 [RPM][3576]: install python3-pyudev-0.24.0-1.oe2303.noarch: success
+Jul 04 18:32:19 openeuler-riscv64 [RPM][3576]: install python3-kmod-30-2.oe2303.riscv64: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install python3-rtslib-2.1.75-1.oe2303.noarch: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install target-restore-2.1.75-1.oe2303.noarch: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install open-isns-help-0.101-3.oe2303.noarch: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install open-isns-0.101-3.oe2303.riscv64: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install kpartx-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install gobject-introspection-1.74.0-1.oe2303.riscv64: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install python3-gobject-base-3.42.2-1.oe2303.riscv64: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install targetcli-2.1.54-1.oe2303.noarch: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install multipath-tools-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: install open-iscsi-2.1.5-12.oe2303.riscv64: success
+Jul 04 18:32:20 openeuler-riscv64 [RPM][3576]: Transaction ID 64a3f511 finished: 0
+Jul 04 18:32:24 openeuler-riscv64 systemctl[3645]: [systemctl stop firewalld] called by PID 3511 (bash -x oe_test_iscsi.sh)
+Jul 04 18:33:03 openeuler-riscv64 systemctl[3678]: [systemctl restart target] called by PID 3511 (bash -x oe_test_iscsi.sh)
+Jul 04 18:33:03 openeuler-riscv64 systemd[1]: Starting Load Kernel Module configfs...
+░░ Subject: A start job for unit modprobe@configfs.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit modprobe@configfs.service has begun execution.
+░░ 
+░░ The job identifier is 1079.
+Jul 04 18:33:03 openeuler-riscv64 systemd[1]: modprobe@configfs.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit modprobe@configfs.service has successfully entered the 'dead' state.
+Jul 04 18:33:03 openeuler-riscv64 systemd[1]: Finished Load Kernel Module configfs.
+░░ Subject: A start job for unit modprobe@configfs.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit modprobe@configfs.service has finished successfully.
+░░ 
+░░ The job identifier is 1079.
+Jul 04 18:33:03 openeuler-riscv64 systemd[1]: Condition check resulted in Kernel Configuration File System being skipped.
+░░ Subject: A start job for unit sys-kernel-config.mount has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sys-kernel-config.mount has finished successfully.
+░░ 
+░░ The job identifier is 1076.
+Jul 04 18:33:04 openeuler-riscv64 systemd[1]: Starting Restore LIO kernel target configuration...
+░░ Subject: A start job for unit target.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit target.service has begun execution.
+░░ 
+░░ The job identifier is 1075.
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: Traceback (most recent call last):
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/lib/python3.10/site-packages/rtslib_fb/root.py", line 77, in __init__
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     mount_configfs()
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/lib/python3.10/site-packages/rtslib_fb/utils.py", line 449, in mount_configfs
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     raise RTSLibError("Cannot mount configfs")
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: rtslib_fb.utils.RTSLibError: Cannot mount configfs
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: During handling of the above exception, another exception occurred:
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: Traceback (most recent call last):
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/lib/python3.10/site-packages/rtslib_fb/utils.py", line 436, in modprobe
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     kmod.Kmod().modprobe(module)
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "libkmod/python/kmod/kmod.pyx", line 114, in kmod.kmod.Kmod.modprobe
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: kmod.error.KmodError: Could not modprobe configfs
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: During handling of the above exception, another exception occurred:
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: Traceback (most recent call last):
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/bin/targetctl", line 82, in <module>
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     main()
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/bin/targetctl", line 79, in main
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     funcs[sys.argv[1]](savefile)
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/bin/targetctl", line 47, in restore
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     errors = RTSRoot().restore_from_file(restore_file=from_file)
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/lib/python3.10/site-packages/rtslib_fb/root.py", line 79, in __init__
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     modprobe('configfs')
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:   File "/usr/lib/python3.10/site-packages/rtslib_fb/utils.py", line 438, in modprobe
+Jul 04 18:33:05 openeuler-riscv64 target[3682]:     raise RTSLibError("Could not load module: %s" % module)
+Jul 04 18:33:05 openeuler-riscv64 target[3682]: rtslib_fb.utils.RTSLibError: Could not load module: configfs
+Jul 04 18:33:05 openeuler-riscv64 systemd[1]: target.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit target.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Jul 04 18:33:05 openeuler-riscv64 systemd[1]: target.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit target.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:05 openeuler-riscv64 systemd[1]: Failed to start Restore LIO kernel target configuration.
+░░ Subject: A start job for unit target.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit target.service has finished with a failure.
+░░ 
+░░ The job identifier is 1075 and the job result is failed.
+Jul 04 18:33:06 openeuler-riscv64 systemctl[3689]: [systemctl restart iscsid] called by PID 3511 (bash -x oe_test_iscsi.sh)
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Starting Open-iSCSI...
+░░ Subject: A start job for unit iscsid.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has begun execution.
+░░ 
+░░ The job identifier is 1140.
+Jul 04 18:33:07 openeuler-riscv64 iscsid[3690]: iscsid: can not create NETLINK_ISCSI socket [Protocol not supported]
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: iscsid.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit iscsid.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: iscsid.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit iscsid.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Failed to start Open-iSCSI.
+░░ Subject: A start job for unit iscsid.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has finished with a failure.
+░░ 
+░░ The job identifier is 1140 and the job result is failed.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Reached target Preparation for Remote File Systems.
+░░ Subject: A start job for unit remote-fs-pre.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit remote-fs-pre.target has finished successfully.
+░░ 
+░░ The job identifier is 1143.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: iscsid.service: Scheduled restart job, restart counter is at 1.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Automatic restarting of the unit iscsid.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Stopped Open-iSCSI.
+░░ Subject: A stop job for unit iscsid.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit iscsid.service has finished.
+░░ 
+░░ The job identifier is 1147 and the job result is done.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Starting Open-iSCSI...
+░░ Subject: A start job for unit iscsid.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has begun execution.
+░░ 
+░░ The job identifier is 1147.
+Jul 04 18:33:07 openeuler-riscv64 iscsid[3694]: iscsid: can not create NETLINK_ISCSI socket [Protocol not supported]
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: iscsid.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit iscsid.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: iscsid.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit iscsid.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Failed to start Open-iSCSI.
+░░ Subject: A start job for unit iscsid.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has finished with a failure.
+░░ 
+░░ The job identifier is 1147 and the job result is failed.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: iscsid.service: Scheduled restart job, restart counter is at 2.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Automatic restarting of the unit iscsid.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Stopped Open-iSCSI.
+░░ Subject: A stop job for unit iscsid.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit iscsid.service has finished.
+░░ 
+░░ The job identifier is 1152 and the job result is done.
+Jul 04 18:33:07 openeuler-riscv64 systemd[1]: Starting Open-iSCSI...
+░░ Subject: A start job for unit iscsid.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has begun execution.
+░░ 
+░░ The job identifier is 1152.
+Jul 04 18:33:08 openeuler-riscv64 iscsid[3697]: iscsid: can not create NETLINK_ISCSI socket [Protocol not supported]
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: iscsid.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit iscsid.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: iscsid.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit iscsid.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: Failed to start Open-iSCSI.
+░░ Subject: A start job for unit iscsid.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has finished with a failure.
+░░ 
+░░ The job identifier is 1152 and the job result is failed.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: iscsid.service: Scheduled restart job, restart counter is at 3.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Automatic restarting of the unit iscsid.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: Stopped Open-iSCSI.
+░░ Subject: A stop job for unit iscsid.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit iscsid.service has finished.
+░░ 
+░░ The job identifier is 1157 and the job result is done.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: Starting Open-iSCSI...
+░░ Subject: A start job for unit iscsid.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has begun execution.
+░░ 
+░░ The job identifier is 1157.
+Jul 04 18:33:08 openeuler-riscv64 iscsid[3701]: iscsid: can not create NETLINK_ISCSI socket [Protocol not supported]
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: iscsid.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit iscsid.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: iscsid.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit iscsid.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: Failed to start Open-iSCSI.
+░░ Subject: A start job for unit iscsid.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has finished with a failure.
+░░ 
+░░ The job identifier is 1157 and the job result is failed.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: iscsid.service: Scheduled restart job, restart counter is at 4.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Automatic restarting of the unit iscsid.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: Stopped Open-iSCSI.
+░░ Subject: A stop job for unit iscsid.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit iscsid.service has finished.
+░░ 
+░░ The job identifier is 1162 and the job result is done.
+Jul 04 18:33:08 openeuler-riscv64 systemd[1]: Starting Open-iSCSI...
+░░ Subject: A start job for unit iscsid.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has begun execution.
+░░ 
+░░ The job identifier is 1162.
+Jul 04 18:33:09 openeuler-riscv64 iscsid[3704]: iscsid: can not create NETLINK_ISCSI socket [Protocol not supported]
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: iscsid.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit iscsid.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: iscsid.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit iscsid.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: Failed to start Open-iSCSI.
+░░ Subject: A start job for unit iscsid.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has finished with a failure.
+░░ 
+░░ The job identifier is 1162 and the job result is failed.
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: iscsid.service: Scheduled restart job, restart counter is at 5.
+░░ Subject: Automatic restarting of a unit has been scheduled
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Automatic restarting of the unit iscsid.service has been scheduled, as the result for
+░░ the configured Restart= setting for the unit.
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: Stopped Open-iSCSI.
+░░ Subject: A stop job for unit iscsid.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit iscsid.service has finished.
+░░ 
+░░ The job identifier is 1167 and the job result is done.
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: iscsid.service: Start request repeated too quickly.
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: iscsid.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit iscsid.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:09 openeuler-riscv64 systemd[1]: Failed to start Open-iSCSI.
+░░ Subject: A start job for unit iscsid.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit iscsid.service has finished with a failure.
+░░ 
+░░ The job identifier is 1167 and the job result is failed.
+Jul 04 18:33:10 openeuler-riscv64 systemctl[3709]: [systemctl restart multipathd] called by PID 3511 (bash -x oe_test_iscsi.sh)
+Jul 04 18:33:10 openeuler-riscv64 systemd[1]: Starting Wait for udev To Complete Device Initialization...
+░░ Subject: A start job for unit systemd-udev-settle.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udev-settle.service has begun execution.
+░░ 
+░░ The job identifier is 1181.
+Jul 04 18:33:10 openeuler-riscv64 udevadm[3710]: systemd-udev-settle.service is deprecated. Please fix multipathd.service not to pull it in.
+Jul 04 18:33:10 openeuler-riscv64 systemd[1]: Finished Wait for udev To Complete Device Initialization.
+░░ Subject: A start job for unit systemd-udev-settle.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udev-settle.service has finished successfully.
+░░ 
+░░ The job identifier is 1181.
+Jul 04 18:33:10 openeuler-riscv64 systemd[1]: Starting Device-Mapper Multipath Device Controller...
+░░ Subject: A start job for unit multipathd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit multipathd.service has begun execution.
+░░ 
+░░ The job identifier is 1172.
+Jul 04 18:33:10 openeuler-riscv64 modprobe[3712]: modprobe: WARNING: Module scsi_dh_alua not found in directory /lib/modules/6.1.8-3.oe2303.riscv64
+Jul 04 18:33:10 openeuler-riscv64 modprobe[3712]: modprobe: WARNING: Module scsi_dh_emc not found in directory /lib/modules/6.1.8-3.oe2303.riscv64
+Jul 04 18:33:10 openeuler-riscv64 modprobe[3712]: modprobe: WARNING: Module scsi_dh_rdac not found in directory /lib/modules/6.1.8-3.oe2303.riscv64
+Jul 04 18:33:10 openeuler-riscv64 modprobe[3712]: modprobe: WARNING: Module dm-multipath not found in directory /lib/modules/6.1.8-3.oe2303.riscv64
+Jul 04 18:33:11 openeuler-riscv64 multipathd[3716]: --------start up--------
+Jul 04 18:33:11 openeuler-riscv64 multipathd[3716]: read /etc/multipath.conf
+Jul 04 18:33:11 openeuler-riscv64 kernel: device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+Jul 04 18:33:11 openeuler-riscv64 multipathd[3716]: DM multipath kernel driver not loaded
+Jul 04 18:33:11 openeuler-riscv64 multipathd[3716]: path checkers start up
+Jul 04 18:33:11 openeuler-riscv64 systemd[1]: multipathd.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit multipathd.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Jul 04 18:33:11 openeuler-riscv64 systemd[1]: multipathd.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit multipathd.service has entered the 'failed' state with result 'exit-code'.
+Jul 04 18:33:11 openeuler-riscv64 systemd[1]: Failed to start Device-Mapper Multipath Device Controller.
+░░ Subject: A start job for unit multipathd.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit multipathd.service has finished with a failure.
+░░ 
+░░ The job identifier is 1172 and the job result is failed.
+Jul 04 18:33:19 openeuler-riscv64 systemctl[3743]: [systemctl stop multipathd] called by PID 3511 (bash -x oe_test_iscsi.sh)
+Jul 04 18:33:19 openeuler-riscv64 systemctl[3744]: [systemctl stop iscsid] called by PID 3511 (bash -x oe_test_iscsi.sh)
+Jul 04 18:33:19 openeuler-riscv64 systemctl[3745]: [systemctl stop target] called by PID 3511 (bash -x oe_test_iscsi.sh)
+Jul 04 18:33:37 openeuler-riscv64 [RPM][3753]: Transaction ID 64a3f581 started
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase targetcli-2.1.54-1.oe2303.noarch: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase multipath-tools-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase python3-configshell-1.1.27-4.oe2303.noarch: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase python3-gobject-base-3.42.2-1.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase open-iscsi-2.1.5-12.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase target-restore-2.1.75-1.oe2303.noarch: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase python3-rtslib-2.1.75-1.oe2303.noarch: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase open-isns-0.101-3.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase open-isns-help-0.101-3.oe2303.noarch: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase python3-pyudev-0.24.0-1.oe2303.noarch: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase python3-kmod-30-2.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase gobject-introspection-1.74.0-1.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase python3-urwid-2.1.2-4.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase kpartx-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:33:39 openeuler-riscv64 [RPM][3753]: erase userspace-rcu-0.13.2-1.oe2303.riscv64: success
+Jul 04 18:33:40 openeuler-riscv64 systemctl[3759]: [/usr/bin/systemctl daemon-reload] called by PID 3757 (/bin/sh /var/tmp/rpm-tmp.CLrObW 0)
+Jul 04 18:33:40 openeuler-riscv64 systemd[1]: Reloading.
+Jul 04 18:33:41 openeuler-riscv64 systemd-rc-local-generator[3766]: /etc/rc.d/rc.local is not marked executable, skipping.
+Jul 04 18:33:42 openeuler-riscv64 systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Jul 04 18:33:46 openeuler-riscv64 [RPM][3753]: erase targetcli-2.1.54-1.oe2303.noarch: success
+Jul 04 18:33:46 openeuler-riscv64 systemctl[3771]: [/usr/bin/systemctl --no-reload --now disable multipathd.service] called by PID 3770 (/bin/sh /var/tmp/rpm-tmp.bF40yG 0)
+Jul 04 18:33:47 openeuler-riscv64 [RPM][3753]: erase multipath-tools-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:33:47 openeuler-riscv64 [RPM][3753]: erase python3-configshell-1.1.27-4.oe2303.noarch: success
+Jul 04 18:33:48 openeuler-riscv64 [RPM][3753]: erase python3-gobject-base-3.42.2-1.oe2303.riscv64: success
+Jul 04 18:33:48 openeuler-riscv64 systemctl[3776]: [/usr/bin/systemctl --no-reload --now disable iscsi.service] called by PID 3775 (/bin/sh /var/tmp/rpm-tmp.QW2dtK 0)
+Jul 04 18:33:48 openeuler-riscv64 systemctl[3777]: [/usr/bin/systemctl --no-reload --now disable iscsid.service iscsid.socket] called by PID 3775 (/bin/sh /var/tmp/rpm-tmp.QW2dtK 0)
+Jul 04 18:33:49 openeuler-riscv64 [RPM][3753]: erase open-iscsi-2.1.5-12.oe2303.riscv64: success
+Jul 04 18:33:49 openeuler-riscv64 systemctl[3782]: [/usr/bin/systemctl --no-reload --now disable target.service] called by PID 3781 (/bin/sh /var/tmp/rpm-tmp.rNR15t 0)
+Jul 04 18:33:50 openeuler-riscv64 [RPM][3753]: erase target-restore-2.1.75-1.oe2303.noarch: success
+Jul 04 18:33:50 openeuler-riscv64 [RPM][3753]: erase python3-rtslib-2.1.75-1.oe2303.noarch: success
+Jul 04 18:33:50 openeuler-riscv64 systemctl[3786]: [/usr/bin/systemctl --no-reload --now disable isnsd.service] called by PID 3785 (/bin/sh /var/tmp/rpm-tmp.9oUKXI 0)
+Jul 04 18:33:51 openeuler-riscv64 [RPM][3753]: erase open-isns-0.101-3.oe2303.riscv64: success
+Jul 04 18:33:51 openeuler-riscv64 [RPM][3753]: erase open-isns-help-0.101-3.oe2303.noarch: success
+Jul 04 18:33:51 openeuler-riscv64 [RPM][3753]: erase python3-pyudev-0.24.0-1.oe2303.noarch: success
+Jul 04 18:33:51 openeuler-riscv64 [RPM][3753]: erase python3-kmod-30-2.oe2303.riscv64: success
+Jul 04 18:33:52 openeuler-riscv64 [RPM][3753]: erase gobject-introspection-1.74.0-1.oe2303.riscv64: success
+Jul 04 18:33:52 openeuler-riscv64 [RPM][3753]: erase python3-urwid-2.1.2-4.oe2303.riscv64: success
+Jul 04 18:33:52 openeuler-riscv64 [RPM][3753]: erase kpartx-0.8.7-8.oe2303.riscv64: success
+Jul 04 18:33:53 openeuler-riscv64 [RPM][3753]: erase userspace-rcu-0.13.2-1.oe2303.riscv64: success
+Jul 04 18:33:53 openeuler-riscv64 systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rfc2d6d94b864420686d436142455cd99.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rfc2d6d94b864420686d436142455cd99.service has finished successfully.
+░░ 
+░░ The job identifier is 1193.
+Jul 04 18:33:53 openeuler-riscv64 [RPM][3753]: Transaction ID 64a3f581 finished: 0
+Jul 04 18:33:54 openeuler-riscv64 systemctl[3794]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/sbin/init)
+Jul 04 18:33:54 openeuler-riscv64 systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1258.
+Jul 04 18:33:55 openeuler-riscv64 systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Jul 04 18:33:55 openeuler-riscv64 systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1258.
+Jul 04 18:33:56 openeuler-riscv64 systemd[1]: run-rfc2d6d94b864420686d436142455cd99.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rfc2d6d94b864420686d436142455cd99.service has successfully entered the 'dead' state.
+Jul 04 18:34:01 openeuler-riscv64 sudo[3464]: pam_unix(sudo:session): session closed for user root
+Jul 04 18:34:01 openeuler-riscv64 sudo[3806]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/journalctl -xe --no-pager
+Jul 04 18:34:01 openeuler-riscv64 sudo[3806]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)

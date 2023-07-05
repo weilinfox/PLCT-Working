@@ -1,0 +1,321 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start testing...'
++ message='Start testing...'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start testing...'
+Tue Jul  4 18:34:13 2023 - INFO  - Start testing...
++ journalctl --no-pager
++ CHECK_RESULT 0 0 0 'journalctl --no-pager failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='journalctl --no-pager failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ cat all_log
++ grep -E 'LVM|NetworkManager'
+Jun 02 08:21:36 openeuler-riscv64 systemd[1]: Listening on LVM2 poll daemon socket.
+Jun 02 08:21:36 openeuler-riscv64 systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jun 02 08:21:36 openeuler-riscv64 systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jun 02 08:21:50 openeuler-riscv64 NetworkManager[332]: <info>  [1685665310.9291] NetworkManager (version 1.32.12-16.oe2303) is starting... (for the first time)
+Jun 02 08:21:50 openeuler-riscv64 NetworkManager[332]: <info>  [1685665310.9365] Read config: /etc/NetworkManager/NetworkManager.conf
+Jun 02 08:21:51 openeuler-riscv64 NetworkManager[332]: <info>  [1685665311.0589] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Jun 02 08:21:51 openeuler-riscv64 NetworkManager[332]: <info>  [1685665311.2890] manager[0xaaaaaaac7600a0]: monitoring kernel firmware directory '/lib/firmware'.
+Jun 02 08:21:51 openeuler-riscv64 dbus-daemon[316]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=0 pid=332 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.2892] hostname: hostname: using hostnamed
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.2934] hostname: hostname changed from (none) to "openeuler-riscv64"
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.3046] dns-mgr[0xaaaaaaac744250]: init: dns=default rc-manager=symlink
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4197] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-adsl.so)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4474] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-team.so)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4565] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-wifi.so)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4613] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4657] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4685] manager: Networking is enabled by state file
+Jun 02 08:21:53 openeuler-riscv64 dbus-daemon[316]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=332 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4966] dhcp-init: default DHCP client 'dhclient' is not available
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.4978] dhcp-init: Using DHCP client 'internal'
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.5229] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-settings-plugin-ifcfg-rh.so")
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.5298] settings: Loaded settings plugin: keyfile (internal)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.5814] device (lo): carrier: link connected
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.5928] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.6293] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.7320] settings: (eth0): created default wired connection 'Wired connection 1'
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.7505] device (eth0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.7726] device (eth0): carrier: link connected
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.8208] manager: (sit0): new IPTunnel device (/org/freedesktop/NetworkManager/Devices/3)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9025] device (eth0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9201] policy: auto-activating connection 'Wired connection 1' (c1c54ef0-a1fe-3e7a-9c77-29995cc0060d)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9386] device (eth0): Activation: starting connection 'Wired connection 1' (c1c54ef0-a1fe-3e7a-9c77-29995cc0060d)
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9417] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9471] manager: NetworkManager state is now CONNECTING
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9525] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9681] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jun 02 08:21:53 openeuler-riscv64 NetworkManager[332]: <info>  [1685665313.9886] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.1389] dhcp4 (eth0): state changed unknown -> bound, address=10.0.2.15
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.1816] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.3807] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.3844] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.3933] manager: NetworkManager state is now CONNECTED_LOCAL
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.3994] manager: NetworkManager state is now CONNECTED_SITE
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.4012] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.4134] device (eth0): Activation: successful, device activated.
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.4233] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 02 08:21:54 openeuler-riscv64 NetworkManager[332]: <info>  [1685665314.4324] manager: startup complete
+Jun 02 08:21:55 openeuler-riscv64 NetworkManager[332]: <info>  [1685665315.8854] policy: set 'Wired connection 1' (eth0) as default for IPv6 routing and DNS
+Jun 02 08:22:05 openeuler-riscv64 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jun 02 08:43:15 openeuler-riscv64 systemd[1]: Closed LVM2 poll daemon socket.
+Jun 02 08:43:15 openeuler-riscv64 systemd[1]: NetworkManager-wait-online.service: Deactivated successfully.
+Jun 02 08:43:16 openeuler-riscv64 NetworkManager[332]: <info>  [1685666596.1457] caught SIGTERM, shutting down normally.
+Jun 02 08:43:16 openeuler-riscv64 NetworkManager[332]: <info>  [1685666596.2104] dhcp4 (eth0): canceled DHCP transaction
+Jun 02 08:43:16 openeuler-riscv64 NetworkManager[332]: <info>  [1685666596.2112] dhcp4 (eth0): state changed bound -> terminated
+Jun 02 08:43:16 openeuler-riscv64 NetworkManager[332]: <info>  [1685666596.2177] manager: NetworkManager state is now CONNECTED_SITE
+Jun 02 08:43:16 openeuler-riscv64 dbus-daemon[316]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=332 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 02 08:43:16 openeuler-riscv64 NetworkManager[332]: <info>  [1685666596.2828] exiting (success)
+Jun 02 08:43:16 openeuler-riscv64 systemd[1]: NetworkManager.service: Deactivated successfully.
+Jun 02 08:43:17 openeuler-riscv64 systemd[1]: Stopping Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jun 02 08:43:17 openeuler-riscv64 systemd[1]: Stopped Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jun 25 12:04:16 openeuler-riscv64 systemd[1]: Listening on LVM2 poll daemon socket.
+Jun 25 12:04:16 openeuler-riscv64 systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jun 25 12:04:16 openeuler-riscv64 systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jun 25 12:04:25 openeuler-riscv64 NetworkManager[313]: <info>  [1687665865.1517] NetworkManager (version 1.32.12-16.oe2303) is starting... (for the first time)
+Jun 25 12:04:25 openeuler-riscv64 NetworkManager[313]: <info>  [1687665865.1594] Read config: /etc/NetworkManager/NetworkManager.conf
+Jun 25 12:04:25 openeuler-riscv64 NetworkManager[313]: <info>  [1687665865.2630] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Jun 25 12:04:25 openeuler-riscv64 NetworkManager[313]: <info>  [1687665865.5033] manager[0xaaaaaab9ae60b0]: monitoring kernel firmware directory '/lib/firmware'.
+Jun 25 12:04:25 openeuler-riscv64 dbus-daemon[307]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.3' (uid=0 pid=313 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.3551] hostname: hostname: using hostnamed
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.3561] hostname: hostname changed from (none) to "openeuler-riscv64"
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.3728] dns-mgr[0xaaaaaab9aca250]: init: dns=default rc-manager=symlink
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.4927] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-adsl.so)
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5175] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-team.so)
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5315] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-wifi.so)
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5358] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5380] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5391] manager: Networking is enabled by state file
+Jun 25 12:04:27 openeuler-riscv64 dbus-daemon[307]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=313 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5604] dhcp-init: default DHCP client 'dhclient' is not available
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5625] dhcp-init: Using DHCP client 'internal'
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5960] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-settings-plugin-ifcfg-rh.so")
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.5995] settings: Loaded settings plugin: keyfile (internal)
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.6455] device (lo): carrier: link connected
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.6568] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.6864] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.7999] settings: (eth0): created default wired connection 'Wired connection 1'
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.8176] device (eth0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.8390] device (eth0): carrier: link connected
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.8799] manager: (sit0): new IPTunnel device (/org/freedesktop/NetworkManager/Devices/3)
+Jun 25 12:04:27 openeuler-riscv64 NetworkManager[313]: <info>  [1687665867.9821] device (eth0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.0007] policy: auto-activating connection 'Wired connection 1' (c1c54ef0-a1fe-3e7a-9c77-29995cc0060d)
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.0184] device (eth0): Activation: starting connection 'Wired connection 1' (c1c54ef0-a1fe-3e7a-9c77-29995cc0060d)
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.0211] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.0267] manager: NetworkManager state is now CONNECTING
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.0318] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.0778] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.1010] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.1967] dhcp4 (eth0): state changed unknown -> bound, address=10.0.2.15
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.2225] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.3682] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.3710] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.3781] manager: NetworkManager state is now CONNECTED_LOCAL
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.3847] manager: NetworkManager state is now CONNECTED_SITE
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.3864] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.4297] device (eth0): Activation: successful, device activated.
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.4443] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 25 12:04:28 openeuler-riscv64 NetworkManager[313]: <info>  [1687665868.4565] manager: startup complete
+Jun 25 12:04:30 openeuler-riscv64 NetworkManager[313]: <info>  [1687665870.1808] policy: set 'Wired connection 1' (eth0) as default for IPv6 routing and DNS
+Jun 25 12:04:39 openeuler-riscv64 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jun 25 12:13:38 openeuler-riscv64 systemd[1]: Closed LVM2 poll daemon socket.
+Jun 25 12:13:38 openeuler-riscv64 systemd[1]: NetworkManager-wait-online.service: Deactivated successfully.
+Jun 25 12:13:39 openeuler-riscv64 NetworkManager[313]: <info>  [1687666419.3895] caught SIGTERM, shutting down normally.
+Jun 25 12:13:39 openeuler-riscv64 NetworkManager[313]: <info>  [1687666419.4504] dhcp4 (eth0): canceled DHCP transaction
+Jun 25 12:13:39 openeuler-riscv64 NetworkManager[313]: <info>  [1687666419.4512] dhcp4 (eth0): state changed bound -> terminated
+Jun 25 12:13:39 openeuler-riscv64 NetworkManager[313]: <info>  [1687666419.4580] manager: NetworkManager state is now CONNECTED_SITE
+Jun 25 12:13:39 openeuler-riscv64 dbus-daemon[307]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=313 comm="/usr/sbin/NetworkManager --no-daemon")
+Jun 25 12:13:39 openeuler-riscv64 NetworkManager[313]: <info>  [1687666419.5610] exiting (success)
+Jun 25 12:13:39 openeuler-riscv64 systemd[1]: NetworkManager.service: Deactivated successfully.
+Jun 25 12:13:40 openeuler-riscv64 systemd[1]: Stopping Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jun 25 12:13:40 openeuler-riscv64 systemd[1]: Stopped Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jul 04 10:44:29 openeuler-riscv64 systemd[1]: Listening on LVM2 poll daemon socket.
+Jul 04 10:44:29 openeuler-riscv64 systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jul 04 10:44:29 openeuler-riscv64 systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jul 04 10:44:38 openeuler-riscv64 NetworkManager[309]: <info>  [1688438678.1904] NetworkManager (version 1.32.12-16.oe2303) is starting... (for the first time)
+Jul 04 10:44:38 openeuler-riscv64 NetworkManager[309]: <info>  [1688438678.1976] Read config: /etc/NetworkManager/NetworkManager.conf
+Jul 04 10:44:38 openeuler-riscv64 NetworkManager[309]: <info>  [1688438678.3311] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Jul 04 10:44:38 openeuler-riscv64 NetworkManager[309]: <info>  [1688438678.5457] manager[0x2ae650e080]: monitoring kernel firmware directory '/lib/firmware'.
+Jul 04 10:44:38 openeuler-riscv64 dbus-daemon[303]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.3' (uid=0 pid=309 comm="/usr/sbin/NetworkManager --no-daemon")
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.1738] hostname: hostname: using hostnamed
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.1792] hostname: hostname changed from (none) to "openeuler-riscv64"
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.1932] dns-mgr[0x2ae64f2250]: init: dns=default rc-manager=symlink
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.3366] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-adsl.so)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.3667] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-team.so)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.3810] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-wifi.so)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.3852] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.3880] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.3893] manager: Networking is enabled by state file
+Jul 04 10:44:40 openeuler-riscv64 dbus-daemon[303]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=309 comm="/usr/sbin/NetworkManager --no-daemon")
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.4029] dhcp-init: default DHCP client 'dhclient' is not available
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.4039] dhcp-init: Using DHCP client 'internal'
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.4360] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-settings-plugin-ifcfg-rh.so")
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.4423] settings: Loaded settings plugin: keyfile (internal)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.4971] device (lo): carrier: link connected
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.5090] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.5427] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.6390] settings: (eth0): created default wired connection 'Wired connection 1'
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.6570] device (eth0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.6768] device (eth0): carrier: link connected
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.7161] manager: (sit0): new IPTunnel device (/org/freedesktop/NetworkManager/Devices/3)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.8030] device (eth0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.8268] policy: auto-activating connection 'Wired connection 1' (c1c54ef0-a1fe-3e7a-9c77-29995cc0060d)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.8941] device (eth0): Activation: starting connection 'Wired connection 1' (c1c54ef0-a1fe-3e7a-9c77-29995cc0060d)
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.8968] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.9025] manager: NetworkManager state is now CONNECTING
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.9106] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.9256] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul 04 10:44:40 openeuler-riscv64 NetworkManager[309]: <info>  [1688438680.9488] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.0711] dhcp4 (eth0): state changed unknown -> bound, address=10.0.2.15
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.0925] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.2434] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.2464] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.2545] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.2605] manager: NetworkManager state is now CONNECTED_SITE
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.2625] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.2983] device (eth0): Activation: successful, device activated.
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.3173] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 04 10:44:41 openeuler-riscv64 NetworkManager[309]: <info>  [1688438681.3364] manager: startup complete
+Jul 04 10:44:42 openeuler-riscv64 NetworkManager[309]: <info>  [1688438682.5527] policy: set 'Wired connection 1' (eth0) as default for IPv6 routing and DNS
+Jul 04 10:44:52 openeuler-riscv64 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jul 04 10:46:20 openeuler-riscv64 systemd[1]: Closed LVM2 poll daemon socket.
+Jul 04 10:46:20 openeuler-riscv64 systemd[1]: NetworkManager-wait-online.service: Deactivated successfully.
+Jul 04 10:46:21 openeuler-riscv64 NetworkManager[309]: <info>  [1688438781.4274] caught SIGTERM, shutting down normally.
+Jul 04 10:46:21 openeuler-riscv64 NetworkManager[309]: <info>  [1688438781.4795] dhcp4 (eth0): canceled DHCP transaction
+Jul 04 10:46:21 openeuler-riscv64 NetworkManager[309]: <info>  [1688438781.4801] dhcp4 (eth0): state changed bound -> terminated
+Jul 04 10:46:21 openeuler-riscv64 NetworkManager[309]: <info>  [1688438781.4837] manager: NetworkManager state is now CONNECTED_SITE
+Jul 04 10:46:21 openeuler-riscv64 dbus-daemon[303]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=309 comm="/usr/sbin/NetworkManager --no-daemon")
+Jul 04 10:46:21 openeuler-riscv64 NetworkManager[309]: <info>  [1688438781.5414] exiting (success)
+Jul 04 10:46:21 openeuler-riscv64 systemd[1]: NetworkManager.service: Deactivated successfully.
+Jul 04 10:46:22 openeuler-riscv64 systemd[1]: Stopping Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jul 04 10:46:22 openeuler-riscv64 systemd[1]: Stopped Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Listening on LVM2 poll daemon socket.
+Jul 04 17:38:56 openeuler-riscv64 systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jul 04 17:38:57 openeuler-riscv64 systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jul 04 17:39:12 openeuler-riscv64 NetworkManager[278]: <info>  [1688463552.4052] NetworkManager (version 1.32.12-16.oe2303) is starting... (for the first time)
+Jul 04 17:39:12 openeuler-riscv64 NetworkManager[278]: <info>  [1688463552.4236] Read config: /etc/NetworkManager/NetworkManager.conf
+Jul 04 17:39:12 openeuler-riscv64 NetworkManager[278]: <info>  [1688463552.6866] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Jul 04 17:39:13 openeuler-riscv64 NetworkManager[278]: <info>  [1688463553.0107] manager[0xaaaaaab8101000]: monitoring kernel firmware directory '/lib/firmware'.
+Jul 04 17:39:13 openeuler-riscv64 dbus-daemon[272]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.3' (uid=0 pid=278 comm="/usr/sbin/NetworkManager --no-daemon")
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.2763] hostname: hostname: using hostnamed
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.2802] hostname: hostname changed from (none) to "openeuler-riscv64"
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.2966] dns-mgr[0xaaaaaab80e2250]: init: dns=default rc-manager=symlink
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.3889] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-adsl.so)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4161] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-team.so)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4265] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-device-plugin-wifi.so)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4353] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4397] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4421] manager: Networking is enabled by state file
+Jul 04 17:39:15 openeuler-riscv64 dbus-daemon[272]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=278 comm="/usr/sbin/NetworkManager --no-daemon")
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4589] dhcp-init: default DHCP client 'dhclient' is not available
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4602] dhcp-init: Using DHCP client 'internal'
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4846] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.32.12-16.oe2303/libnm-settings-plugin-ifcfg-rh.so")
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.4878] settings: Loaded settings plugin: keyfile (internal)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.5458] device (lo): carrier: link connected
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.5569] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.5983] manager: (enp0s2): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.7170] settings: (enp0s2): created default wired connection 'Wired connection 1'
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.7365] device (enp0s2): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.7744] device (enp0s2): carrier: link connected
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.8291] manager: (sit0): new IPTunnel device (/org/freedesktop/NetworkManager/Devices/3)
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.9133] device (enp0s2): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:15 openeuler-riscv64 NetworkManager[278]: <info>  [1688463555.9443] policy: auto-activating connection 'Wired connection 1' (5315db38-9102-3975-b9ad-fa717ea7d2f1)
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.0610] device (enp0s2): Activation: starting connection 'Wired connection 1' (5315db38-9102-3975-b9ad-fa717ea7d2f1)
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.0661] device (enp0s2): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.0974] manager: NetworkManager state is now CONNECTING
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.1366] device (enp0s2): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.1789] device (enp0s2): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.2050] dhcp4 (enp0s2): activation: beginning transaction (timeout in 45 seconds)
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.3056] dhcp4 (enp0s2): state changed unknown -> bound, address=10.0.2.15
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.3402] device (enp0s2): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5587] device (enp0s2): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5646] device (enp0s2): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5806] manager: NetworkManager state is now CONNECTED_LOCAL
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5931] manager: NetworkManager state is now CONNECTED_SITE
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.5962] policy: set 'Wired connection 1' (enp0s2) as default for IPv4 routing and DNS
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.6607] device (enp0s2): Activation: successful, device activated.
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.6757] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jul 04 17:39:16 openeuler-riscv64 NetworkManager[278]: <info>  [1688463556.6943] manager: startup complete
+Jul 04 17:39:17 openeuler-riscv64 NetworkManager[278]: <info>  [1688463557.4623] policy: set 'Wired connection 1' (enp0s2) as default for IPv6 routing and DNS
+Jul 04 17:39:27 openeuler-riscv64 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
++ CHECK_RESULT 0 0 0 'grep LVM|NetworkManager failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='grep LVM|NetworkManager failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ journalctl -k --no-pager
++ cat kernel_log
++ grep -i NetworkManager
++ CHECK_RESULT 1 0 1 'NetworkManager exist'
++ actual_result=1
++ expect_result=0
++ mode=1
++ error_log='NetworkManager exist'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 1 -eq 0 ']'
++ test 1x == 0x
++ return 0
++ journalctl -b --no-pager
++ CHECK_RESULT 0 0 0 'journalctl -b failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='journalctl -b failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'Finish test!'
++ message='Finish test!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish test!'
+Tue Jul  4 18:34:15 2023 - INFO  - Finish test!
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Tue Jul  4 18:34:16 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Tue Jul  4 18:34:17 2023 - INFO  - start environment cleanup.
++ rm -rf all_log boot_log kernel_log
++ LOG_INFO 'Finsh environment cleanup! '
++ message='Finsh environment cleanup! '
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finsh environment cleanup! '
+Tue Jul  4 18:34:18 2023 - INFO  - Finsh environment cleanup! 

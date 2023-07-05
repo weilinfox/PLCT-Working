@@ -1,0 +1,1839 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Tue Jul  4 20:50:31 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL open-iscsi
++ pkgs=open-iscsi
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs open-iscsi --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpa8yezeeu
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpa8yezeeu
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Tue Jul  4 20:51:47 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Tue Jul  4 20:51:48 2023 - INFO  - Start to run test.
++ flag=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:51:49 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:51:51 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:51:56 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:51:57 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:52:03 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:52:04 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:52:05 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:52:06 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:52:12 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:52:13 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:52:18 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:52:19 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:52:20 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:52:21 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:52:27 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:52:28 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:52:33 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:52:34 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:52:36 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:52:37 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:52:42 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:52:43 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:52:49 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:52:50 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:52:51 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:52:53 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:52:58 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:52:59 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:53:04 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:53:05 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:53:07 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:53:08 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:53:13 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:53:14 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:53:20 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:53:21 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:53:22 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:53:23 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:53:28 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:53:29 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:53:34 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:53:35 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:53:36 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:53:37 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:53:43 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:53:44 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:53:49 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:53:50 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:53:51 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:53:52 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:53:58 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:53:59 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:54:04 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:54:05 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:54:07 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:54:08 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:54:13 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:54:14 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:54:19 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:54:20 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:54:22 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:54:23 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:54:28 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:54:29 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:54:35 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:54:36 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:54:37 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:54:39 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:54:44 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:54:45 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:54:51 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:54:52 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:54:53 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:54:54 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:55:00 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:55:01 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:55:06 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:55:07 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:55:09 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:55:10 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:55:15 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:55:16 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:55:22 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:55:23 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:55:25 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:55:26 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:55:31 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:55:32 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:55:38 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:55:39 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:55:40 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:55:41 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:55:46 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:55:47 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:55:52 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:55:53 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:55:55 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:55:56 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:56:01 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:56:02 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:56:07 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:56:08 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:56:09 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:56:10 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:56:16 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:56:17 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:56:22 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:56:23 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ systemctl start iscsid
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
++ CHECK_RESULT 1 0 0 'Failed to start iscsid'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Failed to start iscsid'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Failed to start iscsid'
++ LOG_ERROR 'Failed to start iscsid'
++ message='Failed to start iscsid'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed to start iscsid'
+Tue Jul  4 20:56:24 2023 - ERROR - Failed to start iscsid
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 33'
++ message='oe_test_iscsid.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 33'
+Tue Jul  4 20:56:25 2023 - ERROR - oe_test_iscsid.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep running
++ CHECK_RESULT 1 0 0 'Service status not start'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not start'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not start'
++ LOG_ERROR 'Service status not start'
++ message='Service status not start'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not start'
+Tue Jul  4 20:56:31 2023 - ERROR - Service status not start
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 36'
++ message='oe_test_iscsid.sh line 36'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 36'
+Tue Jul  4 20:56:32 2023 - ERROR - oe_test_iscsid.sh line 36
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop iscsid
++ CHECK_RESULT 0 0 0 'Failed to stop iscsid'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed to stop iscsid'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ systemctl status iscsid
++ grep dead
++ CHECK_RESULT 1 0 0 'Service status not stop'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Service status not stop'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Service status not stop'
++ LOG_ERROR 'Service status not stop'
++ message='Service status not stop'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Service status not stop'
+Tue Jul  4 20:56:38 2023 - ERROR - Service status not stop
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iscsid.sh line 41'
++ message='oe_test_iscsid.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iscsid.sh line 41'
+Tue Jul  4 20:56:39 2023 - ERROR - oe_test_iscsid.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ let flag+=1
++ (( flag < 20 ))
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Tue Jul  4 20:56:40 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 57
++ test 57 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Tue Jul  4 20:56:41 2023 - ERROR - failed to execute the case.
++ exit 57
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Tue Jul  4 20:56:41 2023 - INFO  - Start to restore the test environment.
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpa8yezeeu ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpa8yezeeu
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Tue Jul  4 20:57:06 2023 - INFO  - End to restore the test environment.
