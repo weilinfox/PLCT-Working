@@ -1,7 +1,7 @@
 {
     "workingDir":"/home/hachi/Desktop/Work/mugen/qemu-imgs/workingDir/",
-    "bios":"fw_payload_oe_uboot_2304.bin",
-    "drive":"mugen_ready.qcow2",
+    "kernel":"vmlinuz",
+    "drive":"x86.qcow2",
     "user":"root",
     "password":"openEuler12#$",
     "threads":3,
@@ -10,7 +10,6 @@
     "mugenNative":1,
     "detailed":1,
     "addDisk":1,
-    "addNic": 1,
     "tap num": 50,
     "multiMachine": 1,
     "bridge ip": "10.0.0.1",
