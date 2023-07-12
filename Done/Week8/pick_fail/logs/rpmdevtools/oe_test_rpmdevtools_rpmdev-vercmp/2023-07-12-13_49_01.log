@@ -1,0 +1,395 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environmental preparation.'
++ message='Start environmental preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environmental preparation.'
+Wed Jul 12 13:49:05 2023 - INFO  - Start environmental preparation.
++ DNF_INSTALL rpmdevtools
++ pkgs=rpmdevtools
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs rpmdevtools --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpzdu9tekt
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpzdu9tekt
++ wget https://gitee.com/src-openeuler/rpmdevtools/raw/master/rpmdevtools.spec
+--2023-07-12 13:49:57--  https://gitee.com/src-openeuler/rpmdevtools/raw/master/rpmdevtools.spec
+Resolving gitee.com (gitee.com)... 212.64.63.215, 212.64.63.190
+Connecting to gitee.com (gitee.com)|212.64.63.215|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘rpmdevtools.spec’
+
+     0K ..                                                     1.41M=0.002s
+
+2023-07-12 13:49:58 (1.41 MB/s) - ‘rpmdevtools.spec’ saved [2621]
+
++ mkdir ./test_dir
++ rpmdev-setuptree
++ LOG_INFO 'End of environmental preparation.'
++ message='End of environmental preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of environmental preparation.'
+Wed Jul 12 13:50:01 2023 - INFO  - End of environmental preparation.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed Jul 12 13:50:02 2023 - INFO  - Start to run test.
++ rpmdev-vercmp 1 1 2 2 1 2
+1:1-2 < 2:1-2
++ CHECK_RESULT 12 12 0 'Failed option: n:n-n < n:n-n'
++ actual_result=12
++ expect_result=12
++ mode=0
++ error_log='Failed option: n:n-n < n:n-n'
++ exit_mode=0
++ '[' -z 12 ']'
++ '[' 0 -eq 0 ']'
++ test 12x '!=' 12x
++ return 0
++ rpmdev-vercmp 2 1 2 1 1 2
+2:1-2 > 1:1-2
++ CHECK_RESULT 11 11 0 'Failed option: n:n-n > n:n-n'
++ actual_result=11
++ expect_result=11
++ mode=0
++ error_log='Failed option: n:n-n > n:n-n'
++ exit_mode=0
++ '[' -z 11 ']'
++ '[' 0 -eq 0 ']'
++ test 11x '!=' 11x
++ return 0
++ rpmdev-vercmp 2 1
+2 > 1
++ CHECK_RESULT 11 11 0 'Failed option: n > n'
++ actual_result=11
++ expect_result=11
++ mode=0
++ error_log='Failed option: n > n'
++ exit_mode=0
++ '[' -z 11 ']'
++ '[' 0 -eq 0 ']'
++ test 11x '!=' 11x
++ return 0
++ rpmdev-vercmp 1 2
+1 < 2
++ CHECK_RESULT 12 12 0 'Failed option: n < n'
++ actual_result=12
++ expect_result=12
++ mode=0
++ error_log='Failed option: n < n'
++ exit_mode=0
++ '[' -z 12 ']'
++ '[' 0 -eq 0 ']'
++ test 12x '!=' 12x
++ return 0
++ rpmdev-vercmp 1 1
+1 == 1
++ CHECK_RESULT 0 0 0 'Failed option: n == n'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: n == n'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmdev-vercmp 2 1 2 2 1 2
+2:1-2 == 2:1-2
++ CHECK_RESULT 0 0 0 'Failed option: n:n-n == n:n-n'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: n:n-n == n:n-n'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmdev-vercmp -h
++ grep -A 5 rpmdev-vercmp
++ grep 'Exit status'
+Exit status is 0 if the EVR's are equal, 11 if EVR1 is newer, and 12 if EVR2
++ CHECK_RESULT 0 0 0 'Failed option: -h'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -h'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -l rpmdevtools.spec
++ grep Source
+Source0: https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz
++ CHECK_RESULT 0 0 0 'Failed option: -l'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -l'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -g rpmdevtools.spec
+Getting https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz to ./rpmdevtools-8.10.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0 44 94976   44 42603    0     0  11807      0  0:00:08  0:00:03  0:00:05 11834100 94976  100 94976    0     0  24480      0  0:00:03  0:00:03 --:--:-- 24535
++ test -f rpmdevtools-8.10.tar.xz
++ CHECK_RESULT 0 0 0 'Failed option: -g'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -g'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -h
++ grep 'Usage: spectool'
+Usage: spectool [<options>] <specfile>
++ CHECK_RESULT 0 0 0 'Failed option: -h'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -h'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -A rpmdevtools.spec
++ grep -A 10 Source
++ grep Patch
+Patch0001: 0001-bumpspec-checksig-Avoid-python-3.6-regex-related-dep.patch
+Patch0002: 0002-BZ-1851499-port-to-str-return-values.patch
+Patch0003: 0003-fix-return-value-error-for-rpminfo.pacth
++ CHECK_RESULT 0 0 0 'Failed option: -A'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -A'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -S rpmdevtools.spec
++ grep Source
+Source0: https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz
++ CHECK_RESULT 0 0 0 'Failed option: -S'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -S'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -P rpmdevtools.spec
++ grep Patch
+Patch0001: 0001-bumpspec-checksig-Avoid-python-3.6-regex-related-dep.patch
+Patch0002: 0002-BZ-1851499-port-to-str-return-values.patch
+Patch0003: 0003-fix-return-value-error-for-rpminfo.pacth
++ CHECK_RESULT 0 0 0 'Failed option: -P'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -P'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -s 0 rpmdevtools.spec
++ grep Source0
+Source0: https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz
++ CHECK_RESULT 0 0 0 'Failed option: -s'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -s'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -p 0 rpmdevtools.spec
++ grep Patch0
+Use of uninitialized value in concatenation (.) or string at /usr/bin/spectool line 189.
+Patch0: 
++ CHECK_RESULT 0 0 0 'Failed option: -p'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -p'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -d 'test test1' rpmdevtools.spec
+Source0: https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz
+Patch0001: 0001-bumpspec-checksig-Avoid-python-3.6-regex-related-dep.patch
+Patch0002: 0002-BZ-1851499-port-to-str-return-values.patch
+Patch0003: 0003-fix-return-value-error-for-rpminfo.pacth
++ CHECK_RESULT 0 0 0 'Failed option: -d'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -d'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -g -C ./test_dir rpmdevtools.spec
+Getting https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz to test_dir/rpmdevtools-8.10.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0 42 94976   42 40404    0     0   9318      0  0:00:10  0:00:04  0:00:06  9337 43 94976   43 41312    0     0   8017      0  0:00:11  0:00:05  0:00:06  8031100 94976  100 94976    0     0  16439      0  0:00:05  0:00:05 --:--:-- 21026
++ test -f ./test_dir/rpmdevtools-8.10.tar.xz
++ CHECK_RESULT 0 0 0 'Failed option: -C'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -C'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ spectool -g -R rpmdevtools.spec
+Getting https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz to /root/rpmbuild/SOURCES/rpmdevtools-8.10.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0 16 94976   16 15218    0     0   1659      0  0:00:57  0:00:09  0:00:48  3221 28 94976   28 26837    0     0   2555      0  0:00:37  0:00:10  0:00:27  5326 31 94976   31 29419    0     0   2646      0  0:00:35  0:00:11  0:00:24  5700 34 94976   34 32275    0     0   2616      0  0:00:36  0:00:12  0:00:24  6833 43 94976   43 41312    0     0   3163      0  0:00:30  0:00:13  0:00:17  8087 44 94976   44 42603    0     0   3007      0  0:00:31  0:00:14  0:00:17  5480 47 94976   47 45185    0     0   2915      0  0:00:32  0:00:15  0:00:17  3671 54 94976   54 51640    0     0   3161      0  0:00:30  0:00:16  0:00:14  4260 65 94976   65 61968    0     0   3527      0  0:00:26  0:00:17  0:00:09  5679 66 94976   66 63259    0     0   3478      0  0:00:27  0:00:18  0:00:09  4283 69 94976   69 65841    0     0   3465      0  0:00:27  0:00:19  0:00:08  4806 69 94976   69 65841    0     0   3287      0  0:00:28  0:00:20  0:00:08  4556 81 94976   81 77460    0     0   3609      0  0:00:26  0:00:21  0:00:05  5037 88 94976   88 83915    0     0   3800      0  0:00:24  0:00:22  0:00:02  4863100 94976  100 94976    0     0   4148      0  0:00:22  0:00:22 --:--:--  6732
++ test -f /root/rpmbuild/SOURCES/rpmdevtools-8.10.tar.xz
++ CHECK_RESULT 0 0 0 'Failed option: -R'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -R'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ test -f rpmdevtools-8.10.tar.xz
++ spectool -g -f rpmdevtools.spec
+Getting https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz to ./rpmdevtools-8.10.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 34 94976   34 32275    0     0  15185      0  0:00:06  0:00:02  0:00:04 15260 66 94976   66 63259    0     0  20834      0  0:00:04  0:00:03  0:00:01 20905 99 94976   99 94243    0     0  23208      0  0:00:04  0:00:04 --:--:-- 23264100 94976  100 94976    0     0  21734      0  0:00:04  0:00:04 --:--:-- 21783
++ CHECK_RESULT 0 0 0 'Failed option: -f'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -f'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rm '*tar.gz'
+rm: cannot remove '*tar.gz': No such file or directory
++ spectool -g -n rpmdevtools.spec
+./rpmdevtools-8.10.tar.xz already exists, skipping download
+Getting https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz to ./rpmdevtools-8.10.tar.xz
++ CHECK_RESULT 0 0 0 'Failed option: -n'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -n'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rm -rf '/tmp/spectool*'
++ spectool -D rpmdevtools.spec
+temp dir: /tmp/spectool_gEqJ1NjvAZ
+temp spec filename: /tmp/spectool_gEqJ1NjvAZ/spec_91hxZIaHsq
+stderr filename: /tmp/spectool_gEqJ1NjvAZ/stderr_eaN05AymFH
+Source0: https://releases.pagure.org/rpmdevtools/rpmdevtools-8.10.tar.xz
+Patch0001: 0001-bumpspec-checksig-Avoid-python-3.6-regex-related-dep.patch
+Patch0002: 0002-BZ-1851499-port-to-str-return-values.patch
+Patch0003: 0003-fix-return-value-error-for-rpminfo.pacth
++ CHECK_RESULT 0 0 0 'Failed option: -D'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -D'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ wc -l
+++ ls -l /tmp/spectool_gEqJ1NjvAZ
++ test 4 -ge 4
++ CHECK_RESULT 0 0 0 'Failed option: -D'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -D'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Jul 12 13:51:11 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Jul 12 13:51:12 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Jul 12 13:51:12 2023 - INFO  - Start to restore the test environment.
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpzdu9tekt ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpzdu9tekt
++ '[' 0 -ne 0 ']'
++ rm -rf ./test_dir /root/rpmbuild ./rpmdevtools-8.10.tar.xz ./rpmdevtools.spec
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Jul 12 13:51:27 2023 - INFO  - End to restore the test environment.
