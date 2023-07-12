@@ -1,13 +1,13 @@
 # Week 8 工作报告
 
-+ 从所有未分析的测试 [pickedFail.csv](https://github.com/KotorinMinami/task_apply/blob/main/pickedFail.csv) 中筛选 baseOS fail 的测试进行分析并提交分析结果，共计 75 个测试用例。其中有 2 个更改状态为 x86 fail ； 18 个与测试环境、超时时间有关，手动需要重测
-
++ 从所有未分析的测试 [pickedFail.csv](https://github.com/KotorinMinami/task_apply/blob/main/pickedFail.csv) 中筛选 baseOS fail 的测试进行分析并提交分析结果，共计 75 个测试用例。其中有 2 个更改状态为 x86 fail ； 18 个与测试环境、超时时间有关，需要手动重测重新分析。在这些重测的里面，有 11 个经过重测通过了
++ [rest3](https://github.com/KotorinMinami/res_list/blob/master/NeedTest/rest3) 似乎是无人认领的状态，需要进行测试
 
 ## 遇到的问题
 
 + 在分析 log 的时候发现，在 riscv 上没有出现的测试环境问题，在 x86 测试的出现了，是否要将 qemu_test.py 更改为同时支持 riscv 和 x86 的
 + ``os-basic`` 的 ``oe_test_chsh`` 、 ``oe_test_lastb`` 和 ``oe_test_xzcmp`` 测试脚本需要测试环境默认语言为中文，体现为使用 ``grep`` 过滤中文文本
-+ 手动重测还没进行； ``javapackages-tools`` 没看明白
++ ``javapackages-tools`` 没看明白
 + samba 无法正确加载动态链接库的问题，这些链接库均在 ``/usr/lib64/samba`` 目录，但是用 ``strace smbd`` 跟踪发现有部分该目录的链接库没有被加载
    ```
    openat(AT_FDCWD, "/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
