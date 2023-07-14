@@ -166,8 +166,8 @@ FS_File,oe_test_FSIO_modify_file,fail,https://github.com/KotorinMinami/res_list/
 ,oe_test_FSIO_filefrag,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_filefrag/2023-06-23-02:13:11.log,preinstall absent
 ,oe_test_FSIO_act_file_lack_inode,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_act_file_lack_inode/2023-06-23-01:37:53.log,preinstall absent
 ,oe_test_FSIO_create_hardlink_fail,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_create_hardlink_fail/2023-06-23-02:08:47.log,preinstall absent
-amanda,oe_test_amanda_amcheck,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/amanda/oe_test_amanda_amcheck/2023-06-16-03:44:44.log,
-openssh,oe_test_openssh_cipher,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_cipher/2023-06-16-04:10:21.log,
+amanda,oe_test_amanda_amcheck,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/amanda/oe_test_amanda_amcheck/2023-06-16-03:44:44.log,依赖 gettext 命令但是没有安装， /usr/lib64/amanda/amanda-sh-lib.sh: line 40: /usr/bin/gettext: No such file or directory
+openssh,oe_test_openssh_cipher,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_cipher/2023-06-16-04:10:21.log,使用 aes256-ctr 进行 ssh 连接出现异常
 ,oe_test_openssh_locked,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_locked/2023-06-16-04:11:55.log,preinstall absent/timeout
 ,oe_test_openssh_no_password,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_no_password/2023-06-16-04:12:57.log,preinstall absent/timeout
 ,oe_test_openssh_scp,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_scp/2023-06-16-04:17:42.log,preinstall absent/timeout
