@@ -1,6 +1,7 @@
 #!/bin/python
 
-baseOsCsv = "/home/hachi/Desktop/Work/PLCT-Working/Note/OERV-软件包分级-baseOS.csv"
+# baseOsCsv = "/home/hachi/Desktop/Work/PLCT-Working/Note/OERV-软件包分级-baseOS.csv"
+baseOsTxt = "/home/hachi/Desktop/Work/PLCT-Working/Note/oe.txt"
 logCsv = "/home/hachi/Desktop/Work/mugen/res_list/Pagerd_failureCause.csv"
 
 baseOsTestedCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS_tested.csv"
@@ -11,10 +12,7 @@ filteredLogCsvN = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/not_base
 filteredFailLogCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS_fail.csv"
 
 splitter = ","  # csv splitter
-baseOSList = ["os-basic", "os-storage",
-              "smoke-basic-os", "smoke-baseinfo",
-              "embedded_application_develop_tests", "embedded_os_basic_test", "embedded_tiny_image_test", "embedded_third_party_packages_test",
-              "FS_Device", "FS_Directory", "FS_Negative", "FS_Raw"]  # baseOS package name list
+baseOSList = []  # baseOS package name list
 notBaseOSList = ["AT"]
 pkg2suite = {"openjdk-1.8.0": ["java-1.8.0-openjdk"],
              "tpm-tools": ["tpm-tools_20.03"],
@@ -28,13 +26,12 @@ for k in pkg2suite.keys():
         suite2pkg[p.lower()] = k.lower()
 
 baseOSTested = {}
-for i in range(len(baseOSList)):
-    baseOSTested[baseOSList[i].lower()] = (baseOSList[i], [])  # (origin_name, mugen_suites)
-    baseOSList[i] = baseOSList[i].lower()
+# for i in range(len(baseOSList)):
+#     baseOSTested[baseOSList[i].lower()] = (baseOSList[i], [])  # (origin_name, mugen_suites)
+#     baseOSList[i] = baseOSList[i].lower()
 
 # read baseOS package list
-with open(baseOsCsv, "r", encoding="utf-8") as baseOsFile:
-    baseOsFile.readline()  # drop title
+with open(baseOsTxt, "r", encoding="utf-8") as baseOsFile:
 
     while True:
         pkg = baseOsFile.readline()
@@ -43,11 +40,7 @@ with open(baseOsCsv, "r", encoding="utf-8") as baseOsFile:
         if pkg.strip() == "":
             continue
 
-        pkgSplit = pkg.split(splitter)
-        if len(pkgSplit) == 0:
-            continue
-
-        key = pkgSplit[0].strip()
+        key = pkg.strip()
         baseOSList.append(key.lower())  # store pkg name in lowercase
         baseOSTested[key.lower()] = (key, [])
 
