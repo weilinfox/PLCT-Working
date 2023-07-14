@@ -1,0 +1,1391 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因
+389-ds-base,oe_test_service_dirsrv-snmp,success,./mugen-riscv/logs/389-ds-base/oe_test_service_dirsrv-snmp/2023-05-25-21_15_40.log,None
+,oe_test_target_dirsrv,success,./mugen-riscv/logs/389-ds-base/oe_test_target_dirsrv/2023-05-25-21_18_15.log,None
+ImageMagick,oe_test_ImageMagick_01,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_01/2023-05-25-21_16_13.log,None
+,oe_test_ImageMagick_02,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_02/2023-05-25-21_17_53.log,None
+,oe_test_ImageMagick_03,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_03/2023-05-25-21_19_38.log,None
+,oe_test_ImageMagick_04,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_04/2023-05-25-21_21_23.log,None
+,oe_test_ImageMagick_05,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_05/2023-05-25-21_22_59.log,None
+,oe_test_ImageMagick_06,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_06/2023-05-25-21_24_37.log,None
+,oe_test_ImageMagick_07,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_07/2023-05-25-21_26_31.log,None
+,oe_test_ImageMagick_08,success,./mugen-riscv/logs/ImageMagick/oe_test_ImageMagick_08/2023-05-25-21_28_22.log,None
+OpenEXR,oe_test_OpenEXR_cmd,success,./mugen-riscv/logs/OpenEXR/oe_test_OpenEXR_cmd/2023-05-25-21_19_37.log,None
+,oe_test_OpenEXR_exrenvmap,success,./mugen-riscv/logs/OpenEXR/oe_test_OpenEXR_exrenvmap/2023-05-25-21_24_51.log,None
+,oe_test_OpenEXR_exrenvmap_exrmakepreview,success,./mugen-riscv/logs/OpenEXR/oe_test_OpenEXR_exrenvmap_exrmakepreview/2023-05-25-21_22_38.log,None
+,oe_test_OpenEXR_exrmaketiled,success,./mugen-riscv/logs/OpenEXR/oe_test_OpenEXR_exrmaketiled/2023-05-25-21_32_55.log,None
+,oe_test_OpenEXR_exrstdattr_01,success,./mugen-riscv/logs/OpenEXR/oe_test_OpenEXR_exrstdattr_01/2023-05-25-21_33_20.log,None
+,oe_test_OpenEXR_exrstdattr_02,success,./mugen-riscv/logs/OpenEXR/oe_test_OpenEXR_exrstdattr_02/2023-05-25-21_33_40.log,None
+,oe_test_OpenEXR_exrstdattr_03,success,./mugen-riscv/logs/OpenEXR/oe_test_OpenEXR_exrstdattr_03/2023-05-25-21_34_00.log,None
+abrt,oe_test_service_abrt-journal-core,success,./mugen-riscv/logs/abrt/oe_test_service_abrt-journal-core/2023-05-25-21_28_11.log,None
+,oe_test_service_abrt-oops,success,./mugen-riscv/logs/abrt/oe_test_service_abrt-oops/2023-05-25-21_29_37.log,None
+,oe_test_service_abrt-pstoreoops,success,./mugen-riscv/logs/abrt/oe_test_service_abrt-pstoreoops/2023-05-25-21_31_06.log,None
+,oe_test_service_abrt-upload-watch,success,./mugen-riscv/logs/abrt/oe_test_service_abrt-upload-watch/2023-05-25-21_32_16.log,None
+,oe_test_service_abrt-vmcore,success,./mugen-riscv/logs/abrt/oe_test_service_abrt-vmcore/2023-05-25-21_33_45.log,None
+,oe_test_service_abrt-xorg,success,./mugen-riscv/logs/abrt/oe_test_service_abrt-xorg/2023-05-25-21_35_36.log,None
+,oe_test_service_abrtd,success,./mugen-riscv/logs/abrt/oe_test_service_abrtd/2023-05-25-21_26_41.log,None
+autoconf213,oe_test_autoconf213_autoconf-2.13,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoconf-2.13/2023-05-25-13:14:31.log,None
+,oe_test_autoconf213_autoheader-2.13,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoheader-2.13/2023-05-25-13:17:34.log,None
+,oe_test_autoconf213_autoreconf-2.13_01,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoreconf-2.13_01/2023-05-25-13:20:26.log,None
+,oe_test_autoconf213_autoreconf-2.13_02,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoreconf-2.13_02/2023-05-25-13:23:16.log,None
+,oe_test_autoconf213_autoreconf-2.13_03,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoreconf-2.13_03/2023-05-25-13:26:57.log,None
+,oe_test_autoconf213_autoreconf-2.13_04,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoreconf-2.13_04/2023-05-25-13:30:23.log,None
+,oe_test_autoconf213_autoreconf-2.13_05,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoreconf-2.13_05/2023-05-25-13:33:29.log,None
+,oe_test_autoconf213_autoreconf-2.13_06,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoreconf-2.13_06/2023-05-25-13:36:18.log,None
+,oe_test_autoconf213_autoupdate-2.13,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_autoupdate-2.13/2023-05-25-13:38:48.log,None
+,oe_test_autoconf213_ifnames-2.13,success,./mugen-riscv/logs/autoconf213/oe_test_autoconf213_ifnames-2.13/2023-05-25-13:41:37.log,None
+bcrypt,oe_test_bcrypt,success,./mugen-riscv/logs/bcrypt/oe_test_bcrypt/2023-05-25-13:25:45.log,None
+clang,oe_test_clang_01,success,./mugen-riscv/logs/clang/oe_test_clang_01/2023-05-25-14:15:53.log,None
+,oe_test_clang_02,success,./mugen-riscv/logs/clang/oe_test_clang_02/2023-05-25-14:23:46.log,None
+,oe_test_clang_03,success,./mugen-riscv/logs/clang/oe_test_clang_03/2023-05-25-14:30:41.log,None
+colm,oe_test_colm,success,./mugen-riscv/logs/colm/oe_test_colm/2023-05-25-17:42:11.log,None
+discount,oe_test_discount-makepage_01,success,./mugen-riscv/logs/discount/oe_test_discount-makepage_01/2023-05-25-21:58:08.log,None
+,oe_test_discount-mkd2html_01,success,./mugen-riscv/logs/discount/oe_test_discount-mkd2html_01/2023-05-25-21:59:46.log,None
+,oe_test_discount-theme_01,success,./mugen-riscv/logs/discount/oe_test_discount-theme_01/2023-05-25-22:01:26.log,None
+,oe_test_discount_markdown_01,success,./mugen-riscv/logs/discount/oe_test_discount_markdown_01/2023-05-25-21:54:33.log,None
+,oe_test_discount_markdown_02,success,./mugen-riscv/logs/discount/oe_test_discount_markdown_02/2023-05-25-21:56:25.log,None
+docbook-utils,oe_test_docbook-utils_jw_01,success,./mugen-riscv/logs/docbook-utils/oe_test_docbook-utils_jw_01/2023-05-25-22:49:21.log,None
+,oe_test_docbook-utils_jw_02,success,./mugen-riscv/logs/docbook-utils/oe_test_docbook-utils_jw_02/2023-05-25-22:53:32.log,None
+,oe_test_docbook-utils_sgmldiff,success,./mugen-riscv/logs/docbook-utils/oe_test_docbook-utils_sgmldiff/2023-05-25-22:56:24.log,None
+docbook2X,oe_test_docbook2X_db2x_docbook2man,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_db2x_docbook2man/2023-05-25-23:20:42.log,None
+,oe_test_docbook2X_db2x_docbook2texi_01,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_db2x_docbook2texi_01/2023-05-25-23:23:32.log,None
+,oe_test_docbook2X_db2x_docbook2texi_02,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_db2x_docbook2texi_02/2023-05-25-23:26:21.log,None
+,oe_test_docbook2X_db2x_manxml,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_db2x_manxml/2023-05-25-23:01:54.log,None
+,oe_test_docbook2X_db2x_texixml,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_db2x_texixml/2023-05-25-23:04:38.log,None
+,oe_test_docbook2X_db2x_xsltproc,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_db2x_xsltproc/2023-05-25-23:07:07.log,None
+,oe_test_docbook2X_sgml2xml-isoent_01,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_sgml2xml-isoent_01/2023-05-25-23:09:33.log,None
+,oe_test_docbook2X_sgml2xml-isoent_02,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_sgml2xml-isoent_02/2023-05-25-23:11:45.log,None
+,oe_test_docbook2X_sgml2xml-isoent_03,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_sgml2xml-isoent_03/2023-05-25-23:14:00.log,None
+,oe_test_docbook2X_sgml2xml-isoent_04,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_sgml2xml-isoent_04/2023-05-25-23:16:14.log,None
+,oe_test_docbook2X_utf8trans,success,./mugen-riscv/logs/docbook2X/oe_test_docbook2X_utf8trans/2023-05-25-23:18:33.log,None
+dovecot,oe_test_dovecot_basic,success,./mugen-riscv/logs/dovecot/oe_test_dovecot_basic/2023-05-25-23:58:57.log,None
+,oe_test_dovecot_doveadm_1,success,./mugen-riscv/logs/dovecot/oe_test_dovecot_doveadm_1/2023-05-26-00:02:26.log,None
+,oe_test_dovecot_doveadm_2,success,./mugen-riscv/logs/dovecot/oe_test_dovecot_doveadm_2/2023-05-26-00:05:43.log,None
+,oe_test_dovecot_doveadm_3,success,./mugen-riscv/logs/dovecot/oe_test_dovecot_doveadm_3/2023-05-26-00:09:09.log,None
+,oe_test_service_dovecot-init,success,./mugen-riscv/logs/dovecot/oe_test_service_dovecot-init/2023-05-25-23:46:44.log,None
+,oe_test_service_dovecot,success,./mugen-riscv/logs/dovecot/oe_test_service_dovecot/2023-05-25-23:50:23.log,None
+,oe_test_socket_dovecot,success,./mugen-riscv/logs/dovecot/oe_test_socket_dovecot/2023-05-25-23:55:14.log,None
+doxygen,oe_test_doxygen,success,./mugen-riscv/logs/doxygen/oe_test_doxygen/2023-05-26-00:15:44.log,None
+elinks,oe_test_elinks_base_01,success,./mugen-riscv/logs/elinks/oe_test_elinks_base_01/2023-05-26-02:22:37.log,None
+,oe_test_elinks_base_02,success,./mugen-riscv/logs/elinks/oe_test_elinks_base_02/2023-05-26-02:25:04.log,None
+,oe_test_elinks_base_03,success,./mugen-riscv/logs/elinks/oe_test_elinks_base_03/2023-05-26-02:27:17.log,None
+erlang,oe_test_service_epmd,success,./mugen-riscv/logs/erlang/oe_test_service_epmd/2023-05-26-02:32:37.log,None
+,oe_test_socket_epmd,success,./mugen-riscv/logs/erlang/oe_test_socket_epmd/2023-05-26-02:36:33.log,None
+fakechroot,oe_test_fakechroot_base_01,success,./mugen-riscv/logs/fakechroot/oe_test_fakechroot_base_01/2023-05-26-13:30:56.log,None
+,oe_test_fakechroot_base_02,success,./mugen-riscv/logs/fakechroot/oe_test_fakechroot_base_02/2023-05-26-13:33:46.log,None
+,oe_test_fakechroot_chroot,success,./mugen-riscv/logs/fakechroot/oe_test_fakechroot_chroot/2023-05-26-13:36:11.log,None
+,oe_test_fakechroot_env_01,success,./mugen-riscv/logs/fakechroot/oe_test_fakechroot_env_01/2023-05-26-13:26:16.log,None
+,oe_test_fakechroot_env_02,success,./mugen-riscv/logs/fakechroot/oe_test_fakechroot_env_02/2023-05-26-13:28:41.log,None
+fontforge,oe_test_fontforge_fontforge,success,./mugen-riscv/logs/fontforge/oe_test_fontforge_fontforge/2023-05-26-16:34:07.log,None
+,oe_test_fontforge_fontimage,success,./mugen-riscv/logs/fontforge/oe_test_fontforge_fontimage/2023-05-26-16:36:37.log,None
+,oe_test_fontforge_fontlint,success,./mugen-riscv/logs/fontforge/oe_test_fontforge_fontlint/2023-05-26-16:39:00.log,None
+fwupd,oe_test_service_fwupd-offline-update,success,./mugen-riscv/logs/fwupd/oe_test_service_fwupd-offline-update/2023-05-26-19:06:08.log,None
+,oe_test_service_fwupd,success,./mugen-riscv/logs/fwupd/oe_test_service_fwupd/2023-05-26-19:10:18.log,None
+galera,oe_test_galera_garbd,success,./mugen-riscv/logs/galera/oe_test_galera_garbd/2023-05-26-19:17:29.log,None
+,oe_test_service_garbd,success,./mugen-riscv/logs/galera/oe_test_service_garbd/2023-05-26-19:20:49.log,None
+gperf,oe_test_gperf_base_01,success,./mugen-riscv/logs/gperf/oe_test_gperf_base_01/2023-05-26-21:46:59.log,None
+,oe_test_gperf_base_02,success,./mugen-riscv/logs/gperf/oe_test_gperf_base_02/2023-05-26-21:48:49.log,None
+,oe_test_gperf_base_03,success,./mugen-riscv/logs/gperf/oe_test_gperf_base_03/2023-05-26-21:50:21.log,None
+,oe_test_gperf_base_04,success,./mugen-riscv/logs/gperf/oe_test_gperf_base_04/2023-05-26-21:51:39.log,None
+,oe_test_gperf_base_05,success,./mugen-riscv/logs/gperf/oe_test_gperf_base_05/2023-05-26-21:52:20.log,None
+,oe_test_gperf_base_06,success,./mugen-riscv/logs/gperf/oe_test_gperf_base_06/2023-05-26-21:53:01.log,None
+,oe_test_gperf_base_07,success,./mugen-riscv/logs/gperf/oe_test_gperf_base_07/2023-05-26-21:53:42.log,None
+haproxy,oe_test_service_haproxy,success,./mugen-riscv/logs/haproxy/oe_test_service_haproxy/2023-05-26-22:26:37.log,None
+help2man,oe_test_help2man,success,./mugen-riscv/logs/help2man/oe_test_help2man/2023-05-26-22:37:56.log,None
+hivex,oe_test_hivex_hivexget,success,./mugen-riscv/logs/hivex/oe_test_hivex_hivexget/2023-05-26-22:43:14.log,None
+,oe_test_hivex_hivexregedit,success,./mugen-riscv/logs/hivex/oe_test_hivex_hivexregedit/2023-05-26-22:45:00.log,None
+,oe_test_hivex_hivexsh_01,success,./mugen-riscv/logs/hivex/oe_test_hivex_hivexsh_01/2023-05-26-22:46:54.log,None
+,oe_test_hivex_hivexsh_02,success,./mugen-riscv/logs/hivex/oe_test_hivex_hivexsh_02/2023-05-26-22:48:29.log,None
+hsqldb,oe_test_service_hsqldb,success,./mugen-riscv/logs/hsqldb/oe_test_service_hsqldb/2023-05-26-22:52:44.log,None
+htslib,oe_test_htslib_bgzip_01,success,./mugen-riscv/logs/htslib/oe_test_htslib_bgzip_01/2023-05-26-23:06:51.log,None
+,oe_test_htslib_bgzip_02,success,./mugen-riscv/logs/htslib/oe_test_htslib_bgzip_02/2023-05-26-23:09:00.log,None
+,oe_test_htslib_htsfile,success,./mugen-riscv/logs/htslib/oe_test_htslib_htsfile/README.md,None
+,oe_test_htslib_tabix,success,./mugen-riscv/logs/htslib/oe_test_htslib_tabix/2023-05-26-23:12:58.log,None
+ipwatchd,oe_test_service_ipwatchd,success,./mugen-riscv/logs/ipwatchd/oe_test_service_ipwatchd/2023-06-02-04:11:12.log,None
+isula-build,oe_test_service_isula-build,success,./mugen-riscv/logs/isula-build/oe_test_service_isula-build/2023-06-02-04:14:41.log,None
+jemalloc,oe_test_jemalloc_01,success,./mugen-riscv/logs/jemalloc/oe_test_jemalloc_01/2023-06-02-05:51:48.log,None
+,oe_test_jemalloc_02,success,./mugen-riscv/logs/jemalloc/oe_test_jemalloc_02/2023-06-02-05:52:48.log,None
+jq,oe_test_jq,success,./mugen-riscv/logs/jq/oe_test_jq/2023-06-02-05:56:31.log,None
+kf5-kconfig-core,oe_test_kf5-kconfig-core_01,success,./mugen-riscv/logs/kf5-kconfig-core/oe_test_kf5-kconfig-core_01/2023-06-02-07:14:06.log,None
+ksh,oe_test_ksh,success,./mugen-riscv/logs/ksh/oe_test_ksh/2023-06-02-07:28:04.log,None
+libhangul,oe_test_libhangul_hangul,success,./mugen-riscv/logs/libhangul/oe_test_libhangul_hangul/2023-06-02-09:07:24.log,None
+libwbxml,oe_test_libwbxml_wbxml2xml,success,./mugen-riscv/logs/libwbxml/oe_test_libwbxml_wbxml2xml/2023-06-02-12:20:34.log,None
+,oe_test_libwbxml_xml2wbxml,success,./mugen-riscv/logs/libwbxml/oe_test_libwbxml_xml2wbxml/2023-06-02-12:21:36.log,None
+libzip,oe_test_libzip_zipcmp,success,./mugen-riscv/logs/libzip/oe_test_libzip_zipcmp/2023-06-02-12:37:49.log,None
+,oe_test_libzip_zipmerge,success,./mugen-riscv/logs/libzip/oe_test_libzip_zipmerge/2023-06-02-12:38:50.log,None
+,oe_test_libzip_ziptool,success,./mugen-riscv/logs/libzip/oe_test_libzip_ziptool/2023-06-02-12:39:42.log,None
+lsyncd,oe_test_service_lsyncd,success,./mugen-riscv/logs/lsyncd/oe_test_service_lsyncd/2023-06-02-13:52:55.log,None
+,oe_test_rsync_lsyncd,success,./mugen-riscv/logs/lsyncd/oe_test_rsync_lsyncd/2023-06-02-13:54:51.log,None
+,oe_test_direct_lsyncd,success,./mugen-riscv/logs/lsyncd/oe_test_direct_lsyncd/2023-06-02-13:55:59.log,None
+,oe_test_rsyncssh_lsyncd,success,./mugen-riscv/logs/lsyncd/oe_test_rsyncssh_lsyncd/2023-06-02-13:57:07.log,None
+,oe_test_command_lsyncd,success,./mugen-riscv/logs/lsyncd/oe_test_command_lsyncd/2023-06-02-13:58:39.log,None
+lua-lunit,oe_test_lua-lunit_base,success,./mugen-riscv/logs/lua-lunit/oe_test_lua-lunit_base/2023-06-02-14:04:28.log,None
+mac-robber,oe_test_mac-robber,success,./mugen-riscv/logs/mac-robber/oe_test_mac-robber/2023-06-02-15:13:13.log,None
+mosquitto,oe_test_service_mosquitto,success,./mugen-riscv/logs/mosquitto/oe_test_service_mosquitto/2023-06-02-16:12:22.log,None
+mpich,oe_test_mpich_mpiexec_01,success,./mugen-riscv/logs/mpich/oe_test_mpich_mpiexec_01/2023-06-02-16:16:19.log,None
+,oe_test_mpich_mpiexec_02,success,./mugen-riscv/logs/mpich/oe_test_mpich_mpiexec_02/2023-06-02-16:17:27.log,None
+,oe_test_mpich_mpirun_01,success,./mugen-riscv/logs/mpich/oe_test_mpich_mpirun_01/2023-06-02-16:18:26.log,None
+,oe_test_mpich_mpirun_02,success,./mugen-riscv/logs/mpich/oe_test_mpich_mpirun_02/2023-06-02-16:19:26.log,None
+mt-st,oe_test_service_stinit,success,./mugen-riscv/logs/mt-st/oe_test_service_stinit/2023-06-02-16:23:13.log,None
+munge,oe_test_service_munge,success,./mugen-riscv/logs/munge/oe_test_service_munge/2023-06-02-16:46:33.log,None
+mutt,oe_test_mutt,success,./mugen-riscv/logs/mutt/oe_test_mutt/2023-06-02-16:48:40.log,None
+nagios,oe_test_service_nagios,success,./mugen-riscv/logs/nagios/oe_test_service_nagios/2023-06-02-17:00:07.log,None
+openhpi,oe_test_service_openhpid,success,./mugen-riscv/logs/openhpi/oe_test_service_openhpid/2023-04-26-12:29:53.log,None
+openjade,oe_test_openjade_jade_01,success,./mugen-riscv/logs/openjade/oe_test_openjade_jade_01/2023-04-26-12:33:22.log,None
+,oe_test_openjade_jade_02,success,./mugen-riscv/logs/openjade/oe_test_openjade_jade_02/2023-04-26-12:34:45.log,None
+,oe_test_openjade_jade_03,success,./mugen-riscv/logs/openjade/oe_test_openjade_jade_03/2023-04-26-12:35:58.log,None
+,oe_test_openjade_openjade_01,success,./mugen-riscv/logs/openjade/oe_test_openjade_openjade_01/2023-04-26-12:37:10.log,None
+,oe_test_openjade_openjade_02,success,./mugen-riscv/logs/openjade/oe_test_openjade_openjade_02/2023-04-26-12:38:22.log,None
+,oe_test_openjade_openjade_03,success,./mugen-riscv/logs/openjade/oe_test_openjade_openjade_03/2023-04-26-12:39:34.log,None
+,oe_test_openjade_openjade_04,success,./mugen-riscv/logs/openjade/oe_test_openjade_openjade_04/2023-04-26-12:40:47.log,None
+netdata,oe_test_netdata,success,./mugen-riscv/logs/netdata/oe_test_netdata/2023-04-26-11:11:48.log,None
+netperf,oe_test_netperf_basic_command,success,./mugen-riscv/logs/netperf/oe_test_netperf_basic_command/2023-04-26-11:26:08.log,None
+,oe_test_netperf_diff_connect_model,success,./mugen-riscv/logs/netperf/oe_test_netperf_diff_connect_model/2023-04-26-11:30:03.log,None
+,oe_test_netperf_remote_command,success,./mugen-riscv/logs/netperf/oe_test_netperf_remote_command/2023-04-26-11:33:53.log,None
+nss_wrapper,oe_test_nss_wrapper,success,./mugen-riscv/logs/nss_wrapper/oe_test_nss_wrapper/2023-04-26-12:07:31.log,None
+objectweb-asm3,oe_test_objectweb-asm3-processor,success,./mugen-riscv/logs/objectweb-asm3/oe_test_objectweb-asm3-processor/2023-04-26-12:13:37.log,None
+opencc,oe_test_opencc_01,success,./mugen-riscv/logs/opencc/oe_test_opencc_01/2023-04-26-12:23:34.log,None
+opencryptoki,oe_test_service_pkcsslotd,success,./mugen-riscv/logs/opencryptoki/oe_test_service_pkcsslotd/2023-04-26-12:26:29.log,None
+opensp,oe_test_opensp_onsgmls,success,./mugen-riscv/logs/opensp/oe_test_opensp_onsgmls/2023-04-26-13:51:49.log,None
+,oe_test_opensp_osgmlnorm,success,./mugen-riscv/logs/opensp/oe_test_opensp_osgmlnorm/2023-04-26-13:56:12.log,None
+,oe_test_opensp_ospam_spam,success,./mugen-riscv/logs/opensp/oe_test_opensp_ospam_spam/2023-04-26-13:59:24.log,None
+,oe_test_opensp_ospcat,success,./mugen-riscv/logs/opensp/oe_test_opensp_ospcat/2023-04-26-13:54:51.log,None
+,oe_test_opensp_ospent_spent,success,./mugen-riscv/logs/opensp/oe_test_opensp_ospent_spent/2023-04-26-14:02:04.log,None
+,oe_test_opensp_osx,success,./mugen-riscv/logs/opensp/oe_test_opensp_osx/2023-04-26-14:03:18.log,None
+optipng,oe_test_optipng_01,success,./mugen-riscv/logs/optipng/oe_test_optipng_01/2023-04-26-14:43:43.log,None
+,oe_test_optipng_02,success,./mugen-riscv/logs/optipng/oe_test_optipng_02/2023-04-26-14:44:57.log,None
+p7zip,oe_test_p7zip_7za_001,success,./mugen-riscv/logs/p7zip/oe_test_p7zip_7za_001/2023-04-26-14:50:52.log,None
+,oe_test_p7zip_7za_002,success,./mugen-riscv/logs/p7zip/oe_test_p7zip_7za_002/2023-04-26-14:55:04.log,None
+,oe_test_p7zip_7za_003,success,./mugen-riscv/logs/p7zip/oe_test_p7zip_7za_003/2023-04-26-14:56:18.log,None
+,oe_test_p7zip_7za_004,success,./mugen-riscv/logs/p7zip/oe_test_p7zip_7za_004/2023-04-26-14:57:22.log,None
+,oe_test_p7zip_7za_005,success,./mugen-riscv/logs/p7zip/oe_test_p7zip_7za_005/2023-04-26-14:58:27.log,None
+paps,oe_test_paps,success,./mugen-riscv/logs/paps/oe_test_paps/2023-04-26-15:32:58.log,None
+pax,oe_test_pax_runtest_01,success,./mugen-riscv/logs/pax/oe_test_pax_runtest_01/2023-04-26-15:57:41.log,None
+,oe_test_pax_runtest_02,success,./mugen-riscv/logs/pax/oe_test_pax_runtest_02/2023-04-26-15:58:58.log,None
+,oe_test_pax_runtest_03,success,./mugen-riscv/logs/pax/oe_test_pax_runtest_03/2023-04-26-16:00:09.log,None
+,oe_test_pax_runtest_04,success,./mugen-riscv/logs/pax/oe_test_pax_runtest_04/2023-04-26-16:01:18.log,None
+pcp-export-pcp2json,oe_test_pcp2json_01,success,./mugen-riscv/logs/pcp-export-pcp2json/oe_test_pcp2json_01/2023-04-26-16:30:59.log,None
+,oe_test_pcp2json_02,success,./mugen-riscv/logs/pcp-export-pcp2json/oe_test_pcp2json_02/2023-04-26-16:39:43.log,None
+,oe_test_pcp2json_03,success,./mugen-riscv/logs/pcp-export-pcp2json/oe_test_pcp2json_03/2023-04-26-16:49:20.log,None
+,oe_test_pcp2json_04,success,./mugen-riscv/logs/pcp-export-pcp2json/oe_test_pcp2json_04/2023-04-26-16:59:57.log,None
+,oe_test_pcp2json_05,success,./mugen-riscv/logs/pcp-export-pcp2json/oe_test_pcp2json_05/2023-04-26-17:10:21.log,None
+pcp-export-pcp2xml,oe_test_pcp2xml_01,success,./mugen-riscv/logs/pcp-export-pcp2xml/oe_test_pcp2xml_01/2023-04-26-17:21:01.log,None
+,oe_test_pcp2xml_02,success,./mugen-riscv/logs/pcp-export-pcp2xml/oe_test_pcp2xml_02/2023-04-26-17:29:09.log,None
+,oe_test_pcp2xml_03,success,./mugen-riscv/logs/pcp-export-pcp2xml/oe_test_pcp2xml_03/2023-04-26-17:39:05.log,None
+,oe_test_pcp2xml_04,success,./mugen-riscv/logs/pcp-export-pcp2xml/oe_test_pcp2xml_04/2023-04-26-17:49:30.log,None
+pcs,oe_test_service_pcs_snmp_agent,success,./mugen-riscv/logs/pcs/oe_test_service_pcs_snmp_agent/2023-04-26-18:15:57.log,None
+,oe_test_service_pcsd,success,./mugen-riscv/logs/pcs/oe_test_service_pcsd/2023-04-26-18:06:06.log,None
+,oe_test_service_pcsd-ruby,success,./mugen-riscv/logs/pcs/oe_test_service_pcsd-ruby/2023-04-26-18:11:36.log,None
+perl-Net-Server,oe_test_perl-Net-Server,success,./mugen-riscv/logs/perl-Net-Server/oe_test_perl-Net-Server/2023-04-26-18:46:18.log,None
+perl-Pod-Markdown,oe_test_perl-Pod-Markdown_pod2markdown,success,./mugen-riscv/logs/perl-Pod-Markdown/oe_test_perl-Pod-Markdown_pod2markdown/2023-04-26-18:50:48.log,None
+php,oe_test_phar,success,./mugen-riscv/logs/php/oe_test_phar/2023-04-26-19:01:34.log,None
+,oe_test_phar_phar,success,./mugen-riscv/logs/php/oe_test_phar_phar/2023-04-26-19:03:46.log,None
+,oe_test_php,success,./mugen-riscv/logs/php/oe_test_php/2023-04-26-19:05:55.log,None
+,oe_test_php-cgi_phpize,success,./mugen-riscv/logs/php/oe_test_php-cgi_phpize/2023-04-26-19:09:16.log,None
+,oe_test_php-config,success,./mugen-riscv/logs/php/oe_test_php-config/2023-04-26-19:12:36.log,None
+,oe_test_php-fpm,success,./mugen-riscv/logs/php/oe_test_php-fpm/2023-04-26-19:17:18.log,None
+,oe_test_phpdbg,success,./mugen-riscv/logs/php/oe_test_phpdbg/2023-04-26-19:15:45.log,None
+,oe_test_service_php-fpm,success,./mugen-riscv/logs/php/oe_test_service_php-fpm/2023-04-26-19:19:00.log,None
+pngcrush,oe_test_pngcrush_01,success,./mugen-riscv/logs/pngcrush/oe_test_pngcrush_01/2023-04-26-19:22:54.log,None
+,oe_test_pngcrush_02,success,./mugen-riscv/logs/pngcrush/oe_test_pngcrush_02/2023-04-26-19:25:04.log,None
+,oe_test_pngcrush_03,success,./mugen-riscv/logs/pngcrush/oe_test_pngcrush_03/2023-04-26-19:26:34.log,None
+,oe_test_pngcrush_04,success,./mugen-riscv/logs/pngcrush/oe_test_pngcrush_04/2023-04-26-19:27:58.log,None
+,oe_test_pngcrush_05,success,./mugen-riscv/logs/pngcrush/oe_test_pngcrush_05/2023-04-26-19:29:23.log,None
+portreserve,oe_test_service_portreserve,success,./mugen-riscv/logs/portreserve/oe_test_service_portreserve/2023-04-26-19:47:10.log,None
+proftpd,oe_test_service_proftpd,success,./mugen-riscv/logs/proftpd/oe_test_service_proftpd/2023-04-26-20:01:25.log,None
+,oe_test_socket_proftpd,success,./mugen-riscv/logs/proftpd/oe_test_socket_proftpd/2023-04-26-20:04:18.log,None
+raptor2,oe_test_raptor2_rapper_base_01,success,./mugen-riscv/logs/raptor2/oe_test_raptor2_rapper_base_01/2023-04-26-22:21:47.log,None
+,oe_test_raptor2_rapper_base_02,success,./mugen-riscv/logs/raptor2/oe_test_raptor2_rapper_base_02/2023-04-26-22:23:20.log,None
+,oe_test_raptor2_rapper_base_03,success,./mugen-riscv/logs/raptor2/oe_test_raptor2_rapper_base_03/2023-04-26-22:24:43.log,None
+,oe_test_raptor2_rapper_base_04,success,./mugen-riscv/logs/raptor2/oe_test_raptor2_rapper_base_04/2023-04-26-22:26:03.log,None
+rasqal,oe_test_roqet_base_01,success,./mugen-riscv/logs/rasqal/oe_test_roqet_base_01/2023-04-26-22:28:57.log,None
+,oe_test_roqet_base_02,success,./mugen-riscv/logs/rasqal/oe_test_roqet_base_02/2023-04-26-22:30:39.log,None
+,oe_test_roqet_base_03,success,./mugen-riscv/logs/rasqal/oe_test_roqet_base_03/2023-04-26-22:32:03.log,None
+,oe_test_roqet_base_04,success,./mugen-riscv/logs/rasqal/oe_test_roqet_base_04/2023-04-26-22:33:27.log,None
+redland,oe_test_redland_rdfproc_01,success,./mugen-riscv/logs/redland/oe_test_redland_rdfproc_01/2023-04-26-23:16:35.log,None
+,oe_test_redland_rdfproc_02,success,./mugen-riscv/logs/redland/oe_test_redland_rdfproc_02/2023-04-26-23:18:09.log,None
+resource-agents,oe_test_service_ldirectord,success,./mugen-riscv/logs/resource-agents/oe_test_service_ldirectord/2023-04-26-23:21:05.log,None
+,oe_test_target_resource-agents-deps,success,./mugen-riscv/logs/resource-agents/oe_test_target_resource-agents-deps/2023-04-26-23:25:08.log,None
+rinetd,oe_test_service_rinetd,success,./mugen-riscv/logs/rinetd/oe_test_service_rinetd/2023-04-26-23:22:00.log,None
+sblim-sfcb,oe_test_service_sblim-sfcb,success,./mugen-riscv/logs/sblim-sfcb/oe_test_service_sblim-sfcb/2023-04-27-02:26:19.log,None
+scsi-target-utils,oe_test_service_tgtd,success,./mugen-riscv/logs/scsi-target-utils/oe_test_service_tgtd/2023-04-27-02:40:06.log,None
+smoke-module,oe_test_module,success,./mugen-riscv/logs/smoke-module/oe_test_module/2023-04-29-02:35:23.log,None
+sphinx,oe_test_service_searchd,success,./mugen-riscv/logs/sphinx/oe_test_service_searchd/2023-04-27-03:02:50.log,None
+sqlite-jdbc,oe_test_sqlite-jdbc_connect,success,./mugen-riscv/logs/sqlite-jdbc/oe_test_sqlite-jdbc_connect/2023-04-27-03:07:48.log,None
+stunnel,oe_test_service_stunnel,success,./mugen-riscv/logs/stunnel/oe_test_service_stunnel/2023-04-27-03:49:14.log,None
+swig,oe_test_swig_01,success,./mugen-riscv/logs/swig/oe_test_swig_01/2023-04-27-03:50:03.log,None
+,oe_test_swig_02,success,./mugen-riscv/logs/swig/oe_test_swig_02/2023-04-27-03:51:26.log,None
+,oe_test_swig_03,success,./mugen-riscv/logs/swig/oe_test_swig_03/2023-04-27-03:52:44.log,None
+,oe_test_swig_04,success,./mugen-riscv/logs/swig/oe_test_swig_04/2023-04-27-03:54:00.log,None
+,oe_test_swig_05,success,./mugen-riscv/logs/swig/oe_test_swig_05/2023-04-27-03:55:12.log,None
+,oe_test_swig_06,success,./mugen-riscv/logs/swig/oe_test_swig_06/2023-04-27-03:56:22.log,None
+,oe_test_swig_07,success,./mugen-riscv/logs/swig/oe_test_swig_07/2023-04-27-03:57:37.log,None
+,oe_test_swig_08,success,./mugen-riscv/logs/swig/oe_test_swig_08/2023-04-27-03:58:53.log,None
+,oe_test_swig_09,success,./mugen-riscv/logs/swig/oe_test_swig_09/2023-04-27-04:00:07.log,None
+,oe_test_swig_10,success,./mugen-riscv/logs/swig/oe_test_swig_10/2023-04-27-04:01:22.log,None
+,oe_test_swig_11,success,./mugen-riscv/logs/swig/oe_test_swig_11/2023-04-27-04:02:38.log,None
+tcllib,oe_test_tcllib_dtplite,success,./mugen-riscv/logs/tcllib/oe_test_tcllib_dtplite/2023-04-27-04:16:14.log,None
+,oe_test_tcllib_nns,success,./mugen-riscv/logs/tcllib/oe_test_tcllib_nns/2023-04-27-04:18:03.log,None
+,oe_test_tcllib_page,success,./mugen-riscv/logs/tcllib/oe_test_tcllib_page/2023-04-27-04:21:27.log,None
+tidy,oe_test_tidy_character_encodings,success,./mugen-riscv/logs/tidy/oe_test_tidy_character_encodings/2023-04-27-04:28:54.log,None
+,oe_test_tidy_cleanup_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_cleanup_options/2023-04-27-04:38:21.log,None
+,oe_test_tidy_diagnostics_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_diagnostics_options/2023-04-27-04:36:02.log,None
+,oe_test_tidy_document_display_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_document_display_options/2023-04-27-04:32:41.log,None
+,oe_test_tidy_document_in_and_out_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_document_in_and_out_options/2023-04-27-04:33:50.log,None
+,oe_test_tidy_encoding_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_encoding_options/2023-04-27-04:37:12.log,None
+,oe_test_tidy_entities_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_entities_options/2023-04-27-04:39:43.log,None
+,oe_test_tidy_file_input-output_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_file_input-output_options/2023-04-27-04:34:55.log,None
+,oe_test_tidy_file_manipulation,success,./mugen-riscv/logs/tidy/oe_test_tidy_file_manipulation/2023-04-27-04:26:29.log,None
+,oe_test_tidy_miscellaneous,success,./mugen-riscv/logs/tidy/oe_test_tidy_miscellaneous/2023-04-27-04:30:36.log,None
+,oe_test_tidy_pretty_print_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_pretty_print_options/2023-04-27-04:44:08.log,None
+,oe_test_tidy_processing_directives,success,./mugen-riscv/logs/tidy/oe_test_tidy_processing_directives/2023-04-27-04:27:46.log,None
+,oe_test_tidy_repair_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_repair_options/2023-04-27-04:40:53.log,None
+,oe_test_tidy_teaching_tidy_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_teaching_tidy_options/2023-04-27-04:43:08.log,None
+,oe_test_tidy_transformation_options,success,./mugen-riscv/logs/tidy/oe_test_tidy_transformation_options/2023-04-27-04:42:02.log,None
+,oe_test_tidy_xml,success,./mugen-riscv/logs/tidy/oe_test_tidy_xml/2023-04-27-04:31:41.log,None
+ttmkfdir,oe_test_ttmkfdir_base_01,success,./mugen-riscv/logs/ttmkfdir/oe_test_ttmkfdir_base_01/2023-04-27-04:35:49.log,None
+,oe_test_ttmkfdir_base_02,success,./mugen-riscv/logs/ttmkfdir/oe_test_ttmkfdir_base_02/2023-04-27-04:37:06.log,None
+umoci,oe_test_umoci,success,./mugen-riscv/logs/umoci/oe_test_umoci/2023-04-27-04:45:03.log,None
+uuid,oe_test_uuid_1,success,./mugen-riscv/logs/uuid/oe_test_uuid_1/2023-04-28-01:31:08.log,None
+,oe_test_uuid_2,success,./mugen-riscv/logs/uuid/oe_test_uuid_2/2023-04-28-01:32:41.log,None
+varnish,oe_test_service_varnish,success,./mugen-riscv/logs/varnish/oe_test_service_varnish/2023-04-27-04:58:36.log,None
+,oe_test_service_varnishncsa,success,./mugen-riscv/logs/varnish/oe_test_service_varnishncsa/2023-04-27-04:56:27.log,None
+watchdog,oe_test_service_watchdog,success,./mugen-riscv/logs/watchdog/oe_test_service_watchdog/2023-04-27-05:02:21.log,None
+,oe_test_service_watchdog-ping,success,./mugen-riscv/logs/watchdog/oe_test_service_watchdog-ping/2023-04-27-05:04:08.log,None
+,oe_test_watchdog_001,success,./mugen-riscv/logs/watchdog/oe_test_watchdog_001/2023-04-27-05:05:50.log,None
+webbench,oe_test_webbench,success,./mugen-riscv/logs/webbench/oe_test_webbench/2023-04-27-05:04:30.log,None
+x265,oe_test_x265,success,./mugen-riscv/logs/x265/oe_test_x265/2023-04-27-05:37:17.log,None
+xapian-core,oe_test_xapian-core_copydatabase,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_copydatabase/2023-04-28-03:03:15.log,None
+,oe_test_xapian-core_quest_01,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_quest_01/2023-04-28-03:04:55.log,None
+,oe_test_xapian-core_quest_02,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_quest_02/2023-04-28-03:06:14.log,None
+,oe_test_xapian-core_quest_03,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_quest_03/2023-04-28-03:07:30.log,None
+,oe_test_xapian-core_simpleindex,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_simpleindex/2023-04-28-03:08:46.log,None
+,oe_test_xapian-core_xapian-check,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-check/2023-04-28-03:10:02.log,None
+,oe_test_xapian-core_xapian-compact,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-compact/2023-04-28-03:11:19.log,None
+,oe_test_xapian-core_xapian-config,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-config/2023-04-28-03:12:37.log,None
+,oe_test_xapian-core_xapian-delve_01,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-delve_01/2023-04-28-03:13:53.log,None
+,oe_test_xapian-core_xapian-delve_02,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-delve_02/2023-04-28-03:15:07.log,None
+,oe_test_xapian-core_xapian-metadata,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-metadata/2023-04-28-03:16:08.log,None
+,oe_test_xapian-core_xapian-pos,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-pos/2023-04-28-03:17:08.log,None
+,oe_test_xapian-core_xapian-progsrv,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-progsrv/2023-04-28-03:18:06.log,None
+,oe_test_xapian-core_xapian-replicate-server,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-replicate-server/2023-04-28-03:22:07.log,None
+,oe_test_xapian-core_xapian-replicate_01,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-replicate_01/2023-04-28-03:20:05.log,None
+,oe_test_xapian-core_xapian-replicate_02,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-replicate_02/2023-04-28-03:21:04.log,None
+,oe_test_xapian-core_xapian-tcpsrv,success,./mugen-riscv/logs/xapian-core/oe_test_xapian-core_xapian-tcpsrv/2023-04-28-03:23:11.log,None
+xmltoman,oe_test_xmltoman,success,./mugen-riscv/logs/xmltoman/oe_test_xmltoman/2023-04-27-06:16:28.log,None
+zerofree,oe_test_zerofree,success,./mugen-riscv/logs/zerofree/oe_test_zerofree/2023-04-27-06:41:58.log,None
+zvbi,oe_test_service_zvbid,success,./mugen-riscv/logs/zvbi/oe_test_service_zvbid/2023-04-27-06:48:22.log,None
+byacc2.0,oe_test_byacc_byacc_01,success,./mugen-riscv/logs/byacc2.0/oe_test_byacc_byacc_01/2023-06-22-07:51:00.log,None
+,oe_test_byacc_byacc_02,success,./mugen-riscv/logs/byacc2.0/oe_test_byacc_byacc_02/2023-06-22-07:51:54.log,None
+,oe_test_byacc_yacc_01,success,./mugen-riscv/logs/byacc2.0/oe_test_byacc_yacc_01/2023-06-22-07:52:42.log,None
+,oe_test_byacc_yacc_02,success,./mugen-riscv/logs/byacc2.0/oe_test_byacc_yacc_02/2023-06-22-07:54:04.log,None
+,oe_test_byacc2.0_byacc_03,success,./mugen-riscv/logs/byacc2.0/oe_test_byacc2.0_byacc_03/2023-06-22-07:54:52.log,None
+,oe_test_byacc2.0_yacc_03,success,./mugen-riscv/logs/byacc2.0/oe_test_byacc2.0_yacc_03/2023-06-22-07:55:40.log,None
+scrub_2.6.1,oe_test_scrub_base_01,success,./mugen-riscv/logs/scrub_2.6.1/oe_test_scrub_base_01/2023-06-22-08:31:06.log,None
+,oe_test_scrub_2.6.1_base_02,success,./mugen-riscv/logs/scrub_2.6.1/oe_test_scrub_2.6.1_base_02/2023-06-22-08:32:36.log,None
+anthy,oe_test_anthy_01,success,./mugen-riscv/logs/anthy/oe_test_anthy_01/2023-06-22-09:10:05.log,None
+docbook5-schemas,oe_test_docbook5_schemas,success,./mugen-riscv/logs/docbook5-schemas/oe_test_docbook5_schemas/2023-06-22-09:12:38.log,None
+lesscpy,oe_test_lesscpy,success,./mugen-riscv/logs/lesscpy/oe_test_lesscpy/2023-06-22-09:41:54.log,None
+predixy,oe_test_predixy,success,./mugen-riscv/logs/predixy/oe_test_predixy/2023-06-22-09:49:20.log,None
+rubygem-redcarpet,oe_test_redcarpet,success,./mugen-riscv/logs/rubygem-redcarpet/oe_test_redcarpet/2023-06-22-09:52:15.log,None
+alsa-utils,oe_test_service_alsa-state,success,./mugen-riscv/logs/alsa-utils/oe_test_service_alsa-state/2023-05-25-21_35_17.log,None
+,oe_test_service_alsa-restore,x86 fail,./mugen-riscv/logs/alsa-utils/oe_test_service_alsa-restore/2023-05-25-21_35_07.log,x86 fail
+ansible,oe_test_ansible_01,success,./mugen-riscv/logs/ansible/oe_test_ansible_01/2023-05-25-21_38_54.log,None
+,oe_test_ansible_02,success,./mugen-riscv/logs/ansible/oe_test_ansible_02/2023-05-25-21_52_02.log,None
+,oe_test_ansible_03,success,./mugen-riscv/logs/ansible/oe_test_ansible_03/2023-05-25-21_54_56.log,None
+,oe_test_ansible_04,x86 fail,./mugen-riscv/logs/ansible/oe_test_ansible_04/2023-05-25-21_58_33.log,x86 fail
+ant,oe_test_ant_001,success,./mugen-riscv/logs/ant/oe_test_ant_001/2023-05-25-21_43_52.log,None
+,oe_test_ant_003,success,./mugen-riscv/logs/ant/oe_test_ant_003/2023-05-25-21_49_22.log,None
+,oe_test_ant_004,success,./mugen-riscv/logs/ant/oe_test_ant_004/2023-05-25-21_52_01.log,None
+,oe_test_ant_005,success,./mugen-riscv/logs/ant/oe_test_ant_005/2023-05-25-21_55_47.log,None
+,oe_test_ant_002,fail,./mugen-riscv/logs/ant/oe_test_ant_002/2023-05-25-21_46_23.log,
+apache-commons-daemon,oe_test_jsvc_base,fail,./mugen-riscv/logs/apache-commons-daemon/oe_test_jsvc_base/2023-05-25-21_44_16.log,
+atune,oe_test_service_atune-engine,success,./mugen-riscv/logs/atune/oe_test_service_atune-engine/2023-05-25-22_06_15.log,None
+,oe_test_service_atuned,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned/2023-05-25-21_58_33.log,x86 fail
+,oe_test_service_atuned_01,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_01/2023-05-25-22_14_49.log,x86 fail
+,oe_test_service_atuned_02,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_02/2023-05-25-22_22_52.log,x86 fail
+,oe_test_service_atuned_03,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_03/2023-05-25-22_28_50.log,x86 fail
+,oe_test_service_atuned_04,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_04/2023-05-25-22_35_35.log,x86 fail
+,oe_test_service_atuned_05,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_05/2023-05-25-22_42_47.log,x86 fail
+,oe_test_service_atuned_06,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_06/2023-05-25-22_47_57.log,x86 fail
+,oe_test_service_atuned_07,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_07/2023-05-25-22_53_09.log,x86 fail
+,oe_test_service_atuned_08,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_08/2023-05-25-22_58_21.log,x86 fail
+,oe_test_service_atuned_09,x86 fail,./mugen-riscv/logs/atune/oe_test_service_atuned_09/2023-05-25-23_03_22.log,x86 fail
+auter,oe_test_auter,x86 fail,./mugen-riscv/logs/auter/oe_test_auter/2023-05-25-13:06:46.log,x86 fail
+autofs,oe_test_autofs,x86 fail,./mugen-riscv/logs/autofs/oe_test_autofs/2023-05-25-13:14:54.log,x86 fail
+,oe_test_service_autofs,x86 fail,./mugen-riscv/logs/autofs/oe_test_service_autofs/2023-05-25-13:20:51.log,x86 fail
+clamav,oe_test_clamav_clamav-milter,success,./mugen-riscv/logs/clamav/oe_test_clamav_clamav-milter/2023-05-25-14:38:46.log,None
+,oe_test_clamav_clambc,success,./mugen-riscv/logs/clamav/oe_test_clamav_clambc/2023-05-25-14:47:59.log,None
+,oe_test_clamav_clamconf,success,./mugen-riscv/logs/clamav/oe_test_clamav_clamconf/2023-05-25-14:59:31.log,None
+,oe_test_clamav_clamdscan_service,success,./mugen-riscv/logs/clamav/oe_test_clamav_clamdscan_service/2023-05-25-15:24:37.log,None
+,oe_test_clamav_clamsubmit,success,./mugen-riscv/logs/clamav/oe_test_clamav_clamsubmit/2023-05-25-17:21:30.log,None
+,oe_test_clamav_freshclam,success,./mugen-riscv/logs/clamav/oe_test_clamav_freshclam/2023-05-25-17:27:05.log,None
+,oe_test_clamav_sigtool_1,success,./mugen-riscv/logs/clamav/oe_test_clamav_sigtool_1/2023-05-25-17:36:54.log,None
+,oe_test_clamav_sigtool_2,success,./mugen-riscv/logs/clamav/oe_test_clamav_sigtool_2/2023-05-25-17:51:04.log,None
+,oe_test_service_clamav-milter,success,./mugen-riscv/logs/clamav/oe_test_service_clamav-milter/2023-05-25-14:28:16.log,None
+,oe_test_clamav_clamdtop,x86 fail,./mugen-riscv/logs/clamav/oe_test_clamav_clamdtop/2023-05-25-15:39:00.log,x86 fail
+,oe_test_clamav_clamonacc,x86 fail,./mugen-riscv/logs/clamav/oe_test_clamav_clamonacc/2023-05-25-15:55:11.log,x86 fail
+,oe_test_clamav_clamscan_1,x86 fail,./mugen-riscv/logs/clamav/oe_test_clamav_clamscan_1/2023-05-25-16:11:23.log,x86 fail
+,oe_test_clamav_clamscan_2,x86 fail,./mugen-riscv/logs/clamav/oe_test_clamav_clamscan_2/2023-05-25-16:41:45.log,x86 fail
+,oe_test_clamav_clamscan_3,x86 fail,./mugen-riscv/logs/clamav/oe_test_clamav_clamscan_3/2023-05-25-16:51:09.log,x86 fail
+,oe_test_service_clamav-clamonacc,x86 fail,./mugen-riscv/logs/clamav/oe_test_service_clamav-clamonacc/2023-05-25-14:15:38.log,x86 fail
+,oe_test_clamav_clamdscan_scan,fail,./mugen-riscv/logs/clamav/oe_test_clamav_clamdscan_scan/2023-05-25-15:07:54.log,
+cobbler,oe_test_cobbler_distro,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_distro/2023-05-25-16:03:06.log,x86 fail
+,oe_test_cobbler_file,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_file/2023-05-25-17:09:17.log,x86 fail
+,oe_test_cobbler_image,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_image/2023-05-25-16:41:56.log,x86 fail
+,oe_test_cobbler_mgmtclass,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_mgmtclass/2023-05-25-16:51:20.log,x86 fail
+,oe_test_cobbler_other,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_other/2023-05-25-17:18:28.log,x86 fail
+,oe_test_cobbler_package,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_package/2023-05-25-17:00:31.log,x86 fail
+,oe_test_cobbler_profile,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_profile/2023-05-25-16:13:21.log,x86 fail
+,oe_test_cobbler_repo,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_repo/2023-05-25-16:32:56.log,x86 fail
+,oe_test_cobbler_system,x86 fail,./mugen-riscv/logs/cobbler/oe_test_cobbler_system/2023-05-25-16:22:47.log,x86 fail
+conntrack-tools,oe_test_service_conntrackd,x86 fail,./mugen-riscv/logs/conntrack-tools/oe_test_service_conntrackd/2023-05-25-17:55:29.log,x86 fail
+container-exception-logger,oe_test_container-exception-logger,fail,./mugen-riscv/logs/container-exception-logger/oe_test_container-exception-logger/2023-05-25-18:02:20.log,打包错误
+corosync-qdevice,oe_test_service_corosync-qnetd,success,./mugen-riscv/logs/corosync-qdevice/oe_test_service_corosync-qnetd/2023-05-25-18:27:05.log,None
+,oe_test_service_corosync-qdevice,x86 fail,./mugen-riscv/logs/corosync-qdevice/oe_test_service_corosync-qdevice/2023-05-25-18:10:59.log,x86 fail
+corosync,oe_test_service_corosync-notifyd,x86 fail,./mugen-riscv/logs/corosync/oe_test_service_corosync-notifyd/2023-05-25-18:17:25.log,x86 fail
+,oe_test_service_corosync,x86 fail,./mugen-riscv/logs/corosync/oe_test_service_corosync/2023-05-25-18:05:04.log,x86 fail
+,oe_test_service_spausedd,x86 fail,./mugen-riscv/logs/corosync/oe_test_service_spausedd/2023-05-25-18:03:16.log,x86 fail
+cppcheck,oe_test_cppcheck-htmlreport,success,./mugen-riscv/logs/cppcheck/oe_test_cppcheck-htmlreport/2023-05-25-18:35:28.log,None
+,oe_test_cppcheck,x86 fail,./mugen-riscv/logs/cppcheck/oe_test_cppcheck/2023-05-25-18:32:32.log,x86 fail
+dblatex,oe_test_dblatex_dblatex_01,x86 fail,./mugen-riscv/logs/dblatex/oe_test_dblatex_dblatex_01/2023-05-25-19:22:26.log,x86 fail
+,oe_test_dblatex_dblatex_02,x86 fail,./mugen-riscv/logs/dblatex/oe_test_dblatex_dblatex_02/2023-05-25-19:52:44.log,x86 fail
+,oe_test_dblatex_dblatex_03,x86 fail,./mugen-riscv/logs/dblatex/oe_test_dblatex_dblatex_03/2023-05-25-20:07:49.log,x86 fail
+,oe_test_dblatex_dblatex_04,x86 fail,./mugen-riscv/logs/dblatex/oe_test_dblatex_dblatex_04/2023-05-25-20:14:51.log,x86 fail
+,oe_test_dblatex_dblatex_05,x86 fail,./mugen-riscv/logs/dblatex/oe_test_dblatex_dblatex_05/2023-05-25-20:21:56.log,x86 fail
+,oe_test_dblatex_dblatex_06,x86 fail,./mugen-riscv/logs/dblatex/oe_test_dblatex_dblatex_06/2023-05-25-20:52:14.log,x86 fail
+dejagnu,oe_test_dejagnu_runtest_03,success,./mugen-riscv/logs/dejagnu/oe_test_dejagnu_runtest_03/2023-05-25-21:25:43.log,None
+,oe_test_dejagnu_runtest_01,x86 fail,./mugen-riscv/logs/dejagnu/oe_test_dejagnu_runtest_01/2023-05-25-21:13:30.log,x86 fail
+,oe_test_dejagnu_runtest_02,fail,./mugen-riscv/logs/dejagnu/oe_test_dejagnu_runtest_02/2023-05-25-21:23:14.log,
+derby,oe_test_service_derby,x86 fail,./mugen-riscv/logs/derby/oe_test_service_derby/2023-05-25-21:30:29.log,x86 fail
+digest-list-tools,oe_test_service_setup-ima-digest-lists,x86 fail,./mugen-riscv/logs/digest-list-tools/oe_test_service_setup-ima-digest-lists/2023-05-25-21:49:13.log,x86 fail
+dnssec-trigger,oe_test_service_dnssec-triggerd-keygen,success,./mugen-riscv/logs/dnssec-trigger/oe_test_service_dnssec-triggerd-keygen/2023-05-25-22:39:39.log,None
+,oe_test_service_dnssec-triggerd,fail,./mugen-riscv/logs/dnssec-trigger/oe_test_service_dnssec-triggerd/2023-05-25-22:42:58.log,find: ‘/etc/systemd/system/multi-user.target.wants/dnssec-triggerd.service’: No such file or directory
+docker-engine,oe_test_service_docker,x86 fail,./mugen-riscv/logs/docker-engine/oe_test_service_docker/2023-05-25-23:31:48.log,x86 fail
+easymock,oe_test_easymock_createNiceMock,success,./mugen-riscv/logs/easymock/oe_test_easymock_createNiceMock/2023-05-26-01:10:52.log,None
+,oe_test_easymock_frequency_abnormal,success,./mugen-riscv/logs/easymock/oe_test_easymock_frequency_abnormal/2023-05-26-01:48:55.log,None
+,oe_test_easymock_junit4,success,./mugen-riscv/logs/easymock/oe_test_easymock_junit4/2023-05-26-00:30:35.log,None
+,oe_test_easymock_junit5,success,./mugen-riscv/logs/easymock/oe_test_easymock_junit5/2023-05-26-01:17:15.log,None
+,oe_test_easymock_mock_abnormal,success,./mugen-riscv/logs/easymock/oe_test_easymock_mock_abnormal/2023-05-26-01:55:19.log,None
+,oe_test_easymock_order_abnormal,success,./mugen-riscv/logs/easymock/oe_test_easymock_order_abnormal/2023-05-26-00:52:04.log,None
+,oe_test_easymock_parms_abnormal,success,./mugen-riscv/logs/easymock/oe_test_easymock_parms_abnormal/2023-05-26-01:36:06.log,None
+,oe_test_easymock_parms_match,success,./mugen-riscv/logs/easymock/oe_test_easymock_parms_match/2023-05-26-02:01:37.log,None
+,oe_test_easymock_set_parms,success,./mugen-riscv/logs/easymock/oe_test_easymock_set_parms/2023-05-26-00:58:19.log,None
+,oe_test_easymock_simulate_interface,success,./mugen-riscv/logs/easymock/oe_test_easymock_simulate_interface/2023-05-26-01:42:34.log,None
+,oe_test_easymock_simulate_object,success,./mugen-riscv/logs/easymock/oe_test_easymock_simulate_object/2023-05-26-02:07:48.log,None
+,oe_test_easymock_spring,x86 fail,./mugen-riscv/logs/easymock/oe_test_easymock_spring/2023-05-26-01:04:28.log,x86 fail
+etcd,oe_test_etcd_03,x86 fail,./mugen-riscv/logs/etcd/oe_test_etcd_03/2023-05-26-14:05:56.log,x86 fail
+,oe_test_etcd_05,x86 fail,./mugen-riscv/logs/etcd/oe_test_etcd_05/2023-05-26-15:06:29.log,x86 fail
+,oe_test_etcd_01,fail,./mugen-riscv/logs/etcd/oe_test_etcd_01/2023-05-26-13:30:41.log,systemd unit restart failure
+,oe_test_etcd_02,fail,./mugen-riscv/logs/etcd/oe_test_etcd_02/2023-05-26-13:35:31.log,systemd unit restart failure/timeout
+,oe_test_etcd_04,fail,./mugen-riscv/logs/etcd/oe_test_etcd_04/2023-05-26-14:36:15.log,systemd unit restart failure/timeout
+,oe_test_service_etcd,fail,./mugen-riscv/logs/etcd/oe_test_service_etcd/2023-05-26-13:26:15.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+fastdfs,oe_test_fastdfs_01,x86 fail,./mugen-riscv/logs/fastdfs/oe_test_fastdfs_01/2023-05-26-13:47:56.log,x86 fail
+,oe_test_fastdfs_02,x86 fail,./mugen-riscv/logs/fastdfs/oe_test_fastdfs_02/2023-05-26-13:52:31.log,x86 fail
+,oe_test_fastdfs_03,x86 fail,./mugen-riscv/logs/fastdfs/oe_test_fastdfs_03/2023-05-26-13:56:05.log,x86 fail
+,oe_test_fastdfs_04,x86 fail,./mugen-riscv/logs/fastdfs/oe_test_fastdfs_04/2023-05-26-14:00:05.log,x86 fail
+fcgi,oe_test_fcgi,x86 fail,./mugen-riscv/logs/fcgi/oe_test_fcgi/2023-05-26-14:06:31.log,x86 fail
+firebird,oe_test_service_firebird-superserver,x86 fail,./mugen-riscv/logs/firebird/oe_test_service_firebird-superserver/2023-05-26-15:11:09.log,x86 fail
+freeipmi,oe_test_service_bmc-watchdog,x86 fail,./mugen-riscv/logs/freeipmi/oe_test_service_bmc-watchdog/2023-05-26-16:49:31.log,x86 fail
+,oe_test_service_ipmidetectd,x86 fail,./mugen-riscv/logs/freeipmi/oe_test_service_ipmidetectd/2023-05-26-16:52:34.log,x86 fail
+,oe_test_service_ipmiseld,x86 fail,./mugen-riscv/logs/freeipmi/oe_test_service_ipmiseld/2023-05-26-16:55:23.log,x86 fail
+ganglia,oe_test_service_gmond,success,./mugen-riscv/logs/ganglia/oe_test_service_gmond/2023-05-26-19:55:20.log,None
+,oe_test_service_gmetad,fail,./mugen-riscv/logs/ganglia/oe_test_service_gmetad/2023-05-26-19:52:14.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+gegl04,oe_test_gegl04_gegl,success,./mugen-riscv/logs/gegl04/oe_test_gegl04_gegl/2023-05-26-20:34:44.log,None
+,oe_test_gegl04_gegl-imgcmp,fail,./mugen-riscv/logs/gegl04/oe_test_gegl04_gegl-imgcmp/2023-05-26-20:44:10.log,
+geos,oe_test_geos_commandAndbaseFun,fail,./mugen-riscv/logs/geos/oe_test_geos_commandAndbaseFun/2023-05-26-20:56:07.log,镜像没有预装测试所需的 kernel-headers
+gradle,oe_test_gradle_01,x86 fail,./mugen-riscv/logs/gradle/oe_test_gradle_01/2023-05-26-22:02:35.log,x86 fail
+,oe_test_gradle_02,x86 fail,./mugen-riscv/logs/gradle/oe_test_gradle_02/2023-05-26-22:04:17.log,x86 fail
+,oe_test_gradle_03,x86 fail,./mugen-riscv/logs/gradle/oe_test_gradle_03/2023-05-26-22:05:48.log,x86 fail
+,oe_test_gradle_04,x86 fail,./mugen-riscv/logs/gradle/oe_test_gradle_04/2023-05-26-22:07:19.log,x86 fail
+groovy,oe_test_groovy_01,x86 fail,./mugen-riscv/logs/groovy/oe_test_groovy_01/2023-05-26-22:14:30.log,x86 fail
+,oe_test_groovy_02,x86 fail,./mugen-riscv/logs/groovy/oe_test_groovy_02/2023-05-26-22:16:16.log,x86 fail
+htop,oe_test_htop_01,success,./mugen-riscv/logs/htop/oe_test_htop_01/2023-05-26-23:00:25.log,None
+,oe_test_htop_02,fail,./mugen-riscv/logs/htop/oe_test_htop_02/2023-05-26-23:02:23.log,测试套编写错误
+iftop,oe_test_iftop_config,x86 fail,./mugen-riscv/logs/iftop/oe_test_iftop_config/2023-05-27-00:14:03.log,x86 fail
+,oe_test_iftop_gui,x86 fail,./mugen-riscv/logs/iftop/oe_test_iftop_gui/2023-05-27-00:08:51.log,x86 fail
+,oe_test_iftop_text_mode,x86 fail,./mugen-riscv/logs/iftop/oe_test_iftop_text_mode/2023-05-26-23:38:34.log,x86 fail
+libuuid,oe_test_libuuid,fail,./mugen-riscv/logs/libuuid/oe_test_libuuid/2023-06-02-10_37_08.log,
+osc,oe_test_osc_01,success,./mugen-riscv/logs/osc/oe_test_osc_01/2023-05-25-18_01_02.log,None
+,oe_test_osc_02,success,./mugen-riscv/logs/osc/oe_test_osc_02/2023-05-25-18_02_48.log,None
+,oe_test_osc_03,success,./mugen-riscv/logs/osc/oe_test_osc_03/2023-05-25-18_05_16.log,None
+,oe_test_osc_05,success,./mugen-riscv/logs/osc/oe_test_osc_05/2023-05-25-18_10_47.log,None
+,oe_test_osc_06,success,./mugen-riscv/logs/osc/oe_test_osc_06/2023-05-25-18_13_53.log,None
+,oe_test_osc_07,success,./mugen-riscv/logs/osc/oe_test_osc_07/2023-05-25-18_16_49.log,None
+,oe_test_osc_04,x86 fail,./mugen-riscv/logs/osc/oe_test_osc_04/2023-05-25-18_07_22.log,x86 fail
+,oe_test_osc_build,x86 fail,./mugen-riscv/logs/osc/oe_test_osc_build/2023-05-25-18_19_19.log,x86 fail
+jetty,oe_test_jetty_start,x86 fail,./mugen-riscv/logs/jetty/oe_test_jetty_start/2023-06-02-05:54:09.log,x86 fail
+,oe_test_service_jetty,x86 fail,./mugen-riscv/logs/jetty/oe_test_service_jetty/2023-06-02-05:54:54.log,x86 fail
+junit5,oe_test_junit5_annotation_tag,success,./mugen-riscv/logs/junit5/oe_test_junit5_annotation_tag/2023-06-02-06:01:20.log,None
+,oe_test_junit5_annotation_timeout,success,./mugen-riscv/logs/junit5/oe_test_junit5_annotation_timeout/2023-06-02-06:04:29.log,None
+,oe_test_junit5_ant,success,./mugen-riscv/logs/junit5/oe_test_junit5_ant/2023-06-02-06:07:42.log,None
+,oe_test_junit5_abnormal_removejar,success,./mugen-riscv/logs/junit5/oe_test_junit5_abnormal_removejar/2023-06-02-05:58:03.log,None
+,oe_test_junit5_epeat,success,./mugen-riscv/logs/junit5/oe_test_junit5_epeat/2023-06-02-06:14:54.log,None
+,oe_test_junit5_assert,success,./mugen-riscv/logs/junit5/oe_test_junit5_assert/2023-06-02-06:11:45.log,None
+,oe_test_junit5_junit4,success,./mugen-riscv/logs/junit5/oe_test_junit5_junit4/2023-06-02-06:21:24.log,None
+,oe_test_junit5_maven,success,./mugen-riscv/logs/junit5/oe_test_junit5_maven/2023-06-02-06:36:15.log,None
+,oe_test_junit5_parametric,success,./mugen-riscv/logs/junit5/oe_test_junit5_parametric/2023-06-02-06:45:24.log,None
+,oe_test_junit5_spring_maven,success,./mugen-riscv/logs/junit5/oe_test_junit5_spring_maven/2023-06-02-06:48:39.log,None
+,oe_test_junit5_gradle,x86 fail,./mugen-riscv/logs/junit5/oe_test_junit5_gradle/2023-06-02-06:18:02.log,x86 fail
+,oe_test_junit5_kotlin_maven,x86 fail,./mugen-riscv/logs/junit5/oe_test_junit5_kotlin_maven/2023-06-02-06:31:06.log,x86 fail
+,oe_test_junit5_noimport,x86 fail,./mugen-riscv/logs/junit5/oe_test_junit5_noimport/2023-06-02-06:43:48.log,x86 fail
+jython,oe_test_jython_01,x86 fail,./mugen-riscv/logs/jython/oe_test_jython_01/2023-06-02-07:04:04.log,x86 fail
+,oe_test_jython_02,x86 fail,./mugen-riscv/logs/jython/oe_test_jython_02/2023-06-02-07:05:04.log,x86 fail
+,oe_test_jython_03,x86 fail,./mugen-riscv/logs/jython/oe_test_jython_03/2023-06-02-07:05:51.log,x86 fail
+kubernetes,oe_test_service_kube-controller-manager,x86 fail,./mugen-riscv/logs/kubernetes/oe_test_service_kube-controller-manager/2023-06-02-07:29:33.log,x86 fail
+,oe_test_service_kube-scheduler,fail,./mugen-riscv/logs/kubernetes/oe_test_service_kube-scheduler/2023-06-02-07:44:54.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+,oe_test_service_kubelet,fail,./mugen-riscv/logs/kubernetes/oe_test_service_kubelet/2023-06-02-08:07:26.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+,oe_test_service_kube-proxy,fail,./mugen-riscv/logs/kubernetes/oe_test_service_kube-proxy/2023-06-02-08:10:42.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+,oe_test_service_kube-apiserver,fail,./mugen-riscv/logs/kubernetes/oe_test_service_kube-apiserver/2023-06-02-08:26:16.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+ladspa,oe_test_ladspa_analyseplugin,fail,./mugen-riscv/logs/ladspa/oe_test_ladspa_analyseplugin/2023-06-02-08:39:27.log,
+,oe_test_ladspa_applyplugin,fail,./mugen-riscv/logs/ladspa/oe_test_ladspa_applyplugin/2023-06-02-08:40:30.log,
+libfabric,oe_test_libfabric_fi_info_03,success,./mugen-riscv/logs/libfabric/oe_test_libfabric_fi_info_03/2023-06-02-09:03:20.log,None
+,oe_test_libfabric_pingpong_01,success,./mugen-riscv/logs/libfabric/oe_test_libfabric_pingpong_01/2023-06-02-09:04:29.log,None
+,oe_test_libfabric_pingpong_02,success,./mugen-riscv/logs/libfabric/oe_test_libfabric_pingpong_02/2023-06-02-09:05:41.log,None
+,oe_test_libfabric_fi_info_01,x86 fail,./mugen-riscv/logs/libfabric/oe_test_libfabric_fi_info_01/2023-06-02-09:00:29.log,x86 fail
+,oe_test_libfabric_fi_info_02,x86 fail,./mugen-riscv/logs/libfabric/oe_test_libfabric_fi_info_02/2023-06-02-09:01:59.log,x86 fail
+librabbitmq,oe_test_librabbitmq_amqp-declare-queue,success,./mugen-riscv/logs/librabbitmq/oe_test_librabbitmq_amqp-declare-queue/2023-06-02-09:34:55.log,None
+,oe_test_librabbitmq_amqp-delete-queue,success,./mugen-riscv/logs/librabbitmq/oe_test_librabbitmq_amqp-delete-queue/2023-06-02-09:44:26.log,None
+,oe_test_librabbitmq_amqp-get,success,./mugen-riscv/logs/librabbitmq/oe_test_librabbitmq_amqp-get/2023-06-02-09:48:59.log,None
+,oe_test_librabbitmq_amqp-publish,success,./mugen-riscv/logs/librabbitmq/oe_test_librabbitmq_amqp-publish/2023-06-02-09:53:28.log,None
+,oe_test_librabbitmq_amqp-consume,fail,./mugen-riscv/logs/librabbitmq/oe_test_librabbitmq_amqp-consume/2023-06-02-09:39:24.log,
+libwmf,oe_test_libwmf_wmf2eps_01,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2eps_01/2023-06-02-12:24:11.log,None
+,oe_test_libwmf_wmf2eps_02,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2eps_02/2023-06-02-12:25:17.log,None
+,oe_test_libwmf_wmf2eps_03,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2eps_03/2023-06-02-12:26:21.log,None
+,oe_test_libwmf_wmf2gd_01,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2gd_01/2023-06-02-12:27:25.log,None
+,oe_test_libwmf_wmf2gd_02,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2gd_02/2023-06-02-12:28:31.log,None
+,oe_test_libwmf_wmf2fig_01,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2fig_01/2023-06-02-12:29:37.log,None
+,oe_test_libwmf_wmf2fig_02,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2fig_02/2023-06-02-12:30:42.log,None
+,oe_test_libwmf_wmf2fig_03,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2fig_03/2023-06-02-12:31:48.log,None
+,oe_test_libwmf_wmf2svg_01,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2svg_01/2023-06-02-12:32:52.log,None
+,oe_test_libwmf_wmf2svg_02,success,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2svg_02/2023-06-02-12:33:59.log,None
+,oe_test_libwmf_libwmf-fontmap,x86 fail,./mugen-riscv/logs/libwmf/oe_test_libwmf_libwmf-fontmap/2023-06-02-12:22:55.log,x86 fail
+,oe_test_libwmf_wmf2x_02,x86 fail,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2x_02/2023-06-02-12:36:11.log,x86 fail
+,oe_test_libwmf_wmf2x_01,fail,./mugen-riscv/logs/libwmf/oe_test_libwmf_wmf2x_01/2023-06-02-12:35:03.log,
+linuxptp,oe_test_nsm,success,./mugen-riscv/logs/linuxptp/oe_test_nsm/2023-06-02-12:44:19.log,None
+,oe_test_service_phc2sys,x86 fail,./mugen-riscv/logs/linuxptp/oe_test_service_phc2sys/2023-06-02-12:41:04.log,x86 fail
+,oe_test_service_ptp4l,x86 fail,./mugen-riscv/logs/linuxptp/oe_test_service_ptp4l/2023-06-02-12:42:47.log,x86 fail
+,oe_test_pmc,x86 fail,./mugen-riscv/logs/linuxptp/oe_test_pmc/2023-06-02-12:45:17.log,x86 fail
+,oe_test_ptp4l_01,x86 fail,./mugen-riscv/logs/linuxptp/oe_test_ptp4l_01/2023-06-02-12:46:29.log,x86 fail
+,oe_test_ptp4l_02,x86 fail,./mugen-riscv/logs/linuxptp/oe_test_ptp4l_02/2023-06-02-12:50:27.log,x86 fail
+,oe_test_timemaster,x86 fail,./mugen-riscv/logs/linuxptp/oe_test_timemaster/2023-06-02-12:52:19.log,x86 fail
+logwatch,oe_test_logwatch,fail,./mugen-riscv/logs/logwatch/oe_test_logwatch/2023-06-02-13:38:08.log,
+mailman,oe_test_service_mailman3,success,./mugen-riscv/logs/mailman/oe_test_service_mailman3/2023-06-02-15:20:25.log,None
+,oe_test_service_mailman3-digests,success,./mugen-riscv/logs/mailman/oe_test_service_mailman3-digests/2023-06-02-15:27:13.log,None
+,oe_test_service_mailman,x86 fail,./mugen-riscv/logs/mailman/oe_test_service_mailman/2023-06-02-15:14:45.log,x86 fail
+mikmod,oe_test_mikmod_mikmod_02,x86 fail,./mugen-riscv/logs/mikmod/oe_test_mikmod_mikmod_02/2023-06-02-16:00:58.log,x86 fail
+,oe_test_mikmod_mikmod_01,x86 fail,./mugen-riscv/logs/mikmod/oe_test_mikmod_mikmod_01/2023-06-02-16:02:12.log,x86 fail
+,oe_test_mikmod_mikmod_03,x86 fail,./mugen-riscv/logs/mikmod/oe_test_mikmod_mikmod_03/2023-06-02-16:03:07.log,x86 fail
+,oe_test_mikmod_mikmod_04,x86 fail,./mugen-riscv/logs/mikmod/oe_test_mikmod_mikmod_04/2023-06-02-16:04:15.log,x86 fail
+,oe_test_mikmod_mikmod_05,x86 fail,./mugen-riscv/logs/mikmod/oe_test_mikmod_mikmod_05/2023-06-02-16:05:23.log,x86 fail
+,oe_test_mikmod_mikmod_06,x86 fail,./mugen-riscv/logs/mikmod/oe_test_mikmod_mikmod_06/2023-06-02-16:06:28.log,x86 fail
+,oe_test_mikmod_mikmod_07,x86 fail,./mugen-riscv/logs/mikmod/oe_test_mikmod_mikmod_07/2023-06-02-16:07:37.log,x86 fail
+mpg123,oe_test_mpg123,x86 fail,./mugen-riscv/logs/mpg123/oe_test_mpg123/2023-06-02-16:14:41.log,x86 fail
+mrtg,oe_test_service_mrtg,x86 fail,./mugen-riscv/logs/mrtg/oe_test_service_mrtg/2023-06-02-16:20:57.log,x86 fail
+nasm,oe_test_nasm_01,success,./mugen-riscv/logs/nasm/oe_test_nasm_01/2023-06-02-17:02:55.log,None
+,oe_test_nasm_02,success,./mugen-riscv/logs/nasm/oe_test_nasm_02/2023-06-02-17:03:51.log,None
+,oe_test_nasm_03,success,./mugen-riscv/logs/nasm/oe_test_nasm_03/2023-06-02-17:04:39.log,None
+,oe_test_nasm_04,success,./mugen-riscv/logs/nasm/oe_test_nasm_04/2023-06-02-17:05:27.log,None
+,oe_test_nasm_05,success,./mugen-riscv/logs/nasm/oe_test_nasm_05/2023-06-02-17:06:15.log,None
+,oe_test_nasm_06,success,./mugen-riscv/logs/nasm/oe_test_nasm_06/2023-06-02-17:07:04.log,None
+,oe_test_nasm_07,success,./mugen-riscv/logs/nasm/oe_test_nasm_07/2023-06-02-17:07:53.log,None
+,oe_test_nasm_08,success,./mugen-riscv/logs/nasm/oe_test_nasm_08/2023-06-02-17:08:41.log,None
+,oe_test_nasm_09,success,./mugen-riscv/logs/nasm/oe_test_nasm_09/2023-06-02-17:09:29.log,None
+,oe_test_nasm_10,success,./mugen-riscv/logs/nasm/oe_test_nasm_10/2023-06-02-17:10:17.log,None
+,oe_test_nasm_11,success,./mugen-riscv/logs/nasm/oe_test_nasm_11/2023-06-02-17:11:05.log,None
+,oe_test_nasm_12,success,./mugen-riscv/logs/nasm/oe_test_nasm_12/2023-06-02-17:11:53.log,None
+,oe_test_nasm_ndisasm_01,success,./mugen-riscv/logs/nasm/oe_test_nasm_ndisasm_01/2023-06-02-17:13:31.log,None
+,oe_test_nasm_ndisasm_02,success,./mugen-riscv/logs/nasm/oe_test_nasm_ndisasm_02/2023-06-02-17:14:19.log,None
+,oe_test_nasm_13,x86 fail,./mugen-riscv/logs/nasm/oe_test_nasm_13/2023-06-02-17:12:41.log,x86 fail
+nbdkit,oe_test_nbdkit_01,success,./mugen-riscv/logs/nbdkit/oe_test_nbdkit_01/2023-04-26-11:00:49.log,None
+,oe_test_nbdkit_03,success,./mugen-riscv/logs/nbdkit/oe_test_nbdkit_03/2023-04-26-11:04:49.log,None
+,oe_test_nbdkit_02,x86 fail,./mugen-riscv/logs/nbdkit/oe_test_nbdkit_02/2023-04-26-11:02:45.log,x86 fail
+netlabel_tools,oe_test_netlabel_tools_netlabelctl_03,x86 fail,./mugen-riscv/logs/netlabel_tools/oe_test_netlabel_tools_netlabelctl_03/2023-04-26-11:18:45.log,x86 fail
+,oe_test_netlabel_tools_netlabelctl_01,fail,./mugen-riscv/logs/netlabel_tools/oe_test_netlabel_tools_netlabelctl_01/2023-04-26-11:14:56.log,“netlabelctl: error，failed to initialize the NetLabel library”
+,oe_test_netlabel_tools_netlabelctl_02,fail,./mugen-riscv/logs/netlabel_tools/oe_test_netlabel_tools_netlabelctl_02/2023-04-26-11:16:42.log,”netlabelctl: error，failed to initialize the NetLabel library“
+,oe_test_service_netlabel,fail,./mugen-riscv/logs/netlabel_tools/oe_test_service_netlabel/2023-04-26-11:12:30.log,systemd运行启动正常但日志有error信息“failed to initialize the NetLabel library”
+nginx,oe_test_service_nginx,success,./mugen-riscv/logs/nginx/oe_test_service_nginx/2023-04-26-11:45:19.log,None
+,oe_test_nginx_concurrent,x86 fail,./mugen-riscv/logs/nginx/oe_test_nginx_concurrent/2023-04-26-11:47:44.log,x86 fail
+ninja-build,oe_test_ninja-build_ninja,fail,./mugen-riscv/logs/ninja-build/oe_test_ninja-build_ninja/2023-04-26-11:46:06.log,提示 grep: warning: stray \ before -导致返回值为1 实际结果无误
+nmon,oe_test_nmon_03,success,./mugen-riscv/logs/nmon/oe_test_nmon_03/2023-04-26-11:59:09.log,None
+,oe_test_nmon_01,x86 fail,./mugen-riscv/logs/nmon/oe_test_nmon_01/2023-04-26-11:49:06.log,x86 fail
+,oe_test_nmon_02,x86 fail,./mugen-riscv/logs/nmon/oe_test_nmon_02/2023-04-26-11:54:13.log,x86 fail
+,oe_test_nmon_04,x86 fail,./mugen-riscv/logs/nmon/oe_test_nmon_04/2023-04-26-12:00:32.log,x86 fail
+nodejs,oe_test_nodejs_04,x86 fail,./mugen-riscv/logs/nodejs/oe_test_nodejs_04/2023-04-26-11:59:19.log,x86 fail
+,oe_test_nodejs_01,fail,./mugen-riscv/logs/nodejs/oe_test_nodejs_01/2023-04-26-11:49:28.log,Segmentation fault
+,oe_test_nodejs_02,fail,./mugen-riscv/logs/nodejs/oe_test_nodejs_02/2023-04-26-11:52:52.log,Segmentation fault
+,oe_test_nodejs_03,fail,./mugen-riscv/logs/nodejs/oe_test_nodejs_03/2023-04-26-11:56:07.log,Segmentation fault
+novnc,oe_test_novnc,x86 fail,./mugen-riscv/logs/novnc/oe_test_novnc/2023-04-26-12:03:46.log,x86 fail
+ntfs-3g,oe_test_ntfs-3g_mkfs.ntfs,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_mkfs.ntfs/2023-04-27-23:55:19.log,None
+,oe_test_ntfs-3g_mkntfs,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_mkntfs/2023-04-27-23:53:00.log,None
+,oe_test_ntfs-3g_ntfscat,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfscat/2023-04-27-23:49:51.log,None
+,oe_test_ntfs-3g_ntfsclone_01,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsclone_01/2023-04-27-23:57:39.log,None
+,oe_test_ntfs-3g_ntfsclone_02,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsclone_02/2023-04-27-23:59:00.log,None
+,oe_test_ntfs-3g_ntfslabel,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfslabel/2023-04-28-00:00:22.log,None
+,oe_test_ntfs-3g_ntfstruncate,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfstruncate/2023-04-28-00:14:59.log,None
+,oe_test_ntfs-3g_ntfswipe_01,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfswipe_01/2023-04-28-00:04:47.log,None
+,oe_test_ntfs-3g_ntfswipe_02,success,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfswipe_02/2023-04-28-00:07:06.log,None
+,oe_test_ntfs-3g_lowntfs-3g_01,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_lowntfs-3g_01/2023-04-28-00:25:45.log,x86 fail
+,oe_test_ntfs-3g_lowntfs-3g_02,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_lowntfs-3g_02/2023-04-28-00:27:42.log,x86 fail
+,oe_test_ntfs-3g_lowntfs-3g_03,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_lowntfs-3g_03/2023-04-28-00:29:49.log,x86 fail
+,oe_test_ntfs-3g_ntfs-3g_01,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfs-3g_01/2023-04-28-00:19:19.log,x86 fail
+,oe_test_ntfs-3g_ntfs-3g_02,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfs-3g_02/2023-04-28-00:21:15.log,x86 fail
+,oe_test_ntfs-3g_ntfs-3g_03,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfs-3g_03/2023-04-28-00:23:22.log,x86 fail
+,oe_test_ntfs-3g_ntfscluster,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfscluster/2023-04-28-00:10:20.log,x86 fail
+,oe_test_ntfs-3g_ntfscp,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfscp/2023-04-27-23:51:25.log,x86 fail
+,oe_test_ntfs-3g_ntfsfallocate,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsfallocate/2023-04-28-00:32:36.log,x86 fail
+,oe_test_ntfs-3g_ntfsinfo,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsinfo/2023-04-28-00:01:43.log,x86 fail
+,oe_test_ntfs-3g_ntfsls,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsls/2023-04-28-00:03:08.log,x86 fail
+,oe_test_ntfs-3g_ntfsmove,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsmove/2023-04-28-00:11:42.log,x86 fail
+,oe_test_ntfs-3g_ntfsresize,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsresize/2023-04-28-00:08:54.log,x86 fail
+,oe_test_ntfs-3g_ntfssecaudit,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfssecaudit/2023-04-28-00:13:20.log,x86 fail
+,oe_test_ntfs-3g_ntfsundelete_01,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsundelete_01/2023-04-28-00:16:16.log,x86 fail
+,oe_test_ntfs-3g_ntfsundelete_02,x86 fail,./mugen-riscv/logs/ntfs-3g/oe_test_ntfs-3g_ntfsundelete_02/2023-04-28-00:17:51.log,x86 fail
+nvmetcli,oe_test_service_nvmet,fail,./mugen-riscv/logs/nvmetcli/oe_test_service_nvmet/2023-04-26-12:12:04.log,Module nvmet not found
+obs-server,oe_test_service_obsdeltastore,success,./mugen-riscv/logs/obs-server/oe_test_service_obsdeltastore/2023-04-26-13:34:18.log,None
+,oe_test_service_obsdispatcher,success,./mugen-riscv/logs/obs-server/oe_test_service_obsdispatcher/2023-04-26-17:01:39.log,None
+,oe_test_service_obsdodup,success,./mugen-riscv/logs/obs-server/oe_test_service_obsdodup/2023-04-26-14:14:20.log,None
+,oe_test_service_obsgetbinariesproxy,success,./mugen-riscv/logs/obs-server/oe_test_service_obsgetbinariesproxy/2023-04-26-14:43:33.log,None
+,oe_test_service_obsnotifyforward,success,./mugen-riscv/logs/obs-server/oe_test_service_obsnotifyforward/2023-04-26-16:51:13.log,None
+,oe_test_service_obspublisher,success,./mugen-riscv/logs/obs-server/oe_test_service_obspublisher/2023-04-26-16:54:27.log,None
+,oe_test_service_obsrepserver,success,./mugen-riscv/logs/obs-server/oe_test_service_obsrepserver/2023-04-26-16:30:12.log,None
+,oe_test_service_obsscheduler,success,./mugen-riscv/logs/obs-server/oe_test_service_obsscheduler/2023-04-26-16:00:26.log,None
+,oe_test_service_obsservice,success,./mugen-riscv/logs/obs-server/oe_test_service_obsservice/2023-04-26-13:36:51.log,None
+,oe_test_service_obsservicedispatch,success,./mugen-riscv/logs/obs-server/oe_test_service_obsservicedispatch/2023-04-26-15:57:33.log,None
+,oe_test_service_obssigner,success,./mugen-riscv/logs/obs-server/oe_test_service_obssigner/2023-04-26-13:50:05.log,None
+,oe_test_service_obssrcserver,success,./mugen-riscv/logs/obs-server/oe_test_service_obssrcserver/2023-04-26-16:57:50.log,None
+,oe_test_service_obsstoragesetup,success,./mugen-riscv/logs/obs-server/oe_test_service_obsstoragesetup/2023-04-26-13:10:35.log,None
+,oe_test_service_obswarden,success,./mugen-riscv/logs/obs-server/oe_test_service_obswarden/2023-04-26-16:48:04.log,None
+,oe_test_service_obsworker,success,./mugen-riscv/logs/obs-server/oe_test_service_obsworker/2023-04-26-16:34:30.log,None
+,oe_test_target_obs-api-support,success,./mugen-riscv/logs/obs-server/oe_test_target_obs-api-support/2023-04-26-13:20:51.log,None
+,oe_test_obs-server,x86 fail,./mugen-riscv/logs/obs-server/oe_test_obs-server/2023-04-26-12:15:03.log,x86 fail
+,oe_test_service_obs-clockwork,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-clockwork/2023-04-26-14:00:59.log,x86 fail
+,oe_test_service_obs-delayedjob-queue-consistency_check,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-delayedjob-queue-consistency_check/2023-04-26-14:30:02.log,x86 fail
+,oe_test_service_obs-delayedjob-queue-default,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-delayedjob-queue-default/2023-04-26-17:05:06.log,x86 fail
+,oe_test_service_obs-delayedjob-queue-issuetracking,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-delayedjob-queue-issuetracking/2023-04-26-14:46:26.log,x86 fail
+,oe_test_service_obs-delayedjob-queue-mailers,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-delayedjob-queue-mailers/2023-04-26-15:00:00.log,x86 fail
+,oe_test_service_obs-delayedjob-queue-project_log_rotate,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-delayedjob-queue-project_log_rotate/2023-04-26-15:15:13.log,x86 fail
+,oe_test_service_obs-delayedjob-queue-releasetracking,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-delayedjob-queue-releasetracking/2023-04-26-15:29:37.log,x86 fail
+,oe_test_service_obs-delayedjob-queue-staging,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-delayedjob-queue-staging/2023-04-26-15:43:15.log,x86 fail
+,oe_test_service_obs-sphinx,x86 fail,./mugen-riscv/logs/obs-server/oe_test_service_obs-sphinx/2023-04-26-14:17:28.log,x86 fail
+,oe_test_service_obsapisetup,fail,./mugen-riscv/logs/obs-server/oe_test_service_obsapisetup/2023-04-26-13:39:34.log,systemd unit runtime error/systemd unit enable failure
+openmpi,oe_test_openmpi_cluster,x86 fail,./mugen-riscv/logs/openmpi/oe_test_openmpi_cluster/2023-04-26-12:46:24.log,x86 fail
+,oe_test_openmpi_single_01,x86 fail,./mugen-riscv/logs/openmpi/oe_test_openmpi_single_01/2023-04-26-12:56:15.log,x86 fail
+,oe_test_openmpi_single_02,x86 fail,./mugen-riscv/logs/openmpi/oe_test_openmpi_single_02/2023-04-26-12:59:49.log,x86 fail
+pacemaker,oe_test_service_crm_mon,success,./mugen-riscv/logs/pacemaker/oe_test_service_crm_mon/2023-04-26-15:04:09.log,None
+,oe_test_service_pacemaker_remote,success,./mugen-riscv/logs/pacemaker/oe_test_service_pacemaker_remote/2023-04-26-15:07:04.log,None
+,oe_test_service_pacemaker,fail,./mugen-riscv/logs/pacemaker/oe_test_service_pacemaker/2023-04-26-15:09:53.log,
+pcp-system-tools,oe_test_dstat_01,success,./mugen-riscv/logs/pcp-system-tools/oe_test_dstat_01/2023-04-26-18:32:02.log,None
+,oe_test_dstat_02,success,./mugen-riscv/logs/pcp-system-tools/oe_test_dstat_02/2023-04-26-18:39:18.log,None
+,oe_test_pcp_dmcache,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp_dmcache/2023-04-26-18:24:05.log,None
+,oe_test_pcp_free,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp_free/2023-04-26-18:56:21.log,None
+,oe_test_pmrep_01,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pmrep_01/2023-04-26-17:23:34.log,None
+,oe_test_pmrep_02,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pmrep_02/2023-04-26-17:31:20.log,None
+,oe_test_pmrep_03,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pmrep_03/2023-04-26-17:39:35.log,None
+,oe_test_pmrep_04,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pmrep_04/2023-04-26-17:48:18.log,None
+,oe_test_pmrep_05,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pmrep_05/2023-04-26-17:57:34.log,None
+,oe_test_pmrep_06,success,./mugen-riscv/logs/pcp-system-tools/oe_test_pmrep_06/2023-04-26-18:06:44.log,None
+,oe_test_pcp-iostat,x86 fail,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp-iostat/2023-04-26-19:22:18.log,x86 fail
+,oe_test_pcp-mpstat_pcp-numastat,x86 fail,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp-mpstat_pcp-numastat/2023-04-26-19:31:04.log,x86 fail
+,oe_test_pcp-pidstat_01,x86 fail,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp-pidstat_01/2023-04-26-19:04:07.log,x86 fail
+,oe_test_pcp-pidstat_02_pcp-ipcs,x86 fail,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp-pidstat_02_pcp-ipcs/2023-04-26-19:13:51.log,x86 fail
+,oe_test_pcp_collectl,x86 fail,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp_collectl/2023-04-26-18:15:51.log,x86 fail
+,oe_test_dstat_03,fail,./mugen-riscv/logs/pcp-system-tools/oe_test_dstat_03/2023-04-26-18:47:24.log,nohup的影响
+,oe_test_pcp-uptime_pcp-verify,fail,./mugen-riscv/logs/pcp-system-tools/oe_test_pcp-uptime_pcp-verify/2023-04-26-19:39:11.log,启动时安装pcp无法复现，pcp卸载重装后可复现systemd日志显示与ioctl有关，log显示‘broken pipe’，具体原因未知
+perl-Date-Manip,oe_test_perl-Date-Manip_dm_zdump,success,./mugen-riscv/logs/perl-Date-Manip/oe_test_perl-Date-Manip_dm_zdump/2023-04-26-18:42:37.log,None
+,oe_test_perl-Date-Manip_dm_date,x86 fail,./mugen-riscv/logs/perl-Date-Manip/oe_test_perl-Date-Manip_dm_date/2023-04-26-18:40:13.log,x86 fail
+podman,oe_test_podman_01,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_01/2023-04-26-19:36:13.log,x86 fail
+,oe_test_podman_02,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_02/2023-04-26-19:42:43.log,x86 fail
+,oe_test_podman_03,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_03/2023-04-26-19:48:49.log,x86 fail
+,oe_test_podman_04,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_04/2023-04-26-19:55:15.log,x86 fail
+,oe_test_podman_05,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_05/2023-04-26-20:01:56.log,x86 fail
+,oe_test_podman_06,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_06/2023-04-26-20:08:36.log,x86 fail
+,oe_test_podman_07,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_07/2023-04-26-20:15:19.log,x86 fail
+,oe_test_podman_08,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_08/2023-04-26-20:21:35.log,x86 fail
+,oe_test_podman_09,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_09/2023-04-26-20:27:38.log,x86 fail
+,oe_test_podman_10,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_10/2023-04-26-20:57:49.log,x86 fail
+,oe_test_podman_11,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_11/2023-04-26-20:58:54.log,x86 fail
+,oe_test_podman_12,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_12/2023-04-26-20:59:56.log,x86 fail
+,oe_test_podman_13,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_13/2023-04-26-21:00:56.log,x86 fail
+,oe_test_podman_14,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_14/2023-04-26-21:02:09.log,x86 fail
+,oe_test_podman_15,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_15/2023-04-26-21:03:26.log,x86 fail
+,oe_test_podman_16,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_16/2023-04-26-21:04:32.log,x86 fail
+,oe_test_podman_17,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_17/2023-04-26-21:05:46.log,x86 fail
+,oe_test_podman_18,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_18/2023-04-26-21:06:47.log,x86 fail
+,oe_test_podman_19,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_19/2023-04-26-21:07:45.log,x86 fail
+,oe_test_podman_20,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_20/2023-04-26-21:08:51.log,x86 fail
+,oe_test_podman_21,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_21/2023-04-26-21:09:35.log,x86 fail
+,oe_test_podman_22,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_22/2023-04-26-21:10:35.log,x86 fail
+,oe_test_podman_23,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_23/2023-04-26-21:11:37.log,x86 fail
+,oe_test_podman_24,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_24/2023-04-26-21:12:43.log,x86 fail
+,oe_test_podman_26,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_26/2023-04-26-21:14:47.log,x86 fail
+,oe_test_podman_27,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_27/2023-04-26-21:15:47.log,x86 fail
+,oe_test_podman_DK_01,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_01/2023-04-26-21:17:28.log,x86 fail
+,oe_test_podman_DK_02,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_02/2023-04-26-21:18:23.log,x86 fail
+,oe_test_podman_DK_03,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_03/2023-04-26-21:19:35.log,x86 fail
+,oe_test_podman_DK_04,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_04/2023-04-26-21:20:33.log,x86 fail
+,oe_test_podman_DK_05,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_05/2023-04-26-21:21:32.log,x86 fail
+,oe_test_podman_DK_06,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_06/2023-04-26-21:22:31.log,x86 fail
+,oe_test_podman_DK_07,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_07/2023-04-26-21:23:36.log,x86 fail
+,oe_test_podman_DK_08,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_08/2023-04-26-21:24:57.log,x86 fail
+,oe_test_podman_DK_09,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_09/2023-04-26-21:26:11.log,x86 fail
+,oe_test_podman_DK_10,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_10/2023-04-26-21:56:25.log,x86 fail
+,oe_test_podman_DK_11,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_11/2023-04-26-21:57:58.log,x86 fail
+,oe_test_podman_DK_12,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_12/2023-04-26-21:59:23.log,x86 fail
+,oe_test_podman_DK_13,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_13/2023-04-26-22:00:56.log,x86 fail
+,oe_test_podman_DK_14,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_14/2023-04-26-22:02:23.log,x86 fail
+,oe_test_podman_DK_15,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_15/2023-04-26-22:04:00.log,x86 fail
+,oe_test_podman_DK_16,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_16/2023-04-26-22:05:16.log,x86 fail
+,oe_test_podman_DK_17,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_17/2023-04-26-22:06:40.log,x86 fail
+,oe_test_podman_DK_18,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_18/2023-04-26-22:07:48.log,x86 fail
+,oe_test_podman_DK_19,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_19/2023-04-26-22:08:56.log,x86 fail
+,oe_test_podman_DK_20,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_20/2023-04-26-22:10:12.log,x86 fail
+,oe_test_podman_DK_21,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_21/2023-04-26-22:11:09.log,x86 fail
+,oe_test_podman_DK_22,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_22/2023-04-26-22:12:33.log,x86 fail
+,oe_test_podman_DK_23,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_23/2023-04-26-22:14:01.log,x86 fail
+,oe_test_podman_DK_24,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_24/2023-04-26-22:15:23.log,x86 fail
+,oe_test_podman_DK_26,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_26/2023-04-26-22:17:45.log,x86 fail
+,oe_test_podman_DK_27,x86 fail,./mugen-riscv/logs/podman/oe_test_podman_DK_27/2023-04-26-22:18:54.log,x86 fail
+,oe_test_service_podman,x86 fail,./mugen-riscv/logs/podman/oe_test_service_podman/2023-04-26-19:35:45.log,x86 fail
+,oe_test_socket_podman,x86 fail,./mugen-riscv/logs/podman/oe_test_socket_podman/2023-04-26-19:36:03.log,x86 fail
+,oe_test_podman_25,fail,./mugen-riscv/logs/podman/oe_test_podman_25/2023-04-26-21:13:50.log,fatal error: lfstack.push
+,oe_test_podman_28,fail,./mugen-riscv/logs/podman/oe_test_podman_28/2023-04-26-21:16:36.log,fatal error: lfstack.push
+,oe_test_podman_DK_25,fail,./mugen-riscv/logs/podman/oe_test_podman_DK_25/2023-04-26-22:16:39.log,docker rm all 时 fatal error: lfstack.push
+,oe_test_podman_DK_28,fail,./mugen-riscv/logs/podman/oe_test_podman_DK_28/2023-04-26-22:19:52.log,docker rm all 时 fatal error: lfstack.push
+pps-tools,oe_test_pps-tools,x86 fail,./mugen-riscv/logs/pps-tools/oe_test_pps-tools/2023-04-26-19:54:50.log,x86 fail
+procinfo,oe_test_procinfo_01,x86 fail,./mugen-riscv/logs/procinfo/oe_test_procinfo_01/2023-04-26-19:55:55.log,x86 fail
+,oe_test_procinfo_02,x86 fail,./mugen-riscv/logs/procinfo/oe_test_procinfo_02/2023-04-26-19:58:04.log,x86 fail
+prometheus2,oe_test_prometheus_cli,fail,./mugen-riscv/logs/prometheus2/oe_test_prometheus_cli/2023-04-26-20:11:39.log,复现时提示堆栈错误，
+,oe_test_prometheus_management_api,fail,./mugen-riscv/logs/prometheus2/oe_test_prometheus_management_api/2023-04-26-21:12:02.log,kernel及sv57导致问题
+,oe_test_prometheus_promtool,fail,./mugen-riscv/logs/prometheus2/oe_test_prometheus_promtool/2023-04-26-21:42:14.log,复现时提示堆栈错误
+,oe_test_prometheus_querying_http_api,fail,./mugen-riscv/logs/prometheus2/oe_test_prometheus_querying_http_api/2023-04-26-20:41:49.log,kernel及sv57导致问题
+,oe_test_prometheus_tsdb,fail,./mugen-riscv/logs/prometheus2/oe_test_prometheus_tsdb/2023-04-26-22:12:28.log,日志中出现堆栈错误的提示
+,oe_test_service_prometheus,fail,./mugen-riscv/logs/prometheus2/oe_test_service_prometheus/2023-04-26-20:08:33.log,kernel及sv57导致问题
+qt5-qttools,oe_test_qt5-qttools_lconvert-qt5,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_lconvert-qt5/2023-04-28-00:54:25.log,None
+,oe_test_qt5-qttools_lrelease-qt5,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_lrelease-qt5/2023-04-28-00:56:56.log,None
+,oe_test_qt5-qttools_lupdate-qt5_01,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_lupdate-qt5_01/2023-04-28-00:59:05.log,None
+,oe_test_qt5-qttools_lupdate-qt5_02,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_lupdate-qt5_02/2023-04-28-01:01:20.log,None
+,oe_test_qt5-qttools_qdoc_01,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qdoc_01/2023-04-28-01:05:08.log,None
+,oe_test_qt5-qttools_qhelpgenerator-qt5,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qhelpgenerator-qt5/2023-04-28-01:15:34.log,None
+,oe_test_qt5-qttools_qt5-qttools-devel,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qt5-qttools-devel/2023-04-28-01:19:01.log,None
+,oe_test_qt5-qttools_qtattributionsscanner-qt5,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qtattributionsscanner-qt5/2023-04-28-01:23:32.log,None
+,oe_test_qt5-qttools_qtpaths,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qtpaths/2023-04-28-01:27:11.log,None
+,oe_test_qt5-qttools_qdoc_02,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qdoc_02/2023-06-24-03:57:27.log,None
+,oe_test_qt5-qttools_qdoc_03,success,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qdoc_03/2023-06-24-03:58:32.log,None
+,oe_test_qt5-qttools_qdbus-qt5,fail,./mugen-riscv/logs/qt5-qttools/oe_test_qt5-qttools_qdbus-qt5/2023-04-28-01:03:31.log,Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+rabbitmq-server,oe_test_rabbitmq-plugins,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmq-plugins/2023-04-26-22:40:14.log,None
+,oe_test_rabbitmq-plugins_list,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmq-plugins_list/2023-04-26-22:31:00.log,None
+,oe_test_rabbitmq-server,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmq-server/2023-04-26-23:01:11.log,None
+,oe_test_rabbitmqctl_access,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_access/2023-04-26-21:26:37.log,None
+,oe_test_rabbitmqctl_encode,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_encode/2023-04-26-21:55:41.log,None
+,oe_test_rabbitmqctl_parameter,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_parameter/2023-04-26-22:03:00.log,None
+,oe_test_rabbitmqctl_policy,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_policy/2023-04-26-22:11:10.log,None
+,oe_test_rabbitmqctl_status,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_status/2023-04-26-22:18:43.log,None
+,oe_test_rabbitmqctl_user,success,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_user/2023-04-26-22:25:16.log,None
+,oe_test_service_rabbitmq-server,success,./mugen-riscv/logs/rabbitmq-server/oe_test_service_rabbitmq-server/2023-04-26-23:06:23.log,None
+,oe_test_rabbitmqctl_app,x86 fail,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_app/2023-04-26-21:31:54.log,x86 fail
+,oe_test_rabbitmqctl_cluster,x86 fail,./mugen-riscv/logs/rabbitmq-server/oe_test_rabbitmqctl_cluster/2023-04-26-21:40:47.log,x86 fail
+redis,oe_test_redis_01,success,./mugen-riscv/logs/redis/oe_test_redis_01/2023-04-26-22:47:02.log,None
+,oe_test_service_redis,success,./mugen-riscv/logs/redis/oe_test_service_redis/2023-04-26-22:42:54.log,None
+,oe_test_service_redis-sentinel,success,./mugen-riscv/logs/redis/oe_test_service_redis-sentinel/2023-04-26-22:45:04.log,None
+,oe_test_redis_02,x86 fail,./mugen-riscv/logs/redis/oe_test_redis_02/2023-04-26-23:03:54.log,x86 fail
+redis5,oe_test_redis5_01,success,./mugen-riscv/logs/redis5/oe_test_redis5_01/2023-04-26-22:51:10.log,None
+,oe_test_service_redis5,success,./mugen-riscv/logs/redis5/oe_test_service_redis5/2023-04-26-22:48:50.log,None
+,oe_test_service_redis5-sentinel,success,./mugen-riscv/logs/redis5/oe_test_service_redis5-sentinel/2023-04-26-22:46:26.log,None
+,oe_test_redis5_02,x86 fail,./mugen-riscv/logs/redis5/oe_test_redis5_02/2023-04-26-23:17:54.log,x86 fail
+redis6,oe_test_redis6_01,success,./mugen-riscv/logs/redis6/oe_test_redis6_01/2023-04-26-23:14:35.log,None
+,oe_test_service_redis6,success,./mugen-riscv/logs/redis6/oe_test_service_redis6/2023-04-26-23:10:24.log,None
+,oe_test_service_redis6-sentinel,success,./mugen-riscv/logs/redis6/oe_test_service_redis6-sentinel/2023-04-26-23:08:03.log,None
+,oe_test_redis6_02,x86 fail,./mugen-riscv/logs/redis6/oe_test_redis6_02/2023-04-26-23:12:41.log,x86 fail
+rootsh,oe_test_rootsh01,x86 fail,./mugen-riscv/logs/rootsh/oe_test_rootsh01/2023-04-26-23:28:08.log,x86 fail
+,oe_test_rootsh02,x86 fail,./mugen-riscv/logs/rootsh/oe_test_rootsh02/2023-04-26-23:30:17.log,x86 fail
+rubygem-bundler,oe_test_rubygem-bundler_bundle_01,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_01/2023-04-27-01:10:21.log,None
+,oe_test_rubygem-bundler_bundle_03,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_03/2023-04-27-01:43:49.log,None
+,oe_test_rubygem-bundler_bundle_04,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_04/2023-04-27-01:45:16.log,None
+,oe_test_rubygem-bundler_bundle_05,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_05/2023-04-27-01:47:03.log,None
+,oe_test_rubygem-bundler_bundle_07,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_07/2023-04-27-01:50:24.log,None
+,oe_test_rubygem-bundler_bundle_08,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_08/2023-04-27-01:51:32.log,None
+,oe_test_rubygem-bundler_bundle_09,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_09/2023-04-27-01:53:16.log,None
+,oe_test_rubygem-bundler_bundle_10,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_10/2023-04-27-01:55:02.log,None
+,oe_test_rubygem-bundler_bundle_11,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_11/2023-04-27-01:57:07.log,None
+,oe_test_rubygem-bundler_bundle_12,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_12/2023-04-27-01:58:54.log,None
+,oe_test_rubygem-bundler_bundle_13,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_13/2023-04-27-02:00:27.log,None
+,oe_test_rubygem-bundler_bundle_14,success,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_14/2023-04-27-02:01:47.log,None
+,oe_test_rubygem-bundler_bundle_02,x86 fail,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_02/2023-04-27-01:13:40.log,x86 fail
+,oe_test_rubygem-bundler_bundle_06,x86 fail,./mugen-riscv/logs/rubygem-bundler/oe_test_rubygem-bundler_bundle_06/2023-04-27-01:49:05.log,x86 fail
+samtools,oe_test_samtools_ace2sam,success,./mugen-riscv/logs/samtools/oe_test_samtools_ace2sam/2023-04-27-02:04:50.log,None
+,oe_test_samtools_samtools_02,success,./mugen-riscv/logs/samtools/oe_test_samtools_samtools_02/2023-04-27-02:15:49.log,None
+,oe_test_samtools_samtools_03,success,./mugen-riscv/logs/samtools/oe_test_samtools_samtools_03/2023-04-27-02:20:33.log,None
+,oe_test_samtools_samtools_04,success,./mugen-riscv/logs/samtools/oe_test_samtools_samtools_04/2023-04-27-02:26:27.log,None
+,oe_test_samtools_samtools_05,success,./mugen-riscv/logs/samtools/oe_test_samtools_samtools_05/2023-04-27-02:29:18.log,None
+,oe_test_samtools_seq_cache_populate.pl,success,./mugen-riscv/logs/samtools/oe_test_samtools_seq_cache_populate.pl/2023-04-27-02:09:01.log,None
+,oe_test_samtools_samtools_01,x86 fail,./mugen-riscv/logs/samtools/oe_test_samtools_samtools_01/2023-04-27-02:14:19.log,x86 fail
+sbd,oe_test_service_sbd,x86 fail,./mugen-riscv/logs/sbd/oe_test_service_sbd/2023-04-27-02:20:56.log,x86 fail
+,oe_test_service_sbd_remote,x86 fail,./mugen-riscv/logs/sbd/oe_test_service_sbd_remote/2023-04-27-02:22:57.log,x86 fail
+scala,oe_test_scala,x86 fail,./mugen-riscv/logs/scala/oe_test_scala/2023-04-27-02:31:21.log,x86 fail
+,oe_test_scala_fsc_01,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_fsc_01/2023-04-27-02:32:50.log,x86 fail
+,oe_test_scala_fsc_02,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_fsc_02/2023-04-27-02:34:26.log,x86 fail
+,oe_test_scala_fsc_03,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_fsc_03/2023-04-27-02:36:05.log,x86 fail
+,oe_test_scala_fsc_04,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_fsc_04/2023-04-27-02:37:43.log,x86 fail
+,oe_test_scala_scalac_01,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scalac_01/2023-04-27-02:39:06.log,x86 fail
+,oe_test_scala_scalac_02,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scalac_02/2023-04-27-02:40:12.log,x86 fail
+,oe_test_scala_scalac_03,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scalac_03/2023-04-27-02:41:32.log,x86 fail
+,oe_test_scala_scaladoc_01,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scaladoc_01/2023-04-27-02:42:56.log,x86 fail
+,oe_test_scala_scaladoc_02,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scaladoc_02/2023-04-27-02:44:00.log,x86 fail
+,oe_test_scala_scaladoc_03,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scaladoc_03/2023-04-27-02:45:28.log,x86 fail
+,oe_test_scala_scaladoc_04,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scaladoc_04/2023-04-27-02:46:55.log,x86 fail
+,oe_test_scala_scaladoc_05,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scaladoc_05/2023-04-27-02:48:15.log,x86 fail
+,oe_test_scala_scaladoc_06,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scaladoc_06/2023-04-27-02:49:38.log,x86 fail
+,oe_test_scala_scalap,x86 fail,./mugen-riscv/logs/scala/oe_test_scala_scalap/2023-04-27-02:50:55.log,x86 fail
+security_guide,oe_test_access_at_commands,success,./mugen-riscv/logs/security_guide/oe_test_access_at_commands/2023-04-28-22:08:16.log,None
+,oe_test_access_cron_commands,success,./mugen-riscv/logs/security_guide/oe_test_access_cron_commands/2023-04-28-22:14:35.log,None
+,oe_test_add_sticky_bit_attribute,success,./mugen-riscv/logs/security_guide/oe_test_add_sticky_bit_attribute/2023-04-28-22:13:22.log,None
+,oe_test_check_custom_dictionary_words,success,./mugen-riscv/logs/security_guide/oe_test_check_custom_dictionary_words/2023-04-28-22:53:23.log,None
+,oe_test_check_default_dictionary_words,success,./mugen-riscv/logs/security_guide/oe_test_check_default_dictionary_words/2023-04-28-22:47:21.log,None
+,oe_test_check_passwd_encryption_algorithm,success,./mugen-riscv/logs/security_guide/oe_test_check_passwd_encryption_algorithm/2023-04-28-21:49:23.log,None
+,oe_test_delete_unowned_file,success,./mugen-riscv/logs/security_guide/oe_test_delete_unowned_file/2023-04-28-22:04:56.log,None
+,oe_test_empty_linked_files,success,./mugen-riscv/logs/security_guide/oe_test_empty_linked_files/2023-04-28-21:57:25.log,None
+,oe_test_passwd_ciphertext_unique,success,./mugen-riscv/logs/security_guide/oe_test_passwd_ciphertext_unique/2023-04-28-22:46:59.log,None
+,oe_test_passwd_salt_value_unique,success,./mugen-riscv/logs/security_guide/oe_test_passwd_salt_value_unique/2023-04-28-22:46:38.log,None
+,oe_test_password_complexity,success,./mugen-riscv/logs/security_guide/oe_test_password_complexity/2023-04-28-22:34:56.log,None
+,oe_test_password_validity,success,./mugen-riscv/logs/security_guide/oe_test_password_validity/2023-04-28-22:43:10.log,None
+,oe_test_set_default_umask,success,./mugen-riscv/logs/security_guide/oe_test_set_default_umask/2023-04-28-21:46:18.log,None
+,oe_test_set_exit_time,success,./mugen-riscv/logs/security_guide/oe_test_set_exit_time/2023-04-28-22:12:13.log,None
+,oe_test_set_password_complexity,success,./mugen-riscv/logs/security_guide/oe_test_set_password_complexity/2023-04-28-22:00:59.log,None
+,oe_test_set_permissions_and_owner,success,./mugen-riscv/logs/security_guide/oe_test_set_permissions_and_owner/2023-04-28-21:57:47.log,None
+,oe_test_shield_system_account,success,./mugen-riscv/logs/security_guide/oe_test_shield_system_account/2023-04-28-22:19:48.log,None
+,oe_test_ssh_access_login_in_60s,success,./mugen-riscv/logs/security_guide/oe_test_ssh_access_login_in_60s/2023-04-28-21:58:08.log,None
+,oe_test_ssh_character_page_timeout_limit,success,./mugen-riscv/logs/security_guide/oe_test_ssh_character_page_timeout_limit/2023-04-28-22:28:34.log,None
+,oe_test_ssh_client_reinforcement_suggestions,success,./mugen-riscv/logs/security_guide/oe_test_ssh_client_reinforcement_suggestions/2023-04-28-22:28:17.log,None
+,oe_test_ssh_disable_root,success,./mugen-riscv/logs/security_guide/oe_test_ssh_disable_root/2023-04-28-22:04:26.log,None
+,oe_test_ssh_login_failed_attempts,success,./mugen-riscv/logs/security_guide/oe_test_ssh_login_failed_attempts/2023-04-28-22:35:47.log,None
+,oe_test_ssh_pam_auth,success,./mugen-riscv/logs/security_guide/oe_test_ssh_pam_auth/2023-04-28-21:54:00.log,None
+,oe_test_ssh_passwd_dosnot_clear,success,./mugen-riscv/logs/security_guide/oe_test_ssh_passwd_dosnot_clear/2023-04-28-21:48:19.log,None
+,oe_test_ssh_prohibit_root_login_system_through_ssh,success,./mugen-riscv/logs/security_guide/oe_test_ssh_prohibit_root_login_system_through_ssh/2023-04-28-22:42:42.log,None
+,oe_test_ssh_su_permission_restrictions,success,./mugen-riscv/logs/security_guide/oe_test_ssh_su_permission_restrictions/2023-04-28-22:38:38.log,None
+,oe_test_use_su_Initialize_path,success,./mugen-riscv/logs/security_guide/oe_test_use_su_Initialize_path/2023-04-28-21:49:47.log,None
+,oe_test_access_sudo_commands,x86 fail,./mugen-riscv/logs/security_guide/oe_test_access_sudo_commands/2023-04-28-21:50:16.log,x86 fail
+,oe_test_delete_global_writable_property,x86 fail,./mugen-riscv/logs/security_guide/oe_test_delete_global_writable_property/2023-04-28-22:15:12.log,x86 fail
+,oe_test_lock_after_login_fail,x86 fail,./mugen-riscv/logs/security_guide/oe_test_lock_after_login_fail/2023-04-28-22:10:06.log,x86 fail
+,oe_test_ssh_RSA_auth,x86 fail,./mugen-riscv/logs/security_guide/oe_test_ssh_RSA_auth/2023-04-28-22:20:38.log,x86 fail
+,oe_test_ssh_allow_public_key,x86 fail,./mugen-riscv/logs/security_guide/oe_test_ssh_allow_public_key/2023-04-28-22:17:49.log,x86 fail
+,oe_test_ssh_server_reinforcement_suggestions,x86 fail,./mugen-riscv/logs/security_guide/oe_test_ssh_server_reinforcement_suggestions/2023-04-28-22:40:59.log,x86 fail
+,oe_test_ssh_sftp_across_updir,x86 fail,./mugen-riscv/logs/security_guide/oe_test_ssh_sftp_across_updir/2023-04-28-21:46:56.log,x86 fail
+,oe_test_ssh_system_reinforcement,x86 fail,./mugen-riscv/logs/security_guide/oe_test_ssh_system_reinforcement/2023-04-28-22:26:33.log,x86 fail
+,oe_test_umask_default,x86 fail,./mugen-riscv/logs/security_guide/oe_test_umask_default/2023-04-28-22:38:01.log,x86 fail
+,oe_test_kernel_parameter_hardening,fail,./mugen-riscv/logs/security_guide/oe_test_kernel_parameter_hardening/2023-04-28-22:27:19.log,sysctl -p 无输出
+,oe_test_kernel_parameter_reinforcement_description,fail,./mugen-riscv/logs/security_guide/oe_test_kernel_parameter_reinforcement_description/2023-04-28-22:41:53.log,No safety reinforcement
+,oe_test_restrict_accounts_use_su,fail,./mugen-riscv/logs/security_guide/oe_test_restrict_accounts_use_su/2023-04-28-22:14:01.log,限制账号使用su失败，可能为用户组设置问题或命令本身问题
+,oe_test_set_password_validity,fail,./mugen-riscv/logs/security_guide/oe_test_set_password_validity/2023-04-28-21:44:40.log,没有密码过期提醒，可能为date改变日期失败或者相关提醒未设置
+,oe_test_ssh_check_home,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_check_home/2023-04-28-22:16:25.log,StrictModes is not yes
+,oe_test_ssh_disable_agent_forwarding,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_disable_agent_forwarding/2023-04-28-22:23:34.log,AllowAgentForwarding is not no
+,oe_test_ssh_disable_empty_passwd,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_disable_empty_passwd/2023-04-28-21:50:43.log,PermitEmptyPasswords is not no
+,oe_test_ssh_disable_parsing_sshpath,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_disable_parsing_sshpath/2023-04-28-22:01:30.log,ssh远程执行命令时出现未知错误
+,oe_test_ssh_strong_encryption_algorithm,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_strong_encryption_algorithm/2023-04-28-22:27:55.log,No safety reinforcement
+,oe_test_ssh_version2,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_version2/2023-04-28-21:56:31.log,安装的ssh版本非测试版本
+,oe_test_ssh_warnings,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_warnings/2023-04-28-21:44:12.log,登陆时没有显示x86登陆时显示的提示
+,oe_test_use_security_tools,fail,./mugen-riscv/logs/security_guide/oe_test_use_security_tools/2023-04-28-21:51:39.log,security-tool软件包默认未安装
+socat,oe_test_socat_01,success,./mugen-riscv/logs/socat/oe_test_socat_01/2023-04-27-02:49:34.log,None
+,oe_test_socat_02,success,./mugen-riscv/logs/socat/oe_test_socat_02/2023-04-27-02:51:32.log,None
+,oe_test_socat_03,success,./mugen-riscv/logs/socat/oe_test_socat_03/2023-04-27-02:54:01.log,None
+,oe_test_socat_procan,success,./mugen-riscv/logs/socat/oe_test_socat_procan/2023-04-27-02:57:31.log,None
+,oe_test_socat_filan,x86 fail,./mugen-riscv/logs/socat/oe_test_socat_filan/2023-04-27-02:56:03.log,x86 fail
+sos,oe_test_sosreport_02,x86 fail,./mugen-riscv/logs/sos/oe_test_sosreport_02/2023-04-27-03:24:24.log,x86 fail
+,oe_test_sosreport_04,x86 fail,./mugen-riscv/logs/sos/oe_test_sosreport_04/2023-04-27-03:40:36.log,x86 fail
+,oe_test_sosreport_01,fail,./mugen-riscv/logs/sos/oe_test_sosreport_01/2023-04-27-02:54:08.log,file missing
+,oe_test_sosreport_03,fail,./mugen-riscv/logs/sos/oe_test_sosreport_03/2023-04-27-03:27:15.log,file missing
+spawn-fcgi,oe_test_service_spawn-fcgi,fail,./mugen-riscv/logs/spawn-fcgi/oe_test_service_spawn-fcgi/2023-06-25-04:36:27.log,未安装initscripts
+storm,oe_test_service_storm-logviewer,fail,./mugen-riscv/logs/storm/oe_test_service_storm-logviewer/2023-04-27-03:14:39.log,no pkg in pkglist
+,oe_test_service_storm-nimbus,fail,./mugen-riscv/logs/storm/oe_test_service_storm-nimbus/2023-04-27-03:16:14.log,no pkg in pkglist
+,oe_test_service_storm-supervisor,fail,./mugen-riscv/logs/storm/oe_test_service_storm-supervisor/2023-04-27-03:17:35.log,no pkg in pkglist
+,oe_test_service_storm-ui,fail,./mugen-riscv/logs/storm/oe_test_service_storm-ui/2023-04-27-03:18:58.log,no pkg in pkglist
+targetcli,oe_test_targetcli_01,fail,./mugen-riscv/logs/targetcli/oe_test_targetcli_01/2023-04-27-04:13:08.log,
+,oe_test_targetcli_02,fail,./mugen-riscv/logs/targetcli/oe_test_targetcli_02/2023-04-27-04:15:41.log,
+,oe_test_targetcli_03,fail,./mugen-riscv/logs/targetcli/oe_test_targetcli_03/2023-04-27-04:17:38.log,
+,oe_test_targetcli_04,fail,./mugen-riscv/logs/targetcli/oe_test_targetcli_04/2023-04-27-04:20:01.log,
+tomcat,oe_test_service_tomcat,success,./mugen-riscv/logs/tomcat/oe_test_service_tomcat/2023-04-27-04:36:38.log,None
+,oe_test_tomcat_001,success,./mugen-riscv/logs/tomcat/oe_test_tomcat_001/2023-04-27-04:39:45.log,None
+,oe_test_service_tomcat-jsvc,x86 fail,./mugen-riscv/logs/tomcat/oe_test_service_tomcat-jsvc/2023-04-27-04:33:13.log,x86 fail
+wireshark,oe_test_capinfos,success,./mugen-riscv/logs/wireshark/oe_test_capinfos/2023-04-28-01:35:32.log,None
+,oe_test_randpkt-reordercap,success,./mugen-riscv/logs/wireshark/oe_test_randpkt-reordercap/2023-04-28-04:52:27.log,None
+,oe_test_text2pcap,success,./mugen-riscv/logs/wireshark/oe_test_text2pcap/2023-04-28-04:55:01.log,None
+,oe_test_tshark_01,success,./mugen-riscv/logs/wireshark/oe_test_tshark_01/2023-05-26-17:02:54.log,None
+,oe_test_tshark_02,success,./mugen-riscv/logs/wireshark/oe_test_tshark_02/2023-05-26-16:54:11.log,None
+,oe_test_tshark_03,success,./mugen-riscv/logs/wireshark/oe_test_tshark_03/2023-05-26-16:50:28.log,None
+,oe_test_captype,x86 fail,./mugen-riscv/logs/wireshark/oe_test_captype/2023-04-28-01:51:23.log,x86 fail
+,oe_test_dumpcap_01,x86 fail,./mugen-riscv/logs/wireshark/oe_test_dumpcap_01/2023-04-28-02:21:36.log,x86 fail
+,oe_test_dumpcap_02,x86 fail,./mugen-riscv/logs/wireshark/oe_test_dumpcap_02/2023-04-28-02:51:50.log,x86 fail
+,oe_test_editcap_01,x86 fail,./mugen-riscv/logs/wireshark/oe_test_editcap_01/2023-04-28-03:22:00.log,x86 fail
+,oe_test_editcap_02,x86 fail,./mugen-riscv/logs/wireshark/oe_test_editcap_02/2023-04-28-03:52:08.log,x86 fail
+,oe_test_mergecap,fail,./mugen-riscv/logs/wireshark/oe_test_mergecap/2023-04-28-04:22:18.log,file missing 
+wsmancli,oe_test_wsmancli_wseventmgr_03,success,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wseventmgr_03/2023-04-27-05:15:09.log,None
+,oe_test_wsmancli_wseventmgr_04,success,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wseventmgr_04/2023-04-27-05:18:12.log,None
+,oe_test_wsmancli_wsman_01,success,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wsman_01/2023-04-27-05:19:10.log,None
+,oe_test_wsmancli_wsman_04,success,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wsman_04/2023-04-27-05:25:32.log,None
+,oe_test_wsmancli_wseventmgr_02,x86 fail,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wseventmgr_02/2023-04-27-05:12:01.log,x86 fail
+,oe_test_wsmancli_wsman_03,x86 fail,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wsman_03/2023-04-27-05:23:51.log,x86 fail
+,oe_test_wsmancli_wseventmgr_01,fail,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wseventmgr_01/2023-04-27-05:08:33.log,
+,oe_test_wsmancli_wsman_02,fail,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wsman_02/2023-04-27-05:20:46.log,
+,oe_test_wsmancli_wsman_05,fail,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wsman_05/2023-04-27-05:26:31.log,
+,oe_test_wsmancli_wsman_06,fail,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wsman_06/2023-05-22-03:35:34.log,wamancli: faild to test -N
+,oe_test_wsmancli_wsman_07,fail,./mugen-riscv/logs/wsmancli/oe_test_wsmancli_wsman_07/2023-04-27-05:32:42.log,
+yelp-tools,oe_test_yelp-check,success,./mugen-riscv/logs/yelp-tools/oe_test_yelp-check/2023-04-27-06:22:14.log,None
+,oe_test_yelp-build,x86 fail,./mugen-riscv/logs/yelp-tools/oe_test_yelp-build/2023-04-27-06:19:02.log,x86 fail
+,oe_test_yelp-new,x86 fail,./mugen-riscv/logs/yelp-tools/oe_test_yelp-new/2023-04-27-06:25:27.log,x86 fail
+podman_3.4.4.2,oe_test_service_podman-restart,success,./mugen-riscv/logs/podman_3.4.4.2/oe_test_service_podman-restart/2023-06-22-05:57:22.log,None
+,oe_test_podman_3.4.4.2_10,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_10/2023-06-22-06:23:16.log,x86 fail
+,oe_test_podman_3.4.4.2_08,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_08/2023-06-22-06:28:33.log,x86 fail
+,oe_test_service_podman,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_service_podman/2023-06-22-06:33:44.log,x86 fail
+,oe_test_socket_podman,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_socket_podman/2023-06-22-07:15:45.log,x86 fail
+,oe_test_podman_3.4.4.2_19,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_19/2023-06-22-07:16:45.log,x86 fail
+,oe_test_podman_3.4.4.2_18,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_18/2023-06-22-07:24:00.log,x86 fail
+,oe_test_podman_3.4.4.2_24,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_24/2023-06-22-07:30:46.log,x86 fail
+,oe_test_podman_DK_3.4.4.2_08,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_08/2023-06-22-07:33:59.log,x86 fail
+,oe_test_podman_DK_3.4.4.2_07,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_07/2023-06-22-07:35:37.log,x86 fail
+,oe_test_podman_DK_3.4.4.2_10,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_10/2023-06-22-08:07:28.log,x86 fail
+,oe_test_podman_DK_3.4.4.2_22,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_22/2023-06-22-08:10:52.log,x86 fail
+,oe_test_podman_DK_3.4.4.2_18,x86 fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_18/2023-06-22-08:11:52.log,x86 fail
+,oe_test_podman_3.4.4.2_07,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_07/2023-06-22-06:02:15.log,
+,oe_test_podman_3.4.4.2_04,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_04/2023-06-22-06:07:33.log,file missing
+,oe_test_podman_3.4.4.2_01,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_01/2023-06-22-06:12:57.log,
+,oe_test_service_podman-auto-update,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_service_podman-auto-update/2023-06-22-06:18:04.log,file missing/systemd unit runtime error/systemd unit enable failure
+,oe_test_podman_3.4.4.2_03,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_03/2023-06-22-06:33:51.log,file missing
+,oe_test_podman_3.4.4.2_02,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_02/2023-06-22-06:39:12.log,
+,oe_test_podman_3.4.4.2_09,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_09/2023-06-22-06:44:41.log,timeout
+,oe_test_podman_3.4.4.2_06,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_06/2023-06-22-07:14:49.log,file missing
+,oe_test_podman_3.4.4.2_05,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_05/2023-06-22-07:15:53.log,file missing
+,oe_test_podman_3.4.4.2_16,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_16/2023-06-22-07:17:39.log,
+,oe_test_podman_3.4.4.2_11,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_11/2023-06-22-07:18:33.log,
+,oe_test_podman_3.4.4.2_12,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_12/2023-06-22-07:19:23.log,
+,oe_test_podman_3.4.4.2_14,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_14/2023-06-22-07:20:13.log,
+,oe_test_podman_3.4.4.2_20,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_20/2023-06-22-07:21:06.log,
+,oe_test_podman_3.4.4.2_13,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_13/2023-06-22-07:21:43.log,
+,oe_test_podman_3.4.4.2_15,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_15/2023-06-22-07:22:33.log,timeout
+,oe_test_podman_3.4.4.2_17,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_17/2023-06-22-07:23:14.log,
+,oe_test_podman_3.4.4.2_26,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_26/2023-06-22-07:24:45.log,
+,oe_test_podman_3.4.4.2_22,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_22/2023-06-22-07:25:42.log,
+,oe_test_podman_3.4.4.2_27,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_27/2023-06-22-07:26:40.log,
+,oe_test_podman_3.4.4.2_28,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_28/2023-06-22-07:27:17.log,
+,oe_test_podman_3.4.4.2_DK_01,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_DK_01/2023-06-22-07:28:02.log,
+,oe_test_podman_3.4.4.2_21,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_21/2023-06-22-07:28:45.log,
+,oe_test_podman_3.4.4.2_DK_02,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_DK_02/2023-06-22-07:29:46.log,
+,oe_test_podman_3.4.4.2_25,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_25/2023-06-22-07:31:34.log,
+,oe_test_podman_3.4.4.2_23,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_23/2023-06-22-07:32:18.log,
+,oe_test_podman_DK_3.4.4.2_04,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_04/2023-06-22-07:33:07.log,file missing
+,oe_test_podman_DK_3.4.4.2_12,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_12/2023-06-22-07:34:50.log,
+,oe_test_podman_DK_3.4.4.2_09,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_09/2023-06-22-07:36:31.log,timeout
+,oe_test_podman_DK_3.4.4.2_11,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_11/2023-06-22-08:06:39.log,
+,oe_test_podman_3.4.4.2_DK_03,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_DK_03/2023-06-22-08:08:18.log,file missing
+,oe_test_podman_DK_3.4.4.2_06,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_06/2023-06-22-08:09:10.log,file missing
+,oe_test_podman_DK_3.4.4.2_05,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_05/2023-06-22-08:10:03.log,file missing
+,oe_test_podman_DK_3.4.4.2_23,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_23/2023-06-22-08:12:37.log,
+,oe_test_podman_DK_3.4.4.2_27,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_27/2023-06-22-08:13:29.log,
+,oe_test_podman_DK_3.4.4.2_19,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_19/2023-06-22-08:14:06.log,
+,oe_test_podman_DK_3.4.4.2_25,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_25/2023-06-22-08:14:58.log,
+,oe_test_podman_DK_3.4.4.2_13,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_13/2023-06-22-08:15:42.log,
+,oe_test_podman_DK_3.4.4.2_24,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_24/2023-06-22-08:16:33.log,
+,oe_test_podman_DK_3.4.4.2_14,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_14/2023-06-22-08:17:22.log,
+,oe_test_podman_DK_3.4.4.2_17,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_17/2023-06-22-08:18:15.log,
+,oe_test_podman_DK_3.4.4.2_20,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_20/2023-06-22-08:19:01.log,
+,oe_test_podman_DK_3.4.4.2_28,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_28/2023-06-22-08:19:40.log,
+,oe_test_podman_DK_3.4.4.2_21,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_21/2023-06-22-08:20:27.log,
+,oe_test_podman_DK_3.4.4.2_26,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_26/2023-06-22-08:21:29.log,
+,oe_test_podman_DK_3.4.4.2_16,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_16/2023-06-22-08:22:25.log,
+,oe_test_podman_DK_3.4.4.2_15,fail,./mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_DK_3.4.4.2_15/2023-06-22-08:23:15.log,timeout
+rubygem-fluentd_1.3.3,oe_test_fluent_binlog_reader,success,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_binlog_reader/2023-06-22-05:57:23.log,None
+,oe_test_fluent_ca_generate,success,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_ca_generate/2023-06-22-06:00:32.log,None
+,oe_test_fluent_cat_01,success,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_cat_01/2023-06-22-06:02:57.log,None
+,oe_test_fluent_cat_02_2003,success,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_cat_02_2003/2023-06-22-06:07:43.log,None
+,oe_test_fluentd_04,success,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluentd_04/2023-06-22-07:03:23.log,None
+,oe_test_fluent_plugin_config_format_2003,success,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_plugin_config_format_2003/2023-06-22-07:20:56.log,None
+,oe_test_fluent_plugin_generate,success,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_plugin_generate/2023-06-22-07:24:10.log,None
+,oe_test_fluentd_01_2003,x86 fail,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluentd_01_2003/2023-06-22-06:12:15.log,x86 fail
+,oe_test_fluentd_02,x86 fail,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluentd_02/2023-06-22-06:36:55.log,x86 fail
+,oe_test_fluentd_03_2003,x86 fail,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluentd_03_2003/2023-06-22-06:40:21.log,x86 fail
+,oe_test_fluent_debug,x86 fail,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_debug/2023-06-22-07:06:21.log,x86 fail
+,oe_test_fluent_gem_01_2003,x86 fail,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_gem_01_2003/2023-06-22-07:08:39.log,x86 fail
+,oe_test_fluent_gem_02_2003,x86 fail,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_gem_02_2003/2023-06-22-07:12:26.log,x86 fail
+,oe_test_fluent_gem_03_2003,x86 fail,./mugen-riscv/logs/rubygem-fluentd_1.3.3/oe_test_fluent_gem_03_2003/2023-06-22-07:17:39.log,x86 fail
+junit4,oe_test_junit4_assert,success,./mugen-riscv/logs/junit4/oe_test_junit4_assert/2023-06-22-06:43:45.log,None
+,oe_test_junit4_compare_different_performances,success,./mugen-riscv/logs/junit4/oe_test_junit4_compare_different_performances/2023-06-22-06:49:57.log,None
+,oe_test_junit4_basic_annotation,success,./mugen-riscv/logs/junit4/oe_test_junit4_basic_annotation/2023-06-22-06:46:52.log,None
+,oe_test_junit4_ant,success,./mugen-riscv/logs/junit4/oe_test_junit4_ant/2023-06-22-06:39:39.log,None
+,oe_test_junit4_expected,success,./mugen-riscv/logs/junit4/oe_test_junit4_expected/2023-06-22-06:56:13.log,None
+,oe_test_junit4_execute_control,success,./mugen-riscv/logs/junit4/oe_test_junit4_execute_control/2023-06-22-06:53:12.log,None
+,oe_test_junit4_parameterized,success,./mugen-riscv/logs/junit4/oe_test_junit4_parameterized/2023-06-22-07:10:48.log,None
+,oe_test_junit4_maven,success,./mugen-riscv/logs/junit4/oe_test_junit4_maven/2023-06-22-06:59:13.log,None
+,oe_test_junit4_suite,success,./mugen-riscv/logs/junit4/oe_test_junit4_suite/2023-06-22-07:17:03.log,None
+,oe_test_junit4_TestCase_api,success,./mugen-riscv/logs/junit4/oe_test_junit4_TestCase_api/2023-06-22-07:20:16.log,None
+,oe_test_junit4_TestResult_api,success,./mugen-riscv/logs/junit4/oe_test_junit4_TestResult_api/2023-06-22-07:23:15.log,None
+,oe_test_junit4_TestSuite_api,success,./mugen-riscv/logs/junit4/oe_test_junit4_TestSuite_api/2023-06-22-07:26:14.log,None
+,oe_test_junit4_performances,x86 fail,./mugen-riscv/logs/junit4/oe_test_junit4_performances/2023-06-22-07:13:55.log,x86 fail
+testNG,oe_test_testNG_annotations_before_after,success,./mugen-riscv/logs/testNG/oe_test_testNG_annotations_before_after/2023-06-22-07:33:42.log,None
+,oe_test_testNG_annotations_common,success,./mugen-riscv/logs/testNG/oe_test_testNG_annotations_common/2023-06-22-07:36:41.log,None
+,oe_test_testNG_annotations_assert,success,./mugen-riscv/logs/testNG/oe_test_testNG_annotations_assert/2023-06-22-07:30:36.log,None
+,oe_test_testNG_annotations_parameters,success,./mugen-riscv/logs/testNG/oe_test_testNG_annotations_parameters/2023-06-22-07:44:37.log,None
+,oe_test_testNG_annotations_listen,success,./mugen-riscv/logs/testNG/oe_test_testNG_annotations_listen/2023-06-22-07:41:38.log,None
+,oe_test_testNG_thread,success,./mugen-riscv/logs/testNG/oe_test_testNG_thread/2023-06-22-07:53:10.log,None
+,oe_test_testNG_exception,success,./mugen-riscv/logs/testNG/oe_test_testNG_exception/2023-06-22-07:47:26.log,None
+,oe_test_testNG_retry,success,./mugen-riscv/logs/testNG/oe_test_testNG_retry/2023-06-22-07:50:10.log,None
+,oe_test_testNG_with_ant,success,./mugen-riscv/logs/testNG/oe_test_testNG_with_ant/2023-06-22-08:06:19.log,None
+,oe_test_testNG_with_maven,success,./mugen-riscv/logs/testNG/oe_test_testNG_with_maven/2023-06-22-08:12:54.log,None
+,oe_test_testNG_with_Junit,success,./mugen-riscv/logs/testNG/oe_test_testNG_with_Junit/2023-06-22-08:09:29.log,None
+,oe_test_testNG_with_spring,success,./mugen-riscv/logs/testNG/oe_test_testNG_with_spring/2023-06-22-08:21:43.log,None
+,oe_test_testNG_annotations_group,fail,./mugen-riscv/logs/testNG/oe_test_testNG_annotations_group/2023-06-22-07:40:10.log,file missing
+conmon,oe_test_conmon_01,x86 fail,./mugen-riscv/logs/conmon/oe_test_conmon_01/2023-06-22-07:57:57.log,x86 fail
+,oe_test_conmon_02,fail,./mugen-riscv/logs/conmon/oe_test_conmon_02/2023-06-22-08:02:45.log,
+,oe_test_conmon_03,fail,./mugen-riscv/logs/conmon/oe_test_conmon_03/2023-06-22-08:07:46.log,
+,oe_test_conmon_04,fail,./mugen-riscv/logs/conmon/oe_test_conmon_04/2023-06-22-08:12:42.log,
+rubygem-ZenTest,oe_test_zentest_autotest,x86 fail,./mugen-riscv/logs/rubygem-ZenTest/oe_test_zentest_autotest/2023-06-22-08:28:48.log,x86 fail
+,oe_test_zentest_multiruby_setup,x86 fail,./mugen-riscv/logs/rubygem-ZenTest/oe_test_zentest_multiruby_setup/2023-06-22-08:30:26.log,x86 fail
+,oe_test_zentest_zentest,x86 fail,./mugen-riscv/logs/rubygem-ZenTest/oe_test_zentest_zentest/2023-06-22-08:31:40.log,x86 fail
+keepalived-cli,oe_test_keepalived_cli,x86 fail,./mugen-riscv/logs/keepalived-cli/oe_test_keepalived_cli/2023-06-22-08:34:57.log,x86 fail
+nodejs-grunt-cli,oe_test_gruntcli_grunt_01,fail,./mugen-riscv/logs/nodejs-grunt-cli/oe_test_gruntcli_grunt_01/2023-06-22-09:03:18.log,
+,oe_test_gruntcli_grunt_02,fail,./mugen-riscv/logs/nodejs-grunt-cli/oe_test_gruntcli_grunt_02/2023-06-22-09:05:50.log,
+python_rsa_3.4.2,oe_test_python3-rsa_3.4.2,x86 fail,./mugen-riscv/logs/python_rsa_3.4.2/oe_test_python3-rsa_3.4.2/2023-06-22-09:06:49.log,x86 fail
+bacula,oe_test_service_bacula-fd,success,./mugen-riscv/logs/bacula/oe_test_service_bacula-fd/2023-06-22-09:10:10.log,None
+,oe_test_service_bacula-sd,success,./mugen-riscv/logs/bacula/oe_test_service_bacula-sd/2023-06-22-09:12:49.log,None
+,oe_test_bacula_bdirjson_01,success,./mugen-riscv/logs/bacula/oe_test_bacula_bdirjson_01/2023-06-22-09:17:59.log,None
+,oe_test_bacula_bdirjson_02,success,./mugen-riscv/logs/bacula/oe_test_bacula_bdirjson_02/2023-06-22-09:20:37.log,None
+,oe_test_bacula_bbconsjson_01,success,./mugen-riscv/logs/bacula/oe_test_bacula_bbconsjson_01/2023-06-22-09:41:07.log,None
+,oe_test_service_bacula-dir,x86 fail,./mugen-riscv/logs/bacula/oe_test_service_bacula-dir/2023-06-22-09:09:22.log,x86 fail
+,oe_test_bacula_bconsole_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bconsole_01/2023-06-22-09:15:26.log,x86 fail
+,oe_test_bacula_bconsole_02,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bconsole_02/2023-06-22-09:16:25.log,x86 fail
+,oe_test_bacula_bcopy_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bcopy_01/2023-06-22-09:17:06.log,x86 fail
+,oe_test_bacula_bsdjson_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bsdjson_01/2023-06-22-09:23:19.log,x86 fail
+,oe_test_bacula_bfdjson_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bfdjson_01/2023-06-22-09:24:10.log,x86 fail
+,oe_test_bacula_bscan_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bscan_01/2023-06-22-09:25:02.log,x86 fail
+,oe_test_bacula_bscan_02,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bscan_02/2023-06-22-09:25:48.log,x86 fail
+,oe_test_bacula_bregex_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bregex_01/2023-06-22-09:26:36.log,x86 fail
+,oe_test_bacula_bextract_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bextract_01/2023-06-22-09:27:22.log,x86 fail
+,oe_test_bacula_bextract_02,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bextract_02/2023-06-22-09:28:12.log,x86 fail
+,oe_test_bacula_bwild_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bwild_01/2023-06-22-09:28:55.log,x86 fail
+,oe_test_bacula_dbcheck_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_dbcheck_01/2023-06-22-09:29:40.log,x86 fail
+,oe_test_bacula_bls_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bls_01/2023-06-22-09:30:28.log,x86 fail
+,oe_test_bacula_bls_02,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bls_02/2023-06-22-09:31:18.log,x86 fail
+,oe_test_bacula_btape_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_btape_01/2023-06-22-09:32:03.log,x86 fail
+,oe_test_bacula_btape_02,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_btape_02/2023-06-22-09:32:58.log,x86 fail
+,oe_test_bacula_btape_03,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_btape_03/2023-06-22-09:33:52.log,x86 fail
+,oe_test_bacula_btape_04,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_btape_04/2023-06-22-09:34:47.log,x86 fail
+,oe_test_bacula_bacula_fd_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bacula_fd_01/2023-06-22-09:35:46.log,x86 fail
+,oe_test_bacula_bacula_sd_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bacula_sd_01/2023-06-22-09:37:06.log,x86 fail
+,oe_test_bacula_bacula_sd_02,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bacula_sd_02/2023-06-22-09:38:19.log,x86 fail
+,oe_test_bacula_bacula_dir_01,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bacula_dir_01/2023-06-22-09:39:05.log,x86 fail
+,oe_test_bacula_bacula_dir_02,x86 fail,./mugen-riscv/logs/bacula/oe_test_bacula_bacula_dir_02/2023-06-22-09:40:21.log,x86 fail
+hadoop-3.1,oe_test_service_hadoop-journalnode-3.1,x86 fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-journalnode-3.1/2023-06-22-09:25:44.log,x86 fail
+,oe_test_service_hadoop-namenode-3.1,x86 fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-namenode-3.1/2023-06-22-09:27:07.log,x86 fail
+,oe_test_service_hadoop-secondarynamenode-3.1,x86 fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-secondarynamenode-3.1/2023-06-22-09:32:40.log,x86 fail
+,oe_test_service_hadoop-timelineserver-3.1,x86 fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-timelineserver-3.1/2023-06-22-09:34:03.log,x86 fail
+,oe_test_service_hadoop-historyserver-3.1,x86 fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-historyserver-3.1/2023-06-22-09:35:26.log,x86 fail
+,oe_test_service_hadoop-datanode-3.1,fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-datanode-3.1/2023-06-22-09:24:19.log,file missing/systemd unit restart failure/systemd unit runtime error
+,oe_test_service_hadoop-nodemanager-3.1,fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-nodemanager-3.1/2023-06-22-09:28:29.log,file missing/systemd unit restart failure/systemd unit runtime error
+,oe_test_service_hadoop-proxyserver-3.1,fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-proxyserver-3.1/2023-06-22-09:29:53.log,file missing/systemd unit restart failure/systemd unit runtime error
+,oe_test_service_hadoop-resourcemanager-3.1,fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-resourcemanager-3.1/2023-06-22-09:31:16.log,file missing/systemd unit restart failure/systemd unit runtime error
+,oe_test_service_hadoop-zkfc-3.1,fail,./mugen-riscv/logs/hadoop-3.1/oe_test_service_hadoop-zkfc-3.1/2023-06-22-09:37:40.log,file missing/systemd unit restart failure/systemd unit runtime error/timeout
+nodejs-tiny-lr-fork,oe_test_tiny_lr,x86 fail,./mugen-riscv/logs/nodejs-tiny-lr-fork/oe_test_tiny_lr/2023-06-22-09:49:01.log,x86 fail
+uwsgi,oe_test_uwsgi,x86 fail,./mugen-riscv/logs/uwsgi/oe_test_uwsgi/2023-06-22-09:52:43.log,x86 fail
+atd,oe_test_service_atd,success,./mugen-riscv/logs/atd/oe_test_service_atd/2023-06-25-17_16_21.log,None
+console-setup,oe_test_console-setup_ckbcomp_01,success,./mugen-riscv/logs/console-setup/oe_test_console-setup_ckbcomp_01/2023-06-25-16_00_50.log,None
+,oe_test_console-setup_ckbcomp_02,success,./mugen-riscv/logs/console-setup/oe_test_console-setup_ckbcomp_02/2023-06-25-16_03_03.log,None
+,oe_test_console-setup_setupcon_01,success,./mugen-riscv/logs/console-setup/oe_test_console-setup_setupcon_01/2023-06-25-16_04_46.log,None
+,oe_test_console-setup_setupcon_02,success,./mugen-riscv/logs/console-setup/oe_test_console-setup_setupcon_02/2023-06-25-16_07_47.log,None
+dnssec-triggerd,oe_test_dnssec-trigger-control_01,x86 fail,./mugen-riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_01/2023-06-25-15_34_59.log,x86 fail
+,oe_test_dnssec-trigger-control_02,x86 fail,./mugen-riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_02/2023-06-25-15_37_13.log,x86 fail
+,oe_test_dnssec-trigger-control_03,x86 fail,./mugen-riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_03/2023-06-25-15_38_42.log,x86 fail
+,oe_test_dnssec-trigger-control_04,x86 fail,./mugen-riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control_04/2023-06-25-15_40_30.log,x86 fail
+,oe_test_dnssec-trigger-control-setup,x86 fail,./mugen-riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-trigger-control-setup/2023-06-25-15_33_13.log,x86 fail
+,oe_test_dnssec-triggerd,x86 fail,./mugen-riscv/logs_failed/dnssec-triggerd/oe_test_dnssec-triggerd/2023-06-25-15_29_08.log,x86 fail
+etmemd,oe_test_etmemd_001,x86 fail,./mugen-riscv/logs_failed/etmemd/oe_test_etmemd_001/2023-06-25-17_20_31.log,x86 fail
+fetch-crl,oe_test_clean-crl,success,./mugen-riscv/logs/fetch-crl/oe_test_clean-crl/2023-06-25-15_44_22.log,None
+,oe_test_fetch_crl_01,success,./mugen-riscv/logs/fetch-crl/oe_test_fetch_crl_01/2023-06-25-15_49_25.log,None
+,oe_test_fetch_crl_02,success,./mugen-riscv/logs/fetch-crl/oe_test_fetch_crl_02/2023-06-25-15_52_27.log,None
+,oe_test_fetch_crl_03,success,./mugen-riscv/logs/fetch-crl/oe_test_fetch_crl_03/2023-06-25-15_55_14.log,None
+,oe_test_fetch_crl_service,fail,./mugen-riscv/logs_failed/fetch-crl/oe_test_fetch_crl_service/2023-06-25-15_47_02.log,fetch-crl.service 启动失败 ERROR CRL verification failed for KEK/0 (KEK)
+hadoop,oe_test_service_hadoop-datanode,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-datanode/2023-06-25-17_24_09.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-historyserver,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-historyserver/2023-07-06-20_22_48.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-journalnode,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-journalnode/2023-06-25-17_25_57.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-namenode,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-namenode/2023-06-25-17_27_38.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-nodemanager,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-nodemanager/2023-06-25-17_29_21.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-proxyserver,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-proxyserver/2023-06-25-17_31_02.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-resourcemanager,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-resourcemanager/2023-06-25-17_32_44.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-secondarynamenode,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-secondarynamenode/2023-06-25-17_34_25.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-timelineserver,fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-timelineserver/2023-06-25-17_36_05.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+,oe_test_service_hadoop-zkfc,x86 fail,./mugen-riscv/logs_failed/hadoop/oe_test_service_hadoop-zkfc/2023-07-06-20_28_13.log,被测软件包 hadoop-hdfs hadoop-mapreduce hadoop-yarn 不存在
+itstool_2.0.7,oe_test_itstool_2.0.7,success,./mugen-riscv/logs/itstool_2.0.7/oe_test_itstool_2.0.7/2023-06-25-16_18_18.log,None
+,oe_test_itstool_base_01,success,./mugen-riscv/logs/itstool_2.0.7/oe_test_itstool_base_01/2023-06-25-16_12_50.log,None
+,oe_test_itstool_base_02,success,./mugen-riscv/logs/itstool_2.0.7/oe_test_itstool_base_02/2023-06-25-16_15_35.log,None
+jgit,oe_test_jgit_01,fail,./mugen-riscv/logs_failed/jgit/oe_test_jgit_01/2023-06-25-16_22_31.log,jgit 依赖关系不满足
+,oe_test_jgit_02,fail,./mugen-riscv/logs_failed/jgit/oe_test_jgit_02/2023-06-25-16_24_32.log,jgit 依赖关系不满足
+,oe_test_jgit_03,fail,./mugen-riscv/logs_failed/jgit/oe_test_jgit_03/2023-06-25-16_26_08.log,jgit 依赖关系不满足
+libgeotiff_20.03,oe_test_libgeotiff,x86 fail,./mugen-riscv/logs_failed/libgeotiff_20.03/oe_test_libgeotiff/2023-06-25-17_39_58.log,x86 fail
+lighttpd_1.4.53,oe_test_lighttpd_1.4.53_service_lighttpd,x86 fail,./mugen-riscv/logs_failed/lighttpd_1.4.53/oe_test_lighttpd_1.4.53_service_lighttpd/2023-06-25-16_49_17.log,x86 fail
+luajit,oe_test_luajit_print,success,./mugen-riscv/logs/luajit/oe_test_luajit_print/2023-06-25-17_43_52.log,None
+meson_0.63,oe_test_meson_0.63_meson_01,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_01/2023-06-25-12_15_27.log,None
+,oe_test_meson_0.63_meson_02,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_02/2023-06-25-12_19_54.log,None
+,oe_test_meson_0.63_meson_03,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_03/2023-06-25-12_23_17.log,None
+,oe_test_meson_0.63_meson_04,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_04/2023-06-25-12_26_40.log,None
+,oe_test_meson_0.63_meson_05,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_05/2023-06-25-12_30_07.log,None
+,oe_test_meson_0.63_meson_06,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_06/2023-06-25-12_35_15.log,None
+,oe_test_meson_0.63_meson_07,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_07/2023-06-25-12_39_39.log,None
+,oe_test_meson_0.63_meson_08,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_08/2023-06-25-12_43_22.log,None
+,oe_test_meson_0.63_meson_09,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_09/2023-06-25-12_46_13.log,None
+,oe_test_meson_0.63_meson_10,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_10/2023-06-25-12_48_58.log,None
+,oe_test_meson_0.63_meson_11,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_11/2023-06-25-12_53_42.log,None
+,oe_test_meson_0.63_meson_12,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_12/2023-06-25-12_56_06.log,None
+,oe_test_meson_0.63_meson_13,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_13/2023-06-25-13_04_38.log,None
+,oe_test_meson_0.63_meson_14,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_14/2023-06-25-13_08_55.log,None
+,oe_test_meson_0.63_meson_15,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_15/2023-06-25-13_17_44.log,None
+,oe_test_meson_0.63_meson_16,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_16/2023-06-25-13_25_37.log,None
+,oe_test_meson_0.63_meson_17,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_17/2023-06-25-13_28_53.log,None
+,oe_test_meson_0.63_meson_18,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_18/2023-06-25-13_32_15.log,None
+,oe_test_meson_0.63_meson_19,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_19/2023-06-25-13_37_36.log,None
+,oe_test_meson_0.63_meson_20,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_20/2023-06-25-13_42_55.log,None
+,oe_test_meson_0.63_meson_21,fail,./mugen-riscv/logs_failed/meson_0.63/oe_test_meson_0.63_meson_21/2023-06-25-13_46_28.log,没有引入测试需要的依赖 cmake
+,oe_test_meson_0.63_meson_22,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_22/2023-06-25-13_48_53.log,None
+,oe_test_meson_0.63_meson_23,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_23/2023-06-25-13_51_04.log,None
+,oe_test_meson_0.63_meson_24,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_24/2023-06-25-13_53_39.log,None
+,oe_test_meson_0.63_meson_25,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_25/2023-06-25-13_56_57.log,None
+,oe_test_meson_0.63_meson_26,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_0.63_meson_26/2023-06-25-14_00_10.log,None
+,oe_test_meson_base_meson_wrap,success,./mugen-riscv/logs/meson_0.63/oe_test_meson_base_meson_wrap/2023-06-25-14_03_01.log,None
+ocaml-22.03,oe_test_ocaml_ocaml,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocaml/2023-07-04-17_39_33.log,None
+,oe_test_ocaml_ocamlc_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc_01/2023-07-04-17_44_21.log,None
+,oe_test_ocaml_ocamlc_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc_02/2023-07-04-17_49_02.log,None
+,oe_test_ocaml_ocamlc_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc_03/2023-07-04-17_53_26.log,None
+,oe_test_ocaml_ocamlc.byte_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc.byte_01/2023-07-04-17_57_55.log,None
+,oe_test_ocaml_ocamlc.byte_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc.byte_02/2023-07-04-18_02_15.log,None
+,oe_test_ocaml_ocamlc.byte_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc.byte_03/2023-07-04-18_06_40.log,None
+,oe_test_ocaml_ocamlc.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc.opt_01/2023-07-04-18_15_46.log,None
+,oe_test_ocaml_ocamlc.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc.opt_02/2023-07-04-18_20_55.log,None
+,oe_test_ocaml_ocamlc.opt_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlc.opt_03/2023-07-04-18_25_42.log,None
+,oe_test_ocaml_ocamlcmt,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcmt/2023-07-04-18_10_55.log,None
+,oe_test_ocaml_ocamlcp_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp_01/2023-07-04-18_31_08.log,None
+,oe_test_ocaml_ocamlcp_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp_02/2023-07-04-18_36_45.log,None
+,oe_test_ocaml_ocamlcp_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp_03/2023-07-04-18_42_11.log,None
+,oe_test_ocaml_ocamlcp_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp_04/2023-07-04-18_47_16.log,None
+,oe_test_ocaml_ocamlcp.byte_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.byte_01/2023-07-04-18_52_18.log,None
+,oe_test_ocaml_ocamlcp.byte_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.byte_02/2023-07-04-18_56_50.log,None
+,oe_test_ocaml_ocamlcp.byte_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.byte_03/2023-07-04-19_01_30.log,None
+,oe_test_ocaml_ocamlcp.byte_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.byte_04/2023-07-04-19_06_11.log,None
+,oe_test_ocaml_ocamlcp.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.opt_01/2023-07-04-19_10_45.log,None
+,oe_test_ocaml_ocamlcp.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.opt_02/2023-07-04-19_15_15.log,None
+,oe_test_ocaml_ocamlcp.opt_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.opt_03/2023-07-04-19_19_58.log,None
+,oe_test_ocaml_ocamlcp.opt_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlcp.opt_04/2023-07-04-19_24_40.log,None
+,oe_test_ocaml_ocamldebug,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldebug/2023-07-04-19_29_24.log,None
+,oe_test_ocaml_ocamldep_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldep_01/2023-07-04-19_33_57.log,None
+,oe_test_ocaml_ocamldep_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldep_02/2023-07-04-19_38_44.log,None
+,oe_test_ocaml_ocamldep.byte_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldep.byte_01/2023-07-04-19_43_26.log,None
+,oe_test_ocaml_ocamldep.byte_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldep.byte_02/2023-07-04-19_47_51.log,None
+,oe_test_ocaml_ocamldep.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldep.opt_01/2023-07-04-19_52_28.log,None
+,oe_test_ocaml_ocamldep.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldep.opt_02/2023-07-04-19_57_22.log,None
+,oe_test_ocaml_ocamldoc_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc_01/2023-07-04-20_01_49.log,None
+,oe_test_ocaml_ocamldoc_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc_02/2023-07-04-20_06_23.log,None
+,oe_test_ocaml_ocamldoc_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc_03/2023-07-04-20_11_02.log,None
+,oe_test_ocaml_ocamldoc_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc_04/2023-07-04-20_15_32.log,None
+,oe_test_ocaml_ocamldoc_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc_05/2023-07-04-20_20_06.log,None
+,oe_test_ocaml_ocamldoc.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc.opt_01/2023-07-04-20_24_42.log,None
+,oe_test_ocaml_ocamldoc.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc.opt_02/2023-07-04-20_29_53.log,None
+,oe_test_ocaml_ocamldoc.opt_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc.opt_03/2023-07-04-20_34_25.log,None
+,oe_test_ocaml_ocamldoc.opt_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc.opt_04/2023-07-04-20_38_51.log,None
+,oe_test_ocaml_ocamldoc.opt_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamldoc.opt_05/2023-07-04-20_43_23.log,None
+,oe_test_ocaml_ocamllex_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamllex_01/2023-07-04-20_47_59.log,None
+,oe_test_ocaml_ocamllex.byte,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamllex.byte/2023-07-04-20_52_35.log,None
+,oe_test_ocaml_ocamllex.opt,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamllex.opt/2023-07-04-20_57_03.log,None
+,oe_test_ocaml_ocamlmklib_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmklib_01/2023-07-04-21_01_33.log,None
+,oe_test_ocaml_ocamlmklib_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmklib_02/2023-07-04-21_06_15.log,None
+,oe_test_ocaml_ocamlmklib.byte_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmklib.byte_01/2023-07-04-21_10_51.log,None
+,oe_test_ocaml_ocamlmklib.byte_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmklib.byte_02/2023-07-04-21_15_50.log,None
+,oe_test_ocaml_ocamlmklib.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmklib.opt_01/2023-07-04-21_20_36.log,None
+,oe_test_ocaml_ocamlmklib.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmklib.opt_02/2023-07-04-21_25_17.log,None
+,oe_test_ocaml_ocamlmktop_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop_01/2023-07-04-21_29_57.log,None
+,oe_test_ocaml_ocamlmktop_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop_02/2023-07-04-21_34_53.log,None
+,oe_test_ocaml_ocamlmktop_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop_03/2023-07-04-21_39_44.log,None
+,oe_test_ocaml_ocamlmktop_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop_04/2023-07-04-21_44_32.log,None
+,oe_test_ocaml_ocamlmktop_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop_05/2023-07-04-21_49_10.log,None
+,oe_test_ocaml_ocamlmktop.byte_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.byte_01/2023-07-04-21_55_02.log,None
+,oe_test_ocaml_ocamlmktop.byte_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.byte_02/2023-07-04-21_59_34.log,None
+,oe_test_ocaml_ocamlmktop.byte_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.byte_03/2023-07-04-22_04_19.log,None
+,oe_test_ocaml_ocamlmktop.byte_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.byte_04/2023-07-04-22_08_59.log,None
+,oe_test_ocaml_ocamlmktop.byte_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.byte_05/2023-07-04-22_13_45.log,None
+,oe_test_ocaml_ocamlmktop.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.opt_01/2023-07-04-22_19_51.log,None
+,oe_test_ocaml_ocamlmktop.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.opt_02/2023-07-04-22_24_42.log,None
+,oe_test_ocaml_ocamlmktop.opt_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.opt_03/2023-07-04-22_29_45.log,None
+,oe_test_ocaml_ocamlmktop.opt_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.opt_04/2023-07-04-22_34_39.log,None
+,oe_test_ocaml_ocamlmktop.opt_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlmktop.opt_05/2023-07-04-22_39_39.log,None
+,oe_test_ocaml_ocamlobjinfo,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlobjinfo/2023-07-04-22_45_47.log,None
+,oe_test_ocaml_ocamlopt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_01/2023-07-04-22_50_29.log,None
+,oe_test_ocaml_ocamlopt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_02/2023-07-04-22_55_23.log,None
+,oe_test_ocaml_ocamlopt_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_03/2023-07-04-23_00_22.log,None
+,oe_test_ocaml_ocamlopt_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_04/2023-07-04-23_05_11.log,None
+,oe_test_ocaml_ocamlopt_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_05/2023-07-04-23_09_51.log,None
+,oe_test_ocaml_ocamlopt_06,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_06/2023-07-04-23_14_42.log,None
+,oe_test_ocaml_ocamlopt_07,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_07/2023-07-04-23_19_49.log,None
+,oe_test_ocaml_ocamlopt_08,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt_08/2023-07-04-23_24_44.log,None
+,oe_test_ocaml_ocamlopt.byte_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_01/2023-07-04-23_29_55.log,None
+,oe_test_ocaml_ocamlopt.byte_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_02/2023-07-04-23_34_47.log,None
+,oe_test_ocaml_ocamlopt.byte_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_03/2023-07-04-23_39_34.log,None
+,oe_test_ocaml_ocamlopt.byte_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_04/2023-07-04-23_44_26.log,None
+,oe_test_ocaml_ocamlopt.byte_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_05/2023-07-04-23_49_03.log,None
+,oe_test_ocaml_ocamlopt.byte_06,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_06/2023-07-04-23_53_44.log,None
+,oe_test_ocaml_ocamlopt.byte_07,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_07/2023-07-04-23_58_37.log,None
+,oe_test_ocaml_ocamlopt.byte_08,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.byte_08/2023-07-05-00_03_42.log,None
+,oe_test_ocaml_ocamlopt.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_01/2023-07-05-00_08_20.log,None
+,oe_test_ocaml_ocamlopt.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_02/2023-07-05-00_12_36.log,None
+,oe_test_ocaml_ocamlopt.opt_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_03/2023-07-05-00_17_07.log,None
+,oe_test_ocaml_ocamlopt.opt_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_04/2023-07-05-00_21_59.log,None
+,oe_test_ocaml_ocamlopt.opt_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_05/2023-07-05-00_26_31.log,None
+,oe_test_ocaml_ocamlopt.opt_06,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_06/2023-07-05-00_30_42.log,None
+,oe_test_ocaml_ocamlopt.opt_07,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_07/2023-07-05-00_35_28.log,None
+,oe_test_ocaml_ocamlopt.opt_08,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlopt.opt_08/2023-07-05-00_40_06.log,None
+,oe_test_ocaml_ocamloptp_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp_01/2023-07-05-00_44_41.log,None
+,oe_test_ocaml_ocamloptp_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp_02/2023-07-05-00_49_20.log,None
+,oe_test_ocaml_ocamloptp_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp_03/2023-07-05-00_53_55.log,None
+,oe_test_ocaml_ocamloptp_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp_04/2023-07-05-00_58_47.log,None
+,oe_test_ocaml_ocamloptp_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp_05/2023-07-05-01_03_38.log,None
+,oe_test_ocaml_ocamloptp.byte_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.byte_01/2023-07-05-01_08_30.log,None
+,oe_test_ocaml_ocamloptp.byte_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.byte_02/2023-07-05-01_13_16.log,None
+,oe_test_ocaml_ocamloptp.byte_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.byte_03/2023-07-05-01_18_16.log,None
+,oe_test_ocaml_ocamloptp.byte_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.byte_04/2023-07-05-01_22_54.log,None
+,oe_test_ocaml_ocamloptp.byte_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.byte_05/2023-07-05-01_27_42.log,None
+,oe_test_ocaml_ocamloptp.opt_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.opt_01/2023-07-05-01_32_32.log,None
+,oe_test_ocaml_ocamloptp.opt_02,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.opt_02/2023-07-05-01_37_49.log,None
+,oe_test_ocaml_ocamloptp.opt_03,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.opt_03/2023-07-05-01_43_25.log,None
+,oe_test_ocaml_ocamloptp.opt_04,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.opt_04/2023-07-05-01_48_13.log,None
+,oe_test_ocaml_ocamloptp.opt_05,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamloptp.opt_05/2023-07-05-01_52_50.log,None
+,oe_test_ocaml_ocamlprof_01,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlprof_01/2023-07-05-01_57_38.log,None
+,oe_test_ocaml_ocamlprof.byte,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlprof.byte/2023-07-05-02_01_50.log,None
+,oe_test_ocaml_ocamlprof.opt,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlprof.opt/2023-07-05-02_05_48.log,None
+,oe_test_ocaml_ocamlyacc,success,./mugen-riscv/logs/ocaml-22.03/oe_test_ocaml_ocamlyacc/2023-07-05-02_09_57.log,None
+opencc-issue,oe_test_opencc_change_ocd,x86 fail,./mugen-riscv/logs_failed/opencc-issue/oe_test_opencc_change_ocd/2023-06-25-14_41_06.log,x86 fail
+,oe_test_opencc_s2t_duan,success,./mugen-riscv/logs/opencc-issue/oe_test_opencc_s2t_duan/2023-06-25-14_41_20.log,None
+,oe_test_opencc_s2t_zhi,success,./mugen-riscv/logs/opencc-issue/oe_test_opencc_s2t_zhi/2023-06-25-14_46_07.log,None
+,oe_test_opencc_s2tw,success,./mugen-riscv/logs/opencc-issue/oe_test_opencc_s2tw/2023-06-25-14_44_32.log,None
+,oe_test_opencc_s2twp,success,./mugen-riscv/logs/opencc-issue/oe_test_opencc_s2twp/2023-06-25-14_42_58.log,None
+,oe_test_opencc_t2s,success,./mugen-riscv/logs/opencc-issue/oe_test_opencc_t2s/2023-06-25-14_48_00.log,None
+,oe_test_opencc_tsp,x86 fail,./mugen-riscv/logs_failed/opencc-issue/oe_test_opencc_tsp/2023-06-25-14_49_52.log,x86 fail
+,oe_test_opencc_two,success,./mugen-riscv/logs/opencc-issue/oe_test_opencc_two/2023-06-25-14_51_34.log,None
+python_rsa_4.7.2,oe_test_python3-rsa_4.7.2,x86 fail,./mugen-riscv/logs_failed/python_rsa_4.7.2/oe_test_python3-rsa_4.7.2/2023-06-25-17_02_44.log,x86 fail
+python-keyring_13.2.1,oe_test_keyring,success,./mugen-riscv/logs/python-keyring_13.2.1/oe_test_keyring/2023-06-25-16_54_45.log,None
+,oe_test_keyring-python3,x86 fail,./mugen-riscv/logs_failed/python-keyring_13.2.1/oe_test_keyring-python3/2023-06-25-16_57_47.log,x86 fail
+robotframework,oe_test_robotframework_libdoc,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_libdoc/2023-06-25-14_55_36.log,None
+,oe_test_robotframework_rebot_01,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_rebot_01/2023-06-25-14_58_10.log,None
+,oe_test_robotframework_rebot_02,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_rebot_02/2023-06-25-15_01_03.log,None
+,oe_test_robotframework_rebot_03,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_rebot_03/2023-06-25-15_03_50.log,None
+,oe_test_robotframework_robot_01,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_robot_01/2023-06-25-15_06_22.log,None
+,oe_test_robotframework_robot_02,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_robot_02/2023-06-25-15_09_26.log,None
+,oe_test_robotframework_robot_03,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_robot_03/2023-06-25-15_12_20.log,None
+,oe_test_robotframework_robot_04,success,./mugen-riscv/logs/robotframework/oe_test_robotframework_robot_04/2023-06-25-15_14_50.log,None
+,oe_test_robotframework_run,x86 fail,./mugen-riscv/logs_failed/robotframework/oe_test_robotframework_run/2023-06-25-15_16_42.log,x86 fail
+rocksdb,oe_test_rocksdb,x86 fail,./mugen-riscv/logs_failed/rocksdb/oe_test_rocksdb/2023-06-25-17_05_57.log,x86 fail
+rubygem-asciidoctor,oe_test_rubygem-asciidoctor_asciidoctor_01,success,./mugen-riscv/logs/rubygem-asciidoctor/oe_test_rubygem-asciidoctor_asciidoctor_01/2023-06-25-16_29_57.log,None
+,oe_test_rubygem-asciidoctor_asciidoctor_02,success,./mugen-riscv/logs/rubygem-asciidoctor/oe_test_rubygem-asciidoctor_asciidoctor_02/2023-06-25-16_32_37.log,None
+,oe_test_rubygem-asciidoctor_asciidoctor_03,success,./mugen-riscv/logs/rubygem-asciidoctor/oe_test_rubygem-asciidoctor_asciidoctor_03/2023-06-25-16_35_19.log,None
+rubygem-fluentd_1.14.5,oe_test_fluent_binlog_reader,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_binlog_reader/2023-06-25-12_27_50.log,None
+,oe_test_fluent_ca_generate,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_ca_generate/2023-06-25-12_32_39.log,None
+,oe_test_fluent_cat_01,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_cat_01/2023-06-25-12_36_30.log,None
+,oe_test_fluent_cat_02,x86 fail,./mugen-riscv/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluent_cat_02/2023-06-25-12_43_28.log,x86 fail
+,oe_test_fluent_ctl,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_ctl/2023-07-07-10_55_27.log,受 qemu 运行速度影响，更改 SLEEP_WAIT 参数，手动重测通过
+,oe_test_fluent_debug,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_debug/2023-07-07-11_00_40.log,受 qemu 运行速度影响，更改 SLEEP_WAIT 参数，手动重测通过
+,oe_test_fluent_gem_01,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_gem_01/2023-06-25-13_42_48.log,None
+,oe_test_fluent_gem_02,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_gem_02/2023-07-07-13_18_08.log,受网络和 qemu 运行速度影响，更改 SLEEP_WAIT 参数，手动重测通过
+,oe_test_fluent_gem_03,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_gem_03/2023-06-25-13_59_51.log,None
+,oe_test_fluent_plugin_config_format,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_plugin_config_format/2023-06-25-14_07_29.log,None
+,oe_test_fluent_plugin_generate,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluent_plugin_generate/2023-06-25-14_13_49.log,None
+,oe_test_fluentd_01,x86 fail,./mugen-riscv/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluentd_01/2023-06-25-12_56_07.log,x86 fail
+,oe_test_fluentd_02,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluentd_02/2023-07-07-11_41_57.log,受 qemu 运行速度影响，更改 SLEEP_WAIT 参数，手动重测通过
+,oe_test_fluentd_03,x86 fail,./mugen-riscv/logs_failed/rubygem-fluentd_1.14.5/oe_test_fluentd_03/2023-06-25-13_30_24.log,x86 fail
+,oe_test_fluentd_04,success,./mugen-riscv/logs/rubygem-fluentd_1.14.5/oe_test_fluentd_04/2023-06-25-13_34_03.log,None
+struts,oe_test_struts_001,x86 fail,./mugen-riscv/logs_failed/struts/oe_test_struts_001/2023-06-25-17_55_02.log,x86 fail
+wavpack,oe_test_wavpack,success,./mugen-riscv/logs/wavpack/oe_test_wavpack/2023-06-25-18_01_10.log,None
+whois,oe_test_whois_01,success,./mugen-riscv/logs/whois/oe_test_whois_01/2023-06-25-16_40_04.log,None
+,oe_test_whois_02,success,./mugen-riscv/logs/whois/oe_test_whois_02/2023-06-25-16_42_06.log,None
+,oe_test_whois_03,x86 fail,./mugen-riscv/logs_failed/whois/oe_test_whois_03/2023-06-25-16_44_16.log,x86 fail
+xmvn_3.0.0-24,oe_test_xmvn_3.0.0-24_mvn-local,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_3.0.0-24_mvn-local/2023-06-25-15_22_05.log,None
+,oe_test_xmvn_base_mvn-local_01,fail,./mugen-riscv/logs_failed/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_01/2023-06-25-14_15_31.log,测试出错 No group data available for configured repositories.
+,oe_test_xmvn_base_mvn-local_02,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_02/2023-07-07-03_57_26.log,没有使用本地缓存，而是从 maven 仓库下载了，导致超时，手动重测通过
+,oe_test_xmvn_base_mvn-local_03,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_03/2023-07-06-22_25_22.log,受 qemu 运行速度影响，手动重测通过
+,oe_test_xmvn_base_mvn-local_04,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_04/2023-07-06-23_26_25.log,受 qemu 运行速度影响，手动重测通过
+,oe_test_xmvn_base_mvn-local_05,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_05/2023-07-06-23_42_55.log,手动重测通过
+,oe_test_xmvn_base_mvn-local_06,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_06/2023-07-07-00_57_26.log,受 qemu 运行速度影响，手动重测通过
+,oe_test_xmvn_base_mvn-local_07,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_07/2023-07-07-01_40_40.log,运行速度影响，手动重测通过
+,oe_test_xmvn_base_mvn-local_08,success,./mugen-riscv/logs/xmvn_3.0.0-24/oe_test_xmvn_base_mvn-local_08/2023-07-07-02_27_46.log,受 qemu 运行速度影响，手动重测通过
+aspell,oe_test_aspell_01,x86 fail,./mugen-riscv/logs/aspell/oe_test_aspell_01/2023-06-22-15_43_01.log,x86 fail
+,oe_test_aspell_02,success,./mugen-riscv/logs/aspell/oe_test_aspell_02/2023-06-22-15_44_02.log,None
+,oe_test_aspell_precat_01,success,./mugen-riscv/logs/aspell/oe_test_aspell_precat_01/2023-06-22-15_44_51.log,None
+libguestfs,oe_test_libguestfish_guestunmount,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfish_guestunmount/2023-06-22-15_43_02.log,x86 fail
+,oe_test_libguestfs_guestfish_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_guestfish_01/2023-06-22-15_43_57.log,x86 fail
+,oe_test_libguestfs_guestfish_02,fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_guestfish_02/2023-06-22-15_44_45.log ,测试所需 qemu 镜像没有 riscv 架构
+,oe_test_libguestfs_guestfish_03,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_guestfish_03/2023-06-22-15_45_30.log,x86 fail
+,oe_test_libguestfs_guestmount_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_guestmount_01/2023-06-22-15_46_18.log,x86 fail
+,oe_test_libguestfs_guestmount_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_guestmount_02/2023-06-22-15_47_04.log,x86 fail
+,oe_test_libguestfs_guestmount_03,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_guestmount_03/2023-06-22-15_47_52.log,x86 fail
+,oe_test_libguestfs_libguestfs-boot-analysis,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_libguestfs-boot-analysis/2023-06-22-15_48_35.log,x86 fail
+,oe_test_libguestfs_libguestfs-boot-benchmark,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_libguestfs-boot-benchmark/2023-06-22-15_49_21.log,x86 fail
+,oe_test_libguestfs_libguestfs-test-tool,fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_libguestfs-test-tool/2023-06-22-15_50_04.log ,测试所需 qemu 镜像没有 riscv 架构
+,oe_test_libguestfs_virt-alignment-scan,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-alignment-scan/2023-06-22-15_50_46.log,x86 fail
+,oe_test_libguestfs_virt-builder,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-builder/2023-06-22-15_51_35.log,x86 fail
+,oe_test_libguestfs_virt-cat,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-cat/2023-06-22-15_56_42.log,x86 fail
+,oe_test_libguestfs_virt-copy-in,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-copy-in/2023-06-22-15_57_37.log,x86 fail
+,oe_test_libguestfs_virt-copy-out,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-copy-out/2023-06-22-15_58_21.log,x86 fail
+,oe_test_libguestfs_virt-customize,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-customize/2023-06-22-15_59_11.log,x86 fail
+,oe_test_libguestfs_virt-df_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-df_01/2023-06-22-15_59_35.log,x86 fail
+,oe_test_libguestfs_virt-df_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-df_02/2023-06-22-16_00_26.log,x86 fail
+,oe_test_libguestfs_virt-dib,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-dib/2023-06-22-16_01_11.log,x86 fail
+,oe_test_libguestfs_virt-diff_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-diff_01/2023-06-22-16_01_35.log,x86 fail
+,oe_test_libguestfs_virt-diff_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-diff_02/2023-06-22-16_02_26.log,x86 fail
+,oe_test_libguestfs_virt-diff_03,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-diff_03/2023-06-22-16_03_17.log,x86 fail
+,oe_test_libguestfs_virt-filesystems_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-filesystems_01/2023-06-22-16_04_05.log,x86 fail
+,oe_test_libguestfs_virt-filesystems_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-filesystems_02/2023-06-22-16_04_57.log,x86 fail
+,oe_test_libguestfs_virt-filesystems_03,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-filesystems_03/2023-06-22-16_05_54.log,x86 fail
+,oe_test_libguestfs_virt-format,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-format/2023-06-22-16_06_38.log,x86 fail
+,oe_test_libguestfs_virt-get-kernel_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-get-kernel_01/2023-06-22-16_07_31.log,x86 fail
+,oe_test_libguestfs_virt-get-kernel_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-get-kernel_02/2023-06-22-16_08_17.log,x86 fail
+,oe_test_libguestfs_virt-index-validate,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-index-validate/2023-06-22-16_09_02.log,x86 fail
+,oe_test_libguestfs_virt-inspector_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-inspector_01/2023-06-22-16_09_22.log,x86 fail
+,oe_test_libguestfs_virt-inspector_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-inspector_02/2023-06-22-16_10_03.log,x86 fail
+,oe_test_libguestfs_virt-log,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-log/2023-06-22-16_10_51.log,x86 fail
+,oe_test_libguestfs_virt-ls_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-ls_01/2023-06-22-16_11_41.log,x86 fail
+,oe_test_libguestfs_virt-ls_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-ls_02/2023-06-22-16_12_26.log,x86 fail
+,oe_test_libguestfs_virt-make-fs,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-make-fs/2023-06-22-16_13_12.log,x86 fail
+,oe_test_libguestfs_virt-p2v-make-disk,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-p2v-make-disk/2023-06-22-16_14_00.log,x86 fail
+,oe_test_libguestfs_virt-p2v-make-kickstart,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-p2v-make-kickstart/2023-06-22-16_14_20.log,x86 fail
+,oe_test_libguestfs_virt-p2v-make-kiwi,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-p2v-make-kiwi/2023-06-22-16_14_42.log,x86 fail
+,oe_test_libguestfs_virt-resize_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-resize_01/2023-06-22-16_15_03.log,x86 fail
+,oe_test_libguestfs_virt-resize_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-resize_02/2023-06-22-16_15_51.log,x86 fail
+,oe_test_libguestfs_virt-resize_03,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-resize_03/2023-06-22-16_16_43.log,x86 fail
+,oe_test_libguestfs_virt-sparsify,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-sparsify/2023-06-22-16_17_23.log,x86 fail
+,oe_test_libguestfs_virt-sysprep_01,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-sysprep_01/2023-06-22-16_17_44.log,x86 fail
+,oe_test_libguestfs_virt-sysprep_02,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-sysprep_02/2023-06-22-16_18_32.log,x86 fail
+,oe_test_libguestfs_virt-sysprep_03,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-sysprep_03/2023-06-22-16_22_52.log,x86 fail
+,oe_test_libguestfs_virt-sysprep_04,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-sysprep_04/2023-06-22-16_23_45.log,x86 fail
+,oe_test_libguestfs_virt-sysprep_05,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-sysprep_05/2023-06-22-16_24_38.log,x86 fail
+,oe_test_libguestfs_virt-tar-in,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-tar-in/2023-06-22-16_25_23.log,x86 fail
+,oe_test_libguestfs_virt-tar-out,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-tar-out/2023-06-22-16_26_50.log,x86 fail
+,oe_test_libguestfs_virt-v2v,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-v2v/2023-06-22-16_28_12.log,x86 fail
+,oe_test_libguestfs_virt-v2v-copy-to-local,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-v2v-copy-to-local/2023-06-22-16_28_33.log,x86 fail
+,oe_test_libguestfs_virt-win-reg,x86 fail,./mugen-riscv/logs/libguestfs/oe_test_libguestfs_virt-win-reg/2023-06-22-16_28_54.log,x86 fail
+meson_0.54,oe_test_meson_0.54_meson_01,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_01/2023-06-22-15_43_02.log,None
+,oe_test_meson_0.54_meson_02,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_02/2023-06-22-15_45_51.log,None
+,oe_test_meson_0.54_meson_03,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_03/2023-06-22-15_46_59.log,None
+,oe_test_meson_0.54_meson_04,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_04/2023-06-22-15_48_13.log,None
+,oe_test_meson_0.54_meson_05,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_05/2023-06-22-15_49_20.log,x86 fail
+,oe_test_meson_0.54_meson_06,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_06/2023-06-22-15_50_21.log,x86 fail
+,oe_test_meson_0.54_meson_07,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_07/2023-06-22-15_51_14.log,None
+,oe_test_meson_0.54_meson_08,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_08/2023-06-22-15_52_49.log,None
+,oe_test_meson_0.54_meson_09,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_09/2023-06-22-15_53_52.log,x86 fail
+,oe_test_meson_0.54_meson_10,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_10/2023-06-22-15_54_48.log,x86 fail
+,oe_test_meson_0.54_meson_11,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_11/2023-06-22-15_55_38.log,None
+,oe_test_meson_0.54_meson_12,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_12/2023-06-22-15_56_27.log,x86 fail
+,oe_test_meson_0.54_meson_13,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_13/2023-06-22-15_57_52.log,x86 fail
+,oe_test_meson_0.54_meson_14,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_14/2023-06-22-15_59_09.log,None
+,oe_test_meson_0.54_meson_15,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_15/2023-06-22-16_00_19.log,x86 fail
+,oe_test_meson_0.54_meson_16,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_16/2023-06-22-16_01_37.log,None
+,oe_test_meson_0.54_meson_17,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_17/2023-06-22-16_02_38.log,None
+,oe_test_meson_0.54_meson_18,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_18/2023-06-22-16_03_23.log,None
+,oe_test_meson_0.54_meson_19,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_19/2023-06-22-16_05_16.log,None
+,oe_test_meson_0.54_meson_20,x86 fail,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_20/2023-06-22-16_07_18.log,x86 fail
+,oe_test_meson_0.54_meson_21,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_21/2023-06-22-16_19_50.log,None
+,oe_test_meson_0.54_meson_22,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_22/2023-06-22-16_21_01.log,None
+,oe_test_meson_0.54_meson_23,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_0.54_meson_23/2023-06-22-16_21_47.log,None
+,oe_test_meson_base_meson_wrap,success,./mugen-riscv/logs/meson_0.54/oe_test_meson_base_meson_wrap/2023-06-22-16_22_59.log,None
+netsniff-ng,oe_test_astraceroute_01,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_astraceroute_01/2023-06-22-16_26_07.log,x86 fail
+,oe_test_astraceroute_02,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_astraceroute_02/2023-06-22-16_29_09.log,x86 fail
+,oe_test_astraceroute_03,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_astraceroute_03/2023-06-22-16_31_50.log,x86 fail
+,oe_test_astraceroute_04,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_astraceroute_04/2023-06-22-16_54_33.log,x86 fail
+,oe_test_astraceroute_05,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_astraceroute_05/2023-06-22-16_57_19.log,x86 fail
+,oe_test_bpfc,success,./mugen-riscv/logs/netsniff-ng/oe_test_bpfc/2023-06-22-17_15_48.log,None
+,oe_test_curvetun_common,success,./mugen-riscv/logs/netsniff-ng/oe_test_curvetun_common/2023-06-22-17_17_36.log,None
+,oe_test_flowtop_01,success,./mugen-riscv/logs/netsniff-ng/oe_test_flowtop_01/2023-06-22-17_17_56.log,None
+,oe_test_ifpps_01,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_ifpps_01/2023-06-22-17_18_14.log,x86 fail
+,oe_test_ifpps_02,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_ifpps_02/2023-06-22-17_18_45.log,x86 fail
+,oe_test_netsniff_ng_01,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_netsniff_ng_01/2023-06-22-17_19_18.log,x86 fail
+,oe_test_netsniff_ng_02,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_netsniff_ng_02/2023-06-22-17_49_24.log,x86 fail
+,oe_test_netsniff_ng_03,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_netsniff_ng_03/2023-06-22-18_19_31.log,x86 fail
+,oe_test_netsniff_ng_04,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_netsniff_ng_04/2023-06-22-18_49_37.log,x86 fail
+,oe_test_trafgen_01,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_trafgen_01/2023-06-22-19_19_42.log,x86 fail
+,oe_test_trafgen_02,x86 fail,./mugen-riscv/logs/netsniff-ng/oe_test_trafgen_02/2023-06-22-19_49_47.log,x86 fail
+,oe_test_trafgen_03,success,./mugen-riscv/logs/netsniff-ng/oe_test_trafgen_03/2023-06-22-20_19_53.log,None
+selinux,oe_test_selinux_listuser,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_listuser/2023-06-22-16_30_57.log,x86 fail
+,oe_test_selinux_adduser,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_adduser/2023-06-22-16_32_05.log,x86 fail
+,oe_test_selinux_confining_regular_user,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_confining_regular_user/2023-06-22-16_33_03.log,x86 fail
+,oe_test_selinux_confining_admin_using_role,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_confining_admin_using_role/2023-06-22-16_33_38.log,x86 fail
+,oe_test_selinux_confining_admin_to_sysadm_u,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_confining_admin_to_sysadm_u/2023-06-22-16_34_14.log,x86 fail
+,oe_test_selinux_http,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_http/2023-06-22-16_34_50.log,x86 fail
+,oe_test_selinux_sharing_nfs_cifs_using_booleans,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_sharing_nfs_cifs_using_booleans/2023-06-22-16_36_37.log,x86 fail
+,oe_test_selinux_sec_status_mode,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_sec_status_mode/2023-06-22-16_38_03.log,x86 fail
+,oe_test_selinux_sec_sestatus,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_sec_sestatus/2023-06-22-16_39_25.log,x86 fail
+,oe_test_selinux_change_permissive,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_change_permissive/2023-06-22-16_39_38.log,x86 fail
+,oe_test_selinux_change_enforcing,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_change_enforcing/2023-06-22-16_39_58.log,x86 fail
+,oe_test_selinux_disable,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_disable/2023-06-22-16_40_31.log,x86 fail
+,oe_test_selinux_booleands,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_booleands/2023-06-22-16_41_00.log,x86 fail
+,oe_test_identify_selinux_rejects,x86 fail,./mugen-riscv/logs/selinux/oe_test_identify_selinux_rejects/2023-06-22-16_42_33.log,x86 fail
+,oe_test_fix_selinux_reject_messages,x86 fail,./mugen-riscv/logs/selinux/oe_test_fix_selinux_reject_messages/2023-06-22-17_12_38.log,x86 fail
+,oe_test_selinux_semanage_httpd,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_semanage_httpd/2023-06-22-17_14_09.log,x86 fail
+,oe_test_selinux_audit,x86 fail,./mugen-riscv/logs/selinux/oe_test_selinux_audit/2023-06-22-17_15_48.log,x86 fail
+libvpx,oe_test_vpxenc_01,success,./mugen-riscv/logs/libvpx/oe_test_vpxenc_01/2023-06-22-16_31_55.log,None
+,oe_test_vpxenc_02,success,./mugen-riscv/logs/libvpx/oe_test_vpxenc_02/2023-06-22-16_35_16.log,None
+,oe_test_vpxenc_03,success,./mugen-riscv/logs/libvpx/oe_test_vpxenc_03/2023-06-22-16_39_00.log,None
+,oe_test_vpxenc_04,success,./mugen-riscv/logs/libvpx/oe_test_vpxenc_04/2023-06-22-16_46_14.log,None
+,oe_test_vpxenc_05,success,./mugen-riscv/logs/libvpx/oe_test_vpxenc_05/2023-06-22-16_49_46.log,None
+,oe_test_vpxenc_06,success,./mugen-riscv/logs/libvpx/oe_test_vpxenc_06/2023-06-22-16_53_19.log,None
+,oe_test_vpxdec_07,success,./mugen-riscv/logs/libvpx/oe_test_vpxdec_07/2023-06-22-16_54_40.log,None
+,oe_test_vpxdec_08,success,./mugen-riscv/logs/libvpx/oe_test_vpxdec_08/2023-06-22-16_55_34.log,None
+,oe_test_set_maps,success,./mugen-riscv/logs/libvpx/oe_test_set_maps/2023-06-22-16_56_22.log,None
+,oe_test_decode_to_md5,success,./mugen-riscv/logs/libvpx/oe_test_decode_to_md5/2023-06-22-16_57_09.log,None
+bird,oe_test_birdcl_01,x86 fail,./mugen-riscv/logs/bird/oe_test_birdcl_01/2023-06-22-17_00_13.log,x86 fail
+,oe_test_birdcl_02,success,./mugen-riscv/logs/bird/oe_test_birdcl_02/2023-06-22-17_01_19.log,None
+,oe_test_birdcl_03,x86 fail,./mugen-riscv/logs/bird/oe_test_birdcl_03/2023-06-22-17_02_10.log,x86 fail
+,oe_test_birdc_01,x86 fail,./mugen-riscv/logs/bird/oe_test_birdc_01/2023-06-22-17_03_03.log,x86 fail
+,oe_test_birdc_02,success,./mugen-riscv/logs/bird/oe_test_birdc_02/2023-06-22-17_03_57.log,None
+,oe_test_birdc_03,x86 fail,./mugen-riscv/logs/bird/oe_test_birdc_03/2023-06-22-17_04_48.log,x86 fail
+,oe_test_bird_01,x86 fail,./mugen-riscv/logs/bird/oe_test_bird_01/2023-06-22-17_05_42.log,x86 fail
+,oe_test_bird_02,x86 fail,./mugen-riscv/logs/bird/oe_test_bird_02/2023-06-22-17_06_50.log,x86 fail
+,oe_test_service_bird,x86 fail,./mugen-riscv/logs/bird/oe_test_service_bird/systemctl_for_2023-06-22-17_07_50.log,x86 fail
+rubygem-sdoc,oe_test_rubygem-sdoc_sdoc-merge,x86 fail,./mugen-riscv/logs/rubygem-sdoc/oe_test_rubygem-sdoc_sdoc-merge/2023-06-22-17_10_55.log,x86 fail
+,oe_test_rubygem-sdoc_sdoc_01,x86 fail,./mugen-riscv/logs/rubygem-sdoc/oe_test_rubygem-sdoc_sdoc_01/2023-06-22-17_12_34.log,x86 fail
+,oe_test_rubygem-sdoc_sdoc_02,x86 fail,./mugen-riscv/logs/rubygem-sdoc/oe_test_rubygem-sdoc_sdoc_02/2023-06-22-17_17_32.log,x86 fail
+,oe_test_rubygem-sdoc_sdoc_03,x86 fail,./mugen-riscv/logs/rubygem-sdoc/oe_test_rubygem-sdoc_sdoc_03/2023-06-22-17_23_16.log,x86 fail
+,oe_test_rubygem-sdoc_sdoc_04,x86 fail,./mugen-riscv/logs/rubygem-sdoc/oe_test_rubygem-sdoc_sdoc_04/2023-06-22-17_29_34.log,x86 fail
+,oe_test_rubygem-sdoc_sdoc_05,x86 fail,./mugen-riscv/logs/rubygem-sdoc/oe_test_rubygem-sdoc_sdoc_05/2023-06-22-17_34_45.log,x86 fail
+,oe_test_rubygem-sdoc_sdoc_06,x86 fail,./mugen-riscv/logs/rubygem-sdoc/oe_test_rubygem-sdoc_sdoc_06/2023-06-22-17_40_25.log,x86 fail
+rust,oe_test_rustc_01,fail,./mugen-riscv/logs/rust/oe_test_rustc_01/2023-06-22-17_43_34.log ,软件包 rust 不存在
+,oe_test_rustc_02,fail,./mugen-riscv/logs/rust/oe_test_rustc_02/2023-06-22-17_44_42.log ,软件包 rust 不存在
+,oe_test_rustc_03,fail,./mugen-riscv/logs/rust/oe_test_rustc_03/2023-06-22-17_45_36.log ,软件包 rust 不存在
+,oe_test_rustdoc,x86 fail,./mugen-riscv/logs/rust/oe_test_rustdoc/2023-06-22-17_46_20.log,x86 fail
+,oe_test_cargo_01,x86 fail,./mugen-riscv/logs/rust/oe_test_cargo_01/2023-06-22-17_47_06.log,x86 fail
+,oe_test_cargo_02,fail,./mugen-riscv/logs/rust/oe_test_cargo_02/2023-06-22-17_47_45.log ,软件包 cargo 不存在
+,oe_test_clippy,fail,./mugen-riscv/logs/rust/oe_test_clippy/2023-06-22-17_48_36.log ,软件包 clippy 不存在
+,oe_test_rustfmt,x86 fail,./mugen-riscv/logs/rust/oe_test_rustfmt/2023-06-22-17_49_10.log,x86 fail
+jq-issue,oe_test_jq_errorjson,success,./mugen-riscv/logs/jq-issue/oe_test_jq_errorjson/2023-06-22-17_47_29.log,None
+,oe_test_jq_inputline_4095,success,./mugen-riscv/logs/jq-issue/oe_test_jq_inputline_4095/2023-06-22-17_48_30.log,None
+,oe_test_jq_inputline_file,success,./mugen-riscv/logs/jq-issue/oe_test_jq_inputline_file/2023-06-22-17_49_13.log,None
+,oe_test_jq_teshu,success,./mugen-riscv/logs/jq-issue/oe_test_jq_teshu/2023-06-22-17_49_59.log,None
+,oe_test_jq_try_cache,success,./mugen-riscv/logs/jq-issue/oe_test_jq_try_cache/2023-06-22-17_50_42.log,None
+hfsplus-tools,oe_test_fsck_hfs,success,./mugen-riscv/logs/hfsplus-tools/oe_test_fsck_hfs/2023-06-22-17_51_31.log,None
+,oe_test_fsck_hfsplus_01,success,./mugen-riscv/logs/hfsplus-tools/oe_test_fsck_hfsplus_01/2023-06-22-17_52_24.log,None
+,oe_test_fsck_hfsplus_02,success,./mugen-riscv/logs/hfsplus-tools/oe_test_fsck_hfsplus_02/2023-06-22-17_53_08.log,None
+,oe_test_mkfs_hfsplus,success,./mugen-riscv/logs/hfsplus-tools/oe_test_mkfs_hfsplus/2023-06-22-17_53_51.log,None
+jtidy,oe_test_jtidy_01,success,./mugen-riscv/logs/jtidy/oe_test_jtidy_01/2023-06-22-17_53_03.log,None
+,oe_test_jtidy_02,success,./mugen-riscv/logs/jtidy/oe_test_jtidy_02/2023-06-22-17_55_08.log,None
+,oe_test_jtidy_03,success,./mugen-riscv/logs/jtidy/oe_test_jtidy_03/2023-06-22-17_56_56.log,None
+,oe_test_jtidy_04,success,./mugen-riscv/logs/jtidy/oe_test_jtidy_04/2023-06-22-17_58_44.log,None
+keepalived-issue,oe_test_vrrp_garp_keepalived,x86 fail,./mugen-riscv/logs/keepalived-issue/oe_test_vrrp_garp_keepalived/2023-06-22-17_56_13.log,x86 fail
+sassc,oe_test_sassc_01,x86 fail,./mugen-riscv/logs/sassc/oe_test_sassc_01/2023-06-22-18_00_53.log,x86 fail
+,oe_test_sassc_02,success,./mugen-riscv/logs/sassc/oe_test_sassc_02/2023-06-22-18_01_50.log,None
+,oe_test_sassc_03,success,./mugen-riscv/logs/sassc/oe_test_sassc_03/2023-06-22-18_02_35.log,None
+cht,oe_test_cht_client_mode,success,./mugen-riscv/logs/cht/oe_test_cht_client_mode/2023-06-22-18_01_56.log,None
+,oe_test_cht_ordinary_mode,success,./mugen-riscv/logs/cht/oe_test_cht_ordinary_mode/2023-06-22-18_02_15.log,None
+gyp,oe_test_gyp_01,success,./mugen-riscv/logs/gyp/oe_test_gyp_01/2023-06-22-18_04_14.log,None
+,oe_test_gyp_02,success,./mugen-riscv/logs/gyp/oe_test_gyp_02/2023-06-22-18_05_28.log,None
+lighttpd_1.4.63,oe_test_lighttpd_1.4.63_service_lighttpd,success,./mugen-riscv/logs/lighttpd_1.4.63/oe_test_lighttpd_1.4.63_service_lighttpd/2023-06-22-18_04_55.log,None
+python-keyring_23.4.0,oe_test_keyring,success,./mugen-riscv/logs/python-keyring_23.4.0/oe_test_keyring/2023-06-22-18_08_05.log,None
+rubygem-bacon,oe_test_bacon_01,success,./mugen-riscv/logs/rubygem-bacon/oe_test_bacon_01/2023-06-22-18_08_15.log,None
+,oe_test_bacon_02,success,./mugen-riscv/logs/rubygem-bacon/oe_test_bacon_02/2023-06-22-18_09_51.log,None
+Echarts,oe_test_Echarts,success,./mugen-riscv/logs/Echarts/oe_test_Echarts/2023-07-10-11_20_52.log,手动重测通过
+baws-sdk-java,oe_test_baws-sdk-java_001,fail,./mugen-riscv/logs/baws-sdk-java/oe_test_baws-sdk-java_001/2023-06-22-18_12_41.log ,软件包 aws-sdk-java 安装有依赖错误
+figlet,oe_test_figlet,success,./mugen-riscv/logs/figlet/oe_test_figlet/2023-06-22-18_15_04.log,None
+kmod-kvdo-issue,oe_test_kvdo_vdo_cpu,x86 fail,./mugen-riscv/logs/kmod-kvdo-issue/oe_test_kvdo_vdo_cpu/2023-06-22-18_15_25.log,x86 fail
+,oe_test_kvdo_vdo_iocopy,x86 fail,./mugen-riscv/logs/kmod-kvdo-issue/oe_test_kvdo_vdo_iocopy/2023-06-22-18_16_42.log,x86 fail
+libiodbc_22.03,oe_test_libiodbc_iodbctest,success,./mugen-riscv/logs/libiodbc_22.03/oe_test_libiodbc_iodbctest/2023-06-22-18_17_38.log,None
+lzo-lzop,oe_test_lzo-lzop,success,./mugen-riscv/logs/lzo-lzop/oe_test_lzo-lzop/2023-06-22-18_21_18.log,None
+perl-Module-ScanDeps,oe_test_scandeps_pl,success,./mugen-riscv/logs/perl-Module-ScanDeps/oe_test_scandeps_pl/2023-06-22-18_22_19.log,None
+readarray,oe_test_readarray,success,./mugen-riscv/logs/readarray/oe_test_readarray/2023-06-22-18_23_47.log,None
+systools,oe_test_systools,x86 fail,./mugen-riscv/logs/systools/oe_test_systools/2023-06-22-18_25_24.log,x86 fail

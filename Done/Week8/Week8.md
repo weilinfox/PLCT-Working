@@ -1,7 +1,6 @@
 # Week 8 工作报告
 
 + 从所有未分析的测试 [pickedFail.csv](https://github.com/KotorinMinami/task_apply/blob/main/pickedFail.csv) 中筛选 baseOS fail 的测试进行分析并提交分析结果，共计 75 个测试用例。其中有 2 个更改状态为 x86 fail ； 18 个与测试环境、超时时间有关，需要手动重测重新分析。在这些重测的里面，有 11 个经过重测通过了
-+ [rest3](https://github.com/KotorinMinami/res_list/blob/master/NeedTest/rest3) 似乎是无人认领的状态，需要进行测试
 
 ## 遇到的问题
 
