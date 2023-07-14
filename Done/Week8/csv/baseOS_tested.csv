@@ -263,7 +263,6 @@ authz,authz
 authd,authd
 audit,audit
 attr,attr
-at,AT
 arpwatch,arpwatch
 arptables,arptables
 apr,apr
