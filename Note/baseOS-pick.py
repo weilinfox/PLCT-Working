@@ -13,8 +13,9 @@ filteredFailLogCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseO
 
 splitter = ","  # csv splitter
 baseOSList = []  # baseOS package name list
-notBaseOSList = ["AT"]
 pkg2suite = {"openjdk-1.8.0": ["java-1.8.0-openjdk"],
+             "PyYAML": ["pyyaml"],
+             "libX11": ["libx11"],
              "tpm-tools": ["tpm-tools_20.03"],
              "rhash": ["rhash_1.4.2"],
              "hwloc": ["hwloc_1.11.9", "hwloc_2.7.1"],
@@ -23,12 +24,9 @@ pkg2suite = {"openjdk-1.8.0": ["java-1.8.0-openjdk"],
 suite2pkg = {}
 for k in pkg2suite.keys():
     for p in pkg2suite[k]:
-        suite2pkg[p.lower()] = k.lower()
+        suite2pkg[p] = k
 
 baseOSTested = {}
-# for i in range(len(baseOSList)):
-#     baseOSTested[baseOSList[i].lower()] = (baseOSList[i], [])  # (origin_name, mugen_suites)
-#     baseOSList[i] = baseOSList[i].lower()
 
 # read baseOS package list
 with open(baseOsTxt, "r", encoding="utf-8") as baseOsFile:
@@ -41,8 +39,8 @@ with open(baseOsTxt, "r", encoding="utf-8") as baseOsFile:
             continue
 
         key = pkg.strip()
-        baseOSList.append(key.lower())  # store pkg name in lowercase
-        baseOSTested[key.lower()] = (key, [])
+        baseOSList.append(key)
+        baseOSTested[key] = []
 
 # split failureCause.csv and output baseOS fail only
 with open(logCsv, "r", encoding="utf-8") as logFile:
@@ -76,10 +74,10 @@ with open(logCsv, "r", encoding="utf-8") as logFile:
                 firstFail = True
 
             # baseOS
-            if suiteName not in notBaseOSList and suiteName.lower() in baseOSList:
+            if suiteName in baseOSList:
                 outFile.write(outline)
-                if suiteName not in baseOSTested[suiteName.lower()][1]:
-                    baseOSTested[suiteName.lower()][1].append(suiteName)
+                if suiteName not in baseOSTested[suiteName]:
+                    baseOSTested[suiteName].append(suiteName)
 
                 # fail only
                 if lineSplit[1].split(splitter)[1].strip() == "fail":
@@ -88,10 +86,10 @@ with open(logCsv, "r", encoding="utf-8") as logFile:
                         failFile.write(suiteName + splitter + lineSplit[1])
                     else:
                         failFile.write(splitter + lineSplit[1])
-            elif suiteName not in notBaseOSList and suiteName.lower() in suite2pkg and suite2pkg[suiteName] in baseOSList:
+            elif suiteName in suite2pkg and suite2pkg[suiteName] in baseOSList:
                 outFile.write(outline)
-                if suiteName not in baseOSTested[suite2pkg[suiteName]][1]:
-                    baseOSTested[suite2pkg[suiteName]][1].append(suiteName)
+                if suiteName not in baseOSTested[suite2pkg[suiteName]]:
+                    baseOSTested[suite2pkg[suiteName]].append(suiteName)
 
                 # fail only
                 if lineSplit[1].split(splitter)[1].strip() == "fail":
@@ -109,6 +107,6 @@ with open(logCsv, "r", encoding="utf-8") as logFile:
 with open(baseOsTestedCsv, "w", encoding="utf-8") as testedFile:
     testedFile.write("BaseOS-Name" + splitter + "Mugen-Tests\n")
 
-    for v in baseOSTested.values():
-        if len(v[1]) != 0:
-            testedFile.write(v[0] + splitter + str(v[1])[1:-1].replace("'", "").replace(",", " ") + "\n")
+    for k in baseOSTested.keys():
+        if len(baseOSTested[k]) != 0:
+            testedFile.write(k + splitter + str(baseOSTested[k])[1:-1].replace("'", "").replace(",", " ") + "\n")
