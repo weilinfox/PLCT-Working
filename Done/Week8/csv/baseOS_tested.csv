@@ -150,6 +150,7 @@ lm_sensors,lm_sensors
 lldpad,lldpad
 lksctp-tools,lksctp-tools
 libxslt,libxslt
+libX11,libx11
 libvma,libvma
 libvirt,libvirt
 libunistring,libunistring
