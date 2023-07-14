@@ -496,6 +496,14 @@ nasm,oe_test_nasm_01,success,./mugen-riscv/logs/nasm/oe_test_nasm_01/2023-06-02-
 ,oe_test_nasm_ndisasm_01,success,./mugen-riscv/logs/nasm/oe_test_nasm_ndisasm_01/2023-06-02-17:13:31.log,None
 ,oe_test_nasm_ndisasm_02,success,./mugen-riscv/logs/nasm/oe_test_nasm_ndisasm_02/2023-06-02-17:14:19.log,None
 ,oe_test_nasm_13,x86 fail,./mugen-riscv/logs/nasm/oe_test_nasm_13/2023-06-02-17:12:41.log,x86 fail
+FS_iSula,oe_test_isula_check_overlay2fs,success,./mugen-riscv/logs/FS_iSula/oe_test_isula_check_overlay2fs/2023-04-29-02:49:06.log,None
+,oe_test_isula_info,success,./mugen-riscv/logs/FS_iSula/oe_test_isula_info/2023-04-29-03:32:47.log,None
+,oe_test_isula_compress,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_compress/2023-04-29-03:04:12.log,x86 fail
+,oe_test_isula_cp,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_cp/2023-04-29-03:18:48.log,x86 fail
+,oe_test_isula_mergedir,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_mergedir/2023-04-29-03:48:22.log,x86 fail
+,oe_test_isula_mount,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_mount/2023-04-29-04:05:14.log,x86 fail
+,oe_test_isula_mount_system_isula,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_mount_system_isula/2023-04-29-04:24:20.log,x86 fail
+,oe_test_isula_write_in_isula,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_write_in_isula/2023-04-29-04:42:15.log,x86 fail
 nbdkit,oe_test_nbdkit_01,success,./mugen-riscv/logs/nbdkit/oe_test_nbdkit_01/2023-04-26-11:00:49.log,None
 ,oe_test_nbdkit_03,success,./mugen-riscv/logs/nbdkit/oe_test_nbdkit_03/2023-04-26-11:04:49.log,None
 ,oe_test_nbdkit_02,x86 fail,./mugen-riscv/logs/nbdkit/oe_test_nbdkit_02/2023-04-26-11:02:45.log,x86 fail
@@ -784,6 +792,17 @@ security_guide,oe_test_access_at_commands,success,./mugen-riscv/logs/security_gu
 ,oe_test_ssh_version2,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_version2/2023-04-28-21:56:31.log,安装的ssh版本非测试版本
 ,oe_test_ssh_warnings,fail,./mugen-riscv/logs/security_guide/oe_test_ssh_warnings/2023-04-28-21:44:12.log,登陆时没有显示x86登陆时显示的提示
 ,oe_test_use_security_tools,fail,./mugen-riscv/logs/security_guide/oe_test_use_security_tools/2023-04-28-21:51:39.log,security-tool软件包默认未安装
+smoke-iSulad,oe_test_iSula_install_deploy_001,success,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_install_deploy_001/2023-04-29-00:11:14.log,None
+,oe_test_iSula_exec_cmd_001,x86 fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_exec_cmd_001/2023-04-29-00:07:44.log,x86 fail
+,oe_test_iSula_attach_rename_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_attach_rename_001/2023-04-28-23:47:23.log,docker镜像地址错误
+,oe_test_iSula_cp_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_cp_001/2023-04-28-23:54:18.log,docker镜像地址错误
+,oe_test_iSula_create_start_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_create_start_001/2023-04-28-23:58:00.log,docker镜像地址错误
+,oe_test_iSula_export_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_export_001/2023-04-28-23:50:40.log,docker镜像地址错误
+,oe_test_iSula_mkdir100_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_mkdir100_001/2023-04-29-00:13:20.log,docker镜像地址错误
+,oe_test_iSula_pause_resume_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_pause_resume_001/2023-04-29-00:16:46.log,docker镜像地址错误
+,oe_test_iSula_query_state_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_query_state_001/2023-04-28-23:43:34.log,docker镜像地址错误
+,oe_test_iSula_restart_stop_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_restart_stop_001/2023-04-29-00:01:40.log,docker镜像地址错误
+,oe_test_iSula_search_info_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_search_info_001/2023-04-29-00:04:01.log,docker镜像地址错误
 socat,oe_test_socat_01,success,./mugen-riscv/logs/socat/oe_test_socat_01/2023-04-27-02:49:34.log,None
 ,oe_test_socat_02,success,./mugen-riscv/logs/socat/oe_test_socat_02/2023-04-27-02:51:32.log,None
 ,oe_test_socat_03,success,./mugen-riscv/logs/socat/oe_test_socat_03/2023-04-27-02:54:01.log,None

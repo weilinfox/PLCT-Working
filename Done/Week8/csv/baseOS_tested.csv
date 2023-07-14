@@ -2,7 +2,6 @@ BaseOS-Name,Mugen-Tests
 os-basic,os-basic
 os-storage,os-storage
 smoke-basic-os,smoke-basic-os
-smoke-iSulad,smoke-iSulad
 smoke-baseinfo,smoke-baseinfo
 embedded_application_develop_tests,embedded_application_develop_tests
 embedded_os_basic_test,embedded_os_basic_test
@@ -12,7 +11,6 @@ FS_Device,FS_Device
 FS_Directory,FS_Directory
 FS_Negative,FS_Negative
 FS_Raw,FS_Raw
-FS_iSula,FS_iSula
 glibc,glibc
 ceph,ceph
 ypserv,ypserv

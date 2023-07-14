@@ -1625,14 +1625,6 @@ FS_Raw,oe_test_raw_create,x86 fail,./mugen-riscv/logs/FS_Raw/oe_test_raw_create/
 ,oe_test_raw_reboot,x86 fail,./mugen-riscv/logs/FS_Raw/oe_test_raw_reboot/2023-04-28-23:08:13.log,x86 fail
 ,oe_test_raw_reraw,x86 fail,./mugen-riscv/logs/FS_Raw/oe_test_raw_reraw/2023-04-28-23:38:22.log,x86 fail
 ,oe_test_raw_service,x86 fail,./mugen-riscv/logs/FS_Raw/oe_test_raw_service/2023-04-28-23:38:44.log,x86 fail
-FS_iSula,oe_test_isula_check_overlay2fs,success,./mugen-riscv/logs/FS_iSula/oe_test_isula_check_overlay2fs/2023-04-29-02:49:06.log,None
-,oe_test_isula_info,success,./mugen-riscv/logs/FS_iSula/oe_test_isula_info/2023-04-29-03:32:47.log,None
-,oe_test_isula_compress,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_compress/2023-04-29-03:04:12.log,x86 fail
-,oe_test_isula_cp,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_cp/2023-04-29-03:18:48.log,x86 fail
-,oe_test_isula_mergedir,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_mergedir/2023-04-29-03:48:22.log,x86 fail
-,oe_test_isula_mount,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_mount/2023-04-29-04:05:14.log,x86 fail
-,oe_test_isula_mount_system_isula,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_mount_system_isula/2023-04-29-04:24:20.log,x86 fail
-,oe_test_isula_write_in_isula,x86 fail,./mugen-riscv/logs/FS_iSula/oe_test_isula_write_in_isula/2023-04-29-04:42:15.log,x86 fail
 embedded_application_develop_tests,oe_test_cpp_hello_world_test,x86 fail,./mugen-riscv/logs/embedded_application_develop_tests/oe_test_cpp_hello_world_test/2023-04-27-11:11:07.log,x86 fail
 ,oe_test_hello_world_test,x86 fail,./mugen-riscv/logs/embedded_application_develop_tests/oe_test_hello_world_test/2023-04-27-11:10:12.log,x86 fail
 ,oe_test_kernel_hello_world_test,x86 fail,./mugen-riscv/logs/embedded_application_develop_tests/oe_test_kernel_hello_world_test/2023-04-27-11:10:39.log,x86 fail
@@ -2288,17 +2280,6 @@ smoke-basic-os,oe_test_IPV6_traceroute6_01,success,./mugen-riscv/logs/smoke-basi
 ,oe_test_yumgroup_001,fail,./mugen-riscv/logs/smoke-basic-os/oe_test_yumgroup_001/2023-04-29-06:23:17.log,oe-rv目前软件仓内并没有划分软件包组
 ,oe_test_MEMinfo_001,fail,./mugen-riscv/logs/smoke-basic-os/oe_test_MEMinfo_001/2023-05-26-00:16:17.log,file missing
 ,oe_test_perf_top_01,fail,./mugen-riscv/logs/smoke-basic-os/oe_test_perf_top_01/2023-05-26-00:17:11.log,file missing
-smoke-iSulad,oe_test_iSula_install_deploy_001,success,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_install_deploy_001/2023-04-29-00:11:14.log,None
-,oe_test_iSula_exec_cmd_001,x86 fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_exec_cmd_001/2023-04-29-00:07:44.log,x86 fail
-,oe_test_iSula_attach_rename_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_attach_rename_001/2023-04-28-23:47:23.log,docker镜像地址错误
-,oe_test_iSula_cp_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_cp_001/2023-04-28-23:54:18.log,docker镜像地址错误
-,oe_test_iSula_create_start_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_create_start_001/2023-04-28-23:58:00.log,docker镜像地址错误
-,oe_test_iSula_export_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_export_001/2023-04-28-23:50:40.log,docker镜像地址错误
-,oe_test_iSula_mkdir100_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_mkdir100_001/2023-04-29-00:13:20.log,docker镜像地址错误
-,oe_test_iSula_pause_resume_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_pause_resume_001/2023-04-29-00:16:46.log,docker镜像地址错误
-,oe_test_iSula_query_state_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_query_state_001/2023-04-28-23:43:34.log,docker镜像地址错误
-,oe_test_iSula_restart_stop_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_restart_stop_001/2023-04-29-00:01:40.log,docker镜像地址错误
-,oe_test_iSula_search_info_001,fail,./mugen-riscv/logs/smoke-iSulad/oe_test_iSula_search_info_001/2023-04-29-00:04:01.log,docker镜像地址错误
 strongswan,oe_test_service_charon-cmd_01,success,./mugen-riscv/logs/strongswan/oe_test_service_charon-cmd_01/2023-04-27-04:09:18.log,None
 ,oe_test_service_charon-cmd_02,success,./mugen-riscv/logs/strongswan/oe_test_service_charon-cmd_02/2023-04-27-04:16:57.log,None
 ,oe_test_service_charon-systemd,success,./mugen-riscv/logs/strongswan/oe_test_service_charon-systemd/2023-04-27-03:51:21.log,None
