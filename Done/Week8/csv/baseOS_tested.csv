@@ -1,18 +1,5 @@
 BaseOS-Name,Mugen-Tests
-os-basic,os-basic
-os-storage,os-storage
-smoke-basic-os,smoke-basic-os
-smoke-baseinfo,smoke-baseinfo
-embedded_application_develop_tests,embedded_application_develop_tests
-embedded_os_basic_test,embedded_os_basic_test
-embedded_tiny_image_test,embedded_tiny_image_test
-embedded_third_party_packages_test,embedded_third_party_packages_test
-FS_Device,FS_Device
-FS_Directory,FS_Directory
-FS_Negative,FS_Negative
-FS_Raw,FS_Raw
 glibc,glibc
-ceph,ceph
 ypserv,ypserv
 ypbind,ypbind
 yajl,yajl
@@ -271,3 +258,8 @@ amanda,amanda
 acpid,acpid
 acl,acl
 accountsservice,accountsservice
+os-basic,os-basic
+os-storage,os-storage
+smoke-basic-os,smoke-basic-os
+FS_Directory,FS_Directory
+FS_File,FS_File

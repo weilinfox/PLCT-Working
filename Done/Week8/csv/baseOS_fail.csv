@@ -27,13 +27,6 @@ OpenIPMI,oe_test_service_ipmi,fail,https://github.com/KotorinMinami/res_list/tre
 acl,oe_test_acl_default_kernel_setting,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/acl/oe_test_acl_default_kernel_setting/2023-05-25-16_29_46.log,未打开 CONFIG_XFS_POSIX_ACL=y
 arptables,oe_test_service_arptables,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/arptables/oe_test_service_arptables/2023-05-25-21_46_57.log,
 cachefilesd,oe_test_service_cachefilesd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cachefilesd/oe_test_service_cachefilesd/2023-05-25-13:58:05.log,
-ceph,oe_test_target_ceph-fuse,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ceph/oe_test_target_ceph-fuse/2023-05-25-14:09:22.log,pkg not found/file missing
-,oe_test_target_ceph-mds,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ceph/oe_test_target_ceph-mds/2023-05-25-14:11:16.log,pkg not found/file missing
-,oe_test_target_ceph-mgr,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ceph/oe_test_target_ceph-mgr/2023-05-25-14:13:09.log,pkg not found/file missing
-,oe_test_target_ceph-mon,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ceph/oe_test_target_ceph-mon/2023-05-25-14:15:26.log,pkg not found/file missing
-,oe_test_target_ceph-osd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ceph/oe_test_target_ceph-osd/2023-05-25-14:17:24.log,pkg not found/file missing
-,oe_test_target_ceph-radosgw,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ceph/oe_test_target_ceph-radosgw/2023-05-25-14:19:20.log,pkg not found/file missing
-,oe_test_target_ceph-rbd-mirror,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ceph/oe_test_target_ceph-rbd-mirror/2023-05-25-14:21:20.log,pkg not found/file missing
 chrony,oe_test_service_chronyd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/chrony/oe_test_service_chronyd/2023-05-25-14:08:06.log,preinstall absent/systemd unit restart failure/systemd unit runtime error
 cryptsetup,oe_test_encrypt_data,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_encrypt_data/2023-05-31-17:02:28.log,
 ,oe_test_luks_encrypted,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_luks_encrypted/2023-05-31-17:04:33.log,
@@ -98,19 +91,9 @@ multipath-tools,oe_test_multipath-tools_kpartx,fail,https://github.com/KotorinMi
 ,oe_test_multipath-tools_multipath_01,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/multipath-tools/oe_test_multipath-tools_multipath_01/2023-07-12-13_22_20.log,内核模块缺失 dm_multipath
 ,oe_test_multipath-tools_multipath_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/multipath-tools/oe_test_multipath-tools_multipath_02/2023-07-12-13_26_29.log,内核模块缺失 dm_multipath
 ,oe_test_service_multipathd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/multipath-tools/oe_test_service_multipathd/2023-07-12-13_30_26.log,内核模块缺失 dm_multipath ， multipathd[3663]: DM multipath kernel driver not loaded
-FS_Device,oe_test_raid_faulty_1,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Device/oe_test_raid_faulty_1/2023-04-28-13:28:46.log,Module md_mod not found
-,oe_test_raid_faulty_2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Device/oe_test_raid_faulty_2/2023-04-28-13:29:20.log,Module md_mod not found
-,oe_test_raid_faulty_3,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Device/oe_test_raid_faulty_3/2023-04-28-13:29:57.log,Module md_mod not found
-,oe_test_raid_faulty_add_device,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Device/oe_test_raid_faulty_add_device/2023-04-28-13:30:33.log,Module md_mod not found
-,oe_test_raid_faulty_rw,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Device/oe_test_raid_faulty_rw/2023-04-28-13:31:16.log,Module md_mod not found
-,oe_test_raid_faulty_w,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Device/oe_test_raid_faulty_w/2023-04-28-13:40:08.log,Module md_mod not found
 FS_Directory,oe_test_FSIO_dir_access_etc,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Directory/oe_test_FSIO_dir_access_etc/2023-04-28-21:47:20.log,/etc文件夹内容与x86不符合
 ,oe_test_FSIO_dir_access_proc,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Directory/oe_test_FSIO_dir_access_proc/2023-04-28-21:49:26.log,/proc/cpuinfo中正常显示cpu信息但无'CPU'关键字
 ,oe_test_FSIO_dir_access_var,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Directory/oe_test_FSIO_dir_access_var/2023-04-28-21:52:08.log,/var文件夹内容与x86不符合
-FS_Negative,oe_test_FSIO_create_full_dir,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_Negative/oe_test_FSIO_create_full_dir/2023-05-04-02:29:14.log,log文件过长无法分析
-embedded_os_basic_test,oe_test_basic_cmd_dmesg,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_test/oe_test_basic_cmd_dmesg/2023-04-27-11:54:39.log,
-,oe_test_system_log_logrotate,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_test/oe_test_system_log_logrotate/2023-04-27-12:14:23.log,preinstall absent
-,oe_test_var_log,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_test/oe_test_var_log/2023-04-27-12:17:59.log,preinstall absent
 numad,oe_test_service_numad,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/numad/oe_test_service_numad/2023-04-26-12:11:17.log,systemd启动失败，原因未知
 open-iscsi,oe_test_service_iscsid,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/open-iscsi/oe_test_service_iscsid/2023-04-26-12:21:15.log,iscsid.service 启动出现错误 iscsid: can not create NETLINK_ISCSI socket [Protocol not supported]
 openvswitch,oe_test_service_openvswitch,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openvswitch/oe_test_service_openvswitch/2023-04-26-14:26:52.log,测试套问题，测试套使用 service 命令进行测试，而该命令在镜像中不存在 service: command not found
@@ -149,7 +132,6 @@ samba,oe_test_service_nmb,fail,https://github.com/KotorinMinami/res_list/tree/ma
 sanlock,oe_test_sanlock_wdmd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/sanlock/oe_test_sanlock_wdmd/2023-04-27-02:26:40.log,Module softdog not found
 security-tool,oe_test_security_tool,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/security-tool/oe_test_security_tool/2023-04-27-02:40:49.log,镜像没有预装待测软件包 security-tool
 ,oe_test_service_openEuler-security,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/security-tool/oe_test_service_openEuler-security/2023-04-27-02:42:59.log,镜像没有预装待测软件包 security-tool
-smoke-baseinfo,oe_test_rpm_suffix_name,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-baseinfo/oe_test_rpm_suffix_name/2023-04-29-02:47:05.log,dnf list 获取的oetestsuite 软件仓中软件包版本号不带有oe2303的规范
 smoke-basic-os,oe_test_CPUinfo_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_CPUinfo_001/2023-05-26-00:21:53.log,file missing/timeout
 ,oe_test_bbr_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bbr_02/2023-04-29-09:54:28.log,preinstall absent
 ,oe_test_bbr_04,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bbr_04/2023-04-29-09:54:45.log,kernel module absent
@@ -179,6 +161,11 @@ strongswan,oe_test_service_strongswan_02,fail,https://github.com/KotorinMinami/r
 ,oe_test_service_swanctl_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/strongswan/oe_test_service_swanctl_02/2023-04-27-04:00:56.log,pre_test时podman出现堆栈错误导致后续软件运行错误
 udisks2,oe_test_service_udisks2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/udisks2/oe_test_service_udisks2/2023-04-27-04:42:18.log,Failed to load module: /usr/lib64/gio/modules/libgvfsdbus.so
 vdo,oe_test_service_vdo,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/vdo/oe_test_service_vdo/2023-04-27-04:56:41.log,nothing provides kmod-kvdo
+FS_File,oe_test_FSIO_modify_file,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_modify_file/2023-06-23-02:15:24.log,preinstall absent
+,oe_test_FSIO_sys_fs_check,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_sys_fs_check/2023-06-23-02:21:04.log,挂载硬盘时出错，显示硬盘不存在
+,oe_test_FSIO_filefrag,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_filefrag/2023-06-23-02:13:11.log,preinstall absent
+,oe_test_FSIO_act_file_lack_inode,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_act_file_lack_inode/2023-06-23-01:37:53.log,preinstall absent
+,oe_test_FSIO_create_hardlink_fail,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_create_hardlink_fail/2023-06-23-02:08:47.log,preinstall absent
 amanda,oe_test_amanda_amcheck,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/amanda/oe_test_amanda_amcheck/2023-06-16-03:44:44.log,
 openssh,oe_test_openssh_cipher,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_cipher/2023-06-16-04:10:21.log,
 ,oe_test_openssh_locked,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_locked/2023-06-16-04:11:55.log,preinstall absent/timeout
