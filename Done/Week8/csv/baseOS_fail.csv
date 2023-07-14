@@ -23,15 +23,15 @@ os-basic,oe_test_aureport,fail,https://github.com/KotorinMinami/res_list/tree/ma
 ,oe_test_xzcmp,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_xzcmp/2023-04-28-11:10:16.log,测试套问题，脚本需要测试环境默认语言为中文
 ,oe_test_zlib,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_zlib/2023-04-28-10:10:25.log,镜像没有预装测试所需的 kernel-headers
 NetworkManager,oe_test_libnetfilter_conntrack,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/NetworkManager/oe_test_libnetfilter_conntrack/2023-05-25-16_27_41.log,镜像没有预装测试所需的 kernel-headers
-OpenIPMI,oe_test_service_ipmi,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/OpenIPMI/oe_test_service_ipmi/2023-05-25-21_21_10.log,
+OpenIPMI,oe_test_service_ipmi,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/OpenIPMI/oe_test_service_ipmi/2023-05-25-21_21_10.log,内核模块缺失 ipmi_devintf
 acl,oe_test_acl_default_kernel_setting,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/acl/oe_test_acl_default_kernel_setting/2023-05-25-16_29_46.log,未打开 CONFIG_XFS_POSIX_ACL=y
-arptables,oe_test_service_arptables,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/arptables/oe_test_service_arptables/2023-05-25-21_46_57.log,
-cachefilesd,oe_test_service_cachefilesd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cachefilesd/oe_test_service_cachefilesd/2023-05-25-13:58:05.log,
-chrony,oe_test_service_chronyd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/chrony/oe_test_service_chronyd/2023-05-25-14:08:06.log,preinstall absent/systemd unit restart failure/systemd unit runtime error
-cryptsetup,oe_test_encrypt_data,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_encrypt_data/2023-05-31-17:02:28.log,
-,oe_test_luks_encrypted,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_luks_encrypted/2023-05-31-17:04:33.log,
-,oe_test_use_luks,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_use_luks/2023-05-31-17:07:04.log,
-dhcp,oe_test_service_dhcrelay,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dhcp/oe_test_service_dhcrelay/2023-05-25-21:40:24.log,preinstall absent/systemd unit restart failure/systemd unit runtime error
+arptables,oe_test_service_arptables,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/arptables/oe_test_service_arptables/2023-05-25-21_46_57.log,内核模块缺失 arp_tables
+cachefilesd,oe_test_service_cachefilesd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cachefilesd/oe_test_service_cachefilesd/2023-05-25-13:58:05.log,/dev/cachefiles 文件不存在导致 cachefilesd.service 启动失败
+chrony,oe_test_service_chronyd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/chrony/oe_test_service_chronyd/2023-05-25-14:08:06.log,镜像没有预装待测软件包 chrony
+cryptsetup,oe_test_encrypt_data,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_encrypt_data/2023-05-31-17:02:28.log,待测软件包 cryptsetup-reencrypt 不存在
+,oe_test_luks_encrypted,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_luks_encrypted/2023-05-31-17:04:33.log,待测软件包 cryptsetup-reencrypt 不存在
+,oe_test_use_luks,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cryptsetup/oe_test_use_luks/2023-05-31-17:07:04.log,待测软件包 cryptsetup-reencrypt 不存在
+dhcp,oe_test_service_dhcrelay,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dhcp/oe_test_service_dhcrelay/2023-05-25-21:40:24.log,镜像没有预装待测软件包 dhcp ，导致待测 dhcrelay.service 不存在
 dnf,oe_test_dnf_all-repos,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_all-repos/2023-05-25-16_43_17.log,oerv 和 x86 的软件源结构不同
 ,oe_test_dnf_enhancement_exclude,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_enhancement_exclude/2023-05-25-17_11_41.log,oerv 和 x86 的软件源结构不同
 ,oe_test_dnf_makecache_clean,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_makecache_clean/2023-05-25-16_56_12.log,oerv 和 x86 的软件源结构不同
@@ -39,24 +39,24 @@ dnf,oe_test_dnf_all-repos,fail,https://github.com/KotorinMinami/res_list/tree/ma
 ,oe_test_dnf_priority,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_priority/2023-05-25-17_18_28.log,oerv 和 x86 的软件源结构不同
 ,oe_test_dnf_provides_randomwait,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_provides_randomwait/2023-05-25-17_19_15.log,oerv 和 x86 的软件源结构不同
 ,oe_test_dnf_repeat-install,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_repeat-install/2023-05-25-17_23_20.log,oerv 和 x86 的软件源结构不同
-dracut,oe_test_service_dracut-shutdown,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dracut/oe_test_service_dracut-shutdown/2023-05-26-00:26:32.log,preinstall absent/systemd unit restart failure/systemd unit runtime error
+dracut,oe_test_service_dracut-shutdown,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dracut/oe_test_service_dracut-shutdown/2023-05-26-00:26:32.log,镜像没有预装待测软件包 dracut ，导致待测 dracut-shutdown.service 不存在
 fcoe-utils,oe_test_service_fcoe,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fcoe-utils/oe_test_service_fcoe/2023-05-26-14:16:43.log,Job for fcoe.service failed because the control process exited with error code.
-freeradius,oe_test_freeradius_freeradius-utils_rad_counter,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_rad_counter/2023-05-26-17:57:11.log,
-,oe_test_freeradius_freeradius-utils_radclient,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient/2023-05-26-17:33:18.log,
-,oe_test_freeradius_freeradius-utils_radclient2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient2/2023-05-26-17:47:10.log,
-,oe_test_freeradius_freeradius-utils_radeapclient,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radeapclient/2023-05-26-18:08:32.log,timeout
-,oe_test_freeradius_freeradius-utils_radwho,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radwho/2023-05-26-18:57:24.log,file missing
-,oe_test_freeradius_freeradius-utils_radzap,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radzap/2023-05-26-18:58:31.log,file missing
-,oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt/2023-05-26-19:00:20.log,file missing
-,oe_test_freeradius_freeradius_raddebugAndCheckrad,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_raddebugAndCheckrad/2023-05-26-17:00:58.log,
-,oe_test_freeradius_freeradius_radiusd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_radiusd/2023-05-26-17:19:22.log,
-,oe_test_freeradius_freeradius_radiusdAndRadmin,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_radiusdAndRadmin/2023-05-26-17:25:19.log,
-,oe_test_service_radiusd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_service_radiusd/2023-05-26-19:01:19.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+freeradius,oe_test_freeradius_freeradius-utils_rad_counter,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_rad_counter/2023-05-26-17:57:11.log,None
+,oe_test_freeradius_freeradius-utils_radclient,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient/2023-05-26-17:33:18.log,None
+,oe_test_freeradius_freeradius-utils_radclient2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient2/2023-05-31-05:56:50.log,radiusd.service 启动出错
+,oe_test_freeradius_freeradius-utils_radeapclient,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radeapclient/2023-05-31-06:13:24.log,radiusd.service 启动出错
+,oe_test_freeradius_freeradius-utils_radwho,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radwho/2023-07-14-17_24_38.log,手动重测通过
+,oe_test_freeradius_freeradius-utils_radzap,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radzap/2023-05-31-07:38:14.log,radiusd.service 启动出错
+,oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt/2023-05-31-07:40:22.log,radiusd.service 启动出错
+,oe_test_freeradius_freeradius_raddebugAndCheckrad,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_raddebugAndCheckrad/2023-05-31-04:52:15.log,radiusd.service 启动出错
+,oe_test_freeradius_freeradius_radiusd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_radiusd/2023-05-31-05:22:38.log,配置文件 /etc/raddb 不存在
+,oe_test_freeradius_freeradius_radiusdAndRadmin,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_radiusdAndRadmin/2023-05-31-05:24:38.log,radiusd.service 启动出错
+,oe_test_service_radiusd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_service_radiusd/2023-05-31-07:41:40.log,radiusd.service 启动出错
 gdm,oe_test_service_gdm,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/gdm/oe_test_service_gdm/2023-05-26-20:01:27.log,下载超时
 glib2,oe_test_glib2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/glib2/oe_test_glib2/2023-05-25-16_48_06.log,镜像没有预装测试所需的 kernel-headers
-graphviz,oe_test_service_zvbid,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/graphviz/oe_test_service_zvbid/2023-05-26-22:11:36.log,
-initscripts,oe_test_service_import-state,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_import-state/2023-05-27-01:00:01.log,preinstall absent/systemd unit restart failure/systemd unit runtime error
-,oe_test_service_loadmodules,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_loadmodules/2023-05-27-01:01:03.log,preinstall absent/systemd unit restart failure/systemd unit runtime error
+graphviz,oe_test_graphviz,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/graphviz/oe_test_graphviz/2023-07-14-17_40_17.log,None
+initscripts,oe_test_service_import-state,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_import-state/2023-05-27-01:00:01.log,镜像没有预装测试所需的 initscripts 软件包，导致待测 import-state.service 不存在
+,oe_test_service_loadmodules,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_loadmodules/2023-05-27-01:01:03.log,镜像没有预装测试所需的 initscripts 软件包，导致待测 loadmodules.service 不存在
 kernel,oe_test_hqlogic,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_hqlogic/2023-05-25-17_09_19.log,内核模块缺失 qla2xxx
 ,oe_test_ipip,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_ipip/2023-05-25-17_07_08.log,内核模块缺失 ipip
 ,oe_test_kernel_cmd_01,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_kernel_cmd_01/2023-05-25-17_00_23.log,测试使用 hostnamectl | grep Virtualization 判断是否为虚拟机，而 qemu-system-riscv64 不适用这个方法
@@ -70,7 +70,7 @@ kernel,oe_test_hqlogic,fail,https://github.com/KotorinMinami/res_list/tree/maste
 ,oe_test_xfs,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_xfs/2023-05-25-17_13_30.log,内核模块缺失 xfs
 kmod,oe_test_rmmod,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_rmmod/2023-05-25-17_05_55.log,内核模块缺失 dm_log dm_mirror dm_region_hash
 ,oe_test_weak-modules,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_weak-modules/2023-05-25-17_06_19.log,镜像没有预装测试所需的 dracut （引入后 Unable to decompress /boot/initramfs-6.1.8-3.oe2303.riscv64.img: Unknown format）
-libarchive,oe_test_libarchive_bsdcpio,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/libarchive/oe_test_libarchive_bsdcpio/2023-06-02-09_35_39.log,
+libarchive,oe_test_libarchive_bsdcpio,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/libarchive/oe_test_libarchive_bsdcpio/2023-06-02-09_35_39.log,None
 lvm2,oe_test_service_lvmlockd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvmlockd/2023-05-25-17_30_48.log,oerv 缺失软件包 lvm2-locked
 ,oe_test_service_lvmlocks,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvmlocks/2023-05-25-17_32_35.log,oerv 缺失软件包 lvm2-locked
 systemd,oe_test_socket_syslog,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/systemd/oe_test_socket_syslog/2023-05-25-21_41_08.log,镜像没有预装测试所需的 rsyslog
@@ -132,30 +132,30 @@ samba,oe_test_service_nmb,fail,https://github.com/KotorinMinami/res_list/tree/ma
 sanlock,oe_test_sanlock_wdmd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/sanlock/oe_test_sanlock_wdmd/2023-04-27-02:26:40.log,Module softdog not found
 security-tool,oe_test_security_tool,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/security-tool/oe_test_security_tool/2023-04-27-02:40:49.log,镜像没有预装待测软件包 security-tool
 ,oe_test_service_openEuler-security,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/security-tool/oe_test_service_openEuler-security/2023-04-27-02:42:59.log,镜像没有预装待测软件包 security-tool
-smoke-basic-os,oe_test_CPUinfo_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_CPUinfo_001/2023-05-26-00:21:53.log,file missing/timeout
-,oe_test_bbr_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bbr_02/2023-04-29-09:54:28.log,preinstall absent
-,oe_test_bbr_04,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bbr_04/2023-04-29-09:54:45.log,kernel module absent
-,oe_test_bonding_SCEN_05,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bonding_SCEN_05/2023-04-29-09:55:05.log,preinstall absent kernel module absent
-,oe_test_criu,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_criu/2023-04-29-05:34:06.log,file missing
-,oe_test_gcc_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_gcc_001/2023-05-26-00:01:54.log,file missing
+smoke-basic-os,oe_test_CPUinfo_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_CPUinfo_001/2023-05-26-00:21:53.log,lscpu 输出不符合预期
+,oe_test_bbr_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bbr_02/2023-04-29-09:54:28.log,/proc/sys/net/ipv4/tcp_congestion_control 无法写入
+,oe_test_bbr_04,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bbr_04/2023-04-29-09:54:45.log,内核模块缺失 sch_fq
+,oe_test_bonding_SCEN_05,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_bonding_SCEN_05/2023-04-29-09:55:05.log,内核模块缺失 bonding
+,oe_test_criu,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_criu/2023-04-29-05:34:06.log,待测软件包 criu 不存在
+,oe_test_gcc_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_gcc_001/2023-05-26-00:01:54.log,ldd 静态链接的二进制返回 not a dynamic executable
 ,oe_test_ip_rule_01,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_ip_rule_01/2023-04-29-07:32:00.log,CONFIG_IP_MULTIPLE_TABLES is not set
 ,oe_test_ip_rule_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_ip_rule_02/2023-04-29-07:32:16.log,CONFIG_IP_MULTIPLE_TABLES is not set
 ,oe_test_iscsi,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_iscsi/2023-04-29-05:46:14.log,CONFIG_CONFIGFS_FS is not set
 ,oe_test_iscsid,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_iscsid/2023-04-29-07:40:15.log,can not create NETLINK_ISCSI socket [Protocol not supported]可能为内核问题
-,oe_test_libcgroup_04,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_libcgroup_04/2023-04-29-07:49:01.log,
-,oe_test_ncurses,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_ncurses/2023-06-28-02:06:03.log,
+,oe_test_libcgroup_04,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_libcgroup_04/2023-07-14-18_18_26.log,手动重测通过
+,oe_test_ncurses,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_ncurses/2023-06-28-02:06:03.log,None
 ,oe_test_numactl,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_numactl/2023-04-29-05:58:41.log,CONFIG_NUMA is not set
-,oe_test_perf,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_perf/2023-04-29-06:01:18.log,timeout
-,oe_test_pwd_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_pwd_001/2023-04-29-06:02:28.log,preinstall absent
+,oe_test_perf,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_perf/2023-06-25-18_19_00.log,测试出错 cycles: PMU Hardware doesn't support sampling/overflow-interrupts. Try 'perf stat'
+,oe_test_pwd_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_pwd_001/2023-04-29-06:02:28.log,测试使用的 /etc/kernel 目录不存在
 ,oe_test_rollback,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_rollback/2023-04-29-06:26:56.log,mugen 测试代码并没有考虑到git软件包已安装时的情况
 ,oe_test_rule_ipv6,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_rule_ipv6/2023-04-29-08:40:20.log,CONFIG_IP_MULTIPLE_TABLES is not set
-,oe_test_service,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_service/2023-04-29-08:40:36.log,preinstall absent
+,oe_test_service,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_service/2023-07-14-18_22_21.log,手动重测通过
 ,oe_test_skopeo,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_skopeo/2023-04-29-06:04:38.log,choosing image instance: no image found in manifest list for architecture riscv64
-,oe_test_syslog_logrotate_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_syslog_logrotate_001/2023-05-26-00:15:50.log,preinstall absent
-,oe_test_user_debug_iotop_03,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_user_debug_iotop_03/2023-04-29-10:09:55.log,file missing
+,oe_test_syslog_logrotate_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_syslog_logrotate_001/2023-05-26-00:15:50.log,/var/log/messages 目录不存在
+,oe_test_user_debug_iotop_03,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_user_debug_iotop_03/2023-04-29-10:09:55.log,"iotop 运行失败 Could not run iotop as some of the requirements are not met: Linux >= 2.6.20 with I/O accounting support (CONFIG_TASKSTATS, CONFIG_TASK_DELAY_ACCT, CONFIG_TASK_IO_ACCOUNTING)"
 ,oe_test_yumgroup_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_yumgroup_001/2023-04-29-06:23:17.log,oe-rv目前软件仓内并没有划分软件包组
-,oe_test_MEMinfo_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_MEMinfo_001/2023-05-26-00:16:17.log,file missing
-,oe_test_perf_top_01,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_perf_top_01/2023-05-26-00:17:11.log,file missing
+,oe_test_MEMinfo_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_MEMinfo_001/2023-05-26-00:16:17.log,测试套问题，预期的 lshw 输出不适合 rv 架构
+,oe_test_perf_top_01,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_perf_top_01/2023-05-26-00:17:11.log,测试出错 cycles: PMU Hardware doesn't support sampling/overflow-interrupts. Try 'perf stat'
 strongswan,oe_test_service_strongswan_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/strongswan/oe_test_service_strongswan_02/2023-04-27-03:34:49.log,pre_test时podman出现堆栈错误导致后续软件运行错误
 ,oe_test_service_swanctl_01,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/strongswan/oe_test_service_swanctl_01/2023-04-27-03:52:50.log,pre_test时podman出现堆栈错误导致后续软件运行错误
 ,oe_test_service_swanctl_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/strongswan/oe_test_service_swanctl_02/2023-04-27-04:00:56.log,pre_test时podman出现堆栈错误导致后续软件运行错误
