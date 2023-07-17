@@ -10,6 +10,7 @@ baseOsTestedCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS_t
 filteredLogCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS.csv"
 filteredLogCsvN = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/not_baseOS.csv"
 filteredFailLogCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS_fail.csv"
+filteredX86FailLogCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS_x86_fail.csv"
 
 splitter = ","  # csv splitter
 baseOSList = []  # baseOS package name list
@@ -47,12 +48,14 @@ with open(logCsv, "r", encoding="utf-8") as logFile:
     title = logFile.readline()  # read title
     with open(filteredLogCsv, "w", encoding="utf-8") as outFile, \
             open(filteredLogCsvN, "w", encoding="utf-8") as dropFile, \
-            open(filteredFailLogCsv, "w", encoding="utf-8") as failFile:
+            open(filteredFailLogCsv, "w", encoding="utf-8") as failFile, \
+            open(filteredX86FailLogCsv, "w", encoding="utf-8") as x86FailFile:
         outFile.write(title)
         dropFile.write(title)
 
         suiteName = ""
         firstFail = True
+        firstX86Fail = True
         while True:
             line = logFile.readline()
             if line == "":
@@ -72,6 +75,7 @@ with open(logCsv, "r", encoding="utf-8") as logFile:
             if lineSplit[0].strip() != "":
                 suiteName = lineSplit[0].strip()  # use new pkg name
                 firstFail = True
+                firstX86Fail = True
 
             # baseOS
             if suiteName in baseOSList:
@@ -86,6 +90,14 @@ with open(logCsv, "r", encoding="utf-8") as logFile:
                         failFile.write(suiteName + splitter + lineSplit[1])
                     else:
                         failFile.write(splitter + lineSplit[1])
+
+                # x86 fail only
+                if lineSplit[1].split(splitter)[1].strip() == "x86 fail":
+                    if firstX86Fail:
+                        firstX86Fail = False
+                        x86FailFile.write(suiteName + splitter + lineSplit[1])
+                    else:
+                        x86FailFile.write(splitter + lineSplit[1])
             elif suiteName in suite2pkg and suite2pkg[suiteName] in baseOSList:
                 outFile.write(outline)
                 if suiteName not in baseOSTested[suite2pkg[suiteName]]:
@@ -98,6 +110,14 @@ with open(logCsv, "r", encoding="utf-8") as logFile:
                         failFile.write(suiteName + splitter + lineSplit[1])
                     else:
                         failFile.write(splitter + lineSplit[1])
+
+                # x86 fail only
+                if lineSplit[1].split(splitter)[1].strip() == "x86 fail":
+                    if firstX86Fail:
+                        firstX86Fail = False
+                        x86FailFile.write(suiteName + splitter + lineSplit[1])
+                    else:
+                        x86FailFile.write(splitter + lineSplit[1])
             else:
                 dropFile.write(outline)
 
