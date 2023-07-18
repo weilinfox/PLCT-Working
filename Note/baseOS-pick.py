@@ -2,7 +2,7 @@
 
 # baseOsCsv = "/home/hachi/Desktop/Work/PLCT-Working/Note/OERV-软件包分级-baseOS.csv"
 baseOsTxt = "/home/hachi/Desktop/Work/PLCT-Working/Note/oe.txt"
-logCsv = "/home/hachi/Desktop/Work/mugen/res_list/Pagerd_failureCause.csv"
+logCsv = "/home/hachi/Desktop/Work/mugen/res_list/failureCause.csv"
 
 baseOsTestedCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS_tested.csv"
 # baseOsUntestedCsv = "/home/hachi/Desktop/Work/PLCT-Working/Done/Week8/csv/baseOS_untested.csv"

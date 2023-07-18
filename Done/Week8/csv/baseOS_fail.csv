@@ -41,11 +41,8 @@ dnf,oe_test_dnf_all-repos,fail,https://github.com/KotorinMinami/res_list/tree/ma
 ,oe_test_dnf_repeat-install,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_repeat-install/2023-05-25-17_23_20.log,oerv 和 x86 的软件源结构不同
 dracut,oe_test_service_dracut-shutdown,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dracut/oe_test_service_dracut-shutdown/2023-05-26-00:26:32.log,镜像没有预装待测软件包 dracut ，导致待测 dracut-shutdown.service 不存在
 fcoe-utils,oe_test_service_fcoe,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fcoe-utils/oe_test_service_fcoe/2023-05-26-14:16:43.log,Job for fcoe.service failed because the control process exited with error code.
-freeradius,oe_test_freeradius_freeradius-utils_rad_counter,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_rad_counter/2023-05-26-17:57:11.log,None
-,oe_test_freeradius_freeradius-utils_radclient,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient/2023-05-26-17:33:18.log,None
-,oe_test_freeradius_freeradius-utils_radclient2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient2/2023-05-31-05:56:50.log,radiusd.service 启动出错
+freeradius,oe_test_freeradius_freeradius-utils_radclient2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient2/2023-05-31-05:56:50.log,radiusd.service 启动出错
 ,oe_test_freeradius_freeradius-utils_radeapclient,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radeapclient/2023-05-31-06:13:24.log,radiusd.service 启动出错
-,oe_test_freeradius_freeradius-utils_radwho,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radwho/2023-07-14-17_24_38.log,手动重测通过
 ,oe_test_freeradius_freeradius-utils_radzap,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radzap/2023-05-31-07:38:14.log,radiusd.service 启动出错
 ,oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt/2023-05-31-07:40:22.log,radiusd.service 启动出错
 ,oe_test_freeradius_freeradius_raddebugAndCheckrad,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_raddebugAndCheckrad/2023-05-31-04:52:15.log,radiusd.service 启动出错
@@ -54,7 +51,6 @@ freeradius,oe_test_freeradius_freeradius-utils_rad_counter,success,https://githu
 ,oe_test_service_radiusd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_service_radiusd/2023-05-31-07:41:40.log,radiusd.service 启动出错
 gdm,oe_test_service_gdm,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/gdm/oe_test_service_gdm/2023-05-26-20:01:27.log,下载超时
 glib2,oe_test_glib2,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/glib2/oe_test_glib2/2023-05-25-16_48_06.log,镜像没有预装测试所需的 kernel-headers
-graphviz,oe_test_graphviz,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/graphviz/oe_test_graphviz/2023-07-14-17_40_17.log,None
 initscripts,oe_test_service_import-state,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_import-state/2023-05-27-01:00:01.log,镜像没有预装测试所需的 initscripts 软件包，导致待测 import-state.service 不存在
 ,oe_test_service_loadmodules,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_loadmodules/2023-05-27-01:01:03.log,镜像没有预装测试所需的 initscripts 软件包，导致待测 loadmodules.service 不存在
 kernel,oe_test_hqlogic,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_hqlogic/2023-05-25-17_09_19.log,内核模块缺失 qla2xxx
@@ -70,7 +66,6 @@ kernel,oe_test_hqlogic,fail,https://github.com/KotorinMinami/res_list/tree/maste
 ,oe_test_xfs,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_xfs/2023-05-25-17_13_30.log,内核模块缺失 xfs
 kmod,oe_test_rmmod,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_rmmod/2023-05-25-17_05_55.log,内核模块缺失 dm_log dm_mirror dm_region_hash
 ,oe_test_weak-modules,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_weak-modules/2023-05-25-17_06_19.log,镜像没有预装测试所需的 dracut （引入后 Unable to decompress /boot/initramfs-6.1.8-3.oe2303.riscv64.img: Unknown format）
-libarchive,oe_test_libarchive_bsdcpio,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/libarchive/oe_test_libarchive_bsdcpio/2023-06-02-09_35_39.log,None
 lvm2,oe_test_service_lvmlockd,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvmlockd/2023-05-25-17_30_48.log,oerv 缺失软件包 lvm2-locked
 ,oe_test_service_lvmlocks,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvmlocks/2023-05-25-17_32_35.log,oerv 缺失软件包 lvm2-locked
 systemd,oe_test_socket_syslog,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/systemd/oe_test_socket_syslog/2023-05-25-21_41_08.log,镜像没有预装测试所需的 rsyslog
@@ -142,14 +137,11 @@ smoke-basic-os,oe_test_CPUinfo_001,fail,https://github.com/KotorinMinami/res_lis
 ,oe_test_ip_rule_02,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_ip_rule_02/2023-04-29-07:32:16.log,CONFIG_IP_MULTIPLE_TABLES is not set
 ,oe_test_iscsi,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_iscsi/2023-04-29-05:46:14.log,CONFIG_CONFIGFS_FS is not set
 ,oe_test_iscsid,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_iscsid/2023-04-29-07:40:15.log,can not create NETLINK_ISCSI socket [Protocol not supported]可能为内核问题
-,oe_test_libcgroup_04,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_libcgroup_04/2023-07-14-18_18_26.log,手动重测通过
-,oe_test_ncurses,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_ncurses/2023-06-28-02:06:03.log,None
 ,oe_test_numactl,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_numactl/2023-04-29-05:58:41.log,CONFIG_NUMA is not set
 ,oe_test_perf,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_perf/2023-06-25-18_19_00.log,测试出错 cycles: PMU Hardware doesn't support sampling/overflow-interrupts. Try 'perf stat'
 ,oe_test_pwd_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_pwd_001/2023-04-29-06:02:28.log,测试使用的 /etc/kernel 目录不存在
 ,oe_test_rollback,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_rollback/2023-04-29-06:26:56.log,mugen 测试代码并没有考虑到git软件包已安装时的情况
 ,oe_test_rule_ipv6,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_rule_ipv6/2023-04-29-08:40:20.log,CONFIG_IP_MULTIPLE_TABLES is not set
-,oe_test_service,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_service/2023-07-14-18_22_21.log,手动重测通过
 ,oe_test_skopeo,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_skopeo/2023-04-29-06:04:38.log,choosing image instance: no image found in manifest list for architecture riscv64
 ,oe_test_syslog_logrotate_001,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_syslog_logrotate_001/2023-05-26-00:15:50.log,/var/log/messages 目录不存在
 ,oe_test_user_debug_iotop_03,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/smoke-basic-os/oe_test_user_debug_iotop_03/2023-04-29-10:09:55.log,"iotop 运行失败 Could not run iotop as some of the requirements are not met: Linux >= 2.6.20 with I/O accounting support (CONFIG_TASKSTATS, CONFIG_TASK_DELAY_ACCT, CONFIG_TASK_IO_ACCOUNTING)"
@@ -166,8 +158,8 @@ FS_File,oe_test_FSIO_modify_file,fail,https://github.com/KotorinMinami/res_list/
 ,oe_test_FSIO_filefrag,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_filefrag/2023-06-23-02:13:11.log,preinstall absent
 ,oe_test_FSIO_act_file_lack_inode,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_act_file_lack_inode/2023-06-23-01:37:53.log,preinstall absent
 ,oe_test_FSIO_create_hardlink_fail,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/FS_File/oe_test_FSIO_create_hardlink_fail/2023-06-23-02:08:47.log,preinstall absent
-amanda,oe_test_amanda_amcheck,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/amanda/oe_test_amanda_amcheck/2023-06-16-03:44:44.log,依赖 gettext 命令但是没有安装， /usr/lib64/amanda/amanda-sh-lib.sh: line 40: /usr/bin/gettext: No such file or directory
-openssh,oe_test_openssh_cipher,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_cipher/2023-06-16-04:10:21.log,使用 aes256-ctr 进行 ssh 连接出现异常
+amanda,oe_test_amanda_amcheck,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/amanda/oe_test_amanda_amcheck/2023-06-16-03:44:44.log,
+openssh,oe_test_openssh_cipher,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_cipher/2023-06-16-04:10:21.log,
 ,oe_test_openssh_locked,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_locked/2023-06-16-04:11:55.log,preinstall absent/timeout
 ,oe_test_openssh_no_password,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_no_password/2023-06-16-04:12:57.log,preinstall absent/timeout
 ,oe_test_openssh_scp,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssh/oe_test_openssh_scp/2023-06-16-04:17:42.log,preinstall absent/timeout

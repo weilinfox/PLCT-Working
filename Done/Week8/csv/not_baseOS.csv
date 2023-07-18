@@ -1451,7 +1451,7 @@ embedded_os_basic_extra_test,oe_test_acl_setfacl,success,https://github.com/Koto
 ,oe_test_acl_ignore_dal_across,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_extra_test/oe_test_acl_ignore_dal_across/2023-06-26-03:35:45.log,缺少文件'/usr/bin/less.less'
 ,oe_test_acl_manage_net,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_extra_test/oe_test_acl_manage_net/2023-06-26-03:36:36.log,文件系统设置不正确
 ,oe_test_acl_allow_change_nochange,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_extra_test/oe_test_acl_allow_change_nochange/2023-06-26-03:33:52.log,缺少文件'/bin/chattr.e2fsprogs'
-,oe_test_acl_ordinary_users_setgid,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_extra_test/oe_test_acl_ordinary_users_setgid/2023-06-26-03:37:57.log,缺少文件'/bin/chattr.e2fsprogs' 
+,oe_test_acl_ordinary_users_setgid,fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/embedded_os_basic_extra_test/oe_test_acl_ordinary_users_setgid/2023-06-26-03:37:57.log,缺少文件'/bin/chattr.e2fsprogs'
 podman_3.4.4.2,oe_test_service_podman-restart,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/podman_3.4.4.2/oe_test_service_podman-restart/2023-06-22-05:57:22.log,None
 ,oe_test_podman_3.4.4.2_10,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_10/2023-06-22-06:23:16.log,x86 fail
 ,oe_test_podman_3.4.4.2_08,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/podman_3.4.4.2/oe_test_podman_3.4.4.2_08/2023-06-22-06:28:33.log,x86 fail
