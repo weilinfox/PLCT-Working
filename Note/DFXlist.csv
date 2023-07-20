@@ -1,0 +1,55 @@
+﻿分组,需求,开发主体,测试主体,需求说明,安装文档,使用文档,测试分层策略,上游版本,软件包状态,测试用例,说明,Issue
+硬件适配与系统镜像,支持RISC-V开发板D1核心,sig-RISC-V,sig-RISC-V,RISCV架构对硬件开发板D1的支持,,,,,,,,
+硬件适配与系统镜像,支持RISC-V开发板LicheeRV,sig-RISC-V,sig-RISC-V,RISCV架构对硬件开发板LicheeRV的支持,,,,,,,,
+硬件适配与系统镜像,支持RISC-V开发板Unmatched,sig-RISC-V,sig-RISC-V,RISCV架构对硬件开发板Unmatched的支持,,,,,,,,
+硬件适配与系统镜像,支持RISC-V开发板Visionfive 1,sig-RISC-V,sig-RISC-V,RISCV架构对硬件开发板Visionfive 1的支持,,,,,,,,
+硬件适配与系统镜像,支持RISC-V开发板Visionfive 2,sig-RISC-V,sig-RISC-V,RISCV架构对硬件开发板Visionfive 2的支持,,,,,,,,
+硬件适配与系统镜像,RISC-V支持qemu镜像发布,sig-RISC-V,sig-RISC-V,RISCV架构提供qemu系统镜像,,,,,,,,
+桌面,支持UKUI桌面,sig-UKUI,sig-UKUI,"UKUI是麒麟软件团队历经多年打造的一款Linux 桌面，主要基于 GTK 和 QT开发。与其它UI界面相比，UKUI更加注重易用性和敏捷度，各元件相依性小，可以不依赖其它套件而独自运行，给用户带来亲切和高效的使用体验。
+官网：https://www.ukui.org/index.php?lang=cn",,https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/desktop/ukui.html,验证UKUI桌面系统在openEuler版本上的可安装和基本功能,20.03 SP1，20.03 SP2，20.03 SP3，21.03，21.09，22.03，22.03 SP1，22.09，23.03,obs中相关的软件包是succeeded状态,,,
+桌面,支持DDE桌面,sig-DDE,sig-DDE,"DDE是统信软件团队研发的一款功能强大的桌面环境。包含数十款功能强大的桌面应用，是真正意义上的自主自研桌面产品。
+官网：https://www.deepin.org/zh/dde/",,https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/desktop/dde.html,验证DDE在openEuler版本上的功能及其他性能指标,20.03 SP1，20.03 SP2，20.03 SP3，21.03，21.09，22.03，22.03 SP1，22.09，23.03,obs中相关的软件包是succeeded状态,,,
+桌面,新增备份还原功能支持,sig-Migration,sig-Migration,,,,"验证dde桌面支持能力,基础组件、预装应用核心功能、新增特性基础功能以及基本UI功能正常",22.03 SP1，23.03,,,,
+桌面,支持XFCE桌面（支持xfce 4.14桌面）,sig-xfce,sig-xfce,"XFCE是一款轻量级 Linux 桌面，当前版本已经将所有部件从 GTK2 更新到 GTK3，从D-Dbus Glib更新到GDBus，大部分组件支持Object Introspection（简称 GI，用于产生与解析 C 程序库 API 元信息，以便于动态语言（或托管语言）绑定基于 C + GObject 的程序库）。优化用户体验，加入新特性，并修补大量BUG。与其它UI界面（GNOME、KDE）相比，XFCE占用的内存和CPU使用量非常小，给用户带来亲切和高效的使用体验。
+官网：https://xfce.org/?lang=zh_CN",,https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/desktop/xfce.html,验证xfce在openEuler版本上的可安装、基本功能和稳定性,20.03 SP2，20.03 SP3，20.03 SP3，21.03，21.09，22.03，22.03 SP1，22.09，23.03,obs中相关的软件包是succeeded状态,,,
+桌面,支持Kiran桌面,sig-KIRAN-DESKTOP,sig-KIRAN-DESKTOP,"kiran桌面是湖南麒麟信安团队以用户和市场需求为导向，研发的一个安全、稳定、高效、易用的桌面环境，主要包括了桌面、任务栏、托盘、控制中心和窗口管理等组件
+源码：https://gitee.com/kylinsecos",,https://docs.openeuler.org/zh/docs/20.03_LTS_SP3/docs/desktop/kiran.html,验证kiran桌面在openEuler版本上的可安装卸载和基本功能,20.03 SP3，22.03，22.03 SP1，22.09，23.03,obs中相关的软件包是succeeded状态,,,
+桌面,支持GNOME（支持GNOME-3.38）,sig-gnome,sig-gnome,"GNOME是运行在类Unix操作系统中最常用桌面环境。是一个功能完善、操作简单，界面友好，集使用和开发为一身的桌面环境，是GNU计划的正式桌面。
+从用户的角度看，GNOME是一个集成桌面环境和应用程序的套件。从开发者的角度看，它是一个应用程序开发框架(由数目众多的实用函数库组成)。即使用户不运行GNOME桌面环境，用GNOME编写的应用程序也可以正常运行。
+GNOME既包含文件管理器，应用商店，文本编辑器等基础软件，也包含系统采样分析，系统日志，软件工程IDE，web浏览器，简洁虚拟机监视器，开发者文档浏览器等高级应用和工具。
+官网：https://www.gnome.org/",,https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/desktop/gnome.html,验证gnome桌面系统在openEuler版本上的可安装和基本功能,22.03，22.03 SP1，22.09，23.03,obs中相关的软件包是succeeded状态,,,
+桌面,支持Cinnamon桌面,sig-cinnamon,sig-cinnamon,"Cinnamon是类Unix系统下的一个桌面环境。最初是GNOME Shell的一个派生版本，由Linux Mint开发，提供了相似于GNOME 2，易于使用的传统用户界面，从Cinnamon 2.0开始，成为独立的桌面环境。
+官网：https://projects.linuxmint.com/cinnamon/",,,验证Cinnamon桌面系统在openEuler版本上的可安装和基本功能,22.03 SP1，22.09，23.03,obs中相关的软件包是succeeded状态,,,
+k8s相关,支持Kubernetes,sig-cloudnative,sig-cloudnative,"Kubernetes 是一个可移植、可扩展的开源平台，用于管理容器化的工作负载和服务，可促进声明式配置和自动化。
+官网：https://kubernetes.io/",,https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/Kubernetes/Kubernetes.html,验证Kubernetes软件的安装和基本功能，重点关注服务的可靠性和性能等指标，集成 kubernetes及最简部署的依赖组件,20.03 SP2，21.03，22.03 SP1，23.03,"obs中相关的软件包
+kubernetes，etcd，docker，conntrack-tools，socat 是succeeded状态",,,
+k8s相关,支持kubeOS（新增容器OS支持）,sig-CloudNative,sig-QA,"openEuler容器OS升级工具
+源码和介绍：https://gitee.com/openeuler/KubeOS",,https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/KubeOS/overview.html,验证kubeOS提供的镜像制作工具和制作出来镜像在K8S集群场景下的双区升级的能力；可靠性需关注在分区信息异常及升级过程中故障异常场景下的恢复能力；另外关注连续反复的双区交替升级,20.03 SP3，21.09，22.03，22.03 SP1，22.09,"obs中相关的软件包
+kubeOS，docker，parted，dosfstools，qemu-img，tar，bc是succeeded状态",,,
+k8s相关,支持KubeSphere,sig-KubeSphere,sig-KubeSphere,"KubeSphere 是在 Kubernetes 之上构建的面向云原生应用的分布式操作系统，完全开源，支持多云与多集群管理，提供全栈的 IT 自动化运维能力，简化企业的 DevOps 工作流。它的架构可以非常方便地使第三方应用与云原生生态组件进行即插即用（plug-and-play）的集成。
+官网：https://kubesphere.io/zh/",,"https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/desktop/kubesphere.html
+https://v3-1.docs.kubesphere.io/zh/docs/installing-on-linux/introduction/multioverview/",验证kubeSphere的安装部署和针对容器应用的基本自动化运维能力,21.09，22.03，22.03 SP1，22.09，23.03,obs中kubekey是succeeded状态,,,
+k8s相关,支持k3s,sig-K8sDistro,sig-K8sDistro,"K3s 是一个轻量级的 Kubernetes 发行版，它针对边缘计算、物联网等场景进行了高度优化
+官网：https://k3s.io/
+中文文档：https://docs.rancher.cn/k3s/",,https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/K3s/K3s%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.html,验证k3s软件的部署测试过程,22.03 SP1,"obs中相关软件包：
+k3s，k3s-containerd，k3s-plugins，k3s-selinux是succeeded状态",,,
+内存管理,新增内存分级扩展（etmem内存分级扩展框架增强）,sig-Storage,sig-QA,"etmem内存分级扩展技术，通过DRAM+内存压缩/高性能存储新介质形成多级内存存储，对内存数据进行分级，将分级后的内存冷数据从内存介质迁移到高性能存储介质中，达到内存容量扩展的目的，从而实现内存成本下降。
+源码和介绍：https://gitee.com/openeuler/etmem",,"https://docs.openeuler.org/zh/docs/22.03_LTS_SP1/docs/Administration/memory-management.html
+https://gitee.com/src-openeuler/etmem",验证新发布模块memRouter内存策略框架的基本功能和稳定性；验证用户态页面切换技术userswap的内存迁移能力；最终从整体上验证etmen的多级内存管理基本能力、可靠性和性能指标要求，memig特性的功能,20.03 SP3，21.03，21.09，22.03，22.03 SP1，22.09,obs中etmem是succeeded状态,,,
+内核,内核（内核升级到5.10）,sig-kernel,sig-QA,,,使用开源测试套LTP/mmtest,QAsig组验证本次内核版本的基本功能、稳定性、性能等指标，采用开源测试套LTP/mmtest等进行内核基本功能的测试保障；通过开源性能测试工具对内核性能进行验证，保证性能基基本持平，波动范围小于5%以内,21.03，22.03 SP1，23.03,已支持,已经升级到6.1.0,,
+Web 服务,支持OpenResty(支持OpenResty 1.19.3.1),sig-OpenResty,sig-OpenResty,"OpenResty（也称为 ngx_openresty）是一个基于 Nginx 与 Lua 的高性能 Web 平台，其内部集成了大量精良的 Lua 库、第三方模块以及大多数的依赖项。用于方便地搭建能够处理超高并发、扩展性极高的动态 Web 应用、Web 服务和动态网关。
+官网：http://openresty.org/cn/",,http://openresty.org/cn/installation.html,验证openResty平台在openEuler版本上的可安装性和基本功能,21.09，22.03，22.03 SP1，22.09,"obs中相关软件包：
+openresty-pcre，openresty-openssl111，openresty-zlib是succeeded状态
+openresty，openresty-valgrind是非succeeded状态，没有相关rpm包
+openresty-openssl在obs中未引入",,,
+编译器,jdk,Compiler,sig-QA,,,"https://docs.openeuler.org/zh/docs/22.03_LTS/docs/ApplicationDev/%E4%BD%BF%E7%94%A8GCC%E7%BC%96%E8%AF%91.html
+https://docs.openeuler.org/zh/docs/22.03_LTS/docs/ApplicationDev/%E4%BD%BF%E7%94%A8JDK%E7%BC%96%E8%AF%91.html",基于开源测试套对jdk相关功能进行验证,22.03 SP1,obs中相关的软件包状态succeeded,,,
+编译器,bishengjdk,Compiler,sig-QA,"毕昇JDK是华为内部基于OpenJDK定制的Huawei JDK的开源版本
+openEuler官网：https://www.openeuler.org/zh/other/projects/bishengjdk/",,,基于开源测试套对bishengjdk相关功能进行验证,23.03,obs中相关软件包是succeeded状态,openjdk在修包适配阶段,,
+桌面应用,Firefox,RISC-V,RISC-V,支持Firefox浏览器,,,,,,,,
+桌面应用,Chromium,RISC-V,RISC-V,支持Chromium,,,,,,,,
+桌面应用,Thunderbird,RISC-V,RISC-V,支持Thunderbird,,,,,,,,
+桌面应用,Libreoffice,RISC-V,RISC-V,支持Libreoffice,,,,,,,,
+桌面应用,VLC,RISC-V,RISC-V,支持VLC,,,,,,,,
+桌面应用,GIMP,RISC-V,RISC-V,支持GIMP,,,,,,,,
+,,,,,,,,,,,,
