@@ -23,7 +23,7 @@
    Fri Apr 28 05:55:53 2023 - ERROR - connection to 10.198.114.4 failed.
    ```
 
-当然也有可能是测着测着 NODE2 挂掉了，我这有时会出现这种事情。
+当然也有可能是测着测着 NODE2 挂掉了，有时有遇到这种事情。
 
 ## 没有 NODE2
 
@@ -43,6 +43,10 @@
 原因未知
 
 + freeradius 中 6 个重测
+
+## 其他原因
+
++ qemu_test.py 没有 addNic 参数： 1 个重测
 
 ## qemu 参数
 
@@ -99,6 +103,8 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
    Usage:
     whereis [options] [-BMS <dir>... -f] <name>
    ```
++ [openssl/oe_test_openssl_DSA_algorithm](./cause_md/openssl/oe_test_openssl_DSA_algorithm.md) ``grep 'BEGIN DSA PRIVATE KEY'`` 失败，实际应为 ``BEGIN PRIVATE KEY`` 。同样的错误影响了 11 个测试用例
++ [openssl/oe_test_openssl_speed](./cause_md/openssl/oe_test_openssl_speed.md) ``grep "aes-128 cbc"`` 和 ``grep "sm4-cbc"`` 失败，实际应为 ``aes-128-cbc`` 和 ``SM4-CBC``
 
 ### 内核模块名称和预期不同
 
