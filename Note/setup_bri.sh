@@ -2,13 +2,15 @@
 
 bri="br0"
 tap="tap"
+ip="10.0.0.1/24"
+broadcast="10.0.0.255"
 
 if [ "$(brctl show | grep $bri)" != "" ]; then
     echo "Find bridge"
 else
     echo "Add new bridge $bri"
     sudo brctl addbr br0
-    sudo ip addr add 10.0.0.1/24 broadcast 10.0.0.255 dev $bri
+    sudo ip addr add $ip broadcast $broadcast dev $bri
     echo "Activate bridge $bri"
     sudo ip link set dev $bri up
 fi
