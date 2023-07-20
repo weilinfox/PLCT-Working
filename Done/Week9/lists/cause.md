@@ -1,5 +1,7 @@
 # 测试环境问题
 
+*需要重测*
+
 ## qemu 运行速度导致手动重测可以通过
 
 我的机器是 i7-9750H
@@ -37,16 +39,21 @@
    ```
 + firewalld 中 42 个重测
 + initscripts/oe_test_service_network
++ iperf3 中 3 个重测
++ libreswan 中 7 个重测
++ rsyslog 中 10 个 x86 重测
 
 ## 软件包安装失败
 
 原因未知
 
 + freeradius 中 6 个重测
++ java-1.8.0-openjdk 中 2 个重测
 
 ## 其他原因
 
-+ qemu_test.py 没有 addNic 参数： 1 个重测
++ **qemu_test.py 没有 addNic 参数**： 2 个重测
++ **超时**： javapackages-tools 中 3 个重测
 
 ## qemu 参数
 
@@ -105,6 +112,10 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
    ```
 + [openssl/oe_test_openssl_DSA_algorithm](./cause_md/openssl/oe_test_openssl_DSA_algorithm.md) ``grep 'BEGIN DSA PRIVATE KEY'`` 失败，实际应为 ``BEGIN PRIVATE KEY`` 。同样的错误影响了 11 个测试用例
 + [openssl/oe_test_openssl_speed](./cause_md/openssl/oe_test_openssl_speed.md) ``grep "aes-128 cbc"`` 和 ``grep "sm4-cbc"`` 失败，实际应为 ``aes-128-cbc`` 和 ``SM4-CBC``
++ [iptables/oe_test_iptables-restore_01](./cause_md/iptables/oe_test_iptables-restore_01.md) 和 [iptables/oe_test_iptables-restore](./cause_md/iptables/oe_test_iptables-restore.md) ``grep "DROP       icmp"`` 失败， ``ip6tables -nvL`` 输出没有出现该字段
++ [iptables/oe_test_ip6tables-save](./cause_md/iptables/oe_test_ip6tables-save.md) ``grep -A 200 nat | grep -A 100 mangle | grep -A 80 raw | grep -A 60 security | grep filter`` ， ``ip6tables-save`` 命令实际输出没有出现这些字段
++ [klibappstream-glibeyutils/oe_test_libappstream-glib_appstream-util_03](./cause_md/klibappstream-glibeyutils/oe_test_libappstream-glib_appstream-util_03.md) ``grep http://www.ezix.org/project/wiki/HardwareLiSter`` 失败
++ [mc/oe_test_mc_base_01](./cause_md/mc/oe_test_mc_base_01.md) ``grep 'Home路径'`` 尝试 grep 中文字串，实际输出为 ``Home directory``
 
 ### 内核模块名称和预期不同
 
@@ -125,6 +136,16 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
 + [audit/oe_test_audit_user_build_connection](./cause_md/os-basic/oe_test_audit_user_build_connection.md) 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装；依赖 kernel-headers 软件包，但是它在 riscv 没有预装
 + [ebtables/oe_test_service_ebtables](./cause_md/ebtables/oe_test_service_ebtables.md) 依赖 ebtables 软件包，但是它在 x86 和 riscv 均没有预装
 + [kernel/oe_test_swap_compress](./cause_md/kernel/oe_test_swap_compress.md) 依赖 lvm2 软件包，但是它在 x86 和 riscv 上均没有预装
++ [ipmitool/oe_test_service_bmc-snmp-proxy](./cause_md/ipmitool/oe_test_service_bmc-snmp-proxy.md) 依赖 net-snmp 和 bmc-snmp-proxy 软件包，但是它们在 x86 和 riscv 上均没有预装
++ [ipmitool/oe_test_service_exchange-bmc-os-info](./cause_md/ipmitool/oe_test_service_exchange-bmc-os-info.md) 依赖 exchange-bmc-os-info 软件包，但是它在 x86 和 riscv 上均没有预装
++ [iprutils/oe_test_service_iprdump](./cause_md/iprutils/oe_test_service_iprdump.md) 依赖 iprutils 软件包，但是它在 x86 和 riscv 上均没有预装，该问题导致测试套 4 个用例全部失败
++ [ipset/oe_test_service_ipset](./cause_md/ipset/oe_test_service_ipset.md) 依赖 ipset 软件包，但是它在 x86 和 riscv 上均没有预装，该问题导致测试套 4 个用例全部失败
++ [iptables/oe_test_service_ip6tables](./cause_md/iptables/oe_test_service_ip6tables.md) 和 [iptables/oe_test_service_iptables](./cause_md/iptables/oe_test_service_iptables.md) 依赖 iptables 软件包，但是它在 x86 和 riscv 上均没有预装
++ [irqbalance/oe_test_service_irqbalance](./cause_md/irqbalance/oe_test_service_irqbalance.md) 依赖 irqbalance 软件包，但是它在 x86 和 riscv 上均没有预装
++ [kexec-tools/oe_test_service_kdump](./cause_md/kexec-tools/oe_test_service_kdump.md) 依赖 kexec-tools 软件包，但是它在 riscv 上没有预装
++ [keyutils/oe_test_keyutils-api](./cause_md/keyutils/oe_test_keyutils-api.md) 依赖 keyutils-libs-devel 软件包，但是它在 x86 和 riscv 上均没有预装
++ [libosinfo/oe_test_osinfo-db-import](./cause_md/libosinfo/oe_test_osinfo-db-import.md) 依赖 wget 软件包，但是它在 x86 上没有预装
++ [mtx/oe_test_mtx_loaderinfo](./cause_md/mtx/oe_test_mtx_loaderinfo.md) 依赖 gcc 软件包，但是它在 x86 上没有预装；依赖 kernel-devel 软件包，但是它在 x86 和 riscv 均没有预装。该问题导致测试套 5 个测试全部失败
 
 ### 依赖的目录和文件没有预先建立
 
@@ -159,6 +180,8 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
 + [kmod/oe_test_modinfo](./cause_md/kmod/oe_test_modinfo.md) riscv 内核缺失 raid1 模块和 dm_log 模块
 + [kmod/oe_test_modprobe](./cause_md/kmod/oe_test_modprobe.md) riscv 内核缺失 dm_cache 模块、 dm_mirror 模块和 dm_log 模块
 + [lvm2/oe_test_lvm2_pvmove_001](./cause_md/lvm2/oe_test_lvm2_pvmove_001.md) riscv 内核缺失 dm_mirror 模块
++ [ipmitool/oe_test_service_ipmievd](./cause_md/ipmitool/oe_test_service_ipmievd.md) x86 缺失 ipmi_si 模块， riscv 缺失 ipmi_watchdog 、 ipmi_poweroff 、 ipmi_devintf 、 ipmi_si 和 ipmi_msghandler 模块
++ [lm_sensors/oe_test_service_fancontrol](./cause_md/lm_sensors/oe_test_service_fancontrol.md) riscv 缺失 i2c-dev 和 cpuid 模块
 
 ### mugen 问题
 
