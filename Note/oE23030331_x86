@@ -1,6 +1,8 @@
 {
     "workingDir":"/home/hachi/Desktop/Work/mugen/qemu-imgs/workingDir/",
     "kernel":"vmlinuz",
+    "initrd": "initrd.img",
+    "qemuArch": "x86_64",
     "drive":"x86.qcow2",
     "user":"root",
     "password":"openEuler12#$",
