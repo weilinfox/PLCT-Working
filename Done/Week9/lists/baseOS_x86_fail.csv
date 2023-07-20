@@ -50,20 +50,20 @@ audit,oe_test_audit_ausearch,x86 fail,https://github.com/KotorinMinami/res_list/
 ,oe_test_inject_time_fault,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/audit/oe_test_inject_time_fault/2023-05-25-22_55_53.log,测试套问题， x86 和 riscv 原因基本一致，依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
 ,oe_test_service_auditd,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/audit/oe_test_service_auditd/2023-05-25-22_57_10.log,测试套问题， x86 和 riscv 原因基本一致，依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
 ,oe_test_start_audit,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/audit/oe_test_start_audit/2023-05-25-22_58_18.log,测试套问题， x86 和 riscv 原因基本一致，依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
-chrony,oe_test_service_chrony-wait,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/chrony/oe_test_service_chrony-wait/2023-05-25-14:09:34.log,x86 fail
-cmake,oe_test_ccmake,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cmake/oe_test_ccmake/2023-05-25-15:21:43.log,x86 fail
-,oe_test_ccmake3,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cmake/oe_test_ccmake3/2023-05-25-15:25:48.log,x86 fail
-cockpit,oe_test_service_cockpit,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cockpit/oe_test_service_cockpit/2023-05-25-17:34:10.log,x86 fail
-,oe_test_socket_cockpit,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cockpit/oe_test_socket_cockpit/2023-05-25-17:36:31.log,x86 fail
-crontabs,oe_test_crontabs,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/crontabs/oe_test_crontabs/2023-05-25-16_38_51.log,x86 fail
-dbxtool,oe_test_service_dbxtool,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dbxtool/oe_test_service_dbxtool/2023-05-25-21:05:52.log,x86 fail
-dhcp,oe_test_service_dhcpd,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dhcp/oe_test_service_dhcpd/2023-05-25-21:39:19.log,x86 fail
-,oe_test_service_dhcpd6,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dhcp/oe_test_service_dhcpd6/2023-05-25-21:38:13.log,x86 fail
-dmidecode,oe_test_dmidecode,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dmidecode/oe_test_dmidecode/2023-05-25-22:30:42.log,x86 fail
-dnf,oe_test_dnf_enabled_enablerepo,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_enabled_enablerepo/2023-05-25-17_06_44.log,x86 fail
-,oe_test_dnf_list_mark,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_list_mark/2023-05-25-17_14_32.log,x86 fail
-,oe_test_dnf_reinstall_repoinfo,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_reinstall_repoinfo/2023-05-25-17_20_55.log,x86 fail
-,oe_test_dnf_repeat-upgrade-downgrade,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_repeat-upgrade-downgrade/2023-05-25-17_35_52.log,x86 fail
+chrony,oe_test_service_chrony-wait,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/chrony/oe_test_service_chrony-wait/2023-05-25-14:09:34.log,测试环境问题，手动重测通过
+cmake,oe_test_ccmake,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cmake/oe_test_ccmake/2023-05-25-15:21:43.log,x86 和 riscv 原因一致，[详细分析](./cause_md/cmake/oe_test_ccmake.md)
+,oe_test_ccmake3,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cmake/oe_test_ccmake3/2023-05-25-15:25:48.log,x86 和 riscv 原因一致，[详细分析](./cause_md/cmake/oe_test_ccmake3.md)
+cockpit,oe_test_service_cockpit,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cockpit/oe_test_service_cockpit/2023-07-19-19_08_40.log,手动重测通过
+,oe_test_socket_cockpit,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cockpit/oe_test_socket_cockpit/2023-07-19-19_16_17.log,手动重测通过
+crontabs,oe_test_crontabs,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/crontabs/oe_test_crontabs/2023-05-25-16_38_51.log,x86 和 riscv 原因一致，[详细分析](./cause_md/crontabs/oe_test_crontabs.md)
+dbxtool,oe_test_service_dbxtool,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dbxtool/oe_test_service_dbxtool/2023-05-25-21:05:52.log,x86 和 riscv 原因一致，[详细分析](./cause_md/dbxtool/oe_test_service_dbxtool.md)
+dhcp,oe_test_service_dhcpd,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dhcp/oe_test_service_dhcpd/2023-05-25-21:39:19.log,x86 和 riscv 原因不同，[详细分析](./cause_md/dhcp/oe_test_service_dhcpd.md)
+,oe_test_service_dhcpd6,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dhcp/oe_test_service_dhcpd6/2023-05-25-21:38:13.log,x86 和 riscv 原因不同，[详细分析](./cause_md/dhcp/oe_test_service_dhcpd6.md)
+dmidecode,oe_test_dmidecode,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dmidecode/oe_test_dmidecode/2023-05-25-22:30:42.log,测试套问题， x86 和 riscv 原因一致，[详细分析](./cause_md/dmidecode/oe_test_dmidecode.md)
+dnf,oe_test_dnf_enabled_enablerepo,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_enabled_enablerepo/2023-05-25-17_06_44.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/dnf/oe_test_dnf_enabled_enablerepo.md)
+,oe_test_dnf_list_mark,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_list_mark/2023-05-25-17_14_32.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/dnf/oe_test_dnf_list_mark.md)
+,oe_test_dnf_reinstall_repoinfo,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_reinstall_repoinfo/2023-05-25-17_20_55.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/dnf/oe_test_dnf_reinstall_repoinfo.md)
+,oe_test_dnf_repeat-upgrade-downgrade,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_repeat-upgrade-downgrade/2023-05-25-17_35_52.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/dnf/oe_test_dnf_repeat-upgrade-downgrade.md)
 ebtables,oe_test_service_ebtables,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ebtables/oe_test_service_ebtables/2023-05-26-02:18:40.log,x86 fail
 fftw,oe_test_fftw_fftw-wisdom-to-conf,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftw-wisdom-to-conf/2023-05-26-14:22:42.log,x86 fail
 ,oe_test_fftw_fftw-wisdom_02,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftw-wisdom_02/2023-05-26-14:26:27.log,x86 fail

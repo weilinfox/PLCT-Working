@@ -27,6 +27,9 @@
 ## 其他问题
 
 + [os-basic/oe_test_system_log_recorded](./cause_md/os-basic/oe_test_system_log_recorded.md) ``folder=$(ls /run/log/journal/)``
++ [dnf/oe_test_dnf_enabled_enablerepo](./cause_md/dnf/oe_test_dnf_enabled_enablerepo.md) 测试套编写的预期返回值不正确
++ [dnf/oe_test_dnf_list_mark](./cause_md/dnf/oe_test_dnf_list_mark.md) 测试套需要软件源中的包高于预装的包，否则将失败
++ 
 
 ## 没有考虑到 riscv
 
