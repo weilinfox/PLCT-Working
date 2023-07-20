@@ -5,16 +5,16 @@ os-basic,oe_test_auditctl,x86 fail,https://github.com/KotorinMinami/res_list/tre
 ,oe_test_nmcli_macsec,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_nmcli_macsec/2023-04-28-08:10:38.log,x86 和 riscv 原因一致，[详细分析](./cause_md/os-basic/oe_test_nmcli_macsec.md)
 ,oe_test_power_powertop2tuned_optimize,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_power_powertop2tuned_optimize/2023-04-28-07:59:24.log,x86 和 riscv 原因一致，[详细分析](./cause_md/os-basic/oe_test_power_powertop2tuned_optimize.md)
 ,oe_test_power_powertop_powerup,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_power_powertop_powerup/2023-07-19-14_56_11.log,qemu 运行速度问题，更改 SLEEP_WAIT 参数，手动重测通过
-,oe_test_reboot,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_reboot/2023-04-28-05:55:16.log,测试环境问题，手动重测通过
-,oe_test_server_mariadb_compatibilty,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_mariadb_compatibilty/2023-04-28-04:54:41.log,测试环境问题，手动重测通过
+,oe_test_reboot,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_reboot/2023-04-28-05:55:16.log,测试环境问题，需要重测
+,oe_test_server_mariadb_compatibilty,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_mariadb_compatibilty/2023-04-28-04:54:41.log,测试环境问题，需要重测
 ,oe_test_server_openssh_verifykey,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_openssh_verifykey/2023-04-28-04:29:21.log,测试套问题， x86 和 riscv 原因一致，[详细分析](./cause_md/os-basic/oe_test_server_openssh_verifykey.md)
 ,oe_test_server_squid_blacklist,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_squid_blacklist/2023-04-28-04:25:29.log,x86 和 riscv 原因一致，[详细分析](./cause_md/os-basic/oe_test_server_squid_blacklist.md)
-,oe_test_server_vsftpd_NKdelay,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_vsftpd_NKdelay/2023-04-28-04:18:57.log,测试环境问题，手动重测通过
-,oe_test_server_vsftpd_transfer,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_vsftpd_transfer/2023-04-28-04:13:38.log,测试环境问题，手动重测通过
-,oe_test_sos,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_sos/2023-04-28-05:25:07.log,qemu 运行速度问题，手动重测通过
+,oe_test_server_vsftpd_NKdelay,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_vsftpd_NKdelay/2023-04-28-04:18:57.log,测试环境问题，需要重测
+,oe_test_server_vsftpd_transfer,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_server_vsftpd_transfer/2023-04-28-04:13:38.log,测试环境问题，需要重测
+,oe_test_sos,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_sos/2023-04-28-05:25:07.log,qemu 运行速度问题，需要重测
 ,oe_test_system_log_recorded,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_system_log_recorded/2023-04-28-04:12:23.log,测试套问题， x86 和 riscv 原因基本一致 [详细分析](./cause_md/os-basic/oe_test_system_log_recorded.md)
-,oe_test_system_monitor_login,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_system_monitor_login/2023-04-28-04:11:08.log,测试环境问题，手动重测通过
-,oe_test_system_monitor_reboot,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_system_monitor_reboot/2023-04-28-03:40:46.log,测试环境问题，手动重测通过
+,oe_test_system_monitor_login,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_system_monitor_login/2023-04-28-04:11:08.log,测试环境问题，需要重测
+,oe_test_system_monitor_reboot,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_system_monitor_reboot/2023-04-28-03:40:46.log,测试环境问题，需要重测
 ,oe_test_uname,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_uname/2023-04-28-03:40:18.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/os-basic/oe_test_uname.md)
 ,oe_test_whereis,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_whereis/2023-04-28-03:29:34.log,x86 和 riscv 原因一致，[详细分析](./cause_md/os-basic/oe_test_whereis.md)
 ,oe_test_count_gperftools_function,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_count_gperftools_function/2023-04-28-10:58:54.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/os-basic/oe_test_count_gperftools_function.md)
@@ -50,7 +50,7 @@ audit,oe_test_audit_ausearch,x86 fail,https://github.com/KotorinMinami/res_list/
 ,oe_test_inject_time_fault,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/audit/oe_test_inject_time_fault/2023-05-25-22_55_53.log,测试套问题， x86 和 riscv 原因基本一致，依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
 ,oe_test_service_auditd,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/audit/oe_test_service_auditd/2023-05-25-22_57_10.log,测试套问题， x86 和 riscv 原因基本一致，依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
 ,oe_test_start_audit,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/audit/oe_test_start_audit/2023-05-25-22_58_18.log,测试套问题， x86 和 riscv 原因基本一致，依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
-chrony,oe_test_service_chrony-wait,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/chrony/oe_test_service_chrony-wait/2023-05-25-14:09:34.log,测试环境问题，手动重测通过
+chrony,oe_test_service_chrony-wait,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/chrony/oe_test_service_chrony-wait/2023-05-25-14:09:34.log,测试环境问题，需要重测
 cmake,oe_test_ccmake,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cmake/oe_test_ccmake/2023-05-25-15:21:43.log,x86 和 riscv 原因一致，[详细分析](./cause_md/cmake/oe_test_ccmake.md)
 ,oe_test_ccmake3,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cmake/oe_test_ccmake3/2023-05-25-15:25:48.log,x86 和 riscv 原因一致，[详细分析](./cause_md/cmake/oe_test_ccmake3.md)
 cockpit,oe_test_service_cockpit,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/cockpit/oe_test_service_cockpit/2023-07-19-19_08_40.log,手动重测通过
@@ -64,95 +64,95 @@ dnf,oe_test_dnf_enabled_enablerepo,x86 fail,https://github.com/KotorinMinami/res
 ,oe_test_dnf_list_mark,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_list_mark/2023-05-25-17_14_32.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/dnf/oe_test_dnf_list_mark.md)
 ,oe_test_dnf_reinstall_repoinfo,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_reinstall_repoinfo/2023-05-25-17_20_55.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/dnf/oe_test_dnf_reinstall_repoinfo.md)
 ,oe_test_dnf_repeat-upgrade-downgrade,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/dnf/oe_test_dnf_repeat-upgrade-downgrade/2023-05-25-17_35_52.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/dnf/oe_test_dnf_repeat-upgrade-downgrade.md)
-ebtables,oe_test_service_ebtables,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ebtables/oe_test_service_ebtables/2023-05-26-02:18:40.log,x86 fail
-fftw,oe_test_fftw_fftw-wisdom-to-conf,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftw-wisdom-to-conf/2023-05-26-14:22:42.log,x86 fail
-,oe_test_fftw_fftw-wisdom_02,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftw-wisdom_02/2023-05-26-14:26:27.log,x86 fail
-,oe_test_fftw_fftwf-wisdom_02,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftwf-wisdom_02/2023-05-26-14:31:51.log,x86 fail
-,oe_test_fftw_fftwl-wisdom_02,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftwl-wisdom_02/2023-05-26-14:37:36.log,x86 fail
-firewalld,oe_test_firewalld_add_newservice,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_newservice/2023-05-26-15:17:27.log,x86 fail
-,oe_test_firewalld_add_port,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_port/2023-05-26-15:21:23.log,x86 fail
-,oe_test_firewalld_add_service,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_service/2023-05-26-15:26:04.log,x86 fail
-,oe_test_firewalld_add_sourceip,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_sourceip/2023-05-26-15:28:36.log,x86 fail
-,oe_test_firewalld_add_sourceport,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_sourceport/2023-05-26-15:29:01.log,x86 fail
-,oe_test_firewalld_addport_udp,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_addport_udp/2023-05-26-15:23:54.log,x86 fail
-,oe_test_firewalld_allow_zones,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_allow_zones/2023-05-26-15:29:28.log,x86 fail
-,oe_test_firewalld_block_icmp,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_block_icmp/2023-05-26-15:32:25.log,x86 fail
-,oe_test_firewalld_change_interface,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_change_interface/2023-05-26-15:32:54.log,x86 fail
-,oe_test_firewalld_change_xml,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_change_xml/2023-05-26-15:35:18.log,x86 fail
-,oe_test_firewalld_directrule_acceptdport,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_directrule_acceptdport/2023-05-26-15:37:44.log,x86 fail
-,oe_test_firewalld_dnat,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_dnat/2023-05-26-15:40:07.log,x86 fail
-,oe_test_firewalld_dropzone_service,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_dropzone_service/2023-05-26-15:43:02.log,x86 fail
-,oe_test_firewalld_forward_nat,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_forward_nat/2023-05-26-15:45:27.log,x86 fail
-,oe_test_firewalld_getzone,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_getzone/2023-05-26-15:46:10.log,x86 fail
-,oe_test_firewalld_ip_camouflage,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_ip_camouflage/2023-05-26-15:46:36.log,x86 fail
-,oe_test_firewalld_list,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_list/2023-05-26-15:47:04.log,x86 fail
-,oe_test_firewalld_lockdown,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_lockdown/2023-05-26-15:47:31.log,x86 fail
-,oe_test_firewalld_log_denied,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_log_denied/2023-05-26-15:47:57.log,x86 fail
-,oe_test_firewalld_new_zone,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_new_zone/2023-05-26-15:50:38.log,x86 fail
-,oe_test_firewalld_panic_on,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_panic_on/2023-05-26-15:51:05.log,x86 fail
-,oe_test_firewalld_port_map,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_port_map/2023-05-26-15:51:48.log,x86 fail
-,oe_test_firewalld_protocol_tcp,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_protocol_tcp/2023-05-26-15:54:01.log,x86 fail
-,oe_test_firewalld_richrule_acceptsource,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_acceptsource/2023-05-26-15:56:16.log,x86 fail
-,oe_test_firewalld_richrule_allowippak,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_allowippak/2023-05-26-15:58:40.log,x86 fail
-,oe_test_firewalld_richrule_blacklist,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_blacklist/2023-05-26-16:01:06.log,x86 fail
-,oe_test_firewalld_richrule_dropicmppack,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_dropicmppack/2023-05-26-16:01:47.log,x86 fail
-,oe_test_firewalld_richrule_dropipv4pak,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_dropipv4pak/2023-05-26-16:02:18.log,x86 fail
-,oe_test_firewalld_richrule_forwardport,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_forwardport/2023-05-26-16:04:47.log,x86 fail
-,oe_test_firewalld_runtime_permanent,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_runtime_permanent/2023-05-26-16:07:05.log,x86 fail
-,oe_test_firewalld_set_defaultzone,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_set_defaultzone/2023-05-26-16:07:32.log,x86 fail
-,oe_test_firewalld_set_ipset,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_set_ipset/2023-05-26-16:09:56.log,x86 fail
-,oe_test_firewalld_set_target,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_set_target/2023-05-26-16:12:51.log,x86 fail
-,oe_test_firewalld_start_check,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_start_check/2023-05-26-16:13:20.log,x86 fail
-,oe_test_firewalld_start_status,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_start_status/2023-05-26-16:13:43.log,x86 fail
-,oe_test_firewalld_start_stop,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_start_stop/2023-05-26-16:14:11.log,x86 fail
-,oe_test_firewalld_whitelist_command,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_command/2023-05-26-16:15:12.log,x86 fail
-,oe_test_firewalld_whitelist_contexts,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_contexts/2023-05-26-16:15:47.log,x86 fail
-,oe_test_firewalld_whitelist_uids,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_uids/2023-05-26-16:16:12.log,x86 fail
-,oe_test_firewalld_whitelist_user,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_user/2023-05-26-16:16:41.log,x86 fail
-,oe_test_firewalld_zone_add_service,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_zone_add_service/2023-05-26-16:17:12.log,x86 fail
-,oe_test_firewalld_zone_migration,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_zone_migration/2023-05-26-16:23:08.log,x86 fail
-,oe_test_service_firewalld,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_service_firewalld/2023-05-26-16:17:37.log,x86 fail
-freeradius,oe_test_freeradius_freeradius-utils_radlast,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radlast/2023-05-26-18:11:53.log,x86 fail
-,oe_test_freeradius_freeradius-utils_radlastAndRadsniff,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radlastAndRadsniff/2023-05-26-18:16:55.log,x86 fail
-,oe_test_freeradius_freeradius-utils_radsniff,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radsniff/2023-05-26-18:22:35.log,x86 fail
-,oe_test_freeradius_freeradius-utils_radsniff2,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radsniff2/2023-05-26-18:52:49.log,x86 fail
-,oe_test_freeradius_freeradius-utils_radsqlrelay,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radsqlrelay/2023-05-26-18:53:42.log,x86 fail
-,oe_test_freeradius_freeradius-utils_radtestAndRadwho,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radtestAndRadwho/2023-05-26-18:54:43.log,x86 fail
-hostname,oe_test_service_nis-domainname,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/hostname/oe_test_service_nis-domainname/2023-05-25-16_57_06.log,x86 fail
-iSulad,oe_test_service_isulad,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/iSulad/oe_test_service_isulad/2023-05-26-23:31:47.log,x86 fail
-initscripts,oe_test_service_netconsole,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_netconsole/2023-05-27-01:03:12.log,x86 fail
-,oe_test_service_network,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_network/2023-05-27-01:02:07.log,x86 fail
-iputils,oe_test_service_ninfod,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/iputils/oe_test_service_ninfod/2023-05-25-16_57_27.log,x86 fail
-,oe_test_service_rdisc,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/iputils/oe_test_service_rdisc/2023-05-25-16_59_05.log,x86 fail
-kernel,oe_test_check_huge_task,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_check_huge_task/2023-05-25-17_11_57.log,x86 fail
-,oe_test_cifs,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_cifs/2023-05-25-17_13_05.log,x86 fail
-,oe_test_cpu_rand,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_cpu_rand/2023-05-25-17_09_52.log,x86 fail
-,oe_test_hinic,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_hinic/2023-05-25-17_08_46.log,x86 fail
-,oe_test_io_sched,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_io_sched/2023-05-25-17_07_36.log,x86 fail
-,oe_test_swap_compress,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_swap_compress/2023-05-25-17_11_12.log,x86 fail
-kmod,oe_test_depmod,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_depmod/2023-05-25-17_02_28.log,x86 fail
-,oe_test_insmod-lsmod,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_insmod-lsmod/2023-05-25-17_03_47.log,x86 fail
-,oe_test_modinfo,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_modinfo/2023-05-25-17_04_39.log,x86 fail
-,oe_test_modprobe,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_modprobe/2023-05-25-17_05_03.log,x86 fail
-lvm2,oe_test_lvm2_pvchange_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvchange_001/2023-05-25-17_50_26.log,x86 fail
-,oe_test_lvm2_pvcreate_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvcreate_001/2023-05-25-17_41_15.log,x86 fail
-,oe_test_lvm2_pvcreate_002,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvcreate_002/2023-05-25-17_38_17.log,x86 fail
-,oe_test_lvm2_pvdisplay_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvdisplay_001/2023-05-25-17_47_58.log,x86 fail
-,oe_test_lvm2_pvdisplay_002,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvdisplay_002/2023-05-25-17_44_50.log,x86 fail
-,oe_test_lvm2_pvmove_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvmove_001/2023-05-25-17_42_15.log,x86 fail
-,oe_test_lvm2_pvmove_002,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvmove_002/2023-05-25-17_49_01.log,x86 fail
-,oe_test_lvm2_pvremove_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvremove_001/2023-05-25-17_35_39.log,x86 fail
-,oe_test_lvm2_pvresize_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvresize_001/2023-05-25-17_40_21.log,x86 fail
-,oe_test_lvm2_vgchange_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgchange_001/2023-05-25-17_51_19.log,x86 fail
-,oe_test_lvm2_vgchange_002,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgchange_002/2023-05-25-17_57_25.log,x86 fail
-,oe_test_lvm2_vgcreate_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgcreate_001/2023-05-25-17_43_21.log,x86 fail
-,oe_test_lvm2_vgdisplay_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgdisplay_001/2023-05-25-17_45_56.log,x86 fail
-,oe_test_lvm2_vgexport_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgexport_001/2023-05-25-17_56_06.log,x86 fail
-,oe_test_lvm2_vgextend_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgextend_001/2023-05-25-17_54_11.log,x86 fail
-,oe_test_lvm2_vgextend_002,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgextend_002/2023-05-25-17_52_49.log,x86 fail
-,oe_test_lvm2_vgrename_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgrename_001/2023-05-25-17_46_56.log,x86 fail
-,oe_test_service_lvm2-lvmpolld,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvm2-lvmpolld/2023-05-25-17_29_04.log,x86 fail
-,oe_test_service_lvm2-monitor,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvm2-monitor/2023-05-25-17_29_55.log,x86 fail
+ebtables,oe_test_service_ebtables,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/ebtables/oe_test_service_ebtables/2023-05-26-02:18:40.log,测试套问题， x86 和 riscv 原因一致，[详细分析](./cause_md/ebtables/oe_test_service_ebtables.md)
+fftw,oe_test_fftw_fftw-wisdom-to-conf,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftw-wisdom-to-conf/2023-05-26-14:22:42.log,x86 和 riscv 原因一致，[详细分析](./cause_md/fftw/oe_test_fftw_fftw-wisdom-to-conf.md)
+,oe_test_fftw_fftw-wisdom_02,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftw-wisdom_02/2023-05-26-14:26:27.log,x86 和 riscv 原因一致，[详细分析](./cause_md/fftw/oe_test_fftw_fftw-wisdom_02.md)
+,oe_test_fftw_fftwf-wisdom_02,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftwf-wisdom_02/2023-05-26-14:31:51.log,x86 和 riscv 原因一致，[详细分析](./cause_md/fftw/oe_test_fftw_fftwf-wisdom_02.md)
+,oe_test_fftw_fftwl-wisdom_02,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/fftw/oe_test_fftw_fftwl-wisdom_02/2023-05-26-14:37:36.log,x86 和 riscv 原因一致，[详细分析](./cause_md/fftw/oe_test_fftw_fftwl-wisdom_02.md)
+firewalld,oe_test_firewalld_add_newservice,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_newservice/2023-05-26-15:17:27.log,需要重测
+,oe_test_firewalld_add_port,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_port/2023-05-26-15:21:23.log,需要重测
+,oe_test_firewalld_add_service,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_service/2023-05-26-15:26:04.log,需要重测
+,oe_test_firewalld_add_sourceip,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_sourceip/2023-05-26-15:28:36.log,需要重测
+,oe_test_firewalld_add_sourceport,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_add_sourceport/2023-05-26-15:29:01.log,需要重测
+,oe_test_firewalld_addport_udp,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_addport_udp/2023-05-26-15:23:54.log,需要重测
+,oe_test_firewalld_allow_zones,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_allow_zones/2023-05-26-15:29:28.log,需要重测
+,oe_test_firewalld_block_icmp,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_block_icmp/2023-05-26-15:32:25.log,需要重测
+,oe_test_firewalld_change_interface,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_change_interface/2023-05-26-15:32:54.log,需要重测
+,oe_test_firewalld_change_xml,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_change_xml/2023-05-26-15:35:18.log,需要重测
+,oe_test_firewalld_directrule_acceptdport,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_directrule_acceptdport/2023-05-26-15:37:44.log,需要重测
+,oe_test_firewalld_dnat,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_dnat/2023-05-26-15:40:07.log,需要重测
+,oe_test_firewalld_dropzone_service,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_dropzone_service/2023-05-26-15:43:02.log,需要重测
+,oe_test_firewalld_forward_nat,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_forward_nat/2023-05-26-15:45:27.log,需要重测
+,oe_test_firewalld_getzone,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_getzone/2023-05-26-15:46:10.log,需要重测
+,oe_test_firewalld_ip_camouflage,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_ip_camouflage/2023-05-26-15:46:36.log,需要重测
+,oe_test_firewalld_list,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_list/2023-05-26-15:47:04.log,需要重测
+,oe_test_firewalld_lockdown,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_lockdown/2023-05-26-15:47:31.log,需要重测
+,oe_test_firewalld_log_denied,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_log_denied/2023-05-26-15:47:57.log,需要重测
+,oe_test_firewalld_new_zone,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_new_zone/2023-05-26-15:50:38.log,需要重测
+,oe_test_firewalld_panic_on,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_panic_on/2023-05-26-15:51:05.log,需要重测
+,oe_test_firewalld_port_map,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_port_map/2023-05-26-15:51:48.log,需要重测
+,oe_test_firewalld_protocol_tcp,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_protocol_tcp/2023-05-26-15:54:01.log,需要重测
+,oe_test_firewalld_richrule_acceptsource,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_acceptsource/2023-05-26-15:56:16.log,需要重测
+,oe_test_firewalld_richrule_allowippak,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_allowippak/2023-05-26-15:58:40.log,需要重测
+,oe_test_firewalld_richrule_blacklist,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_blacklist/2023-05-26-16:01:06.log,需要重测
+,oe_test_firewalld_richrule_dropicmppack,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_dropicmppack/2023-05-26-16:01:47.log,需要重测
+,oe_test_firewalld_richrule_dropipv4pak,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_dropipv4pak/2023-05-26-16:02:18.log,需要重测
+,oe_test_firewalld_richrule_forwardport,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_richrule_forwardport/2023-05-26-16:04:47.log,需要重测
+,oe_test_firewalld_runtime_permanent,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_runtime_permanent/2023-05-26-16:07:05.log,需要重测
+,oe_test_firewalld_set_defaultzone,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_set_defaultzone/2023-05-26-16:07:32.log,需要重测
+,oe_test_firewalld_set_ipset,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_set_ipset/2023-05-26-16:09:56.log,需要重测
+,oe_test_firewalld_set_target,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_set_target/2023-05-26-16:12:51.log,需要重测
+,oe_test_firewalld_start_check,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_start_check/2023-05-26-16:13:20.log,需要重测
+,oe_test_firewalld_start_status,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_start_status/2023-05-26-16:13:43.log,需要重测
+,oe_test_firewalld_start_stop,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_start_stop/2023-05-26-16:14:11.log,需要重测
+,oe_test_firewalld_whitelist_command,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_command/2023-05-26-16:15:12.log,需要重测
+,oe_test_firewalld_whitelist_contexts,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_contexts/2023-05-26-16:15:47.log,需要重测
+,oe_test_firewalld_whitelist_uids,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_uids/2023-05-26-16:16:12.log,需要重测
+,oe_test_firewalld_whitelist_user,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_whitelist_user/2023-05-26-16:16:41.log,需要重测
+,oe_test_firewalld_zone_add_service,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_zone_add_service/2023-05-26-16:17:12.log,需要重测
+,oe_test_firewalld_zone_migration,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_firewalld_zone_migration/2023-05-26-16:23:08.log,需要重测
+,oe_test_service_firewalld,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/firewalld/oe_test_service_firewalld/2023-05-26-16:17:37.log,需要重测
+freeradius,oe_test_freeradius_freeradius-utils_radlast,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radlast/2023-05-26-18:11:53.log,需要重测
+,oe_test_freeradius_freeradius-utils_radlastAndRadsniff,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radlastAndRadsniff/2023-05-26-18:16:55.log,需要重测
+,oe_test_freeradius_freeradius-utils_radsniff,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radsniff/2023-05-26-18:22:35.log,需要重测
+,oe_test_freeradius_freeradius-utils_radsniff2,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radsniff2/2023-05-26-18:52:49.log,需要重测
+,oe_test_freeradius_freeradius-utils_radsqlrelay,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radsqlrelay/2023-05-26-18:53:42.log,需要重测
+,oe_test_freeradius_freeradius-utils_radtestAndRadwho,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radtestAndRadwho/2023-05-26-18:54:43.log,需要重测
+hostname,oe_test_service_nis-domainname,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/hostname/oe_test_service_nis-domainname/2023-05-25-16_57_06.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/hostname/oe_test_service_nis-domainname.md)
+iSulad,oe_test_service_isulad,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/iSulad/oe_test_service_isulad/2023-05-26-23:31:47.log,x86 和 riscv 原因一致，[详细分析](./cause_md/iSulad/oe_test_service_isulad.md)
+initscripts,oe_test_service_netconsole,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_netconsole/2023-05-27-01:03:12.log,x86 和 riscv 原因一致，[详细分析](./cause_md/initscripts/oe_test_service_netconsole.md)
+,oe_test_service_network,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/initscripts/oe_test_service_network/2023-05-27-01:02:07.log,需要重测
+iputils,oe_test_service_ninfod,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/iputils/oe_test_service_ninfod/2023-05-25-16_57_27.log,软件包缺失，x86 和 riscv 原因一致，[详细分析](./cause_md/iputils/oe_test_service_ninfod.md)
+,oe_test_service_rdisc,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/iputils/oe_test_service_rdisc/2023-05-25-16_59_05.log,软件包缺失，x86 和 riscv 原因一致，[详细分析](./cause_md/iputils/oe_test_service_rdisc.md)
+kernel,oe_test_check_huge_task,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_check_huge_task/2023-05-25-17_11_57.log,内核问题， x86 和 riscv 原因一致，[详细分析](./cause_md/kernel/oe_test_check_huge_task.md)
+,oe_test_cifs,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_cifs/2023-05-25-17_13_05.log,测试套问题、内核问题， x86 和 riscv 原因不同，[详细分析](./cause_md/kernel/oe_test_cifs.md)
+,oe_test_cpu_rand,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_cpu_rand/2023-05-25-17_09_52.log,x86 和 riscv 原因基本一致，[详细分析](./cause_md/kernel/oe_test_cpu_rand.md)
+,oe_test_hinic,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_hinic/2023-05-25-17_08_46.log,测试套问题、内核问题，x86 和 riscv 原因不同，[详细分析](./cause_md/kernel/oe_test_hinic.md)
+,oe_test_io_sched,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_io_sched/2023-05-25-17_07_36.log,测试套问题， x86 和 riscv 原因一致，[详细分析](./cause_md/kernel/oe_test_io_sched.md)
+,oe_test_swap_compress,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kernel/oe_test_swap_compress/2023-05-25-17_11_12.log,测试套问题， x86 和 riscv 原因一致，[详细分析](./cause_md/kernel/oe_test_swap_compress.md)
+kmod,oe_test_depmod,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_depmod/2023-05-25-17_02_28.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/kmod/oe_test_depmod.md)
+,oe_test_insmod-lsmod,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_insmod-lsmod/2023-05-25-17_03_47.log,测试套问题， x86 和 riscv 原因不同，[详细分析](./cause_md/kmod/oe_test_insmod-lsmod.md)
+,oe_test_modinfo,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_modinfo/2023-05-25-17_04_39.log,x86 和 riscv 原因不同，[详细分析](./cause_md/kmod/oe_test_modinfo.md)
+,oe_test_modprobe,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/kmod/oe_test_modprobe/2023-05-25-17_05_03.log,x86 和 riscv 原因不同，[详细分析](./cause_md/kmod/oe_test_modprobe.md)
+lvm2,oe_test_lvm2_pvchange_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvchange_001/2023-06-05-18_01_27.log,None
+,oe_test_lvm2_pvcreate_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvcreate_001/2023-06-05-17_54_12.log,x86 和 riscv 原因不同，[详细分析](./cause_md/lvm2/oe_test_lvm2_pvcreate_001.md)
+,oe_test_lvm2_pvcreate_002,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvcreate_002/2023-06-05-17_51_35.log,x86 和 riscv 原因不同，[详细分析](./cause_md/lvm2/oe_test_lvm2_pvcreate_002.md)
+,oe_test_lvm2_pvdisplay_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvdisplay_001/2023-06-05-17_59_25.log,None
+,oe_test_lvm2_pvdisplay_002,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvdisplay_002/2023-06-05-17_57_02.log,None
+,oe_test_lvm2_pvmove_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvmove_001/2023-06-05-17_54_59.log,x86 和 riscv 原因不同，[详细分析](./cause_md/lvm2/oe_test_lvm2_pvmove_001.md)
+,oe_test_lvm2_pvmove_002,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvmove_002/2023-06-05-18_00_10.log,x86 和 riscv 原因不同，[详细分析](./cause_md/lvm2/oe_test_lvm2_pvmove_002.md)
+,oe_test_lvm2_pvremove_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvremove_001/2023-06-05-17_49_16.log,None
+,oe_test_lvm2_pvresize_001,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_pvresize_001/2023-06-05-17_53_29.log,x86 和 riscv 原因不同，[详细分析](./cause_md/lvm2/oe_test_lvm2_pvresize_001.md)
+,oe_test_lvm2_vgchange_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgchange_001/2023-06-05-20_53_06.log,None
+,oe_test_lvm2_vgchange_002,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgchange_002/2023-06-05-18_06_24.log,None
+,oe_test_lvm2_vgcreate_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgcreate_001/2023-06-05-20_47_16.log,None
+,oe_test_lvm2_vgdisplay_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgdisplay_001/2023-06-05-17_57_50.log,None
+,oe_test_lvm2_vgexport_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgexport_001/2023-06-05-18_05_30.log,None
+,oe_test_lvm2_vgextend_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgextend_001/2023-06-05-20_54_46.log,None
+,oe_test_lvm2_vgextend_002,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgextend_002/2023-06-05-20_53_56.log,None
+,oe_test_lvm2_vgrename_001,success,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_lvm2_vgrename_001/2023-06-05-17_58_37.log,None
+,oe_test_service_lvm2-lvmpolld,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvm2-lvmpolld/2023-06-05-17_43_38.log,x86 和 riscv 原因一致，[详细分析](./cause_md/lvm2/oe_test_service_lvm2-lvmpolld.md)
+,oe_test_service_lvm2-monitor,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/lvm2/oe_test_service_lvm2-monitor/2023-06-05-17_44_20.log,x86 和 riscv 原因一致，[详细分析](./cause_md/lvm2/oe_test_service_lvm2-monitor.md)
 net-tools,oe_test_net-tools_ipmaddr,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/net-tools/oe_test_net-tools_ipmaddr/2023-05-25-17_31_35.log,x86 fail
 ,oe_test_net-tools_route,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/net-tools/oe_test_net-tools_route/2023-05-25-17_30_48.log,x86 fail
 openssl,oe_test_openssl_DSA_algorithm,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/openssl/oe_test_openssl_DSA_algorithm/2023-05-25-18_06_26.log,x86 fail

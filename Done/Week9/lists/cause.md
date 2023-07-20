@@ -1,9 +1,97 @@
-# 错误原因汇总
+# 测试环境问题
+
+## qemu 运行速度导致手动重测可以通过
+
+我的机器是 i7-9750H
+
++ os-basic/oe_test_power_powertop_powerup 需要调整测试脚本的 SLEEP_WAIT 参数
++ os-basic/oe_test_sos 调整 mugen.sh 的 TIMEOUT 变量
+
+## 网桥连通性问题
+
++ os-basic/oe_test_reboot 等
+   ```
+   + SSH_CMD ls 10.198.114.4 'openEuler12#$' root
+   + cmd=ls
+   + remoteip=10.198.114.4
+   + remotepasswd='openEuler12#$'
+   + remoteuser=root
+   + timeout=300
+   + connport=22
+   + bash /root/mugen/libs/locallibs/sshcmd.sh -c ls -i 10.198.114.4 -u root -p 'openEuler12#$' -t 300 -o 22
+   1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+   Fri Apr 28 05:55:53 2023 - ERROR - connection to 10.198.114.4 failed.
+   ```
+
+当然也有可能是测着测着 NODE2 挂掉了，我这有时会出现这种事情。
+
+## 没有 NODE2
+
+我自己测试的时候如果环境没有 NODE2 ，这些测试会被直接跳过。不知道为啥在日志中显然这些测试被运行了，但是实际上 NODE2 相关的变量都为空。
+
++ chrony/oe_test_service_chrony-wait
+   ```
+   + P_SSH_CMD --cmd 'cp /etc/chrony.conf /etc/chrony.conf_bak;sed -i '\''s/^pool/#pool/'\'' /etc/chrony.conf;sed -i '\''s/^#allow.*/allow all/'\'' /etc/chrony.conf;sed -i '\''s/^#local.*/local/'\'' /etc/chrony.conf;systemctl restart chronyd.service;systemctl stop firewalld.service' --node 2
+   + python3 /root/mugen/libs/locallibs/ssh_cmd.py --cmd 'cp /etc/chrony.conf /etc/chrony.conf_bak;sed -i '\''s/^pool/#pool/'\'' /etc/chrony.conf;sed -i '\''s/^#allow.*/allow all/'\'' /etc/chrony.conf;sed -i '\''s/^#local.*/local/'\'' /etc/chrony.conf;systemctl restart chronyd.service;systemctl stop firewalld.service' --node 2
+   Thu May 25 14:09:48 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
+   ```
++ firewalld 中 42 个重测
++ initscripts/oe_test_service_network
+
+## 软件包安装失败
+
+原因未知
+
++ freeradius 中 6 个重测
+
+## qemu 参数
+
+[kernel/oe_test_cpu_rand](./cause_md/kernel/oe_test_cpu_rand.md) 在 x86_64 架构需要 rdrand ，可以通过添加 ``-cpu qemu64,+rdrand`` 使单个测试命令得以通过
+
+## 总结
+
+测试环境问题会导致一个测试在 x86 和 riscv 上都失败，导致最后的测试结果汇总出来没有说服力。
+
+改了一个 [qemu_test.py](../../../Note/qemu_test.py) ，同时支持 riscv 和 x86_64 ，方便测试。兼容旧的 riscv 配置。 riscv 配置 [oE23030331](../../../Note/oE23030331)  ， x86_64 配置 [oE23030331_x86](../../../Note/oE23030331_x86)
+
+qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，对 x86_64 添加 ``-cpu qemu64,+rdrand`` 打开 rdrand 。
+
+↑ 顺便还修了一下上次杨栋兼容 MacOS 时少了 ``import sys`` 。
+
+# 失败原因汇总
+
+失败原因汇总在 [baseOS_x86_fail.csv](./baseOS_x86_fail.csv) 中，大部分原因引用了 [cause_md](./cause_md) 中的 markdown 文档，有详细的失败原因说明；极少部分由于失败原因和前面的测试用例高度一致，用一句话描述。
+
+在 csv 表格中可以方便地用字符串搜索对所有原因字段进行分类。根据**失败原因**分类，搜索“*测试套问题*”可以找到所有测试套有问题导致失败的用例，搜索“*软件包缺失*”可以找到所有软件包缺失导致失败的用例，搜索“*内核问题*”可以找到所有内核原因失败的用例；根据两个架构**失败原因是否一致**分类，搜索“一致”可以筛选出所有 x86 和 riscv 原因一致的测试用例，搜索“不同”可以筛选出所有 x86 和 riscv 原因不同的测试用例。有一些 x86 和 riscv 失败原因“基本一致”的用例，表示除了共性问题外还有 riscv 独有的问题，但是这些问题在 fail 用例中已经有所体现，修的时候可以不用在 x86 fail 中过度关注。
 
 ## 测试套问题
 
+## 测试套脚本问题
 
-## grep 与预期不符
++ [os-basic/oe_test_system_log_recorded](./cause_md/os-basic/oe_test_system_log_recorded.md) ``folder=$(ls /run/log/journal/)`` 若 ``ls`` 命令输出零个（riscv）或多个（x86 两个）就会出现问题，但是并没有进行处理
++ [kernel/oe_test_cifs.sh](https://gitee.com/openeuler/mugen/blob/master/testcases/cli-test/kernel/oe_test_cifs.sh) 测试脚本测试的是 cifs 模块，但是错误信息是 vport_geneve 模块；且最后一个测试也是测试的 vport_geneve 模块，和测试套目的不相符合
+   ```
+   function run_test() {
+       modinfo cifs |grep cifs
+       CHECK_RESULT $? 0 0 "Description Module information failed to be displayed"
+       lsmod | grep  cifs
+       CHECK_RESULT $? 0 1 "Default installation"
+       modprobe cifs
+       CHECK_RESULT $? 0 0 "Module loading failure"
+       lsmod | grep  cifs
+       CHECK_RESULT $? 0 0 "vport_geneve not found"
+       rmmod  cifs
+       CHECK_RESULT $? 0 0 "vport-geneve remove failure"
+       lsmod | grep  cifs
+       CHECK_RESULT $? 0 1 "vport_geneve exist"
+       dmesg | grep "vport_geneve" | grep -Ei 'error|fail'
+       CHECK_RESULT $? 1 0 "error message was reported"
+   }
+   ```
++ [kmod/oe_test_depmod](./cause_md/os-basic/oe_test_depmod.md) ``symversPath=$(find / -name Module.symvers)`` 和 ``mapPath=$(find / -name System.map)`` 两个命令，若 ``ls`` 命令输出零个（x86）或多个（riscv 两个）就会出现问题，但是并没有进行处理
+
+
+### 命令输出与 grep 预期不符
 
 + [os-basic/oe_test_dmraid](./cause_md/os-basic/oe_test_dmraid.md) ``dmraid -s`` 输出为 ``no block devices found`` ，而测试脚本预期结果为 ``no raid disks`` ，导致没有判定出 raid 不存在
 + [os-basic/oe_test_whereis](./cause_md/os-basic/oe_test_whereis.md) ``whereis --help | grep "Usage: whereis"`` 匹配失败， ``whereis --help`` 的实际输出为
@@ -12,7 +100,13 @@
     whereis [options] [-BMS <dir>... -f] <name>
    ```
 
-## 依赖的命令没有安装也没有预装
+### 内核模块名称和预期不同
+
++ [kernel/oe_test_hinic](./cause_md/kernel/oe_test_hinic.md) 在 x86_64 的内核上， hinic 模块的文件名为 ``hinic.ko.xz`` ，而测试套预期文件名为 ``hinic.ko`` ，导致测试失败
++ [kmod/oe_test_insmod-lsmod](./cause_md/kernel/oe_test_insmod-lsmod.md) 在 x86_64 的内核上， raid0 模块文件名为 ``raid0.ko.xz`` 、 faulty 模块文件名为 ``faulty.ko.xz`` ，而测试套预期文件名为 ``raid0.ko`` 和 ``faulty.ko`` ，导致测试失败
++ [kmod/oe_test_modprobe](./cause_md/kernel/oe_test_modprobe.md) 在 x86_64 的内核上 dm_log 模块的文件名为 ``dm-log.ko.xz`` ，而测试套预期文件名为 ``dm-log.ko`` ，导致测试失败
+
+### 依赖的命令没有安装也没有预装
 
 + os-basic/oe_test_auditctl 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装
 + [os-basic/oe_test_server_openssh_verifykey](./cause_md/os-basic/oe_test_server_openssh_verifykey.md) 依赖 policycoreutils 软件包，但是它在 x86 和 riscv 均没有预装
@@ -22,16 +116,45 @@
 + 大部分 **audit** 测试用例都在 x86 和 riscv 失败了，共计 29 个，均是由于测试所需的包没有安装，这里只列举 3 个
 + [audit/oe_test_audit_ausearch](./cause_md/os-basic/oe_test_audit_ausearch.md) 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装
 + [audit/oe_test_audit_available_disk_space](./cause_md/os-basic/oe_test_audit_available_disk_space.md) 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
-+ [audit/oe_test_audit_user_build_connection](./cause_md/os-basic/oe_test_audit_user_build_connection.md) 测试套问题， x86 和 riscv 原因基本一致，依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装；依赖 kernel-headers 软件包，但是它在 riscv 没有预装
++ [audit/oe_test_audit_user_build_connection](./cause_md/os-basic/oe_test_audit_user_build_connection.md) 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装；依赖 kernel-headers 软件包，但是它在 riscv 没有预装
++ [ebtables/oe_test_service_ebtables](./cause_md/ebtables/oe_test_service_ebtables.md) 依赖 ebtables 软件包，但是它在 x86 和 riscv 均没有预装
++ [kernel/oe_test_swap_compress](./cause_md/kernel/oe_test_swap_compress.md) 依赖 lvm2 软件包，但是它在 x86 和 riscv 上均没有预装
 
-## 其他问题
+### 依赖的目录和文件没有预先建立
 
-+ [os-basic/oe_test_system_log_recorded](./cause_md/os-basic/oe_test_system_log_recorded.md) ``folder=$(ls /run/log/journal/)``
++ [kernel/oe_test_swap_compress](./cause_md/kernel/oe_test_swap_compress.md) 测试使用的 swap 设备 ``/dev/dm-1`` 没有提前建立直接使用
+
+### 其他问题
+
 + [dnf/oe_test_dnf_enabled_enablerepo](./cause_md/dnf/oe_test_dnf_enabled_enablerepo.md) 测试套编写的预期返回值不正确
 + [dnf/oe_test_dnf_list_mark](./cause_md/dnf/oe_test_dnf_list_mark.md) 测试套需要软件源中的包高于预装的包，否则将失败
-+ 
 
-## 没有考虑到 riscv
+### 没有考虑 qemu 环境
+
++ [kernel/oe_test_io_sched](./cause_md/kernel/oe_test_io_sched.md) 测试脚本使用了 ``sda`` 作为测试用块设备，而在 qemu 中通常为 ``vda`` 。
+
+### 没有考虑 riscv
 
 + [os-basic/oe_test_uname](./cause_md/os-basic/oe_test_uname.md) ``uname -m | grep -E "aarch64|x86_64"`` 显然在 riscv 上无法通过
+
+## 非测试套问题
+
+### 软件包问题
+
++ [iputils/oe_test_service_ninfod](./cause_md/iputils/oe_test_service_ninfod.md) 软件包 iputils-ninfod 不存在，无法安装
++ [iputils/oe_test_service_rdisc](./cause_md/iputils/oe_test_service_rdisc.md) 没有软件包提供 rdisc.service
+
+### 内核问题
+
++ [kernel/oe_test_check_huge_task](./cause_md/kernel/oe_test_check_huge_task.md) CONFIG_BOOTPARAM_HUNG_TASK_PANIC_VALUE 配置在 x86 和 riscv 没有找到
++ [kernel/oe_test_cifs](./cause_md/kernel/oe_test_cifs.md) riscv 内核缺失 cifs 模块
++ [kernel/oe_test_hinic](./cause_md/kernel/oe_test_hinic.md) riscv 内核缺失 hinic 模块
++ [kmod/oe_test_insmod-lsmod](./cause_md/kmod/oe_test_insmod-lsmod.md) riscv 内核缺失 raid0 模块和 faulty 模块
++ [kmod/oe_test_modinfo](./cause_md/kmod/oe_test_modinfo.md) riscv 内核缺失 raid1 模块和 dm_log 模块
++ [kmod/oe_test_modprobe](./cause_md/kmod/oe_test_modprobe.md) riscv 内核缺失 dm_cache 模块、 dm_mirror 模块和 dm_log 模块
++ [lvm2/oe_test_lvm2_pvmove_001](./cause_md/lvm2/oe_test_lvm2_pvmove_001.md) riscv 内核缺失 dm_mirror 模块
+
+### mugen 问题
+
++ [lvm2/oe_test_lvm2_pvchange_001](./cause_md/lvm2/oe_test_lvm2_pvchange_001.md) 在 x86 上， mugen 将 ``/dev/sr0`` 光驱设备也认为是可用的块设备，导致测试失败。类似问题在 lvm2 测试上导致了 个测试用例失败
 
