@@ -1,3 +1,4 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因
 os-basic,oe_test_auditctl,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_auditctl/2023-04-28-03:36:43.log,测试套问题，x86 和 riscv 原因一致，测试套没有显示安装 audit 软件包，而 x86 和 riscv 镜像均没有预装 audit 软件包，导致 auditctl: command not found
 ,oe_test_catman,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_catman/2023-04-28-03:30:09.log,可能是测试套问题， x86 和 riscv 原因基本一致 [详细分析](./cause_md/os-basic/oe_test_catman.md)
 ,oe_test_dmraid,x86 fail,https://github.com/KotorinMinami/res_list/tree/master/mugen-riscv/logs/os-basic/oe_test_dmraid/2023-04-28-03:31:39.log,测试套问题， x86 和 riscv 原因不同，  [详细分析](./cause_md/os-basic/oe_test_dmraid.md)
