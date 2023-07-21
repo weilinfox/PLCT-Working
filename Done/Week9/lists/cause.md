@@ -166,6 +166,7 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
 + [keyutils/oe_test_keyutils-api](./cause_md/keyutils/oe_test_keyutils-api.md) 依赖 keyutils-libs-devel 软件包，但是它在 x86 和 riscv 上均没有预装
 + [libosinfo/oe_test_osinfo-db-import](./cause_md/libosinfo/oe_test_osinfo-db-import.md) 依赖 wget 软件包，但是它在 x86 上没有预装
 + [mtx/oe_test_mtx_loaderinfo](./cause_md/mtx/oe_test_mtx_loaderinfo.md) 依赖 gcc 软件包，但是它在 x86 上没有预装；依赖 kernel-devel 软件包，但是它在 x86 和 riscv 均没有预装。该问题导致测试套 5 个测试全部失败
++ [freeradius/oe_test_freeradius_freeradius-utils_radsqlrelay](./cause_md/freeradius/oe_test_freeradius_freeradius-utils_radsqlrelay.md) 依赖 mysql5 和 mysql5-server 软件包，但是它们在 x86 和 riscv 上均无法安装
 
 ### 依赖的目录和文件没有预先建立
 
