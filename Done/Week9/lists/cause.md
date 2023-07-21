@@ -100,7 +100,27 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
    }
    ```
 + [kmod/oe_test_depmod](./cause_md/os-basic/oe_test_depmod.md) ``symversPath=$(find / -name Module.symvers)`` 和 ``mapPath=$(find / -name System.map)`` 两个命令，若 ``ls`` 命令输出零个（x86）或多个（riscv 两个）就会出现问题，但是并没有进行处理
-
++ [keepalived/oe_test_service_keepalived.sh](https://gitee.com/openeuler/mugen/blob/master/testcases/cli-test/keepalived/oe_test_service_keepalived.sh) 测试脚本直接使用 ``${eth_name}`` 这一未声明的变量
+   ```
+   echo "global_defs {
+      notification_email {
+          root@localhost
+      }
+      smtp_server 127.0.0.1
+      router_id N1
+   }
+   vrrp_instance VI_1 {
+     state MASTER
+     interface ${eth_name}
+     virtual_router_id 51
+     priority 100
+     advert_int 1
+     authentication {
+        auth_type PASS
+        auth_pass 1111
+     }
+   }" >>/etc/keepalived/keepalived.conf
+   ```
 
 ### 命令输出与 grep 预期不符
 

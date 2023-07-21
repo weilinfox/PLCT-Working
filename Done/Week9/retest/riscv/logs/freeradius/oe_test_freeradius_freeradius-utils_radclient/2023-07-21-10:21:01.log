@@ -1,0 +1,426 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ grep expect
++ rpm -qa
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Fri Jul 21 10:21:05 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL 'freeradius freeradius-utils'
++ pkgs='freeradius freeradius-utils'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'freeradius freeradius-utils' --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: 0:09:50 ago on Fri 21 Jul 2023 10:12:00 AM CST.
+Package freeradius-3.0.26-1.oe2303.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package               Architecture Version                 Repository     Size
+================================================================================
+Installing:
+ freeradius-utils      riscv64      3.0.26-1.oe2303         mainline      155 k
+Installing dependencies:
+ perl-DBI              riscv64      1.643-3.oe2303          mainline      453 k
+ perl-Net-IP           noarch       1.26-1.oe2303           mainline       36 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages
+
+Total download size: 644 k
+Installed size: 2.1 M
+Downloading Packages:
+Waiting for process with pid 1893 to finish.
+[SKIPPED] freeradius-utils-3.0.26-1.oe2303.riscv64.rpm: Already downloaded     
+[SKIPPED] perl-DBI-1.643-3.oe2303.riscv64.rpm: Already downloaded              
+[SKIPPED] perl-Net-IP-1.26-1.oe2303.noarch.rpm: Already downloaded             
+Running transaction check
+Waiting for process with pid 1893 to finish.
+Transaction check succeeded.
+Running transaction test
+Error: Cannot open file /var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm: [Errno 2] No such file or directory: '\''/var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm'\''
+TypeError: '\''NoneType'\'' object cannot be interpreted as an integer
+FATAL ERROR: python callback ??? failed, aborting!'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: 0:09:50 ago on Fri 21 Jul 2023 10:12:00 AM CST.
+Package freeradius-3.0.26-1.oe2303.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package               Architecture Version                 Repository     Size
+================================================================================
+Installing:
+ freeradius-utils      riscv64      3.0.26-1.oe2303         mainline      155 k
+Installing dependencies:
+ perl-DBI              riscv64      1.643-3.oe2303          mainline      453 k
+ perl-Net-IP           noarch       1.26-1.oe2303           mainline       36 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages
+
+Total download size: 644 k
+Installed size: 2.1 M
+Downloading Packages:
+Waiting for process with pid 1893 to finish.
+[SKIPPED] freeradius-utils-3.0.26-1.oe2303.riscv64.rpm: Already downloaded     
+[SKIPPED] perl-DBI-1.643-3.oe2303.riscv64.rpm: Already downloaded              
+[SKIPPED] perl-Net-IP-1.26-1.oe2303.noarch.rpm: Already downloaded             
+Running transaction check
+Waiting for process with pid 1893 to finish.
+Transaction check succeeded.
+Running transaction test
+Error: Cannot open file /var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm: [Errno 2] No such file or directory: '\''/var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm'\''
+TypeError: '\''NoneType'\'' object cannot be interpreted as an integer
+FATAL ERROR: python callback ??? failed, aborting!'
++ systemctl start radiusd
+Job for radiusd.service failed because the control process exited with error code.
+See "systemctl status radiusd.service" and "journalctl -xeu radiusd.service" for details.
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Fri Jul 21 10:22:03 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Fri Jul 21 10:22:04 2023 - INFO  - Start to run test.
++ echo 'Message-Authenticator = 0x00'
++ radclient -4 127.0.0.1 status testing123
++ grep 'Received Access-Accept'
++ CHECK_RESULT 1 0 0 'radclient -4 execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -4 execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -4 execution failed.'
++ LOG_ERROR 'radclient -4 execution failed.'
++ message='radclient -4 execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -4 execution failed.'
+Fri Jul 21 10:22:21 2023 - ERROR - radclient -4 execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 35'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 35'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 35'
+Fri Jul 21 10:22:21 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 35
++ '[' 0 -eq 1 ']'
++ return 0
++ echo 'Message-Authenticator = 0x00'
++ grep 'Received Access-Accept'
++ radclient -6 '[::1]' status testing123
++ CHECK_RESULT 1 0 0 'radclient -6 execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -6 execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -6 execution failed.'
++ LOG_ERROR 'radclient -6 execution failed.'
++ message='radclient -6 execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -6 execution failed.'
+Fri Jul 21 10:22:38 2023 - ERROR - radclient -6 execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 37'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 37'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 37'
+Fri Jul 21 10:22:39 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 37
++ '[' 0 -eq 1 ']'
++ return 0
+++ echo 'Message-Authenticator = 0x00'
+++ grep -c 'Received Access-Accept'
+++ radclient -c 2 127.0.0.1 status testing123
+oe_test_freeradius_freeradius-utils_radclient.sh: line 38: radclient: command not found
++ '[' 0 -eq 2 ']'
++ CHECK_RESULT 1 0 0 'radclient -c execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -c execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -c execution failed.'
++ LOG_ERROR 'radclient -c execution failed.'
++ message='radclient -c execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -c execution failed.'
+Fri Jul 21 10:22:40 2023 - ERROR - radclient -c execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 39'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 39'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 39'
+Fri Jul 21 10:22:41 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 39
++ '[' 0 -eq 1 ']'
++ return 0
++ echo 'Message-Authenticator = 0x00'
++ radclient -d /etc/raddb 127.0.0.1 status testing123
++ grep 'Received Access-Accept'
+oe_test_freeradius_freeradius-utils_radclient.sh: line 40: radclient: command not found
++ CHECK_RESULT 1 0 0 'radclient -d execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -d execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -d execution failed.'
++ LOG_ERROR 'radclient -d execution failed.'
++ message='radclient -d execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -d execution failed.'
+Fri Jul 21 10:22:42 2023 - ERROR - radclient -d execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 41'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 41'
+Fri Jul 21 10:22:43 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ echo 'Message-Authenticator = 0x00'
++ radclient -D /usr/share/freeradius 127.0.0.1 status testing123
++ grep 'Received Access-Accept'
+oe_test_freeradius_freeradius-utils_radclient.sh: line 42: radclient: command not found
++ CHECK_RESULT 1 0 0 'radclient -D execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -D execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -D execution failed.'
++ LOG_ERROR 'radclient -D execution failed.'
++ message='radclient -D execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -D execution failed.'
+Fri Jul 21 10:22:44 2023 - ERROR - radclient -D execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 43'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 43'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 43'
+Fri Jul 21 10:22:45 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 43
++ '[' 0 -eq 1 ']'
++ return 0
++ echo 'Message-Authenticator = 0x00'
++ radclient -f /tmp/test 127.0.0.1 status testing123
++ grep 'Received Access-Accept'
+oe_test_freeradius_freeradius-utils_radclient.sh: line 45: radclient: command not found
++ CHECK_RESULT 1 0 0 'radclient -f execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -f execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -f execution failed.'
++ LOG_ERROR 'radclient -f execution failed.'
++ message='radclient -f execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -f execution failed.'
+Fri Jul 21 10:22:46 2023 - ERROR - radclient -f execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 46'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 46'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 46'
+Fri Jul 21 10:22:47 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 46
++ '[' 0 -eq 1 ']'
++ return 0
++ echo 'Message-Authenticator = 0x00'
++ radclient -F 127.0.0.1 status testing123
++ grep 'Received Access-Accept'
+oe_test_freeradius_freeradius-utils_radclient.sh: line 47: radclient: command not found
++ CHECK_RESULT 1 0 0 'radclient -F execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -F execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -F execution failed.'
++ LOG_ERROR 'radclient -F execution failed.'
++ message='radclient -F execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -F execution failed.'
+Fri Jul 21 10:22:48 2023 - ERROR - radclient -F execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 48'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 48'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 48'
+Fri Jul 21 10:22:49 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 48
++ '[' 0 -eq 1 ']'
++ return 0
++ radclient -h
++ grep -i Usage
++ CHECK_RESULT 1 0 0 'radclient -h execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -h execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -h execution failed.'
++ LOG_ERROR 'radclient -h execution failed.'
++ message='radclient -h execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -h execution failed.'
+Fri Jul 21 10:22:50 2023 - ERROR - radclient -h execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 50'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 50'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 50'
+Fri Jul 21 10:22:51 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 50
++ '[' 0 -eq 1 ']'
++ return 0
++ echo 'Message-Authenticator = 0x00'
++ grep 'Received Access-Accept'
++ radclient -n 30 127.0.0.1 status testing123
+oe_test_freeradius_freeradius-utils_radclient.sh: line 51: radclient: command not found
++ CHECK_RESULT 1 0 0 'radclient -n execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radclient -n execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radclient -n execution failed.'
++ LOG_ERROR 'radclient -n execution failed.'
++ message='radclient -n execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radclient -n execution failed.'
+Fri Jul 21 10:22:52 2023 - ERROR - radclient -n execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radclient.sh line 52'
++ message='oe_test_freeradius_freeradius-utils_radclient.sh line 52'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radclient.sh line 52'
+Fri Jul 21 10:22:53 2023 - ERROR - oe_test_freeradius_freeradius-utils_radclient.sh line 52
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Fri Jul 21 10:22:54 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 9
++ test 9 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Fri Jul 21 10:22:54 2023 - ERROR - failed to execute the case.
++ exit 9
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Fri Jul 21 10:22:55 2023 - INFO  - Start to restore the test environment.
++ systemctl stop radiusd
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: 0:09:50 ago on Fri 21 Jul 2023 10:12:00 AM CST.
+Package freeradius-3.0.26-1.oe2303.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package               Architecture Version                 Repository     Size
+================================================================================
+Installing:
+ freeradius-utils      riscv64      3.0.26-1.oe2303         mainline      155 k
+Installing dependencies:
+ perl-DBI              riscv64      1.643-3.oe2303          mainline      453 k
+ perl-Net-IP           noarch       1.26-1.oe2303           mainline       36 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages
+
+Total download size: 644 k
+Installed size: 2.1 M
+Downloading Packages:
+Waiting for process with pid 1893 to finish.
+[SKIPPED] freeradius-utils-3.0.26-1.oe2303.riscv64.rpm: Already downloaded     
+[SKIPPED] perl-DBI-1.643-3.oe2303.riscv64.rpm: Already downloaded              
+[SKIPPED] perl-Net-IP-1.26-1.oe2303.noarch.rpm: Already downloaded             
+Running transaction check
+Waiting for process with pid 1893 to finish.
+Transaction check succeeded.
+Running transaction test
+Error: Cannot open file /var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm: [Errno 2] No such file or directory: '/var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm'
+TypeError: 'NoneType' object cannot be interpreted as an integer
+FATAL ERROR: python callback ??? failed, aborting! ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: 0:09:50 ago on Fri 21 Jul 2023 10:12:00 AM CST.
+Package freeradius-3.0.26-1.oe2303.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package               Architecture Version                 Repository     Size
+================================================================================
+Installing:
+ freeradius-utils      riscv64      3.0.26-1.oe2303         mainline      155 k
+Installing dependencies:
+ perl-DBI              riscv64      1.643-3.oe2303          mainline      453 k
+ perl-Net-IP           noarch       1.26-1.oe2303           mainline       36 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages
+
+Total download size: 644 k
+Installed size: 2.1 M
+Downloading Packages:
+Waiting for process with pid 1893 to finish.
+[SKIPPED] freeradius-utils-3.0.26-1.oe2303.riscv64.rpm: Already downloaded     
+[SKIPPED] perl-DBI-1.643-3.oe2303.riscv64.rpm: Already downloaded              
+[SKIPPED] perl-Net-IP-1.26-1.oe2303.noarch.rpm: Already downloaded             
+Running transaction check
+Waiting for process with pid 1893 to finish.
+Transaction check succeeded.
+Running transaction test
+Error: Cannot open file /var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm: [Errno 2] No such file or directory: '\''/var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm'\''
+TypeError: '\''NoneType'\'' object cannot be interpreted as an integer
+FATAL ERROR: python callback ??? failed, aborting!'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 192, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 163, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 0:09:50 ago on Fri 21 Jul 2023 10:12:00 AM CST.\nPackage freeradius-3.0.26-1.oe2303.riscv64 is already installed.\nDependencies resolved.\n================================================================================\n Package               Architecture Version                 Repository     Size\n================================================================================\nInstalling:\n freeradius-utils      riscv64      3.0.26-1.oe2303         mainline      155 k\nInstalling dependencies:\n perl-DBI              riscv64      1.643-3.oe2303          mainline      453 k\n perl-Net-IP           noarch       1.26-1.oe2303           mainline       36 k\n\nTransaction Summary\n================================================================================\nInstall  3 Packages\n\nTotal download size: 644 k\nInstalled size: 2.1 M\nDownloading Packages:\nWaiting for process with pid 1893 to finish.\n[SKIPPED] freeradius-utils-3.0.26-1.oe2303.riscv64.rpm: Already downloaded     \n[SKIPPED] perl-DBI-1.643-3.oe2303.riscv64.rpm: Already downloaded              \n[SKIPPED] perl-Net-IP-1.26-1.oe2303.noarch.rpm: Already downloaded             \nRunning transaction check\nWaiting for process with pid 1893 to finish.\nTransaction check succeeded.\nRunning transaction test\nError: Cannot open file /var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm: [Errno 2] No such file or directory: '/var/cache/dnf/mainline-ac9b0d76b3d4f986/packages/perl-Net-IP-1.26-1.oe2303.noarch.rpm'\nTypeError: 'NoneType' object cannot be interpreted as an integer\nFATAL ERROR: python callback ??? failed, aborting!"
++ '[' 0 -ne 0 ']'
++ rm -rf /etc/raddb
++ rm -rf /var/log/radius
++ rm -rf /tmp/test
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Fri Jul 21 10:23:00 2023 - INFO  - End to restore the test environment.

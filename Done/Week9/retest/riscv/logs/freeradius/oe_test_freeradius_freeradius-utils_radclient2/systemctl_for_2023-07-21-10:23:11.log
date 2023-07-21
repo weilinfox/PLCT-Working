@@ -1,0 +1,10 @@
+× radiusd.service - FreeRADIUS high performance RADIUS server.
+     Loaded: loaded (/usr/lib/systemd/system/radiusd.service; disabled; vendor preset: disabled)
+     Active: failed (Result: exit-code) since Fri 2023-07-21 10:24:00 CST; 52s ago
+    Process: 2276 ExecStartPre=/bin/chown -R radiusd.radiusd /var/run/radiusd (code=exited, status=0/SUCCESS)
+    Process: 2280 ExecStartPre=/usr/sbin/radiusd -C (code=exited, status=1/FAILURE)
+
+Jul 21 10:23:59 openeuler-riscv64 systemd[1]: Starting FreeRADIUS high performance RADIUS server....
+Jul 21 10:24:00 openeuler-riscv64 systemd[1]: radiusd.service: Control process exited, code=exited, status=1/FAILURE
+Jul 21 10:24:00 openeuler-riscv64 systemd[1]: radiusd.service: Failed with result 'exit-code'.
+Jul 21 10:24:00 openeuler-riscv64 systemd[1]: Failed to start FreeRADIUS high performance RADIUS server..
