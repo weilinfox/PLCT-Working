@@ -9,7 +9,7 @@
 + os-basic/oe_test_power_powertop_powerup 需要调整测试脚本的 SLEEP_WAIT 参数
 + os-basic/oe_test_sos 调整 mugen.sh 的 TIMEOUT 变量
 
-## NODE2 坏掉了
+## NODE2-NODE4 坏掉了
 
 我自己测试的时候如果环境没有 NODE2 ，这些测试会被直接跳过，不知道为啥在日志中显然这些测试被运行了，但是实际上 NODE2 相关的变量都为空。
 
@@ -205,4 +205,3 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
 ### mugen 问题
 
 + [lvm2/oe_test_lvm2_pvchange_001](./cause_md/lvm2/oe_test_lvm2_pvchange_001.md) 在 x86 上， mugen 将 ``/dev/sr0`` 光驱设备也认为是可用的块设备，导致测试失败。类似问题在 lvm2 测试上导致了 个测试用例失败
-
