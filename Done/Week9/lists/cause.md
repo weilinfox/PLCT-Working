@@ -9,7 +9,11 @@
 + os-basic/oe_test_power_powertop_powerup 需要调整测试脚本的 SLEEP_WAIT 参数
 + os-basic/oe_test_sos 调整 mugen.sh 的 TIMEOUT 变量
 
-## 网桥连通性问题
+## NODE2 坏掉了
+
+我自己测试的时候如果环境没有 NODE2 ，这些测试会被直接跳过，不知道为啥在日志中显然这些测试被运行了，但是实际上 NODE2 相关的变量都为空。
+
+也有好多是测着测着 NODE2 挂掉了，重测也经常会这样。
 
 + os-basic/oe_test_reboot 等
    ```
@@ -24,14 +28,7 @@
    1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
    Fri Apr 28 05:55:53 2023 - ERROR - connection to 10.198.114.4 failed.
    ```
-
-当然也有可能是测着测着 NODE2 挂掉了，有时有遇到这种事情。
-
-## 没有 NODE2
-
-我自己测试的时候如果环境没有 NODE2 ，这些测试会被直接跳过。不知道为啥在日志中显然这些测试被运行了，但是实际上 NODE2 相关的变量都为空。
-
-+ chrony/oe_test_service_chrony-wait
++ chrony/oe_test_service_chrony-wait （完成）
    ```
    + P_SSH_CMD --cmd 'cp /etc/chrony.conf /etc/chrony.conf_bak;sed -i '\''s/^pool/#pool/'\'' /etc/chrony.conf;sed -i '\''s/^#allow.*/allow all/'\'' /etc/chrony.conf;sed -i '\''s/^#local.*/local/'\'' /etc/chrony.conf;systemctl restart chronyd.service;systemctl stop firewalld.service' --node 2
    + python3 /root/mugen/libs/locallibs/ssh_cmd.py --cmd 'cp /etc/chrony.conf /etc/chrony.conf_bak;sed -i '\''s/^pool/#pool/'\'' /etc/chrony.conf;sed -i '\''s/^#allow.*/allow all/'\'' /etc/chrony.conf;sed -i '\''s/^#local.*/local/'\'' /etc/chrony.conf;systemctl restart chronyd.service;systemctl stop firewalld.service' --node 2
@@ -39,16 +36,16 @@
    ```
 + firewalld 中 42 个重测
 + initscripts/oe_test_service_network
-+ iperf3 中 3 个重测
-+ libreswan 中 7 个重测
++ iperf3 中 3 个重测（完成）
++ libreswan 中 7 个重测（完成）
 + rsyslog 中 10 个 x86 重测
 
 ## 软件包安装失败
 
 原因未知
 
-+ freeradius 中 6 个重测
-+ java-1.8.0-openjdk 中 2 个重测
++ freeradius 中 6 个重测（完成）
++ java-1.8.0-openjdk 中 2 个重测（完成）
 
 ## 其他原因
 
@@ -154,6 +151,7 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
 + [audit/oe_test_audit_ausearch](./cause_md/os-basic/oe_test_audit_ausearch.md) 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装
 + [audit/oe_test_audit_available_disk_space](./cause_md/os-basic/oe_test_audit_available_disk_space.md) 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装
 + [audit/oe_test_audit_user_build_connection](./cause_md/os-basic/oe_test_audit_user_build_connection.md) 依赖 audit 软件包，但是它在 x86 和 riscv 均没有预装；依赖 service 命令，但是它在 riscv 没有预装；依赖 kernel-headers 软件包，但是它在 riscv 没有预装
++ [chrony/oe_test_service_chrony-wait](./cause_md/chrony/oe_test_service_chrony-wait.md) 依赖 chrony 软件包，但是它在 x86 和 riscv 均没有预装
 + [ebtables/oe_test_service_ebtables](./cause_md/ebtables/oe_test_service_ebtables.md) 依赖 ebtables 软件包，但是它在 x86 和 riscv 均没有预装
 + [kernel/oe_test_swap_compress](./cause_md/kernel/oe_test_swap_compress.md) 依赖 lvm2 软件包，但是它在 x86 和 riscv 上均没有预装
 + [ipmitool/oe_test_service_bmc-snmp-proxy](./cause_md/ipmitool/oe_test_service_bmc-snmp-proxy.md) 依赖 net-snmp 和 bmc-snmp-proxy 软件包，但是它们在 x86 和 riscv 上均没有预装

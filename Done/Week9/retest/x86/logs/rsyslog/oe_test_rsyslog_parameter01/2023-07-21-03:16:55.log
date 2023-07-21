@@ -1,0 +1,1051 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Fri Jul 21 03:16:55 2023 - INFO  - Start to prepare the test environment.
++ systemctl stop rsyslog
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Fri Jul 21 03:16:55 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Fri Jul 21 03:16:55 2023 - INFO  - Start to run test.
++ rsyslogd -d
+Starting parse
+Entering state 0
+Reducing stack by rule 1 (line 135):
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Reading a token: Next token is token BEGINOBJ ()
+Shifting token BEGINOBJ ()
+Entering state 3
+Reading a token: Next token is token NAME ()
+Reducing stack by rule 18 (line 161):
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 3 29 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 3 29
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Reading a token: Next token is token ENDOBJ ()
+Shifting token ENDOBJ ()
+Entering state 60
+Reducing stack by rule 8 (line 142):
+   $1 = token BEGINOBJ ()
+   $2 = nterm nvlst ()
+   $3 = token ENDOBJ ()
+-> $$ = nterm obj ()
+Stack now 0 1
+Entering state 25
+Reducing stack by rule 2 (line 136):
+   $1 = nterm conf ()
+   $2 = nterm obj ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Reading a token: Next token is token BEGINOBJ ()
+Shifting token BEGINOBJ ()
+Entering state 3
+Reading a token: Next token is token NAME ()
+Reducing stack by rule 18 (line 161):
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 3 29 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 3 29
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Reading a token: Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 3 29 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 3 29
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Reading a token: Next token is token ENDOBJ ()
+Shifting token ENDOBJ ()
+Entering state 60
+Reducing stack by rule 8 (line 142):
+   $1 = token BEGINOBJ ()
+   $2 = nterm nvlst ()
+   $3 = token ENDOBJ ()
+-> $$ = nterm obj ()
+Stack now 0 1
+Entering state 25
+Reducing stack by rule 2 (line 136):
+   $1 = nterm conf ()
+   $2 = nterm obj ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Reading a token: Next token is token BEGINOBJ ()
+Shifting token BEGINOBJ ()
+Entering state 3
+Reading a token: Next token is token NAME ()
+Reducing stack by rule 18 (line 161):
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 3 29 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 3 29
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Reading a token: Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 3 29 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 3 29
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Reading a token: Next token is token ENDOBJ ()
+Shifting token ENDOBJ ()
+Entering state 60
+Reducing stack by rule 8 (line 142):
+   $1 = token BEGINOBJ ()
+   $2 = nterm nvlst ()
+   $3 = token ENDOBJ ()
+-> $$ = nterm obj ()
+Stack now 0 1
+Entering state 25
+Reducing stack by rule 2 (line 136):
+   $1 = nterm conf ()
+   $2 = nterm obj ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Reading a token: Next token is token BEGINOBJ ()
+Shifting token BEGINOBJ ()
+Entering state 3
+Reading a token: Next token is token NAME ()
+Reducing stack by rule 18 (line 161):
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 3 29 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 3 29
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Reading a token: Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 3 29 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 3 29
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 3
+Entering state 29
+Reading a token: Next token is token ENDOBJ ()
+Shifting token ENDOBJ ()
+Entering state 60
+Reducing stack by rule 8 (line 142):
+   $1 = token BEGINOBJ ()
+   $2 = nterm nvlst ()
+   $3 = token ENDOBJ ()
+-> $$ = nterm obj ()
+Stack now 0 1
+Entering state 25
+Reducing stack by rule 2 (line 136):
+   $1 = nterm conf ()
+   $2 = nterm obj ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Reading a token: Next token is token BEGIN_INCLUDE ()
+Shifting token BEGIN_INCLUDE ()
+Entering state 4
+Reducing stack by rule 18 (line 161):
+-> $$ = nterm nvlst ()
+Stack now 0 1 4
+Entering state 30
+Reading a token: Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 4 30 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 4 30
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 4
+Entering state 30
+Reading a token: Next token is token NAME ()
+Shifting token NAME ()
+Entering state 59
+Reading a token: Next token is token '=' ()
+Shifting token '=' ()
+Entering state 103
+Reading a token: Next token is token STRING ()
+Shifting token STRING ()
+Entering state 139
+Reducing stack by rule 21 (line 164):
+   $1 = token STRING ()
+-> $$ = nterm value ()
+Stack now 0 1 4 30 59 103
+Entering state 140
+Reducing stack by rule 20 (line 163):
+   $1 = token NAME ()
+   $2 = token '=' ()
+   $3 = nterm value ()
+-> $$ = nterm nv ()
+Stack now 0 1 4 30
+Entering state 61
+Reducing stack by rule 19 (line 162):
+   $1 = nterm nvlst ()
+   $2 = nterm nv ()
+-> $$ = nterm nvlst ()
+Stack now 0 1 4
+Entering state 30
+Reading a token: Next token is token ENDOBJ ()
+Shifting token ENDOBJ ()
+Entering state 62
+Reducing stack by rule 7 (line 141):
+   $1 = token BEGIN_INCLUDE ()
+   $2 = nterm nvlst ()
+   $3 = token ENDOBJ ()
+-> $$ = nterm include ()
+Stack now 0 1
+Entering state 24
+Reducing stack by rule 35 (line 186):
+   $1 = nterm include ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Reading a token: Next token is token PRIFILT ()
+Shifting token PRIFILT ()
+Entering state 17
+Reading a token: Next token is token LEGACY_ACTION ()
+Shifting token LEGACY_ACTION ()
+Entering state 15
+Reducing stack by rule 42 (line 194):
+   $1 = token LEGACY_ACTION ()
+-> $$ = nterm s_act ()
+Stack now 0 1 17
+Entering state 28
+Reducing stack by rule 39 (line 190):
+   $1 = nterm s_act ()
+-> $$ = nterm actlst ()
+Stack now 0 1 17
+Entering state 27
+Reading a token: Next token is token PRIFILT ()
+Reducing stack by rule 25 (line 168):
+   $1 = nterm actlst ()
+-> $$ = nterm stmt ()
+Stack now 0 1 17
+Entering state 51
+Reducing stack by rule 37 (line 188):
+   $1 = nterm stmt ()
+-> $$ = nterm block ()
+Stack now 0 1 17
+Entering state 52
+Reducing stack by rule 32 (line 183):
+   $1 = token PRIFILT ()
+   $2 = nterm block ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Next token is token PRIFILT ()
+Shifting token PRIFILT ()
+Entering state 17
+Reading a token: Next token is token LEGACY_ACTION ()
+Shifting token LEGACY_ACTION ()
+Entering state 15
+Reducing stack by rule 42 (line 194):
+   $1 = token LEGACY_ACTION ()
+-> $$ = nterm s_act ()
+Stack now 0 1 17
+Entering state 28
+Reducing stack by rule 39 (line 190):
+   $1 = nterm s_act ()
+-> $$ = nterm actlst ()
+Stack now 0 1 17
+Entering state 27
+Reading a token: Next token is token PRIFILT ()
+Reducing stack by rule 25 (line 168):
+   $1 = nterm actlst ()
+-> $$ = nterm stmt ()
+Stack now 0 1 17
+Entering state 51
+Reducing stack by rule 37 (line 188):
+   $1 = nterm stmt ()
+-> $$ = nterm block ()
+Stack now 0 1 17
+Entering state 52
+Reducing stack by rule 32 (line 183):
+   $1 = token PRIFILT ()
+   $2 = nterm block ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Next token is token PRIFILT ()
+Shifting token PRIFILT ()
+Entering state 17
+Reading a token: Next token is token LEGACY_ACTION ()
+Shifting token LEGACY_ACTION ()
+Entering state 15
+Reducing stack by rule 42 (line 194):
+   $1 = token LEGACY_ACTION ()
+-> $$ = nterm s_act ()
+Stack now 0 1 17
+Entering state 28
+Reducing stack by rule 39 (line 190):
+   $1 = nterm s_act ()
+-> $$ = nterm actlst ()
+Stack now 0 1 17
+Entering state 27
+Reading a token: Next token is token PRIFILT ()
+Reducing stack by rule 25 (line 168):
+   $1 = nterm actlst ()
+-> $$ = nterm stmt ()
+Stack now 0 1 17
+Entering state 51
+Reducing stack by rule 37 (line 188):
+   $1 = nterm stmt ()
+-> $$ = nterm block ()
+Stack now 0 1 17
+Entering state 52
+Reducing stack by rule 32 (line 183):
+   $1 = token PRIFILT ()
+   $2 = nterm block ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Next token is token PRIFILT ()
+Shifting token PRIFILT ()
+Entering state 17
+Reading a token: Next token is token LEGACY_ACTION ()
+Shifting token LEGACY_ACTION ()
+Entering state 15
+Reducing stack by rule 42 (line 194):
+   $1 = token LEGACY_ACTION ()
+-> $$ = nterm s_act ()
+Stack now 0 1 17
+Entering state 28
+Reducing stack by rule 39 (line 190):
+   $1 = nterm s_act ()
+-> $$ = nterm actlst ()
+Stack now 0 1 17
+Entering state 27
+Reading a token: Next token is token PRIFILT ()
+Reducing stack by rule 25 (line 168):
+   $1 = nterm actlst ()
+-> $$ = nterm stmt ()
+Stack now 0 1 17
+Entering state 51
+Reducing stack by rule 37 (line 188):
+   $1 = nterm stmt ()
+-> $$ = nterm block ()
+Stack now 0 1 17
+Entering state 52
+Reducing stack by rule 32 (line 183):
+   $1 = token PRIFILT ()
+   $2 = nterm block ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Next token is token PRIFILT ()
+Shifting token PRIFILT ()
+Entering state 17
+Reading a token: Next token is token LEGACY_ACTION ()
+Shifting token LEGACY_ACTION ()
+Entering state 15
+Reducing stack by rule 42 (line 194):
+   $1 = token LEGACY_ACTION ()
+-> $$ = nterm s_act ()
+Stack now 0 1 17
+Entering state 28
+Reducing stack by rule 39 (line 190):
+   $1 = nterm s_act ()
+-> $$ = nterm actlst ()
+Stack now 0 1 17
+Entering state 27
+Reading a token: Next token is token PRIFILT ()
+Reducing stack by rule 25 (line 168):
+   $1 = nterm actlst ()
+-> $$ = nterm stmt ()
+Stack now 0 1 17
+Entering state 51
+Reducing stack by rule 37 (line 188):
+   $1 = nterm stmt ()
+-> $$ = nterm block ()
+Stack now 0 1 17
+Entering state 52
+Reducing stack by rule 32 (line 183):
+   $1 = token PRIFILT ()
+   $2 = nterm block ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Next token is token PRIFILT ()
+Shifting token PRIFILT ()
+Entering state 17
+Reading a token: Next token is token LEGACY_ACTION ()
+Shifting token LEGACY_ACTION ()
+Entering state 15
+Reducing stack by rule 42 (line 194):
+   $1 = token LEGACY_ACTION ()
+-> $$ = nterm s_act ()
+Stack now 0 1 17
+Entering state 28
+Reducing stack by rule 39 (line 190):
+   $1 = nterm s_act ()
+-> $$ = nterm actlst ()
+Stack now 0 1 17
+Entering state 27
+Reading a token: Next token is token PRIFILT ()
+Reducing stack by rule 25 (line 168):
+   $1 = nterm actlst ()
+-> $$ = nterm stmt ()
+Stack now 0 1 17
+Entering state 51
+Reducing stack by rule 37 (line 188):
+   $1 = nterm stmt ()
+-> $$ = nterm block ()
+Stack now 0 1 17
+Entering state 52
+Reducing stack by rule 32 (line 183):
+   $1 = token PRIFILT ()
+   $2 = nterm block ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Next token is token PRIFILT ()
+Shifting token PRIFILT ()
+Entering state 17
+Reading a token: Next token is token LEGACY_ACTION ()
+Shifting token LEGACY_ACTION ()
+Entering state 15
+Reducing stack by rule 42 (line 194):
+   $1 = token LEGACY_ACTION ()
+-> $$ = nterm s_act ()
+Stack now 0 1 17
+Entering state 28
+Reducing stack by rule 39 (line 190):
+   $1 = nterm s_act ()
+-> $$ = nterm actlst ()
+Stack now 0 1 17
+Entering state 27
+Reading a token: Now at end of input.
+Reducing stack by rule 25 (line 168):
+   $1 = nterm actlst ()
+-> $$ = nterm stmt ()
+Stack now 0 1 17
+Entering state 51
+Reducing stack by rule 37 (line 188):
+   $1 = nterm stmt ()
+-> $$ = nterm block ()
+Stack now 0 1 17
+Entering state 52
+Reducing stack by rule 32 (line 183):
+   $1 = token PRIFILT ()
+   $2 = nterm block ()
+-> $$ = nterm stmt ()
+Stack now 0 1
+Entering state 26
+Reducing stack by rule 3 (line 137):
+   $1 = nterm conf ()
+   $2 = nterm stmt ()
+-> $$ = nterm conf ()
+Stack now 0
+Entering state 1
+Now at end of input.
+Shifting token $end ()
+Entering state 2
+Stack now 0 1 2
+Cleanup: popping token $end ()
+Cleanup: popping nterm conf ()
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ '[' -f file1 ']'
++ grep 'main Q' file1
+9415.790238068:main thread    : main Q: queue.c: starting queue
+9415.790247845:main thread    : main Q: queue.c: is NOT disk-assisted
+9415.790252079:main thread    : main Q: queue.c: params: type 0, enq-only 0, disk assisted 0, spoolDir '/var/lib/rsyslog', maxFileSz 1048576, maxQSize 100000, lqsize 0, pqsize 0, child 0, full delay 97000, light delay 70000, deq batch size 256, min deq batch size 0, high wtrmrk 80000, low wtrmrk 20000, discardmrk 98000, max wrkr 2, min msgs f. wrkr 40000 takeFlowCtlFromMsg 0
+9415.790259273:main thread    : wtp.c: main Q:Reg: finalizing construction of worker thread pool (numworkerThreads 2)
+9415.790262979:main thread    : wti.c: main Q:Reg/w0: finalizing construction of worker instance data (for 7 actions)
+9415.790268305:main thread    : wti.c: main Q:Reg/w1: finalizing construction of worker instance data (for 7 actions)
+9415.790273128:main thread    : main Q: queue.c: queue finished initialization
+9415.791068326:imjournal.c    : wtp.c: main Q:Reg: started with state 0, num workers now 1
+9415.791081089:7f29f7fff6c0: debug.c: thread created, tid 4815, name 'rs:main Q:Reg'
+9415.791093816:main Q:Reg/w0  : wti.c: wti 0x55bb009f89e0: worker starting
+9415.791096791:imjournal.c    : wtp.c: main Q:Reg: new worker finished initialization with state 3, num workers now 1
+9415.791110049:imjournal.c    : main Q: queue.c: EnqueueMsg advised worker start
+9415.791123011:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: we deleted 0 objects and enqueued 0 objects
+9415.791128438:main Q:Reg/w0  : queue.c: rger: deleteBatchFromQStore, nElem 0
+9415.791132666:main Q:Reg/w0  : queue.c: doDeleteBatch: delete batch from store, new sizes: log 1, phys 1
+9415.791137252:main Q:Reg/w0  : main Q: queue.c: entry deleted, size now log 0, phys 1 entries
+9415.791141692:main Q:Reg/w0  : main Q: queue.c: dequeued 1 discarded 0 QueueSize 1 consumable elements, szlog 0 sz phys 1
+9415.791147101:main Q:Reg/w0  : ruleset.c: processBATCH: batch of 1 elements must be processed
+9415.791151177:main Q:Reg/w0  : ruleset.c: processBATCH: next msg 0: [systemctl stop rsyslog] called by PID 4798 (bash -x oe_test_rsyslog_parameter01.sh)
+9415.791155291:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.info;mail.none;authpriv.none;cron.none'
+9415.791165190:imjournal.c    : main Q: queue.c: EnqueueMsg advised worker start
+9415.791165858:main Q:Reg/w0  : rainerscript.c:     pmask: 7F 7F  X 7F 7F 7F 7F 7F 7F 
+9415.791211217:imjournal.c    : main Q: queue.c: EnqueueMsg advised worker start
+9415.791213707:main Q:Reg/w0  : rainerscript.c:  X  X 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 
+9415.791253688:main Q:Reg/w0  : rainerscript.c: 7F 7F 7F 7F 7F 
+9415.791275299:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 1
+9415.791279425:main Q:Reg/w0  : rainerscript.c:     ACTION 0 [builtin:omfile:/var/log/messages]
+9415.791290069:main Q:Reg/w0  : ruleset.c: executing action 0
+9415.791294484:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': called, logging to builtin:omfile (susp 0/0, direct q 1)
+9415.791298240:imjournal.c    : main Q: queue.c: EnqueueMsg advised worker start
+9415.791300601:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': is transactional - executing in commit phase
+9415.791305084:main Q:Reg/w0  : ../action.c: actionPrepare[action-0-builtin:omfile]: enter
+9415.791309520:main Q:Reg/w0  : ../action.c: wti 0x55bb009f89e0: we need to create a new action worker instance for action 0
+9415.791314285:main Q:Reg/w0  : ../action.c: wti 0x55bb009f89e0: created action worker instance 1 for action 0
+9415.791319090:main Q:Reg/w0  : ../action.c: checking external state file
+9415.791323046:main Q:Reg/w0  : ../action.c: done checking external state file, iRet=0
+9415.791327153:main Q:Reg/w0  : ../action.c: action[action-0-builtin:omfile] transitioned to state: itx
+9415.791331166:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': set suspended state to 0
+9415.791334948:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'authpriv.*'
+9415.791345573:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.791445951:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.791450174:main Q:Reg/w0  : rainerscript.c:   9415.791451946:imjournal.c    : errmsg.c: Called LogMsg, msg: imjournal: journal files changed, reloading...
+9415.791458926:main Q:Reg/w0  : rainerscript.c: PRIFILT 'mail.*'
+9415.791463177:main Q:Reg/w0  : rainerscript.c:   9415.791465255:imjournal.c    : iminternal.c: signaling new internal message via SIGTTOU: 'imjournal: journal files changed, reloading...  [v8.2210.0 try https://www.rsyslog.com/e/0 ]'
+9415.791467036:main Q:Reg/w0  : rainerscript.c:   pmask:  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.791556815:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.791560682:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'cron.*'
+9415.791580844:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.791661303:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.791663972:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.emerg'
+9415.791670810:main Q:Reg/w0  : rainerscript.c:     pmask:  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 
+9415.791735720:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.791738263:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'uucp,news.crit'
+9415.791745000:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  7  7  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.791807839:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.791810371:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'local7.*'
+9415.791817169:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X FF  X  X 
+9415.791943648:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.791946513:main Q:Reg/w0  : ruleset.c: END batch execution phase, entering to commit phase [processed 1 of 1 messages]
+9415.791949470:main Q:Reg/w0  : ../action.c: actionCommitAllDirect: action 0, state 1, nbr to commit 1 isTransactional 1
+9415.791963983:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: enter, 1 msgs
+9415.791967474:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: processing...
+9415.791970173:main Q:Reg/w0  : ../action.c: actionTryCommit[action-0-builtin:omfile] enter
+9415.791972717:main Q:Reg/w0  : ../action.c: actionPrepare[action-0-builtin:omfile]: enter
+9415.791975558:main Q:Reg/w0  : ../action.c: doTransaction: have commitTransaction IF, using that, pWrkrInfo 0x55bb009f8ab0
+9415.791978311:main Q:Reg/w0  : ../action.c: entering actionCallCommitTransaction[action-0-builtin:omfile], state: itx, nMsgs 1
+9415.791987720:main Q:Reg/w0  : stream.c: file stream messages params: flush interval 0, async write 0
+9415.791995444:main Q:Reg/w0  : omfile.c: omfile: write to stream, pData->pStrm 0x7f29f80014f0, lenBuf 128, strt data Jul 21 03:16:55 localhost systemctl[4806]: [systemctl stop rsyslog] called by PID 4798 (bash -x oe_test_rsyslog_parameter01.sh)
+9415.792001335:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: file -1 strmFlush
+9415.792004755:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: strmFlushinternal: file -1(messages) flush, buflen 128
+9415.792007877:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: file -1(messages) doWriteInternal: bFlush 1
+9415.792010723:main Q:Reg/w0  : stream.c: strmPhysWrite, stream 0x7f29f80014f0, len 128
+9415.792017245:main Q:Reg/w0  : stream.c: file '/var/log/messages' opened as #4 with mode 420
+9415.792022645:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: opened file '/var/log/messages' for WRITE as 4
+9415.792028984:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: file 4 write wrote 128 bytes
+9415.792032292:main Q:Reg/w0  : ../action.c: actionCallCommitTransaction[action-0-builtin:omfile] state: itx mod commitTransaction returned 0
+9415.792035135:main Q:Reg/w0  : ../action.c: action[action-0-builtin:omfile] transitioned to state: rdy
+9415.792037896:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: return actionTryCommit 0
+9415.792040526:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: done, iRet 0
+9415.792043290:main Q:Reg/w0  : ruleset.c: processBATCH: batch of 1 elements has been processed
+9415.792046465:main Q:Reg/w0  : queue.c: regular consumer finished, iret=0, szlog 4 sz phys 5
+9415.792049453:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: etry 0 state 3
+9415.792054243:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: we deleted 1 objects and enqueued 0 objects
+9415.792057027:main Q:Reg/w0  : queue.c: rger: deleteBatchFromQStore, nElem 1
+9415.792059734:main Q:Reg/w0  : queue.c: doDeleteBatch: delete batch from store, new sizes: log 4, phys 4
+9415.792062507:main Q:Reg/w0  : main Q: queue.c: entry deleted, size now log 3, phys 4 entries
+9415.792065325:main Q:Reg/w0  : main Q: queue.c: entry deleted, size now log 2, phys 4 entries
+9415.792068053:main Q:Reg/w0  : main Q: queue.c: entry deleted, size now log 1, phys 4 entries
+9415.792070780:main Q:Reg/w0  : main Q: queue.c: entry deleted, size now log 0, phys 4 entries
+9415.792073727:main Q:Reg/w0  : main Q: queue.c: dequeued 4 discarded 0 QueueSize 4 consumable elements, szlog 0 sz phys 4
+9415.792076778:main Q:Reg/w0  : ruleset.c: processBATCH: batch of 4 elements must be processed
+9415.792079598:main Q:Reg/w0  : ruleset.c: processBATCH: next msg 0: Stopping System Logging Service...
+9415.792082362:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.info;mail.none;authpriv.none;cron.none'
+9415.792089285:main Q:Reg/w0  : rainerscript.c:     pmask: 7F 7F  X 7F 7F 7F 7F 7F 7F  X  X 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 
+9415.792154824:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 1
+9415.792157420:main Q:Reg/w0  : rainerscript.c:     ACTION 0 [builtin:omfile:/var/log/messages]
+9415.792164703:main Q:Reg/w0  : ruleset.c: executing action 0
+9415.792167638:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': called, logging to builtin:omfile (susp 0/0, direct q 1)
+9415.792170958:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': is transactional - executing in commit phase
+9415.792177160:main Q:Reg/w0  : ../action.c: actionPrepare[action-0-builtin:omfile]: enter
+9415.792180059:main Q:Reg/w0  : ../action.c: checking external state file
+9415.792182765:main Q:Reg/w0  : ../action.c: done checking external state file, iRet=0
+9415.792185508:main Q:Reg/w0  : ../action.c: action[action-0-builtin:omfile] transitioned to state: itx
+9415.792188213:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': set suspended state to 0
+9415.792190856:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'authpriv.*'
+9415.792197696:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.792261362:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792263975:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'mail.*'
+9415.792270838:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.792334726:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792337289:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'cron.*'
+9415.792344094:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.792407795:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792410407:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.emerg'
+9415.792417286:main Q:Reg/w0  : rainerscript.c:     pmask:  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 
+9415.792482534:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792485137:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'uucp,news.crit'
+9415.792491915:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  7  7  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.792555492:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792558089:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'local7.*'
+9415.792564863:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X FF  X  X 
+9415.792660064:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792663143:main Q:Reg/w0  : ruleset.c: processBATCH: next msg 1: [origin software="rsyslogd" swVersion="8.2210.0" x-pid="4734" x-info="https://www.rsyslog.com"] exiting on signal 15.
+9415.792665886:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.info;mail.none;authpriv.none;cron.none'
+9415.792672766:main Q:Reg/w0  : rainerscript.c:     pmask: 7F 7F  X 7F 7F 7F 7F 7F 7F  X  X 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 
+9415.792738273:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 1
+9415.792740867:main Q:Reg/w0  : rainerscript.c:     ACTION 0 [builtin:omfile:/var/log/messages]
+9415.792748095:main Q:Reg/w0  : ruleset.c: executing action 0
+9415.792750888:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': called, logging to builtin:omfile (susp 0/0, direct q 1)
+9415.792754155:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': is transactional - executing in commit phase
+9415.792756888:main Q:Reg/w0  : ../action.c: actionPrepare[action-0-builtin:omfile]: enter
+9415.792759657:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': set suspended state to 0
+9415.792762270:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'authpriv.*'
+9415.792769044:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.792832431:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792835023:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'mail.*'
+9415.792841837:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.792905339:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792907912:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'cron.*'
+9415.792914742:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.792978040:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.792984434:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.emerg'
+9415.792991596:main Q:Reg/w0  : rainerscript.c:     pmask:  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 
+9415.793056712:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793059362:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'uucp,news.crit'
+9415.793066308:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  7  7  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.793130153:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793132727:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'local7.*'
+9415.793139524:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X FF  X  X 
+9415.793203351:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793206154:main Q:Reg/w0  : ruleset.c: processBATCH: next msg 2: rsyslog.service: Deactivated successfully.
+9415.793208803:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.info;mail.none;authpriv.none;cron.none'
+9415.793215603:main Q:Reg/w0  : rainerscript.c:     pmask: 7F 7F  X 7F 7F 7F 7F 7F 7F  X  X 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 
+9415.793280444:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 1
+9415.793283008:main Q:Reg/w0  : rainerscript.c:     ACTION 0 [builtin:omfile:/var/log/messages]
+9415.793290123:main Q:Reg/w0  : ruleset.c: executing action 0
+9415.793292885:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': called, logging to builtin:omfile (susp 0/0, direct q 1)
+9415.793295914:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': is transactional - executing in commit phase
+9415.793298661:main Q:Reg/w0  : ../action.c: actionPrepare[action-0-builtin:omfile]: enter
+9415.793301305:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': set suspended state to 0
+9415.793303858:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'authpriv.*'
+9415.793310604:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.793374076:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793376652:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'mail.*'
+9415.793383455:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.793447244:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793449802:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'cron.*'
+9415.793456663:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.793520286:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793522850:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.emerg'
+9415.793529643:main Q:Reg/w0  : rainerscript.c:     pmask:  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 
+9415.793619813:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793622540:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'uucp,news.crit'
+9415.793629932:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  7  7  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.793694175:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793696760:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'local7.*'
+9415.793703574:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X FF  X  X 
+9415.793767330:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793770149:main Q:Reg/w0  : ruleset.c: processBATCH: next msg 3: Stopped System Logging Service.
+9415.793772783:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.info;mail.none;authpriv.none;cron.none'
+9415.793779687:main Q:Reg/w0  : rainerscript.c:     pmask: 7F 7F  X 7F 7F 7F 7F 7F 7F  X  X 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 7F 
+9415.793845139:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 1
+9415.793847691:main Q:Reg/w0  : rainerscript.c:     ACTION 0 [builtin:omfile:/var/log/messages]
+9415.793858562:main Q:Reg/w0  : ruleset.c: executing action 0
+9415.793861361:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': called, logging to builtin:omfile (susp 0/0, direct q 1)
+9415.793864710:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': is transactional - executing in commit phase
+9415.793867395:main Q:Reg/w0  : ../action.c: actionPrepare[action-0-builtin:omfile]: enter
+9415.793870108:main Q:Reg/w0  : ../action.c: action 'action-0-builtin:omfile': set suspended state to 0
+9415.793872663:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'authpriv.*'
+9415.793879518:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.793943137:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.793945782:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'mail.*'
+9415.793952653:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.794016106:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.794018664:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'cron.*'
+9415.794025517:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X FF  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.794089078:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.794091677:main Q:Reg/w0  : rainerscript.c:     PRIFILT '*.emerg'
+9415.794098529:main Q:Reg/w0  : rainerscript.c:     pmask:  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 
+9415.794163453:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.794166052:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'uucp,news.crit'
+9415.794172905:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  7  7  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X 
+9415.794236205:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.794238815:main Q:Reg/w0  : rainerscript.c:     PRIFILT 'local7.*'
+9415.794245657:main Q:Reg/w0  : rainerscript.c:     pmask:  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X  X FF  X  X 
+9415.794309078:main Q:Reg/w0  : ruleset.c: PRIFILT condition result is 0
+9415.794311843:main Q:Reg/w0  : ruleset.c: END batch execution phase, entering to commit phase [processed 4 of 4 messages]
+9415.794314691:main Q:Reg/w0  : ../action.c: actionCommitAllDirect: action 0, state 1, nbr to commit 4 isTransactional 1
+9415.794317454:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: enter, 4 msgs
+9415.794320065:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: processing...
+9415.794322754:main Q:Reg/w0  : ../action.c: actionTryCommit[action-0-builtin:omfile] enter
+9415.794325383:main Q:Reg/w0  : ../action.c: actionPrepare[action-0-builtin:omfile]: enter
+9415.794328085:main Q:Reg/w0  : ../action.c: doTransaction: have commitTransaction IF, using that, pWrkrInfo 0x55bb009f8ab0
+9415.794330782:main Q:Reg/w0  : ../action.c: entering actionCallCommitTransaction[action-0-builtin:omfile], state: itx, nMsgs 4
+9415.794333722:main Q:Reg/w0  : omfile.c: omfile: write to stream, pData->pStrm 0x7f29f80014f0, lenBuf 73, strt data Jul 21 03:16:55 localhost systemd[1]: Stopping System Logging Service...
+9415.794336715:main Q:Reg/w0  : omfile.c: omfile: write to stream, pData->pStrm 0x7f29f80014f0, lenBuf 160, strt data Jul 21 03:16:55 localhost rsyslogd[4734]: [origin software="rsyslogd" swVersion="8.2210.0" x-pid="4734" x-info="https://www.rsys
+9415.794339545:main Q:Reg/w0  : omfile.c: omfile: write to stream, pData->pStrm 0x7f29f80014f0, lenBuf 81, strt data Jul 21 03:16:55 localhost systemd[1]: rsyslog.service: Deactivated successfully.
+9415.794342312:main Q:Reg/w0  : omfile.c: omfile: write to stream, pData->pStrm 0x7f29f80014f0, lenBuf 70, strt data Jul 21 03:16:55 localhost systemd[1]: Stopped System Logging Service.
+9415.794345054:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: file 4 strmFlush
+9415.794348058:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: strmFlushinternal: file 4(/var/log/messages) flush, buflen 384
+9415.794353337:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: file 4(/var/log/messages) doWriteInternal: bFlush 1
+9415.794356300:main Q:Reg/w0  : stream.c: strmPhysWrite, stream 0x7f29f80014f0, len 384
+9415.794364456:main Q:Reg/w0  : strm 0x7f29f80014f0: stream.c: file 4 write wrote 384 bytes
+9415.794367863:main Q:Reg/w0  : ../action.c: actionCallCommitTransaction[action-0-builtin:omfile] state: itx mod commitTransaction returned 0
+9415.794370558:main Q:Reg/w0  : ../action.c: action[action-0-builtin:omfile] transitioned to state: rdy
+9415.794373255:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: return actionTryCommit 0
+9415.794375856:main Q:Reg/w0  : ../action.c: actionCommit[action-0-builtin:omfile]: done, iRet 0
+9415.794378489:main Q:Reg/w0  : ruleset.c: processBATCH: batch of 4 elements has been processed
+9415.794381383:main Q:Reg/w0  : queue.c: regular consumer finished, iret=0, szlog 0 sz phys 4
+9415.794384314:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: etry 0 state 3
+9415.794388988:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: etry 1 state 3
+9415.794393427:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: etry 2 state 3
+9415.794397676:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: etry 3 state 3
+9415.794402069:main Q:Reg/w0  : queue.c: DeleteProcessedBatch: we deleted 4 objects and enqueued 0 objects
+9415.794404830:main Q:Reg/w0  : queue.c: rger: deleteBatchFromQStore, nElem 4
+9415.794407501:main Q:Reg/w0  : queue.c: doDeleteBatch: delete batch from store, new sizes: log 0, phys 0
+9415.794410433:main Q:Reg/w0  : main Q: queue.c: dequeued 0 discarded 0 QueueSize 0 consumable elements, szlog 0 sz phys 0
+9415.794413421:main Q:Reg/w0  : queue.c: regular consumer finished, iret=4, szlog 0 sz phys 0
+9415.794416136:main Q:Reg/w0  : wti.c: main Q:Reg/w0: worker IDLE, waiting for work.
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ pgrep -f rsyslogd
++ xargs kill -9
++ SLEEP_WAIT 3
++ wait_time=3
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 3 --cmd '' --mode 1
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rsyslogd -v
++ grep rsyslogd
+rsyslogd  8.2210.0 (aka 2022.10) compiled with:
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rsyslogd -o file2
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ '[' -f file2 ']'
++ grep /etc/rsyslog.conf file2
+##### BEGIN CONFIG: /etc/rsyslog.conf (put on stack)
+##### END   CONFIG: /etc/rsyslog.conf
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ pgrep -f rsyslogd
++ xargs kill -9
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rsyslogd -n
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ pgrep -f rsyslogd
++ xargs kill -9
+oe_test_rsyslog_parameter01.sh: line 27:  4834 Killed                  rsyslogd -n
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Fri Jul 21 03:17:01 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Fri Jul 21 03:17:01 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Fri Jul 21 03:17:01 2023 - INFO  - Start to restore the test environment.
++ rm -rf file1 file2
++ systemctl start rsyslog
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Fri Jul 21 03:17:01 2023 - INFO  - End to restore the test environment.

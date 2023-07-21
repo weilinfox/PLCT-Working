@@ -1,0 +1,12 @@
+× radiusd.service - FreeRADIUS high performance RADIUS server.
+     Loaded: loaded (/usr/lib/systemd/system/radiusd.service; disabled; vendor preset: disabled)
+     Active: failed (Result: exit-code) since Fri 2023-07-21 04:01:35 UTC; 575ms ago
+
+Jul 21 04:01:35 localhost.localdomain systemd[1]: Starting FreeRADIUS high performance RADIUS server....
+Jul 21 04:01:35 localhost.localdomain systemd[1]: radiusd.service: Control process exited, code=exited, status=1/FAILURE
+Jul 21 04:01:35 localhost.localdomain systemd[1]: radiusd.service: Failed with result 'exit-code'.
+Jul 21 04:01:35 localhost.localdomain systemd[1]: Failed to start FreeRADIUS high performance RADIUS server..
+Jul 21 04:01:35 localhost.localdomain systemd[1]: /usr/lib/systemd/system/radiusd.service:7: PIDFile= references a path below legacy directory /var/run/, updating /var/run/radiusd/radiusd.pid → /run/radiusd/radiusd.pid; please update the unit file accordingly.
+Jul 21 04:01:35 localhost.localdomain systemd[1]: radiusd.service: Unit cannot be reloaded because it is inactive.
+Jul 21 04:01:35 localhost.localdomain systemd[1]: /usr/lib/systemd/system/radiusd.service:7: PIDFile= references a path below legacy directory /var/run/, updating /var/run/radiusd/radiusd.pid → /run/radiusd/radiusd.pid; please update the unit file accordingly.
+Jul 21 04:01:35 localhost.localdomain systemd[1]: radiusd.service: Unit cannot be reloaded because it is inactive.
