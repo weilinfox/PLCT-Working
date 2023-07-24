@@ -34,8 +34,8 @@
    + python3 /root/mugen/libs/locallibs/ssh_cmd.py --cmd 'cp /etc/chrony.conf /etc/chrony.conf_bak;sed -i '\''s/^pool/#pool/'\'' /etc/chrony.conf;sed -i '\''s/^#allow.*/allow all/'\'' /etc/chrony.conf;sed -i '\''s/^#local.*/local/'\'' /etc/chrony.conf;systemctl restart chronyd.service;systemctl stop firewalld.service' --node 2
    Thu May 25 14:09:48 2023 - ERROR - You need to check the environment configuration file to see if this node information exists.
    ```
-+ firewalld 中 42 个重测
-+ initscripts/oe_test_service_network
++ firewalld 中 42 个重测（完成）
++ initscripts/oe_test_service_network（完成）
 + iperf3 中 3 个重测（完成）
 + libreswan 中 7 个重测（完成）
 
@@ -121,6 +121,7 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
      }
    }" >>/etc/keepalived/keepalived.conf
    ```
++ [initscripts/oe_test_service_network.sh](https://gitee.com/openeuler/mugen/blob/master/testcases/cli-test/initscripts/oe_test_service_network.sh#L37) 测试行命令拼写错误 ``journalct --since`` ，由于该测试命令返回非 0 为成功，这行测试将永远成功（测试成功但是脚本有问题）
 
 ### 命令输出与 grep 预期不符
 
@@ -208,3 +209,7 @@ qemu 参数上，对 riscv 添加 ``-cpu rv64,sv39=on`` 来指定三级页表，
 ### mugen 问题
 
 + [lvm2/oe_test_lvm2_pvchange_001](./cause_md/lvm2/oe_test_lvm2_pvchange_001.md) 在 x86 上， mugen 将 ``/dev/sr0`` 光驱设备也认为是可用的块设备，导致测试失败。类似问题在 lvm2 测试上导致了 个测试用例失败
+
+### qemu 问题
+
+经常出现 reboot 以后测试节点失联
