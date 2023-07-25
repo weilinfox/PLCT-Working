@@ -36,7 +36,7 @@
        CHECK_RESULT $? 1 0 "error message was reported"
    }
    ```
-+ [kmod/oe_test_depmod](../Week9/lists/cause_md/os-basic/oe_test_depmod.md) ``symversPath=$(find / -name Module.symvers)`` 和 ``mapPath=$(find / -name System.map)`` 两个命令，若 ``ls`` 命令输出零个（x86）或多个（riscv 两个）就会出现问题，但是并没有进行处理
++ [kmod/oe_test_depmod](../Week9/lists/cause_md/kmod/oe_test_depmod.md) ``symversPath=$(find / -name Module.symvers)`` 和 ``mapPath=$(find / -name System.map)`` 两个命令，若 ``ls`` 命令输出零个（x86）或多个（riscv 两个）就会出现问题，但是并没有进行处理
 + [keepalived/oe_test_service_keepalived.sh](https://gitee.com/openeuler/mugen/blob/master/testcases/cli-test/keepalived/oe_test_service_keepalived.sh) 测试脚本直接使用 ``${eth_name}`` 这一未声明的变量
    ```
    echo "global_defs {
