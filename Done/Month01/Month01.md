@@ -35,7 +35,9 @@
 + [table.md](https://gitee.com/yunxiangluo/oerv-2303-test/blob/master/BasicTest/function/mugen/table.md) 同步不完全
 + [README.md](https://gitee.com/yunxiangluo/oerv-2303-test/blob/master/BasicTest/function/mugen/README.md) 同步不完全
 
+遗留的问题均已经完成 pr [!7](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/7)
+
 ## 关联的提交
 
 + mugen 测试结果汇总仓库 KotorinMinami/res_list pr [#12](https://github.com/KotorinMinami/res_list/commit/6fc49cbc70c91a39eaf261a2fef64af8a1314883) [#13](https://github.com/KotorinMinami/res_list/commit/2dcda539b51a7153a76c640396ea4dd5c03addea) [#14](https://github.com/KotorinMinami/res_list/commit/eaffea9454b6df1a29d65b3cf3d3d7228f3b05dc) [#15](https://github.com/KotorinMinami/res_list/commit/6d57a942a10f7d03f1328c4ab8467a4aa3723628#diff-bfa9c1df7935605b17b8b9fa1d12144452c57044c10e3ae10bc8a8468115a8b0) [#18](https://github.com/KotorinMinami/res_list/pull/18) [#23](https://github.com/KotorinMinami/res_list/pull/23)
-+ oerv 2303 测试仓库 yunxiangluo/oerv-2303-test [!2](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/2) [!4](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/4) [!5](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/5)
++ oerv 2303 测试仓库 yunxiangluo/oerv-2303-test [!2](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/2) [!4](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/4) [!5](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/5) [!7](https://gitee.com/yunxiangluo/oerv-2303-test/pulls/7)
