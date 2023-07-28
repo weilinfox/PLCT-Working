@@ -27,7 +27,7 @@
 
 ### 测试脚本
 
-1. 在分析 x86 fail log 的时候发现，在 riscv 上没有出现的测试环境问题，在 x86 测试的出现了，所以尝试将 qemu_test.py 更改为同时支持 riscv 和 x86 的， [qemu_test.py](/Note/qemu_test.py) 。顺便修了没有 ``import sys`` （待周会讨论）
+1. 在分析 x86 fail log 的时候发现，在 riscv 上没有出现的测试环境问题，在 x86 测试的出现了，所以尝试将 qemu_test.py 更改为同时支持 riscv 和 x86 的， [qemu_test.py](/Note/qemu_test.py) 。顺便修了没有 ``import sys``
 
 ## 遗留的问题
 
