@@ -1,0 +1,15 @@
+mugen.sh: line 99: export: `fe80::b9f4:1ec2:4f4f:3c8b': not a valid identifier
+Tue Aug  8 15:29:04 2023 - INFO  - start to run testcase:oe_test_service_unbound-anchor.
+Tue Aug  8 15:30:11 2023 - INFO  - The case exit by code 0.
+Tue Aug  8 15:30:16 2023 - INFO  - End to run testcase:oe_test_service_unbound-anchor.
+Tue Aug  8 15:30:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::b9f4:1ec2:4f4f:3c8b': not a valid identifier
+Tue Aug  8 15:30:37 2023 - INFO  - start to run testcase:oe_test_service_unbound-keygen.
+Tue Aug  8 15:39:00 2023 - ERROR - The case exit by code 6.
+Tue Aug  8 15:39:04 2023 - INFO  - End to run testcase:oe_test_service_unbound-keygen.
+Tue Aug  8 15:39:07 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::b9f4:1ec2:4f4f:3c8b': not a valid identifier
+Tue Aug  8 15:39:30 2023 - INFO  - start to run testcase:oe_test_service_unbound.
+Tue Aug  8 15:47:41 2023 - INFO  - The case exit by code 0.
+Tue Aug  8 15:47:45 2023 - INFO  - End to run testcase:oe_test_service_unbound.
+Tue Aug  8 15:47:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

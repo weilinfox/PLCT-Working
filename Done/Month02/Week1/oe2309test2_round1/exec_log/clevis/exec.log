@@ -1,0 +1,40 @@
+mugen.sh: line 99: export: `fec0::1ae6:e236:3b2c:2fe5': not a valid identifier
+mugen.sh: line 99: export: `fe80::4444:c49:39b6:83a': not a valid identifier
+mugen.sh: line 99: export: `fec0::6343:2e4e:6ec5:4b02': not a valid identifier
+mugen.sh: line 99: export: `fe80::7586:5cb7:93b4:3d40': not a valid identifier
+Tue Aug  8 13:14:34 2023 - INFO  - start to run testcase:oe_test_service_clevis-luks-askpass.
+Tue Aug  8 13:18:06 2023 - INFO  - The case exit by code 0.
+Tue Aug  8 13:18:10 2023 - INFO  - End to run testcase:oe_test_service_clevis-luks-askpass.
+Tue Aug  8 13:18:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::1ae6:e236:3b2c:2fe5': not a valid identifier
+mugen.sh: line 99: export: `fe80::4444:c49:39b6:83a': not a valid identifier
+mugen.sh: line 99: export: `fec0::6343:2e4e:6ec5:4b02': not a valid identifier
+mugen.sh: line 99: export: `fe80::7586:5cb7:93b4:3d40': not a valid identifier
+Tue Aug  8 13:18:36 2023 - INFO  - start to run testcase:oe_test_high_nbde.
+Tue Aug  8 13:32:22 2023 - ERROR - The case exit by code 7.
+Tue Aug  8 13:32:27 2023 - INFO  - End to run testcase:oe_test_high_nbde.
+Tue Aug  8 13:32:32 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::1ae6:e236:3b2c:2fe5': not a valid identifier
+mugen.sh: line 99: export: `fe80::4444:c49:39b6:83a': not a valid identifier
+mugen.sh: line 99: export: `fec0::6343:2e4e:6ec5:4b02': not a valid identifier
+mugen.sh: line 99: export: `fe80::7586:5cb7:93b4:3d40': not a valid identifier
+Tue Aug  8 13:33:00 2023 - INFO  - start to run testcase:oe_test_install_clevis.
+Tue Aug  8 13:39:22 2023 - ERROR - The case exit by code 9.
+Tue Aug  8 13:39:27 2023 - INFO  - End to run testcase:oe_test_install_clevis.
+Tue Aug  8 13:39:33 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::1ae6:e236:3b2c:2fe5': not a valid identifier
+mugen.sh: line 99: export: `fe80::4444:c49:39b6:83a': not a valid identifier
+mugen.sh: line 99: export: `fec0::6343:2e4e:6ec5:4b02': not a valid identifier
+mugen.sh: line 99: export: `fe80::7586:5cb7:93b4:3d40': not a valid identifier
+Tue Aug  8 13:40:02 2023 - INFO  - start to run testcase:oe_test_tang_encrypt.
+Tue Aug  8 13:48:43 2023 - INFO  - The case exit by code 0.
+Tue Aug  8 13:48:48 2023 - INFO  - End to run testcase:oe_test_tang_encrypt.
+Tue Aug  8 13:48:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::1ae6:e236:3b2c:2fe5': not a valid identifier
+mugen.sh: line 99: export: `fe80::4444:c49:39b6:83a': not a valid identifier
+mugen.sh: line 99: export: `fec0::6343:2e4e:6ec5:4b02': not a valid identifier
+mugen.sh: line 99: export: `fe80::7586:5cb7:93b4:3d40': not a valid identifier
+Tue Aug  8 13:49:17 2023 - INFO  - start to run testcase:oe_test_tang_nbde.
+Tue Aug  8 13:54:30 2023 - ERROR - The case exit by code 5.
+Tue Aug  8 13:54:34 2023 - INFO  - End to run testcase:oe_test_tang_nbde.
+Tue Aug  8 13:54:39 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

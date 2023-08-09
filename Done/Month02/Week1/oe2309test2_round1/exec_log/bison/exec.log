@@ -1,0 +1,5 @@
+mugen.sh: line 99: export: `fe80::b9f4:1ec2:4f4f:3c8b': not a valid identifier
+Tue Aug  8 17:29:09 2023 - INFO  - start to run testcase:oe_test_bison.
+Tue Aug  8 17:32:14 2023 - INFO  - The case exit by code 0.
+Tue Aug  8 17:32:16 2023 - INFO  - End to run testcase:oe_test_bison.
+Tue Aug  8 17:32:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

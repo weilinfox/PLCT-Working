@@ -1,0 +1,8 @@
+mugen.sh: line 99: export: `fe80::b9f4:1ec2:4f4f:3c8b': not a valid identifier
+Tue Aug  8 17:27:37 2023 - INFO  - start to run testcase:oe_test_service_vdo.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Aug  8 17:57:46 2023 - WARN  - The case execution timeout.
+Tue Aug  8 17:57:48 2023 - ERROR - The case exit by code 143.
+Tue Aug  8 17:57:50 2023 - INFO  - End to run testcase:oe_test_service_vdo.
+Tue Aug  8 17:57:52 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

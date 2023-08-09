@@ -1,0 +1,80 @@
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:35:48 2023 - INFO  - start to run testcase:oe_test_nftables_create_counters.
+Tue Aug  8 11:41:23 2023 - ERROR - The case exit by code 1.
+Tue Aug  8 11:41:27 2023 - INFO  - End to run testcase:oe_test_nftables_create_counters.
+Tue Aug  8 11:41:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:41:50 2023 - INFO  - start to run testcase:oe_test_nftables_anonymous_map.
+Tue Aug  8 11:43:11 2023 - ERROR - The case exit by code 5.
+Tue Aug  8 11:43:15 2023 - INFO  - End to run testcase:oe_test_nftables_anonymous_map.
+Tue Aug  8 11:43:19 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:43:39 2023 - INFO  - start to run testcase:oe_test_nftables_listen_package.
+Tue Aug  8 11:45:11 2023 - ERROR - The case exit by code 3.
+Tue Aug  8 11:45:15 2023 - INFO  - End to run testcase:oe_test_nftables_listen_package.
+Tue Aug  8 11:45:19 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:45:38 2023 - INFO  - start to run testcase:oe_test_nftables_name_sets.
+Tue Aug  8 11:46:38 2023 - ERROR - The case exit by code 4.
+Tue Aug  8 11:46:42 2023 - INFO  - End to run testcase:oe_test_nftables_name_sets.
+Tue Aug  8 11:46:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:47:05 2023 - INFO  - start to run testcase:oe_test_nftables_variable_map.
+Tue Aug  8 11:47:59 2023 - ERROR - The case exit by code 1.
+Tue Aug  8 11:48:04 2023 - INFO  - End to run testcase:oe_test_nftables_variable_map.
+Tue Aug  8 11:48:08 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:48:32 2023 - INFO  - start to run testcase:oe_test_nftables_chains.
+Tue Aug  8 11:49:39 2023 - ERROR - The case exit by code 4.
+Tue Aug  8 11:49:43 2023 - INFO  - End to run testcase:oe_test_nftables_chains.
+Tue Aug  8 11:49:47 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:50:06 2023 - INFO  - start to run testcase:oe_test_iptables_to_nftables.
+Tue Aug  8 11:54:33 2023 - INFO  - The case exit by code 0.
+Tue Aug  8 11:54:37 2023 - INFO  - End to run testcase:oe_test_iptables_to_nftables.
+Tue Aug  8 11:54:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:54:59 2023 - INFO  - start to run testcase:oe_test_nftables_backup_rules.
+Tue Aug  8 11:56:10 2023 - ERROR - The case exit by code 4.
+Tue Aug  8 11:56:14 2023 - INFO  - End to run testcase:oe_test_nftables_backup_rules.
+Tue Aug  8 11:56:17 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:56:38 2023 - INFO  - start to run testcase:oe_test_nftables_replace_counters.
+Tue Aug  8 11:57:37 2023 - ERROR - The case exit by code 2.
+Tue Aug  8 11:57:41 2023 - INFO  - End to run testcase:oe_test_nftables_replace_counters.
+Tue Aug  8 11:57:44 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::2e83:52:10c:7a0f': not a valid identifier
+mugen.sh: line 99: export: `fe80::92bf:19d6:3ce4:f44a': not a valid identifier
+mugen.sh: line 99: export: `fec0::252b:804b:de1a:1460': not a valid identifier
+mugen.sh: line 99: export: `fe80::d9ae:bb9d:6ec6:6976': not a valid identifier
+Tue Aug  8 11:58:03 2023 - INFO  - start to run testcase:oe_test_service_nftables.
+Tue Aug  8 12:00:40 2023 - ERROR - The case exit by code 8.
+Tue Aug  8 12:00:44 2023 - INFO  - End to run testcase:oe_test_service_nftables.
+Tue Aug  8 12:00:47 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
