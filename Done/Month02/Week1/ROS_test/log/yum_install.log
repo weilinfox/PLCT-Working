@@ -1,0 +1,198 @@
+[root@openEuler-riscv64 ~]# dnf install ros-humble-*       
+Last metadata expiration check: 0:24:42 ago on Wed Aug  9 20:47:58 2023.
+Error: 
+ Problem 1: conflicting requests
+  - nothing provides python3-whichcraft needed by ros-humble-leo-fw-1.3.0-1.oe2203sp1.riscv64
+ Problem 2: conflicting requests
+  - nothing provides pal_navigation_cfg_bringup needed by ros-humble-pmb2-2dnav-4.0.3-1.oe2203sp1.riscv64
+  - nothing provides pmb2_laser_sensors needed by ros-humble-pmb2-2dnav-4.0.3-1.oe2203sp1.riscv64
+ Problem 3: conflicting requests
+  - nothing provides ros-humble-gazebo-ros needed by ros-humble-gazebo-ros2-control-demos-0.4.2-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-gazebo-ros2-control needed by ros-humble-gazebo-ros2-control-demos-0.4.2-1.oe2203sp1.riscv64
+ Problem 4: conflicting requests
+  - nothing provides ros-humble-ros-ign-gazebo needed by ros-humble-ign-ros2-control-demos-0.4.4-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ign-ros2-control needed by ros-humble-ign-ros2-control-demos-0.4.4-1.oe2203sp1.riscv64
+ Problem 5: conflicting requests
+  - nothing provides ros-humble-popf needed by ros-humble-plansys2-popf-plan-solver-2.0.9-1.oe2203sp1.riscv64
+ Problem 6: conflicting requests
+  - nothing provides ros-humble-ros-gz-bridge needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-gz-image needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-gz-sim needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ignition-gazebo5 needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ignition-gazebo6 needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-sdformat-urdf needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+ Problem 7: conflicting requests
+  - nothing provides python3-pygraphviz needed by ros-humble-ros2controlcli-2.25.2-1.oe2203sp1.riscv64
+ Problem 8: conflicting requests
+  - nothing provides ros-humble-qt-dotgraph needed by ros-humble-rqt-graph-1.3.0-1.oe2203sp1.riscv64
+ Problem 9: conflicting requests
+  - nothing provides black needed by ros-humble-ament-black-0.1.0-1.oe2203sp1.riscv64
+  - nothing provides python3-unidiff needed by ros-humble-ament-black-0.1.0-1.oe2203sp1.riscv64
+ Problem 10: conflicting requests
+  - nothing provides pyflakes3 needed by ros-humble-ament-pyflakes-0.12.6-1.oe2203sp1.riscv64
+ Problem 11: conflicting requests
+  - nothing provides gazebo11 needed by ros-humble-gazebo-dev-3.7.0-1.oe2203sp1.riscv64
+  - nothing provides libgazebo11-dev needed by ros-humble-gazebo-dev-3.7.0-1.oe2203sp1.riscv64
+ Problem 12: conflicting requests
+  - nothing provides ros-humble-gazebo-ros needed by ros-humble-gazebo-ros-pkgs-3.7.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-gazebo-plugins needed by ros-humble-gazebo-ros-pkgs-3.7.0-1.oe2203sp1.riscv64
+ Problem 13: conflicting requests
+  - nothing provides ros-humble-irobot-create-nodes needed by ros-humble-irobot-create-common-bringup-2.0.0-1.oe2203sp1.riscv64
+ Problem 14: conflicting requests
+  - nothing provides ros-humble-ros-ign-gazebo needed by ros-humble-irobot-create-ignition-bringup-2.0.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-ign-bridge needed by ros-humble-irobot-create-ignition-bringup-2.0.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-irobot-create-ignition-plugins needed by ros-humble-irobot-create-ignition-bringup-2.0.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-irobot-create-ignition-toolbox needed by ros-humble-irobot-create-ignition-bringup-2.0.0-1.oe2203sp1.riscv64
+  - nothing provides irobot_create_msgs needed by ros-humble-irobot-create-ignition-bringup-2.0.0-1.oe2203sp1.riscv64
+ Problem 15: conflicting requests
+  - nothing provides ros-humble-rosbridge-server needed by ros-humble-leo-bringup-1.3.0-1.oe2203sp1.riscv64
+ Problem 16: conflicting requests
+  - nothing provides ros-humble-gazebo-ros needed by ros-humble-pmb2-gazebo-4.0.2-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-gazebo-ros2-control needed by ros-humble-pmb2-gazebo-4.0.2-1.oe2203sp1.riscv64
+ Problem 17: conflicting requests
+  - nothing provides ros-humble-ros-gz-bridge needed by ros-humble-ros-gz-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-gz-image needed by ros-humble-ros-gz-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-gz-sim needed by ros-humble-ros-gz-0.244.9-1.oe2203sp1.riscv64
+ Problem 18: conflicting requests
+  - nothing provides python3-rospkg-modules needed by ros-humble-rqt-robot-monitor-1.0.5-1.oe2203sp1.riscv64
+ Problem 19: conflicting requests
+  - nothing provides ros-humble-ros-ign-gazebo needed by ros-humble-simulation-0.10.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-ign-bridge needed by ros-humble-simulation-0.10.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-ign-image needed by ros-humble-simulation-0.10.0-1.oe2203sp1.riscv64
+ Problem 20: conflicting requests
+  - nothing provides pal_navigation_cfg_bringup needed by ros-humble-tiago-2dnav-4.0.4-1.oe2203sp1.riscv64
+ Problem 21: conflicting requests
+  - nothing provides play_motion2 needed by ros-humble-tiago-bringup-4.0.6-1.oe2203sp1.riscv64
+ Problem 22: conflicting requests
+  - nothing provides ros-humble-ur-description needed by ros-humble-ur-moveit-config-2.2.6-1.oe2203sp1.riscv64
+ Problem 23: conflicting requests
+  - nothing provides depthai_descriptions needed by ros-humble-depthai-ros-2.7.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-depthai needed by ros-humble-depthai-ros-2.7.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-depthai-bridge needed by ros-humble-depthai-ros-2.7.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-depthai-examples needed by ros-humble-depthai-ros-2.7.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-depthai-ros-driver needed by ros-humble-depthai-ros-2.7.1-1.oe2203sp1.riscv64
+ Problem 24: conflicting requests
+  - nothing provides ros-humble-dolly-ignition needed by ros-humble-dolly-0.4.0-1.oe2203sp1.riscv64
+ Problem 25: conflicting requests
+  - nothing provides ros-humble-gpsd-client needed by ros-humble-gps-umd-2.0.0-1.oe2203sp1.riscv64
+ Problem 26: conflicting requests
+  - nothing provides ros-humble-irobot-create-gazebo-bringup needed by ros-humble-irobot-create-gazebo-sim-2.0.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-irobot-create-gazebo-plugins needed by ros-humble-irobot-create-gazebo-sim-2.0.0-1.oe2203sp1.riscv64
+ Problem 27: conflicting requests
+  - nothing provides ros-humble-irobot-create-ignition-plugins needed by ros-humble-irobot-create-ignition-sim-2.0.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-irobot-create-ignition-toolbox needed by ros-humble-irobot-create-ignition-sim-2.0.0-1.oe2203sp1.riscv64
+ Problem 28: conflicting requests
+  - nothing provides ros-humble-lanelet2-core needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-examples needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-io needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-maps needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-projection needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-python needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-routing needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-traffic-rules needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-lanelet2-validation needed by ros-humble-lanelet2-1.1.1-1.oe2203sp1.riscv64
+ Problem 29: conflicting requests
+  - nothing provides python3-tk needed by ros-humble-mouse-teleop-1.3.0-1.oe2203sp1.riscv64
+ Problem 30: conflicting requests
+  - nothing provides lcov needed by ros-humble-mrt-cmake-modules-1.0.9-1.oe2203sp1.riscv64
+ Problem 31: conflicting requests
+  - nothing provides pmb2_laser_sensors needed by ros-humble-pmb2-navigation-4.0.3-1.oe2203sp1.riscv64
+ Problem 32: conflicting requests
+  - nothing provides ros-humble-qt-dotgraph needed by ros-humble-qt-gui-core-2.2.2-1.oe2203sp1.riscv64
+ Problem 33: conflicting requests
+  - nothing provides ignition-fuel-tools7 needed by ros-humble-rmf-building-map-tools-1.6.0-1.oe2203sp1.riscv64
+  - nothing provides python3-fiona needed by ros-humble-rmf-building-map-tools-1.6.0-1.oe2203sp1.riscv64
+  - nothing provides python3-pyproj needed by ros-humble-rmf-building-map-tools-1.6.0-1.oe2203sp1.riscv64
+  - nothing provides python3-rtree needed by ros-humble-rmf-building-map-tools-1.6.0-1.oe2203sp1.riscv64
+  - nothing provides python3-shapely needed by ros-humble-rmf-building-map-tools-1.6.0-1.oe2203sp1.riscv64
+ Problem 34: conflicting requests
+  - nothing provides ros-humble-rmf-visualization-schedule needed by ros-humble-rmf-visualization-2.0.0-1.oe2203sp1.riscv64
+ Problem 35: conflicting requests
+  - nothing provides ros-humble-ros-ign-gazebo needed by ros-humble-ros-ign-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-ign-bridge needed by ros-humble-ros-ign-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-ign-image needed by ros-humble-ros-ign-0.244.9-1.oe2203sp1.riscv64
+ Problem 36: conflicting requests
+  - nothing provides ros-humble-rosbridge-server needed by ros-humble-rosbridge-suite-1.3.1-1.oe2203sp1.riscv64
+ Problem 37: conflicting requests
+  - nothing provides ros-humble-qt-dotgraph needed by ros-humble-rqt-tf-tree-1.0.4-1.oe2203sp1.riscv64
+ Problem 38: conflicting requests
+  - nothing provides rtabmap_conversions needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_demos needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_examples needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_launch needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_msgs needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_odom needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_python needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_rviz_plugins needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_slam needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_sync needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_util needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+  - nothing provides rtabmap_viz needed by ros-humble-rtabmap-ros-0.21.1-1.oe2203sp1.riscv64
+ Problem 39: conflicting requests
+  - nothing provides python3-git needed by ros-humble-system-fingerprint-0.7.0-1.oe2203sp1.riscv64
+ Problem 40: conflicting requests
+  - nothing provides tiago_laser_sensors needed by ros-humble-tiago-navigation-4.0.4-1.oe2203sp1.riscv64
+ Problem 41: conflicting requests
+  - nothing provides ros-humble-tiago-gazebo needed by ros-humble-tiago-simulation-4.0.2-1.oe2203sp1.riscv64
+ Problem 42: conflicting requests
+  - nothing provides jupyter-notebook needed by ros-humble-tracetools-analysis-3.0.0-1.oe2203sp1.riscv64
+ Problem 43: conflicting requests
+  - nothing provides python3-lttng needed by ros-humble-tracetools-trace-4.1.1-1.oe2203sp1.riscv64
+ Problem 44: conflicting requests
+  - nothing provides ros-humble-turtlebot3-gazebo needed by ros-humble-turtlebot3-simulations-2.2.5-1.oe2203sp1.riscv64
+ Problem 45: conflicting requests
+  - nothing provides ros-humble-ur-calibration needed by ros-humble-ur-2.2.6-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ur-robot-driver needed by ros-humble-ur-2.2.6-1.oe2203sp1.riscv64
+ Problem 46: conflicting requests
+  - nothing provides ros-humble-ur-description needed by ros-humble-ur-bringup-2.2.6-1.oe2203sp1.riscv64
+ Problem 47: conflicting requests
+  - nothing provides ros-humble-velodyne-gazebo-plugins needed by ros-humble-velodyne-simulator-2.0.3-1.oe2203sp1.riscv64
+ Problem 48: package ros-humble-tiago-robot-4.0.6-1.oe2203sp1.riscv64 requires ros-humble-tiago-bringup, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides play_motion2 needed by ros-humble-tiago-bringup-4.0.6-1.oe2203sp1.riscv64
+ Problem 49: package ros-humble-desktop-full-0.10.0-1.oe2203sp1.riscv64 requires ros-humble-simulation, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides ros-humble-ros-ign-gazebo needed by ros-humble-simulation-0.10.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-ign-bridge needed by ros-humble-simulation-0.10.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-ign-image needed by ros-humble-simulation-0.10.0-1.oe2203sp1.riscv64
+ Problem 50: package ros-humble-rqt-robot-dashboard-0.6.1-1.oe2203sp1.riscv64 requires ros-humble-rqt-robot-monitor, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides python3-rospkg-modules needed by ros-humble-rqt-robot-monitor-1.0.5-1.oe2203sp1.riscv64
+ Problem 51: package ros-humble-rqt-common-plugins-1.2.0-1.oe2203sp1.riscv64 requires ros-humble-rqt-graph, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides ros-humble-qt-dotgraph needed by ros-humble-rqt-graph-1.3.0-1.oe2203sp1.riscv64
+ Problem 52: package ros-humble-ros2-control-2.25.2-1.oe2203sp1.riscv64 requires ros-humble-ros2controlcli, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides python3-pygraphviz needed by ros-humble-ros2controlcli-2.25.2-1.oe2203sp1.riscv64
+ Problem 53: package ros-humble-ros-ign-gazebo-demos-0.244.9-1.oe2203sp1.riscv64 requires ros-humble-ros-gz-sim-demos, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides ros-humble-ros-gz-bridge needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-gz-image needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-ros-gz-sim needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ignition-gazebo5 needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ignition-gazebo6 needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-sdformat-urdf needed by ros-humble-ros-gz-sim-demos-0.244.9-1.oe2203sp1.riscv64
+ Problem 54: package ros-humble-pmb2-simulation-4.0.2-1.oe2203sp1.riscv64 requires ros-humble-pmb2-gazebo, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides ros-humble-gazebo-ros needed by ros-humble-pmb2-gazebo-4.0.2-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-gazebo-ros2-control needed by ros-humble-pmb2-gazebo-4.0.2-1.oe2203sp1.riscv64
+ Problem 55: package ros-humble-leo-robot-1.3.0-1.oe2203sp1.riscv64 requires ros-humble-leo-fw, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides python3-whichcraft needed by ros-humble-leo-fw-1.3.0-1.oe2203sp1.riscv64
+ Problem 56: package ros-humble-dolly-gazebo-0.4.0-1.oe2203sp1.riscv64 requires ros-humble-gazebo-ros-pkgs, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides ros-humble-gazebo-ros needed by ros-humble-gazebo-ros-pkgs-3.7.0-1.oe2203sp1.riscv64
+  - nothing provides ros-humble-gazebo-plugins needed by ros-humble-gazebo-ros-pkgs-3.7.0-1.oe2203sp1.riscv64
+ Problem 57: package ros-humble-ament-cmake-pyflakes-0.12.6-1.oe2203sp1.riscv64 requires ros-humble-ament-pyflakes, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides pyflakes3 needed by ros-humble-ament-pyflakes-0.12.6-1.oe2203sp1.riscv64
+ Problem 58: package ros-humble-ament-cmake-black-0.1.0-1.oe2203sp1.riscv64 requires ros-humble-ament-black, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides black needed by ros-humble-ament-black-0.1.0-1.oe2203sp1.riscv64
+  - nothing provides python3-unidiff needed by ros-humble-ament-black-0.1.0-1.oe2203sp1.riscv64
+ Problem 59: package ros-humble-desktop-0.10.0-1.oe2203sp1.riscv64 requires ros-humble-rqt-common-plugins, but none of the providers can be installed
+  - package ros-humble-rqt-common-plugins-1.2.0-1.oe2203sp1.riscv64 requires ros-humble-rqt-graph, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides ros-humble-qt-dotgraph needed by ros-humble-rqt-graph-1.3.0-1.oe2203sp1.riscv64
+(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
+
