@@ -1,17 +1,11 @@
  ros-humble-ackermann-msgs
  ros-humble-action-msgs
  ros-humble-action-tutorials-cpp
- ros-humble-action-tutorials-cpp-debuginfo
- ros-humble-action-tutorials-cpp-debugsource
  ros-humble-action-tutorials-interfaces
  ros-humble-action-tutorials-py
  ros-humble-actionlib-msgs
  ros-humble-adaptive-component
- ros-humble-adaptive-component-debuginfo
- ros-humble-adaptive-component-debugsource
  ros-humble-admittance-controller
- ros-humble-admittance-controller-debuginfo
- ros-humble-admittance-controller-debugsource
  ros-humble-ament-acceleration
  ros-humble-ament-clang-format
  ros-humble-ament-clang-tidy
@@ -78,14 +72,10 @@
  ros-humble-apriltag
  ros-humble-apriltag-msgs
  ros-humble-apriltag-ros
- ros-humble-apriltag-ros-debuginfo
- ros-humble-apriltag-ros-debugsource
  ros-humble-aruco
  ros-humble-aruco-msgs
  ros-humble-aruco-opencv-msgs
  ros-humble-aruco-ros
- ros-humble-aruco-ros-debuginfo
- ros-humble-aruco-ros-debugsource
  ros-humble-asio-cmake-module
  ros-humble-automotive-autonomy-msgs
  ros-humble-automotive-navigation-msgs
@@ -93,219 +83,111 @@
  ros-humble-autoware-auto-msgs
  ros-humble-backward-ros
  ros-humble-bag2-to-image
- ros-humble-bag2-to-image-debuginfo
- ros-humble-bag2-to-image-debugsource
  ros-humble-behaviortree-cpp-v3
- ros-humble-behaviortree-cpp-v3-debuginfo
- ros-humble-behaviortree-cpp-v3-debugsource
  ros-humble-bond
  ros-humble-bond-core
  ros-humble-bondcpp
- ros-humble-bondcpp-debuginfo
- ros-humble-bondcpp-debugsource
  ros-humble-boost-geometry-util
- ros-humble-boost-geometry-util-debuginfo
- ros-humble-boost-geometry-util-debugsource
  ros-humble-builtin-interfaces
  ros-humble-camera-calibration
  ros-humble-camera-calibration-parsers
- ros-humble-camera-calibration-parsers-debuginfo
- ros-humble-camera-calibration-parsers-debugsource
  ros-humble-camera-info-manager
- ros-humble-camera-info-manager-debuginfo
- ros-humble-camera-info-manager-debugsource
  ros-humble-can-msgs
  ros-humble-cartographer
  ros-humble-cartographer-ros
- ros-humble-cartographer-ros-debuginfo
- ros-humble-cartographer-ros-debugsource
  ros-humble-cartographer-ros-msgs
  ros-humble-cartographer-rviz
- ros-humble-cartographer-rviz-debuginfo
- ros-humble-cartographer-rviz-debugsource
  ros-humble-cascade-lifecycle-msgs
  ros-humble-chomp-motion-planner
- ros-humble-chomp-motion-planner-debuginfo
- ros-humble-chomp-motion-planner-debugsource
  ros-humble-class-loader
  ros-humble-color-names
- ros-humble-color-names-debuginfo
- ros-humble-color-names-debugsource
  ros-humble-common-interfaces
  ros-humble-composition
- ros-humble-composition-debuginfo
- ros-humble-composition-debugsource
  ros-humble-composition-interfaces
  ros-humble-compressed-depth-image-transport
- ros-humble-compressed-depth-image-transport-debuginfo
- ros-humble-compressed-depth-image-transport-debugsource
  ros-humble-compressed-image-transport
- ros-humble-compressed-image-transport-debuginfo
- ros-humble-compressed-image-transport-debugsource
  ros-humble-console-bridge-vendor
  ros-humble-control-msgs
  ros-humble-control-toolbox
- ros-humble-control-toolbox-debuginfo
- ros-humble-control-toolbox-debugsource
  ros-humble-controller-interface
- ros-humble-controller-interface-debuginfo
- ros-humble-controller-interface-debugsource
  ros-humble-controller-manager
- ros-humble-controller-manager-debuginfo
- ros-humble-controller-manager-debugsource
  ros-humble-controller-manager-msgs
  ros-humble-costmap-queue
- ros-humble-costmap-queue-debuginfo
- ros-humble-costmap-queue-debugsource
  ros-humble-cudnn-cmake-module
  ros-humble-cv-bridge
  ros-humble-cyclonedds
- ros-humble-cyclonedds-debuginfo
- ros-humble-cyclonedds-debugsource
  ros-humble-dataspeed-can
  ros-humble-dataspeed-can-msg-filters
  ros-humble-dataspeed-can-usb
- ros-humble-dataspeed-can-usb-debuginfo
- ros-humble-dataspeed-can-usb-debugsource
  ros-humble-dataspeed-dbw-common
  ros-humble-dataspeed-dbw-gateway
  ros-humble-dataspeed-dbw-msgs
  ros-humble-dataspeed-ulc
  ros-humble-dataspeed-ulc-can
- ros-humble-dataspeed-ulc-can-debuginfo
- ros-humble-dataspeed-ulc-can-debugsource
  ros-humble-dataspeed-ulc-msgs
  ros-humble-dbw-fca
  ros-humble-dbw-fca-can
- ros-humble-dbw-fca-can-debuginfo
- ros-humble-dbw-fca-can-debugsource
  ros-humble-dbw-fca-description
  ros-humble-dbw-fca-joystick-demo
- ros-humble-dbw-fca-joystick-demo-debuginfo
- ros-humble-dbw-fca-joystick-demo-debugsource
  ros-humble-dbw-fca-msgs
  ros-humble-dbw-ford
  ros-humble-dbw-ford-can
- ros-humble-dbw-ford-can-debuginfo
- ros-humble-dbw-ford-can-debugsource
  ros-humble-dbw-ford-description
  ros-humble-dbw-ford-joystick-demo
- ros-humble-dbw-ford-joystick-demo-debuginfo
- ros-humble-dbw-ford-joystick-demo-debugsource
  ros-humble-dbw-ford-msgs
  ros-humble-dbw-polaris
  ros-humble-dbw-polaris-can
- ros-humble-dbw-polaris-can-debuginfo
- ros-humble-dbw-polaris-can-debugsource
  ros-humble-dbw-polaris-description
  ros-humble-dbw-polaris-joystick-demo
- ros-humble-dbw-polaris-joystick-demo-debuginfo
- ros-humble-dbw-polaris-joystick-demo-debugsource
  ros-humble-dbw-polaris-msgs
  ros-humble-demo-nodes-cpp
- ros-humble-demo-nodes-cpp-debuginfo
- ros-humble-demo-nodes-cpp-debugsource
  ros-humble-demo-nodes-cpp-native
- ros-humble-demo-nodes-cpp-native-debuginfo
- ros-humble-demo-nodes-cpp-native-debugsource
  ros-humble-demo-nodes-py
  ros-humble-depth-image-proc
- ros-humble-depth-image-proc-debuginfo
- ros-humble-depth-image-proc-debugsource
  ros-humble-depthai-ros-msgs
  ros-humble-depthimage-to-laserscan
- ros-humble-depthimage-to-laserscan-debuginfo
- ros-humble-depthimage-to-laserscan-debugsource
  ros-humble-diagnostic-aggregator
- ros-humble-diagnostic-aggregator-debuginfo
- ros-humble-diagnostic-aggregator-debugsource
  ros-humble-diagnostic-common-diagnostics
  ros-humble-diagnostic-msgs
  ros-humble-diagnostic-updater
- ros-humble-diagnostic-updater-debuginfo
- ros-humble-diagnostic-updater-debugsource
  ros-humble-diagnostics
  ros-humble-diff-drive-controller
- ros-humble-diff-drive-controller-debuginfo
- ros-humble-diff-drive-controller-debugsource
  ros-humble-dolly-follow
- ros-humble-dolly-follow-debuginfo
- ros-humble-dolly-follow-debugsource
  ros-humble-domain-coordinator
  ros-humble-dummy-map-server
- ros-humble-dummy-map-server-debuginfo
- ros-humble-dummy-map-server-debugsource
  ros-humble-dummy-robot-bringup
  ros-humble-dummy-sensors
- ros-humble-dummy-sensors-debuginfo
- ros-humble-dummy-sensors-debugsource
  ros-humble-dwb-core
- ros-humble-dwb-core-debuginfo
- ros-humble-dwb-core-debugsource
  ros-humble-dwb-critics
- ros-humble-dwb-critics-debuginfo
- ros-humble-dwb-critics-debugsource
  ros-humble-dwb-msgs
  ros-humble-dwb-plugins
- ros-humble-dwb-plugins-debuginfo
- ros-humble-dwb-plugins-debugsource
  ros-humble-dynamic-edt-3d
  ros-humble-dynamixel-sdk
  ros-humble-dynamixel-sdk-custom-interfaces
  ros-humble-dynamixel-sdk-examples
- ros-humble-dynamixel-sdk-examples-debuginfo
- ros-humble-dynamixel-sdk-examples-debugsource
  ros-humble-dynamixel-workbench
  ros-humble-dynamixel-workbench-msgs
  ros-humble-dynamixel-workbench-toolbox
- ros-humble-dynamixel-workbench-toolbox-debuginfo
- ros-humble-dynamixel-workbench-toolbox-debugsource
  ros-humble-ecl-build
  ros-humble-ecl-license
  ros-humble-ecl-tools
  ros-humble-effort-controllers
- ros-humble-effort-controllers-debuginfo
- ros-humble-effort-controllers-debugsource
  ros-humble-eigen-stl-containers
  ros-humble-eigen3-cmake-module
  ros-humble-eigenpy
  ros-humble-example-interfaces
  ros-humble-examples-rclcpp-async-client
- ros-humble-examples-rclcpp-async-client-debuginfo
- ros-humble-examples-rclcpp-async-client-debugsource
  ros-humble-examples-rclcpp-cbg-executor
- ros-humble-examples-rclcpp-cbg-executor-debuginfo
- ros-humble-examples-rclcpp-cbg-executor-debugsource
  ros-humble-examples-rclcpp-minimal-action-client
- ros-humble-examples-rclcpp-minimal-action-client-debuginfo
- ros-humble-examples-rclcpp-minimal-action-client-debugsource
  ros-humble-examples-rclcpp-minimal-action-server
- ros-humble-examples-rclcpp-minimal-action-server-debuginfo
- ros-humble-examples-rclcpp-minimal-action-server-debugsource
  ros-humble-examples-rclcpp-minimal-client
- ros-humble-examples-rclcpp-minimal-client-debuginfo
- ros-humble-examples-rclcpp-minimal-client-debugsource
  ros-humble-examples-rclcpp-minimal-composition
- ros-humble-examples-rclcpp-minimal-composition-debuginfo
- ros-humble-examples-rclcpp-minimal-composition-debugsource
  ros-humble-examples-rclcpp-minimal-publisher
- ros-humble-examples-rclcpp-minimal-publisher-debuginfo
- ros-humble-examples-rclcpp-minimal-publisher-debugsource
  ros-humble-examples-rclcpp-minimal-service
- ros-humble-examples-rclcpp-minimal-service-debuginfo
- ros-humble-examples-rclcpp-minimal-service-debugsource
  ros-humble-examples-rclcpp-minimal-subscriber
- ros-humble-examples-rclcpp-minimal-subscriber-debuginfo
- ros-humble-examples-rclcpp-minimal-subscriber-debugsource
  ros-humble-examples-rclcpp-minimal-timer
- ros-humble-examples-rclcpp-minimal-timer-debuginfo
- ros-humble-examples-rclcpp-minimal-timer-debugsource
  ros-humble-examples-rclcpp-multithreaded-executor
- ros-humble-examples-rclcpp-multithreaded-executor-debuginfo
- ros-humble-examples-rclcpp-multithreaded-executor-debugsource
  ros-humble-examples-rclcpp-wait-set
- ros-humble-examples-rclcpp-wait-set-debuginfo
- ros-humble-examples-rclcpp-wait-set-debugsource
  ros-humble-examples-rclpy-executors
  ros-humble-examples-rclpy-guard-conditions
  ros-humble-examples-rclpy-minimal-action-client
@@ -319,48 +201,27 @@
  ros-humble-fastcdr
  ros-humble-fastrtps
  ros-humble-fastrtps-cmake-module
- ros-humble-fastrtps-debuginfo
- ros-humble-fastrtps-debugsource
  ros-humble-filters
- ros-humble-filters-debuginfo
- ros-humble-filters-debugsource
  ros-humble-find-object-2d
- ros-humble-find-object-2d-debuginfo
- ros-humble-find-object-2d-debugsource
  ros-humble-fluent-rviz
  ros-humble-fmi-adapter
- ros-humble-fmi-adapter-debuginfo
- ros-humble-fmi-adapter-debugsource
  ros-humble-fmi-adapter-examples
  ros-humble-fmilibrary-vendor
  ros-humble-foonathan-memory-vendor
  ros-humble-force-torque-sensor-broadcaster
- ros-humble-force-torque-sensor-broadcaster-debuginfo
- ros-humble-force-torque-sensor-broadcaster-debugsource
  ros-humble-foros
  ros-humble-foros-examples
  ros-humble-foros-inspector
- ros-humble-foros-inspector-debuginfo
- ros-humble-foros-inspector-debugsource
  ros-humble-foros-msgs
  ros-humble-forward-command-controller
- ros-humble-forward-command-controller-debuginfo
- ros-humble-forward-command-controller-debugsource
  ros-humble-four-wheel-steering-msgs
  ros-humble-foxglove-msgs
  ros-humble-gazebo-msgs
- ros-humble-gazebo-ros2-control-demos-debuginfo
- ros-humble-gazebo-ros2-control-demos-debugsource
  ros-humble-gc-spl-2022
  ros-humble-generate-parameter-library
- ros-humble-generate-parameter-library-example
- ros-humble-generate-parameter-library-example-debuginfo
- ros-humble-generate-parameter-library-example-debugsource
  ros-humble-generate-parameter-library-py
  ros-humble-geographic-msgs
  ros-humble-geometric-shapes
- ros-humble-geometric-shapes-debuginfo
- ros-humble-geometric-shapes-debugsource
  ros-humble-geometry-msgs
  ros-humble-geometry-tutorials
  ros-humble-geometry2
@@ -368,8 +229,6 @@
  ros-humble-google-benchmark-vendor
  ros-humble-gps-msgs
  ros-humble-gps-tools
- ros-humble-gps-tools-debuginfo
- ros-humble-gps-tools-debugsource
  ros-humble-graph-msgs
  ros-humble-grasping-msgs
  ros-humble-grbl-msgs
@@ -378,133 +237,65 @@
  ros-humble-grid-map-core
  ros-humble-grid-map-costmap-2d
  ros-humble-grid-map-cv
- ros-humble-grid-map-cv-debuginfo
- ros-humble-grid-map-cv-debugsource
  ros-humble-grid-map-demos
- ros-humble-grid-map-demos-debuginfo
- ros-humble-grid-map-demos-debugsource
  ros-humble-grid-map-filters
- ros-humble-grid-map-filters-debuginfo
- ros-humble-grid-map-filters-debugsource
  ros-humble-grid-map-loader
- ros-humble-grid-map-loader-debuginfo
- ros-humble-grid-map-loader-debugsource
  ros-humble-grid-map-msgs
  ros-humble-grid-map-octomap
  ros-humble-grid-map-pcl
- ros-humble-grid-map-pcl-debuginfo
- ros-humble-grid-map-pcl-debugsource
  ros-humble-grid-map-ros
- ros-humble-grid-map-ros-debuginfo
- ros-humble-grid-map-ros-debugsource
  ros-humble-grid-map-rviz-plugin
- ros-humble-grid-map-rviz-plugin-debuginfo
- ros-humble-grid-map-rviz-plugin-debugsource
  ros-humble-grid-map-sdf
  ros-humble-grid-map-visualization
- ros-humble-grid-map-visualization-debuginfo
- ros-humble-grid-map-visualization-debugsource
  ros-humble-gripper-controllers
- ros-humble-gripper-controllers-debuginfo
- ros-humble-gripper-controllers-debugsource
  ros-humble-gtest-vendor
  ros-humble-hardware-interface
- ros-humble-hardware-interface-debuginfo
- ros-humble-hardware-interface-debugsource
  ros-humble-hash-library-vendor
  ros-humble-hey5-description
  ros-humble-hls-lfcd-lds-driver
- ros-humble-hls-lfcd-lds-driver-debuginfo
- ros-humble-hls-lfcd-lds-driver-debugsource
  ros-humble-hpp-fcl
  ros-humble-iceoryx-binding-c
  ros-humble-iceoryx-hoofs
  ros-humble-iceoryx-posh
- ros-humble-ign-ros2-control-demos-debuginfo
- ros-humble-ign-ros2-control-demos-debugsource
  ros-humble-ignition-cmake2-vendor
  ros-humble-ignition-math6-vendor
  ros-humble-image-common
  ros-humble-image-geometry
  ros-humble-image-pipeline
  ros-humble-image-proc
- ros-humble-image-proc-debuginfo
- ros-humble-image-proc-debugsource
  ros-humble-image-publisher
- ros-humble-image-publisher-debuginfo
- ros-humble-image-publisher-debugsource
  ros-humble-image-rotate
- ros-humble-image-rotate-debuginfo
- ros-humble-image-rotate-debugsource
  ros-humble-image-tools
- ros-humble-image-tools-debuginfo
- ros-humble-image-tools-debugsource
  ros-humble-image-transport
- ros-humble-image-transport-debuginfo
- ros-humble-image-transport-debugsource
  ros-humble-image-transport-plugins
  ros-humble-image-view
- ros-humble-image-view-debuginfo
- ros-humble-image-view-debugsource
  ros-humble-imu-complementary-filter
- ros-humble-imu-complementary-filter-debuginfo
- ros-humble-imu-complementary-filter-debugsource
  ros-humble-imu-filter-madgwick
- ros-humble-imu-filter-madgwick-debuginfo
- ros-humble-imu-filter-madgwick-debugsource
  ros-humble-imu-sensor-broadcaster
- ros-humble-imu-sensor-broadcaster-debuginfo
- ros-humble-imu-sensor-broadcaster-debugsource
  ros-humble-imu-tools
  ros-humble-interactive-markers
- ros-humble-interactive-markers-debuginfo
- ros-humble-interactive-markers-debugsource
  ros-humble-intra-process-demo
- ros-humble-intra-process-demo-debuginfo
- ros-humble-intra-process-demo-debugsource
  ros-humble-io-context
- ros-humble-io-context-debuginfo
- ros-humble-io-context-debugsource
  ros-humble-irobot-create-control
  ros-humble-irobot-create-description
  ros-humble-joint-limits
  ros-humble-joint-state-broadcaster
- ros-humble-joint-state-broadcaster-debuginfo
- ros-humble-joint-state-broadcaster-debugsource
  ros-humble-joint-state-publisher
  ros-humble-joint-state-publisher-gui
  ros-humble-joint-trajectory-controller
- ros-humble-joint-trajectory-controller-debuginfo
- ros-humble-joint-trajectory-controller-debugsource
  ros-humble-joy
- ros-humble-joy-debuginfo
- ros-humble-joy-debugsource
  ros-humble-joy-linux
- ros-humble-joy-linux-debuginfo
- ros-humble-joy-linux-debugsource
  ros-humble-joy-teleop
  ros-humble-kdl-parser
- ros-humble-kdl-parser-debuginfo
- ros-humble-kdl-parser-debugsource
  ros-humble-key-teleop
  ros-humble-keyboard-handler
  ros-humble-kinematics-interface
  ros-humble-kinematics-interface-kdl
- ros-humble-kinematics-interface-kdl-debuginfo
- ros-humble-kinematics-interface-kdl-debugsource
  ros-humble-kobuki-ros-interfaces
  ros-humble-kobuki-velocity-smoother
- ros-humble-kobuki-velocity-smoother-debuginfo
- ros-humble-kobuki-velocity-smoother-debugsource
  ros-humble-laser-filters
- ros-humble-laser-filters-debuginfo
- ros-humble-laser-filters-debugsource
  ros-humble-laser-geometry
- ros-humble-laser-geometry-debuginfo
- ros-humble-laser-geometry-debugsource
  ros-humble-laser-proc
- ros-humble-laser-proc-debuginfo
- ros-humble-laser-proc-debugsource
  ros-humble-launch
  ros-humble-launch-pal
  ros-humble-launch-param-builder
@@ -520,34 +311,22 @@
  ros-humble-leo
  ros-humble-leo-description
  ros-humble-leo-desktop
- ros-humble-leo-fw-debuginfo
- ros-humble-leo-fw-debugsource
  ros-humble-leo-msgs
  ros-humble-leo-teleop
  ros-humble-leo-viz
  ros-humble-libcurl-vendor
  ros-humble-libg2o
  ros-humble-libmavconn
- ros-humble-libmavconn-debuginfo
- ros-humble-libmavconn-debugsource
  ros-humble-libnabo
  ros-humble-libphidget22
  ros-humble-libpointmatcher
  ros-humble-libstatistics-collector
- ros-humble-libstatistics-collector-debuginfo
- ros-humble-libstatistics-collector-debugsource
  ros-humble-libyaml-vendor
  ros-humble-lifecycle
- ros-humble-lifecycle-debuginfo
- ros-humble-lifecycle-debugsource
  ros-humble-lifecycle-msgs
  ros-humble-lifecycle-py
  ros-humble-logging-demo
- ros-humble-logging-demo-debuginfo
- ros-humble-logging-demo-debugsource
  ros-humble-lsc-ros2-driver
- ros-humble-lsc-ros2-driver-debuginfo
- ros-humble-lsc-ros2-driver-debugsource
  ros-humble-lusb
  ros-humble-magic-enum
  ros-humble-map-msgs
@@ -566,41 +345,25 @@
  ros-humble-mcap-vendor
  ros-humble-menge-vendor
  ros-humble-message-filters
- ros-humble-message-filters-debuginfo
- ros-humble-message-filters-debugsource
  ros-humble-micro-ros-diagnostic-bridge
- ros-humble-micro-ros-diagnostic-bridge-debuginfo
- ros-humble-micro-ros-diagnostic-bridge-debugsource
  ros-humble-micro-ros-diagnostic-msgs
  ros-humble-micro-ros-msgs
  ros-humble-microstrain-inertial-driver
- ros-humble-microstrain-inertial-driver-debuginfo
- ros-humble-microstrain-inertial-driver-debugsource
  ros-humble-microstrain-inertial-examples
- ros-humble-microstrain-inertial-examples-debuginfo
- ros-humble-microstrain-inertial-examples-debugsource
  ros-humble-microstrain-inertial-msgs
  ros-humble-microstrain-inertial-rqt
  ros-humble-mimick-vendor
  ros-humble-mod
  ros-humble-moveit
  ros-humble-moveit-chomp-optimizer-adapter
- ros-humble-moveit-chomp-optimizer-adapter-debuginfo
- ros-humble-moveit-chomp-optimizer-adapter-debugsource
  ros-humble-moveit-common
  ros-humble-moveit-configs-utils
  ros-humble-moveit-core
- ros-humble-moveit-core-debuginfo
- ros-humble-moveit-core-debugsource
  ros-humble-moveit-hybrid-planning
  ros-humble-moveit-kinematics
- ros-humble-moveit-kinematics-debuginfo
- ros-humble-moveit-kinematics-debugsource
  ros-humble-moveit-msgs
  ros-humble-moveit-planners
  ros-humble-moveit-planners-chomp
- ros-humble-moveit-planners-chomp-debuginfo
- ros-humble-moveit-planners-chomp-debugsource
  ros-humble-moveit-planners-ompl
  ros-humble-moveit-plugins
  ros-humble-moveit-resources
@@ -610,153 +373,69 @@
  ros-humble-moveit-resources-panda-moveit-config
  ros-humble-moveit-resources-pr2-description
  ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
- ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-debuginfo
- ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-debugsource
  ros-humble-moveit-resources-prbt-moveit-config
  ros-humble-moveit-resources-prbt-pg70-support
  ros-humble-moveit-resources-prbt-support
  ros-humble-moveit-ros
  ros-humble-moveit-ros-benchmarks
- ros-humble-moveit-ros-benchmarks-debuginfo
- ros-humble-moveit-ros-benchmarks-debugsource
  ros-humble-moveit-ros-control-interface
- ros-humble-moveit-ros-control-interface-debuginfo
- ros-humble-moveit-ros-control-interface-debugsource
  ros-humble-moveit-ros-move-group
- ros-humble-moveit-ros-move-group-debuginfo
- ros-humble-moveit-ros-move-group-debugsource
  ros-humble-moveit-ros-occupancy-map-monitor
- ros-humble-moveit-ros-occupancy-map-monitor-debuginfo
- ros-humble-moveit-ros-occupancy-map-monitor-debugsource
  ros-humble-moveit-ros-perception
- ros-humble-moveit-ros-perception-debuginfo
- ros-humble-moveit-ros-perception-debugsource
  ros-humble-moveit-ros-planning
- ros-humble-moveit-ros-planning-debuginfo
- ros-humble-moveit-ros-planning-debugsource
  ros-humble-moveit-ros-planning-interface
- ros-humble-moveit-ros-planning-interface-debuginfo
- ros-humble-moveit-ros-planning-interface-debugsource
  ros-humble-moveit-ros-robot-interaction
- ros-humble-moveit-ros-robot-interaction-debuginfo
- ros-humble-moveit-ros-robot-interaction-debugsource
  ros-humble-moveit-ros-visualization
  ros-humble-moveit-ros-warehouse
  ros-humble-moveit-runtime
  ros-humble-moveit-servo
- ros-humble-moveit-servo-debuginfo
- ros-humble-moveit-servo-debugsource
  ros-humble-moveit-setup-app-plugins
- ros-humble-moveit-setup-app-plugins-debuginfo
- ros-humble-moveit-setup-app-plugins-debugsource
  ros-humble-moveit-setup-assistant
- ros-humble-moveit-setup-assistant-debuginfo
- ros-humble-moveit-setup-assistant-debugsource
  ros-humble-moveit-setup-controllers
- ros-humble-moveit-setup-controllers-debuginfo
- ros-humble-moveit-setup-controllers-debugsource
  ros-humble-moveit-setup-core-plugins
- ros-humble-moveit-setup-core-plugins-debuginfo
- ros-humble-moveit-setup-core-plugins-debugsource
  ros-humble-moveit-setup-framework
- ros-humble-moveit-setup-framework-debuginfo
- ros-humble-moveit-setup-framework-debugsource
  ros-humble-moveit-setup-srdf-plugins
- ros-humble-moveit-setup-srdf-plugins-debuginfo
- ros-humble-moveit-setup-srdf-plugins-debugsource
  ros-humble-moveit-simple-controller-manager
- ros-humble-moveit-simple-controller-manager-debuginfo
- ros-humble-moveit-simple-controller-manager-debugsource
  ros-humble-moveit-visual-tools
- ros-humble-moveit-visual-tools-debuginfo
- ros-humble-moveit-visual-tools-debugsource
  ros-humble-mrpt-msgs
  ros-humble-nao-button-sim
  ros-humble-nao-command-msgs
  ros-humble-nao-lola
- ros-humble-nao-lola-debuginfo
- ros-humble-nao-lola-debugsource
  ros-humble-nao-sensor-msgs
  ros-humble-nav-2d-msgs
  ros-humble-nav-2d-utils
- ros-humble-nav-2d-utils-debuginfo
- ros-humble-nav-2d-utils-debugsource
  ros-humble-nav-msgs
  ros-humble-nav2-amcl
- ros-humble-nav2-amcl-debuginfo
- ros-humble-nav2-amcl-debugsource
  ros-humble-nav2-behavior-tree
- ros-humble-nav2-behavior-tree-debuginfo
- ros-humble-nav2-behavior-tree-debugsource
  ros-humble-nav2-behaviors
- ros-humble-nav2-behaviors-debuginfo
- ros-humble-nav2-behaviors-debugsource
  ros-humble-nav2-bringup
  ros-humble-nav2-bt-navigator
- ros-humble-nav2-bt-navigator-debuginfo
- ros-humble-nav2-bt-navigator-debugsource
  ros-humble-nav2-collision-monitor
- ros-humble-nav2-collision-monitor-debuginfo
- ros-humble-nav2-collision-monitor-debugsource
  ros-humble-nav2-common
  ros-humble-nav2-constrained-smoother
- ros-humble-nav2-constrained-smoother-debuginfo
- ros-humble-nav2-constrained-smoother-debugsource
  ros-humble-nav2-controller
- ros-humble-nav2-controller-debuginfo
- ros-humble-nav2-controller-debugsource
  ros-humble-nav2-core
  ros-humble-nav2-costmap-2d
- ros-humble-nav2-costmap-2d-debuginfo
- ros-humble-nav2-costmap-2d-debugsource
  ros-humble-nav2-dwb-controller
  ros-humble-nav2-lifecycle-manager
- ros-humble-nav2-lifecycle-manager-debuginfo
- ros-humble-nav2-lifecycle-manager-debugsource
  ros-humble-nav2-map-server
- ros-humble-nav2-map-server-debuginfo
- ros-humble-nav2-map-server-debugsource
  ros-humble-nav2-msgs
  ros-humble-nav2-navfn-planner
- ros-humble-nav2-navfn-planner-debuginfo
- ros-humble-nav2-navfn-planner-debugsource
  ros-humble-nav2-planner
- ros-humble-nav2-planner-debuginfo
- ros-humble-nav2-planner-debugsource
  ros-humble-nav2-regulated-pure-pursuit-controller
- ros-humble-nav2-regulated-pure-pursuit-controller-debuginfo
- ros-humble-nav2-regulated-pure-pursuit-controller-debugsource
  ros-humble-nav2-rotation-shim-controller
- ros-humble-nav2-rotation-shim-controller-debuginfo
- ros-humble-nav2-rotation-shim-controller-debugsource
  ros-humble-nav2-rviz-plugins
  ros-humble-nav2-simple-commander
  ros-humble-nav2-smac-planner
- ros-humble-nav2-smac-planner-debuginfo
- ros-humble-nav2-smac-planner-debugsource
  ros-humble-nav2-smoother
- ros-humble-nav2-smoother-debuginfo
- ros-humble-nav2-smoother-debugsource
  ros-humble-nav2-theta-star-planner
- ros-humble-nav2-theta-star-planner-debuginfo
- ros-humble-nav2-theta-star-planner-debugsource
  ros-humble-nav2-util
- ros-humble-nav2-util-debuginfo
- ros-humble-nav2-util-debugsource
  ros-humble-nav2-velocity-smoother
- ros-humble-nav2-velocity-smoother-debuginfo
- ros-humble-nav2-velocity-smoother-debugsource
  ros-humble-nav2-voxel-grid
- ros-humble-nav2-voxel-grid-debuginfo
- ros-humble-nav2-voxel-grid-debugsource
  ros-humble-nav2-waypoint-follower
- ros-humble-nav2-waypoint-follower-debuginfo
- ros-humble-nav2-waypoint-follower-debugsource
  ros-humble-navigation2
  ros-humble-neo-simulation2
  ros-humble-nerian-stereo
- ros-humble-nerian-stereo-debuginfo
- ros-humble-nerian-stereo-debugsource
  ros-humble-nlohmann-json-schema-validator-vendor
  ros-humble-nmea-msgs
  ros-humble-nodl-python
@@ -770,8 +449,6 @@
  ros-humble-octomap-ros
  ros-humble-octomap-rviz-plugins
  ros-humble-octomap-server
- ros-humble-octomap-server-debuginfo
- ros-humble-octomap-server-debugsource
  ros-humble-octovis
  ros-humble-ompl
  ros-humble-orocos-kdl-vendor
@@ -790,71 +467,33 @@
  ros-humble-pcl-conversions
  ros-humble-pcl-msgs
  ros-humble-pcl-ros
- ros-humble-pcl-ros-debuginfo
- ros-humble-pcl-ros-debugsource
  ros-humble-pendulum-control
- ros-humble-pendulum-control-debuginfo
- ros-humble-pendulum-control-debugsource
  ros-humble-pendulum-msgs
  ros-humble-perception
  ros-humble-perception-pcl
  ros-humble-performance-test
  ros-humble-performance-test-fixture
  ros-humble-phidgets-accelerometer
- ros-humble-phidgets-accelerometer-debuginfo
- ros-humble-phidgets-accelerometer-debugsource
  ros-humble-phidgets-analog-inputs
- ros-humble-phidgets-analog-inputs-debuginfo
- ros-humble-phidgets-analog-inputs-debugsource
  ros-humble-phidgets-api
  ros-humble-phidgets-digital-inputs
- ros-humble-phidgets-digital-inputs-debuginfo
- ros-humble-phidgets-digital-inputs-debugsource
  ros-humble-phidgets-digital-outputs
- ros-humble-phidgets-digital-outputs-debuginfo
- ros-humble-phidgets-digital-outputs-debugsource
  ros-humble-phidgets-drivers
  ros-humble-phidgets-gyroscope
- ros-humble-phidgets-gyroscope-debuginfo
- ros-humble-phidgets-gyroscope-debugsource
  ros-humble-phidgets-high-speed-encoder
- ros-humble-phidgets-high-speed-encoder-debuginfo
- ros-humble-phidgets-high-speed-encoder-debugsource
  ros-humble-phidgets-ik
  ros-humble-phidgets-magnetometer
- ros-humble-phidgets-magnetometer-debuginfo
- ros-humble-phidgets-magnetometer-debugsource
  ros-humble-phidgets-motors
- ros-humble-phidgets-motors-debuginfo
- ros-humble-phidgets-motors-debugsource
  ros-humble-phidgets-msgs
  ros-humble-phidgets-spatial
- ros-humble-phidgets-spatial-debuginfo
- ros-humble-phidgets-spatial-debugsource
  ros-humble-phidgets-temperature
- ros-humble-phidgets-temperature-debuginfo
- ros-humble-phidgets-temperature-debugsource
  ros-humble-pick-ik
- ros-humble-pick-ik-debuginfo
- ros-humble-pick-ik-debugsource
  ros-humble-pilz-industrial-motion-planner
- ros-humble-pilz-industrial-motion-planner-debuginfo
- ros-humble-pilz-industrial-motion-planner-debugsource
  ros-humble-pilz-industrial-motion-planner-testutils
- ros-humble-pilz-industrial-motion-planner-testutils-debuginfo
- ros-humble-pilz-industrial-motion-planner-testutils-debugsource
  ros-humble-plansys2-core
- ros-humble-plansys2-core-debuginfo
- ros-humble-plansys2-core-debugsource
  ros-humble-plansys2-lifecycle-manager
- ros-humble-plansys2-lifecycle-manager-debuginfo
- ros-humble-plansys2-lifecycle-manager-debugsource
  ros-humble-plansys2-msgs
  ros-humble-plansys2-pddl-parser
- ros-humble-plansys2-pddl-parser-debuginfo
- ros-humble-plansys2-pddl-parser-debugsource
- ros-humble-plansys2-popf-plan-solver-debuginfo
- ros-humble-plansys2-popf-plan-solver-debugsource
  ros-humble-plotjuggler-msgs
  ros-humble-pluginlib
  ros-humble-pmb2-bringup
@@ -863,11 +502,7 @@
  ros-humble-pmb2-maps
  ros-humble-pmb2-robot
  ros-humble-pointcloud-to-laserscan
- ros-humble-pointcloud-to-laserscan-debuginfo
- ros-humble-pointcloud-to-laserscan-debugsource
  ros-humble-position-controllers
- ros-humble-position-controllers-debuginfo
- ros-humble-position-controllers-debugsource
  ros-humble-py-trees
  ros-humble-py-trees-ros
  ros-humble-py-trees-ros-interfaces
@@ -882,22 +517,16 @@
  ros-humble-qt-gui-cpp
  ros-humble-qt-gui-py-common
  ros-humble-quality-of-service-demo-cpp
- ros-humble-quality-of-service-demo-cpp-debuginfo
- ros-humble-quality-of-service-demo-cpp-debugsource
  ros-humble-quality-of-service-demo-py
  ros-humble-quaternion-operation
  ros-humble-r2r-spl-7
  ros-humble-radar-msgs
  ros-humble-random-numbers
  ros-humble-raspimouse
- ros-humble-raspimouse-debuginfo
- ros-humble-raspimouse-debugsource
  ros-humble-raspimouse-description
  ros-humble-raspimouse-msgs
  ros-humble-rc-common-msgs
  ros-humble-rc-dynamics-api
- ros-humble-rc-dynamics-api-debuginfo
- ros-humble-rc-dynamics-api-debugsource
  ros-humble-rc-reason-clients
  ros-humble-rc-reason-msgs
  ros-humble-rcdiscover
@@ -907,73 +536,37 @@
  ros-humble-rcgcrd-spl-4-conversion
  ros-humble-rcl
  ros-humble-rcl-action
- ros-humble-rcl-action-debuginfo
- ros-humble-rcl-action-debugsource
- ros-humble-rcl-debuginfo
- ros-humble-rcl-debugsource
  ros-humble-rcl-interfaces
  ros-humble-rcl-lifecycle
- ros-humble-rcl-lifecycle-debuginfo
- ros-humble-rcl-lifecycle-debugsource
  ros-humble-rcl-logging-interface
  ros-humble-rcl-logging-noop
  ros-humble-rcl-logging-spdlog
  ros-humble-rcl-yaml-param-parser
  ros-humble-rclc
- ros-humble-rclc-debuginfo
- ros-humble-rclc-debugsource
  ros-humble-rclc-examples
- ros-humble-rclc-examples-debuginfo
- ros-humble-rclc-examples-debugsource
  ros-humble-rclc-lifecycle
- ros-humble-rclc-lifecycle-debuginfo
- ros-humble-rclc-lifecycle-debugsource
  ros-humble-rclc-parameter
- ros-humble-rclc-parameter-debuginfo
- ros-humble-rclc-parameter-debugsource
  ros-humble-rclcpp
  ros-humble-rclcpp-action
- ros-humble-rclcpp-action-debuginfo
- ros-humble-rclcpp-action-debugsource
  ros-humble-rclcpp-cascade-lifecycle
- ros-humble-rclcpp-cascade-lifecycle-debuginfo
- ros-humble-rclcpp-cascade-lifecycle-debugsource
  ros-humble-rclcpp-components
- ros-humble-rclcpp-components-debuginfo
- ros-humble-rclcpp-components-debugsource
- ros-humble-rclcpp-debuginfo
- ros-humble-rclcpp-debugsource
  ros-humble-rclcpp-lifecycle
- ros-humble-rclcpp-lifecycle-debuginfo
- ros-humble-rclcpp-lifecycle-debugsource
  ros-humble-rclpy
- ros-humble-rclpy-debuginfo
- ros-humble-rclpy-debugsource
  ros-humble-rclpy-message-converter
  ros-humble-rclpy-message-converter-msgs
  ros-humble-rcpputils
  ros-humble-rcss3d-agent
  ros-humble-rcss3d-agent-basic
- ros-humble-rcss3d-agent-basic-debuginfo
- ros-humble-rcss3d-agent-basic-debugsource
- ros-humble-rcss3d-agent-debuginfo
- ros-humble-rcss3d-agent-debugsource
  ros-humble-rcss3d-agent-msgs
  ros-humble-rcutils
  ros-humble-realsense2-camera-msgs
  ros-humble-realsense2-description
  ros-humble-realtime-tools
- ros-humble-realtime-tools-debuginfo
- ros-humble-realtime-tools-debugsource
  ros-humble-resource-retriever
- ros-humble-resource-retriever-debuginfo
- ros-humble-resource-retriever-debugsource
  ros-humble-rmf-api-msgs
  ros-humble-rmf-battery
  ros-humble-rmf-building-map-msgs
  ros-humble-rmf-building-sim-common
- ros-humble-rmf-building-sim-common-debuginfo
- ros-humble-rmf-building-sim-common-debugsource
  ros-humble-rmf-charger-msgs
  ros-humble-rmf-cmake-uncrustify
  ros-humble-rmf-dispenser-msgs
@@ -983,8 +576,6 @@
  ros-humble-rmf-lift-msgs
  ros-humble-rmf-obstacle-msgs
  ros-humble-rmf-robot-sim-common
- ros-humble-rmf-robot-sim-common-debuginfo
- ros-humble-rmf-robot-sim-common-debugsource
  ros-humble-rmf-scheduler-msgs
  ros-humble-rmf-site-map-msgs
  ros-humble-rmf-task
@@ -998,58 +589,28 @@
  ros-humble-rmf-utils
  ros-humble-rmf-visualization-building-systems
  ros-humble-rmf-visualization-fleet-states
- ros-humble-rmf-visualization-fleet-states-debuginfo
- ros-humble-rmf-visualization-fleet-states-debugsource
  ros-humble-rmf-visualization-floorplans
- ros-humble-rmf-visualization-floorplans-debuginfo
- ros-humble-rmf-visualization-floorplans-debugsource
  ros-humble-rmf-visualization-msgs
  ros-humble-rmf-visualization-navgraphs
- ros-humble-rmf-visualization-navgraphs-debuginfo
- ros-humble-rmf-visualization-navgraphs-debugsource
  ros-humble-rmf-visualization-obstacles
- ros-humble-rmf-visualization-obstacles-debuginfo
- ros-humble-rmf-visualization-obstacles-debugsource
  ros-humble-rmf-visualization-rviz2-plugins
- ros-humble-rmf-visualization-rviz2-plugins-debuginfo
- ros-humble-rmf-visualization-rviz2-plugins-debugsource
  ros-humble-rmf-workcell-msgs
  ros-humble-rmw
  ros-humble-rmw-cyclonedds-cpp
- ros-humble-rmw-cyclonedds-cpp-debuginfo
- ros-humble-rmw-cyclonedds-cpp-debugsource
  ros-humble-rmw-dds-common
  ros-humble-rmw-fastrtps-cpp
- ros-humble-rmw-fastrtps-cpp-debuginfo
- ros-humble-rmw-fastrtps-cpp-debugsource
  ros-humble-rmw-fastrtps-dynamic-cpp
- ros-humble-rmw-fastrtps-dynamic-cpp-debuginfo
- ros-humble-rmw-fastrtps-dynamic-cpp-debugsource
  ros-humble-rmw-fastrtps-shared-cpp
- ros-humble-rmw-fastrtps-shared-cpp-debuginfo
- ros-humble-rmw-fastrtps-shared-cpp-debugsource
  ros-humble-rmw-implementation
  ros-humble-rmw-implementation-cmake
- ros-humble-rmw-implementation-debuginfo
- ros-humble-rmw-implementation-debugsource
  ros-humble-robot-calibration
- ros-humble-robot-calibration-debuginfo
- ros-humble-robot-calibration-debugsource
  ros-humble-robot-calibration-msgs
  ros-humble-robot-controllers
- ros-humble-robot-controllers-debuginfo
- ros-humble-robot-controllers-debugsource
  ros-humble-robot-controllers-interface
- ros-humble-robot-controllers-interface-debuginfo
- ros-humble-robot-controllers-interface-debugsource
  ros-humble-robot-controllers-msgs
  ros-humble-robot-state-publisher
- ros-humble-robot-state-publisher-debuginfo
- ros-humble-robot-state-publisher-debugsource
  ros-humble-robot-upstart
  ros-humble-robotraconteur
- ros-humble-robotraconteur-debuginfo
- ros-humble-robotraconteur-debugsource
  ros-humble-ros-base
  ros-humble-ros-core
  ros-humble-ros-environment
@@ -1062,8 +623,6 @@
  ros-humble-ros2-controllers
  ros-humble-ros2-controllers-test-nodes
  ros-humble-ros2-socketcan
- ros-humble-ros2-socketcan-debuginfo
- ros-humble-ros2-socketcan-debugsource
  ros-humble-ros2acceleration
  ros-humble-ros2action
  ros-humble-ros2bag
@@ -1076,12 +635,8 @@
  ros-humble-ros2launch
  ros-humble-ros2launch-security
  ros-humble-ros2launch-security-examples
- ros-humble-ros2launch-security-examples-debuginfo
- ros-humble-ros2launch-security-examples-debugsource
  ros-humble-ros2lifecycle
  ros-humble-ros2lifecycle-test-fixtures
- ros-humble-ros2lifecycle-test-fixtures-debuginfo
- ros-humble-ros2lifecycle-test-fixtures-debugsource
  ros-humble-ros2multicast
  ros-humble-ros2node
  ros-humble-ros2nodl
@@ -1095,34 +650,18 @@
  ros-humble-rosapi-msgs
  ros-humble-rosbag2
  ros-humble-rosbag2-compression
- ros-humble-rosbag2-compression-debuginfo
- ros-humble-rosbag2-compression-debugsource
  ros-humble-rosbag2-compression-zstd
- ros-humble-rosbag2-compression-zstd-debuginfo
- ros-humble-rosbag2-compression-zstd-debugsource
  ros-humble-rosbag2-cpp
- ros-humble-rosbag2-cpp-debuginfo
- ros-humble-rosbag2-cpp-debugsource
  ros-humble-rosbag2-interfaces
  ros-humble-rosbag2-performance-benchmarking
  ros-humble-rosbag2-py
- ros-humble-rosbag2-py-debuginfo
- ros-humble-rosbag2-py-debugsource
  ros-humble-rosbag2-storage
- ros-humble-rosbag2-storage-debuginfo
- ros-humble-rosbag2-storage-debugsource
  ros-humble-rosbag2-storage-default-plugins
- ros-humble-rosbag2-storage-default-plugins-debuginfo
- ros-humble-rosbag2-storage-default-plugins-debugsource
  ros-humble-rosbag2-storage-mcap
- ros-humble-rosbag2-storage-mcap-debuginfo
- ros-humble-rosbag2-storage-mcap-debugsource
  ros-humble-rosbag2-storage-mcap-testdata
  ros-humble-rosbag2-test-common
  ros-humble-rosbag2-tests
  ros-humble-rosbag2-transport
- ros-humble-rosbag2-transport-debuginfo
- ros-humble-rosbag2-transport-debugsource
  ros-humble-rosbridge-library
  ros-humble-rosbridge-msgs
  ros-humble-rosbridge-test-msgs
@@ -1149,8 +688,6 @@
  ros-humble-rosidl-typesupport-introspection-cpp
  ros-humble-rot-conv
  ros-humble-rplidar-ros
- ros-humble-rplidar-ros-debuginfo
- ros-humble-rplidar-ros-debugsource
  ros-humble-rpyutils
  ros-humble-rqt
  ros-humble-rqt-action
@@ -1160,16 +697,10 @@
  ros-humble-rqt-controller-manager
  ros-humble-rqt-gui
  ros-humble-rqt-gui-cpp
- ros-humble-rqt-gui-cpp-debuginfo
- ros-humble-rqt-gui-cpp-debugsource
  ros-humble-rqt-gui-py
  ros-humble-rqt-image-overlay
- ros-humble-rqt-image-overlay-debuginfo
- ros-humble-rqt-image-overlay-debugsource
  ros-humble-rqt-image-overlay-layer
  ros-humble-rqt-image-view
- ros-humble-rqt-image-view-debuginfo
- ros-humble-rqt-image-view-debugsource
  ros-humble-rqt-joint-trajectory-controller
  ros-humble-rqt-moveit
  ros-humble-rqt-msg
@@ -1185,65 +716,35 @@
  ros-humble-rqt-srv
  ros-humble-rqt-topic
  ros-humble-rsl
- ros-humble-rsl-debuginfo
- ros-humble-rsl-debugsource
  ros-humble-rt-manipulators-cpp
  ros-humble-rt-manipulators-examples
- ros-humble-rt-manipulators-examples-debuginfo
- ros-humble-rt-manipulators-examples-debugsource
  ros-humble-rt-usb-9axisimu-driver
- ros-humble-rt-usb-9axisimu-driver-debuginfo
- ros-humble-rt-usb-9axisimu-driver-debugsource
  ros-humble-rtcm-msgs
  ros-humble-rttest
  ros-humble-ruckig
  ros-humble-rviz-2d-overlay-msgs
  ros-humble-rviz-2d-overlay-plugins
- ros-humble-rviz-2d-overlay-plugins-debuginfo
- ros-humble-rviz-2d-overlay-plugins-debugsource
  ros-humble-rviz-assimp-vendor
  ros-humble-rviz-common
- ros-humble-rviz-common-debuginfo
- ros-humble-rviz-common-debugsource
  ros-humble-rviz-default-plugins
- ros-humble-rviz-default-plugins-debuginfo
- ros-humble-rviz-default-plugins-debugsource
  ros-humble-rviz-imu-plugin
- ros-humble-rviz-imu-plugin-debuginfo
- ros-humble-rviz-imu-plugin-debugsource
  ros-humble-rviz-ogre-vendor
  ros-humble-rviz-rendering
- ros-humble-rviz-rendering-debuginfo
- ros-humble-rviz-rendering-debugsource
  ros-humble-rviz-rendering-tests
  ros-humble-rviz-satellite
- ros-humble-rviz-satellite-debuginfo
- ros-humble-rviz-satellite-debugsource
  ros-humble-rviz-visual-testing-framework
  ros-humble-rviz-visual-tools
- ros-humble-rviz-visual-tools-debuginfo
- ros-humble-rviz-visual-tools-debugsource
  ros-humble-rviz2
- ros-humble-rviz2-debuginfo
- ros-humble-rviz2-debugsource
  ros-humble-sdformat-test-files
  ros-humble-sdl2-vendor
  ros-humble-self-test
- ros-humble-self-test-debuginfo
- ros-humble-self-test-debugsource
  ros-humble-sensor-msgs
  ros-humble-sensor-msgs-py
  ros-humble-serial-driver
- ros-humble-serial-driver-debuginfo
- ros-humble-serial-driver-debugsource
  ros-humble-shape-msgs
  ros-humble-shared-queues-vendor
  ros-humble-sick-safetyscanners-base
- ros-humble-sick-safetyscanners-base-debuginfo
- ros-humble-sick-safetyscanners-base-debugsource
  ros-humble-sick-safetyscanners2
- ros-humble-sick-safetyscanners2-debuginfo
- ros-humble-sick-safetyscanners2-debugsource
  ros-humble-sick-safetyscanners2-interfaces
  ros-humble-simple-actions
  ros-humble-simple-launch
@@ -1253,12 +754,8 @@
  ros-humble-smacc2-msgs
  ros-humble-smclib
  ros-humble-snowbot-operating-system
- ros-humble-snowbot-operating-system-debuginfo
- ros-humble-snowbot-operating-system-debugsource
  ros-humble-soccer-interfaces
  ros-humble-soccer-marker-generation
- ros-humble-soccer-marker-generation-debuginfo
- ros-humble-soccer-marker-generation-debugsource
  ros-humble-soccer-object-msgs
  ros-humble-soccer-vision-2d-msgs
  ros-humble-soccer-vision-3d-msgs
@@ -1270,53 +767,31 @@
  ros-humble-splsm-7-conversion
  ros-humble-sqlite3-vendor
  ros-humble-srdfdom
- ros-humble-srdfdom-debuginfo
- ros-humble-srdfdom-debugsource
  ros-humble-sros2
  ros-humble-sros2-cmake
  ros-humble-stage-ros
- ros-humble-stage-ros-debuginfo
- ros-humble-stage-ros-debugsource
  ros-humble-statistics-msgs
  ros-humble-std-msgs
  ros-humble-std-srvs
  ros-humble-stereo-image-proc
- ros-humble-stereo-image-proc-debuginfo
- ros-humble-stereo-image-proc-debugsource
  ros-humble-stereo-msgs
  ros-humble-stubborn-buddies
- ros-humble-stubborn-buddies-debuginfo
- ros-humble-stubborn-buddies-debugsource
  ros-humble-stubborn-buddies-msgs
  ros-humble-swri-console
- ros-humble-swri-console-debuginfo
- ros-humble-swri-console-debugsource
  ros-humble-swri-dbw-interface
  ros-humble-swri-math-util
- ros-humble-swri-math-util-debuginfo
- ros-humble-swri-math-util-debugsource
  ros-humble-swri-opencv-util
- ros-humble-swri-opencv-util-debuginfo
- ros-humble-swri-opencv-util-debugsource
  ros-humble-swri-prefix-tools
  ros-humble-swri-serial-util
  ros-humble-swri-system-util
- ros-humble-swri-system-util-debuginfo
- ros-humble-swri-system-util-debugsource
  ros-humble-system-modes
- ros-humble-system-modes-debuginfo
- ros-humble-system-modes-debugsource
  ros-humble-system-modes-examples
- ros-humble-system-modes-examples-debuginfo
- ros-humble-system-modes-examples-debugsource
  ros-humble-system-modes-msgs
  ros-humble-tango-icons-vendor
  ros-humble-tcb-span
  ros-humble-teleop-tools
  ros-humble-teleop-tools-msgs
  ros-humble-teleop-twist-joy
- ros-humble-teleop-twist-joy-debuginfo
- ros-humble-teleop-twist-joy-debugsource
  ros-humble-teleop-twist-keyboard
  ros-humble-tensorrt-cmake-module
  ros-humble-test-apex-test-tools
@@ -1332,14 +807,10 @@
  ros-humble-tf2-msgs
  ros-humble-tf2-py
  ros-humble-tf2-ros
- ros-humble-tf2-ros-debuginfo
- ros-humble-tf2-ros-debugsource
  ros-humble-tf2-ros-py
  ros-humble-tf2-sensor-msgs
  ros-humble-tf2-tools
  ros-humble-theora-image-transport
- ros-humble-theora-image-transport-debuginfo
- ros-humble-theora-image-transport-debugsource
  ros-humble-tiago-controller-configuration
  ros-humble-tiago-description
  ros-humble-tiago-moveit-config
@@ -1348,15 +819,9 @@
  ros-humble-tl-expected
  ros-humble-tlsf
  ros-humble-tlsf-cpp
- ros-humble-tlsf-cpp-debuginfo
- ros-humble-tlsf-cpp-debugsource
  ros-humble-topic-monitor
  ros-humble-topic-statistics-demo
- ros-humble-topic-statistics-demo-debuginfo
- ros-humble-topic-statistics-demo-debugsource
  ros-humble-topic-tools
- ros-humble-topic-tools-debuginfo
- ros-humble-topic-tools-debugsource
  ros-humble-topic-tools-interfaces
  ros-humble-tracetools
  ros-humble-tracetools-acceleration
@@ -1364,14 +829,8 @@
  ros-humble-tracetools-read
  ros-humble-trajectory-msgs
  ros-humble-transmission-interface
- ros-humble-transmission-interface-debuginfo
- ros-humble-transmission-interface-debugsource
  ros-humble-tricycle-controller
- ros-humble-tricycle-controller-debuginfo
- ros-humble-tricycle-controller-debugsource
  ros-humble-turtle-tf2-cpp
- ros-humble-turtle-tf2-cpp-debuginfo
- ros-humble-turtle-tf2-cpp-debugsource
  ros-humble-turtle-tf2-py
  ros-humble-turtlebot3
  ros-humble-turtlebot3-bringup
@@ -1379,51 +838,33 @@
  ros-humble-turtlebot3-description
  ros-humble-turtlebot3-example
  ros-humble-turtlebot3-fake-node
- ros-humble-turtlebot3-fake-node-debuginfo
- ros-humble-turtlebot3-fake-node-debugsource
  ros-humble-turtlebot3-msgs
  ros-humble-turtlebot3-navigation2
  ros-humble-turtlebot3-node
- ros-humble-turtlebot3-node-debuginfo
- ros-humble-turtlebot3-node-debugsource
  ros-humble-turtlebot3-teleop
  ros-humble-turtlebot4-description
  ros-humble-turtlebot4-msgs
  ros-humble-turtlebot4-navigation
  ros-humble-turtlesim
- ros-humble-turtlesim-debuginfo
- ros-humble-turtlesim-debugsource
  ros-humble-twist-mux
- ros-humble-twist-mux-debuginfo
- ros-humble-twist-mux-debugsource
  ros-humble-twist-stamper
  ros-humble-ublox
  ros-humble-ublox-dgnss
  ros-humble-ublox-dgnss-node
- ros-humble-ublox-dgnss-node-debuginfo
- ros-humble-ublox-dgnss-node-debugsource
  ros-humble-ublox-gps
- ros-humble-ublox-gps-debuginfo
- ros-humble-ublox-gps-debugsource
  ros-humble-ublox-msgs
  ros-humble-ublox-serialization
  ros-humble-ublox-ubx-interfaces
  ros-humble-ublox-ubx-msgs
  ros-humble-udp-driver
- ros-humble-udp-driver-debuginfo
- ros-humble-udp-driver-debugsource
  ros-humble-udp-msgs
  ros-humble-uncrustify-vendor
  ros-humble-unique-identifier-msgs
  ros-humble-ur-client-library
  ros-humble-ur-controllers
- ros-humble-ur-controllers-debuginfo
- ros-humble-ur-controllers-debugsource
  ros-humble-ur-dashboard-msgs
  ros-humble-ur-msgs
  ros-humble-urdf
- ros-humble-urdf-debuginfo
- ros-humble-urdf-debugsource
  ros-humble-urdf-parser-plugin
  ros-humble-urdf-test
  ros-humble-urdf-tutorial
@@ -1432,56 +873,28 @@
  ros-humble-urdfdom-py
  ros-humble-urg-c
  ros-humble-urg-node
- ros-humble-urg-node-debuginfo
- ros-humble-urg-node-debugsource
  ros-humble-urg-node-msgs
  ros-humble-usb-cam
- ros-humble-usb-cam-debuginfo
- ros-humble-usb-cam-debugsource
  ros-humble-v4l2-camera
- ros-humble-v4l2-camera-debuginfo
- ros-humble-v4l2-camera-debugsource
  ros-humble-velocity-controllers
- ros-humble-velocity-controllers-debuginfo
- ros-humble-velocity-controllers-debugsource
  ros-humble-velodyne
  ros-humble-velodyne-description
  ros-humble-velodyne-driver
- ros-humble-velodyne-driver-debuginfo
- ros-humble-velodyne-driver-debugsource
  ros-humble-velodyne-laserscan
- ros-humble-velodyne-laserscan-debuginfo
- ros-humble-velodyne-laserscan-debugsource
  ros-humble-velodyne-msgs
  ros-humble-velodyne-pointcloud
- ros-humble-velodyne-pointcloud-debuginfo
- ros-humble-velodyne-pointcloud-debugsource
  ros-humble-vision-msgs
  ros-humble-vision-msgs-layers
- ros-humble-vision-msgs-layers-debuginfo
- ros-humble-vision-msgs-layers-debugsource
  ros-humble-vision-msgs-rviz-plugins
- ros-humble-vision-msgs-rviz-plugins-debuginfo
- ros-humble-vision-msgs-rviz-plugins-debugsource
  ros-humble-vision-opencv
  ros-humble-visualization-msgs
  ros-humble-vrpn
  ros-humble-wall-follower-ros2
- ros-humble-wall-follower-ros2-debuginfo
- ros-humble-wall-follower-ros2-debugsource
  ros-humble-warehouse-ros
- ros-humble-warehouse-ros-debuginfo
- ros-humble-warehouse-ros-debugsource
  ros-humble-warehouse-ros-sqlite
- ros-humble-warehouse-ros-sqlite-debuginfo
- ros-humble-warehouse-ros-sqlite-debugsource
  ros-humble-webots-ros2
  ros-humble-webots-ros2-control
- ros-humble-webots-ros2-control-debuginfo
- ros-humble-webots-ros2-control-debugsource
  ros-humble-webots-ros2-driver
- ros-humble-webots-ros2-driver-debuginfo
- ros-humble-webots-ros2-driver-debugsource
  ros-humble-webots-ros2-epuck
  ros-humble-webots-ros2-importer
  ros-humble-webots-ros2-mavic
@@ -1495,8 +908,6 @@
  ros-humble-xacro
  ros-humble-yaml-cpp-vendor
  ros-humble-zbar-ros
- ros-humble-zbar-ros-debuginfo
- ros-humble-zbar-ros-debugsource
  ros-humble-zenoh-bridge-dds
  ros-humble-zmqpp-vendor
  ros-humble-zstd-vendor
