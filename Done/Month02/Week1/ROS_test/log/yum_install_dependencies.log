@@ -1,0 +1,85 @@
+[root@openEuler-riscv64 ~]# dnf install http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-0.3.5-1.oe2203.riscv64.rpm http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-devel-0.3.5-1.oe2203.riscv64.rpm http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-5.10.1-2.oe2203.riscv64.rpm http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm
+mainline                                                                                                                    3.1 MB/s |  19 MB     00:05
+epol                                                                                                                        2.0 MB/s | 2.7 MB     00:01
+extra                                                                                                                       1.1 MB/s | 1.1 MB     00:00
+glog-0.3.5-1.oe2203.riscv64.rpm                                                                                             857 kB/s |  66 kB     00:00
+glog-devel-0.3.5-1.oe2203.riscv64.rpm                                                                                       646 kB/s |  38 kB     00:00
+suitesparse-5.10.1-2.oe2203.riscv64.rpm                                                                                     5.1 MB/s | 839 kB     00:00
+suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm                                                                               7.1 MB/s | 2.4 MB     00:00
+Dependencies resolved.
+============================================================================================================================================================
+ Package                                  Architecture                   Version                                  Repository                           Size
+============================================================================================================================================================
+Installing:
+ glog                                     riscv64                        0.3.5-1.oe2203                           @commandline                         66 k
+ glog-devel                               riscv64                        0.3.5-1.oe2203                           @commandline                         38 k
+ suitesparse                              riscv64                        5.10.1-2.oe2203                          @commandline                        839 k
+ suitesparse-devel                        riscv64                        5.10.1-2.oe2203                          @commandline                        2.4 M
+Installing dependencies:
+ cmake-filesystem                         riscv64                        3.22.0-4.oe2203                          mainline                             12 k
+ gflags                                   riscv64                        2.2.2-2.oe2203                           mainline                             88 k
+ gflags-devel                             riscv64                        2.2.2-2.oe2203                           mainline                             25 k
+ libgfortran                              riscv64                        10.3.1-10.oe2203                         mainline                            366 k
+ openblas                                 riscv64                        0.3.18-2.oe2203                          mainline                             92 M
+ openblas-devel                           riscv64                        0.3.18-2.oe2203                          mainline                             84 k
+ tbb                                      riscv64                        2020.3-5.oe2203                          mainline                            143 k
+
+Transaction Summary
+============================================================================================================================================================
+Install  11 Packages
+
+Total size: 96 M
+Total download size: 92 M
+Installed size: 804 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/7): cmake-filesystem-3.22.0-4.oe2203.riscv64.rpm                                                                          23 kB/s |  12 kB     00:00
+(2/7): gflags-2.2.2-2.oe2203.riscv64.rpm                                                                                    157 kB/s |  88 kB     00:00
+(3/7): gflags-devel-2.2.2-2.oe2203.riscv64.rpm                                                                               42 kB/s |  25 kB     00:00
+(4/7): openblas-devel-0.3.18-2.oe2203.riscv64.rpm                                                                           673 kB/s |  84 kB     00:00
+(5/7): libgfortran-10.3.1-10.oe2203.riscv64.rpm                                                                             1.1 MB/s | 366 kB     00:00
+(6/7): tbb-2020.3-5.oe2203.riscv64.rpm                                                                                       59 kB/s | 143 kB     00:02
+(7/7): openblas-0.3.18-2.oe2203.riscv64.rpm                                                                                 4.5 MB/s |  92 MB     00:20
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                       4.4 MB/s |  92 MB     00:21
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                    1/1
+  Installing       : gflags-2.2.2-2.oe2203.riscv64                                                                                                     1/11
+  Running scriptlet: gflags-2.2.2-2.oe2203.riscv64                                                                                                     1/11
+  Installing       : tbb-2020.3-5.oe2203.riscv64                                                                                                       2/11
+  Installing       : libgfortran-10.3.1-10.oe2203.riscv64                                                                                              3/11
+  Installing       : openblas-devel-0.3.18-2.oe2203.riscv64                                                                                            4/11
+  Installing       : openblas-0.3.18-2.oe2203.riscv64                                                                                                  5/11
+  Running scriptlet: openblas-0.3.18-2.oe2203.riscv64                                                                                                  5/11
+  Installing       : suitesparse-5.10.1-2.oe2203.riscv64                                                                                               6/11
+  Running scriptlet: suitesparse-5.10.1-2.oe2203.riscv64                                                                                               6/11
+  Installing       : cmake-filesystem-3.22.0-4.oe2203.riscv64                                                                                          7/11
+  Installing       : gflags-devel-2.2.2-2.oe2203.riscv64                                                                                               8/11
+  Installing       : glog-0.3.5-1.oe2203.riscv64                                                                                                       9/11
+  Installing       : glog-devel-0.3.5-1.oe2203.riscv64                                                                                                10/11
+  Installing       : suitesparse-devel-5.10.1-2.oe2203.riscv64                                                                                        11/11
+  Running scriptlet: suitesparse-devel-5.10.1-2.oe2203.riscv64                                                                                        11/11
+  Verifying        : cmake-filesystem-3.22.0-4.oe2203.riscv64                                                                                          1/11
+  Verifying        : gflags-2.2.2-2.oe2203.riscv64                                                                                                     2/11
+  Verifying        : gflags-devel-2.2.2-2.oe2203.riscv64                                                                                               3/11
+  Verifying        : libgfortran-10.3.1-10.oe2203.riscv64                                                                                              4/11
+  Verifying        : openblas-0.3.18-2.oe2203.riscv64                                                                                                  5/11
+  Verifying        : openblas-devel-0.3.18-2.oe2203.riscv64                                                                                            6/11
+  Verifying        : tbb-2020.3-5.oe2203.riscv64                                                                                                       7/11
+  Verifying        : glog-0.3.5-1.oe2203.riscv64                                                                                                       8/11
+  Verifying        : glog-devel-0.3.5-1.oe2203.riscv64                                                                                                 9/11
+  Verifying        : suitesparse-5.10.1-2.oe2203.riscv64                                                                                              10/11
+  Verifying        : suitesparse-devel-5.10.1-2.oe2203.riscv64                                                                                        11/11
+
+Installed:
+  cmake-filesystem-3.22.0-4.oe2203.riscv64              gflags-2.2.2-2.oe2203.riscv64                      gflags-devel-2.2.2-2.oe2203.riscv64
+  glog-0.3.5-1.oe2203.riscv64                           glog-devel-0.3.5-1.oe2203.riscv64                  libgfortran-10.3.1-10.oe2203.riscv64
+  openblas-0.3.18-2.oe2203.riscv64                      openblas-devel-0.3.18-2.oe2203.riscv64             suitesparse-5.10.1-2.oe2203.riscv64
+  suitesparse-devel-5.10.1-2.oe2203.riscv64             tbb-2020.3-5.oe2203.riscv64
+
+Complete!
+[root@openEuler-riscv64 ~]#

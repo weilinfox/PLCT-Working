@@ -5,7 +5,7 @@
 
 ## 环境信息
 
-### 硬件信息：
+### 硬件信息
 1. QEMU openEuler riscv64 虚拟机，QEMU emulator version 8.0.2
 2. 处理器 smp 4
 3. 内存 4GB
@@ -38,7 +38,7 @@ cp ROS.repo /etc/yum.repos.d/ROS.repo
 
 ### 安装
 
-安装 ros humble 组件时请安装 [packages.list](./packages.list) 中列出的包，目前 rv 上的 packages.list 共计有 1502 包
+安装 ros humble 组件时请安装 [packages.list](./packages.list) 中列出的包，目前 rv 上的 packages.list 共计有 913 包
 
 在 `packages.list` 文件所在目录执行以下命令
 

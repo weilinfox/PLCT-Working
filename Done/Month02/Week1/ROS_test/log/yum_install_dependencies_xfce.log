@@ -1,0 +1,113 @@
+[root@openEuler-riscv64 ~]# mkdir rpms
+[root@openEuler-riscv64 ~]# cd rpms/
+[root@openEuler-riscv64 rpms]# wget http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-0.3.5-1.oe2203.riscv64.rpm
+--2023-08-10 11:16:44--  http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-0.3.5-1.oe2203.riscv64.rpm
+Connecting to 123.60.74.95:3389... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 67593 (66K) [application/x-rpm]
+Saving to: 'glog-0.3.5-1.oe2203.riscv64.rpm'
+
+glog-0.3.5-1.oe2203.riscv64.rpm        100%[============================================================================>]  66.01K  --.-KB/s    in 0.01s
+
+2023-08-10 11:16:44 (6.61 MB/s) - 'glog-0.3.5-1.oe2203.riscv64.rpm' saved [67593/67593]
+
+[root@openEuler-riscv64 rpms]# wget http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-devel-0.3.5-1.oe2203.riscv64.rpm
+--2023-08-10 11:16:51--  http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-devel-0.3.5-1.oe2203.riscv64.rpm
+Connecting to 123.60.74.95:3389... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 39157 (38K) [application/x-rpm]
+Saving to: 'glog-devel-0.3.5-1.oe2203.riscv64.rpm'
+
+glog-devel-0.3.5-1.oe2203.riscv64.rpm  100%[============================================================================>]  38.24K  --.-KB/s    in 0.006s
+
+2023-08-10 11:16:52 (6.22 MB/s) - 'glog-devel-0.3.5-1.oe2203.riscv64.rpm' saved [39157/39157]
+
+[root@openEuler-riscv64 rpms]# wget http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-5.10.1-2.oe2203.riscv64.rpm
+--2023-08-10 11:16:59--  http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-5.10.1-2.oe2203.riscv64.rpm
+Connecting to 123.60.74.95:3389... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 858829 (839K) [application/x-rpm]
+Saving to: 'suitesparse-5.10.1-2.oe2203.riscv64.rpm'
+
+suitesparse-5.10.1-2.oe2203.riscv64.rp 100%[============================================================================>] 838.70K  --.-KB/s    in 0.1s
+
+2023-08-10 11:17:00 (8.60 MB/s) - 'suitesparse-5.10.1-2.oe2203.riscv64.rpm' saved [858829/858829]
+
+[root@openEuler-riscv64 rpms]# wget http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm
+--2023-08-10 11:17:09--  http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm
+Connecting to 123.60.74.95:3389... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2536545 (2.4M) [application/x-rpm]
+Saving to: 'suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm'
+
+suitesparse-devel-5.10.1-2.oe2203.risc 100%[============================================================================>]   2.42M  10.6MB/s    in 0.2s
+
+2023-08-10 11:17:09 (10.6 MB/s) - 'suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm' saved [2536545/2536545]
+
+[root@openEuler-riscv64 rpms]# ls
+glog-0.3.5-1.oe2203.riscv64.rpm        suitesparse-5.10.1-2.oe2203.riscv64.rpm
+glog-devel-0.3.5-1.oe2203.riscv64.rpm  suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm
+[root@openEuler-riscv64 rpms]# dnf install ./*.rpm
+openEulerROS-humble                                                                                                         3.2 MB/s | 1.2 MB     00:00
+mainline                                                                                                                    4.2 MB/s |  19 MB     00:04
+epol                                                                                                                        2.1 MB/s | 2.7 MB     00:01
+extra                                                                                                                       1.1 MB/s | 1.1 MB     00:00
+Last metadata expiration check: 0:00:01 ago on Thu Aug 10 11:17:41 2023.
+Dependencies resolved.
+============================================================================================================================================================
+ Package                                  Architecture                   Version                                  Repository                           Size
+============================================================================================================================================================
+Installing:
+ glog                                     riscv64                        0.3.5-1.oe2203                           @commandline                         66 k
+ glog-devel                               riscv64                        0.3.5-1.oe2203                           @commandline                         38 k
+ suitesparse-devel                        riscv64                        5.10.1-2.oe2203                          @commandline                        2.4 M
+Upgrading:
+ suitesparse                              riscv64                        5.10.1-2.oe2203                          @commandline                        839 k
+Installing dependencies:
+ gflags                                   riscv64                        2.2.2-2.oe2203                           mainline                             88 k
+ gflags-devel                             riscv64                        2.2.2-2.oe2203                           mainline                             25 k
+
+Transaction Summary
+============================================================================================================================================================
+Install  5 Packages
+Upgrade  1 Package
+
+Total size: 3.5 M
+Total download size: 113 k
+Is this ok [y/N]: y
+Downloading Packages:
+(1/2): gflags-devel-2.2.2-2.oe2203.riscv64.rpm                                                                               60 kB/s |  25 kB     00:00
+(2/2): gflags-2.2.2-2.oe2203.riscv64.rpm                                                                                    192 kB/s |  88 kB     00:00
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                       218 kB/s | 113 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                    1/1
+  Installing       : gflags-2.2.2-2.oe2203.riscv64                                                                                                      1/7
+  Running scriptlet: gflags-2.2.2-2.oe2203.riscv64                                                                                                      1/7
+  Installing       : gflags-devel-2.2.2-2.oe2203.riscv64                                                                                                2/7
+  Installing       : glog-0.3.5-1.oe2203.riscv64                                                                                                        3/7
+  Upgrading        : suitesparse-5.10.1-2.oe2203.riscv64                                                                                                4/7
+  Running scriptlet: suitesparse-5.10.1-2.oe2203.riscv64                                                                                                4/7
+  Installing       : suitesparse-devel-5.10.1-2.oe2203.riscv64                                                                                          5/7
+  Installing       : glog-devel-0.3.5-1.oe2203.riscv64                                                                                                  6/7
+  Cleanup          : suitesparse-4.4.6-17.oe2203.riscv64                                                                                                7/7
+  Running scriptlet: suitesparse-4.4.6-17.oe2203.riscv64                                                                                                7/7
+  Verifying        : gflags-2.2.2-2.oe2203.riscv64                                                                                                      1/7
+  Verifying        : gflags-devel-2.2.2-2.oe2203.riscv64                                                                                                2/7
+  Verifying        : glog-0.3.5-1.oe2203.riscv64                                                                                                        3/7
+  Verifying        : glog-devel-0.3.5-1.oe2203.riscv64                                                                                                  4/7
+  Verifying        : suitesparse-devel-5.10.1-2.oe2203.riscv64                                                                                          5/7
+  Verifying        : suitesparse-5.10.1-2.oe2203.riscv64                                                                                                6/7
+  Verifying        : suitesparse-4.4.6-17.oe2203.riscv64                                                                                                7/7
+
+Upgraded:
+  suitesparse-5.10.1-2.oe2203.riscv64
+Installed:
+  gflags-2.2.2-2.oe2203.riscv64                gflags-devel-2.2.2-2.oe2203.riscv64    glog-0.3.5-1.oe2203.riscv64    glog-devel-0.3.5-1.oe2203.riscv64
+  suitesparse-devel-5.10.1-2.oe2203.riscv64
+
+Complete!

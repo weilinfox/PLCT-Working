@@ -3,4 +3,3 @@ name=openEulerROS-humble
 baseurl=http://123.60.74.95:3389/home:/Z572:/ros/openEuler_22.03_22.03/
 enabled=1
 gpgcheck=0
-
