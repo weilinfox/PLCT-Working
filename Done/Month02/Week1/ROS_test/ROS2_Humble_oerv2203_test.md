@@ -35,10 +35,10 @@ gpgcheck=0
 
 安装前请先安装 4 个不在 oerv 2203 默认源里，但在 2203 obs 工程 repo 里的依赖包，包的下载 url 如下，请下载到同一目录后使用 ``dnf install ./*.rpm`` 安装
 
->http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-0.3.5-1.oe2203.riscv64.rpm
->http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-devel-0.3.5-1.oe2203.riscv64.rpm
->http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-5.10.1-2.oe2203.riscv64.rpm
->http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm
++ [http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-0.3.5-1.oe2203.riscv64.rpm](http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-0.3.5-1.oe2203.riscv64.rpm)
++ [http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-devel-0.3.5-1.oe2203.riscv64.rpm](http://123.60.74.95:3389/openEuler:/22.03:/Epol/22.03/riscv64/glog-devel-0.3.5-1.oe2203.riscv64.rpm)
++ [http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-5.10.1-2.oe2203.riscv64.rpm](http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-5.10.1-2.oe2203.riscv64.rpm)
++ [http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm](http://123.60.74.95:3389/openEuler:/22.03/22.03/riscv64/suitesparse-devel-5.10.1-2.oe2203.riscv64.rpm)
 
 ### 安装
 
