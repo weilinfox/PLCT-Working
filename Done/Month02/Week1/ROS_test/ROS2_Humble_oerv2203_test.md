@@ -68,7 +68,7 @@ dnf remove -y `cat packages.list`
 yum insatll ros-humble-* -y
 ```
 
-安装报错，完整日志见 [yum_install.log](./logs/yum_install.log)
+安装报错，完整日志见 [yum_install.log](./log/yum_install.log)
 
 ## 功能测试
 
