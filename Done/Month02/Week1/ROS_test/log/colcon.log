@@ -1,0 +1,149 @@
+[root@openEuler-riscv64 ~]# ls /opt/ros/humble/
+_local_setup_util.py  cmake  include  lib64             local_setup.sh   opt         setup.sh   share  tools
+bin                   etc    lib      local_setup.bash  local_setup.zsh  setup.bash  setup.zsh  src
+[root@openEuler-riscv64 ~]# vim .bashrc
+[root@openEuler-riscv64 ~]# source /opt/ros/humble/setup.sh
+[root@openEuler-riscv64 ~]# echo $?
+0
+[root@openEuler-riscv64 ~]# dnf search colcon
+Last metadata expiration check: 1:57:22 ago on Thu Aug 10 06:56:57 2023.
+No matches found.
+[root@openEuler-riscv64 ~]# python3 -m venv pyenv
+[root@openEuler-riscv64 ~]# echo $?
+0
+[root@openEuler-riscv64 ~]# source pyenv/bin/activate
+(pyenv) [root@openEuler-riscv64 ~]# pip install colcon-common-extensions
+Collecting colcon-common-extensions
+  Downloading colcon_common_extensions-0.3.0-py3-none-any.whl (6.5 kB)
+Collecting colcon-powershell
+  Downloading colcon_powershell-0.3.7-py3-none-any.whl (10 kB)
+Collecting colcon-package-information
+  Downloading colcon_package_information-0.3.3-py3-none-any.whl (15 kB)
+Collecting colcon-devtools
+  Downloading colcon_devtools-0.2.3-py3-none-any.whl (7.5 kB)
+Collecting colcon-library-path
+  Downloading colcon_library_path-0.2.1-py3-none-any.whl (4.9 kB)
+Collecting colcon-output
+  Downloading colcon_output-0.2.13-py3-none-any.whl (14 kB)
+Collecting colcon-cmake
+  Downloading colcon_cmake-0.2.27-py3-none-any.whl (25 kB)
+Collecting colcon-ros
+  Downloading colcon_ros-0.3.23-py3-none-any.whl (25 kB)
+Collecting colcon-metadata
+  Downloading colcon_metadata-0.2.5-py3-none-any.whl (19 kB)
+Collecting colcon-recursive-crawl
+  Downloading colcon_recursive_crawl-0.2.1-py3-none-any.whl (3.9 kB)
+Collecting colcon-defaults
+  Downloading colcon_defaults-0.2.8-py3-none-any.whl (10.0 kB)
+Collecting colcon-notification
+  Downloading colcon_notification-0.2.15-py3-none-any.whl (63 kB)
+     |████████████████████████████████| 63 kB 47 kB/s
+Collecting colcon-package-selection
+  Downloading colcon_package_selection-0.2.10-py3-none-any.whl (16 kB)
+Collecting colcon-bash
+  Downloading colcon_bash-0.4.2-py3-none-any.whl (10 kB)
+Collecting colcon-parallel-executor
+  Downloading colcon_parallel_executor-0.2.4-py3-none-any.whl (5.5 kB)
+Collecting colcon-zsh
+  Downloading colcon_zsh-0.4.0-py3-none-any.whl (6.5 kB)
+Collecting colcon-argcomplete
+  Downloading colcon_argcomplete-0.3.3-py3-none-any.whl (6.9 kB)
+Collecting colcon-cd
+  Downloading colcon_cd-0.1.1-py3-none-any.whl (3.6 kB)
+Collecting colcon-core
+  Downloading colcon_core-0.12.1-py3-none-any.whl (126 kB)
+     |████████████████████████████████| 126 kB 26 kB/s
+Collecting colcon-test-result
+  Downloading colcon_test_result-0.3.8-py3-none-any.whl (8.5 kB)
+Collecting colcon-python-setup-py
+  Downloading colcon_python_setup_py-0.2.8-py3-none-any.whl (11 kB)
+Collecting argcomplete
+  Downloading argcomplete-3.1.1-py3-none-any.whl (41 kB)
+     |████████████████████████████████| 41 kB 24 kB/s
+Collecting EmPy
+  Downloading empy-3.3.4.tar.gz (62 kB)
+     |████████████████████████████████| 62 kB 42 kB/s
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: setuptools>=30.3.0 in ./pyenv/lib/python3.9/site-packages (from colcon-core->colcon-common-extensions) (59.4.0)
+Collecting distlib
+  Downloading distlib-0.3.7-py2.py3-none-any.whl (468 kB)
+     |████████████████████████████████| 468 kB 21 kB/s
+Collecting pytest-cov
+  Downloading pytest_cov-4.1.0-py3-none-any.whl (21 kB)
+Collecting pytest
+  Downloading pytest-7.4.0-py3-none-any.whl (323 kB)
+     |████████████████████████████████| 323 kB 26 kB/s
+Collecting pytest-rerunfailures
+  Downloading pytest_rerunfailures-12.0-py3-none-any.whl (12 kB)
+Collecting pytest-repeat
+  Downloading pytest_repeat-0.9.1-py2.py3-none-any.whl (4.3 kB)
+Collecting PyYAML
+  Downloading PyYAML-6.0.1.tar.gz (125 kB)
+     |████████████████████████████████| 125 kB 23 kB/s
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting notify2
+  Downloading notify2-0.3.1-py2.py3-none-any.whl (8.0 kB)
+Collecting colcon-pkg-config
+  Downloading colcon_pkg_config-0.1.0-py3-none-any.whl (4.5 kB)
+Collecting catkin-pkg>=0.4.14
+  Downloading catkin_pkg-0.5.2-py3-none-any.whl (76 kB)
+     |████████████████████████████████| 76 kB 15 kB/s
+Collecting docutils
+  Downloading docutils-0.20.1-py3-none-any.whl (572 kB)
+     |████████████████████████████████| 572 kB 25 kB/s
+Collecting python-dateutil
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     |████████████████████████████████| 247 kB 26 kB/s
+Collecting pyparsing
+  Downloading pyparsing-3.1.1-py3-none-any.whl (103 kB)
+     |████████████████████████████████| 103 kB 35 kB/s
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.2.0-py3-none-any.whl (17 kB)
+Collecting exceptiongroup>=1.0.0rc8
+  Downloading exceptiongroup-1.1.2-py3-none-any.whl (14 kB)
+Collecting iniconfig
+  Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting tomli>=1.0.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting packaging
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+     |████████████████████████████████| 48 kB 31 kB/s
+Collecting coverage[toml]>=5.2.1
+  Downloading coverage-7.2.7.tar.gz (762 kB)
+     |████████████████████████████████| 762 kB 21 kB/s
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Installing backend dependencies ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Using legacy 'setup.py install' for EmPy, since package 'wheel' is not installed.
+Building wheels for collected packages: PyYAML, coverage
+  Building wheel for PyYAML (pyproject.toml) ... done
+  Created wheel for PyYAML: filename=PyYAML-6.0.1-cp39-cp39-linux_riscv64.whl size=45362 sha256=8a930a7b064175ef8aac39b8300c159400a1ee5c48380d7d28b11583d754f159
+  Stored in directory: /root/.cache/pip/wheels/1c/ff/88/3a317d1db793206ab64cb66367bf6f84186b75849656be786a
+  Building wheel for coverage (pyproject.toml) ... done
+  Created wheel for coverage: filename=coverage-7.2.7-cp39-cp39-linux_riscv64.whl size=201916 sha256=c5e3e9609fe13e84ce19c809fe1fc20f2f47d1cf2464f6bc5f8948e2fe53d2fc
+  Stored in directory: /root/.cache/pip/wheels/db/76/20/72aab8897780d8b5b79edf46558a77356cc44b3f5aff0b20fa
+Successfully built PyYAML coverage
+Installing collected packages: tomli, pluggy, packaging, iniconfig, exceptiongroup, coverage, pytest, pytest-rerunfailures, pytest-repeat, pytest-cov, EmPy, distlib, six, colcon-core, python-dateutil, pyparsing, docutils, colcon-test-result, colcon-library-path, PyYAML, notify2, colcon-recursive-crawl, colcon-python-setup-py, colcon-pkg-config, colcon-package-information, colcon-cmake, catkin-pkg, argcomplete, colcon-zsh, colcon-ros, colcon-powershell, colcon-parallel-executor, colcon-package-selection, colcon-output, colcon-notification, colcon-metadata, colcon-devtools, colcon-defaults, colcon-cd, colcon-bash, colcon-argcomplete, colcon-common-extensions
+    Running setup.py install for EmPy ... done
+Successfully installed EmPy-3.3.4 PyYAML-6.0.1 argcomplete-3.1.1 catkin-pkg-0.5.2 colcon-argcomplete-0.3.3 colcon-bash-0.4.2 colcon-cd-0.1.1 colcon-cmake-0.2.27 colcon-common-extensions-0.3.0 colcon-core-0.12.1 colcon-defaults-0.2.8 colcon-devtools-0.2.3 colcon-library-path-0.2.1 colcon-metadata-0.2.5 colcon-notification-0.2.15 colcon-output-0.2.13 colcon-package-information-0.3.3 colcon-package-selection-0.2.10 colcon-parallel-executor-0.2.4 colcon-pkg-config-0.1.0 colcon-powershell-0.3.7 colcon-python-setup-py-0.2.8 colcon-recursive-crawl-0.2.1 colcon-ros-0.3.23 colcon-test-result-0.3.8 colcon-zsh-0.4.0 coverage-7.2.7 distlib-0.3.7 docutils-0.20.1 exceptiongroup-1.1.2 iniconfig-2.0.0 notify2-0.3.1 packaging-23.1 pluggy-1.2.0 pyparsing-3.1.1 pytest-7.4.0 pytest-cov-4.1.0 pytest-repeat-0.9.1 pytest-rerunfailures-12.0 python-dateutil-2.8.2 six-1.16.0 tomli-2.0.1
+WARNING: You are using pip version 21.3.1; however, version 23.2.1 is available.
+You should consider upgrading via the '/root/pyenv/bin/python3 -m pip install --upgrade pip' command.
+(pyenv) [root@openEuler-riscv64 ~]# echo $?
+0
+(pyenv) [root@openEuler-riscv64 ~]# mkdir -p ~/workspace/src
+(pyenv) [root@openEuler-riscv64 ~]# cd ~/workspace
+(pyenv) [root@openEuler-riscv64 workspace]# ls
+src
+(pyenv) [root@openEuler-riscv64 workspace]# colcon build
+
+Summary: 0 packages finished [6.73s]
+(pyenv) [root@openEuler-riscv64 workspace]# echo $?
+0
+(pyenv) [root@openEuler-riscv64 workspace]# ls
+build  install  log  src
+(pyenv) [root@openEuler-riscv64 workspace]#
