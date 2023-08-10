@@ -23,14 +23,10 @@
 
 ### 修改软件源
 
-添加以下内容到 /etc/yum.repos.d/ROS.repo
+复制 [ROS.repo](./ROS.repo) 到 /etc/yum.repos.d/ROS.repo
 
-```
-[openEulerROS-humble]
-name=openEulerROS-humble
-baseurl=http://123.60.74.95:3389/home:/Z572:/ros/openEuler_22.03_22.03/
-enabled=1
-gpgcheck=0
+```bash
+cp ROS.repo /etc/yum.repos.d/ROS.repo
 ```
 
 安装前请先安装 4 个不在 oerv 2203 默认源里，但在 2203 obs 工程 repo 里的依赖包，包的下载 url 如下，请下载到同一目录后使用 ``dnf install ./*.rpm`` 安装
