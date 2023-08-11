@@ -1,0 +1,168 @@
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:20:45 2023 - INFO  - start to run testcase:oe_test_openssh_cipher.
+Fri Aug 11 00:21:39 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:21:41 2023 - INFO  - End to run testcase:oe_test_openssh_cipher.
+Fri Aug 11 00:21:43 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:21:51 2023 - INFO  - start to run testcase:oe_test_openssh_keychecking_no.
+Fri Aug 11 00:22:21 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:22:23 2023 - INFO  - End to run testcase:oe_test_openssh_keychecking_no.
+Fri Aug 11 00:22:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:22:31 2023 - INFO  - start to run testcase:oe_test_openssh_keyscan.
+Fri Aug 11 00:23:04 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:23:06 2023 - INFO  - End to run testcase:oe_test_openssh_keyscan.
+Fri Aug 11 00:23:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:23:15 2023 - INFO  - start to run testcase:oe_test_openssh_locked.
+Fri Aug 11 00:24:23 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 00:24:24 2023 - INFO  - End to run testcase:oe_test_openssh_locked.
+Fri Aug 11 00:24:25 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:24:33 2023 - INFO  - start to run testcase:oe_test_openssh_no_password.
+Fri Aug 11 00:26:24 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:26:25 2023 - INFO  - End to run testcase:oe_test_openssh_no_password.
+Fri Aug 11 00:26:27 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:26:35 2023 - INFO  - start to run testcase:oe_test_openssh_port.
+Fri Aug 11 00:27:09 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:27:10 2023 - INFO  - End to run testcase:oe_test_openssh_port.
+Fri Aug 11 00:27:12 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:27:19 2023 - INFO  - start to run testcase:oe_test_openssh_scp_P.
+Fri Aug 11 00:28:31 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:28:32 2023 - INFO  - End to run testcase:oe_test_openssh_scp_P.
+Fri Aug 11 00:28:34 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:28:42 2023 - INFO  - start to run testcase:oe_test_openssh_scp_q.
+Fri Aug 11 00:29:39 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:29:40 2023 - INFO  - End to run testcase:oe_test_openssh_scp_q.
+Fri Aug 11 00:29:41 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:29:49 2023 - INFO  - start to run testcase:oe_test_openssh_scp_r.
+Fri Aug 11 00:30:38 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:30:40 2023 - INFO  - End to run testcase:oe_test_openssh_scp_r.
+Fri Aug 11 00:30:41 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:30:49 2023 - INFO  - start to run testcase:oe_test_openssh_scp.
+Fri Aug 11 00:31:41 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:31:42 2023 - INFO  - End to run testcase:oe_test_openssh_scp.
+Fri Aug 11 00:31:44 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:31:51 2023 - INFO  - start to run testcase:oe_test_openssh_sftp.
+Fri Aug 11 00:32:49 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:32:51 2023 - INFO  - End to run testcase:oe_test_openssh_sftp.
+Fri Aug 11 00:32:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:33:00 2023 - INFO  - start to run testcase:oe_test_openssh_ssh_agent.
+Fri Aug 11 00:34:13 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:34:14 2023 - INFO  - End to run testcase:oe_test_openssh_ssh_agent.
+Fri Aug 11 00:34:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:34:23 2023 - INFO  - start to run testcase:oe_test_openssh_ssh_command.
+Fri Aug 11 00:34:58 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:35:00 2023 - INFO  - End to run testcase:oe_test_openssh_ssh_command.
+Fri Aug 11 00:35:01 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:35:08 2023 - INFO  - start to run testcase:oe_test_openssh_ssh-copy-id.
+Fri Aug 11 00:36:50 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:36:52 2023 - INFO  - End to run testcase:oe_test_openssh_ssh-copy-id.
+Fri Aug 11 00:36:54 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:37:05 2023 - INFO  - start to run testcase:oe_test_openssh_ssh_user.
+Fri Aug 11 00:38:30 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:38:32 2023 - INFO  - End to run testcase:oe_test_openssh_ssh_user.
+Fri Aug 11 00:38:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:38:46 2023 - INFO  - start to run testcase:oe_test_service_sshd.
+Fri Aug 11 00:40:02 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:40:04 2023 - INFO  - End to run testcase:oe_test_service_sshd.
+Fri Aug 11 00:40:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:40:15 2023 - INFO  - start to run testcase:oe_test_socket_sshd.
+Fri Aug 11 00:41:18 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:41:20 2023 - INFO  - End to run testcase:oe_test_socket_sshd.
+Fri Aug 11 00:41:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:41:31 2023 - INFO  - start to run testcase:oe_test_target_sshd-keygen.
+Fri Aug 11 00:42:14 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:42:17 2023 - INFO  - End to run testcase:oe_test_target_sshd-keygen.
+Fri Aug 11 00:42:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:42:29 2023 - INFO  - start to run testcase:oe_test_start_ssh.
+Fri Aug 11 00:42:57 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:43:00 2023 - INFO  - End to run testcase:oe_test_start_ssh.
+Fri Aug 11 00:43:02 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:43:13 2023 - INFO  - start to run testcase:oe_test_sec_ssh.
+Fri Aug 11 00:46:47 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 00:46:49 2023 - INFO  - End to run testcase:oe_test_sec_ssh.
+Fri Aug 11 00:46:51 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+Fri Aug 11 00:47:04 2023 - INFO  - start to run testcase:oe_test_sec_jump_login.
+Fri Aug 11 00:47:55 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:47:57 2023 - INFO  - End to run testcase:oe_test_sec_jump_login.
+Fri Aug 11 00:47:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

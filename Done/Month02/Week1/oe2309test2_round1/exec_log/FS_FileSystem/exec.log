@@ -1,0 +1,502 @@
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:21:02 2023 - INFO  - start to run testcase:oe_test_FSIO_change_fs.
+Fri Aug 11 00:21:30 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 00:21:31 2023 - INFO  - End to run testcase:oe_test_FSIO_change_fs.
+Fri Aug 11 00:21:33 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:21:40 2023 - INFO  - start to run testcase:oe_test_FSIO_check_fs_mounted.
+Fri Aug 11 00:21:53 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:21:54 2023 - INFO  - End to run testcase:oe_test_FSIO_check_fs_mounted.
+Fri Aug 11 00:21:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:22:04 2023 - INFO  - start to run testcase:oe_test_FSIO_check_fs_type.
+Fri Aug 11 00:22:18 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 00:22:20 2023 - INFO  - End to run testcase:oe_test_FSIO_check_fs_type.
+Fri Aug 11 00:22:21 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:22:29 2023 - INFO  - start to run testcase:oe_test_FSIO_create_ext3.
+Fri Aug 11 00:22:55 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:22:57 2023 - INFO  - End to run testcase:oe_test_FSIO_create_ext3.
+Fri Aug 11 00:22:58 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:23:05 2023 - INFO  - start to run testcase:oe_test_FSIO_create_ext4.
+Fri Aug 11 00:23:28 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:23:30 2023 - INFO  - End to run testcase:oe_test_FSIO_create_ext4.
+Fri Aug 11 00:23:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:23:39 2023 - INFO  - start to run testcase:oe_test_FSIO_create_xfs.
+Fri Aug 11 00:24:01 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:24:03 2023 - INFO  - End to run testcase:oe_test_FSIO_create_xfs.
+Fri Aug 11 00:24:04 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:24:12 2023 - INFO  - start to run testcase:oe_test_FSIO_dd_mkfs.
+Fri Aug 11 00:29:20 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 00:29:22 2023 - INFO  - End to run testcase:oe_test_FSIO_dd_mkfs.
+Fri Aug 11 00:29:24 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:29:33 2023 - INFO  - start to run testcase:oe_test_FSIO_ext3_resize2fs.
+Fri Aug 11 00:30:02 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:30:04 2023 - INFO  - End to run testcase:oe_test_FSIO_ext3_resize2fs.
+Fri Aug 11 00:30:05 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:30:13 2023 - INFO  - start to run testcase:oe_test_FSIO_ext4_e4defrag.
+Fri Aug 11 00:31:55 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 00:31:57 2023 - INFO  - End to run testcase:oe_test_FSIO_ext4_e4defrag.
+Fri Aug 11 00:31:58 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:32:07 2023 - INFO  - start to run testcase:oe_test_FSIO_ext4_resize2fs.
+Fri Aug 11 00:32:34 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 00:32:36 2023 - INFO  - End to run testcase:oe_test_FSIO_ext4_resize2fs.
+Fri Aug 11 00:32:37 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:32:46 2023 - INFO  - start to run testcase:oe_test_FSIO_loop_fs.
+Fri Aug 11 00:33:24 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 00:33:26 2023 - INFO  - End to run testcase:oe_test_FSIO_loop_fs.
+Fri Aug 11 00:33:27 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 00:33:36 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_automount.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Fri Aug 11 01:03:41 2023 - WARN  - The case execution timeout.
+Fri Aug 11 01:03:42 2023 - ERROR - The case exit by code 143.
+Fri Aug 11 01:03:43 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_automount.
+Fri Aug 11 01:03:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:03:52 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_block_dir.
+Fri Aug 11 01:04:23 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 01:04:25 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_block_dir.
+Fri Aug 11 01:04:26 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:04:35 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_character_dir.
+Fri Aug 11 01:05:03 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 01:05:05 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_character_dir.
+Fri Aug 11 01:05:06 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:05:14 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_empty_dir.
+Fri Aug 11 01:05:43 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 01:05:45 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_empty_dir.
+Fri Aug 11 01:05:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:05:54 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext3_ro.
+Fri Aug 11 01:06:21 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:06:22 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext3_ro.
+Fri Aug 11 01:06:24 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:06:33 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext3_rw.
+Fri Aug 11 01:06:55 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:06:57 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext3_rw.
+Fri Aug 11 01:06:58 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:07:07 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext3_setData.
+Fri Aug 11 01:07:32 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 01:07:33 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext3_setData.
+Fri Aug 11 01:07:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:07:43 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext3_setErrors.
+Fri Aug 11 01:08:09 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 01:08:11 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext3_setErrors.
+Fri Aug 11 01:08:12 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:08:21 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext3_sync.
+Fri Aug 11 01:10:00 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:10:01 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext3_sync.
+Fri Aug 11 01:10:02 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:10:12 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext3_to_ext4.
+Fri Aug 11 01:10:37 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:10:38 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext3_to_ext4.
+Fri Aug 11 01:10:40 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:10:47 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_block_validity.
+Fri Aug 11 01:11:09 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:11:11 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_block_validity.
+Fri Aug 11 01:11:12 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:11:19 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_delalloc.
+Fri Aug 11 01:11:40 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:11:41 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_delalloc.
+Fri Aug 11 01:11:42 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:11:50 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_discard.
+Fri Aug 11 01:12:14 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:12:15 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_discard.
+Fri Aug 11 01:12:16 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:12:25 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_noblock_validity.
+Fri Aug 11 01:12:44 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:12:46 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_noblock_validity.
+Fri Aug 11 01:12:47 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:12:55 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_nodiscard.
+Fri Aug 11 01:13:19 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:13:21 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_nodiscard.
+Fri Aug 11 01:13:22 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:13:31 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_ro.
+Fri Aug 11 01:13:56 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:13:58 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_ro.
+Fri Aug 11 01:13:59 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:14:07 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_rw.
+Fri Aug 11 01:14:27 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:14:29 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_rw.
+Fri Aug 11 01:14:30 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:14:37 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_setData.
+Fri Aug 11 01:14:58 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 01:15:00 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_setData.
+Fri Aug 11 01:15:01 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:15:09 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_setErrors.
+Fri Aug 11 01:15:35 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 01:15:37 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_setErrors.
+Fri Aug 11 01:15:38 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:15:46 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_ext4_sync.
+Fri Aug 11 01:17:18 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:17:19 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_ext4_sync.
+Fri Aug 11 01:17:20 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:17:28 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_nonempty_dir.
+Fri Aug 11 01:18:14 2023 - ERROR - The case exit by code 9.
+Fri Aug 11 01:18:15 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_nonempty_dir.
+Fri Aug 11 01:18:17 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:18:26 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_reboot.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Fri Aug 11 01:48:31 2023 - WARN  - The case execution timeout.
+Fri Aug 11 01:48:32 2023 - ERROR - The case exit by code 143.
+Fri Aug 11 01:48:34 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_reboot.
+Fri Aug 11 01:48:35 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:48:45 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_remount.
+Fri Aug 11 01:49:51 2023 - ERROR - The case exit by code 12.
+Fri Aug 11 01:49:53 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_remount.
+Fri Aug 11 01:49:54 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:50:05 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_umount_ext3.
+Fri Aug 11 01:50:49 2023 - ERROR - The case exit by code 5.
+Fri Aug 11 01:50:52 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_umount_ext3.
+Fri Aug 11 01:50:54 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:51:03 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_umount_ext4.
+Fri Aug 11 01:51:44 2023 - ERROR - The case exit by code 5.
+Fri Aug 11 01:51:46 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_umount_ext4.
+Fri Aug 11 01:51:48 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:51:59 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_umount_xfs.
+Fri Aug 11 01:52:41 2023 - ERROR - The case exit by code 5.
+Fri Aug 11 01:52:43 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_umount_xfs.
+Fri Aug 11 01:52:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:52:56 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_dax.
+Fri Aug 11 01:54:50 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:54:51 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_dax.
+Fri Aug 11 01:54:53 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:55:03 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_discard.
+Fri Aug 11 01:55:31 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:55:33 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_discard.
+Fri Aug 11 01:55:35 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:55:44 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_nodiscard.
+Fri Aug 11 01:56:11 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:56:13 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_nodiscard.
+Fri Aug 11 01:56:14 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:56:25 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_ro.
+Fri Aug 11 01:56:52 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:56:54 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_ro.
+Fri Aug 11 01:56:55 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:57:06 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_rw.
+Fri Aug 11 01:57:30 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 01:57:32 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_rw.
+Fri Aug 11 01:57:34 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:57:43 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_sync.
+Fri Aug 11 01:59:36 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 01:59:38 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_sync.
+Fri Aug 11 01:59:40 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 01:59:49 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_xfsdump.
+Fri Aug 11 02:02:17 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:02:19 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_xfsdump.
+Fri Aug 11 02:02:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:02:31 2023 - INFO  - start to run testcase:oe_test_FSIO_mount_xfs_xfsrestore.
+Fri Aug 11 02:04:57 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 02:04:59 2023 - INFO  - End to run testcase:oe_test_FSIO_mount_xfs_xfsrestore.
+Fri Aug 11 02:05:01 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:05:10 2023 - INFO  - start to run testcase:oe_test_FSIO_mv_rm_mount.
+Fri Aug 11 02:05:41 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 02:05:43 2023 - INFO  - End to run testcase:oe_test_FSIO_mv_rm_mount.
+Fri Aug 11 02:05:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:05:54 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_modify_1.
+Fri Aug 11 02:06:13 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:06:15 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_modify_1.
+Fri Aug 11 02:06:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:06:27 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_modify_2.
+Fri Aug 11 02:06:45 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:06:47 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_modify_2.
+Fri Aug 11 02:06:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:06:57 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_modify_3.
+Fri Aug 11 02:07:15 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:07:17 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_modify_3.
+Fri Aug 11 02:07:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:07:29 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_mount.
+Fri Aug 11 02:07:50 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:07:52 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_mount.
+Fri Aug 11 02:07:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:08:03 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_rename_1.
+Fri Aug 11 02:08:24 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:08:25 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_rename_1.
+Fri Aug 11 02:08:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:08:36 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_rename_2.
+Fri Aug 11 02:08:55 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:08:57 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_rename_2.
+Fri Aug 11 02:08:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:09:09 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_rename_3.
+Fri Aug 11 02:09:30 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:09:31 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_rename_3.
+Fri Aug 11 02:09:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:09:42 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_rm_1.
+Fri Aug 11 02:10:01 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:10:03 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_rm_1.
+Fri Aug 11 02:10:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:10:15 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_rm_2.
+Fri Aug 11 02:10:34 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:10:35 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_rm_2.
+Fri Aug 11 02:10:37 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:10:45 2023 - INFO  - start to run testcase:oe_test_FSIO_overlay_rm_3.
+Fri Aug 11 02:11:06 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:11:08 2023 - INFO  - End to run testcase:oe_test_FSIO_overlay_rm_3.
+Fri Aug 11 02:11:10 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:11:20 2023 - INFO  - start to run testcase:oe_test_FSIO_remkfs.
+Fri Aug 11 02:11:49 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 02:11:50 2023 - INFO  - End to run testcase:oe_test_FSIO_remkfs.
+Fri Aug 11 02:11:52 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:12:02 2023 - INFO  - start to run testcase:oe_test_FSIO_rw_mount.
+Fri Aug 11 02:26:48 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 02:26:50 2023 - INFO  - End to run testcase:oe_test_FSIO_rw_mount.
+Fri Aug 11 02:26:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:27:01 2023 - INFO  - start to run testcase:oe_test_FSIO_umount_busy.
+Fri Aug 11 02:27:55 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 02:27:56 2023 - INFO  - End to run testcase:oe_test_FSIO_umount_busy.
+Fri Aug 11 02:27:58 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:28:08 2023 - INFO  - start to run testcase:oe_test_FSIO_umount_by_openfile.
+Fri Aug 11 02:28:42 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 02:28:44 2023 - INFO  - End to run testcase:oe_test_FSIO_umount_by_openfile.
+Fri Aug 11 02:28:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:28:56 2023 - INFO  - start to run testcase:oe_test_FSIO_xfs_resize2fs.
+Fri Aug 11 02:29:27 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 02:29:29 2023 - INFO  - End to run testcase:oe_test_FSIO_xfs_resize2fs.
+Fri Aug 11 02:29:30 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::94c5:aeb5:bb54:8dd1': not a valid identifier
+mugen.sh: line 99: export: `fe80::dbb4:7c7a:679b:a470': not a valid identifier
+mugen.sh: line 99: export: `fec0::96a1:8a86:810a:13c1': not a valid identifier
+mugen.sh: line 99: export: `fe80::e872:331f:f815:d154': not a valid identifier
+Fri Aug 11 02:29:40 2023 - INFO  - start to run testcase:oe_test_FSIO_create_squashfs.
+Fri Aug 11 02:30:10 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 02:30:12 2023 - INFO  - End to run testcase:oe_test_FSIO_create_squashfs.
+Fri Aug 11 02:30:14 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

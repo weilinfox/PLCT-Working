@@ -1,0 +1,54 @@
+{
+    "path": "${OET_PATH}/testcases/system-test/fs-test/FS_FileSystem",
+    "add disk": [
+        20
+    ],
+    "machine num": 2,
+    "cases": [
+        {
+            "name": "oe_test_FSIO_check_fs_mounted"
+        },
+        {
+            "name": "oe_test_FSIO_mount_ext3_setData"
+        },
+        {
+            "name": "oe_test_FSIO_mount_ext4_setData"
+        },
+        {
+            "name": "oe_test_FSIO_mount_xfs_xfsdump"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_modify_1"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_modify_2"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_modify_3"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_mount"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_rename_1"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_rename_2"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_rename_3"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_rm_1"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_rm_2"
+        },
+        {
+            "name": "oe_test_FSIO_overlay_rm_3"
+        },
+        {
+            "name": "oe_test_FSIO_rw_mount"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:20:45 2023 - INFO  - start to run testcase:oe_test_ndisc6_addr2name.
+Fri Aug 11 00:23:58 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:24:00 2023 - INFO  - End to run testcase:oe_test_ndisc6_addr2name.
+Fri Aug 11 00:24:01 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:24:09 2023 - INFO  - start to run testcase:oe_test_ndisc6_name2addr.
+Fri Aug 11 00:26:26 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 00:26:27 2023 - INFO  - End to run testcase:oe_test_ndisc6_name2addr.
+Fri Aug 11 00:26:29 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:26:38 2023 - INFO  - start to run testcase:oe_test_ndisc6_ndisc6.
+Fri Aug 11 00:29:00 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:29:02 2023 - INFO  - End to run testcase:oe_test_ndisc6_ndisc6.
+Fri Aug 11 00:29:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:29:10 2023 - INFO  - start to run testcase:oe_test_ndisc6_rdisc6.
+Fri Aug 11 00:32:04 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 00:32:06 2023 - INFO  - End to run testcase:oe_test_ndisc6_rdisc6.
+Fri Aug 11 00:32:07 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:32:15 2023 - INFO  - start to run testcase:oe_test_ndisc6_rdnssd.
+Fri Aug 11 00:34:43 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:34:45 2023 - INFO  - End to run testcase:oe_test_ndisc6_rdnssd.
+Fri Aug 11 00:34:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:34:53 2023 - INFO  - start to run testcase:oe_test_ndisc6_rltraceroute6.
+Fri Aug 11 00:37:33 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:37:36 2023 - INFO  - End to run testcase:oe_test_ndisc6_rltraceroute6.
+Fri Aug 11 00:37:37 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:37:46 2023 - INFO  - start to run testcase:oe_test_ndisc6_tcpspray.
+Fri Aug 11 00:40:52 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:40:54 2023 - INFO  - End to run testcase:oe_test_ndisc6_tcpspray.
+Fri Aug 11 00:40:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:41:08 2023 - INFO  - start to run testcase:oe_test_ndisc6_tcptraceroute6.
+Fri Aug 11 00:44:09 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:44:11 2023 - INFO  - End to run testcase:oe_test_ndisc6_tcptraceroute6.
+Fri Aug 11 00:44:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::9bc0:669:944f:7ce3': not a valid identifier
+mugen.sh: line 99: export: `fe80::309d:1d6:b420:41ba': not a valid identifier
+mugen.sh: line 99: export: `fec0::b37f:6547:8cc8:ea82': not a valid identifier
+mugen.sh: line 99: export: `fe80::a7a8:f3ec:21a8:3ff8': not a valid identifier
+Fri Aug 11 00:44:22 2023 - INFO  - start to run testcase:oe_test_ndisc6_tracert6.
+Fri Aug 11 00:47:36 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 00:47:38 2023 - INFO  - End to run testcase:oe_test_ndisc6_tracert6.
+Fri Aug 11 00:47:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
