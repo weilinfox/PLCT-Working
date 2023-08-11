@@ -1,0 +1,493 @@
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:22:07 2023 - INFO  - start to run testcase:oe_test_firewalld_add_newservice.
+Fri Aug 11 10:25:04 2023 - ERROR - The case exit by code 7.
+Fri Aug 11 10:25:05 2023 - INFO  - End to run testcase:oe_test_firewalld_add_newservice.
+Fri Aug 11 10:25:06 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:25:12 2023 - INFO  - start to run testcase:oe_test_firewalld_add_port.
+Fri Aug 11 10:26:55 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:26:56 2023 - INFO  - End to run testcase:oe_test_firewalld_add_port.
+Fri Aug 11 10:26:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:27:02 2023 - INFO  - start to run testcase:oe_test_firewalld_addport_udp.
+Fri Aug 11 10:29:35 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:29:36 2023 - INFO  - End to run testcase:oe_test_firewalld_addport_udp.
+Fri Aug 11 10:29:37 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:29:43 2023 - INFO  - start to run testcase:oe_test_firewalld_add_service.
+Fri Aug 11 10:31:25 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 10:31:26 2023 - INFO  - End to run testcase:oe_test_firewalld_add_service.
+Fri Aug 11 10:31:27 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:31:32 2023 - INFO  - start to run testcase:oe_test_firewalld_add_sourceip.
+Fri Aug 11 10:31:44 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:31:45 2023 - INFO  - End to run testcase:oe_test_firewalld_add_sourceip.
+Fri Aug 11 10:31:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:31:51 2023 - INFO  - start to run testcase:oe_test_firewalld_add_sourceport.
+Fri Aug 11 10:32:05 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:32:06 2023 - INFO  - End to run testcase:oe_test_firewalld_add_sourceport.
+Fri Aug 11 10:32:06 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:32:11 2023 - INFO  - start to run testcase:oe_test_firewalld_allow_zones.
+Fri Aug 11 10:34:06 2023 - ERROR - The case exit by code 9.
+Fri Aug 11 10:34:07 2023 - INFO  - End to run testcase:oe_test_firewalld_allow_zones.
+Fri Aug 11 10:34:08 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:34:13 2023 - INFO  - start to run testcase:oe_test_firewalld_block_all_icmp.
+Fri Aug 11 10:34:25 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 10:34:26 2023 - INFO  - End to run testcase:oe_test_firewalld_block_all_icmp.
+Fri Aug 11 10:34:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:34:32 2023 - INFO  - start to run testcase:oe_test_firewalld_block_icmp.
+Fri Aug 11 10:34:54 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 10:34:55 2023 - INFO  - End to run testcase:oe_test_firewalld_block_icmp.
+Fri Aug 11 10:34:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:35:01 2023 - INFO  - start to run testcase:oe_test_firewalld_change_interface.
+Fri Aug 11 10:36:39 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 10:36:40 2023 - INFO  - End to run testcase:oe_test_firewalld_change_interface.
+Fri Aug 11 10:36:40 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:36:46 2023 - INFO  - start to run testcase:oe_test_firewalld_change_xml.
+Fri Aug 11 10:38:25 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:38:26 2023 - INFO  - End to run testcase:oe_test_firewalld_change_xml.
+Fri Aug 11 10:38:27 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:38:32 2023 - INFO  - start to run testcase:oe_test_firewalld_directrule_acceptdport.
+Fri Aug 11 10:40:08 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:40:09 2023 - INFO  - End to run testcase:oe_test_firewalld_directrule_acceptdport.
+Fri Aug 11 10:40:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:40:15 2023 - INFO  - start to run testcase:oe_test_firewalld_dnat.
+Fri Aug 11 10:43:04 2023 - ERROR - The case exit by code 17.
+Fri Aug 11 10:43:05 2023 - INFO  - End to run testcase:oe_test_firewalld_dnat.
+Fri Aug 11 10:43:06 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:43:11 2023 - INFO  - start to run testcase:oe_test_firewalld_dropzone_service.
+Fri Aug 11 10:44:53 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 10:44:55 2023 - INFO  - End to run testcase:oe_test_firewalld_dropzone_service.
+Fri Aug 11 10:44:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:45:01 2023 - INFO  - start to run testcase:oe_test_firewalld_forward_nat.
+Fri Aug 11 10:47:34 2023 - ERROR - The case exit by code 5.
+Fri Aug 11 10:47:35 2023 - INFO  - End to run testcase:oe_test_firewalld_forward_nat.
+Fri Aug 11 10:47:36 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:47:41 2023 - INFO  - start to run testcase:oe_test_firewalld_getzone.
+Fri Aug 11 10:47:54 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 10:47:55 2023 - INFO  - End to run testcase:oe_test_firewalld_getzone.
+Fri Aug 11 10:47:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:48:01 2023 - INFO  - start to run testcase:oe_test_firewalld_ip_camouflage.
+Fri Aug 11 10:48:17 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 10:48:18 2023 - INFO  - End to run testcase:oe_test_firewalld_ip_camouflage.
+Fri Aug 11 10:48:19 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:48:24 2023 - INFO  - start to run testcase:oe_test_firewalld_list.
+Fri Aug 11 10:48:37 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:48:38 2023 - INFO  - End to run testcase:oe_test_firewalld_list.
+Fri Aug 11 10:48:39 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:48:44 2023 - INFO  - start to run testcase:oe_test_firewalld_lockdown.
+Fri Aug 11 10:48:57 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 10:48:58 2023 - INFO  - End to run testcase:oe_test_firewalld_lockdown.
+Fri Aug 11 10:48:59 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:49:04 2023 - INFO  - start to run testcase:oe_test_firewalld_log_denied.
+Fri Aug 11 10:51:43 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 10:51:44 2023 - INFO  - End to run testcase:oe_test_firewalld_log_denied.
+Fri Aug 11 10:51:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:51:51 2023 - INFO  - start to run testcase:oe_test_firewalld_manage_icmp.
+Fri Aug 11 10:52:01 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 10:52:02 2023 - INFO  - End to run testcase:oe_test_firewalld_manage_icmp.
+Fri Aug 11 10:52:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:52:07 2023 - INFO  - start to run testcase:oe_test_firewalld_new_zone.
+Fri Aug 11 10:52:21 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 10:52:22 2023 - INFO  - End to run testcase:oe_test_firewalld_new_zone.
+Fri Aug 11 10:52:23 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:52:29 2023 - INFO  - start to run testcase:oe_test_firewalld_panic_on.
+Fri Aug 11 10:53:26 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 10:53:27 2023 - INFO  - End to run testcase:oe_test_firewalld_panic_on.
+Fri Aug 11 10:53:28 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:53:33 2023 - INFO  - start to run testcase:oe_test_firewalld_port_map.
+Fri Aug 11 10:56:05 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 10:56:06 2023 - INFO  - End to run testcase:oe_test_firewalld_port_map.
+Fri Aug 11 10:56:07 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:56:12 2023 - INFO  - start to run testcase:oe_test_firewalld_protocol_tcp.
+Fri Aug 11 10:58:46 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 10:58:47 2023 - INFO  - End to run testcase:oe_test_firewalld_protocol_tcp.
+Fri Aug 11 10:58:48 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 10:58:53 2023 - INFO  - start to run testcase:oe_test_firewalld_richrule_acceptsource.
+Fri Aug 11 11:00:31 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 11:00:32 2023 - INFO  - End to run testcase:oe_test_firewalld_richrule_acceptsource.
+Fri Aug 11 11:00:33 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:00:38 2023 - INFO  - start to run testcase:oe_test_firewalld_richrule_allowippak.
+Fri Aug 11 11:02:18 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 11:02:19 2023 - INFO  - End to run testcase:oe_test_firewalld_richrule_allowippak.
+Fri Aug 11 11:02:20 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:02:25 2023 - INFO  - start to run testcase:oe_test_firewalld_richrule_blacklist.
+Fri Aug 11 11:03:08 2023 - ERROR - The case exit by code 6.
+Fri Aug 11 11:03:09 2023 - INFO  - End to run testcase:oe_test_firewalld_richrule_blacklist.
+Fri Aug 11 11:03:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:03:15 2023 - INFO  - start to run testcase:oe_test_firewalld_richrule_dropicmppack.
+Fri Aug 11 11:03:40 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 11:03:41 2023 - INFO  - End to run testcase:oe_test_firewalld_richrule_dropicmppack.
+Fri Aug 11 11:03:42 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:03:48 2023 - INFO  - start to run testcase:oe_test_firewalld_richrule_dropipv4pak.
+Fri Aug 11 11:05:31 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 11:05:32 2023 - INFO  - End to run testcase:oe_test_firewalld_richrule_dropipv4pak.
+Fri Aug 11 11:05:33 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:05:38 2023 - INFO  - start to run testcase:oe_test_firewalld_richrule_forwardport.
+Fri Aug 11 11:08:19 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 11:08:20 2023 - INFO  - End to run testcase:oe_test_firewalld_richrule_forwardport.
+Fri Aug 11 11:08:21 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:08:27 2023 - INFO  - start to run testcase:oe_test_firewalld_runtime_permanent.
+Fri Aug 11 11:08:40 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 11:08:41 2023 - INFO  - End to run testcase:oe_test_firewalld_runtime_permanent.
+Fri Aug 11 11:08:42 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:08:47 2023 - INFO  - start to run testcase:oe_test_firewalld_set_defaultzone.
+Fri Aug 11 11:10:29 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 11:10:30 2023 - INFO  - End to run testcase:oe_test_firewalld_set_defaultzone.
+Fri Aug 11 11:10:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:10:36 2023 - INFO  - start to run testcase:oe_test_firewalld_set_ipset.
+Fri Aug 11 11:12:22 2023 - ERROR - The case exit by code 7.
+Fri Aug 11 11:12:23 2023 - INFO  - End to run testcase:oe_test_firewalld_set_ipset.
+Fri Aug 11 11:12:24 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:12:29 2023 - INFO  - start to run testcase:oe_test_firewalld_set_priority.
+Fri Aug 11 11:12:39 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 11:12:40 2023 - INFO  - End to run testcase:oe_test_firewalld_set_priority.
+Fri Aug 11 11:12:41 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:12:46 2023 - INFO  - start to run testcase:oe_test_firewalld_set_target.
+Fri Aug 11 11:13:00 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 11:13:01 2023 - INFO  - End to run testcase:oe_test_firewalld_set_target.
+Fri Aug 11 11:13:02 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:13:07 2023 - INFO  - start to run testcase:oe_test_firewalld_start_check.
+Fri Aug 11 11:13:17 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 11:13:18 2023 - INFO  - End to run testcase:oe_test_firewalld_start_check.
+Fri Aug 11 11:13:19 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:13:24 2023 - INFO  - start to run testcase:oe_test_firewalld_start_status.
+Fri Aug 11 11:13:37 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 11:13:38 2023 - INFO  - End to run testcase:oe_test_firewalld_start_status.
+Fri Aug 11 11:13:39 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:13:44 2023 - INFO  - start to run testcase:oe_test_firewalld_start_stop.
+Fri Aug 11 11:14:12 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 11:14:13 2023 - INFO  - End to run testcase:oe_test_firewalld_start_stop.
+Fri Aug 11 11:14:14 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:14:19 2023 - INFO  - start to run testcase:oe_test_firewalld_whitelist_command.
+Fri Aug 11 11:14:39 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 11:14:40 2023 - INFO  - End to run testcase:oe_test_firewalld_whitelist_command.
+Fri Aug 11 11:14:40 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:14:46 2023 - INFO  - start to run testcase:oe_test_firewalld_whitelist_contexts.
+Fri Aug 11 11:14:57 2023 - ERROR - The case exit by code 1.
+Fri Aug 11 11:14:58 2023 - INFO  - End to run testcase:oe_test_firewalld_whitelist_contexts.
+Fri Aug 11 11:14:59 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:15:04 2023 - INFO  - start to run testcase:oe_test_firewalld_whitelist_uids.
+Fri Aug 11 11:15:20 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 11:15:21 2023 - INFO  - End to run testcase:oe_test_firewalld_whitelist_uids.
+Fri Aug 11 11:15:22 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:15:27 2023 - INFO  - start to run testcase:oe_test_firewalld_whitelist_user.
+Fri Aug 11 11:15:43 2023 - ERROR - The case exit by code 4.
+Fri Aug 11 11:15:44 2023 - INFO  - End to run testcase:oe_test_firewalld_whitelist_user.
+Fri Aug 11 11:15:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:15:50 2023 - INFO  - start to run testcase:oe_test_firewalld_zone_add_service.
+Fri Aug 11 11:16:03 2023 - ERROR - The case exit by code 2.
+Fri Aug 11 11:16:04 2023 - INFO  - End to run testcase:oe_test_firewalld_zone_add_service.
+Fri Aug 11 11:16:05 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:16:10 2023 - INFO  - start to run testcase:oe_test_service_firewalld.
+Fri Aug 11 11:17:11 2023 - ERROR - The case exit by code 8.
+Fri Aug 11 11:17:12 2023 - INFO  - End to run testcase:oe_test_service_firewalld.
+Fri Aug 11 11:17:13 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:17:18 2023 - INFO  - start to run testcase:oe_test_firewalld_default_rules.
+Fri Aug 11 11:17:37 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 11:17:38 2023 - INFO  - End to run testcase:oe_test_firewalld_default_rules.
+Fri Aug 11 11:17:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:17:44 2023 - INFO  - start to run testcase:oe_test_firewalld_runtime_rules_in_effect.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Fri Aug 11 11:47:47 2023 - WARN  - The case execution timeout.
+Fri Aug 11 11:47:48 2023 - ERROR - The case exit by code 143.
+Fri Aug 11 11:47:49 2023 - INFO  - End to run testcase:oe_test_firewalld_runtime_rules_in_effect.
+Fri Aug 11 11:47:51 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 11:47:58 2023 - INFO  - start to run testcase:oe_test_firewalld_permanent_rules_in_effect.
+Fri Aug 11 12:17:54 2023 - INFO  - The case exit by code 0.
+Fri Aug 11 12:17:55 2023 - INFO  - End to run testcase:oe_test_firewalld_permanent_rules_in_effect.
+Fri Aug 11 12:17:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fec0::5566:b759:299e:93a4': not a valid identifier
+mugen.sh: line 99: export: `fe80::90fb:4294:b5e7:75eb': not a valid identifier
+mugen.sh: line 99: export: `fec0::99a2:7b72:a935:3604': not a valid identifier
+mugen.sh: line 99: export: `fe80::c138:92ca:e2d0:bacd': not a valid identifier
+mugen.sh: line 99: export: `fec0::9ac:f2a4:8184:adfe': not a valid identifier
+mugen.sh: line 99: export: `fe80::858f:b71b:f08d:58cb': not a valid identifier
+Fri Aug 11 12:18:02 2023 - INFO  - start to run testcase:oe_test_firewalld_zone_migration.
+Fri Aug 11 12:31:54 2023 - ERROR - The case exit by code 3.
+Fri Aug 11 12:31:55 2023 - INFO  - End to run testcase:oe_test_firewalld_zone_migration.
+Fri Aug 11 12:31:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

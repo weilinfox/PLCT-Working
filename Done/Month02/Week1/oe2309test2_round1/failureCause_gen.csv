@@ -36,6 +36,122 @@ kernel,oe_test_libfc,2023-08-08-11_24_03.log,,0,0,0,0,0,0,0,0,0
 kernel,oe_test_bnx2fc,2023-08-08-11_25_04.log,,0,0,0,0,0,0,0,0,0
 kernel,oe_test_hifc,2023-08-08-11_22_23.log,"kernel module absent
 ",0,0,0,1,0,0,0,0,0
+firewalld,oe_test_firewalld_whitelist_contexts,2023-08-11-11_14_46.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_set_defaultzone,2023-08-11-11_08_48.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_start_status,2023-08-11-11_13_24.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_directrule_acceptdport,2023-08-11-10_38_32.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_richrule_acceptsource,2023-08-11-10_58_54.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_change_interface,2023-08-11-10_35_02.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_log_denied,2023-08-11-10_49_05.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_service_firewalld,2023-08-11-11_16_10.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+firewalld,oe_test_firewalld_forward_nat,2023-08-11-10_45_02.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_allow_zones,2023-08-11-10_32_12.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_add_port,2023-08-11-10_25_12.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_whitelist_user,2023-08-11-11_15_27.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_start_check,2023-08-11-11_13_07.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_zone_add_service,2023-08-11-11_15_51.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_add_service,2023-08-11-10_29_43.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_richrule_dropicmppack,2023-08-11-11_03_16.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+firewalld,oe_test_firewalld_change_xml,2023-08-11-10_36_46.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_set_ipset,2023-08-11-11_10_36.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_dropzone_service,2023-08-11-10_43_11.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_block_icmp,2023-08-11-10_34_32.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+firewalld,oe_test_firewalld_add_sourceport,2023-08-11-10_31_52.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_ip_camouflage,2023-08-11-10_48_02.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_zone_migration,2023-08-11-12_18_03.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+firewalld,oe_test_firewalld_start_stop,2023-08-11-11_13_45.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_add_newservice,2023-08-11-10_22_07.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_whitelist_command,2023-08-11-11_14_19.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_richrule_allowippak,2023-08-11-11_00_38.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_port_map,2023-08-11-10_53_33.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_richrule_forwardport,2023-08-11-11_05_39.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_runtime_rules_in_effect,2023-08-11-11_17_44.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+firewalld,oe_test_firewalld_addport_udp,2023-08-11-10_27_02.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_lockdown,2023-08-11-10_48_45.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_runtime_permanent,2023-08-11-11_08_27.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_dnat,2023-08-11-10_40_15.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_getzone,2023-08-11-10_47_41.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_add_sourceip,2023-08-11-10_31_32.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_whitelist_uids,2023-08-11-11_15_04.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_panic_on,2023-08-11-10_52_29.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+firewalld,oe_test_firewalld_protocol_tcp,2023-08-11-10_56_13.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_set_target,2023-08-11-11_12_47.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_richrule_dropipv4pak,2023-08-11-11_03_48.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+firewalld,oe_test_firewalld_richrule_blacklist,2023-08-11-11_02_26.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+firewalld,oe_test_firewalld_new_zone,2023-08-11-10_52_08.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+firewalld,oe_test_firewalld_list,2023-08-11-10_48_25.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
 lxcfs,oe_test_service_lxcfs,2023-08-08-16_50_22.log,"file missing
 systemd unit restart failure
 systemd unit runtime error

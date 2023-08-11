@@ -555,6 +555,568 @@
         "failedCases": []
     },
     {
+        "name": "firewalld",
+        "caseNum": 49,
+        "passedCaseNum": 5,
+        "failedCaseNum": 44,
+        "passedCases": [
+            {
+                "name": "oe_test_firewalld_permanent_rules_in_effect",
+                "logname": "2023-08-11-11_47_58.log",
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_block_all_icmp",
+                "logname": "2023-08-11-10_34_14.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_default_rules",
+                "logname": "2023-08-11-11_17_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_manage_icmp",
+                "logname": "2023-08-11-10_51_51.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_set_priority",
+                "logname": "2023-08-11-11_12_30.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_firewalld_whitelist_contexts",
+                "logname": "2023-08-11-11_14_46.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_set_defaultzone",
+                "logname": "2023-08-11-11_08_48.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_start_status",
+                "logname": "2023-08-11-11_13_24.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_directrule_acceptdport",
+                "logname": "2023-08-11-10_38_32.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_richrule_acceptsource",
+                "logname": "2023-08-11-10_58_54.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_change_interface",
+                "logname": "2023-08-11-10_35_02.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_log_denied",
+                "logname": "2023-08-11-10_49_05.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_firewalld",
+                "logname": "2023-08-11-11_16_10.log",
+                "cause": [
+                    "preinstall absent",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_forward_nat",
+                "logname": "2023-08-11-10_45_02.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 1
+            },
+            {
+                "name": "oe_test_firewalld_allow_zones",
+                "logname": "2023-08-11-10_32_12.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_add_port",
+                "logname": "2023-08-11-10_25_12.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_whitelist_user",
+                "logname": "2023-08-11-11_15_27.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_start_check",
+                "logname": "2023-08-11-11_13_07.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_zone_add_service",
+                "logname": "2023-08-11-11_15_51.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_add_service",
+                "logname": "2023-08-11-10_29_43.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_richrule_dropicmppack",
+                "logname": "2023-08-11-11_03_16.log",
+                "cause": [
+                    "preinstall absent",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_change_xml",
+                "logname": "2023-08-11-10_36_46.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_set_ipset",
+                "logname": "2023-08-11-11_10_36.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_dropzone_service",
+                "logname": "2023-08-11-10_43_11.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_block_icmp",
+                "logname": "2023-08-11-10_34_32.log",
+                "cause": [
+                    "preinstall absent",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_add_sourceport",
+                "logname": "2023-08-11-10_31_52.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_ip_camouflage",
+                "logname": "2023-08-11-10_48_02.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_zone_migration",
+                "logname": "2023-08-11-12_18_03.log",
+                "cause": [
+                    "preinstall absent",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_start_stop",
+                "logname": "2023-08-11-11_13_45.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_add_newservice",
+                "logname": "2023-08-11-10_22_07.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_whitelist_command",
+                "logname": "2023-08-11-11_14_19.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_richrule_allowippak",
+                "logname": "2023-08-11-11_00_38.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_port_map",
+                "logname": "2023-08-11-10_53_33.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_richrule_forwardport",
+                "logname": "2023-08-11-11_05_39.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_runtime_rules_in_effect",
+                "logname": "2023-08-11-11_17_44.log",
+                "cause": [
+                    "preinstall absent",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_addport_udp",
+                "logname": "2023-08-11-10_27_02.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_lockdown",
+                "logname": "2023-08-11-10_48_45.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_runtime_permanent",
+                "logname": "2023-08-11-11_08_27.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_dnat",
+                "logname": "2023-08-11-10_40_15.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 1
+            },
+            {
+                "name": "oe_test_firewalld_getzone",
+                "logname": "2023-08-11-10_47_41.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_add_sourceip",
+                "logname": "2023-08-11-10_31_32.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_whitelist_uids",
+                "logname": "2023-08-11-11_15_04.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_panic_on",
+                "logname": "2023-08-11-10_52_29.log",
+                "cause": [
+                    "preinstall absent",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_protocol_tcp",
+                "logname": "2023-08-11-10_56_13.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_set_target",
+                "logname": "2023-08-11-11_12_47.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_richrule_dropipv4pak",
+                "logname": "2023-08-11-11_03_48.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_richrule_blacklist",
+                "logname": "2023-08-11-11_02_26.log",
+                "cause": [
+                    "preinstall absent",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_new_zone",
+                "logname": "2023-08-11-10_52_08.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_firewalld_list",
+                "logname": "2023-08-11-10_48_25.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
         "name": "bison",
         "caseNum": 1,
         "passedCaseNum": 1,
