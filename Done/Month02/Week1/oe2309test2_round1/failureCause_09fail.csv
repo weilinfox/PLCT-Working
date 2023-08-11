@@ -1,0 +1,62 @@
+测试套/软件包名,测试用例名,状态,与2303对比,日志文件,原因
+ModemManager,oe_test_service_ModemManager,fail,09fail,./mugen-riscv/logs/ModemManager/oe_test_service_ModemManager/2023-08-08-16_16_45.log,Failed to restart ModemManager.service: Unit polkit.service not found，镜像没有预装 polkit 软件包
+clevis,oe_test_tang_nbde,fail,09fail,./mugen-riscv/logs/clevis/oe_test_tang_nbde/2023-08-08-13_49_19.log,软件包 clevis 安装依赖出错 nothing provides libcrypto.so.1.1()(64bit) libcrypto.so.1.1(OPENSSL_1_1_0)(64bit)
+dnf,oe_test_dnf_check_diffenert-packages,fail,09fail,./mugen-riscv/logs/dnf/oe_test_dnf_check_diffenert-packages/2023-08-08-11_15_02.log,dnf check-update 异常推出，返回值 100 ，没有打印报错信息
+fio,oe_test_fio_002,fail,09fail,./mugen-riscv/logs/fio/oe_test_fio_002/2023-08-08-14_28_48.log,测试多个 fio-dedupe 命令测试失败，原因未知
+,oe_test_fio_003,fail,09fail,./mugen-riscv/logs/fio/oe_test_fio_003/2023-08-08-15_05_36.log,测试超时
+kernel,oe_test_bnx2fc,fail,09fail,./mugen-riscv/logs/kernel/oe_test_bnx2fc/2023-08-08-11_25_04.log,2303 未测试该测试用例，内核模块 scsi/hpsa.ko 不存在
+lxcfs,oe_test_service_lxcfs,fail,09fail,./mugen-riscv/logs/lxcfs/oe_test_service_lxcfs/2023-08-08-16_50_22.log,软件包 lxcfs-tools 安装依赖出错，nothing provides libabsl_synchronization.so.2206.0.0()(64bit) needed by iSulad-2.1.2-4.oe2309.riscv64
+openssh,oe_test_openssh_ssh-copy-id,fail,09fail,./mugen-riscv/logs/openssh/oe_test_openssh_ssh-copy-id/2023-08-11-00_35_09.log,ssh-keygen 没有生成 pubkey 导致 /usr/bin/ssh-copy-id: ERROR: failed to open ID file '/root/.ssh/id_rsa.pub': No such file or directory
+os-basic,oe_test_IOaccess_1Gfile,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_IOaccess_1Gfile/2023-08-08-21_11_39.log,测试超时
+,oe_test_IOaccess_500Mfile,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_IOaccess_500Mfile/2023-08-08-20_23_20.log,测试超时
+,oe_test_ProcMgmt_at,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_ProcMgmt_at/2023-08-08-19_48_34.log,systemd-253-1 问题
+,oe_test_ProcMgmt_sar,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_ProcMgmt_sar/2023-08-08-19_38_11.log,systemd-253-1 问题
+,oe_test_chrony_Manuall,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_chrony_Manuall/2023-08-08-20_19_15.log,systemd-253-1 问题
+,oe_test_chrony_chronyc_cmd,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_chrony_chronyc_cmd/2023-08-08-20_09_34.log,systemd-253-1 问题
+,oe_test_chrony_chronyc_hardwaretime,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_chrony_chronyc_hardwaretime/2023-08-08-20_11_53.log,systemd-253-1 问题
+,oe_test_chrony_chronyc_ntpstat,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_chrony_chronyc_ntpstat/2023-08-08-20_14_15.log,systemd-253-1 问题
+,oe_test_chrony_chronyd,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_chrony_chronyd/2023-08-08-20_16_46.log,systemd-253-1 问题
+,oe_test_date,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_date/2023-08-08-19_59_22.log,systemd-253-1 问题
+,oe_test_disk_tuned_disable,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_disk_tuned_disable/2023-08-08-20_02_43.log,systemd-253-1 问题
+,oe_test_disk_tuned_install,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_disk_tuned_install/2023-08-08-19_57_34.log,systemd-253-1 问题
+,oe_test_disk_tuned_modify,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_disk_tuned_modify/2023-08-08-20_00_48.log,systemd-253-1 问题
+,oe_test_disk_tuned_new,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_disk_tuned_new/2023-08-08-19_55_39.log,systemd-253-1 问题
+,oe_test_disk_tuned_set,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_disk_tuned_set/2023-08-08-19_51_46.log,systemd-253-1 问题
+,oe_test_gcc_01,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_gcc_01/2023-08-09-00_01_09.log,gcc 警告信息变化导致 grep 失败
+,oe_test_glibc,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_glibc/2023-08-08-23_50_28.log,glibc 升级导致的问题
+,oe_test_kernel_sysctl,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_kernel_sysctl/2023-08-08-20_54_37.log,systemd-253-1 问题
+,oe_test_localectl,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_localectl/2023-08-08-21_55_56.log,systemd-253-1 问题
+,oe_test_net_config,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_net_config/2023-08-08-22_04_50.log,systemd-253-1 问题
+,oe_test_net_mtr,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_net_mtr/2023-08-08-22_35_29.log,systemd-253-1 问题
+,oe_test_net_ncat,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_net_ncat/2023-08-08-22_10_07.log,systemd-253-1 问题
+,oe_test_nmcli_cancel_auto,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_nmcli_cancel_auto/2023-08-08-19_23_00.log,systemd-253-1 问题
+,oe_test_nmcli_systemd_resolved,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_nmcli_systemd_resolved/2023-08-08-19_08_07.log,systemd-253-1 问题
+,oe_test_password_change,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_password_change/2023-08-08-19_05_05.log,systemd-253-1 问题
+,oe_test_server_httpd_checkfirewall,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_httpd_checkfirewall/2023-08-08-16_05_33.log,systemd-253-1 问题
+,oe_test_server_mariadb_backup,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_backup/2023-08-08-15_29_31.log,systemd-253-1 问题
+,oe_test_server_mariadb_backupDB,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_backupDB/2023-08-08-15_25_58.log,systemd-253-1 问题
+,oe_test_server_mariadb_backuptable,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_backuptable/2023-08-08-15_21_29.log,systemd-253-1 问题
+,oe_test_server_mariadb_copy,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_copy/2023-08-08-15_16_55.log,systemd-253-1 问题
+,oe_test_server_mariadb_dump,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_dump/2023-08-08-15_12_22.log,systemd-253-1 问题
+,oe_test_server_mariadb_dumpMulDB,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_dumpMulDB/2023-08-08-15_08_10.log,systemd-253-1 问题
+,oe_test_server_mariadb_loadfile,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_loadfile/2023-08-08-14_58_53.log,systemd-253-1 问题
+,oe_test_server_mariadb_onlinebackup,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_onlinebackup/2023-08-08-14_53_48.log,systemd-253-1 问题
+,oe_test_server_mariadb_stop,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mariadb_stop/2023-08-08-14_48_45.log,systemd-253-1 问题
+,oe_test_server_mysql,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_mysql/2023-08-08-14_17_48.log,测试超时
+,oe_test_server_openssh_secure,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_openssh_secure/2023-08-08-13_52_50.log,测试超时
+,oe_test_server_squid_ip,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_squid_ip/2023-08-08-13_09_40.log,systemd-253-1 问题
+,oe_test_server_squid_proxy,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_server_squid_proxy/2023-08-08-12_54_52.log,systemd-253-1 问题
+,oe_test_timedatectl,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_timedatectl/2023-08-08-11_45_47.log,systemd-253-1 问题
+,oe_test_vim,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_vim/2023-08-08-22_46_29.log,没有预装 vim 软件包
+,oe_test_virt-what,fail,09fail,./mugen-riscv/logs/os-basic/oe_test_virt-what/2023-08-08-23_59_00.log,virt-what 安装失败 nothing provides dmidecode needed by virt-what-1.25-1.oe2309.riscv64
+perl-libwww-perl,oe_test_perl-libwww-perl_GET_01,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_GET_01/2023-08-08-12_05_36.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_GET_02,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_GET_02/2023-08-08-12_10_42.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_HEAD_01,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_HEAD_01/2023-08-08-12_15_17.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_HEAD_02,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_HEAD_02/2023-08-08-12_20_09.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_POST_01,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_POST_01/2023-08-08-12_40_23.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_POST_02,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_POST_02/2023-08-08-12_45_35.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_lwp-dump,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_lwp-dump/2023-08-08-12_25_13.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_lwp_request_01,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_lwp_request_01/2023-08-08-12_30_32.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+,oe_test_perl-libwww-perl_lwp_request_02,fail,09fail,./mugen-riscv/logs/perl-libwww-perl/oe_test_perl-libwww-perl_lwp_request_02/2023-08-08-12_35_45.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+ruby,oe_test_rake_02,fail,09fail,./mugen-riscv/logs/ruby/oe_test_rake_02/2023-08-08-11_25_08.log,"perl-libwww-perl 安装失败 package perl-libwww-perl-6.67-1.oe2309.noarch requires perl >= 6, but none of the providers can be installed"
+samba,oe_test_service_ctdb,fail,09fail,./mugen-riscv/logs/samba/oe_test_service_ctdb/2023-08-08-13_45_48.log,未知原因 ctdb.service: Failed to parse PID from file /run/ctdb/ctdbd.pid: Invalid argument
