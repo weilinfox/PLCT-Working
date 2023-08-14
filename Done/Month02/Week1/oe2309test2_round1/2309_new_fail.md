@@ -55,3 +55,10 @@
 + ``fio/oe_test_fio_002`` 测试多个 fio-dedupe 命令测试失败，原因未知
 + ``openssh/oe_test_openssh_ssh-copy-id`` ssh-keygen 没有生成 pubkey 导致 /usr/bin/ssh-copy-id: ERROR: failed to open ID file '/root/.ssh/id_rsa.pub': No such file or directory
 + ``samba/oe_test_service_ctdb`` 未知原因 ctdb.service: Failed to parse PID from file /run/ctdb/ctdbd.pid: Invalid argument
+
+
+## 测试有问题
+
++ ``fontconfig/oe_test_fontconfig_fc-list`` 测试不存在
++ ``openscap/oe_test_assess_safety_compliance`` 测试 node2 不存在
++ ``openscap/oe_test_scanning_remote_system`` 测试 node2 不存在
