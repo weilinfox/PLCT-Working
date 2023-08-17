@@ -1,0 +1,9 @@
+× sssd.service
+     Loaded: not-found (Reason: Unit sssd.service not found.)
+     Active: failed (Result: exit-code) since Thu 2023-08-17 09:46:20 UTC; 2s ago
+   Main PID: 2817 (code=exited, status=4)
+
+Aug 17 09:46:20 localhost.localdomain systemd[1]: Starting System Security Services Daemon...
+Aug 17 09:46:20 localhost.localdomain systemd[1]: sssd.service: Main process exited, code=exited, status=4/NOPERMISSION
+Aug 17 09:46:20 localhost.localdomain systemd[1]: sssd.service: Failed with result 'exit-code'.
+Aug 17 09:46:20 localhost.localdomain systemd[1]: Failed to start System Security Services Daemon.

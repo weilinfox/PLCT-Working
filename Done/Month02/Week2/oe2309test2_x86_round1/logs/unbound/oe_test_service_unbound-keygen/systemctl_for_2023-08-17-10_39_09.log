@@ -1,0 +1,16 @@
+× unbound-keygen.service
+     Loaded: not-found (Reason: Unit unbound-keygen.service not found.)
+     Active: failed (Result: exit-code) since Thu 2023-08-17 10:39:25 UTC; 6s ago
+  Condition: start condition failed at Thu 2023-08-17 10:39:31 UTC; 1s ago
+   Main PID: 1166 (code=exited, status=203/EXEC)
+
+Aug 17 10:39:25 localhost.localdomain systemd[1]: Starting Unbound Control Key And Certificate Generator...
+Aug 17 10:39:25 localhost.localdomain unbound-control-setup[1154]: setup in directory /etc/unbound/
+Aug 17 10:39:25 localhost.localdomain unbound-control-setup[1162]: Certificate request self-signature ok
+Aug 17 10:39:25 localhost.localdomain unbound-control-setup[1162]: subject=CN = unbound-control
+Aug 17 10:39:25 localhost.localdomain unbound-control-setup[1154]: removing artifacts
+Aug 17 10:39:25 localhost.localdomain unbound-control-setup[1154]: Setup success. Certificates created. Enable in unbound.conf file to use
+Aug 17 10:39:25 localhost.localdomain systemd[1]: unbound-keygen.service: Main process exited, code=exited, status=203/EXEC
+Aug 17 10:39:25 localhost.localdomain systemd[1]: unbound-keygen.service: Failed with result 'exit-code'.
+Aug 17 10:39:25 localhost.localdomain systemd[1]: Failed to start Unbound Control Key And Certificate Generator.
+Aug 17 10:39:31 localhost.localdomain systemd[1]: Unbound Control Key And Certificate Generator was skipped because of an unmet condition check (ConditionPathExists=!/etc/unbound/unbound_server.key).

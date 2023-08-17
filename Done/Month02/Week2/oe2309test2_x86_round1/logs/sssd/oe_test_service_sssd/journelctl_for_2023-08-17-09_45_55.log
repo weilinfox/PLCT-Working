@@ -1,0 +1,1504 @@
+Aug 17 09:44:57 localhost.localdomain [RPM][1438]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:44:57 localhost.localdomain [RPM][1438]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:44:57 localhost.localdomain [RPM][1438]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:44:57 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r84fea4ee23fe40edb0a134715c5e0c05.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r84fea4ee23fe40edb0a134715c5e0c05.service has finished successfully.
+░░ 
+░░ The job identifier is 804.
+Aug 17 09:44:57 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r84fea4ee23fe40edb0a134715c5e0c05 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:57 localhost.localdomain kernel: audit: type=1130 audit(1692265497.720:108): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r84fea4ee23fe40edb0a134715c5e0c05 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:57 localhost.localdomain [RPM][1438]: Transaction ID 64ddec18 finished: 0
+Aug 17 09:44:57 localhost.localdomain systemctl[1496]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:44:57 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 867.
+Aug 17 09:44:58 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:44:58 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 867.
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1130 audit(1692265498.016:109): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1131 audit(1692265498.016:110): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain systemd[1]: run-r84fea4ee23fe40edb0a134715c5e0c05.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r84fea4ee23fe40edb0a134715c5e0c05.service has successfully entered the 'dead' state.
+Aug 17 09:44:58 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r84fea4ee23fe40edb0a134715c5e0c05 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1131 audit(1692265498.033:111): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r84fea4ee23fe40edb0a134715c5e0c05 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain sudo[1209]: pam_unix(sudo:session): session closed for user root
+Aug 17 09:44:58 localhost.localdomain audit[1209]: USER_END pid=1209 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain audit[1209]: CRED_DISP pid=1209 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1106 audit(1692265498.210:112): pid=1209 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1104 audit(1692265498.210:113): pid=1209 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain audit[1515]: USER_ACCT pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain audit[1515]: USER_CMD pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D662073737364202D72206F655F746573745F736572766963655F737373642D6B636D202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1101 audit(1692265498.230:114): pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1123 audit(1692265498.230:115): pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D662073737364202D72206F655F746573745F736572766963655F737373642D6B636D202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain sudo[1515]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f sssd -r oe_test_service_sssd-kcm -x
+Aug 17 09:44:58 localhost.localdomain audit[1515]: CRED_REFR pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain audit[1515]: USER_START pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:44:58 localhost.localdomain sudo[1515]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 09:44:58 localhost.localdomain kernel: audit: type=1110 audit(1692265498.231:116): pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: Transaction ID 64ddec20 started
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:05 localhost.localdomain systemctl[1635]: [systemctl --no-reload preset saslauthd.service] called by PID 1634 (bash /usr/lib/systemd/systemd-update-helper install-system-units saslauthd.service)
+Aug 17 09:45:05 localhost.localdomain [RPM][1594]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:06 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:06 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:06 localhost.localdomain systemctl[1642]: [systemctl --no-reload preset sssd.service] called by PID 1641 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd.service)
+Aug 17 09:45:06 localhost.localdomain systemctl[1644]: [systemctl --no-reload preset sssd-autofs.socket] called by PID 1643 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-autofs.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1646]: [systemctl --no-reload preset sssd-nss.socket] called by PID 1645 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-nss.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1648]: [systemctl --no-reload preset sssd-pac.socket] called by PID 1647 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pac.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1650]: [systemctl --no-reload preset sssd-pam.socket] called by PID 1649 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1652]: [systemctl --no-reload preset sssd-pam-priv.socket] called by PID 1651 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam-priv.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1654]: [systemctl --no-reload preset sssd-ssh.socket] called by PID 1653 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ssh.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1656]: [systemctl --no-reload preset sssd-sudo.socket] called by PID 1655 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-sudo.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1658]: [systemctl --no-reload preset sssd-kcm.socket] called by PID 1657 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-kcm.socket)
+Aug 17 09:45:06 localhost.localdomain systemctl[1660]: [systemctl --no-reload preset sssd-ifp.service] called by PID 1659 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ifp.service)
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain systemctl[1664]: [/usr/bin/systemctl try-restart sssd.service] called by PID 1663 (/bin/sh /var/tmp/rpm-tmp.KaUGjV 1)
+Aug 17 09:45:06 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:06 localhost.localdomain [RPM][1594]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:06 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r77e16b0a2ee24d288a696d8aa80957ee.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r77e16b0a2ee24d288a696d8aa80957ee.service has finished successfully.
+░░ 
+░░ The job identifier is 873.
+Aug 17 09:45:06 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r77e16b0a2ee24d288a696d8aa80957ee comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:06 localhost.localdomain kernel: kauditd_printk_skb: 1 callbacks suppressed
+Aug 17 09:45:06 localhost.localdomain kernel: audit: type=1130 audit(1692265506.844:118): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r77e16b0a2ee24d288a696d8aa80957ee comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:06 localhost.localdomain systemctl[1669]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:06 localhost.localdomain systemctl[1671]: [/usr/bin/systemctl daemon-reload] called by PID 1670 (/bin/sh /var/tmp/rpm-tmp.Ss4eoE 0)
+Aug 17 09:45:06 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 936.
+Aug 17 09:45:06 localhost.localdomain systemd[1]: Reloading requested from client PID 1671 (unit sshd.service)...
+Aug 17 09:45:06 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:06 localhost.localdomain systemd-rc-local-generator[1682]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:06 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:07 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:07 localhost.localdomain [RPM][1594]: Transaction ID 64ddec20 finished: 0
+Aug 17 09:45:07 localhost.localdomain kernel: audit: type=1130 audit(1692265507.189:119): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain kernel: audit: type=1131 audit(1692265507.189:120): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:07 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 936.
+Aug 17 09:45:07 localhost.localdomain systemd[1]: run-r77e16b0a2ee24d288a696d8aa80957ee.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r77e16b0a2ee24d288a696d8aa80957ee.service has successfully entered the 'dead' state.
+Aug 17 09:45:07 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r77e16b0a2ee24d288a696d8aa80957ee comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain kernel: audit: type=1131 audit(1692265507.205:121): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r77e16b0a2ee24d288a696d8aa80957ee comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain systemctl[1696]: [systemctl restart sssd-kcm.service] called by PID 1562 (bash -x oe_test_service_sssd-kcm.sh)
+Aug 17 09:45:07 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:07 localhost.localdomain systemd[1]: Listening on SSSD Kerberos Cache Manager responder socket.
+░░ Subject: A start job for unit sssd-kcm.socket has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.socket has finished successfully.
+░░ 
+░░ The job identifier is 940.
+Aug 17 09:45:07 localhost.localdomain systemd[1]: Starting SSSD Kerberos Cache Manager...
+░░ Subject: A start job for unit sssd-kcm.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has begun execution.
+░░ 
+░░ The job identifier is 939.
+Aug 17 09:45:07 localhost.localdomain systemd[1]: Started SSSD Kerberos Cache Manager.
+░░ Subject: A start job for unit sssd-kcm.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has finished successfully.
+░░ 
+░░ The job identifier is 939.
+Aug 17 09:45:07 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain kernel: audit: type=1130 audit(1692265507.546:122): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:07 localhost.localdomain sssd_kcm[1699]: Starting up
+Aug 17 09:45:12 localhost.localdomain systemctl[1703]: [systemctl stop sssd-kcm.service] called by PID 1562 (bash -x oe_test_service_sssd-kcm.sh)
+Aug 17 09:45:12 localhost.localdomain systemd[1]: Stopping SSSD Kerberos Cache Manager...
+░░ Subject: A stop job for unit sssd-kcm.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sssd-kcm.service has begun execution.
+░░ 
+░░ The job identifier is 1003.
+Aug 17 09:45:12 localhost.localdomain sssd_kcm[1699]: Shutting down (status = 0)
+Aug 17 09:45:12 localhost.localdomain systemd[1]: sssd-kcm.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd-kcm.service has successfully entered the 'dead' state.
+Aug 17 09:45:12 localhost.localdomain systemd[1]: Stopped SSSD Kerberos Cache Manager.
+░░ Subject: A stop job for unit sssd-kcm.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sssd-kcm.service has finished.
+░░ 
+░░ The job identifier is 1003 and the job result is done.
+Aug 17 09:45:12 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:12 localhost.localdomain kernel: audit: type=1131 audit(1692265512.608:123): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:17 localhost.localdomain systemctl[1708]: [systemctl start sssd-kcm.service] called by PID 1562 (bash -x oe_test_service_sssd-kcm.sh)
+Aug 17 09:45:17 localhost.localdomain systemd[1]: Starting SSSD Kerberos Cache Manager...
+░░ Subject: A start job for unit sssd-kcm.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has begun execution.
+░░ 
+░░ The job identifier is 1004.
+Aug 17 09:45:17 localhost.localdomain systemd[1]: Started SSSD Kerberos Cache Manager.
+░░ Subject: A start job for unit sssd-kcm.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd-kcm.service has finished successfully.
+░░ 
+░░ The job identifier is 1004.
+Aug 17 09:45:17 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:17 localhost.localdomain kernel: audit: type=1130 audit(1692265517.739:124): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:17 localhost.localdomain sssd_kcm[1711]: Starting up
+Aug 17 09:45:22 localhost.localdomain systemctl[1720]: [systemctl start sssd-kcm.service] called by PID 1562 (bash -x oe_test_service_sssd-kcm.sh)
+Aug 17 09:45:22 localhost.localdomain systemctl[1721]: [systemctl reload sssd-kcm.service] called by PID 1562 (bash -x oe_test_service_sssd-kcm.sh)
+Aug 17 09:45:23 localhost.localdomain systemctl[1728]: [systemctl stop sssd-kcm.service] called by PID 1562 (bash -x oe_test_service_sssd-kcm.sh)
+Aug 17 09:45:23 localhost.localdomain systemd[1]: Stopping SSSD Kerberos Cache Manager...
+░░ Subject: A stop job for unit sssd-kcm.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sssd-kcm.service has begun execution.
+░░ 
+░░ The job identifier is 1132.
+Aug 17 09:45:23 localhost.localdomain sssd_kcm[1711]: Shutting down (status = 0)
+Aug 17 09:45:23 localhost.localdomain systemd[1]: sssd-kcm.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd-kcm.service has successfully entered the 'dead' state.
+Aug 17 09:45:23 localhost.localdomain systemd[1]: Stopped SSSD Kerberos Cache Manager.
+░░ Subject: A stop job for unit sssd-kcm.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sssd-kcm.service has finished.
+░░ 
+░░ The job identifier is 1132 and the job result is done.
+Aug 17 09:45:23 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:23 localhost.localdomain kernel: audit: type=1131 audit(1692265523.034:125): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd-kcm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: Transaction ID 64ddec33 started
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain [RPM][1731]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:23 localhost.localdomain systemctl[1737]: [systemctl --no-reload --now --no-warn disable sssd.service] called by PID 1736 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd.service)
+Aug 17 09:45:23 localhost.localdomain systemctl[1739]: [systemctl --no-reload --now --no-warn disable sssd-autofs.socket] called by PID 1738 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-autofs.socket)
+Aug 17 09:45:23 localhost.localdomain systemctl[1741]: [systemctl --no-reload --now --no-warn disable sssd-nss.socket] called by PID 1740 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-nss.socket)
+Aug 17 09:45:23 localhost.localdomain systemctl[1743]: [systemctl --no-reload --now --no-warn disable sssd-pac.socket] called by PID 1742 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pac.socket)
+Aug 17 09:45:23 localhost.localdomain systemctl[1745]: [systemctl --no-reload --now --no-warn disable sssd-pam.socket] called by PID 1744 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam.socket)
+Aug 17 09:45:23 localhost.localdomain systemctl[1747]: [systemctl --no-reload --now --no-warn disable sssd-pam-priv.socket] called by PID 1746 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam-priv.socket)
+Aug 17 09:45:23 localhost.localdomain systemctl[1749]: [systemctl --no-reload --now --no-warn disable sssd-ssh.socket] called by PID 1748 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ssh.socket)
+Aug 17 09:45:23 localhost.localdomain systemctl[1751]: [systemctl --no-reload --now --no-warn disable sssd-sudo.socket] called by PID 1750 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-sudo.socket)
+Aug 17 09:45:23 localhost.localdomain systemctl[1753]: [systemctl --no-reload --now --no-warn disable sssd-kcm.socket] called by PID 1752 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-kcm.socket)
+Aug 17 09:45:23 localhost.localdomain systemd[1]: sssd-kcm.socket: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd-kcm.socket has successfully entered the 'dead' state.
+Aug 17 09:45:23 localhost.localdomain systemd[1]: Closed SSSD Kerberos Cache Manager responder socket.
+░░ Subject: A stop job for unit sssd-kcm.socket has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sssd-kcm.socket has finished.
+░░ 
+░░ The job identifier is 1143 and the job result is done.
+Aug 17 09:45:23 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:23 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:23 localhost.localdomain systemctl[1755]: [systemctl --no-reload --now --no-warn disable sssd-ifp.service] called by PID 1754 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ifp.service)
+Aug 17 09:45:23 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:23 localhost.localdomain systemctl[1759]: [/usr/bin/systemctl daemon-reload] called by PID 1757 (/bin/sh /var/tmp/rpm-tmp.Wmc9ij 0)
+Aug 17 09:45:23 localhost.localdomain systemd[1]: Reloading requested from client PID 1759 (unit sshd.service)...
+Aug 17 09:45:23 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:23 localhost.localdomain systemd-rc-local-generator[1768]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:23 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:24 localhost.localdomain systemctl[1783]: [systemctl --no-reload --now --no-warn disable saslauthd.service] called by PID 1782 (bash /usr/lib/systemd/systemd-update-helper remove-system-units saslauthd.service)
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:24 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rf73e7a7203964c6c869d24db351b21de.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rf73e7a7203964c6c869d24db351b21de.service has finished successfully.
+░░ 
+░░ The job identifier is 1148.
+Aug 17 09:45:24 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf73e7a7203964c6c869d24db351b21de comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:24 localhost.localdomain kernel: audit: type=1130 audit(1692265524.773:126): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf73e7a7203964c6c869d24db351b21de comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:24 localhost.localdomain [RPM][1731]: Transaction ID 64ddec33 finished: 0
+Aug 17 09:45:24 localhost.localdomain systemctl[1789]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:24 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1211.
+Aug 17 09:45:25 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:25 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1211.
+Aug 17 09:45:25 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1130 audit(1692265525.128:127): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1131 audit(1692265525.128:128): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain systemd[1]: run-rf73e7a7203964c6c869d24db351b21de.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rf73e7a7203964c6c869d24db351b21de.service has successfully entered the 'dead' state.
+Aug 17 09:45:25 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf73e7a7203964c6c869d24db351b21de comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1131 audit(1692265525.143:129): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf73e7a7203964c6c869d24db351b21de comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain audit[1515]: USER_END pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain audit[1515]: CRED_DISP pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain sudo[1515]: pam_unix(sudo:session): session closed for user root
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1106 audit(1692265525.240:130): pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1104 audit(1692265525.240:131): pid=1515 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain audit[1806]: USER_ACCT pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain audit[1806]: USER_CMD pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D662073737364202D72206F655F746573745F736572766963655F737373642D6E7373202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain sudo[1806]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f sssd -r oe_test_service_sssd-nss -x
+Aug 17 09:45:25 localhost.localdomain audit[1806]: CRED_REFR pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain sudo[1806]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 09:45:25 localhost.localdomain audit[1806]: USER_START pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1101 audit(1692265525.252:132): pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1123 audit(1692265525.252:133): pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D662073737364202D72206F655F746573745F736572766963655F737373642D6E7373202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:45:25 localhost.localdomain kernel: audit: type=1110 audit(1692265525.252:134): pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: Transaction ID 64ddec3a started
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:30 localhost.localdomain [RPM][1885]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain systemctl[1919]: [systemctl --no-reload preset saslauthd.service] called by PID 1918 (bash /usr/lib/systemd/systemd-update-helper install-system-units saslauthd.service)
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain [RPM][1885]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:31 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:31 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:32 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:32 localhost.localdomain systemctl[1926]: [systemctl --no-reload preset sssd.service] called by PID 1925 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd.service)
+Aug 17 09:45:32 localhost.localdomain systemctl[1928]: [systemctl --no-reload preset sssd-autofs.socket] called by PID 1927 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-autofs.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1930]: [systemctl --no-reload preset sssd-nss.socket] called by PID 1929 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-nss.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1932]: [systemctl --no-reload preset sssd-pac.socket] called by PID 1931 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pac.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1934]: [systemctl --no-reload preset sssd-pam.socket] called by PID 1933 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1936]: [systemctl --no-reload preset sssd-pam-priv.socket] called by PID 1935 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam-priv.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1938]: [systemctl --no-reload preset sssd-ssh.socket] called by PID 1937 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ssh.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1940]: [systemctl --no-reload preset sssd-sudo.socket] called by PID 1939 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-sudo.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1942]: [systemctl --no-reload preset sssd-kcm.socket] called by PID 1941 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-kcm.socket)
+Aug 17 09:45:32 localhost.localdomain systemctl[1944]: [systemctl --no-reload preset sssd-ifp.service] called by PID 1943 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ifp.service)
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain systemctl[1948]: [/usr/bin/systemctl try-restart sssd.service] called by PID 1947 (/bin/sh /var/tmp/rpm-tmp.7MhkI1 1)
+Aug 17 09:45:32 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-ra618e9ec0b0245a2a99e1581d3306b90.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-ra618e9ec0b0245a2a99e1581d3306b90.service has finished successfully.
+░░ 
+░░ The job identifier is 1217.
+Aug 17 09:45:32 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-ra618e9ec0b0245a2a99e1581d3306b90 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain kernel: kauditd_printk_skb: 1 callbacks suppressed
+Aug 17 09:45:32 localhost.localdomain kernel: audit: type=1130 audit(1692265532.327:136): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-ra618e9ec0b0245a2a99e1581d3306b90 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain systemctl[1953]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:32 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1280.
+Aug 17 09:45:32 localhost.localdomain systemctl[1955]: [/usr/bin/systemctl daemon-reload] called by PID 1954 (/bin/sh /var/tmp/rpm-tmp.TEZ9uO 0)
+Aug 17 09:45:32 localhost.localdomain systemd[1]: Reloading requested from client PID 1955 (unit sshd.service)...
+Aug 17 09:45:32 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:32 localhost.localdomain systemd-rc-local-generator[1966]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:32 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:32 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:32 localhost.localdomain [RPM][1885]: Transaction ID 64ddec3a finished: 0
+Aug 17 09:45:32 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:32 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1280.
+Aug 17 09:45:32 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain kernel: audit: type=1130 audit(1692265532.729:137): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain kernel: audit: type=1131 audit(1692265532.729:138): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain systemd[1]: run-ra618e9ec0b0245a2a99e1581d3306b90.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-ra618e9ec0b0245a2a99e1581d3306b90.service has successfully entered the 'dead' state.
+Aug 17 09:45:32 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-ra618e9ec0b0245a2a99e1581d3306b90 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain kernel: audit: type=1131 audit(1692265532.749:139): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-ra618e9ec0b0245a2a99e1581d3306b90 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:32 localhost.localdomain systemctl[1978]: [systemctl restart sssd-nss.service] called by PID 1853 (bash -x oe_test_service_sssd-nss.sh)
+Aug 17 09:45:32 localhost.localdomain systemctl[1980]: [systemctl start sssd-nss.service] called by PID 1853 (bash -x oe_test_service_sssd-nss.sh)
+Aug 17 09:45:32 localhost.localdomain systemctl[1982]: [systemctl stop sssd-nss.service] called by PID 1853 (bash -x oe_test_service_sssd-nss.sh)
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: Transaction ID 64ddec3d started
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain [RPM][1989]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:33 localhost.localdomain systemctl[1995]: [systemctl --no-reload --now --no-warn disable sssd.service] called by PID 1994 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd.service)
+Aug 17 09:45:33 localhost.localdomain systemctl[1997]: [systemctl --no-reload --now --no-warn disable sssd-autofs.socket] called by PID 1996 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-autofs.socket)
+Aug 17 09:45:33 localhost.localdomain systemctl[1999]: [systemctl --no-reload --now --no-warn disable sssd-nss.socket] called by PID 1998 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-nss.socket)
+Aug 17 09:45:33 localhost.localdomain systemctl[2001]: [systemctl --no-reload --now --no-warn disable sssd-pac.socket] called by PID 2000 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pac.socket)
+Aug 17 09:45:33 localhost.localdomain systemctl[2003]: [systemctl --no-reload --now --no-warn disable sssd-pam.socket] called by PID 2002 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam.socket)
+Aug 17 09:45:33 localhost.localdomain systemctl[2005]: [systemctl --no-reload --now --no-warn disable sssd-pam-priv.socket] called by PID 2004 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam-priv.socket)
+Aug 17 09:45:33 localhost.localdomain systemctl[2007]: [systemctl --no-reload --now --no-warn disable sssd-ssh.socket] called by PID 2006 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ssh.socket)
+Aug 17 09:45:33 localhost.localdomain systemctl[2009]: [systemctl --no-reload --now --no-warn disable sssd-sudo.socket] called by PID 2008 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-sudo.socket)
+Aug 17 09:45:33 localhost.localdomain systemctl[2011]: [systemctl --no-reload --now --no-warn disable sssd-kcm.socket] called by PID 2010 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-kcm.socket)
+Aug 17 09:45:33 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:33 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:33 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:33 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:33 localhost.localdomain systemctl[2013]: [systemctl --no-reload --now --no-warn disable sssd-ifp.service] called by PID 2012 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ifp.service)
+Aug 17 09:45:33 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:33 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:33 localhost.localdomain systemctl[2017]: [/usr/bin/systemctl daemon-reload] called by PID 2015 (/bin/sh /var/tmp/rpm-tmp.eFp0Wu 0)
+Aug 17 09:45:33 localhost.localdomain systemd[1]: Reloading requested from client PID 2017 (unit sshd.service)...
+Aug 17 09:45:33 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:33 localhost.localdomain systemd-rc-local-generator[2026]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:33 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:34 localhost.localdomain systemctl[2041]: [systemctl --no-reload --now --no-warn disable saslauthd.service] called by PID 2040 (bash /usr/lib/systemd/systemd-update-helper remove-system-units saslauthd.service)
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:34 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rb5231f33d1e6482e89983b82529d99c6.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rb5231f33d1e6482e89983b82529d99c6.service has finished successfully.
+░░ 
+░░ The job identifier is 1300.
+Aug 17 09:45:34 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rb5231f33d1e6482e89983b82529d99c6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain kernel: audit: type=1130 audit(1692265534.442:140): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rb5231f33d1e6482e89983b82529d99c6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain [RPM][1989]: Transaction ID 64ddec3d finished: 0
+Aug 17 09:45:34 localhost.localdomain systemctl[2047]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:34 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1363.
+Aug 17 09:45:34 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:34 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1363.
+Aug 17 09:45:34 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain kernel: audit: type=1130 audit(1692265534.748:141): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain kernel: audit: type=1131 audit(1692265534.748:142): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain systemd[1]: run-rb5231f33d1e6482e89983b82529d99c6.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rb5231f33d1e6482e89983b82529d99c6.service has successfully entered the 'dead' state.
+Aug 17 09:45:34 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rb5231f33d1e6482e89983b82529d99c6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain kernel: audit: type=1131 audit(1692265534.762:143): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rb5231f33d1e6482e89983b82529d99c6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain sudo[1806]: pam_unix(sudo:session): session closed for user root
+Aug 17 09:45:34 localhost.localdomain audit[1806]: USER_END pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain audit[1806]: CRED_DISP pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain kernel: audit: type=1106 audit(1692265534.896:144): pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain kernel: audit: type=1104 audit(1692265534.896:145): pid=1806 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain audit[2063]: USER_ACCT pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain audit[2063]: USER_CMD pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D662073737364202D72206F655F746573745F736572766963655F737373642D706163202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain sudo[2063]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f sssd -r oe_test_service_sssd-pac -x
+Aug 17 09:45:34 localhost.localdomain audit[2063]: CRED_REFR pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain audit[2063]: USER_START pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:34 localhost.localdomain sudo[2063]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 09:45:40 localhost.localdomain [RPM][2142]: Transaction ID 64ddec44 started
+Aug 17 09:45:40 localhost.localdomain [RPM][2142]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain systemctl[2176]: [systemctl --no-reload preset saslauthd.service] called by PID 2175 (bash /usr/lib/systemd/systemd-update-helper install-system-units saslauthd.service)
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:41 localhost.localdomain [RPM][2142]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:42 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:42 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:42 localhost.localdomain systemctl[2183]: [systemctl --no-reload preset sssd.service] called by PID 2182 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd.service)
+Aug 17 09:45:42 localhost.localdomain systemctl[2185]: [systemctl --no-reload preset sssd-autofs.socket] called by PID 2184 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-autofs.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2187]: [systemctl --no-reload preset sssd-nss.socket] called by PID 2186 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-nss.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2189]: [systemctl --no-reload preset sssd-pac.socket] called by PID 2188 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pac.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2191]: [systemctl --no-reload preset sssd-pam.socket] called by PID 2190 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2193]: [systemctl --no-reload preset sssd-pam-priv.socket] called by PID 2192 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam-priv.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2195]: [systemctl --no-reload preset sssd-ssh.socket] called by PID 2194 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ssh.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2197]: [systemctl --no-reload preset sssd-sudo.socket] called by PID 2196 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-sudo.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2199]: [systemctl --no-reload preset sssd-kcm.socket] called by PID 2198 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-kcm.socket)
+Aug 17 09:45:42 localhost.localdomain systemctl[2201]: [systemctl --no-reload preset sssd-ifp.service] called by PID 2200 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ifp.service)
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain systemctl[2205]: [/usr/bin/systemctl try-restart sssd.service] called by PID 2204 (/bin/sh /var/tmp/rpm-tmp.g2L96V 1)
+Aug 17 09:45:42 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r1efec9b393654e24a42afcbf1402aac1.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r1efec9b393654e24a42afcbf1402aac1.service has finished successfully.
+░░ 
+░░ The job identifier is 1369.
+Aug 17 09:45:42 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r1efec9b393654e24a42afcbf1402aac1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:42 localhost.localdomain kernel: kauditd_printk_skb: 4 callbacks suppressed
+Aug 17 09:45:42 localhost.localdomain kernel: audit: type=1130 audit(1692265542.748:150): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r1efec9b393654e24a42afcbf1402aac1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:42 localhost.localdomain systemctl[2210]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:42 localhost.localdomain systemctl[2212]: [/usr/bin/systemctl daemon-reload] called by PID 2211 (/bin/sh /var/tmp/rpm-tmp.DBpPjT 0)
+Aug 17 09:45:42 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1432.
+Aug 17 09:45:42 localhost.localdomain systemd[1]: Reloading requested from client PID 2212 (unit sshd.service)...
+Aug 17 09:45:42 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:42 localhost.localdomain systemd-rc-local-generator[2223]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:42 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:42 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:42 localhost.localdomain [RPM][2142]: Transaction ID 64ddec44 finished: 0
+Aug 17 09:45:43 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:43 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1432.
+Aug 17 09:45:43 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:43 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:43 localhost.localdomain kernel: audit: type=1130 audit(1692265543.141:151): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:43 localhost.localdomain kernel: audit: type=1131 audit(1692265543.141:152): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:43 localhost.localdomain systemd[1]: run-r1efec9b393654e24a42afcbf1402aac1.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r1efec9b393654e24a42afcbf1402aac1.service has successfully entered the 'dead' state.
+Aug 17 09:45:43 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r1efec9b393654e24a42afcbf1402aac1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:43 localhost.localdomain kernel: audit: type=1131 audit(1692265543.158:153): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r1efec9b393654e24a42afcbf1402aac1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:43 localhost.localdomain systemctl[2235]: [systemctl restart sssd-pac.service] called by PID 2110 (bash -x oe_test_service_sssd-pac.sh)
+Aug 17 09:45:43 localhost.localdomain systemctl[2237]: [systemctl start sssd-pac.service] called by PID 2110 (bash -x oe_test_service_sssd-pac.sh)
+Aug 17 09:45:43 localhost.localdomain systemctl[2239]: [systemctl stop sssd-pac.service] called by PID 2110 (bash -x oe_test_service_sssd-pac.sh)
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: Transaction ID 64ddec47 started
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:43 localhost.localdomain [RPM][2246]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain systemctl[2252]: [systemctl --no-reload --now --no-warn disable sssd.service] called by PID 2251 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd.service)
+Aug 17 09:45:44 localhost.localdomain systemctl[2254]: [systemctl --no-reload --now --no-warn disable sssd-autofs.socket] called by PID 2253 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-autofs.socket)
+Aug 17 09:45:44 localhost.localdomain systemctl[2256]: [systemctl --no-reload --now --no-warn disable sssd-nss.socket] called by PID 2255 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-nss.socket)
+Aug 17 09:45:44 localhost.localdomain systemctl[2258]: [systemctl --no-reload --now --no-warn disable sssd-pac.socket] called by PID 2257 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pac.socket)
+Aug 17 09:45:44 localhost.localdomain systemctl[2260]: [systemctl --no-reload --now --no-warn disable sssd-pam.socket] called by PID 2259 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam.socket)
+Aug 17 09:45:44 localhost.localdomain systemctl[2262]: [systemctl --no-reload --now --no-warn disable sssd-pam-priv.socket] called by PID 2261 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam-priv.socket)
+Aug 17 09:45:44 localhost.localdomain systemctl[2264]: [systemctl --no-reload --now --no-warn disable sssd-ssh.socket] called by PID 2263 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ssh.socket)
+Aug 17 09:45:44 localhost.localdomain systemctl[2266]: [systemctl --no-reload --now --no-warn disable sssd-sudo.socket] called by PID 2265 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-sudo.socket)
+Aug 17 09:45:44 localhost.localdomain systemctl[2268]: [systemctl --no-reload --now --no-warn disable sssd-kcm.socket] called by PID 2267 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-kcm.socket)
+Aug 17 09:45:44 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:44 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:44 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:44 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:44 localhost.localdomain systemctl[2270]: [systemctl --no-reload --now --no-warn disable sssd-ifp.service] called by PID 2269 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ifp.service)
+Aug 17 09:45:44 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:44 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:44 localhost.localdomain systemctl[2274]: [/usr/bin/systemctl daemon-reload] called by PID 2272 (/bin/sh /var/tmp/rpm-tmp.OODqMn 0)
+Aug 17 09:45:44 localhost.localdomain systemd[1]: Reloading requested from client PID 2274 (unit sshd.service)...
+Aug 17 09:45:44 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:44 localhost.localdomain systemd-rc-local-generator[2283]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:44 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:44 localhost.localdomain systemctl[2298]: [systemctl --no-reload --now --no-warn disable saslauthd.service] called by PID 2297 (bash /usr/lib/systemd/systemd-update-helper remove-system-units saslauthd.service)
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:44 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-re27cf06cbe22420faf3c716b3073eabb.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-re27cf06cbe22420faf3c716b3073eabb.service has finished successfully.
+░░ 
+░░ The job identifier is 1452.
+Aug 17 09:45:44 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-re27cf06cbe22420faf3c716b3073eabb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:44 localhost.localdomain kernel: audit: type=1130 audit(1692265544.814:154): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-re27cf06cbe22420faf3c716b3073eabb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:44 localhost.localdomain [RPM][2246]: Transaction ID 64ddec47 finished: 0
+Aug 17 09:45:44 localhost.localdomain systemctl[2304]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:44 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1515.
+Aug 17 09:45:45 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:45 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1515.
+Aug 17 09:45:45 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain kernel: audit: type=1130 audit(1692265545.152:155): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain kernel: audit: type=1131 audit(1692265545.152:156): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain systemd[1]: run-re27cf06cbe22420faf3c716b3073eabb.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-re27cf06cbe22420faf3c716b3073eabb.service has successfully entered the 'dead' state.
+Aug 17 09:45:45 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-re27cf06cbe22420faf3c716b3073eabb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain kernel: audit: type=1131 audit(1692265545.168:157): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-re27cf06cbe22420faf3c716b3073eabb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain sudo[2063]: pam_unix(sudo:session): session closed for user root
+Aug 17 09:45:45 localhost.localdomain kernel: audit: type=1106 audit(1692265545.302:158): pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain kernel: audit: type=1104 audit(1692265545.302:159): pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain audit[2063]: USER_END pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain audit[2063]: CRED_DISP pid=2063 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain audit[2321]: USER_ACCT pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain audit[2321]: USER_CMD pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D662073737364202D72206F655F746573745F736572766963655F737373642D70616D202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain sudo[2321]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f sssd -r oe_test_service_sssd-pam -x
+Aug 17 09:45:45 localhost.localdomain audit[2321]: CRED_REFR pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain audit[2321]: USER_START pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:45 localhost.localdomain sudo[2321]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: Transaction ID 64ddec4f started
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:51 localhost.localdomain [RPM][2400]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain systemctl[2434]: [systemctl --no-reload preset saslauthd.service] called by PID 2433 (bash /usr/lib/systemd/systemd-update-helper install-system-units saslauthd.service)
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:52 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:52 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:52 localhost.localdomain systemctl[2441]: [systemctl --no-reload preset sssd.service] called by PID 2440 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd.service)
+Aug 17 09:45:52 localhost.localdomain systemctl[2443]: [systemctl --no-reload preset sssd-autofs.socket] called by PID 2442 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-autofs.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2445]: [systemctl --no-reload preset sssd-nss.socket] called by PID 2444 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-nss.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2447]: [systemctl --no-reload preset sssd-pac.socket] called by PID 2446 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pac.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2449]: [systemctl --no-reload preset sssd-pam.socket] called by PID 2448 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2451]: [systemctl --no-reload preset sssd-pam-priv.socket] called by PID 2450 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam-priv.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2453]: [systemctl --no-reload preset sssd-ssh.socket] called by PID 2452 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ssh.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2455]: [systemctl --no-reload preset sssd-sudo.socket] called by PID 2454 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-sudo.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2457]: [systemctl --no-reload preset sssd-kcm.socket] called by PID 2456 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-kcm.socket)
+Aug 17 09:45:52 localhost.localdomain systemctl[2459]: [systemctl --no-reload preset sssd-ifp.service] called by PID 2458 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ifp.service)
+Aug 17 09:45:52 localhost.localdomain [RPM][2400]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:52 localhost.localdomain systemctl[2463]: [/usr/bin/systemctl try-restart sssd.service] called by PID 2462 (/bin/sh /var/tmp/rpm-tmp.EFylUR 1)
+Aug 17 09:45:52 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rc92a667a61c049df8ba4afb708b2c9f6.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rc92a667a61c049df8ba4afb708b2c9f6.service has finished successfully.
+░░ 
+░░ The job identifier is 1521.
+Aug 17 09:45:53 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rc92a667a61c049df8ba4afb708b2c9f6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain kernel: kauditd_printk_skb: 4 callbacks suppressed
+Aug 17 09:45:53 localhost.localdomain kernel: audit: type=1130 audit(1692265553.078:164): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rc92a667a61c049df8ba4afb708b2c9f6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain systemctl[2468]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:53 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1584.
+Aug 17 09:45:53 localhost.localdomain systemctl[2470]: [/usr/bin/systemctl daemon-reload] called by PID 2469 (/bin/sh /var/tmp/rpm-tmp.2lNiEi 0)
+Aug 17 09:45:53 localhost.localdomain systemd[1]: Reloading requested from client PID 2470 (unit sshd.service)...
+Aug 17 09:45:53 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:53 localhost.localdomain systemd-rc-local-generator[2481]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:53 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:53 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:53 localhost.localdomain [RPM][2400]: Transaction ID 64ddec4f finished: 0
+Aug 17 09:45:53 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:53 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1584.
+Aug 17 09:45:53 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain kernel: audit: type=1130 audit(1692265553.540:165): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain kernel: audit: type=1131 audit(1692265553.540:166): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain systemd[1]: run-rc92a667a61c049df8ba4afb708b2c9f6.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rc92a667a61c049df8ba4afb708b2c9f6.service has successfully entered the 'dead' state.
+Aug 17 09:45:53 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rc92a667a61c049df8ba4afb708b2c9f6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain kernel: audit: type=1131 audit(1692265553.554:167): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rc92a667a61c049df8ba4afb708b2c9f6 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:53 localhost.localdomain systemctl[2493]: [systemctl restart sssd-pam.service] called by PID 2368 (bash -x oe_test_service_sssd-pam.sh)
+Aug 17 09:45:53 localhost.localdomain systemctl[2495]: [systemctl start sssd-pam.service] called by PID 2368 (bash -x oe_test_service_sssd-pam.sh)
+Aug 17 09:45:53 localhost.localdomain systemctl[2497]: [systemctl stop sssd-pam.service] called by PID 2368 (bash -x oe_test_service_sssd-pam.sh)
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: Transaction ID 64ddec52 started
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain systemctl[2510]: [systemctl --no-reload --now --no-warn disable sssd.service] called by PID 2509 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd.service)
+Aug 17 09:45:54 localhost.localdomain systemctl[2512]: [systemctl --no-reload --now --no-warn disable sssd-autofs.socket] called by PID 2511 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-autofs.socket)
+Aug 17 09:45:54 localhost.localdomain systemctl[2514]: [systemctl --no-reload --now --no-warn disable sssd-nss.socket] called by PID 2513 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-nss.socket)
+Aug 17 09:45:54 localhost.localdomain systemctl[2516]: [systemctl --no-reload --now --no-warn disable sssd-pac.socket] called by PID 2515 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pac.socket)
+Aug 17 09:45:54 localhost.localdomain systemctl[2518]: [systemctl --no-reload --now --no-warn disable sssd-pam.socket] called by PID 2517 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam.socket)
+Aug 17 09:45:54 localhost.localdomain systemctl[2520]: [systemctl --no-reload --now --no-warn disable sssd-pam-priv.socket] called by PID 2519 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam-priv.socket)
+Aug 17 09:45:54 localhost.localdomain systemctl[2522]: [systemctl --no-reload --now --no-warn disable sssd-ssh.socket] called by PID 2521 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ssh.socket)
+Aug 17 09:45:54 localhost.localdomain systemctl[2524]: [systemctl --no-reload --now --no-warn disable sssd-sudo.socket] called by PID 2523 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-sudo.socket)
+Aug 17 09:45:54 localhost.localdomain systemctl[2526]: [systemctl --no-reload --now --no-warn disable sssd-kcm.socket] called by PID 2525 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-kcm.socket)
+Aug 17 09:45:54 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:54 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:54 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:54 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:45:54 localhost.localdomain systemctl[2528]: [systemctl --no-reload --now --no-warn disable sssd-ifp.service] called by PID 2527 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ifp.service)
+Aug 17 09:45:54 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:54 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:45:54 localhost.localdomain systemctl[2532]: [/usr/bin/systemctl daemon-reload] called by PID 2530 (/bin/sh /var/tmp/rpm-tmp.I8H35b 0)
+Aug 17 09:45:54 localhost.localdomain systemd[1]: Reloading requested from client PID 2532 (unit sshd.service)...
+Aug 17 09:45:54 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:45:54 localhost.localdomain systemd-rc-local-generator[2541]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:45:54 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:45:54 localhost.localdomain [RPM][2504]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:45:55 localhost.localdomain systemctl[2556]: [systemctl --no-reload --now --no-warn disable saslauthd.service] called by PID 2555 (bash /usr/lib/systemd/systemd-update-helper remove-system-units saslauthd.service)
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:45:55 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-rf65bbc45895d4cc888bf63df6b471d7e.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-rf65bbc45895d4cc888bf63df6b471d7e.service has finished successfully.
+░░ 
+░░ The job identifier is 1604.
+Aug 17 09:45:55 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf65bbc45895d4cc888bf63df6b471d7e comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain kernel: audit: type=1130 audit(1692265555.215:168): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf65bbc45895d4cc888bf63df6b471d7e comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain [RPM][2504]: Transaction ID 64ddec52 finished: 0
+Aug 17 09:45:55 localhost.localdomain systemctl[2562]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:45:55 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1667.
+Aug 17 09:45:55 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:45:55 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1667.
+Aug 17 09:45:55 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain kernel: audit: type=1130 audit(1692265555.533:169): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain kernel: audit: type=1131 audit(1692265555.533:170): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain systemd[1]: run-rf65bbc45895d4cc888bf63df6b471d7e.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-rf65bbc45895d4cc888bf63df6b471d7e.service has successfully entered the 'dead' state.
+Aug 17 09:45:55 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf65bbc45895d4cc888bf63df6b471d7e comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain kernel: audit: type=1131 audit(1692265555.551:171): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-rf65bbc45895d4cc888bf63df6b471d7e comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain sudo[2321]: pam_unix(sudo:session): session closed for user root
+Aug 17 09:45:55 localhost.localdomain audit[2321]: USER_END pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain audit[2321]: CRED_DISP pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain kernel: audit: type=1106 audit(1692265555.680:172): pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain kernel: audit: type=1104 audit(1692265555.680:173): pid=2321 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain audit[2578]: USER_ACCT pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain audit[2578]: USER_CMD pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D662073737364202D72206F655F746573745F736572766963655F73737364202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain sudo[2578]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f sssd -r oe_test_service_sssd -x
+Aug 17 09:45:55 localhost.localdomain audit[2578]: CRED_REFR pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:45:55 localhost.localdomain sudo[2578]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 09:45:55 localhost.localdomain audit[2578]: USER_START pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: Transaction ID 64ddec59 started
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:01 localhost.localdomain [RPM][2657]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain systemctl[2691]: [systemctl --no-reload preset saslauthd.service] called by PID 2690 (bash /usr/lib/systemd/systemd-update-helper install-system-units saslauthd.service)
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain [RPM][2657]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:02 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:46:02 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:46:03 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:46:03 localhost.localdomain systemctl[2698]: [systemctl --no-reload preset sssd.service] called by PID 2697 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd.service)
+Aug 17 09:46:03 localhost.localdomain systemctl[2700]: [systemctl --no-reload preset sssd-autofs.socket] called by PID 2699 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-autofs.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2702]: [systemctl --no-reload preset sssd-nss.socket] called by PID 2701 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-nss.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2704]: [systemctl --no-reload preset sssd-pac.socket] called by PID 2703 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pac.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2706]: [systemctl --no-reload preset sssd-pam.socket] called by PID 2705 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2708]: [systemctl --no-reload preset sssd-pam-priv.socket] called by PID 2707 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-pam-priv.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2710]: [systemctl --no-reload preset sssd-ssh.socket] called by PID 2709 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ssh.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2712]: [systemctl --no-reload preset sssd-sudo.socket] called by PID 2711 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-sudo.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2714]: [systemctl --no-reload preset sssd-kcm.socket] called by PID 2713 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-kcm.socket)
+Aug 17 09:46:03 localhost.localdomain systemctl[2716]: [systemctl --no-reload preset sssd-ifp.service] called by PID 2715 (bash /usr/lib/systemd/systemd-update-helper install-system-units sssd-ifp.service)
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain systemctl[2720]: [/usr/bin/systemctl try-restart sssd.service] called by PID 2719 (/bin/sh /var/tmp/rpm-tmp.ouCr3H 1)
+Aug 17 09:46:03 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r3964d890cac444ef93bbf534fd6fb66c.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r3964d890cac444ef93bbf534fd6fb66c.service has finished successfully.
+░░ 
+░░ The job identifier is 1673.
+Aug 17 09:46:03 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r3964d890cac444ef93bbf534fd6fb66c comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:03 localhost.localdomain kernel: kauditd_printk_skb: 4 callbacks suppressed
+Aug 17 09:46:03 localhost.localdomain kernel: audit: type=1130 audit(1692265563.333:178): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r3964d890cac444ef93bbf534fd6fb66c comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:03 localhost.localdomain systemctl[2725]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:46:03 localhost.localdomain systemctl[2727]: [/usr/bin/systemctl daemon-reload] called by PID 2726 (/bin/sh /var/tmp/rpm-tmp.RMY4Nw 0)
+Aug 17 09:46:03 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 1736.
+Aug 17 09:46:03 localhost.localdomain systemd[1]: Reloading requested from client PID 2727 (unit sshd.service)...
+Aug 17 09:46:03 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:46:03 localhost.localdomain systemd-rc-local-generator[2738]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:46:03 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:46:03 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install jose-11-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: install sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:03 localhost.localdomain [RPM][2657]: Transaction ID 64ddec59 finished: 0
+Aug 17 09:46:03 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:46:03 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 1736.
+Aug 17 09:46:03 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:03 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:03 localhost.localdomain kernel: audit: type=1130 audit(1692265563.773:179): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:03 localhost.localdomain kernel: audit: type=1131 audit(1692265563.773:180): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:03 localhost.localdomain systemd[1]: run-r3964d890cac444ef93bbf534fd6fb66c.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r3964d890cac444ef93bbf534fd6fb66c.service has successfully entered the 'dead' state.
+Aug 17 09:46:03 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r3964d890cac444ef93bbf534fd6fb66c comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:03 localhost.localdomain kernel: audit: type=1131 audit(1692265563.790:181): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r3964d890cac444ef93bbf534fd6fb66c comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:04 localhost.localdomain systemctl[2751]: [systemctl restart sssd.service] called by PID 2625 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:04 localhost.localdomain systemd[1]: Starting System Security Services Daemon...
+░░ Subject: A start job for unit sssd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd.service has begun execution.
+░░ 
+░░ The job identifier is 1739.
+Aug 17 09:46:04 localhost.localdomain sssd[2752]: SSSD couldn't load the configuration database [1432158246]: No domain is enabled
+Aug 17 09:46:04 localhost.localdomain systemd[1]: sssd.service: Main process exited, code=exited, status=4/NOPERMISSION
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit sssd.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 4.
+Aug 17 09:46:04 localhost.localdomain systemd[1]: sssd.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd.service has entered the 'failed' state with result 'exit-code'.
+Aug 17 09:46:04 localhost.localdomain systemd[1]: Failed to start System Security Services Daemon.
+░░ Subject: A start job for unit sssd.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd.service has finished with a failure.
+░░ 
+░░ The job identifier is 1739 and the job result is failed.
+Aug 17 09:46:04 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 09:46:04 localhost.localdomain kernel: audit: type=1130 audit(1692265564.046:182): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 09:46:09 localhost.localdomain systemctl[2761]: [systemctl stop sssd.service] called by PID 2625 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:14 localhost.localdomain systemctl[2767]: [systemctl start sssd.service] called by PID 2625 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:14 localhost.localdomain systemd[1]: Starting System Security Services Daemon...
+░░ Subject: A start job for unit sssd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd.service has begun execution.
+░░ 
+░░ The job identifier is 1804.
+Aug 17 09:46:14 localhost.localdomain sssd[2768]: SSSD couldn't load the configuration database [1432158246]: No domain is enabled
+Aug 17 09:46:14 localhost.localdomain systemd[1]: sssd.service: Main process exited, code=exited, status=4/NOPERMISSION
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit sssd.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 4.
+Aug 17 09:46:14 localhost.localdomain systemd[1]: sssd.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd.service has entered the 'failed' state with result 'exit-code'.
+Aug 17 09:46:14 localhost.localdomain systemd[1]: Failed to start System Security Services Daemon.
+░░ Subject: A start job for unit sssd.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd.service has finished with a failure.
+░░ 
+░░ The job identifier is 1804 and the job result is failed.
+Aug 17 09:46:14 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 09:46:14 localhost.localdomain kernel: audit: type=1130 audit(1692265574.392:183): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 09:46:17 localhost.localdomain sshd[849]: fatal: Timeout before authentication for 10.0.2.2 port 37484
+Aug 17 09:46:19 localhost.localdomain systemctl[2779]: [systemctl enable sssd.service] called by PID 2778 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:19 localhost.localdomain systemd[1]: Reloading requested from client PID 2779 (unit sshd.service)...
+Aug 17 09:46:19 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:46:19 localhost.localdomain systemd-rc-local-generator[2790]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:46:19 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:46:19 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:46:19 localhost.localdomain systemctl[2796]: [systemctl disable sssd.service] called by PID 2625 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:19 localhost.localdomain systemd[1]: Reloading requested from client PID 2796 (unit sshd.service)...
+Aug 17 09:46:19 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:46:19 localhost.localdomain systemd-rc-local-generator[2805]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:46:19 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:46:19 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd.service:17: PIDFile= references a path below legacy directory /var/run/, updating /var/run/sssd.pid → /run/sssd.pid; please update the unit file accordingly.
+Aug 17 09:46:20 localhost.localdomain systemctl[2816]: [systemctl start sssd.service] called by PID 2625 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:20 localhost.localdomain systemd[1]: Starting System Security Services Daemon...
+░░ Subject: A start job for unit sssd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd.service has begun execution.
+░░ 
+░░ The job identifier is 1868.
+Aug 17 09:46:20 localhost.localdomain sssd[2817]: SSSD couldn't load the configuration database [1432158246]: No domain is enabled
+Aug 17 09:46:20 localhost.localdomain systemd[1]: sssd.service: Main process exited, code=exited, status=4/NOPERMISSION
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit sssd.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 4.
+Aug 17 09:46:20 localhost.localdomain systemd[1]: sssd.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit sssd.service has entered the 'failed' state with result 'exit-code'.
+Aug 17 09:46:20 localhost.localdomain systemd[1]: Failed to start System Security Services Daemon.
+░░ Subject: A start job for unit sssd.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sssd.service has finished with a failure.
+░░ 
+░░ The job identifier is 1868 and the job result is failed.
+Aug 17 09:46:20 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 09:46:20 localhost.localdomain kernel: audit: type=1130 audit(1692265580.059:184): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sssd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 09:46:20 localhost.localdomain systemctl[2819]: [systemctl reload sssd.service] called by PID 2625 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:20 localhost.localdomain systemctl[2828]: [systemctl stop sssd.service] called by PID 2625 (bash -x oe_test_service_sssd.sh)
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: Transaction ID 64ddec6d started
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase python3-sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain systemctl[2836]: [systemctl --no-reload --now --no-warn disable sssd.service] called by PID 2835 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd.service)
+Aug 17 09:46:21 localhost.localdomain systemctl[2838]: [systemctl --no-reload --now --no-warn disable sssd-autofs.socket] called by PID 2837 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-autofs.socket)
+Aug 17 09:46:21 localhost.localdomain systemctl[2840]: [systemctl --no-reload --now --no-warn disable sssd-nss.socket] called by PID 2839 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-nss.socket)
+Aug 17 09:46:21 localhost.localdomain systemctl[2842]: [systemctl --no-reload --now --no-warn disable sssd-pac.socket] called by PID 2841 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pac.socket)
+Aug 17 09:46:21 localhost.localdomain systemctl[2844]: [systemctl --no-reload --now --no-warn disable sssd-pam.socket] called by PID 2843 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam.socket)
+Aug 17 09:46:21 localhost.localdomain systemctl[2846]: [systemctl --no-reload --now --no-warn disable sssd-pam-priv.socket] called by PID 2845 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-pam-priv.socket)
+Aug 17 09:46:21 localhost.localdomain systemctl[2848]: [systemctl --no-reload --now --no-warn disable sssd-ssh.socket] called by PID 2847 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ssh.socket)
+Aug 17 09:46:21 localhost.localdomain systemctl[2850]: [systemctl --no-reload --now --no-warn disable sssd-sudo.socket] called by PID 2849 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-sudo.socket)
+Aug 17 09:46:21 localhost.localdomain systemctl[2852]: [systemctl --no-reload --now --no-warn disable sssd-kcm.socket] called by PID 2851 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-kcm.socket)
+Aug 17 09:46:21 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:46:21 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:46:21 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:46:21 localhost.localdomain systemd[1]: /usr/lib/systemd/system/sssd-kcm.socket:6: ListenStream= references a path below legacy directory /var/run/, updating /var/run/.heim_org.h5l.kcm-socket → /run/.heim_org.h5l.kcm-socket; please update the unit file accordingly.
+Aug 17 09:46:21 localhost.localdomain systemctl[2854]: [systemctl --no-reload --now --no-warn disable sssd-ifp.service] called by PID 2853 (bash /usr/lib/systemd/systemd-update-helper remove-system-units sssd-ifp.service)
+Aug 17 09:46:21 localhost.localdomain dbus-daemon[507]: [system] Reloaded configuration
+Aug 17 09:46:21 localhost.localdomain systemctl[2858]: [/usr/bin/systemctl daemon-reload] called by PID 2856 (/bin/sh /var/tmp/rpm-tmp.32HM8W 0)
+Aug 17 09:46:21 localhost.localdomain systemd[1]: Reloading requested from client PID 2858 (unit sshd.service)...
+Aug 17 09:46:21 localhost.localdomain systemd[1]: Reloading.
+Aug 17 09:46:21 localhost.localdomain systemd-rc-local-generator[2867]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 09:46:21 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase sssd-2.9.1-2.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase libsmbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase samba-client-libs-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:21 localhost.localdomain [RPM][2830]: erase samba-common-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase libwbclient-4.18.5-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase libldb-2.7.2-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase bind-utils-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase bind-libs-32:9.16.37-4.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase libtevent-0.14.1-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase jose-11-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase adcli-0.9.2-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase bind-license-32:9.16.37-4.oe2309.noarch: success
+Aug 17 09:46:22 localhost.localdomain systemctl[2882]: [systemctl --no-reload --now --no-warn disable saslauthd.service] called by PID 2881 (bash /usr/lib/systemd/systemd-update-helper remove-system-units saslauthd.service)
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase cyrus-sasl-2.1.28-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase jansson-2.14-3.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase libtalloc-2.4.0-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase lmdb-0.9.31-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase libuv-1:1.44.2-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase libtdb-1.4.8-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase ding-libs-0.6.1-45.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase c-ares-1.19.1-1.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: erase libnfsidmap-2:2.6.2-4.oe2309.x86_64: success
+Aug 17 09:46:22 localhost.localdomain systemd[1]: Started /usr/bin/systemctl start man-db-cache-update.
+░░ Subject: A start job for unit run-r55aeab908ebb406791aac7cf9c40d0dc.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit run-r55aeab908ebb406791aac7cf9c40d0dc.service has finished successfully.
+░░ 
+░░ The job identifier is 1948.
+Aug 17 09:46:22 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r55aeab908ebb406791aac7cf9c40d0dc comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1130 audit(1692265582.354:185): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r55aeab908ebb406791aac7cf9c40d0dc comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain [RPM][2830]: Transaction ID 64ddec6d finished: 0
+Aug 17 09:46:22 localhost.localdomain systemctl[2888]: [/usr/bin/systemctl start man-db-cache-update] called by PID 1 (/usr/lib/systemd/systemd --switched-root --system --deserialize 31)
+Aug 17 09:46:22 localhost.localdomain systemd[1]: Starting man-db-cache-update.service...
+░░ Subject: A start job for unit man-db-cache-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has begun execution.
+░░ 
+░░ The job identifier is 2011.
+Aug 17 09:46:22 localhost.localdomain systemd[1]: man-db-cache-update.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit man-db-cache-update.service has successfully entered the 'dead' state.
+Aug 17 09:46:22 localhost.localdomain systemd[1]: Finished man-db-cache-update.service.
+░░ Subject: A start job for unit man-db-cache-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit man-db-cache-update.service has finished successfully.
+░░ 
+░░ The job identifier is 2011.
+Aug 17 09:46:22 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1130 audit(1692265582.690:186): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1131 audit(1692265582.692:187): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=man-db-cache-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain systemd[1]: run-r55aeab908ebb406791aac7cf9c40d0dc.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit run-r55aeab908ebb406791aac7cf9c40d0dc.service has successfully entered the 'dead' state.
+Aug 17 09:46:22 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r55aeab908ebb406791aac7cf9c40d0dc comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1131 audit(1692265582.710:188): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=run-r55aeab908ebb406791aac7cf9c40d0dc comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain sudo[2578]: pam_unix(sudo:session): session closed for user root
+Aug 17 09:46:22 localhost.localdomain audit[2578]: USER_END pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain audit[2578]: CRED_DISP pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1106 audit(1692265582.858:189): pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1104 audit(1692265582.858:190): pid=2578 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain audit[2900]: USER_ACCT pid=2900 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1101 audit(1692265582.865:191): pid=2900 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1123 audit(1692265582.865:192): pid=2900 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=6A6F75726E616C63746C202D7865202D2D6E6F2D7061676572 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain audit[2900]: USER_CMD pid=2900 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=6A6F75726E616C63746C202D7865202D2D6E6F2D7061676572 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain sudo[2900]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/journalctl -xe --no-pager
+Aug 17 09:46:22 localhost.localdomain audit[2900]: CRED_REFR pid=2900 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain audit[2900]: USER_START pid=2900 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 09:46:22 localhost.localdomain sudo[2900]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 09:46:22 localhost.localdomain kernel: audit: type=1110 audit(1692265582.866:193): pid=2900 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'

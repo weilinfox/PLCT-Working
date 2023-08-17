@@ -1,0 +1,2275 @@
+Aug 17 11:12:47 localhost kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Aug 17 11:12:47 localhost kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Aug 17 11:12:47 localhost kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Aug 17 11:12:47 localhost kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Aug 17 11:12:47 localhost kernel: Performance Events: Skylake events, full-width counters, Intel PMU driver.
+Aug 17 11:12:47 localhost kernel: ... version:                2
+Aug 17 11:12:47 localhost kernel: ... bit width:              48
+Aug 17 11:12:47 localhost kernel: ... generic registers:      4
+Aug 17 11:12:47 localhost kernel: ... value mask:             0000ffffffffffff
+Aug 17 11:12:47 localhost kernel: ... max period:             00007fffffffffff
+Aug 17 11:12:47 localhost kernel: ... fixed-purpose events:   3
+Aug 17 11:12:47 localhost kernel: ... event mask:             000000070000000f
+Aug 17 11:12:47 localhost kernel: rcu: Hierarchical SRCU implementation.
+Aug 17 11:12:47 localhost kernel: rcu:         Max phase no-delay instances is 400.
+Aug 17 11:12:47 localhost kernel: NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+Aug 17 11:12:47 localhost kernel: smp: Bringing up secondary CPUs ...
+Aug 17 11:12:47 localhost kernel: x86: Booting SMP configuration:
+Aug 17 11:12:47 localhost kernel: .... node  #0, CPUs:      #1 #2 #3
+Aug 17 11:12:47 localhost kernel: smp: Brought up 1 node, 4 CPUs
+Aug 17 11:12:47 localhost kernel: smpboot: Max logical packages: 1
+Aug 17 11:12:47 localhost kernel: smpboot: Total of 4 processors activated (20735.98 BogoMIPS)
+Aug 17 11:12:47 localhost kernel: node 0 deferred pages initialised in 1ms
+Aug 17 11:12:47 localhost kernel: devtmpfs: initialized
+Aug 17 11:12:47 localhost kernel: x86/mm: Memory block size: 128MB
+Aug 17 11:12:47 localhost kernel: ACPI: PM: Registering ACPI NVS region [mem 0x00800000-0x00807fff] (32768 bytes)
+Aug 17 11:12:47 localhost kernel: ACPI: PM: Registering ACPI NVS region [mem 0x0080b000-0x0080bfff] (4096 bytes)
+Aug 17 11:12:47 localhost kernel: ACPI: PM: Registering ACPI NVS region [mem 0x00810000-0x008fffff] (983040 bytes)
+Aug 17 11:12:47 localhost kernel: ACPI: PM: Registering ACPI NVS region [mem 0xbfb7f000-0xbfbfefff] (524288 bytes)
+Aug 17 11:12:47 localhost kernel: ACPI: PM: Registering ACPI NVS region [mem 0xbff60000-0xbfffffff] (655360 bytes)
+Aug 17 11:12:47 localhost kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Aug 17 11:12:47 localhost kernel: futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Aug 17 11:12:47 localhost kernel: pinctrl core: initialized pinctrl subsystem
+Aug 17 11:12:47 localhost kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Aug 17 11:12:47 localhost kernel: DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+Aug 17 11:12:47 localhost kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Aug 17 11:12:47 localhost kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Aug 17 11:12:47 localhost kernel: audit: initializing netlink subsys (disabled)
+Aug 17 11:12:47 localhost kernel: audit: type=2000 audit(1692270767.528:1): state=initialized audit_enabled=0 res=1
+Aug 17 11:12:47 localhost kernel: thermal_sys: Registered thermal governor 'fair_share'
+Aug 17 11:12:47 localhost kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Aug 17 11:12:47 localhost kernel: thermal_sys: Registered thermal governor 'step_wise'
+Aug 17 11:12:47 localhost kernel: thermal_sys: Registered thermal governor 'user_space'
+Aug 17 11:12:47 localhost kernel: cpuidle: using governor menu
+Aug 17 11:12:47 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Aug 17 11:12:47 localhost kernel: PCI: Using configuration type 1 for base access
+Aug 17 11:12:47 localhost kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Aug 17 11:12:47 localhost kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+Aug 17 11:12:47 localhost kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+Aug 17 11:12:47 localhost kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Aug 17 11:12:47 localhost kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Aug 17 11:12:47 localhost kernel: cryptd: max_cpu_qlen set to 1000
+Aug 17 11:12:47 localhost kernel: ACPI: Added _OSI(Module Device)
+Aug 17 11:12:47 localhost kernel: ACPI: Added _OSI(Processor Device)
+Aug 17 11:12:47 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Aug 17 11:12:47 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Aug 17 11:12:47 localhost kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+Aug 17 11:12:47 localhost kernel: ACPI: Interpreter enabled
+Aug 17 11:12:47 localhost kernel: ACPI: PM: (supports S0 S3 S4 S5)
+Aug 17 11:12:47 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Aug 17 11:12:47 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 17 11:12:47 localhost kernel: PCI: Using E820 reservations for host bridge windows
+Aug 17 11:12:47 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+Aug 17 11:12:47 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 17 11:12:47 localhost kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+Aug 17 11:12:47 localhost kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Aug 17 11:12:47 localhost kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [3] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [4] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [5] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [6] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [7] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [8] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [9] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [10] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [11] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [12] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [13] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [14] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [15] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [16] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [17] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [18] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [19] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [20] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [21] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [22] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [23] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [24] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [25] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [26] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [27] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [28] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [29] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [30] registered
+Aug 17 11:12:47 localhost kernel: acpiphp: Slot [31] registered
+Aug 17 11:12:47 localhost kernel: PCI host bridge to bus 0000:00
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: root bus resource [mem 0x7000000000-0x707fffffff window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.1: [8086:7010] type 00 class 0x010180
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.1: reg 0x20: [io  0xc0e0-0xc0ef]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.2: [8086:7020] type 00 class 0x0c0300
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.2: reg 0x20: [io  0xc0c0-0xc0df]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.3: [8086:7113] type 00 class 0x068000
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: [1234:1111] type 00 class 0x030000
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: reg 0x10: [mem 0xc0000000-0xc0ffffff pref]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: reg 0x18: [mem 0xc1043000-0xc1043fff]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: reg 0x30: [mem 0xffff0000-0xffffffff pref]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: BAR 0: assigned to efifb
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:03.0: [1b36:000d] type 00 class 0x0c0330
+Aug 17 11:12:47 localhost kernel: pci 0000:00:03.0: reg 0x10: [mem 0x700000c000-0x700000ffff 64bit]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:04.0: [1af4:1005] type 00 class 0x00ff00
+Aug 17 11:12:47 localhost kernel: pci 0000:00:04.0: reg 0x10: [io  0xc0a0-0xc0bf]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:04.0: reg 0x14: [mem 0xc1042000-0xc1042fff]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:04.0: reg 0x20: [mem 0x7000000000-0x7000003fff 64bit pref]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:05.0: [1af4:1001] type 00 class 0x010000
+Aug 17 11:12:47 localhost kernel: pci 0000:00:05.0: reg 0x10: [io  0xc000-0xc07f]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:05.0: reg 0x14: [mem 0xc1041000-0xc1041fff]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:05.0: reg 0x20: [mem 0x7000004000-0x7000007fff 64bit pref]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000
+Aug 17 11:12:47 localhost kernel: pci 0000:00:06.0: reg 0x10: [io  0xc080-0xc09f]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:06.0: reg 0x14: [mem 0xc1040000-0xc1040fff]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:06.0: reg 0x20: [mem 0x7000008000-0x700000bfff 64bit pref]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:06.0: reg 0x30: [mem 0xfffc0000-0xffffffff pref]
+Aug 17 11:12:47 localhost kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+Aug 17 11:12:47 localhost kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Aug 17 11:12:47 localhost kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+Aug 17 11:12:47 localhost kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Aug 17 11:12:47 localhost kernel: ACPI: PCI: Interrupt link LNKS configured for IRQ 9
+Aug 17 11:12:47 localhost kernel: iommu: Default domain type: Passthrough 
+Aug 17 11:12:47 localhost kernel: SCSI subsystem initialized
+Aug 17 11:12:47 localhost kernel: ACPI: bus type USB registered
+Aug 17 11:12:47 localhost kernel: usbcore: registered new interface driver usbfs
+Aug 17 11:12:47 localhost kernel: usbcore: registered new interface driver hub
+Aug 17 11:12:47 localhost kernel: usbcore: registered new device driver usb
+Aug 17 11:12:47 localhost kernel: pps_core: LinuxPPS API ver. 1 registered
+Aug 17 11:12:47 localhost kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Aug 17 11:12:47 localhost kernel: PTP clock support registered
+Aug 17 11:12:47 localhost kernel: EDAC MC: Ver: 3.0.0
+Aug 17 11:12:47 localhost kernel: efivars: Registered efivars operations
+Aug 17 11:12:47 localhost kernel: NetLabel: Initializing
+Aug 17 11:12:47 localhost kernel: NetLabel:  domain hash size = 128
+Aug 17 11:12:47 localhost kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Aug 17 11:12:47 localhost kernel: NetLabel:  unlabeled traffic allowed by default
+Aug 17 11:12:47 localhost kernel: PCI: Using ACPI for IRQ routing
+Aug 17 11:12:47 localhost kernel: PCI: pci_cache_line_size set to 64 bytes
+Aug 17 11:12:47 localhost kernel: e820: reserve RAM buffer [mem 0x0080b000-0x008fffff]
+Aug 17 11:12:47 localhost kernel: e820: reserve RAM buffer [mem 0x00810000-0x008fffff]
+Aug 17 11:12:47 localhost kernel: e820: reserve RAM buffer [mem 0xbe4b3018-0xbfffffff]
+Aug 17 11:12:47 localhost kernel: e820: reserve RAM buffer [mem 0xbe4db018-0xbfffffff]
+Aug 17 11:12:47 localhost kernel: e820: reserve RAM buffer [mem 0xbe584000-0xbfffffff]
+Aug 17 11:12:47 localhost kernel: e820: reserve RAM buffer [mem 0xbf8ed000-0xbfffffff]
+Aug 17 11:12:47 localhost kernel: e820: reserve RAM buffer [mem 0xbff40000-0xbfffffff]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Aug 17 11:12:47 localhost kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Aug 17 11:12:47 localhost kernel: vgaarb: loaded
+Aug 17 11:12:47 localhost kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Aug 17 11:12:47 localhost kernel: hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Aug 17 11:12:47 localhost kernel: clocksource: Switched to clocksource kvm-clock
+Aug 17 11:12:47 localhost kernel: VFS: Disk quotas dquot_6.6.0
+Aug 17 11:12:47 localhost kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Aug 17 11:12:47 localhost kernel: AppArmor: AppArmor Filesystem Enabled
+Aug 17 11:12:47 localhost kernel: pnp: PnP ACPI init
+Aug 17 11:12:47 localhost kernel: pnp 00:02: [dma 2]
+Aug 17 11:12:47 localhost kernel: pnp: PnP ACPI: found 6 devices
+Aug 17 11:12:47 localhost kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Aug 17 11:12:47 localhost kernel: NET: Registered PF_INET protocol family
+Aug 17 11:12:47 localhost kernel: IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Aug 17 11:12:47 localhost kernel: tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+Aug 17 11:12:47 localhost kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Aug 17 11:12:47 localhost kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Aug 17 11:12:47 localhost kernel: TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+Aug 17 11:12:47 localhost kernel: TCP: Hash tables configured (established 32768 bind 32768)
+Aug 17 11:12:47 localhost kernel: UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Aug 17 11:12:47 localhost kernel: UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Aug 17 11:12:47 localhost kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Aug 17 11:12:47 localhost kernel: NET: Registered PF_XDP protocol family
+Aug 17 11:12:47 localhost kernel: pci 0000:00:06.0: can't claim BAR 6 [mem 0xfffc0000-0xffffffff pref]: no compatible bridge window
+Aug 17 11:12:47 localhost kernel: pci 0000:00:06.0: BAR 6: assigned [mem 0xc1000000-0xc103ffff pref]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: resource 7 [mem 0xc0000000-0xfebfffff window]
+Aug 17 11:12:47 localhost kernel: pci_bus 0000:00: resource 8 [mem 0x7000000000-0x707fffffff window]
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Aug 17 11:12:47 localhost kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 17 11:12:47 localhost kernel: ACPI: \_SB_.LNKD: Enabled at IRQ 11
+Aug 17 11:12:47 localhost kernel: pci 0000:00:01.2: quirk_usb_early_handoff+0x0/0x160 took 37714 usecs
+Aug 17 11:12:47 localhost kernel: ACPI: \_SB_.LNKC: Enabled at IRQ 10
+Aug 17 11:12:47 localhost kernel: pci 0000:00:03.0: quirk_usb_early_handoff+0x0/0x160 took 37742 usecs
+Aug 17 11:12:47 localhost kernel: PCI: CLS 0 bytes, default 64
+Aug 17 11:12:47 localhost kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Aug 17 11:12:47 localhost kernel: software IO TLB: mapped [mem 0x00000000a7000000-0x00000000ab000000] (64MB)
+Aug 17 11:12:47 localhost kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x255cb518234, max_idle_ns: 440795279333 ns
+Aug 17 11:12:47 localhost kernel: Trying to unpack rootfs image as initramfs...
+Aug 17 11:12:47 localhost kernel: Initialise system trusted keyrings
+Aug 17 11:12:47 localhost kernel: Key type blacklist registered
+Aug 17 11:12:47 localhost kernel: workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Aug 17 11:12:47 localhost kernel: zbud: loaded
+Aug 17 11:12:47 localhost kernel: integrity: Platform Keyring initialized
+Aug 17 11:12:47 localhost kernel: NET: Registered PF_ALG protocol family
+Aug 17 11:12:47 localhost kernel: Key type asymmetric registered
+Aug 17 11:12:47 localhost kernel: Asymmetric key parser 'x509' registered
+Aug 17 11:12:47 localhost kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Aug 17 11:12:47 localhost kernel: io scheduler mq-deadline registered
+Aug 17 11:12:47 localhost kernel: io scheduler kyber registered
+Aug 17 11:12:47 localhost kernel: io scheduler bfq registered
+Aug 17 11:12:47 localhost kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Aug 17 11:12:47 localhost kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 17 11:12:47 localhost kernel: ACPI: button: Power Button [PWRF]
+Aug 17 11:12:47 localhost kernel: ACPI: \_SB_.LNKA: Enabled at IRQ 10
+Aug 17 11:12:47 localhost kernel: ACPI: \_SB_.LNKB: Enabled at IRQ 11
+Aug 17 11:12:47 localhost kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Aug 17 11:12:47 localhost kernel: 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Aug 17 11:12:47 localhost kernel: Non-volatile memory driver v1.3
+Aug 17 11:12:47 localhost kernel: rdac: device handler registered
+Aug 17 11:12:47 localhost kernel: hp_sw: device handler registered
+Aug 17 11:12:47 localhost kernel: emc: device handler registered
+Aug 17 11:12:47 localhost kernel: alua: device handler registered
+Aug 17 11:12:47 localhost kernel: uhci_hcd 0000:00:01.2: UHCI Host Controller
+Aug 17 11:12:47 localhost kernel: uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Aug 17 11:12:47 localhost kernel: uhci_hcd 0000:00:01.2: detected 2 ports
+Aug 17 11:12:47 localhost kernel: uhci_hcd 0000:00:01.2: irq 11, io port 0x0000c0c0
+Aug 17 11:12:47 localhost kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.04
+Aug 17 11:12:47 localhost kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 17 11:12:47 localhost kernel: usb usb1: Product: UHCI Host Controller
+Aug 17 11:12:47 localhost kernel: usb usb1: Manufacturer: Linux 6.4.0-1.0.1.4.oe2309.x86_64 uhci_hcd
+Aug 17 11:12:47 localhost kernel: usb usb1: SerialNumber: 0000:00:01.2
+Aug 17 11:12:47 localhost kernel: hub 1-0:1.0: USB hub found
+Aug 17 11:12:47 localhost kernel: hub 1-0:1.0: 2 ports detected
+Aug 17 11:12:47 localhost kernel: xhci_hcd 0000:00:03.0: xHCI Host Controller
+Aug 17 11:12:47 localhost kernel: xhci_hcd 0000:00:03.0: new USB bus registered, assigned bus number 2
+Aug 17 11:12:47 localhost kernel: xhci_hcd 0000:00:03.0: hcc params 0x00087001 hci version 0x100 quirks 0x0000000000000010
+Aug 17 11:12:47 localhost kernel: xhci_hcd 0000:00:03.0: xHCI Host Controller
+Aug 17 11:12:47 localhost kernel: xhci_hcd 0000:00:03.0: new USB bus registered, assigned bus number 3
+Aug 17 11:12:47 localhost kernel: xhci_hcd 0000:00:03.0: Host supports USB 3.0 SuperSpeed
+Aug 17 11:12:47 localhost kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.04
+Aug 17 11:12:47 localhost kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 17 11:12:47 localhost kernel: usb usb2: Product: xHCI Host Controller
+Aug 17 11:12:47 localhost kernel: usb usb2: Manufacturer: Linux 6.4.0-1.0.1.4.oe2309.x86_64 xhci-hcd
+Aug 17 11:12:47 localhost kernel: usb usb2: SerialNumber: 0000:00:03.0
+Aug 17 11:12:47 localhost kernel: hub 2-0:1.0: USB hub found
+Aug 17 11:12:47 localhost kernel: hub 2-0:1.0: 4 ports detected
+Aug 17 11:12:47 localhost kernel: usb usb3: We don't know the algorithms for LPM for this host, disabling LPM.
+Aug 17 11:12:47 localhost kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.04
+Aug 17 11:12:47 localhost kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 17 11:12:47 localhost kernel: usb usb3: Product: xHCI Host Controller
+Aug 17 11:12:47 localhost kernel: usb usb3: Manufacturer: Linux 6.4.0-1.0.1.4.oe2309.x86_64 xhci-hcd
+Aug 17 11:12:47 localhost kernel: usb usb3: SerialNumber: 0000:00:03.0
+Aug 17 11:12:47 localhost kernel: hub 3-0:1.0: USB hub found
+Aug 17 11:12:47 localhost kernel: hub 3-0:1.0: 4 ports detected
+Aug 17 11:12:47 localhost kernel: i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Aug 17 11:12:47 localhost kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 17 11:12:47 localhost kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 17 11:12:47 localhost kernel: mousedev: PS/2 mouse device common for all mice
+Aug 17 11:12:47 localhost kernel: rtc_cmos 00:05: RTC can wake from S4
+Aug 17 11:12:47 localhost kernel: rtc_cmos 00:05: registered as rtc0
+Aug 17 11:12:47 localhost kernel: rtc_cmos 00:05: setting system clock to 2023-08-17T11:12:47 UTC (1692270767)
+Aug 17 11:12:47 localhost kernel: rtc_cmos 00:05: alarms up to one day, y3k, 242 bytes nvram
+Aug 17 11:12:47 localhost kernel: intel_pstate: CPU model not supported
+Aug 17 11:12:47 localhost kernel: efifb: probing for efifb
+Aug 17 11:12:47 localhost kernel: efifb: framebuffer at 0xc0000000, using 4000k, total 4000k
+Aug 17 11:12:47 localhost kernel: efifb: mode is 1280x800x32, linelength=5120, pages=1
+Aug 17 11:12:47 localhost kernel: efifb: scrolling: redraw
+Aug 17 11:12:47 localhost kernel: efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Aug 17 11:12:47 localhost kernel: Console: switching to colour frame buffer device 160x50
+Aug 17 11:12:47 localhost kernel: fb0: EFI VGA frame buffer device
+Aug 17 11:12:47 localhost kernel: hid: raw HID events driver (C) Jiri Kosina
+Aug 17 11:12:47 localhost kernel: usbcore: registered new interface driver usbhid
+Aug 17 11:12:47 localhost kernel: usbhid: USB HID core driver
+Aug 17 11:12:47 localhost kernel: drop_monitor: Initializing network drop monitor service
+Aug 17 11:12:47 localhost kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Aug 17 11:12:47 localhost kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Aug 17 11:12:47 localhost kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Aug 17 11:12:47 localhost kernel: Initializing XFRM netlink socket
+Aug 17 11:12:47 localhost kernel: NET: Registered PF_INET6 protocol family
+Aug 17 11:12:47 localhost kernel: Segment Routing with IPv6
+Aug 17 11:12:47 localhost kernel: In-situ OAM (IOAM) with IPv6
+Aug 17 11:12:47 localhost kernel: NET: Registered PF_PACKET protocol family
+Aug 17 11:12:47 localhost kernel: mpls_gso: MPLS GSO support
+Aug 17 11:12:47 localhost kernel: IPI shorthand broadcast: enabled
+Aug 17 11:12:47 localhost kernel: AVX2 version of gcm_enc/dec engaged.
+Aug 17 11:12:47 localhost kernel: AES CTR mode by8 optimization enabled
+Aug 17 11:12:47 localhost kernel: sched_clock: Marking stable (345001818, 579334)->(351809012, -6227860)
+Aug 17 11:12:47 localhost kernel: registered taskstats version 1
+Aug 17 11:12:47 localhost kernel: Loading compiled-in X.509 certificates
+Aug 17 11:12:47 localhost kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 8d6becf8a3398ba5cb1a9c7c59418e0e1047c236'
+Aug 17 11:12:47 localhost kernel: Freeing initrd memory: 28996K
+Aug 17 11:12:47 localhost kernel: Key type encrypted registered
+Aug 17 11:12:47 localhost kernel: AppArmor: AppArmor sha1 policy hashing enabled
+Aug 17 11:12:47 localhost kernel: ima: No TPM chip found, activating TPM-bypass!
+Aug 17 11:12:47 localhost kernel: ima: Allocated hash algorithm: sha256
+Aug 17 11:12:47 localhost kernel: ima: No architecture policies found
+Aug 17 11:12:47 localhost kernel: evm: Initialising EVM extended attributes:
+Aug 17 11:12:47 localhost kernel: evm: security.selinux
+Aug 17 11:12:47 localhost kernel: evm: security.SMACK64 (disabled)
+Aug 17 11:12:47 localhost kernel: evm: security.SMACK64EXEC (disabled)
+Aug 17 11:12:47 localhost kernel: evm: security.SMACK64TRANSMUTE (disabled)
+Aug 17 11:12:47 localhost kernel: evm: security.SMACK64MMAP (disabled)
+Aug 17 11:12:47 localhost kernel: evm: security.apparmor
+Aug 17 11:12:47 localhost kernel: evm: security.ima
+Aug 17 11:12:47 localhost kernel: evm: security.capability
+Aug 17 11:12:47 localhost kernel: evm: HMAC attrs: 0x1
+Aug 17 11:12:47 localhost kernel: clk: Disabling unused clocks
+Aug 17 11:12:47 localhost kernel: integrity: Unable to open file: /etc/keys/x509_ima.der (-2)
+Aug 17 11:12:47 localhost kernel: integrity: Unable to open file: /etc/keys/x509_evm.der (-2)
+Aug 17 11:12:47 localhost kernel: Freeing unused decrypted memory: 2036K
+Aug 17 11:12:47 localhost kernel: Freeing unused kernel image (initmem) memory: 3844K
+Aug 17 11:12:47 localhost kernel: Write protecting the kernel read-only data: 28672k
+Aug 17 11:12:47 localhost kernel: Freeing unused kernel image (rodata/data gap) memory: 1700K
+Aug 17 11:12:47 localhost kernel: Run /init as init process
+Aug 17 11:12:47 localhost kernel:   with arguments:
+Aug 17 11:12:47 localhost kernel:     /init
+Aug 17 11:12:47 localhost kernel:   with environment:
+Aug 17 11:12:47 localhost kernel:     HOME=/
+Aug 17 11:12:47 localhost kernel:     TERM=linux
+Aug 17 11:12:47 localhost kernel:     BOOT_IMAGE=/vmlinuz-6.4.0-1.0.1.4.oe2309.x86_64
+Aug 17 11:12:47 localhost kernel:     softlockup_panic=1
+Aug 17 11:12:47 localhost systemd[1]: systemd v253-3.oe2309 running in system mode (+PAM +AUDIT +SELINUX -APPARMOR +IMA -SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID -CURL -ELFUTILS -FIDO2 +IDN2 -IDN -IPTC +KMOD -LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE -TPM2 +BZIP2 +LZ4 +XZ +ZLIB -ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=legacy)
+Aug 17 11:12:47 localhost systemd[1]: Detected virtualization kvm.
+Aug 17 11:12:47 localhost systemd[1]: Detected architecture x86-64.
+Aug 17 11:12:47 localhost systemd[1]: Running in initrd.
+Aug 17 11:12:47 localhost systemd[1]: No hostname configured, using default hostname.
+Aug 17 11:12:47 localhost systemd[1]: Hostname set to <localhost>.
+Aug 17 11:12:47 localhost systemd[1]: Initializing machine ID from random generator.
+Aug 17 11:12:47 localhost kernel: usb 2-1: new high-speed USB device number 2 using xhci_hcd
+Aug 17 11:12:47 localhost systemd[1]: Queued start job for default target Initrd Default Target.
+Aug 17 11:12:47 localhost systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Initrd /usr File System.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Local File Systems.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Path Units.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Slice Units.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Swaps.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Timer Units.
+Aug 17 11:12:47 localhost systemd[1]: Listening on Journal Socket (/dev/log).
+Aug 17 11:12:47 localhost systemd[1]: Listening on Journal Socket.
+Aug 17 11:12:47 localhost systemd[1]: Listening on udev Control Socket.
+Aug 17 11:12:47 localhost systemd[1]: Listening on udev Kernel Socket.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Socket Units.
+Aug 17 11:12:47 localhost systemd[1]: Starting Create List of Static Device Nodes...
+Aug 17 11:12:47 localhost systemd[1]: systemd-journald.service: unit configures an IP firewall, but the local system does not support BPF/cgroup firewalling.
+Aug 17 11:12:47 localhost systemd[1]: (This warning is only shown for the first unit using IP firewalling.)
+Aug 17 11:12:47 localhost systemd[1]: Starting Journal Service...
+Aug 17 11:12:47 localhost systemd[1]: Load Kernel Modules was skipped because no trigger condition checks were met.
+Aug 17 11:12:47 localhost systemd[1]: Starting Apply Kernel Variables...
+Aug 17 11:12:47 localhost systemd[1]: Starting Setup Virtual Console...
+Aug 17 11:12:47 localhost systemd[1]: Finished Create List of Static Device Nodes.
+Aug 17 11:12:47 localhost systemd[1]: Starting Create Static Device Nodes in /dev...
+Aug 17 11:12:47 localhost systemd[1]: Finished Apply Kernel Variables.
+Aug 17 11:12:47 localhost systemd[1]: Finished Setup Virtual Console.
+Aug 17 11:12:47 localhost systemd[1]: Finished Create Static Device Nodes in /dev.
+Aug 17 11:12:47 localhost systemd[1]: dracut ask for additional cmdline parameters was skipped because no trigger condition checks were met.
+Aug 17 11:12:47 localhost systemd-journald[229]: Collecting audit messages is disabled.
+Aug 17 11:12:47 localhost systemd[1]: Starting dracut cmdline hook...
+Aug 17 11:12:47 localhost systemd-journald[229]: Journal started
+░░ Subject: The journal has been started
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system journal process has started up, opened the journal
+░░ files for writing and is now ready to process requests.
+Aug 17 11:12:47 localhost systemd-journald[229]: Runtime Journal (/run/log/journal/2d3be6f2f6884a339aa512fd9dc9922b) is 8.0M, max 72.9M, 64.9M free.
+░░ Subject: Disk space used by the journal
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Runtime Journal (/run/log/journal/2d3be6f2f6884a339aa512fd9dc9922b) is currently using 8.0M.
+░░ Maximum allowed usage is set to 72.9M.
+░░ Leaving at least 36.4M free (of currently available 721.0M of disk space).
+░░ Enforced usage limit is thus 72.9M, of which 64.9M are still available.
+░░ 
+░░ The limits controlling how much disk space is used by the journal may
+░░ be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+░░ RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+░░ /etc/systemd/journald.conf. See journald.conf(5) for details.
+Aug 17 11:12:47 localhost systemd-vconsole-setup[233]: Failed to import credentials, ignoring: No such file or directory
+Aug 17 11:12:47 localhost systemd[1]: Started Journal Service.
+Aug 17 11:12:47 localhost dracut-cmdline[241]: dracut-23.09 dracut-059-3.oe2309
+Aug 17 11:12:47 localhost dracut-cmdline[241]: Using kernel command line parameters:    BOOT_IMAGE=/vmlinuz-6.4.0-1.0.1.4.oe2309.x86_64 root=UUID=b9cff4c1-0fe3-420b-b366-d42c3aa8a55e ro console=tty1 console=ttyS0 rootfstype=ext4 quiet oops=panic softlockup_panic=1 nmi_watchdog=1 rd.shell=0 selinux=0 c
+Aug 17 11:12:47 localhost dracut-cmdline[241]: rashkernel=256M panic=3
+Aug 17 11:12:47 localhost systemd[1]: Starting Create Volatile Files and Directories...
+░░ Subject: A start job for unit systemd-tmpfiles-setup.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup.service has begun execution.
+░░ 
+░░ The job identifier is 14.
+Aug 17 11:12:47 localhost systemd[1]: Finished Create Volatile Files and Directories.
+░░ Subject: A start job for unit systemd-tmpfiles-setup.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup.service has finished successfully.
+░░ 
+░░ The job identifier is 14.
+Aug 17 11:12:47 localhost systemd[1]: Finished dracut cmdline hook.
+░░ Subject: A start job for unit dracut-cmdline.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-cmdline.service has finished successfully.
+░░ 
+░░ The job identifier is 34.
+Aug 17 11:12:47 localhost systemd[1]: dracut pre-udev hook was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit dracut-pre-udev.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-pre-udev.service has finished successfully.
+░░ 
+░░ The job identifier is 33.
+Aug 17 11:12:47 localhost systemd[1]: Starting Rule-based Manager for Device Events and Files...
+░░ Subject: A start job for unit systemd-udevd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udevd.service has begun execution.
+░░ 
+░░ The job identifier is 9.
+Aug 17 11:12:47 localhost systemd-udevd[296]: Using default interface naming scheme 'v253'.
+Aug 17 11:12:47 localhost systemd-udevd[296]: /usr/lib/udev/rules.d/50-udev-default.rules:46 Unknown group 'sgx', ignoring
+Aug 17 11:12:47 localhost systemd-udevd[296]: /usr/lib/udev/rules.d/50-udev-default.rules:47 Unknown group 'sgx', ignoring
+Aug 17 11:12:47 localhost systemd[1]: Started Rule-based Manager for Device Events and Files.
+░░ Subject: A start job for unit systemd-udevd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udevd.service has finished successfully.
+░░ 
+░░ The job identifier is 9.
+Aug 17 11:12:47 localhost systemd[1]: dracut pre-trigger hook was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit dracut-pre-trigger.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-pre-trigger.service has finished successfully.
+░░ 
+░░ The job identifier is 32.
+Aug 17 11:12:47 localhost systemd[1]: Starting Coldplug All udev Devices...
+░░ Subject: A start job for unit systemd-udev-trigger.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udev-trigger.service has begun execution.
+░░ 
+░░ The job identifier is 25.
+Aug 17 11:12:47 localhost kernel: usb 2-1: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+Aug 17 11:12:47 localhost kernel: usb 2-1: New USB device strings: Mfr=1, Product=4, SerialNumber=11
+Aug 17 11:12:47 localhost kernel: usb 2-1: Product: QEMU USB Keyboard
+Aug 17 11:12:47 localhost kernel: usb 2-1: Manufacturer: QEMU
+Aug 17 11:12:47 localhost kernel: usb 2-1: SerialNumber: 68284-0000:00:03.0-1
+Aug 17 11:12:47 localhost kernel: input: QEMU QEMU USB Keyboard as /devices/pci0000:00/0000:00:03.0/usb2/2-1/2-1:1.0/0003:0627:0001.0001/input/input5
+Aug 17 11:12:47 localhost systemd[1]: Created slice Slice /system/modprobe.
+░░ Subject: A start job for unit system-modprobe.slice has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit system-modprobe.slice has finished successfully.
+░░ 
+░░ The job identifier is 53.
+Aug 17 11:12:47 localhost systemd[1]: Starting Load Kernel Module configfs...
+░░ Subject: A start job for unit modprobe@configfs.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit modprobe@configfs.service has begun execution.
+░░ 
+░░ The job identifier is 52.
+Aug 17 11:12:47 localhost systemd[1]: Finished Coldplug All udev Devices.
+░░ Subject: A start job for unit systemd-udev-trigger.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udev-trigger.service has finished successfully.
+░░ 
+░░ The job identifier is 25.
+Aug 17 11:12:47 localhost systemd[1]: modprobe@configfs.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit modprobe@configfs.service has successfully entered the 'dead' state.
+Aug 17 11:12:47 localhost systemd[1]: Finished Load Kernel Module configfs.
+░░ Subject: A start job for unit modprobe@configfs.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit modprobe@configfs.service has finished successfully.
+░░ 
+░░ The job identifier is 52.
+Aug 17 11:12:47 localhost systemd[1]: Mounting Kernel Configuration File System...
+░░ Subject: A start job for unit sys-kernel-config.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sys-kernel-config.mount has begun execution.
+░░ 
+░░ The job identifier is 50.
+Aug 17 11:12:47 localhost systemd[1]: dracut initqueue hook was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit dracut-initqueue.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-initqueue.service has finished successfully.
+░░ 
+░░ The job identifier is 46.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Preparation for Remote File Systems.
+░░ Subject: A start job for unit remote-fs-pre.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit remote-fs-pre.target has finished successfully.
+░░ 
+░░ The job identifier is 47.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Remote File Systems.
+░░ Subject: A start job for unit remote-fs.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit remote-fs.target has finished successfully.
+░░ 
+░░ The job identifier is 39.
+Aug 17 11:12:47 localhost systemd[1]: Starting dracut pre-mount hook...
+░░ Subject: A start job for unit dracut-pre-mount.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-pre-mount.service has begun execution.
+░░ 
+░░ The job identifier is 49.
+Aug 17 11:12:47 localhost systemd[1]: Mounted Kernel Configuration File System.
+░░ Subject: A start job for unit sys-kernel-config.mount has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sys-kernel-config.mount has finished successfully.
+░░ 
+░░ The job identifier is 50.
+Aug 17 11:12:47 localhost systemd[1]: Reached target System Initialization.
+░░ Subject: A start job for unit sysinit.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sysinit.target has finished successfully.
+░░ 
+░░ The job identifier is 3.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Basic System.
+░░ Subject: A start job for unit basic.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit basic.target has finished successfully.
+░░ 
+░░ The job identifier is 2.
+Aug 17 11:12:47 localhost systemd[1]: System is tainted: cgroupsv1
+░░ Subject: The system is configured in a way that might cause problems
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The following "tags" are possible:
+░░ - "split-usr" — /usr is a separate file system and was not mounted when systemd
+░░   was booted
+░░ - "cgroups-missing" — the kernel was compiled without cgroup support or access
+░░   to expected interface files is restricted
+░░ - "var-run-bad" — /var/run is not a symlink to /run
+░░ - "overflowuid-not-65534" — the kernel user ID used for "unknown" users (with
+░░   NFS or user namespaces) is not 65534
+░░ - "overflowgid-not-65534" — the kernel group ID used for "unknown" users (with
+░░   NFS or user namespaces) is not 65534
+░░ Current system is tagged as cgroupsv1.
+Aug 17 11:12:47 localhost systemd[1]: Finished dracut pre-mount hook.
+░░ Subject: A start job for unit dracut-pre-mount.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-pre-mount.service has finished successfully.
+░░ 
+░░ The job identifier is 49.
+Aug 17 11:12:47 localhost kernel: virtio_blk virtio1: 4/0/0 default/read/poll queues
+Aug 17 11:12:47 localhost kernel: virtio_blk virtio1: [vda] 83886080 512-byte logical blocks (42.9 GB/40.0 GiB)
+Aug 17 11:12:47 localhost kernel:  vda: vda1 vda2
+Aug 17 11:12:47 localhost kernel: hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v1.11 Keyboard [QEMU QEMU USB Keyboard] on usb-0000:00:03.0-1/input0
+Aug 17 11:12:47 localhost kernel: libata version 3.00 loaded.
+Aug 17 11:12:47 localhost kernel: ata_piix 0000:00:01.1: version 2.13
+Aug 17 11:12:47 localhost kernel: scsi host0: ata_piix
+Aug 17 11:12:47 localhost kernel: scsi host1: ata_piix
+Aug 17 11:12:47 localhost kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc0e0 irq 14
+Aug 17 11:12:47 localhost kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc0e8 irq 15
+Aug 17 11:12:47 localhost systemd[1]: Found device /dev/disk/by-uuid/b9cff4c1-0fe3-420b-b366-d42c3aa8a55e.
+░░ Subject: A start job for unit dev-disk-by\x2duuid-b9cff4c1\x2d0fe3\x2d420b\x2db366\x2dd42c3aa8a55e.device has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dev-disk-by\x2duuid-b9cff4c1\x2d0fe3\x2d420b\x2db366\x2dd42c3aa8a55e.device has finished successfully.
+░░ 
+░░ The job identifier is 35.
+Aug 17 11:12:47 localhost systemd[1]: Reached target Initrd Root Device.
+░░ Subject: A start job for unit initrd-root-device.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-root-device.target has finished successfully.
+░░ 
+░░ The job identifier is 36.
+Aug 17 11:12:47 localhost systemd[1]: Starting File System Check on /dev/disk/by-uuid/b9cff4c1-0fe3-420b-b366-d42c3aa8a55e...
+░░ Subject: A start job for unit systemd-fsck-root.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-fsck-root.service has begun execution.
+░░ 
+░░ The job identifier is 42.
+Aug 17 11:12:47 localhost systemd-fsck[364]: rootfs: clean, 41417/2490368 files, 950057/9961471 blocks
+Aug 17 11:12:48 localhost systemd[1]: Finished File System Check on /dev/disk/by-uuid/b9cff4c1-0fe3-420b-b366-d42c3aa8a55e.
+░░ Subject: A start job for unit systemd-fsck-root.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-fsck-root.service has finished successfully.
+░░ 
+░░ The job identifier is 42.
+Aug 17 11:12:48 localhost kernel: usb 2-2: new high-speed USB device number 3 using xhci_hcd
+Aug 17 11:12:48 localhost systemd[1]: Mounting /sysroot...
+░░ Subject: A start job for unit sysroot.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sysroot.mount has begun execution.
+░░ 
+░░ The job identifier is 41.
+Aug 17 11:12:48 localhost kernel: ata2: found unknown device (class 0)
+Aug 17 11:12:48 localhost kernel: ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+Aug 17 11:12:48 localhost kernel: scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+Aug 17 11:12:48 localhost kernel: sr 1:0:0:0: [sr0] scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Aug 17 11:12:48 localhost kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 17 11:12:48 localhost kernel: usb 2-2: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+Aug 17 11:12:48 localhost kernel: usb 2-2: New USB device strings: Mfr=1, Product=3, SerialNumber=10
+Aug 17 11:12:48 localhost kernel: usb 2-2: Product: QEMU USB Tablet
+Aug 17 11:12:48 localhost kernel: usb 2-2: Manufacturer: QEMU
+Aug 17 11:12:48 localhost kernel: usb 2-2: SerialNumber: 28754-0000:00:03.0-2
+Aug 17 11:12:48 localhost kernel: input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:03.0/usb2/2-2/2-2:1.0/0003:0627:0001.0002/input/input6
+Aug 17 11:12:48 localhost kernel: hid-generic 0003:0627:0001.0002: input,hidraw1: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:03.0-2/input0
+Aug 17 11:12:48 localhost kernel: sr 1:0:0:0: Attached scsi CD-ROM sr0
+Aug 17 11:12:48 localhost systemd[1]: Mounted /sysroot.
+░░ Subject: A start job for unit sysroot.mount has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sysroot.mount has finished successfully.
+░░ 
+░░ The job identifier is 41.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Initrd Root File System.
+░░ Subject: A start job for unit initrd-root-fs.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-root-fs.target has finished successfully.
+░░ 
+░░ The job identifier is 44.
+Aug 17 11:12:48 localhost kernel: EXT4-fs (vda2): mounted filesystem b9cff4c1-0fe3-420b-b366-d42c3aa8a55e ro with ordered data mode. Quota mode: none.
+Aug 17 11:12:48 localhost systemd[1]: Starting Mountpoints Configured in the Real Root...
+░░ Subject: A start job for unit initrd-parse-etc.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-parse-etc.service has begun execution.
+░░ 
+░░ The job identifier is 48.
+Aug 17 11:12:48 localhost systemctl[374]: [systemctl --no-block start initrd-cleanup.service] called by PID 1 (/init)
+Aug 17 11:12:48 localhost systemd[1]: initrd-parse-etc.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit initrd-parse-etc.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Finished Mountpoints Configured in the Real Root.
+░░ Subject: A start job for unit initrd-parse-etc.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-parse-etc.service has finished successfully.
+░░ 
+░░ The job identifier is 48.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Initrd File Systems.
+░░ Subject: A start job for unit initrd-fs.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-fs.target has finished successfully.
+░░ 
+░░ The job identifier is 45.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Initrd Default Target.
+░░ Subject: A start job for unit initrd.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd.target has finished successfully.
+░░ 
+░░ The job identifier is 1.
+Aug 17 11:12:48 localhost systemd[1]: dracut mount hook was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit dracut-mount.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-mount.service has finished successfully.
+░░ 
+░░ The job identifier is 37.
+Aug 17 11:12:48 localhost systemd[1]: dracut pre-pivot and cleanup hook was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit dracut-pre-pivot.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-pre-pivot.service has finished successfully.
+░░ 
+░░ The job identifier is 38.
+Aug 17 11:12:48 localhost systemd[1]: Starting Cleaning Up and Shutting Down Daemons...
+░░ Subject: A start job for unit initrd-cleanup.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-cleanup.service has begun execution.
+░░ 
+░░ The job identifier is 64.
+Aug 17 11:12:48 localhost systemctl[376]: [systemctl --no-block isolate initrd-switch-root.target] called by PID 1 (/init)
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Initrd Default Target.
+░░ Subject: A stop job for unit initrd.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit initrd.target has finished.
+░░ 
+░░ The job identifier is 105 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Basic System.
+░░ Subject: A stop job for unit basic.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit basic.target has finished.
+░░ 
+░░ The job identifier is 113 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Initrd Root Device.
+░░ Subject: A stop job for unit initrd-root-device.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit initrd-root-device.target has finished.
+░░ 
+░░ The job identifier is 98 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Initrd /usr File System.
+░░ Subject: A stop job for unit initrd-usr-fs.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit initrd-usr-fs.target has finished.
+░░ 
+░░ The job identifier is 107 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Path Units.
+░░ Subject: A stop job for unit paths.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit paths.target has finished.
+░░ 
+░░ The job identifier is 103 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: systemd-ask-password-console.path: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-ask-password-console.path has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Dispatch Password Requests to Console Directory Watch.
+░░ Subject: A stop job for unit systemd-ask-password-console.path has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-ask-password-console.path has finished.
+░░ 
+░░ The job identifier is 100 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Remote File Systems.
+░░ Subject: A stop job for unit remote-fs.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit remote-fs.target has finished.
+░░ 
+░░ The job identifier is 102 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Preparation for Remote File Systems.
+░░ Subject: A stop job for unit remote-fs-pre.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit remote-fs-pre.target has finished.
+░░ 
+░░ The job identifier is 109 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Slice Units.
+░░ Subject: A stop job for unit slices.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit slices.target has finished.
+░░ 
+░░ The job identifier is 111 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Socket Units.
+░░ Subject: A stop job for unit sockets.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sockets.target has finished.
+░░ 
+░░ The job identifier is 112 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target System Initialization.
+░░ Subject: A stop job for unit sysinit.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit sysinit.target has finished.
+░░ 
+░░ The job identifier is 115 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Swaps.
+░░ Subject: A stop job for unit swap.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit swap.target has finished.
+░░ 
+░░ The job identifier is 117 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Timer Units.
+░░ Subject: A stop job for unit timers.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit timers.target has finished.
+░░ 
+░░ The job identifier is 104 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: dracut-cmdline.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit dracut-cmdline.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped dracut cmdline hook.
+░░ Subject: A stop job for unit dracut-cmdline.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit dracut-cmdline.service has finished.
+░░ 
+░░ The job identifier is 108 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: dracut-pre-mount.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit dracut-pre-mount.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped dracut pre-mount hook.
+░░ Subject: A stop job for unit dracut-pre-mount.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit dracut-pre-mount.service has finished.
+░░ 
+░░ The job identifier is 99 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: systemd-sysctl.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-sysctl.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Apply Kernel Variables.
+░░ Subject: A stop job for unit systemd-sysctl.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-sysctl.service has finished.
+░░ 
+░░ The job identifier is 114 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: systemd-tmpfiles-setup.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-tmpfiles-setup.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Create Volatile Files and Directories.
+░░ Subject: A stop job for unit systemd-tmpfiles-setup.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-tmpfiles-setup.service has finished.
+░░ 
+░░ The job identifier is 97 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Local File Systems.
+░░ Subject: A stop job for unit local-fs.target has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit local-fs.target has finished.
+░░ 
+░░ The job identifier is 106 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: systemd-udev-trigger.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-udev-trigger.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Coldplug All udev Devices.
+░░ Subject: A stop job for unit systemd-udev-trigger.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-udev-trigger.service has finished.
+░░ 
+░░ The job identifier is 75 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+░░ Subject: A stop job for unit systemd-udevd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-udevd.service has begun execution.
+░░ 
+░░ The job identifier is 73.
+Aug 17 11:12:48 localhost systemd[1]: systemd-vconsole-setup.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-vconsole-setup.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Setup Virtual Console.
+░░ Subject: A stop job for unit systemd-vconsole-setup.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-vconsole-setup.service has finished.
+░░ 
+░░ The job identifier is 101 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: initrd-cleanup.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit initrd-cleanup.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Finished Cleaning Up and Shutting Down Daemons.
+░░ Subject: A start job for unit initrd-cleanup.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-cleanup.service has finished successfully.
+░░ 
+░░ The job identifier is 64.
+Aug 17 11:12:48 localhost kernel: usb 2-3: new full-speed USB device number 4 using xhci_hcd
+Aug 17 11:12:48 localhost kernel: usb 2-3: New USB device found, idVendor=46f4, idProduct=0002, bcdDevice= 0.00
+Aug 17 11:12:48 localhost kernel: usb 2-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Aug 17 11:12:48 localhost kernel: usb 2-3: Product: QEMU USB Audio
+Aug 17 11:12:48 localhost kernel: usb 2-3: Manufacturer: QEMU
+Aug 17 11:12:48 localhost kernel: usb 2-3: SerialNumber: 1-0000:00:03.0-3
+Aug 17 11:12:48 localhost systemd[1]: systemd-udevd.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-udevd.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+░░ Subject: A stop job for unit systemd-udevd.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-udevd.service has finished.
+░░ 
+░░ The job identifier is 73 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: systemd-udevd-control.socket: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-udevd-control.socket has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Closed udev Control Socket.
+░░ Subject: A stop job for unit systemd-udevd-control.socket has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-udevd-control.socket has finished.
+░░ 
+░░ The job identifier is 74 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: systemd-udevd-kernel.socket: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-udevd-kernel.socket has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Closed udev Kernel Socket.
+░░ Subject: A stop job for unit systemd-udevd-kernel.socket has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-udevd-kernel.socket has finished.
+░░ 
+░░ The job identifier is 76 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: Starting Cleanup udev Database...
+░░ Subject: A start job for unit initrd-udevadm-cleanup-db.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-udevadm-cleanup-db.service has begun execution.
+░░ 
+░░ The job identifier is 71.
+Aug 17 11:12:48 localhost systemd[1]: systemd-tmpfiles-setup-dev.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-tmpfiles-setup-dev.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Create Static Device Nodes in /dev.
+░░ Subject: A stop job for unit systemd-tmpfiles-setup-dev.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit systemd-tmpfiles-setup-dev.service has finished.
+░░ 
+░░ The job identifier is 95 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: kmod-static-nodes.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit kmod-static-nodes.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Create List of Static Device Nodes.
+░░ Subject: A stop job for unit kmod-static-nodes.service has finished
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A stop job for unit kmod-static-nodes.service has finished.
+░░ 
+░░ The job identifier is 110 and the job result is done.
+Aug 17 11:12:48 localhost systemd[1]: initrd-udevadm-cleanup-db.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit initrd-udevadm-cleanup-db.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Finished Cleanup udev Database.
+░░ Subject: A start job for unit initrd-udevadm-cleanup-db.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-udevadm-cleanup-db.service has finished successfully.
+░░ 
+░░ The job identifier is 71.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Switch Root.
+░░ Subject: A start job for unit initrd-switch-root.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-switch-root.target has finished successfully.
+░░ 
+░░ The job identifier is 67.
+Aug 17 11:12:48 localhost systemd[1]: Starting Switch Root...
+░░ Subject: A start job for unit initrd-switch-root.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit initrd-switch-root.service has begun execution.
+░░ 
+░░ The job identifier is 77.
+Aug 17 11:12:48 localhost systemctl[386]: [systemctl --no-block switch-root /sysroot] called by PID 1 (/init)
+Aug 17 11:12:48 localhost kernel: memfd_create() without MFD_EXEC nor MFD_NOEXEC_SEAL, pid=1 'systemd'
+Aug 17 11:12:48 localhost systemd[1]: Switching root.
+Aug 17 11:12:48 localhost systemd-journald[229]: Journal stopped
+░░ Subject: The journal has been stopped
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system journal process has shut down and closed all currently
+░░ active journal files.
+Aug 17 11:12:48 localhost systemd-journald[229]: Received SIGTERM from PID 1 (systemd).
+Aug 17 11:12:48 localhost systemd[1]: systemd v253-3.oe2309 running in system mode (+PAM +AUDIT +SELINUX -APPARMOR +IMA -SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID -CURL -ELFUTILS -FIDO2 +IDN2 -IDN -IPTC +KMOD -LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE -TPM2 +BZIP2 +LZ4 +XZ +ZLIB -ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=legacy)
+Aug 17 11:12:48 localhost systemd[1]: Detected virtualization kvm.
+Aug 17 11:12:48 localhost systemd[1]: Detected architecture x86-64.
+Aug 17 11:12:48 localhost systemd-rc-local-generator[398]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 11:12:48 localhost systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 11:12:48 localhost systemd[1]: initrd-switch-root.service: Deactivated successfully.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Switch Root.
+Aug 17 11:12:48 localhost systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+Aug 17 11:12:48 localhost systemd[1]: Created slice Slice /system/getty.
+Aug 17 11:12:48 localhost systemd[1]: Created slice Slice /system/serial-getty.
+Aug 17 11:12:48 localhost systemd[1]: Created slice Slice /system/sshd-keygen.
+Aug 17 11:12:48 localhost systemd[1]: Created slice User and Session Slice.
+Aug 17 11:12:48 localhost systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Aug 17 11:12:48 localhost systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Aug 17 11:12:48 localhost systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Switch Root.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Initrd File Systems.
+Aug 17 11:12:48 localhost systemd[1]: Stopped target Initrd Root File System.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Path Units.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Remote File Systems.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Slice Units.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Swaps.
+Aug 17 11:12:48 localhost systemd[1]: Listening on Process Core Dump Socket.
+Aug 17 11:12:48 localhost systemd[1]: Listening on initctl Compatibility Named Pipe.
+Aug 17 11:12:48 localhost systemd[1]: Listening on udev Control Socket.
+Aug 17 11:12:48 localhost systemd[1]: Listening on udev Kernel Socket.
+Aug 17 11:12:48 localhost systemd[1]: Mounting Huge Pages File System...
+Aug 17 11:12:48 localhost systemd[1]: Mounting POSIX Message Queue File System...
+Aug 17 11:12:48 localhost systemd[1]: Mounting Kernel Debug File System...
+Aug 17 11:12:48 localhost systemd[1]: Mounting Kernel Trace File System...
+Aug 17 11:12:48 localhost systemd[1]: Mounting Temporary Directory /tmp...
+Aug 17 11:12:48 localhost systemd[1]: Starting Create List of Static Device Nodes...
+Aug 17 11:12:48 localhost systemd[1]: Starting Load Kernel Module configfs...
+Aug 17 11:12:48 localhost systemd[1]: Starting Load Kernel Module drm...
+Aug 17 11:12:48 localhost systemd[1]: Starting Load Kernel Module fuse...
+Aug 17 11:12:48 localhost systemd[1]: systemd-fsck-root.service: Deactivated successfully.
+Aug 17 11:12:48 localhost systemd[1]: Stopped File System Check on Root Device.
+Aug 17 11:12:48 localhost systemd[1]: Stopped Journal Service.
+Aug 17 11:12:48 localhost systemd[1]: Listening on Journal Audit Socket.
+Aug 17 11:12:48 localhost systemd[1]: Starting Journal Service...
+Aug 17 11:12:48 localhost systemd[1]: Load Kernel Modules was skipped because no trigger condition checks were met.
+Aug 17 11:12:48 localhost systemd[1]: Starting Generate network units from Kernel command line...
+Aug 17 11:12:48 localhost systemd[1]: Starting Remount Root and Kernel File Systems...
+Aug 17 11:12:48 localhost systemd[1]: Starting Apply Kernel Variables...
+Aug 17 11:12:48 localhost systemd[1]: Starting Coldplug All udev Devices...
+Aug 17 11:12:48 localhost systemd[1]: Mounted Huge Pages File System.
+Aug 17 11:12:48 localhost systemd[1]: Mounted POSIX Message Queue File System.
+Aug 17 11:12:48 localhost systemd[1]: Mounted Kernel Debug File System.
+Aug 17 11:12:48 localhost systemd[1]: Mounted Kernel Trace File System.
+Aug 17 11:12:48 localhost systemd[1]: Mounted Temporary Directory /tmp.
+Aug 17 11:12:48 localhost systemd[1]: Finished Create List of Static Device Nodes.
+Aug 17 11:12:48 localhost systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Aug 17 11:12:48 localhost systemd[1]: Finished Load Kernel Module configfs.
+Aug 17 11:12:48 localhost systemd[1]: Finished Generate network units from Kernel command line.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Preparation for Network.
+Aug 17 11:12:48 localhost kernel: fuse: init (API version 7.38)
+Aug 17 11:12:48 localhost systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Aug 17 11:12:48 localhost systemd[1]: Finished Load Kernel Module fuse.
+Aug 17 11:12:48 localhost systemd[1]: Mounting FUSE Control File System...
+Aug 17 11:12:48 localhost systemd-journald[423]: Collecting audit messages is enabled.
+Aug 17 11:12:48 localhost systemd[1]: Mounted FUSE Control File System.
+Aug 17 11:12:48 localhost systemd-journald[423]: Journal started
+░░ Subject: The journal has been started
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The system journal process has started up, opened the journal
+░░ files for writing and is now ready to process requests.
+Aug 17 11:12:48 localhost systemd-journald[423]: Runtime Journal (/run/log/journal/dbf09f260a9243019f1121e7f8013dab) is 8.0M, max 72.9M, 64.9M free.
+░░ Subject: Disk space used by the journal
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Runtime Journal (/run/log/journal/dbf09f260a9243019f1121e7f8013dab) is currently using 8.0M.
+░░ Maximum allowed usage is set to 72.9M.
+░░ Leaving at least 36.4M free (of currently available 713.0M of disk space).
+░░ Enforced usage limit is thus 72.9M, of which 64.9M are still available.
+░░ 
+░░ The limits controlling how much disk space is used by the journal may
+░░ be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+░░ RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+░░ /etc/systemd/journald.conf. See journald.conf(5) for details.
+Aug 17 11:12:48 localhost systemd[1]: Queued start job for default target Multi-User System.
+Aug 17 11:12:48 localhost systemd[1]: systemd-journald.service: unit configures an IP firewall, but the local system does not support BPF/cgroup firewalling.
+Aug 17 11:12:48 localhost systemd[1]: (This warning is only shown for the first unit using IP firewalling.)
+Aug 17 11:12:48 localhost systemd[1]: systemd-journald.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-journald.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Started Journal Service.
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.721:2): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: EXT4-fs (vda2): re-mounted b9cff4c1-0fe3-420b-b366-d42c3aa8a55e r/w. Quota mode: none.
+Aug 17 11:12:48 localhost systemd[1]: Finished Remount Root and Kernel File Systems.
+░░ Subject: A start job for unit systemd-remount-fs.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-remount-fs.service has finished successfully.
+░░ 
+░░ The job identifier is 169.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.727:3): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+░░ Subject: A start job for unit systemd-hwdb-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hwdb-update.service has finished successfully.
+░░ 
+░░ The job identifier is 172.
+Aug 17 11:12:48 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+░░ Subject: A start job for unit systemd-journal-flush.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-journal-flush.service has begun execution.
+░░ 
+░░ The job identifier is 150.
+Aug 17 11:12:48 localhost systemd[1]: Starting Load/Save OS Random Seed...
+░░ Subject: A start job for unit systemd-random-seed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-random-seed.service has begun execution.
+░░ 
+░░ The job identifier is 152.
+Aug 17 11:12:48 localhost systemd[1]: Create System Users was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit systemd-sysusers.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-sysusers.service has finished successfully.
+░░ 
+░░ The job identifier is 143.
+Aug 17 11:12:48 localhost systemd[1]: Starting Create Static Device Nodes in /dev...
+░░ Subject: A start job for unit systemd-tmpfiles-setup-dev.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup-dev.service has begun execution.
+░░ 
+░░ The job identifier is 151.
+Aug 17 11:12:48 localhost systemd-journald[423]: Runtime Journal (/run/log/journal/dbf09f260a9243019f1121e7f8013dab) is 8.0M, max 72.9M, 64.9M free.
+░░ Subject: Disk space used by the journal
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ Runtime Journal (/run/log/journal/dbf09f260a9243019f1121e7f8013dab) is currently using 8.0M.
+░░ Maximum allowed usage is set to 72.9M.
+░░ Leaving at least 36.4M free (of currently available 713.0M of disk space).
+░░ Enforced usage limit is thus 72.9M, of which 64.9M are still available.
+░░ 
+░░ The limits controlling how much disk space is used by the journal may
+░░ be configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,
+░░ RuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in
+░░ /etc/systemd/journald.conf. See journald.conf(5) for details.
+Aug 17 11:12:48 localhost systemd-journald[423]: Received client request to flush runtime journal.
+Aug 17 11:12:48 localhost systemd[1]: Finished Flush Journal to Persistent Storage.
+░░ Subject: A start job for unit systemd-journal-flush.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-journal-flush.service has finished successfully.
+░░ 
+░░ The job identifier is 150.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-journal-flush comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.733:4): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-journal-flush comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd-tmpfiles[438]: /usr/lib/tmpfiles.d/dbus.conf:13: Line references path below legacy directory /var/run/, updating /var/run/dbus/containers → /run/dbus/containers; please update the tmpfiles.d/ drop-in file accordingly.
+Aug 17 11:12:48 localhost systemd[1]: Finished Load/Save OS Random Seed.
+░░ Subject: A start job for unit systemd-random-seed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-random-seed.service has finished successfully.
+░░ 
+░░ The job identifier is 152.
+Aug 17 11:12:48 localhost systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+░░ Subject: A start job for unit first-boot-complete.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit first-boot-complete.target has finished successfully.
+░░ 
+░░ The job identifier is 153.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-random-seed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.756:5): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-random-seed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Finished Create Static Device Nodes in /dev.
+░░ Subject: A start job for unit systemd-tmpfiles-setup-dev.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup-dev.service has finished successfully.
+░░ 
+░░ The job identifier is 151.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Reached target Preparation for Local File Systems.
+░░ Subject: A start job for unit local-fs-pre.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit local-fs-pre.target has finished successfully.
+░░ 
+░░ The job identifier is 170.
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.757:6): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Starting Rule-based Manager for Device Events and Files...
+░░ Subject: A start job for unit systemd-udevd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udevd.service has begun execution.
+░░ 
+░░ The job identifier is 132.
+Aug 17 11:12:48 localhost kernel: ACPI: bus type drm_connector registered
+Aug 17 11:12:48 localhost systemd[1]: modprobe@drm.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit modprobe@drm.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Finished Load Kernel Module drm.
+░░ Subject: A start job for unit modprobe@drm.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit modprobe@drm.service has finished successfully.
+░░ 
+░░ The job identifier is 191.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.760:7): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: audit: type=1131 audit(1692270768.760:8): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Finished Apply Kernel Variables.
+░░ Subject: A start job for unit systemd-sysctl.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-sysctl.service has finished successfully.
+░░ 
+░░ The job identifier is 141.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.767:9): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd-udevd[443]: Using default interface naming scheme 'v253'.
+Aug 17 11:12:48 localhost systemd[1]: Finished Coldplug All udev Devices.
+░░ Subject: A start job for unit systemd-udev-trigger.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udev-trigger.service has finished successfully.
+░░ 
+░░ The job identifier is 154.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: audit: type=1130 audit(1692270768.784:10): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Started Rule-based Manager for Device Events and Files.
+░░ Subject: A start job for unit systemd-udevd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-udevd.service has finished successfully.
+░░ 
+░░ The job identifier is 132.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Starting Load Kernel Module configfs...
+░░ Subject: A start job for unit modprobe@configfs.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit modprobe@configfs.service has begun execution.
+░░ 
+░░ The job identifier is 229.
+Aug 17 11:12:48 localhost systemd[1]: Condition check resulted in /dev/ttyS0 being skipped.
+░░ Subject: A start job for unit dev-ttyS0.device has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dev-ttyS0.device has finished successfully.
+░░ 
+░░ The job identifier is 209.
+Aug 17 11:12:48 localhost systemd[1]: modprobe@configfs.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit modprobe@configfs.service has successfully entered the 'dead' state.
+Aug 17 11:12:48 localhost systemd[1]: Finished Load Kernel Module configfs.
+░░ Subject: A start job for unit modprobe@configfs.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit modprobe@configfs.service has finished successfully.
+░░ 
+░░ The job identifier is 229.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=modprobe@configfs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=modprobe@configfs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Aug 17 11:12:48 localhost systemd[1]: Condition check resulted in /dev/disk/by-uuid/0BB8-E4B6 being skipped.
+░░ Subject: A start job for unit dev-disk-by\x2duuid-0BB8\x2dE4B6.device has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dev-disk-by\x2duuid-0BB8\x2dE4B6.device has finished successfully.
+░░ 
+░░ The job identifier is 167.
+Aug 17 11:12:48 localhost systemd[1]: Mounting /boot...
+░░ Subject: A start job for unit boot.mount has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit boot.mount has begun execution.
+░░ 
+░░ The job identifier is 166.
+Aug 17 11:12:48 localhost kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0xb100, revision 0
+Aug 17 11:12:48 localhost kernel: input: PC Speaker as /devices/platform/pcspkr/input/input7
+Aug 17 11:12:48 localhost kernel: parport_pc 00:03: reported by Plug and Play ACPI
+Aug 17 11:12:48 localhost kernel: parport0: PC-style at 0x378, irq 7 [PCSPP,TRISTATE]
+Aug 17 11:12:48 localhost systemd[1]: Mounted /boot.
+░░ Subject: A start job for unit boot.mount has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit boot.mount has finished successfully.
+░░ 
+░░ The job identifier is 166.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Local File Systems.
+░░ Subject: A start job for unit local-fs.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit local-fs.target has finished successfully.
+░░ 
+░░ The job identifier is 165.
+Aug 17 11:12:48 localhost systemd[1]: Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit ldconfig.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit ldconfig.service has finished successfully.
+░░ 
+░░ The job identifier is 157.
+Aug 17 11:12:48 localhost systemd[1]: Set Up Additional Binary Formats was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit systemd-binfmt.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-binfmt.service has finished successfully.
+░░ 
+░░ The job identifier is 174.
+Aug 17 11:12:48 localhost systemd[1]: Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+░░ Subject: A start job for unit systemd-machine-id-commit.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-machine-id-commit.service has finished successfully.
+░░ 
+░░ The job identifier is 127.
+Aug 17 11:12:48 localhost kernel: mc: Linux media interface: v0.10
+Aug 17 11:12:48 localhost systemd[1]: Starting Create Volatile Files and Directories...
+░░ Subject: A start job for unit systemd-tmpfiles-setup.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup.service has begun execution.
+░░ 
+░░ The job identifier is 136.
+Aug 17 11:12:48 localhost systemd-tmpfiles[522]: /usr/lib/tmpfiles.d/dbus.conf:13: Line references path below legacy directory /var/run/, updating /var/run/dbus/containers → /run/dbus/containers; please update the tmpfiles.d/ drop-in file accordingly.
+Aug 17 11:12:48 localhost kernel: virtio_net virtio2 ens6: renamed from eth0
+Aug 17 11:12:48 localhost kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Aug 17 11:12:48 localhost systemd[1]: Finished Create Volatile Files and Directories.
+░░ Subject: A start job for unit systemd-tmpfiles-setup.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-setup.service has finished successfully.
+░░ 
+░░ The job identifier is 136.
+Aug 17 11:12:48 localhost systemd[1]: Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+░░ Subject: A start job for unit systemd-journal-catalog-update.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-journal-catalog-update.service has finished successfully.
+░░ 
+░░ The job identifier is 160.
+Aug 17 11:12:48 localhost systemd[1]: Update is Completed was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit systemd-update-done.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-done.service has finished successfully.
+░░ 
+░░ The job identifier is 175.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+░░ Subject: A start job for unit systemd-update-utmp.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp.service has begun execution.
+░░ 
+░░ The job identifier is 199.
+Aug 17 11:12:48 localhost (udev-worker)[453]: ens6: Network interface 2 is renamed from 'eth0' to 'ens6'
+Aug 17 11:12:48 localhost kernel: Console: switching to colour dummy device 80x25
+Aug 17 11:12:48 localhost kernel: bochs-drm 0000:00:02.0: vgaarb: deactivate vga console
+Aug 17 11:12:48 localhost kernel: [drm] Found bochs VGA, ID 0xb0c5.
+Aug 17 11:12:48 localhost kernel: [drm] Framebuffer size 16384 kB @ 0xc0000000, mmio @ 0xc1043000.
+Aug 17 11:12:48 localhost audit[526]: SYSTEM_BOOT pid=526 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg=' comm="systemd-update-utmp" exe="/usr/lib/systemd/systemd-update-utmp" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-update-utmp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+░░ Subject: A start job for unit systemd-update-utmp.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp.service has finished successfully.
+░░ 
+░░ The job identifier is 199.
+Aug 17 11:12:48 localhost systemd[1]: Reached target System Initialization.
+░░ Subject: A start job for unit sysinit.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sysinit.target has finished successfully.
+░░ 
+░░ The job identifier is 120.
+Aug 17 11:12:48 localhost systemd[1]: Started dnf makecache --timer.
+░░ Subject: A start job for unit dnf-makecache.timer has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dnf-makecache.timer has finished successfully.
+░░ 
+░░ The job identifier is 178.
+Aug 17 11:12:48 localhost systemd[1]: Started Daily Cleanup of Temporary Directories.
+░░ Subject: A start job for unit systemd-tmpfiles-clean.timer has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-tmpfiles-clean.timer has finished successfully.
+░░ 
+░░ The job identifier is 177.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Timer Units.
+░░ Subject: A start job for unit timers.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit timers.target has finished successfully.
+░░ 
+░░ The job identifier is 176.
+Aug 17 11:12:48 localhost systemd[1]: Listening on D-Bus System Message Bus Socket.
+░░ Subject: A start job for unit dbus.socket has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dbus.socket has finished successfully.
+░░ 
+░░ The job identifier is 182.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Socket Units.
+░░ Subject: A start job for unit sockets.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sockets.target has finished successfully.
+░░ 
+░░ The job identifier is 184.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Basic System.
+░░ Subject: A start job for unit basic.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit basic.target has finished successfully.
+░░ 
+░░ The job identifier is 119.
+Aug 17 11:12:48 localhost kernel: [drm] Found EDID data blob.
+Aug 17 11:12:48 localhost systemd[1]: Starting D-Bus System Message Bus...
+░░ Subject: A start job for unit dbus.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dbus.service has begun execution.
+░░ 
+░░ The job identifier is 193.
+Aug 17 11:12:48 localhost systemd[1]: Starting Restore /run/initramfs on shutdown...
+░░ Subject: A start job for unit dracut-shutdown.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-shutdown.service has begun execution.
+░░ 
+░░ The job identifier is 164.
+Aug 17 11:12:48 localhost systemd[1]: Starting Update RTC With System Clock...
+░░ Subject: A start job for unit hwclock-save.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit hwclock-save.service has begun execution.
+░░ 
+░░ The job identifier is 146.
+Aug 17 11:12:48 localhost systemd[1]: OpenSSH ecdsa Server Key Generation was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit sshd-keygen@ecdsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ecdsa.service has finished successfully.
+░░ 
+░░ The job identifier is 206.
+Aug 17 11:12:48 localhost systemd[1]: OpenSSH ed25519 Server Key Generation was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit sshd-keygen@ed25519.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@ed25519.service has finished successfully.
+░░ 
+░░ The job identifier is 205.
+Aug 17 11:12:48 localhost systemd[1]: OpenSSH rsa Server Key Generation was skipped because no trigger condition checks were met.
+░░ Subject: A start job for unit sshd-keygen@rsa.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen@rsa.service has finished successfully.
+░░ 
+░░ The job identifier is 203.
+Aug 17 11:12:48 localhost systemd[1]: Reached target sshd-keygen.target.
+░░ Subject: A start job for unit sshd-keygen.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd-keygen.target has finished successfully.
+░░ 
+░░ The job identifier is 202.
+Aug 17 11:12:48 localhost systemd[1]: Starting User Login Management...
+░░ Subject: A start job for unit systemd-logind.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-logind.service has begun execution.
+░░ 
+░░ The job identifier is 189.
+Aug 17 11:12:48 localhost systemd[1]: Finished Restore /run/initramfs on shutdown.
+░░ Subject: A start job for unit dracut-shutdown.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dracut-shutdown.service has finished successfully.
+░░ 
+░░ The job identifier is 164.
+Aug 17 11:12:48 localhost systemd[1]: Finished Update RTC With System Clock.
+░░ Subject: A start job for unit hwclock-save.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit hwclock-save.service has finished successfully.
+░░ 
+░░ The job identifier is 146.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=dracut-shutdown comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=hwclock-save comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost systemd[1]: Started D-Bus System Message Bus.
+░░ Subject: A start job for unit dbus.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit dbus.service has finished successfully.
+░░ 
+░░ The job identifier is 193.
+Aug 17 11:12:48 localhost systemd[1]: Starting Network Manager...
+░░ Subject: A start job for unit NetworkManager.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager.service has begun execution.
+░░ 
+░░ The job identifier is 181.
+Aug 17 11:12:48 localhost kernel: [drm] Initialized bochs-drm 1.0.0 20130925 for 0000:00:02.0 on minor 0
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=dbus comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost kernel: fbcon: bochs-drmdrmfb (fb0) is primary device
+Aug 17 11:12:48 localhost kernel: Console: switching to colour frame buffer device 160x50
+Aug 17 11:12:48 localhost kernel: bochs-drm 0000:00:02.0: [drm] fb0: bochs-drmdrmfb frame buffer device
+Aug 17 11:12:48 localhost kernel: ppdev: user-space parallel port driver
+Aug 17 11:12:48 localhost NetworkManager[536]: <info>  [1692270768.9889] NetworkManager (version 1.42.8-1.oe2309) is starting... (boot:fca7789d-417e-4d37-9859-d086223511b2)
+Aug 17 11:12:48 localhost NetworkManager[536]: <info>  [1692270768.9890] Read config: /etc/NetworkManager/NetworkManager.conf
+Aug 17 11:12:48 localhost NetworkManager[536]: <info>  [1692270768.9911] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Aug 17 11:12:48 localhost systemd[1]: Started Network Manager.
+░░ Subject: A start job for unit NetworkManager.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager.service has finished successfully.
+░░ 
+░░ The job identifier is 181.
+Aug 17 11:12:48 localhost systemd[1]: Reached target Network.
+░░ Subject: A start job for unit network.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit network.target has finished successfully.
+░░ 
+░░ The job identifier is 183.
+Aug 17 11:12:48 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=NetworkManager comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:48 localhost NetworkManager[536]: <info>  [1692270768.9943] manager[0x55c8b5705690]: monitoring kernel firmware directory '/lib/firmware'.
+Aug 17 11:12:48 localhost dbus-daemon[530]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=0 pid=536 comm="/usr/sbin/NetworkManager --no-daemon")
+Aug 17 11:12:48 localhost systemd[1]: Starting Network Manager Wait Online...
+░░ Subject: A start job for unit NetworkManager-wait-online.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-wait-online.service has begun execution.
+░░ 
+░░ The job identifier is 180.
+Aug 17 11:12:48 localhost systemd[1]: Starting OpenSSH server daemon...
+░░ Subject: A start job for unit sshd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has begun execution.
+░░ 
+░░ The job identifier is 201.
+Aug 17 11:12:48 localhost systemd[1]: Starting Permit User Sessions...
+░░ Subject: A start job for unit systemd-user-sessions.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-user-sessions.service has begun execution.
+░░ 
+░░ The job identifier is 194.
+Aug 17 11:12:49 localhost systemd[1]: Starting Hostname Service...
+░░ Subject: A start job for unit systemd-hostnamed.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has begun execution.
+░░ 
+░░ The job identifier is 234.
+Aug 17 11:12:49 localhost systemd[1]: Finished Permit User Sessions.
+░░ Subject: A start job for unit systemd-user-sessions.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-user-sessions.service has finished successfully.
+░░ 
+░░ The job identifier is 194.
+Aug 17 11:12:49 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-user-sessions comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost systemd[1]: Started Command Scheduler.
+░░ Subject: A start job for unit crond.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit crond.service has finished successfully.
+░░ 
+░░ The job identifier is 197.
+Aug 17 11:12:49 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=crond comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost systemd[1]: Started Getty on tty1.
+░░ Subject: A start job for unit getty@tty1.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit getty@tty1.service has finished successfully.
+░░ 
+░░ The job identifier is 213.
+Aug 17 11:12:49 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=getty@tty1 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost systemd-logind[535]: New seat seat0.
+░░ Subject: A new seat seat0 is now available
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ Documentation: sd-login(3)
+░░ 
+░░ A new seat seat0 has been configured and is now available.
+Aug 17 11:12:49 localhost crond[547]: (CRON) STARTUP (1.6.1)
+Aug 17 11:12:49 localhost crond[547]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Aug 17 11:12:49 localhost crond[547]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 43% if used.)
+Aug 17 11:12:49 localhost crond[547]: (CRON) INFO (running with inotify support)
+Aug 17 11:12:49 localhost systemd[1]: Started Serial Getty on ttyS0.
+░░ Subject: A start job for unit serial-getty@ttyS0.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit serial-getty@ttyS0.service has finished successfully.
+░░ 
+░░ The job identifier is 208.
+Aug 17 11:12:49 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=serial-getty@ttyS0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost systemd[1]: Reached target Login Prompts.
+░░ Subject: A start job for unit getty.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit getty.target has finished successfully.
+░░ 
+░░ The job identifier is 207.
+Aug 17 11:12:49 localhost systemd-logind[535]: Watching system buttons on /dev/input/event0 (Power Button)
+Aug 17 11:12:49 localhost systemd-logind[535]: Watching system buttons on /dev/input/event4 (QEMU QEMU USB Keyboard)
+Aug 17 11:12:49 localhost systemd-logind[535]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Aug 17 11:12:49 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-logind comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost systemd[1]: Started User Login Management.
+░░ Subject: A start job for unit systemd-logind.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-logind.service has finished successfully.
+░░ 
+░░ The job identifier is 189.
+Aug 17 11:12:49 localhost sshd[543]: Server listening on 0.0.0.0 port 22.
+Aug 17 11:12:49 localhost sshd[543]: Server listening on :: port 22.
+Aug 17 11:12:49 localhost systemd[1]: Started OpenSSH server daemon.
+░░ Subject: A start job for unit sshd.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sshd.service has finished successfully.
+░░ 
+░░ The job identifier is 201.
+Aug 17 11:12:49 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=sshd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost dbus-daemon[530]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Aug 17 11:12:49 localhost systemd[1]: Started Hostname Service.
+░░ Subject: A start job for unit systemd-hostnamed.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-hostnamed.service has finished successfully.
+░░ 
+░░ The job identifier is 234.
+Aug 17 11:12:49 localhost audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.0949] hostname: hostname: using hostnamed
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.0951] dns-mgr: init: dns=default rc-manager=symlink
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.0952] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Aug 17 11:12:49 localhost.localdomain systemd-hostnamed[545]: Hostname set to <localhost.localdomain> (transient)
+Aug 17 11:12:49 localhost.localdomain kernel: usb 2-3: unknown interface protocol 0x4, assuming v1
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1056] manager[0x55c8b5705690]: rfkill: Wi-Fi hardware radio set enabled
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1056] manager[0x55c8b5705690]: rfkill: WWAN hardware radio set enabled
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1084] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.42.8-1.oe2309/libnm-device-plugin-adsl.so)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1085] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1085] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1085] manager: Networking is enabled by state file
+Aug 17 11:12:49 localhost.localdomain dbus-daemon[530]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.1' (uid=0 pid=536 comm="/usr/sbin/NetworkManager --no-daemon")
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1097] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.42.8-1.oe2309/libnm-settings-plugin-ifcfg-rh.so")
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1097] settings: Loaded settings plugin: keyfile (internal)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1110] dhcp: init: Using DHCP client 'dhclient'
+Aug 17 11:12:49 localhost.localdomain kernel: usbcore: registered new interface driver snd-usb-audio
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1112] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1128] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1130] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1134] device (lo): Activation: starting connection 'lo' (38e92e52-4e07-43a0-a47d-7dddb6c300b7)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1139] manager: (ens6): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1146] settings: (ens6): created default wired connection 'Wired connection 1'
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1147] device (ens6): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has begun execution.
+░░ 
+░░ The job identifier is 298.
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1184] device (lo): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Reached target Sound Card.
+░░ Subject: A start job for unit sound.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit sound.target has finished successfully.
+░░ 
+░░ The job identifier is 362.
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1193] device (lo): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1195] device (lo): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1196] device (ens6): carrier: link connected
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1198] device (lo): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1201] device (ens6): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1203] policy: auto-activating connection 'Wired connection 1' (9ae3cb69-abeb-3743-bbf2-cd1bd1a4acc8)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1205] device (ens6): Activation: starting connection 'Wired connection 1' (9ae3cb69-abeb-3743-bbf2-cd1bd1a4acc8)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1206] device (ens6): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1206] manager: NetworkManager state is now CONNECTING
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1207] device (ens6): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1211] device (ens6): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1222] dhcp4 (ens6): activation: beginning transaction (timeout in 45 seconds)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1239] dhcp4 (ens6): dhclient started with pid 568
+Aug 17 11:12:49 localhost.localdomain dbus-daemon[530]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 17 11:12:49 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+░░ Subject: A start job for unit NetworkManager-dispatcher.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-dispatcher.service has finished successfully.
+░░ 
+░░ The job identifier is 298.
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1286] device (lo): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1291] device (lo): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1310] device (lo): Activation: successful, device activated.
+Aug 17 11:12:49 localhost.localdomain dhclient[568]: DHCPDISCOVER on ens6 to 255.255.255.255 port 67 interval 6 (xid=0x35937009)
+Aug 17 11:12:49 localhost.localdomain dhclient[568]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Aug 17 11:12:49 localhost.localdomain dhclient[568]: DHCPREQUEST for 10.0.2.15 on ens6 to 255.255.255.255 port 67 (xid=0x35937009)
+Aug 17 11:12:49 localhost.localdomain dhclient[568]: DHCPACK of 10.0.2.15 from 10.0.2.2 (xid=0x35937009)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1733] dhcp4 (ens6):   address 10.0.2.15
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1733] dhcp4 (ens6):   plen 24 (255.255.255.0)
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1733] dhcp4 (ens6):   gateway 10.0.2.2
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1734] dhcp4 (ens6):   lease time 86400
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1734] dhcp4 (ens6):   nameserver '10.0.2.3'
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1734] dhcp4 (ens6): state changed new lease, address=10.0.2.15
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.1736] policy: set 'Wired connection 1' (ens6) as default for IPv4 routing and DNS
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.2056] device (ens6): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.2094] device (ens6): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.2097] device (ens6): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.2099] manager: NetworkManager state is now CONNECTED_SITE
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.2101] device (ens6): Activation: successful, device activated.
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.2103] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 17 11:12:49 localhost.localdomain NetworkManager[536]: <info>  [1692270769.2106] manager: startup complete
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Finished Network Manager Wait Online.
+░░ Subject: A start job for unit NetworkManager-wait-online.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit NetworkManager-wait-online.service has finished successfully.
+░░ 
+░░ The job identifier is 180.
+Aug 17 11:12:49 localhost.localdomain dhclient[568]: bound to 10.0.2.15 -- renewal in 42068 seconds.
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Reached target Network is Online.
+░░ Subject: A start job for unit network-online.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit network-online.target has finished successfully.
+░░ 
+░░ The job identifier is 179.
+Aug 17 11:12:49 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=NetworkManager-wait-online comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Starting Crash recovery kernel arming...
+░░ Subject: A start job for unit kdump.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit kdump.service has begun execution.
+░░ 
+░░ The job identifier is 200.
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Starting System Logging Service...
+░░ Subject: A start job for unit rsyslog.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit rsyslog.service has begun execution.
+░░ 
+░░ The job identifier is 196.
+Aug 17 11:12:49 localhost.localdomain rsyslogd[602]: [origin software="rsyslogd" swVersion="8.2210.0" x-pid="602" x-info="https://www.rsyslog.com"] start
+Aug 17 11:12:49 localhost.localdomain rsyslogd[602]: imjournal: No statefile exists, /run/log/imjournal.state will be created (ignore if this is first run): No such file or directory [v8.2210.0 try https://www.rsyslog.com/e/2040 ]
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Started System Logging Service.
+░░ Subject: A start job for unit rsyslog.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit rsyslog.service has finished successfully.
+░░ 
+░░ The job identifier is 196.
+Aug 17 11:12:49 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=rsyslog comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Reached target Multi-User System.
+░░ Subject: A start job for unit multi-user.target has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit multi-user.target has finished successfully.
+░░ 
+░░ The job identifier is 118.
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Starting Record Runlevel Change in UTMP...
+░░ Subject: A start job for unit systemd-update-utmp-runlevel.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp-runlevel.service has begun execution.
+░░ 
+░░ The job identifier is 198.
+Aug 17 11:12:49 localhost.localdomain kdumpctl[615]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[615]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[616]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain audit[612]: SYSTEM_RUNLEVEL pid=612 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='old-level=N new-level=3 comm="systemd-update-utmp" exe="/usr/lib/systemd/systemd-update-utmp" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-update-utmp-runlevel comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=systemd-update-utmp-runlevel comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:49 localhost.localdomain systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit systemd-update-utmp-runlevel.service has successfully entered the 'dead' state.
+Aug 17 11:12:49 localhost.localdomain systemd[1]: Finished Record Runlevel Change in UTMP.
+░░ Subject: A start job for unit systemd-update-utmp-runlevel.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit systemd-update-utmp-runlevel.service has finished successfully.
+░░ 
+░░ The job identifier is 198.
+Aug 17 11:12:49 localhost.localdomain kdumpctl[624]: /usr/bin/kdumpctl: line 954: hostname: command not found
+Aug 17 11:12:49 localhost.localdomain kdumpctl[625]: /usr/bin/kdumpctl: line 955: hostname: command not found
+Aug 17 11:12:49 localhost.localdomain rsyslogd[602]: imjournal: journal files changed, reloading...  [v8.2210.0 try https://www.rsyslog.com/e/0 ]
+Aug 17 11:12:49 localhost.localdomain kdumpctl[686]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[686]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[690]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[690]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[692]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[711]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[711]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kdumpctl[713]: grep: warning: stray \ before -
+Aug 17 11:12:49 localhost.localdomain kernel: block vda: the capability attribute has been deprecated.
+Aug 17 11:12:49 localhost.localdomain kernel: IPv6: ADDRCONF(NETDEV_CHANGE): ens6: link becomes ready
+Aug 17 11:12:50 localhost.localdomain kdumpctl[608]: kexec: loaded kdump kernel
+Aug 17 11:12:50 localhost.localdomain kdumpctl[608]: Starting kdump: [OK]
+Aug 17 11:12:50 localhost.localdomain systemd[1]: Finished Crash recovery kernel arming.
+░░ Subject: A start job for unit kdump.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit kdump.service has finished successfully.
+░░ 
+░░ The job identifier is 200.
+Aug 17 11:12:50 localhost.localdomain systemd[1]: Startup finished in 477ms (kernel) + 922ms (initrd) + 1.832s (userspace) = 3.232s.
+░░ Subject: System start-up is now complete
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ All system services necessary queued for starting at boot have been
+░░ started. Note that this does not mean that the machine is now idle as services
+░░ might still be busy with completing start-up.
+░░ 
+░░ Kernel start-up required 477302 microseconds.
+░░ 
+░░ Initrd start-up required 922317 microseconds.
+░░ 
+░░ Userspace start-up required 1832951 microseconds.
+Aug 17 11:12:50 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=kdump comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:51 localhost.localdomain NetworkManager[536]: <info>  [1692270771.4936] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Aug 17 11:12:51 localhost.localdomain NetworkManager[536]: <info>  [1692270771.6305] policy: set 'Wired connection 1' (ens6) as default for IPv6 routing and DNS
+Aug 17 11:12:51 localhost.localdomain NetworkManager[536]: <info>  [1692270771.6306] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Aug 17 11:12:51 localhost.localdomain NetworkManager[536]: <info>  [1692270771.6397] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Aug 17 11:12:52 localhost.localdomain sshd[858]: Connection from 10.0.2.2 port 45100 on 10.0.2.15 port 22 rdomain ""
+Aug 17 11:12:52 localhost.localdomain audit[859]: CRYPTO_KEY_USER pid=859 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=859 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:52 localhost.localdomain kernel: kauditd_printk_skb: 24 callbacks suppressed
+Aug 17 11:12:52 localhost.localdomain kernel: audit: type=2404 audit(1692270772.271:35): pid=859 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=859 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:52 localhost.localdomain audit[858]: CRYPTO_SESSION pid=858 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-server cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=859 suid=74 rport=45100 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:52 localhost.localdomain audit[858]: CRYPTO_SESSION pid=858 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-client cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=859 suid=74 rport=45100 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:52 localhost.localdomain kernel: audit: type=2407 audit(1692270772.272:36): pid=858 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-server cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=859 suid=74 rport=45100 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:52 localhost.localdomain kernel: audit: type=2407 audit(1692270772.272:37): pid=858 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-client cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=859 suid=74 rport=45100 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:53 localhost.localdomain NetworkManager[536]: <info>  [1692270773.6727] policy: set-hostname: set hostname to 'localhost.localdomain' (no hostname found)
+Aug 17 11:12:55 localhost.localdomain sshd[863]: Connection from 10.0.2.2 port 55516 on 10.0.2.15 port 22 rdomain ""
+Aug 17 11:12:55 localhost.localdomain audit[864]: CRYPTO_KEY_USER pid=864 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=864 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain kernel: audit: type=2404 audit(1692270775.689:38): pid=864 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=864 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRYPTO_SESSION pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-server cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=864 suid=74 rport=55516 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRYPTO_SESSION pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-client cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=864 suid=74 rport=55516 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain kernel: audit: type=2407 audit(1692270775.690:39): pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-server cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=864 suid=74 rport=55516 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain kernel: audit: type=2407 audit(1692270775.690:40): pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-client cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=864 suid=74 rport=55516 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: USER_AUTH pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain kernel: audit: type=1100 audit(1692270775.757:41): pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: USER_ACCT pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[863]: Accepted password for root from 10.0.2.2 port 55516 ssh2
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRYPTO_KEY_USER pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=session fp=? direction=both spid=864 suid=74 rport=55516 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain kernel: audit: type=1101 audit(1692270775.771:42): pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain kernel: audit: type=2404 audit(1692270775.771:43): pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=session fp=? direction=both spid=864 suid=74 rport=55516 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRED_ACQ pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: SYSCALL arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7ffdf8dea890 a2=1 a3=0 items=0 ppid=543 pid=863 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=1 comm="sshd" exe="/usr/sbin/sshd" subj=unconfined key=(null)
+Aug 17 11:12:55 localhost.localdomain audit: PROCTITLE proctitle=737368643A20726F6F74205B707269765D
+Aug 17 11:12:55 localhost.localdomain kernel: audit: type=1103 audit(1692270775.774:44): pid=863 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[863]: pam_unix(sshd:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 11:12:55 localhost.localdomain audit[863]: USER_START pid=863 uid=0 auid=0 ses=1 subj=unconfined msg='op=PAM:session_open grantors=pam_selinux,pam_loginuid,pam_selinux,pam_namespace,pam_keyinit,pam_keyinit,pam_limits,pam_unix,pam_lastlog acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[863]: User child is on pid 866
+Aug 17 11:12:55 localhost.localdomain audit[866]: CRYPTO_KEY_USER pid=866 uid=0 auid=0 ses=1 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=866 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[866]: CRED_ACQ pid=866 uid=0 auid=0 ses=1 subj=unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[865]: Connection from 10.0.2.2 port 55524 on 10.0.2.15 port 22 rdomain ""
+Aug 17 11:12:55 localhost.localdomain audit[867]: CRYPTO_KEY_USER pid=867 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=867 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: CRYPTO_SESSION pid=865 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-server cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=867 suid=74 rport=55524 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: CRYPTO_SESSION pid=865 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=start direction=from-client cipher=aes128-ctr ksize=128 mac=hmac-sha2-256 pfs=curve25519-sha256@libssh.org spid=867 suid=74 rport=55524 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: USER_AUTH pid=865 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: USER_ACCT pid=865 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[865]: Accepted password for root from 10.0.2.2 port 55524 ssh2
+Aug 17 11:12:55 localhost.localdomain audit[865]: CRYPTO_KEY_USER pid=865 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=destroy kind=session fp=? direction=both spid=867 suid=74 rport=55524 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: CRED_ACQ pid=865 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: SYSCALL arch=c000003e syscall=1 success=yes exit=1 a0=3 a1=7fff035b0990 a2=1 a3=0 items=0 ppid=543 pid=865 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=2 comm="sshd" exe="/usr/sbin/sshd" subj=unconfined key=(null)
+Aug 17 11:12:55 localhost.localdomain audit: PROCTITLE proctitle=737368643A20726F6F74205B707269765D
+Aug 17 11:12:55 localhost.localdomain sshd[865]: pam_unix(sshd:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 11:12:55 localhost.localdomain audit[865]: USER_START pid=865 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_selinux,pam_loginuid,pam_selinux,pam_namespace,pam_keyinit,pam_keyinit,pam_limits,pam_unix,pam_lastlog acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[865]: User child is on pid 868
+Aug 17 11:12:55 localhost.localdomain audit[868]: CRYPTO_KEY_USER pid=868 uid=0 auid=0 ses=2 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=868 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[868]: CRED_ACQ pid=868 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[868]: Starting session: command for root from 10.0.2.2 port 55524 id 0
+Aug 17 11:12:55 localhost.localdomain audit[865]: USER_LOGIN pid=865 uid=0 auid=0 ses=2 subj=unconfined msg='op=login id=0 exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: USER_START pid=865 uid=0 auid=0 ses=2 subj=unconfined msg='op=login id=0 exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[865]: CRYPTO_KEY_USER pid=865 uid=0 auid=0 ses=2 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=869 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[866]: Read error from remote host 10.0.2.2 port 55516: Connection reset by peer
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRYPTO_KEY_USER pid=863 uid=0 auid=0 ses=1 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=866 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRYPTO_KEY_USER pid=863 uid=0 auid=0 ses=1 subj=unconfined msg='op=destroy kind=session fp=? direction=both spid=866 suid=0 rport=55516 laddr=10.0.2.15 lport=22  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:55 localhost.localdomain sshd[863]: pam_unix(sshd:session): session closed for user root
+Aug 17 11:12:55 localhost.localdomain audit[863]: USER_END pid=863 uid=0 auid=0 ses=1 subj=unconfined msg='op=PAM:session_close grantors=pam_selinux,pam_loginuid,pam_selinux,pam_namespace,pam_keyinit,pam_keyinit,pam_limits,pam_unix,pam_lastlog acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRED_DISP pid=863 uid=0 auid=0 ses=1 subj=unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_unix acct="root" exe="/usr/sbin/sshd" hostname=10.0.2.2 addr=10.0.2.2 terminal=ssh res=success'
+Aug 17 11:12:55 localhost.localdomain audit[863]: CRYPTO_KEY_USER pid=863 uid=0 auid=0 ses=1 subj=unconfined msg='op=destroy kind=server fp=SHA256:6b:d8:80:6e:94:63:b6:cb:47:42:ae:b6:86:95:e7:0b:05:53:50:97:4f:3e:84:6c:5a:e1:67:62:21:83:a0:79 direction=? spid=863 suid=0  exe="/usr/sbin/sshd" hostname=? addr=10.0.2.2 terminal=? res=success'
+Aug 17 11:12:56 localhost.localdomain audit[927]: USER_ACCT pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:56 localhost.localdomain audit[927]: USER_CMD pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=62617368206D7567656E2E7368202D66207261647664202D72206F655F746573745F736572766963655F7261647664202D78 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 11:12:56 localhost.localdomain sudo[927]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/bash mugen.sh -f radvd -r oe_test_service_radvd -x
+Aug 17 11:12:56 localhost.localdomain audit[927]: CRED_REFR pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:56 localhost.localdomain audit[927]: USER_START pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:56 localhost.localdomain sudo[927]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 11:12:58 localhost.localdomain [RPM][1006]: Transaction ID 64de00ba started
+Aug 17 11:12:58 localhost.localdomain audit[1010]: ADD_GROUP pid=1010 uid=0 auid=0 ses=2 subj=unconfined msg='op=adding group to /etc/group id=75 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain groupadd[1010]: group added to /etc/group: name=radvd, GID=75
+Aug 17 11:12:58 localhost.localdomain kernel: kauditd_printk_skb: 31 callbacks suppressed
+Aug 17 11:12:58 localhost.localdomain kernel: audit: type=1116 audit(1692270778.483:72): pid=1010 uid=0 auid=0 ses=2 subj=unconfined msg='op=adding group to /etc/group id=75 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain audit[1010]: ADD_GROUP pid=1010 uid=0 auid=0 ses=2 subj=unconfined msg='op=adding group to /etc/gshadow id=75 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain groupadd[1010]: group added to /etc/gshadow: name=radvd
+Aug 17 11:12:58 localhost.localdomain kernel: audit: type=1116 audit(1692270778.508:73): pid=1010 uid=0 auid=0 ses=2 subj=unconfined msg='op=adding group to /etc/gshadow id=75 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain audit[1010]: ADD_GROUP pid=1010 uid=0 auid=0 ses=2 subj=unconfined msg='op= id=75 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain groupadd[1010]: new group: name=radvd, GID=75
+Aug 17 11:12:58 localhost.localdomain kernel: audit: type=1116 audit(1692270778.514:74): pid=1010 uid=0 auid=0 ses=2 subj=unconfined msg='op= id=75 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain useradd[1017]: new user: name=radvd, UID=75, GID=75, home=/, shell=/sbin/nologin, from=none
+Aug 17 11:12:58 localhost.localdomain audit[1017]: ADD_USER pid=1017 uid=0 auid=0 ses=2 subj=unconfined msg='op=adding user id=75 exe="/usr/sbin/useradd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain kernel: audit: type=1114 audit(1692270778.591:75): pid=1017 uid=0 auid=0 ses=2 subj=unconfined msg='op=adding user id=75 exe="/usr/sbin/useradd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:12:58 localhost.localdomain kernel: capability: warning: `dnf' uses 32-bit capabilities (legacy support in use)
+Aug 17 11:12:58 localhost.localdomain systemctl[1026]: [systemctl --no-reload preset radvd.service] called by PID 1025 (bash /usr/lib/systemd/systemd-update-helper install-system-units radvd.service)
+Aug 17 11:12:58 localhost.localdomain [RPM][1006]: install radvd-2.19-2.oe2309.x86_64: success
+Aug 17 11:12:58 localhost.localdomain systemctl[1030]: [/usr/bin/systemctl daemon-reload] called by PID 1029 (/bin/sh /var/tmp/rpm-tmp.3DyxCV 0)
+Aug 17 11:12:58 localhost.localdomain systemd[1]: Reloading requested from client PID 1030 (unit sshd.service)...
+Aug 17 11:12:58 localhost.localdomain systemd[1]: Reloading.
+Aug 17 11:12:59 localhost.localdomain systemd-rc-local-generator[1039]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 11:12:59 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 11:12:59 localhost.localdomain [RPM][1006]: install radvd-2.19-2.oe2309.x86_64: success
+Aug 17 11:12:59 localhost.localdomain [RPM][1006]: Transaction ID 64de00ba finished: 0
+Aug 17 11:12:59 localhost.localdomain systemctl[1055]: [systemctl restart radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:12:59 localhost.localdomain systemd[1]: /usr/lib/systemd/system/radvd.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/radvd/radvd.pid → /run/radvd/radvd.pid; please update the unit file accordingly.
+Aug 17 11:12:59 localhost.localdomain systemd[1]: Starting Router advertisement daemon for IPv6...
+░░ Subject: A start job for unit radvd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit radvd.service has begun execution.
+░░ 
+░░ The job identifier is 364.
+Aug 17 11:12:59 localhost.localdomain radvd[1056]: version 2.19 started
+Aug 17 11:12:59 localhost.localdomain radvd[1056]: exiting, failed to read config file
+Aug 17 11:12:59 localhost.localdomain radvd[1056]: /etc/radvd.conf:20 error: syntax error
+Aug 17 11:12:59 localhost.localdomain systemd[1]: radvd.service: Control process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit radvd.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Aug 17 11:12:59 localhost.localdomain systemd[1]: radvd.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit radvd.service has entered the 'failed' state with result 'exit-code'.
+Aug 17 11:12:59 localhost.localdomain systemd[1]: Failed to start Router advertisement daemon for IPv6.
+░░ Subject: A start job for unit radvd.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit radvd.service has finished with a failure.
+░░ 
+░░ The job identifier is 364 and the job result is failed.
+Aug 17 11:12:59 localhost.localdomain kernel: audit: type=1130 audit(1692270779.419:76): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=radvd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 11:12:59 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=radvd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 11:13:03 localhost.localdomain systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+Aug 17 11:13:03 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:03 localhost.localdomain kernel: audit: type=1131 audit(1692270783.706:77): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:04 localhost.localdomain systemctl[1066]: [systemctl stop radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:09 localhost.localdomain systemctl[1072]: [systemctl start radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:09 localhost.localdomain systemd[1]: Starting Router advertisement daemon for IPv6...
+░░ Subject: A start job for unit radvd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit radvd.service has begun execution.
+░░ 
+░░ The job identifier is 433.
+Aug 17 11:13:09 localhost.localdomain radvd[1073]: version 2.19 started
+Aug 17 11:13:09 localhost.localdomain radvd[1073]: exiting, failed to read config file
+Aug 17 11:13:09 localhost.localdomain radvd[1073]: /etc/radvd.conf:20 error: syntax error
+Aug 17 11:13:09 localhost.localdomain systemd[1]: radvd.service: Control process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit radvd.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Aug 17 11:13:09 localhost.localdomain systemd[1]: radvd.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit radvd.service has entered the 'failed' state with result 'exit-code'.
+Aug 17 11:13:09 localhost.localdomain systemd[1]: Failed to start Router advertisement daemon for IPv6.
+░░ Subject: A start job for unit radvd.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit radvd.service has finished with a failure.
+░░ 
+░░ The job identifier is 433 and the job result is failed.
+Aug 17 11:13:09 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=radvd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 11:13:09 localhost.localdomain kernel: audit: type=1130 audit(1692270789.723:78): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=radvd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 11:13:14 localhost.localdomain systemctl[1084]: [systemctl enable radvd.service] called by PID 1083 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:14 localhost.localdomain systemd[1]: Reloading requested from client PID 1084 (unit sshd.service)...
+Aug 17 11:13:14 localhost.localdomain systemd[1]: Reloading.
+Aug 17 11:13:15 localhost.localdomain systemd-rc-local-generator[1095]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/radvd.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/radvd/radvd.pid → /run/radvd/radvd.pid; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemctl[1101]: [systemctl disable radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Reloading requested from client PID 1101 (unit sshd.service)...
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Reloading.
+Aug 17 11:13:15 localhost.localdomain systemd-rc-local-generator[1110]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/radvd.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/radvd/radvd.pid → /run/radvd/radvd.pid; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemctl[1121]: [systemctl start radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Starting Router advertisement daemon for IPv6...
+░░ Subject: A start job for unit radvd.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit radvd.service has begun execution.
+░░ 
+░░ The job identifier is 501.
+Aug 17 11:13:15 localhost.localdomain radvd[1122]: version 2.19 started
+Aug 17 11:13:15 localhost.localdomain radvd[1122]: exiting, failed to read config file
+Aug 17 11:13:15 localhost.localdomain radvd[1122]: /etc/radvd.conf:20 error: syntax error
+Aug 17 11:13:15 localhost.localdomain systemd[1]: radvd.service: Control process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ An ExecStart= process belonging to unit radvd.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: radvd.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit radvd.service has entered the 'failed' state with result 'exit-code'.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Failed to start Router advertisement daemon for IPv6.
+░░ Subject: A start job for unit radvd.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ A start job for unit radvd.service has finished with a failure.
+░░ 
+░░ The job identifier is 501 and the job result is failed.
+Aug 17 11:13:15 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=radvd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 11:13:15 localhost.localdomain kernel: audit: type=1130 audit(1692270795.287:79): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=unconfined msg='unit=radvd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Aug 17 11:13:15 localhost.localdomain systemctl[1125]: [systemctl daemon-reload] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Reloading requested from client PID 1125 (unit sshd.service)...
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Reloading.
+Aug 17 11:13:15 localhost.localdomain systemd-rc-local-generator[1134]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/radvd.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/radvd/radvd.pid → /run/radvd/radvd.pid; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemctl[1139]: [systemctl reload radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:15 localhost.localdomain systemd[1]: radvd.service: Unit cannot be reloaded because it is inactive.
+Aug 17 11:13:15 localhost.localdomain systemctl[1150]: [systemctl daemon-reload] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Reloading requested from client PID 1150 (unit sshd.service)...
+Aug 17 11:13:15 localhost.localdomain systemd[1]: Reloading.
+Aug 17 11:13:15 localhost.localdomain systemd-rc-local-generator[1159]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemd[1]: /usr/lib/systemd/system/radvd.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/radvd/radvd.pid → /run/radvd/radvd.pid; please update the unit file accordingly.
+Aug 17 11:13:15 localhost.localdomain systemctl[1164]: [systemctl reload radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:15 localhost.localdomain systemd[1]: radvd.service: Unit cannot be reloaded because it is inactive.
+Aug 17 11:13:15 localhost.localdomain systemctl[1165]: [systemctl stop radvd.service] called by PID 974 (bash -x oe_test_service_radvd.sh)
+Aug 17 11:13:16 localhost.localdomain [RPM][1168]: Transaction ID 64de00cc started
+Aug 17 11:13:16 localhost.localdomain [RPM][1168]: erase radvd-2.19-2.oe2309.x86_64: success
+Aug 17 11:13:16 localhost.localdomain systemctl[1174]: [systemctl --no-reload --now --no-warn disable radvd.service] called by PID 1173 (bash /usr/lib/systemd/systemd-update-helper remove-system-units radvd.service)
+Aug 17 11:13:16 localhost.localdomain systemctl[1177]: [/usr/bin/systemctl daemon-reload] called by PID 1175 (/bin/sh /var/tmp/rpm-tmp.B8nU4U 0)
+Aug 17 11:13:16 localhost.localdomain systemd[1]: Reloading requested from client PID 1177 (unit sshd.service)...
+Aug 17 11:13:16 localhost.localdomain systemd[1]: Reloading.
+Aug 17 11:13:16 localhost.localdomain systemd-rc-local-generator[1186]: /etc/rc.d/rc.local is not marked executable, skipping.
+Aug 17 11:13:16 localhost.localdomain systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
+Aug 17 11:13:16 localhost.localdomain [RPM][1168]: erase radvd-2.19-2.oe2309.x86_64: success
+Aug 17 11:13:16 localhost.localdomain [RPM][1168]: Transaction ID 64de00cc finished: 0
+Aug 17 11:13:16 localhost.localdomain audit[927]: USER_END pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain audit[927]: CRED_DISP pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain sudo[927]: pam_unix(sudo:session): session closed for user root
+Aug 17 11:13:16 localhost.localdomain kernel: audit: type=1106 audit(1692270796.665:80): pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain kernel: audit: type=1104 audit(1692270796.665:81): pid=927 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain audit[1199]: USER_ACCT pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain audit[1199]: USER_CMD pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=6A6F75726E616C63746C202D7865202D2D6E6F2D7061676572 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain sudo[1199]:     root : PWD=/root/mugen ; USER=root ; COMMAND=/usr/bin/journalctl -xe --no-pager
+Aug 17 11:13:16 localhost.localdomain audit[1199]: CRED_REFR pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain sudo[1199]: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+Aug 17 11:13:16 localhost.localdomain audit[1199]: USER_START pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain kernel: audit: type=1101 audit(1692270796.672:82): pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:accounting grantors=pam_unix,pam_faillock,pam_localuser acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain kernel: audit: type=1123 audit(1692270796.672:83): pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='cwd="/root/mugen" cmd=6A6F75726E616C63746C202D7865202D2D6E6F2D7061676572 exe="/usr/bin/sudo" terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain kernel: audit: type=1110 audit(1692270796.672:84): pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:setcred grantors=pam_env,pam_faillock,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'
+Aug 17 11:13:16 localhost.localdomain kernel: audit: type=1105 audit(1692270796.672:85): pid=1199 uid=0 auid=0 ses=2 subj=unconfined msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=? res=success'

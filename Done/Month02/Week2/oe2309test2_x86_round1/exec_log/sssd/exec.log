@@ -1,0 +1,85 @@
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:44:21 2023 - INFO  - start to run testcase:oe_test_service_sssd-autofs.
+Thu Aug 17 09:44:31 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:44:31 2023 - INFO  - End to run testcase:oe_test_service_sssd-autofs.
+Thu Aug 17 09:44:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:44:31 2023 - INFO  - start to run testcase:oe_test_service_sssd-ifp.
+Thu Aug 17 09:44:58 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:44:58 2023 - INFO  - End to run testcase:oe_test_service_sssd-ifp.
+Thu Aug 17 09:44:58 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:44:58 2023 - INFO  - start to run testcase:oe_test_service_sssd-kcm.
+Thu Aug 17 09:45:25 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:45:25 2023 - INFO  - End to run testcase:oe_test_service_sssd-kcm.
+Thu Aug 17 09:45:25 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:45:25 2023 - INFO  - start to run testcase:oe_test_service_sssd-nss.
+Thu Aug 17 09:45:34 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:45:34 2023 - INFO  - End to run testcase:oe_test_service_sssd-nss.
+Thu Aug 17 09:45:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:45:35 2023 - INFO  - start to run testcase:oe_test_service_sssd-pac.
+Thu Aug 17 09:45:45 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:45:45 2023 - INFO  - End to run testcase:oe_test_service_sssd-pac.
+Thu Aug 17 09:45:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:45:45 2023 - INFO  - start to run testcase:oe_test_service_sssd-pam.
+Thu Aug 17 09:45:55 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:45:55 2023 - INFO  - End to run testcase:oe_test_service_sssd-pam.
+Thu Aug 17 09:45:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:45:55 2023 - INFO  - start to run testcase:oe_test_service_sssd.
+Thu Aug 17 09:46:22 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:46:22 2023 - INFO  - End to run testcase:oe_test_service_sssd.
+Thu Aug 17 09:46:22 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:46:23 2023 - INFO  - start to run testcase:oe_test_service_sssd-ssh.
+Thu Aug 17 09:46:31 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:46:31 2023 - INFO  - End to run testcase:oe_test_service_sssd-ssh.
+Thu Aug 17 09:46:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:46:31 2023 - INFO  - start to run testcase:oe_test_service_sssd-sudo.
+Thu Aug 17 09:46:40 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:46:40 2023 - INFO  - End to run testcase:oe_test_service_sssd-sudo.
+Thu Aug 17 09:46:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:46:40 2023 - INFO  - start to run testcase:oe_test_socket_sssd-autofs.
+Thu Aug 17 09:47:12 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:47:12 2023 - INFO  - End to run testcase:oe_test_socket_sssd-autofs.
+Thu Aug 17 09:47:12 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:47:12 2023 - INFO  - start to run testcase:oe_test_socket_sssd-kcm.
+Thu Aug 17 09:47:42 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:47:42 2023 - INFO  - End to run testcase:oe_test_socket_sssd-kcm.
+Thu Aug 17 09:47:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:47:42 2023 - INFO  - start to run testcase:oe_test_socket_sssd-nss.
+Thu Aug 17 09:47:50 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:47:50 2023 - INFO  - End to run testcase:oe_test_socket_sssd-nss.
+Thu Aug 17 09:47:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:47:50 2023 - INFO  - start to run testcase:oe_test_socket_sssd-pac.
+Thu Aug 17 09:48:19 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:48:19 2023 - INFO  - End to run testcase:oe_test_socket_sssd-pac.
+Thu Aug 17 09:48:19 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:48:19 2023 - INFO  - start to run testcase:oe_test_socket_sssd-pam-priv.
+Thu Aug 17 09:48:31 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:48:31 2023 - INFO  - End to run testcase:oe_test_socket_sssd-pam-priv.
+Thu Aug 17 09:48:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:48:31 2023 - INFO  - start to run testcase:oe_test_socket_sssd-pam.
+Thu Aug 17 09:48:57 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:48:57 2023 - INFO  - End to run testcase:oe_test_socket_sssd-pam.
+Thu Aug 17 09:48:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:48:57 2023 - INFO  - start to run testcase:oe_test_socket_sssd-ssh.
+Thu Aug 17 09:49:22 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:49:22 2023 - INFO  - End to run testcase:oe_test_socket_sssd-ssh.
+Thu Aug 17 09:49:22 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:49:22 2023 - INFO  - start to run testcase:oe_test_socket_sssd-sudo.
+Thu Aug 17 09:49:51 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:49:51 2023 - INFO  - End to run testcase:oe_test_socket_sssd-sudo.
+Thu Aug 17 09:49:51 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

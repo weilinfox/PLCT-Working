@@ -1,0 +1,153 @@
+测试套/软件包名,测试用例名,日志文件,原因,Broken testcase,pkg not found,preinstall absent,kernel module absent,file missing,systemd unit restart failure,systemd unit runtime error,systemd unit enable failure,timeout
+multipath-tools,oe_test_multipath-tools_kpartx,2023-08-17-10_07_32.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_001,2023-08-17-10_27_23.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_003,2023-08-17-10_30_47.log,"file missing
+",0,0,0,0,1,0,0,0,0
+fio,oe_test_fio_004,2023-08-17-10_32_05.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_002,2023-08-17-10_28_37.log,"file missing
+",0,0,0,0,1,0,0,0,0
+kernel,oe_test_cpu_rand,2023-08-17-09_42_43.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_vport-geneve,2023-08-17-09_42_44.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_kernel_cmd_01,2023-08-17-09_41_54.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_swap_compress,2023-08-17-09_42_45.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+kernel,oe_test_hinic,2023-08-17-09_42_42.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_fnic,2023-08-17-09_42_54.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_io_sched,2023-08-17-09_42_40.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+kernel,oe_test_check_huge_task,2023-08-17-09_42_47.log,"timeout
+",0,0,0,0,0,0,0,0,1
+kernel,oe_test_hpsa,2023-08-17-09_42_56.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_wangxun,2023-08-17-09_42_50.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_cifs,2023-08-17-09_42_48.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_libfc,2023-08-17-09_42_55.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_bnx2fc,2023-08-17-09_42_57.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_hifc,2023-08-17-09_42_53.log,"kernel module absent
+",0,0,0,1,0,0,0,0,0
+bison,oe_test_bison,2023-08-17-11_23_24.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openblas,oe_test_openblas,2023-08-17-11_05_49.log,"file missing
+",0,0,0,0,1,0,0,0,0
+ruby,oe_test_irb_03,2023-08-17-09_51_46.log,,0,0,0,0,0,0,0,0,0
+ruby,oe_test_irb_01,2023-08-17-09_51_29.log,,0,0,0,0,0,0,0,0,0
+ruby,oe_test_rdoc_01,2023-08-17-09_53_09.log,,0,0,0,0,0,0,0,0,0
+ruby,oe_test_erb,2023-08-17-09_51_10.log,,0,0,0,0,0,0,0,0,0
+ruby,oe_test_ruby,2023-08-17-09_53_44.log,,0,0,0,0,0,0,0,0,0
+sendmail,oe_test_sendmail_func_001,2023-08-17-10_40_03.log,"file missing
+",0,0,0,0,1,0,0,0,0
+vdo,oe_test_service_vdo,2023-08-17-11_19_39.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+intltool,oe_test_intltool_intltool-prepare,2023-08-17-10_21_56.log,"file missing
+",0,0,0,0,1,0,0,0,0
+intltool,oe_test_intltool_intltool-extract,2023-08-17-10_21_37.log,"file missing
+",0,0,0,0,1,0,0,0,0
+irqbalance,oe_test_service_irqbalance,2023-08-17-10_57_26.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+libtar,oe_test_libtar,2023-08-17-11_00_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+tuned,oe_test_service_tuned,2023-08-17-11_18_04.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+clevis,oe_test_tang_encrypt,2023-08-17-10_24_25.log,"file missing
+",0,0,0,0,1,0,0,0,0
+clevis,oe_test_service_clevis-luks-askpass,2023-08-17-10_21_37.log,"systemd unit runtime error
+",0,0,0,0,0,0,1,0,0
+clevis,oe_test_high_nbde,2023-08-17-10_21_47.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+sssd,oe_test_socket_sssd-sudo,2023-08-17-09_49_22.log,"file missing
+",0,0,0,0,1,0,0,0,0
+sssd,oe_test_service_sssd,2023-08-17-09_45_55.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+sssd,oe_test_service_sssd-ifp,2023-08-17-09_44_31.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+sssd,oe_test_socket_sssd-pac,2023-08-17-09_47_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+sssd,oe_test_socket_sssd-pam,2023-08-17-09_48_31.log,"file missing
+",0,0,0,0,1,0,0,0,0
+sssd,oe_test_socket_sssd-ssh,2023-08-17-09_48_57.log,"file missing
+",0,0,0,0,1,0,0,0,0
+sssd,oe_test_socket_sssd-autofs,2023-08-17-09_46_40.log,"file missing
+",0,0,0,0,1,0,0,0,0
+chrpath,oe_test_chrpath,2023-08-17-10_49_00.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_enabled_enablerepo,2023-08-17-09_44_47.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_list_mark,2023-08-17-09_45_39.log,"timeout
+",0,0,0,0,0,0,0,0,1
+dnf,oe_test_dnf_reinstall_repoinfo,2023-08-17-09_48_47.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_repeat-upgrade-downgrade,2023-08-17-09_49_52.log,"timeout
+",0,0,0,0,0,0,0,0,1
+radvd,oe_test_service_radvd,2023-08-17-11_12_56.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+samba,oe_test_service_samba,2023-08-17-10_28_07.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+pixman,oe_test_pixman,2023-08-17-11_10_05.log,"file missing
+",0,0,0,0,1,0,0,0,0
+avahi,oe_test_service_avahi-daemon,2023-08-17-10_34_23.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+avahi,oe_test_socket_avahi-daemon,2023-08-17-10_35_03.log,"file missing
+",0,0,0,0,1,0,0,0,0
+unbound,oe_test_service_unbound-keygen,2023-08-17-10_39_09.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+nftables,oe_test_nftables_backup_rules,2023-08-17-09_56_12.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_chains,2023-08-17-09_56_06.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_name_sets,2023-08-17-09_56_05.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_listen_package,2023-08-17-09_55_54.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+nftables,oe_test_service_nftables,2023-08-17-09_56_14.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+nftables,oe_test_nftables_variable_map,2023-08-17-09_56_06.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_anonymous_map,2023-08-17-09_55_53.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_replace_counters,2023-08-17-09_56_13.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_create_counters,2023-08-17-09_55_41.log,"file missing
+",0,0,0,0,1,0,0,0,0
+procps-ng,oe_test_procps-ng-pmap,2023-08-17-11_11_28.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+sysstat,oe_test_service_sysstat,2023-08-17-10_34_03.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+initscripts,oe_test_service_import-state,2023-08-17-10_24_18.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,1,0,0,1,1,1,0
+perl-libwww-perl,oe_test_perl-libwww-perl_POST_02,2023-08-17-10_02_44.log,"timeout
+",0,0,0,0,0,0,0,0,1
+perl-libwww-perl,oe_test_perl-libwww-perl_GET_01,2023-08-17-09_58_53.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+perl-libwww-perl,oe_test_perl-libwww-perl_POST_01,2023-08-17-10_01_54.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1

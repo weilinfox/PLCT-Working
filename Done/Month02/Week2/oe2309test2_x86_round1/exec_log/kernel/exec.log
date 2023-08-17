@@ -1,0 +1,145 @@
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:41:54 2023 - INFO  - start to run testcase:oe_test_kernel_cmd_01.
+Thu Aug 17 09:42:00 2023 - ERROR - The case exit by code 2.
+Thu Aug 17 09:42:00 2023 - INFO  - End to run testcase:oe_test_kernel_cmd_01.
+Thu Aug 17 09:42:00 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:00 2023 - INFO  - start to run testcase:oe_test_kernel_cmd_02.
+Thu Aug 17 09:42:08 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:08 2023 - INFO  - End to run testcase:oe_test_kernel_cmd_02.
+Thu Aug 17 09:42:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:08 2023 - INFO  - start to run testcase:oe_test_kernel_cmd_03.
+Thu Aug 17 09:42:38 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:38 2023 - INFO  - End to run testcase:oe_test_kernel_cmd_03.
+Thu Aug 17 09:42:38 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:38 2023 - INFO  - start to run testcase:oe_test_service_cpupower.
+Thu Aug 17 09:42:39 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:39 2023 - INFO  - End to run testcase:oe_test_service_cpupower.
+Thu Aug 17 09:42:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:39 2023 - INFO  - start to run testcase:oe_test_ipip.
+Thu Aug 17 09:42:39 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:39 2023 - INFO  - End to run testcase:oe_test_ipip.
+Thu Aug 17 09:42:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:39 2023 - INFO  - start to run testcase:oe_test_io_sched.
+Thu Aug 17 09:42:40 2023 - ERROR - The case exit by code 1.
+Thu Aug 17 09:42:40 2023 - INFO  - End to run testcase:oe_test_io_sched.
+Thu Aug 17 09:42:40 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:40 2023 - INFO  - start to run testcase:oe_test_cache_rw.
+Thu Aug 17 09:42:41 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:41 2023 - INFO  - End to run testcase:oe_test_cache_rw.
+Thu Aug 17 09:42:41 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:41 2023 - INFO  - start to run testcase:oe_test_snd_aloop.
+Thu Aug 17 09:42:41 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:41 2023 - INFO  - End to run testcase:oe_test_snd_aloop.
+Thu Aug 17 09:42:41 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:42 2023 - INFO  - start to run testcase:oe_test_hinic.
+Thu Aug 17 09:42:42 2023 - ERROR - The case exit by code 2.
+Thu Aug 17 09:42:42 2023 - INFO  - End to run testcase:oe_test_hinic.
+Thu Aug 17 09:42:42 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:42 2023 - INFO  - start to run testcase:oe_test_hqlogic.
+Thu Aug 17 09:42:43 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:43 2023 - INFO  - End to run testcase:oe_test_hqlogic.
+Thu Aug 17 09:42:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:43 2023 - INFO  - start to run testcase:oe_test_cpu_rand.
+Thu Aug 17 09:42:44 2023 - ERROR - The case exit by code 1.
+Thu Aug 17 09:42:44 2023 - INFO  - End to run testcase:oe_test_cpu_rand.
+Thu Aug 17 09:42:44 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:44 2023 - INFO  - start to run testcase:oe_test_qxl.
+Thu Aug 17 09:42:44 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:44 2023 - INFO  - End to run testcase:oe_test_qxl.
+Thu Aug 17 09:42:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:44 2023 - INFO  - start to run testcase:oe_test_vport-geneve.
+Thu Aug 17 09:42:45 2023 - ERROR - The case exit by code 3.
+Thu Aug 17 09:42:45 2023 - INFO  - End to run testcase:oe_test_vport-geneve.
+Thu Aug 17 09:42:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:45 2023 - INFO  - start to run testcase:oe_test_swap_compress.
+Thu Aug 17 09:42:46 2023 - ERROR - The case exit by code 2.
+Thu Aug 17 09:42:46 2023 - INFO  - End to run testcase:oe_test_swap_compress.
+Thu Aug 17 09:42:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:46 2023 - INFO  - start to run testcase:oe_test_lpfc.
+Thu Aug 17 09:42:46 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:46 2023 - INFO  - End to run testcase:oe_test_lpfc.
+Thu Aug 17 09:42:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:47 2023 - INFO  - start to run testcase:oe_test_check_huge_task.
+Thu Aug 17 09:42:47 2023 - ERROR - The case exit by code 1.
+Thu Aug 17 09:42:47 2023 - INFO  - End to run testcase:oe_test_check_huge_task.
+Thu Aug 17 09:42:47 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:47 2023 - INFO  - start to run testcase:oe_test_swappiness.
+Thu Aug 17 09:42:47 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:48 2023 - INFO  - End to run testcase:oe_test_swappiness.
+Thu Aug 17 09:42:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:48 2023 - INFO  - start to run testcase:oe_test_softdog.
+Thu Aug 17 09:42:48 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:48 2023 - INFO  - End to run testcase:oe_test_softdog.
+Thu Aug 17 09:42:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:48 2023 - INFO  - start to run testcase:oe_test_cifs.
+Thu Aug 17 09:42:49 2023 - ERROR - The case exit by code 1.
+Thu Aug 17 09:42:49 2023 - INFO  - End to run testcase:oe_test_cifs.
+Thu Aug 17 09:42:49 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:49 2023 - INFO  - start to run testcase:oe_test_xfs.
+Thu Aug 17 09:42:50 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:50 2023 - INFO  - End to run testcase:oe_test_xfs.
+Thu Aug 17 09:42:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:50 2023 - INFO  - start to run testcase:oe_test_wangxun.
+Thu Aug 17 09:42:51 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:42:51 2023 - INFO  - End to run testcase:oe_test_wangxun.
+Thu Aug 17 09:42:51 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:51 2023 - INFO  - start to run testcase:oe_test_vlan_8021q.
+Thu Aug 17 09:42:52 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:52 2023 - INFO  - End to run testcase:oe_test_vlan_8021q.
+Thu Aug 17 09:42:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:52 2023 - INFO  - start to run testcase:oe_test_nbd.
+Thu Aug 17 09:42:53 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:53 2023 - INFO  - End to run testcase:oe_test_nbd.
+Thu Aug 17 09:42:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:53 2023 - INFO  - start to run testcase:oe_test_hifc.
+Thu Aug 17 09:42:54 2023 - ERROR - The case exit by code 6.
+Thu Aug 17 09:42:54 2023 - INFO  - End to run testcase:oe_test_hifc.
+Thu Aug 17 09:42:54 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:54 2023 - INFO  - start to run testcase:oe_test_fnic.
+Thu Aug 17 09:42:55 2023 - ERROR - The case exit by code 1.
+Thu Aug 17 09:42:55 2023 - INFO  - End to run testcase:oe_test_fnic.
+Thu Aug 17 09:42:55 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:55 2023 - INFO  - start to run testcase:oe_test_libfc.
+Thu Aug 17 09:42:56 2023 - ERROR - The case exit by code 3.
+Thu Aug 17 09:42:56 2023 - INFO  - End to run testcase:oe_test_libfc.
+Thu Aug 17 09:42:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:56 2023 - INFO  - start to run testcase:oe_test_hpsa.
+Thu Aug 17 09:42:56 2023 - ERROR - The case exit by code 1.
+Thu Aug 17 09:42:56 2023 - INFO  - End to run testcase:oe_test_hpsa.
+Thu Aug 17 09:42:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:57 2023 - INFO  - start to run testcase:oe_test_bnx2fc.
+Thu Aug 17 09:42:57 2023 - ERROR - The case exit by code 1.
+Thu Aug 17 09:42:57 2023 - INFO  - End to run testcase:oe_test_bnx2fc.
+Thu Aug 17 09:42:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 09:42:57 2023 - INFO  - start to run testcase:oe_test_qla2xxx.
+Thu Aug 17 09:42:58 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 09:42:58 2023 - INFO  - End to run testcase:oe_test_qla2xxx.
+Thu Aug 17 09:42:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

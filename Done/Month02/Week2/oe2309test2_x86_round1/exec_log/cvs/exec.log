@@ -1,0 +1,52 @@
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:04:48 2023 - INFO  - start to run testcase:oe_test_socket_cvs.
+Thu Aug 17 10:04:52 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:04:52 2023 - INFO  - End to run testcase:oe_test_socket_cvs.
+Thu Aug 17 10:04:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:04:52 2023 - INFO  - start to run testcase:oe_test_target_cvs.
+Thu Aug 17 10:04:56 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:04:56 2023 - INFO  - End to run testcase:oe_test_target_cvs.
+Thu Aug 17 10:04:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:04:56 2023 - INFO  - start to run testcase:oe_test_cvs_cvs_01.
+Thu Aug 17 10:05:00 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:05:00 2023 - INFO  - End to run testcase:oe_test_cvs_cvs_01.
+Thu Aug 17 10:05:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:05:01 2023 - INFO  - start to run testcase:oe_test_cvs_cvs_02.
+Thu Aug 17 10:05:07 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:05:07 2023 - INFO  - End to run testcase:oe_test_cvs_cvs_02.
+Thu Aug 17 10:05:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+/etc/sudoers:106:15: syntax error
+Allows people in group wheel to run all commands
+              ^~
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:05:07 2023 - INFO  - start to run testcase:oe_test_cvs_cvs_03.
+Thu Aug 17 10:05:18 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:05:18 2023 - INFO  - End to run testcase:oe_test_cvs_cvs_03.
+Thu Aug 17 10:05:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+/etc/sudoers:106:15: syntax error
+Allows people in group wheel to run all commands
+              ^~
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:05:18 2023 - INFO  - start to run testcase:oe_test_cvs_cvs_04.
+Thu Aug 17 10:05:25 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:05:25 2023 - INFO  - End to run testcase:oe_test_cvs_cvs_04.
+Thu Aug 17 10:05:25 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+/etc/sudoers:106:15: syntax error
+Allows people in group wheel to run all commands
+              ^~
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:05:25 2023 - INFO  - start to run testcase:oe_test_cvs_cvs_05.
+Thu Aug 17 10:05:33 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:05:33 2023 - INFO  - End to run testcase:oe_test_cvs_cvs_05.
+Thu Aug 17 10:05:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+/etc/sudoers:106:15: syntax error
+Allows people in group wheel to run all commands
+              ^~
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Thu Aug 17 10:05:33 2023 - INFO  - start to run testcase:oe_test_cvs_cvs_06.
+Thu Aug 17 10:05:48 2023 - INFO  - The case exit by code 0.
+Thu Aug 17 10:05:48 2023 - INFO  - End to run testcase:oe_test_cvs_cvs_06.
+Thu Aug 17 10:05:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
