@@ -1,0 +1,15 @@
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Tue Aug 22 02:54:50 2023 - INFO  - start to run testcase:oe_test_service_avahi-daemon.
+Tue Aug 22 02:55:16 2023 - ERROR - The case exit by code 1.
+Tue Aug 22 02:55:16 2023 - INFO  - End to run testcase:oe_test_service_avahi-daemon.
+Tue Aug 22 02:55:17 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Tue Aug 22 02:55:17 2023 - INFO  - start to run testcase:oe_test_service_avahi-dnsconfd.
+Tue Aug 22 02:55:40 2023 - INFO  - The case exit by code 0.
+Tue Aug 22 02:55:40 2023 - INFO  - End to run testcase:oe_test_service_avahi-dnsconfd.
+Tue Aug 22 02:55:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Tue Aug 22 02:55:40 2023 - INFO  - start to run testcase:oe_test_socket_avahi-daemon.
+Tue Aug 22 02:56:02 2023 - ERROR - The case exit by code 1.
+Tue Aug 22 02:56:02 2023 - INFO  - End to run testcase:oe_test_socket_avahi-daemon.
+Tue Aug 22 02:56:02 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

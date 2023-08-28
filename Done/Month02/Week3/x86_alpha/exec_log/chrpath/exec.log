@@ -1,0 +1,2 @@
+mugen.sh: line 99: export: `fe80::8975:b24a:88bd:ac32': not a valid identifier
+Tue Aug 22 03:07:36 2023 - INFO  - start to run testcase:oe_test_service_cups-browsed.
