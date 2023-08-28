@@ -1,0 +1,40 @@
+Mon Aug 28 02:36:17 2023 - INFO  - start to run testcase:oe_test_nftables_create_counters.
+Mon Aug 28 02:36:31 2023 - ERROR - The case exit by code 1.
+Mon Aug 28 02:36:31 2023 - INFO  - End to run testcase:oe_test_nftables_create_counters.
+Mon Aug 28 02:36:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:31 2023 - INFO  - start to run testcase:oe_test_nftables_anonymous_map.
+Mon Aug 28 02:36:32 2023 - ERROR - The case exit by code 5.
+Mon Aug 28 02:36:32 2023 - INFO  - End to run testcase:oe_test_nftables_anonymous_map.
+Mon Aug 28 02:36:32 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:32 2023 - INFO  - start to run testcase:oe_test_nftables_listen_package.
+Mon Aug 28 02:36:43 2023 - ERROR - The case exit by code 3.
+Mon Aug 28 02:36:43 2023 - INFO  - End to run testcase:oe_test_nftables_listen_package.
+Mon Aug 28 02:36:43 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:44 2023 - INFO  - start to run testcase:oe_test_nftables_name_sets.
+Mon Aug 28 02:36:45 2023 - ERROR - The case exit by code 4.
+Mon Aug 28 02:36:45 2023 - INFO  - End to run testcase:oe_test_nftables_name_sets.
+Mon Aug 28 02:36:45 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:45 2023 - INFO  - start to run testcase:oe_test_nftables_variable_map.
+Mon Aug 28 02:36:45 2023 - ERROR - The case exit by code 1.
+Mon Aug 28 02:36:45 2023 - INFO  - End to run testcase:oe_test_nftables_variable_map.
+Mon Aug 28 02:36:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:46 2023 - INFO  - start to run testcase:oe_test_nftables_chains.
+Mon Aug 28 02:36:46 2023 - ERROR - The case exit by code 4.
+Mon Aug 28 02:36:46 2023 - INFO  - End to run testcase:oe_test_nftables_chains.
+Mon Aug 28 02:36:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:47 2023 - INFO  - start to run testcase:oe_test_iptables_to_nftables.
+Mon Aug 28 02:36:52 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 02:36:52 2023 - INFO  - End to run testcase:oe_test_iptables_to_nftables.
+Mon Aug 28 02:36:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 02:36:52 2023 - INFO  - start to run testcase:oe_test_nftables_backup_rules.
+Mon Aug 28 02:36:53 2023 - ERROR - The case exit by code 4.
+Mon Aug 28 02:36:53 2023 - INFO  - End to run testcase:oe_test_nftables_backup_rules.
+Mon Aug 28 02:36:53 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:53 2023 - INFO  - start to run testcase:oe_test_nftables_replace_counters.
+Mon Aug 28 02:36:53 2023 - ERROR - The case exit by code 2.
+Mon Aug 28 02:36:54 2023 - INFO  - End to run testcase:oe_test_nftables_replace_counters.
+Mon Aug 28 02:36:54 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 02:36:54 2023 - INFO  - start to run testcase:oe_test_service_nftables.
+Mon Aug 28 02:37:10 2023 - ERROR - The case exit by code 8.
+Mon Aug 28 02:37:10 2023 - INFO  - End to run testcase:oe_test_service_nftables.
+Mon Aug 28 02:37:11 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
