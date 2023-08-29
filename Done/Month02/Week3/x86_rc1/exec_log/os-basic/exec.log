@@ -1,0 +1,712 @@
+Tue Aug 29 05:23:11 2023 - INFO  - start to run testcase:oe_test_date.
+Tue Aug 29 05:23:12 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:23:12 2023 - INFO  - End to run testcase:oe_test_date.
+Tue Aug 29 05:23:12 2023 - INFO  - start to run testcase:oe_test_nmcli_bridge.
+Tue Aug 29 05:23:15 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:23:15 2023 - INFO  - End to run testcase:oe_test_nmcli_bridge.
+Tue Aug 29 05:23:15 2023 - INFO  - start to run testcase:oe_test_sdiff.
+Tue Aug 29 05:23:16 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:23:16 2023 - INFO  - End to run testcase:oe_test_sdiff.
+Tue Aug 29 05:23:16 2023 - INFO  - start to run testcase:oe_test_power_powertop2tuned_optimize.
+Tue Aug 29 05:23:52 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:23:52 2023 - INFO  - End to run testcase:oe_test_power_powertop2tuned_optimize.
+Tue Aug 29 05:23:52 2023 - INFO  - start to run testcase:oe_test_chrony_chronyc_ntpstat.
+Tue Aug 29 05:24:17 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:17 2023 - INFO  - End to run testcase:oe_test_chrony_chronyc_ntpstat.
+Tue Aug 29 05:24:17 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_top.
+Tue Aug 29 05:24:17 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:17 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_top.
+Tue Aug 29 05:24:18 2023 - INFO  - start to run testcase:oe_test_cmd_sudo.
+Tue Aug 29 05:24:19 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:19 2023 - INFO  - End to run testcase:oe_test_cmd_sudo.
+Tue Aug 29 05:24:19 2023 - INFO  - start to run testcase:oe_test_xargs.
+Tue Aug 29 05:24:19 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:19 2023 - INFO  - End to run testcase:oe_test_xargs.
+Tue Aug 29 05:24:19 2023 - INFO  - start to run testcase:oe_test_net_conninfo_lsof.
+Tue Aug 29 05:24:23 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:23 2023 - INFO  - End to run testcase:oe_test_net_conninfo_lsof.
+Tue Aug 29 05:24:23 2023 - INFO  - start to run testcase:oe_test_ulimit.
+Tue Aug 29 05:24:23 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:23 2023 - INFO  - End to run testcase:oe_test_ulimit.
+Tue Aug 29 05:24:23 2023 - INFO  - start to run testcase:oe_test_tail.
+Tue Aug 29 05:24:43 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:43 2023 - INFO  - End to run testcase:oe_test_tail.
+Tue Aug 29 05:24:44 2023 - INFO  - start to run testcase:oe_test_autoscan.
+Tue Aug 29 05:24:44 2023 - ERROR - The case exit by code 4.
+Tue Aug 29 05:24:44 2023 - INFO  - End to run testcase:oe_test_autoscan.
+Tue Aug 29 05:24:44 2023 - INFO  - start to run testcase:oe_test_systool.
+Tue Aug 29 05:24:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:47 2023 - INFO  - End to run testcase:oe_test_systool.
+Tue Aug 29 05:24:47 2023 - INFO  - start to run testcase:oe_test_glibc.
+Tue Aug 29 05:24:48 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 05:24:48 2023 - INFO  - End to run testcase:oe_test_glibc.
+Tue Aug 29 05:24:48 2023 - INFO  - start to run testcase:oe_test_uniq.
+Tue Aug 29 05:24:48 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:48 2023 - INFO  - End to run testcase:oe_test_uniq.
+Tue Aug 29 05:24:48 2023 - INFO  - start to run testcase:oe_test_dmraid.
+Tue Aug 29 05:24:55 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:24:55 2023 - INFO  - End to run testcase:oe_test_dmraid.
+Tue Aug 29 05:24:55 2023 - INFO  - start to run testcase:oe_test_auditctl_02.
+Tue Aug 29 05:24:56 2023 - ERROR - The case exit by code 3.
+Tue Aug 29 05:24:56 2023 - INFO  - End to run testcase:oe_test_auditctl_02.
+Tue Aug 29 05:24:56 2023 - INFO  - start to run testcase:oe_test_cmd_su_user.
+Tue Aug 29 05:24:57 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:57 2023 - INFO  - End to run testcase:oe_test_cmd_su_user.
+Tue Aug 29 05:24:58 2023 - INFO  - start to run testcase:oe_test_expr.
+Tue Aug 29 05:24:58 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:24:58 2023 - INFO  - End to run testcase:oe_test_expr.
+Tue Aug 29 05:24:58 2023 - INFO  - start to run testcase:oe_test_bunzip2.
+Tue Aug 29 05:24:58 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 05:24:58 2023 - INFO  - End to run testcase:oe_test_bunzip2.
+Tue Aug 29 05:24:58 2023 - INFO  - start to run testcase:oe_test_IOaccess_100Mfile.
+Tue Aug 29 05:25:09 2023 - ERROR - The case exit by code 40.
+Tue Aug 29 05:25:09 2023 - INFO  - End to run testcase:oe_test_IOaccess_100Mfile.
+Tue Aug 29 05:25:09 2023 - INFO  - start to run testcase:oe_test_lsscsi_2.
+Tue Aug 29 05:25:09 2023 - ERROR - The case exit by code 5.
+Tue Aug 29 05:25:09 2023 - INFO  - End to run testcase:oe_test_lsscsi_2.
+Tue Aug 29 05:25:09 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_pgrep.
+Tue Aug 29 05:25:10 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:25:10 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_pgrep.
+Tue Aug 29 05:25:10 2023 - INFO  - start to run testcase:oe_test_net_config.
+Tue Aug 29 05:25:31 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:25:31 2023 - INFO  - End to run testcase:oe_test_net_config.
+Tue Aug 29 05:25:31 2023 - INFO  - start to run testcase:oe_test_lsscsi_3.
+Tue Aug 29 05:25:31 2023 - ERROR - The case exit by code 4.
+Tue Aug 29 05:25:31 2023 - INFO  - End to run testcase:oe_test_lsscsi_3.
+Tue Aug 29 05:25:31 2023 - INFO  - start to run testcase:oe_test_awk.
+Tue Aug 29 05:25:32 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:25:32 2023 - INFO  - End to run testcase:oe_test_awk.
+Tue Aug 29 05:25:32 2023 - INFO  - start to run testcase:oe_test_server_squid_blacklist.
+Tue Aug 29 05:25:57 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:25:57 2023 - INFO  - End to run testcase:oe_test_server_squid_blacklist.
+Tue Aug 29 05:25:57 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_crontab_cronfile.
+Tue Aug 29 05:26:57 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:26:57 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_crontab_cronfile.
+Tue Aug 29 05:26:57 2023 - INFO  - start to run testcase:oe_test_ACL_dir.
+Tue Aug 29 05:27:00 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:27:00 2023 - INFO  - End to run testcase:oe_test_ACL_dir.
+Tue Aug 29 05:27:00 2023 - INFO  - start to run testcase:oe_test_chrony_chronyc_hardwaretime.
+Tue Aug 29 05:27:04 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:27:04 2023 - INFO  - End to run testcase:oe_test_chrony_chronyc_hardwaretime.
+Tue Aug 29 05:27:04 2023 - INFO  - start to run testcase:oe_test_hostnamectl.
+Tue Aug 29 05:27:05 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:27:05 2023 - INFO  - End to run testcase:oe_test_hostnamectl.
+Tue Aug 29 05:27:05 2023 - INFO  - start to run testcase:oe_test_system_monitor_share_total.
+Tue Aug 29 05:27:06 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:27:06 2023 - INFO  - End to run testcase:oe_test_system_monitor_share_total.
+Tue Aug 29 05:27:06 2023 - INFO  - start to run testcase:oe_test_disk_tuned_modify.
+Tue Aug 29 05:27:33 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:27:33 2023 - INFO  - End to run testcase:oe_test_disk_tuned_modify.
+Tue Aug 29 05:27:33 2023 - INFO  - start to run testcase:oe_test_server_postgresql.
+Tue Aug 29 05:27:40 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:27:40 2023 - INFO  - End to run testcase:oe_test_server_postgresql.
+Tue Aug 29 05:27:40 2023 - INFO  - start to run testcase:oe_test_server_httpd_tls.
+Tue Aug 29 05:27:47 2023 - ERROR - The case exit by code 3.
+Tue Aug 29 05:27:47 2023 - INFO  - End to run testcase:oe_test_server_httpd_tls.
+Tue Aug 29 05:27:47 2023 - INFO  - start to run testcase:oe_test_namei.
+Tue Aug 29 05:27:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:27:47 2023 - INFO  - End to run testcase:oe_test_namei.
+Tue Aug 29 05:27:47 2023 - INFO  - start to run testcase:oe_test_system_monitor_reboot.
+Tue Aug 29 05:30:21 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:21 2023 - INFO  - End to run testcase:oe_test_system_monitor_reboot.
+Tue Aug 29 05:30:21 2023 - INFO  - start to run testcase:oe_test_zstd.
+Tue Aug 29 05:30:22 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:22 2023 - INFO  - End to run testcase:oe_test_zstd.
+Tue Aug 29 05:30:22 2023 - INFO  - start to run testcase:oe_test_who.
+Tue Aug 29 05:30:22 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:30:22 2023 - INFO  - End to run testcase:oe_test_who.
+Tue Aug 29 05:30:22 2023 - INFO  - start to run testcase:oe_test_diff3.
+Tue Aug 29 05:30:23 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:23 2023 - INFO  - End to run testcase:oe_test_diff3.
+Tue Aug 29 05:30:23 2023 - INFO  - start to run testcase:oe_test_server_vsftpd_transfer.
+Tue Aug 29 05:30:36 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:36 2023 - INFO  - End to run testcase:oe_test_server_vsftpd_transfer.
+Tue Aug 29 05:30:36 2023 - INFO  - start to run testcase:oe_test_shred.
+Tue Aug 29 05:30:36 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:36 2023 - INFO  - End to run testcase:oe_test_shred.
+Tue Aug 29 05:30:36 2023 - INFO  - start to run testcase:oe_test_nmcli_systemd_resolved.
+Tue Aug 29 05:30:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:47 2023 - INFO  - End to run testcase:oe_test_nmcli_systemd_resolved.
+Tue Aug 29 05:30:47 2023 - INFO  - start to run testcase:oe_test_rev.
+Tue Aug 29 05:30:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:47 2023 - INFO  - End to run testcase:oe_test_rev.
+Tue Aug 29 05:30:47 2023 - INFO  - start to run testcase:oe_test_du.
+Tue Aug 29 05:30:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:47 2023 - INFO  - End to run testcase:oe_test_du.
+Tue Aug 29 05:30:48 2023 - INFO  - start to run testcase:oe_test_aureport.
+Tue Aug 29 05:30:48 2023 - ERROR - The case exit by code 9.
+Tue Aug 29 05:30:48 2023 - INFO  - End to run testcase:oe_test_aureport.
+Tue Aug 29 05:30:48 2023 - INFO  - start to run testcase:oe_test_system_log_view.
+Tue Aug 29 05:30:54 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:54 2023 - INFO  - End to run testcase:oe_test_system_log_view.
+Tue Aug 29 05:30:54 2023 - INFO  - start to run testcase:oe_test_chrony_Manuall.
+Tue Aug 29 05:30:58 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:58 2023 - INFO  - End to run testcase:oe_test_chrony_Manuall.
+Tue Aug 29 05:30:58 2023 - INFO  - start to run testcase:oe_test_system_log_device.
+Tue Aug 29 05:30:59 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:30:59 2023 - INFO  - End to run testcase:oe_test_system_log_device.
+Tue Aug 29 05:30:59 2023 - INFO  - start to run testcase:oe_test_net_mtr.
+Tue Aug 29 05:32:40 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:32:40 2023 - INFO  - End to run testcase:oe_test_net_mtr.
+Tue Aug 29 05:32:40 2023 - INFO  - start to run testcase:oe_test_expect.
+Tue Aug 29 05:32:41 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:32:41 2023 - INFO  - End to run testcase:oe_test_expect.
+Tue Aug 29 05:32:41 2023 - INFO  - start to run testcase:oe_test_accessdb.
+Tue Aug 29 05:32:42 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:32:42 2023 - INFO  - End to run testcase:oe_test_accessdb.
+Tue Aug 29 05:32:42 2023 - INFO  - start to run testcase:oe_test_envsubst.
+Tue Aug 29 05:32:42 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:32:42 2023 - INFO  - End to run testcase:oe_test_envsubst.
+Tue Aug 29 05:32:42 2023 - INFO  - start to run testcase:oe_test_libunistring.
+Tue Aug 29 05:32:45 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 05:32:46 2023 - INFO  - End to run testcase:oe_test_libunistring.
+Tue Aug 29 05:32:46 2023 - INFO  - start to run testcase:oe_test_cksum.
+Tue Aug 29 05:32:46 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:32:46 2023 - INFO  - End to run testcase:oe_test_cksum.
+Tue Aug 29 05:32:46 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_crontab_cmd.
+Tue Aug 29 05:33:46 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:33:46 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_crontab_cmd.
+Tue Aug 29 05:33:46 2023 - INFO  - start to run testcase:oe_test_versioninfo.
+Tue Aug 29 05:33:46 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:33:46 2023 - INFO  - End to run testcase:oe_test_versioninfo.
+Tue Aug 29 05:33:46 2023 - INFO  - start to run testcase:oe_test_net_VRF.
+Tue Aug 29 05:33:48 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:33:48 2023 - INFO  - End to run testcase:oe_test_net_VRF.
+Tue Aug 29 05:33:48 2023 - INFO  - start to run testcase:oe_test_server_openssh_verifykey.
+Tue Aug 29 05:33:52 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:33:52 2023 - INFO  - End to run testcase:oe_test_server_openssh_verifykey.
+Tue Aug 29 05:33:52 2023 - INFO  - start to run testcase:oe_test_paste.
+Tue Aug 29 05:33:53 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:33:53 2023 - INFO  - End to run testcase:oe_test_paste.
+Tue Aug 29 05:33:53 2023 - INFO  - start to run testcase:oe_test_chrony_chronyd.
+Tue Aug 29 05:33:59 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:33:59 2023 - INFO  - End to run testcase:oe_test_chrony_chronyd.
+Tue Aug 29 05:33:59 2023 - INFO  - start to run testcase:oe_test_libffi.
+Tue Aug 29 05:34:25 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:34:25 2023 - INFO  - End to run testcase:oe_test_libffi.
+Tue Aug 29 05:34:25 2023 - INFO  - start to run testcase:oe_test_server_fontconfig.
+Tue Aug 29 05:34:26 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:34:26 2023 - INFO  - End to run testcase:oe_test_server_fontconfig.
+Tue Aug 29 05:34:26 2023 - INFO  - start to run testcase:oe_test_json-c.
+Tue Aug 29 05:35:02 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:35:02 2023 - INFO  - End to run testcase:oe_test_json-c.
+Tue Aug 29 05:35:02 2023 - INFO  - start to run testcase:oe_test_power_powertop_powerup.
+Tue Aug 29 05:35:08 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:35:08 2023 - INFO  - End to run testcase:oe_test_power_powertop_powerup.
+Tue Aug 29 05:35:08 2023 - INFO  - start to run testcase:oe_test_vim.
+Tue Aug 29 05:35:08 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:35:08 2023 - INFO  - End to run testcase:oe_test_vim.
+Tue Aug 29 05:35:09 2023 - INFO  - start to run testcase:oe_test_catman.
+Tue Aug 29 05:35:10 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 05:35:10 2023 - INFO  - End to run testcase:oe_test_catman.
+Tue Aug 29 05:35:10 2023 - INFO  - start to run testcase:oe_test_nmcli_set_bond.
+Tue Aug 29 05:35:11 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:35:11 2023 - INFO  - End to run testcase:oe_test_nmcli_set_bond.
+Tue Aug 29 05:35:11 2023 - INFO  - start to run testcase:oe_test_c_stat.
+Tue Aug 29 05:35:11 2023 - ERROR - The case exit by code 5.
+Tue Aug 29 05:35:12 2023 - INFO  - End to run testcase:oe_test_c_stat.
+Tue Aug 29 05:35:12 2023 - INFO  - start to run testcase:oe_test_patch.
+Tue Aug 29 05:35:15 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:35:15 2023 - INFO  - End to run testcase:oe_test_patch.
+Tue Aug 29 05:35:15 2023 - INFO  - start to run testcase:oe_test_expand.
+Tue Aug 29 05:35:15 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:35:15 2023 - INFO  - End to run testcase:oe_test_expand.
+Tue Aug 29 05:35:15 2023 - INFO  - start to run testcase:oe_test_comm.
+Tue Aug 29 05:35:16 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:35:16 2023 - INFO  - End to run testcase:oe_test_comm.
+Tue Aug 29 05:35:16 2023 - INFO  - start to run testcase:oe_test_gcc_01.
+Tue Aug 29 05:36:12 2023 - ERROR - The case exit by code 5.
+Tue Aug 29 05:36:12 2023 - INFO  - End to run testcase:oe_test_gcc_01.
+Tue Aug 29 05:36:12 2023 - INFO  - start to run testcase:oe_test_system_monitor_process.
+Tue Aug 29 05:36:12 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:36:12 2023 - INFO  - End to run testcase:oe_test_system_monitor_process.
+Tue Aug 29 05:36:12 2023 - INFO  - start to run testcase:oe_test_system_log_recorded.
+Tue Aug 29 05:36:12 2023 - ERROR - The case exit by code 3.
+Tue Aug 29 05:36:12 2023 - INFO  - End to run testcase:oe_test_system_log_recorded.
+Tue Aug 29 05:36:13 2023 - INFO  - start to run testcase:oe_test_fuse.
+Tue Aug 29 05:36:13 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:36:13 2023 - INFO  - End to run testcase:oe_test_fuse.
+Tue Aug 29 05:36:13 2023 - INFO  - start to run testcase:oe_test_group_access.
+Tue Aug 29 05:36:15 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:36:15 2023 - INFO  - End to run testcase:oe_test_group_access.
+Tue Aug 29 05:36:15 2023 - INFO  - start to run testcase:oe_test_performance_monitor_pcp.
+Tue Aug 29 05:36:31 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:36:31 2023 - INFO  - End to run testcase:oe_test_performance_monitor_pcp.
+Tue Aug 29 05:36:31 2023 - INFO  - start to run testcase:oe_test_server_vsftpd_restart.
+Tue Aug 29 05:38:21 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:38:21 2023 - INFO  - End to run testcase:oe_test_server_vsftpd_restart.
+Tue Aug 29 05:38:21 2023 - INFO  - start to run testcase:oe_test_system_log_security.
+Tue Aug 29 05:38:21 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:38:21 2023 - INFO  - End to run testcase:oe_test_system_log_security.
+Tue Aug 29 05:38:21 2023 - INFO  - start to run testcase:oe_test_reboot.
+Tue Aug 29 05:53:06 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:53:06 2023 - INFO  - End to run testcase:oe_test_reboot.
+Tue Aug 29 05:53:06 2023 - INFO  - start to run testcase:oe_test_basic_set_permissions.
+Tue Aug 29 05:53:07 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:53:07 2023 - INFO  - End to run testcase:oe_test_basic_set_permissions.
+Tue Aug 29 05:53:07 2023 - INFO  - start to run testcase:oe_test_server_mariadb_compatibilty.
+Tue Aug 29 05:54:32 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:54:32 2023 - INFO  - End to run testcase:oe_test_server_mariadb_compatibilty.
+Tue Aug 29 05:54:32 2023 - INFO  - start to run testcase:oe_test_server_mariadb_dumpMulDB.
+Tue Aug 29 05:55:04 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:55:04 2023 - INFO  - End to run testcase:oe_test_server_mariadb_dumpMulDB.
+Tue Aug 29 05:55:04 2023 - INFO  - start to run testcase:oe_test_disk_schedule_specific.
+Tue Aug 29 05:55:08 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 05:55:08 2023 - INFO  - End to run testcase:oe_test_disk_schedule_specific.
+Tue Aug 29 05:55:08 2023 - INFO  - start to run testcase:oe_test_base64.
+Tue Aug 29 05:55:09 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:55:09 2023 - INFO  - End to run testcase:oe_test_base64.
+Tue Aug 29 05:55:09 2023 - INFO  - start to run testcase:oe_test_power_powertop_calibrate.
+Tue Aug 29 05:55:15 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:55:15 2023 - INFO  - End to run testcase:oe_test_power_powertop_calibrate.
+Tue Aug 29 05:55:15 2023 - INFO  - start to run testcase:oe_test_cal.
+Tue Aug 29 05:55:16 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:55:16 2023 - INFO  - End to run testcase:oe_test_cal.
+Tue Aug 29 05:55:16 2023 - INFO  - start to run testcase:oe_test_xzless.
+Tue Aug 29 05:55:16 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:55:16 2023 - INFO  - End to run testcase:oe_test_xzless.
+Tue Aug 29 05:55:16 2023 - INFO  - start to run testcase:oe_test_base32.
+Tue Aug 29 05:55:16 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 05:55:16 2023 - INFO  - End to run testcase:oe_test_base32.
+Tue Aug 29 05:55:17 2023 - INFO  - start to run testcase:oe_test_sos.
+Tue Aug 29 06:25:26 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:25:26 2023 - INFO  - End to run testcase:oe_test_sos.
+Tue Aug 29 06:25:27 2023 - INFO  - start to run testcase:oe_test_libsecret.
+Tue Aug 29 06:25:27 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:25:27 2023 - INFO  - End to run testcase:oe_test_libsecret.
+Tue Aug 29 06:25:27 2023 - INFO  - start to run testcase:oe_test_server_mariadb_copy.
+Tue Aug 29 06:26:08 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:26:08 2023 - INFO  - End to run testcase:oe_test_server_mariadb_copy.
+Tue Aug 29 06:26:08 2023 - INFO  - start to run testcase:oe_test_basename.
+Tue Aug 29 06:26:09 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:26:09 2023 - INFO  - End to run testcase:oe_test_basename.
+Tue Aug 29 06:26:09 2023 - INFO  - start to run testcase:oe_test_system_monitor_login.
+Tue Aug 29 06:27:12 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:12 2023 - INFO  - End to run testcase:oe_test_system_monitor_login.
+Tue Aug 29 06:27:12 2023 - INFO  - start to run testcase:oe_test_true.
+Tue Aug 29 06:27:12 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:12 2023 - INFO  - End to run testcase:oe_test_true.
+Tue Aug 29 06:27:12 2023 - INFO  - start to run testcase:oe_test_lastb.
+Tue Aug 29 06:27:13 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:27:13 2023 - INFO  - End to run testcase:oe_test_lastb.
+Tue Aug 29 06:27:13 2023 - INFO  - start to run testcase:oe_test_bzcmp.
+Tue Aug 29 06:27:13 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:13 2023 - INFO  - End to run testcase:oe_test_bzcmp.
+Tue Aug 29 06:27:13 2023 - INFO  - start to run testcase:oe_test_disk_graphics_card.
+Tue Aug 29 06:27:19 2023 - ERROR - The case exit by code 3.
+Tue Aug 29 06:27:19 2023 - INFO  - End to run testcase:oe_test_disk_graphics_card.
+Tue Aug 29 06:27:19 2023 - INFO  - start to run testcase:oe_test_zgrep.
+Tue Aug 29 06:27:19 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:27:19 2023 - INFO  - End to run testcase:oe_test_zgrep.
+Tue Aug 29 06:27:19 2023 - INFO  - start to run testcase:oe_test_virt-what.
+Tue Aug 29 06:27:23 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:23 2023 - INFO  - End to run testcase:oe_test_virt-what.
+Tue Aug 29 06:27:23 2023 - INFO  - start to run testcase:oe_test_system_log_process.
+Tue Aug 29 06:27:24 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:24 2023 - INFO  - End to run testcase:oe_test_system_log_process.
+Tue Aug 29 06:27:24 2023 - INFO  - start to run testcase:oe_test_chrony_chronyc_cmd.
+Tue Aug 29 06:27:28 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:28 2023 - INFO  - End to run testcase:oe_test_chrony_chronyc_cmd.
+Tue Aug 29 06:27:29 2023 - INFO  - start to run testcase:oe_test_exiv2.
+Tue Aug 29 06:27:33 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:33 2023 - INFO  - End to run testcase:oe_test_exiv2.
+Tue Aug 29 06:27:33 2023 - INFO  - start to run testcase:oe_test_net_cmd_ping.
+Tue Aug 29 06:27:35 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:35 2023 - INFO  - End to run testcase:oe_test_net_cmd_ping.
+Tue Aug 29 06:27:35 2023 - INFO  - start to run testcase:oe_test_nmcli_8023link.
+Tue Aug 29 06:27:37 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:37 2023 - INFO  - End to run testcase:oe_test_nmcli_8023link.
+Tue Aug 29 06:27:37 2023 - INFO  - start to run testcase:oe_test_ethtool.
+Tue Aug 29 06:27:43 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:43 2023 - INFO  - End to run testcase:oe_test_ethtool.
+Tue Aug 29 06:27:43 2023 - INFO  - start to run testcase:oe_test_lsusb.
+Tue Aug 29 06:27:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:27:47 2023 - INFO  - End to run testcase:oe_test_lsusb.
+Tue Aug 29 06:27:47 2023 - INFO  - start to run testcase:oe_test_net_ncat.
+Tue Aug 29 06:28:00 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:28:00 2023 - INFO  - End to run testcase:oe_test_net_ncat.
+Tue Aug 29 06:28:00 2023 - INFO  - start to run testcase:oe_test_power_output_HTML.
+Tue Aug 29 06:28:28 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:28:28 2023 - INFO  - End to run testcase:oe_test_power_output_HTML.
+Tue Aug 29 06:28:28 2023 - INFO  - start to run testcase:oe_test_brotli.
+Tue Aug 29 06:28:29 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:28:29 2023 - INFO  - End to run testcase:oe_test_brotli.
+Tue Aug 29 06:28:29 2023 - INFO  - start to run testcase:oe_test_xmlsec.
+Tue Aug 29 06:28:39 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:28:39 2023 - INFO  - End to run testcase:oe_test_xmlsec.
+Tue Aug 29 06:28:39 2023 - INFO  - start to run testcase:oe_test_lz4.
+Tue Aug 29 06:28:40 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:28:40 2023 - INFO  - End to run testcase:oe_test_lz4.
+Tue Aug 29 06:28:40 2023 - INFO  - start to run testcase:oe_test_disk_tuned_set.
+Tue Aug 29 06:29:07 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:29:07 2023 - INFO  - End to run testcase:oe_test_disk_tuned_set.
+Tue Aug 29 06:29:07 2023 - INFO  - start to run testcase:oe_test_server_mariadb_loadfile.
+Tue Aug 29 06:29:36 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:29:36 2023 - INFO  - End to run testcase:oe_test_server_mariadb_loadfile.
+Tue Aug 29 06:29:36 2023 - INFO  - start to run testcase:oe_test_nmcli_config_gw.
+Tue Aug 29 06:29:39 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:29:39 2023 - INFO  - End to run testcase:oe_test_nmcli_config_gw.
+Tue Aug 29 06:29:39 2023 - INFO  - start to run testcase:oe_test_kernel_module_operation.
+Tue Aug 29 06:29:40 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:29:40 2023 - INFO  - End to run testcase:oe_test_kernel_module_operation.
+Tue Aug 29 06:29:41 2023 - INFO  - start to run testcase:oe_test_nmcli_vlan.
+Tue Aug 29 06:29:44 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:29:44 2023 - INFO  - End to run testcase:oe_test_nmcli_vlan.
+Tue Aug 29 06:29:44 2023 - INFO  - start to run testcase:oe_test_zlib.
+Tue Aug 29 06:30:19 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:30:19 2023 - INFO  - End to run testcase:oe_test_zlib.
+Tue Aug 29 06:30:19 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_start_kill.
+Tue Aug 29 06:30:20 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:30:20 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_start_kill.
+Tue Aug 29 06:30:20 2023 - INFO  - start to run testcase:oe_test_kernel_sysctl.
+Tue Aug 29 06:30:21 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:30:21 2023 - INFO  - End to run testcase:oe_test_kernel_sysctl.
+Tue Aug 29 06:30:21 2023 - INFO  - start to run testcase:oe_test_nmcli_config_connect.
+Tue Aug 29 06:31:11 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:31:11 2023 - INFO  - End to run testcase:oe_test_nmcli_config_connect.
+Tue Aug 29 06:31:11 2023 - INFO  - start to run testcase:oe_test_disk_tuned_install.
+Tue Aug 29 06:31:40 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:31:40 2023 - INFO  - End to run testcase:oe_test_disk_tuned_install.
+Tue Aug 29 06:31:40 2023 - INFO  - start to run testcase:oe_test_ctags.
+Tue Aug 29 06:31:41 2023 - ERROR - The case exit by code 6.
+Tue Aug 29 06:31:41 2023 - INFO  - End to run testcase:oe_test_ctags.
+Tue Aug 29 06:31:41 2023 - INFO  - start to run testcase:oe_test_server_squid_ip.
+Tue Aug 29 06:32:38 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:32:38 2023 - INFO  - End to run testcase:oe_test_server_squid_ip.
+Tue Aug 29 06:32:38 2023 - INFO  - start to run testcase:oe_test_USBinfo.
+Tue Aug 29 06:32:41 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:32:41 2023 - INFO  - End to run testcase:oe_test_USBinfo.
+Tue Aug 29 06:32:41 2023 - INFO  - start to run testcase:oe_test_server_mariadb_backuptable.
+Tue Aug 29 06:33:09 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:33:09 2023 - INFO  - End to run testcase:oe_test_server_mariadb_backuptable.
+Tue Aug 29 06:33:10 2023 - INFO  - start to run testcase:oe_test_timedatectl.
+Tue Aug 29 06:33:10 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:33:10 2023 - INFO  - End to run testcase:oe_test_timedatectl.
+Tue Aug 29 06:33:10 2023 - INFO  - start to run testcase:oe_test_look.
+Tue Aug 29 06:33:11 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:33:11 2023 - INFO  - End to run testcase:oe_test_look.
+Tue Aug 29 06:33:11 2023 - INFO  - start to run testcase:oe_test_cairo.
+Tue Aug 29 06:33:18 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:33:18 2023 - INFO  - End to run testcase:oe_test_cairo.
+Tue Aug 29 06:33:18 2023 - INFO  - start to run testcase:oe_test_server_mariadb_backup.
+Tue Aug 29 06:33:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:33:47 2023 - INFO  - End to run testcase:oe_test_server_mariadb_backup.
+Tue Aug 29 06:33:47 2023 - INFO  - start to run testcase:oe_test_server_mariadb_backupDB.
+Tue Aug 29 06:34:14 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:34:14 2023 - INFO  - End to run testcase:oe_test_server_mariadb_backupDB.
+Tue Aug 29 06:34:14 2023 - INFO  - start to run testcase:oe_test_fold.
+Tue Aug 29 06:34:14 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:34:14 2023 - INFO  - End to run testcase:oe_test_fold.
+Tue Aug 29 06:34:14 2023 - INFO  - start to run testcase:oe_test_server_openssh_restart.
+Tue Aug 29 06:34:41 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:34:41 2023 - INFO  - End to run testcase:oe_test_server_openssh_restart.
+Tue Aug 29 06:34:41 2023 - INFO  - start to run testcase:oe_test_nmcli_Mgntconnect.
+Tue Aug 29 06:34:44 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:34:44 2023 - INFO  - End to run testcase:oe_test_nmcli_Mgntconnect.
+Tue Aug 29 06:34:44 2023 - INFO  - start to run testcase:oe_test_zgrep_002.
+Tue Aug 29 06:34:44 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:34:44 2023 - INFO  - End to run testcase:oe_test_zgrep_002.
+Tue Aug 29 06:34:44 2023 - INFO  - start to run testcase:oe_test_server_openssh_key.
+Tue Aug 29 06:35:17 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:35:17 2023 - INFO  - End to run testcase:oe_test_server_openssh_key.
+Tue Aug 29 06:35:17 2023 - INFO  - start to run testcase:oe_test_zipdetails.
+Tue Aug 29 06:35:18 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:35:18 2023 - INFO  - End to run testcase:oe_test_zipdetails.
+Tue Aug 29 06:35:18 2023 - INFO  - start to run testcase:oe_test_bzless.
+Tue Aug 29 06:35:19 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:35:19 2023 - INFO  - End to run testcase:oe_test_bzless.
+Tue Aug 29 06:35:19 2023 - INFO  - start to run testcase:oe_test_system_log_basic.
+Tue Aug 29 06:35:19 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:35:19 2023 - INFO  - End to run testcase:oe_test_system_log_basic.
+Tue Aug 29 06:35:19 2023 - INFO  - start to run testcase:oe_test_csplit.
+Tue Aug 29 06:35:20 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:35:20 2023 - INFO  - End to run testcase:oe_test_csplit.
+Tue Aug 29 06:35:20 2023 - INFO  - start to run testcase:oe_test_chroot.
+Tue Aug 29 06:35:26 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:35:26 2023 - INFO  - End to run testcase:oe_test_chroot.
+Tue Aug 29 06:35:26 2023 - INFO  - start to run testcase:oe_test_basic_UserMgmt_permission.
+Tue Aug 29 06:35:30 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:35:30 2023 - INFO  - End to run testcase:oe_test_basic_UserMgmt_permission.
+Tue Aug 29 06:35:30 2023 - INFO  - start to run testcase:oe_test_history.
+Tue Aug 29 06:35:31 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:35:31 2023 - INFO  - End to run testcase:oe_test_history.
+Tue Aug 29 06:35:31 2023 - INFO  - start to run testcase:oe_test_IOaccess_1Gfile.
+Tue Aug 29 06:37:05 2023 - ERROR - The case exit by code 40.
+Tue Aug 29 06:37:05 2023 - INFO  - End to run testcase:oe_test_IOaccess_1Gfile.
+Tue Aug 29 06:37:05 2023 - INFO  - start to run testcase:oe_test_b2sum.
+Tue Aug 29 06:37:06 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:37:06 2023 - INFO  - End to run testcase:oe_test_b2sum.
+Tue Aug 29 06:37:06 2023 - INFO  - start to run testcase:oe_test_server_httpd_recover.
+Tue Aug 29 06:37:40 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:37:40 2023 - INFO  - End to run testcase:oe_test_server_httpd_recover.
+Tue Aug 29 06:37:40 2023 - INFO  - start to run testcase:oe_test_server_mysql.
+Tue Aug 29 06:40:13 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:40:13 2023 - INFO  - End to run testcase:oe_test_server_mysql.
+Tue Aug 29 06:40:13 2023 - INFO  - start to run testcase:oe_test_server_subversion.
+Tue Aug 29 06:40:21 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:40:21 2023 - INFO  - End to run testcase:oe_test_server_subversion.
+Tue Aug 29 06:40:21 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_sar.
+Tue Aug 29 06:41:48 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:41:48 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_sar.
+Tue Aug 29 06:41:48 2023 - INFO  - start to run testcase:oe_test_xzcmp.
+Tue Aug 29 06:41:48 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:41:48 2023 - INFO  - End to run testcase:oe_test_xzcmp.
+Tue Aug 29 06:41:49 2023 - INFO  - start to run testcase:oe_test_lsattr.
+Tue Aug 29 06:41:49 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:41:49 2023 - INFO  - End to run testcase:oe_test_lsattr.
+Tue Aug 29 06:41:49 2023 - INFO  - start to run testcase:oe_test_basic_modify_user.
+Tue Aug 29 06:41:50 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:41:50 2023 - INFO  - End to run testcase:oe_test_basic_modify_user.
+Tue Aug 29 06:41:51 2023 - INFO  - start to run testcase:oe_test_dircolors.
+Tue Aug 29 06:41:51 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:41:51 2023 - INFO  - End to run testcase:oe_test_dircolors.
+Tue Aug 29 06:41:51 2023 - INFO  - start to run testcase:oe_test_whereis.
+Tue Aug 29 06:41:51 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:41:52 2023 - INFO  - End to run testcase:oe_test_whereis.
+Tue Aug 29 06:41:52 2023 - INFO  - start to run testcase:oe_test_nmcli_device.
+Tue Aug 29 06:41:53 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:41:53 2023 - INFO  - End to run testcase:oe_test_nmcli_device.
+Tue Aug 29 06:41:53 2023 - INFO  - start to run testcase:oe_test_server_vsftpd_NKdelay.
+Tue Aug 29 06:42:04 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:42:04 2023 - INFO  - End to run testcase:oe_test_server_vsftpd_NKdelay.
+Tue Aug 29 06:42:04 2023 - INFO  - start to run testcase:oe_test_net_cmd_telnet.
+Tue Aug 29 06:42:08 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:42:08 2023 - INFO  - End to run testcase:oe_test_net_cmd_telnet.
+Tue Aug 29 06:42:08 2023 - INFO  - start to run testcase:oe_test_nmcli_route.
+Tue Aug 29 06:42:10 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:42:10 2023 - INFO  - End to run testcase:oe_test_nmcli_route.
+Tue Aug 29 06:42:10 2023 - INFO  - start to run testcase:oe_test_nmcli_set_team.
+Tue Aug 29 06:42:11 2023 - ERROR - The case exit by code 3.
+Tue Aug 29 06:42:11 2023 - INFO  - End to run testcase:oe_test_nmcli_set_team.
+Tue Aug 29 06:42:11 2023 - INFO  - start to run testcase:oe_test_nmcli_general.
+Tue Aug 29 06:42:12 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:42:12 2023 - INFO  - End to run testcase:oe_test_nmcli_general.
+Tue Aug 29 06:42:12 2023 - INFO  - start to run testcase:oe_test_net_cmd_scp.
+Tue Aug 29 06:42:14 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:42:14 2023 - INFO  - End to run testcase:oe_test_net_cmd_scp.
+Tue Aug 29 06:42:14 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_at.
+Tue Aug 29 06:43:19 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:43:19 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_at.
+Tue Aug 29 06:43:19 2023 - INFO  - start to run testcase:oe_test_server_httpd_restart.
+Tue Aug 29 06:46:04 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:04 2023 - INFO  - End to run testcase:oe_test_server_httpd_restart.
+Tue Aug 29 06:46:04 2023 - INFO  - start to run testcase:oe_test_power_measurement_internal.
+Tue Aug 29 06:46:10 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:10 2023 - INFO  - End to run testcase:oe_test_power_measurement_internal.
+Tue Aug 29 06:46:10 2023 - INFO  - start to run testcase:oe_test_chgrp.
+Tue Aug 29 06:46:11 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:11 2023 - INFO  - End to run testcase:oe_test_chgrp.
+Tue Aug 29 06:46:11 2023 - INFO  - start to run testcase:oe_test_cut.
+Tue Aug 29 06:46:11 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:11 2023 - INFO  - End to run testcase:oe_test_cut.
+Tue Aug 29 06:46:11 2023 - INFO  - start to run testcase:oe_test_power_powertop_startup.
+Tue Aug 29 06:46:17 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:17 2023 - INFO  - End to run testcase:oe_test_power_powertop_startup.
+Tue Aug 29 06:46:17 2023 - INFO  - start to run testcase:oe_test_md5sum.
+Tue Aug 29 06:46:18 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:18 2023 - INFO  - End to run testcase:oe_test_md5sum.
+Tue Aug 29 06:46:18 2023 - INFO  - start to run testcase:oe_test_count_gperftools_function.
+Tue Aug 29 06:46:22 2023 - ERROR - The case exit by code 3.
+Tue Aug 29 06:46:22 2023 - INFO  - End to run testcase:oe_test_count_gperftools_function.
+Tue Aug 29 06:46:22 2023 - INFO  - start to run testcase:oe_test_factor.
+Tue Aug 29 06:46:22 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:22 2023 - INFO  - End to run testcase:oe_test_factor.
+Tue Aug 29 06:46:22 2023 - INFO  - start to run testcase:oe_test_uid_old_uid.
+Tue Aug 29 06:46:24 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:46:24 2023 - INFO  - End to run testcase:oe_test_uid_old_uid.
+Tue Aug 29 06:46:24 2023 - INFO  - start to run testcase:oe_test_basic_set_account_expiration_time.
+Tue Aug 29 06:46:25 2023 - ERROR - The case exit by code 7.
+Tue Aug 29 06:46:25 2023 - INFO  - End to run testcase:oe_test_basic_set_account_expiration_time.
+Tue Aug 29 06:46:25 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_vmstat.
+Tue Aug 29 06:46:41 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:41 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_vmstat.
+Tue Aug 29 06:46:42 2023 - INFO  - start to run testcase:oe_test_seq.
+Tue Aug 29 06:46:42 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:42 2023 - INFO  - End to run testcase:oe_test_seq.
+Tue Aug 29 06:46:42 2023 - INFO  - start to run testcase:oe_test_whoami.
+Tue Aug 29 06:46:43 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:46:43 2023 - INFO  - End to run testcase:oe_test_whoami.
+Tue Aug 29 06:46:43 2023 - INFO  - start to run testcase:oe_test_server_mariadb_stop.
+Tue Aug 29 06:48:09 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:48:09 2023 - INFO  - End to run testcase:oe_test_server_mariadb_stop.
+Tue Aug 29 06:48:09 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_ps.
+Tue Aug 29 06:48:09 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:48:09 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_ps.
+Tue Aug 29 06:48:09 2023 - INFO  - start to run testcase:oe_test_password_blank.
+Tue Aug 29 06:48:12 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:48:12 2023 - INFO  - End to run testcase:oe_test_password_blank.
+Tue Aug 29 06:48:12 2023 - INFO  - start to run testcase:oe_test_pcre_use.
+Tue Aug 29 06:48:15 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:48:15 2023 - INFO  - End to run testcase:oe_test_pcre_use.
+Tue Aug 29 06:48:16 2023 - INFO  - start to run testcase:oe_test_auditctl.
+Tue Aug 29 06:48:16 2023 - ERROR - The case exit by code 4.
+Tue Aug 29 06:48:16 2023 - INFO  - End to run testcase:oe_test_auditctl.
+Tue Aug 29 06:48:16 2023 - INFO  - start to run testcase:oe_test_net_scriprts.
+Tue Aug 29 06:48:23 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:48:23 2023 - INFO  - End to run testcase:oe_test_net_scriprts.
+Tue Aug 29 06:48:23 2023 - INFO  - start to run testcase:oe_test_nmcli_add_connect.
+Tue Aug 29 06:48:25 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:48:25 2023 - INFO  - End to run testcase:oe_test_nmcli_add_connect.
+Tue Aug 29 06:48:25 2023 - INFO  - start to run testcase:oe_test_c++.
+Tue Aug 29 06:48:54 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:48:54 2023 - INFO  - End to run testcase:oe_test_c++.
+Tue Aug 29 06:48:54 2023 - INFO  - start to run testcase:oe_test_server_squid_proxy.
+Tue Aug 29 06:49:48 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:49:48 2023 - INFO  - End to run testcase:oe_test_server_squid_proxy.
+Tue Aug 29 06:49:48 2023 - INFO  - start to run testcase:oe_test_gmp.
+Tue Aug 29 06:50:25 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:50:25 2023 - INFO  - End to run testcase:oe_test_gmp.
+Tue Aug 29 06:50:25 2023 - INFO  - start to run testcase:oe_test_server_httpd_port.
+Tue Aug 29 06:50:44 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:50:44 2023 - INFO  - End to run testcase:oe_test_server_httpd_port.
+Tue Aug 29 06:50:44 2023 - INFO  - start to run testcase:oe_test_server_libtasn1.
+Tue Aug 29 06:50:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:50:47 2023 - INFO  - End to run testcase:oe_test_server_libtasn1.
+Tue Aug 29 06:50:47 2023 - INFO  - start to run testcase:oe_test_basic_modify_group.
+Tue Aug 29 06:50:48 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:50:48 2023 - INFO  - End to run testcase:oe_test_basic_modify_group.
+Tue Aug 29 06:50:48 2023 - INFO  - start to run testcase:oe_test_system_log_dmesg.
+Tue Aug 29 06:50:48 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:50:49 2023 - INFO  - End to run testcase:oe_test_system_log_dmesg.
+Tue Aug 29 06:50:49 2023 - INFO  - start to run testcase:oe_test_disk_schedule_udev.
+Tue Aug 29 06:50:53 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:50:53 2023 - INFO  - End to run testcase:oe_test_disk_schedule_udev.
+Tue Aug 29 06:50:53 2023 - INFO  - start to run testcase:oe_test_server_httpd_checkfirewall.
+Tue Aug 29 06:51:14 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:51:14 2023 - INFO  - End to run testcase:oe_test_server_httpd_checkfirewall.
+Tue Aug 29 06:51:14 2023 - INFO  - start to run testcase:oe_test_IOaccess_500Mfile.
+Tue Aug 29 06:51:53 2023 - ERROR - The case exit by code 40.
+Tue Aug 29 06:51:53 2023 - INFO  - End to run testcase:oe_test_IOaccess_500Mfile.
+Tue Aug 29 06:51:53 2023 - INFO  - start to run testcase:oe_test_zcat.
+Tue Aug 29 06:51:53 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:51:53 2023 - INFO  - End to run testcase:oe_test_zcat.
+Tue Aug 29 06:51:53 2023 - INFO  - start to run testcase:oe_test_net_IPVLAN.
+Tue Aug 29 06:51:56 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:51:56 2023 - INFO  - End to run testcase:oe_test_net_IPVLAN.
+Tue Aug 29 06:51:56 2023 - INFO  - start to run testcase:oe_test_kernel_cgroup.
+Tue Aug 29 06:51:57 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:51:57 2023 - INFO  - End to run testcase:oe_test_kernel_cgroup.
+Tue Aug 29 06:51:57 2023 - INFO  - start to run testcase:oe_test_popd_001.
+Tue Aug 29 06:51:57 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:51:57 2023 - INFO  - End to run testcase:oe_test_popd_001.
+Tue Aug 29 06:51:57 2023 - INFO  - start to run testcase:oe_test_kernel_kdump.
+Tue Aug 29 06:51:59 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:51:59 2023 - INFO  - End to run testcase:oe_test_kernel_kdump.
+Tue Aug 29 06:51:59 2023 - INFO  - start to run testcase:oe_test_cmd_id.
+Tue Aug 29 06:52:00 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:00 2023 - INFO  - End to run testcase:oe_test_cmd_id.
+Tue Aug 29 06:52:00 2023 - INFO  - start to run testcase:oe_test_chsh.
+Tue Aug 29 06:52:04 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:52:04 2023 - INFO  - End to run testcase:oe_test_chsh.
+Tue Aug 29 06:52:04 2023 - INFO  - start to run testcase:oe_test_ProcMgmt_iostat.
+Tue Aug 29 06:52:20 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:20 2023 - INFO  - End to run testcase:oe_test_ProcMgmt_iostat.
+Tue Aug 29 06:52:20 2023 - INFO  - start to run testcase:oe_test_nmcli_macsec.
+Tue Aug 29 06:52:27 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:27 2023 - INFO  - End to run testcase:oe_test_nmcli_macsec.
+Tue Aug 29 06:52:27 2023 - INFO  - start to run testcase:oe_test_auditc_01.
+Tue Aug 29 06:52:27 2023 - ERROR - The case exit by code 3.
+Tue Aug 29 06:52:27 2023 - INFO  - End to run testcase:oe_test_auditc_01.
+Tue Aug 29 06:52:27 2023 - INFO  - start to run testcase:oe_test_ar.
+Tue Aug 29 06:52:28 2023 - ERROR - The case exit by code 4.
+Tue Aug 29 06:52:28 2023 - INFO  - End to run testcase:oe_test_ar.
+Tue Aug 29 06:52:28 2023 - INFO  - start to run testcase:oe_test_disk_io_sched.
+Tue Aug 29 06:52:29 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:29 2023 - INFO  - End to run testcase:oe_test_disk_io_sched.
+Tue Aug 29 06:52:29 2023 - INFO  - start to run testcase:oe_test_gsettings.
+Tue Aug 29 06:52:29 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:29 2023 - INFO  - End to run testcase:oe_test_gsettings.
+Tue Aug 29 06:52:29 2023 - INFO  - start to run testcase:oe_test_groupdel.
+Tue Aug 29 06:52:30 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:30 2023 - INFO  - End to run testcase:oe_test_groupdel.
+Tue Aug 29 06:52:30 2023 - INFO  - start to run testcase:oe_test_nmcli_con_reload.
+Tue Aug 29 06:52:32 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:32 2023 - INFO  - End to run testcase:oe_test_nmcli_con_reload.
+Tue Aug 29 06:52:32 2023 - INFO  - start to run testcase:oe_test_lsscsi_1.
+Tue Aug 29 06:52:33 2023 - ERROR - The case exit by code 5.
+Tue Aug 29 06:52:33 2023 - INFO  - End to run testcase:oe_test_lsscsi_1.
+Tue Aug 29 06:52:33 2023 - INFO  - start to run testcase:oe_test_lua.
+Tue Aug 29 06:52:33 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:33 2023 - INFO  - End to run testcase:oe_test_lua.
+Tue Aug 29 06:52:33 2023 - INFO  - start to run testcase:oe_test_password_change.
+Tue Aug 29 06:52:37 2023 - ERROR - The case exit by code 1.
+Tue Aug 29 06:52:37 2023 - INFO  - End to run testcase:oe_test_password_change.
+Tue Aug 29 06:52:38 2023 - INFO  - start to run testcase:oe_test_python3-kmod.
+Tue Aug 29 06:52:41 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:41 2023 - INFO  - End to run testcase:oe_test_python3-kmod.
+Tue Aug 29 06:52:41 2023 - INFO  - start to run testcase:oe_test_net_cmd_ifconfig.
+Tue Aug 29 06:52:43 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:43 2023 - INFO  - End to run testcase:oe_test_net_cmd_ifconfig.
+Tue Aug 29 06:52:44 2023 - INFO  - start to run testcase:oe_test_net_setmode.
+Tue Aug 29 06:52:46 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:46 2023 - INFO  - End to run testcase:oe_test_net_setmode.
+Tue Aug 29 06:52:46 2023 - INFO  - start to run testcase:oe_test_uname.
+Tue Aug 29 06:52:46 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:46 2023 - INFO  - End to run testcase:oe_test_uname.
+Tue Aug 29 06:52:46 2023 - INFO  - start to run testcase:oe_test_nmcli_cancel_auto.
+Tue Aug 29 06:52:47 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:47 2023 - INFO  - End to run testcase:oe_test_nmcli_cancel_auto.
+Tue Aug 29 06:52:47 2023 - INFO  - start to run testcase:oe_test_tcl.
+Tue Aug 29 06:52:48 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:48 2023 - INFO  - End to run testcase:oe_test_tcl.
+Tue Aug 29 06:52:48 2023 - INFO  - start to run testcase:oe_test_man.
+Tue Aug 29 06:52:51 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:51 2023 - INFO  - End to run testcase:oe_test_man.
+Tue Aug 29 06:52:51 2023 - INFO  - start to run testcase:oe_test_home_directory.
+Tue Aug 29 06:52:52 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:52 2023 - INFO  - End to run testcase:oe_test_home_directory.
+Tue Aug 29 06:52:52 2023 - INFO  - start to run testcase:oe_test_localectl.
+Tue Aug 29 06:52:53 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:53 2023 - INFO  - End to run testcase:oe_test_localectl.
+Tue Aug 29 06:52:53 2023 - INFO  - start to run testcase:oe_test_split.
+Tue Aug 29 06:52:53 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:53 2023 - INFO  - End to run testcase:oe_test_split.
+Tue Aug 29 06:52:53 2023 - INFO  - start to run testcase:oe_test_groff.
+Tue Aug 29 06:52:54 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:54 2023 - INFO  - End to run testcase:oe_test_groff.
+Tue Aug 29 06:52:54 2023 - INFO  - start to run testcase:oe_test_bsdcat.
+Tue Aug 29 06:52:57 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:52:57 2023 - INFO  - End to run testcase:oe_test_bsdcat.
+Tue Aug 29 06:52:58 2023 - INFO  - start to run testcase:oe_test_locate_001.
+Tue Aug 29 06:53:03 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:53:03 2023 - INFO  - End to run testcase:oe_test_locate_001.
+Tue Aug 29 06:53:03 2023 - INFO  - start to run testcase:oe_test_hwclock.
+Tue Aug 29 06:53:03 2023 - ERROR - The case exit by code 2.
+Tue Aug 29 06:53:03 2023 - INFO  - End to run testcase:oe_test_hwclock.
+Tue Aug 29 06:53:03 2023 - INFO  - start to run testcase:oe_test_xzmore.
+Tue Aug 29 06:53:04 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:53:04 2023 - INFO  - End to run testcase:oe_test_xzmore.
+Tue Aug 29 06:53:04 2023 - INFO  - start to run testcase:oe_test_server_git_install.
+Tue Aug 29 06:53:22 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:53:22 2023 - INFO  - End to run testcase:oe_test_server_git_install.
+Tue Aug 29 06:53:22 2023 - INFO  - start to run testcase:oe_test_server_openssh_secure.
+Tue Aug 29 06:53:37 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:53:37 2023 - INFO  - End to run testcase:oe_test_server_openssh_secure.
+Tue Aug 29 06:53:37 2023 - INFO  - start to run testcase:oe_test_sha256sum.
+Tue Aug 29 06:53:37 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:53:37 2023 - INFO  - End to run testcase:oe_test_sha256sum.
+Tue Aug 29 06:53:37 2023 - INFO  - start to run testcase:oe_test_server_mariadb_onlinebackup.
+Tue Aug 29 06:53:55 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:53:55 2023 - INFO  - End to run testcase:oe_test_server_mariadb_onlinebackup.
+Tue Aug 29 06:53:55 2023 - INFO  - start to run testcase:oe_test_unlink.
+Tue Aug 29 06:53:56 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:53:56 2023 - INFO  - End to run testcase:oe_test_unlink.
+Tue Aug 29 06:53:56 2023 - INFO  - start to run testcase:oe_test_disk_tuned_new.
+Tue Aug 29 06:54:12 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:54:12 2023 - INFO  - End to run testcase:oe_test_disk_tuned_new.
+Tue Aug 29 06:54:12 2023 - INFO  - start to run testcase:oe_test_server_mariadb_dump.
+Tue Aug 29 06:54:28 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:54:28 2023 - INFO  - End to run testcase:oe_test_server_mariadb_dump.
+Tue Aug 29 06:54:28 2023 - INFO  - start to run testcase:oe_test_basic_create_group.
+Tue Aug 29 06:54:28 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:54:28 2023 - INFO  - End to run testcase:oe_test_basic_create_group.
+Tue Aug 29 06:54:28 2023 - INFO  - start to run testcase:oe_test_disk_tuned_disable.
+Tue Aug 29 06:54:40 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:54:40 2023 - INFO  - End to run testcase:oe_test_disk_tuned_disable.
+Tue Aug 29 06:54:40 2023 - INFO  - start to run testcase:oe_test_indent.
+Tue Aug 29 06:54:44 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:54:44 2023 - INFO  - End to run testcase:oe_test_indent.
+Tue Aug 29 06:54:44 2023 - INFO  - start to run testcase:oe_test_whatis.
+Tue Aug 29 06:54:44 2023 - INFO  - The case exit by code 0.
+Tue Aug 29 06:54:44 2023 - INFO  - End to run testcase:oe_test_whatis.
+Tue Aug 29 06:54:44 2023 - INFO  - A total of 237 use cases were executed, with 177 successes and 60 failures.

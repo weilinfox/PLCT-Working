@@ -1,0 +1,229 @@
+测试套/软件包名,测试用例名,日志文件,原因,Broken testcase,pkg not found,preinstall absent,kernel module absent,file missing,systemd unit restart failure,systemd unit runtime error,systemd unit enable failure,timeout
+multipath-tools,oe_test_multipath-tools_kpartx,2023-08-28-12_20_30.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_001,2023-08-28-12_20_07.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_003,2023-08-28-12_23_24.log,"file missing
+",0,0,0,0,1,0,0,0,0
+fio,oe_test_fio_004,2023-08-28-12_25_25.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_002,2023-08-28-12_21_23.log,"file missing
+",0,0,0,0,1,0,0,0,0
+dmidecode,oe_test_dmidecode,2023-08-28-12_29_04.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+fftw,oe_test_fftw_fftw-wisdom_02,2023-08-28-02_39_15.log,,0,0,0,0,0,0,0,0,0
+fftw,oe_test_fftw_fftwl-wisdom_02,2023-08-28-02_40_00.log,,0,0,0,0,0,0,0,0,0
+fftw,oe_test_fftw_fftwf-wisdom_02,2023-08-28-02_39_36.log,,0,0,0,0,0,0,0,0,0
+fftw,oe_test_fftw_fftw-wisdom-to-conf,2023-08-28-02_38_29.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_cpu_rand,2023-08-28-02_36_55.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_kernel_cmd_01,2023-08-28-02_35_51.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_swap_compress,2023-08-28-02_36_57.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+kernel,oe_test_hinic,2023-08-28-02_36_54.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_fnic,2023-08-28-02_37_05.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_io_sched,2023-08-28-02_36_51.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+kernel,oe_test_check_huge_task,2023-08-28-02_36_59.log,"timeout
+",0,0,0,0,0,0,0,0,1
+kernel,oe_test_hpsa,2023-08-28-02_37_07.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_wangxun,2023-08-28-02_37_02.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_cifs,2023-08-28-02_37_00.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_libfc,2023-08-28-02_37_06.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_bnx2fc,2023-08-28-02_37_07.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_hifc,2023-08-28-02_37_05.log,"kernel module absent
+",0,0,0,1,0,0,0,0,0
+openscap,oe_test_assess_safety_compliance,2023-08-28-02_41_45.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+openscap,oe_test_scanning_remote_system,2023-08-28-02_39_33.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+openscap,oe_test_ensure_security_compliance,2023-08-28-02_40_33.log,,0,0,0,0,0,0,0,0,0
+sendmail,oe_test_sendmail_func_001,2023-08-28-12_25_16.log,"file missing
+",0,0,0,0,1,0,0,0,0
+policycoreutils,oe_test_service_restorecond,2023-08-28-12_20_08.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+vdo,oe_test_service_vdo,2023-08-28-12_33_20.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+gsl,oe_test_gsl_histogram_01,2023-08-28-02_46_42.log,,0,0,0,0,0,0,0,0,0
+hostname,oe_test_service_nis-domainname,2023-08-29-07_27_09.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+libstoragemgmt,oe_test_service_libstoragemgmt,2023-08-28-12_31_37.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+dnf,oe_test_dnf_enabled_enablerepo,2023-08-28-12_22_50.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_list_mark,2023-08-28-12_23_40.log,"timeout
+",0,0,0,0,0,0,0,0,1
+dnf,oe_test_dnf_reinstall_repoinfo,2023-08-28-12_24_51.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_repeat-upgrade-downgrade,2023-08-28-12_26_04.log,"timeout
+",0,0,0,0,0,0,0,0,1
+os-basic,oe_test_bunzip2,2023-08-29-05_24_58.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_chsh,2023-08-29-06_52_00.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_zgrep,2023-08-29-06_27_19.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_hwclock,2023-08-29-06_53_03.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_nmcli_set_team,2023-08-29-06_42_10.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_auditctl_02,2023-08-29-05_24_56.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_ar,2023-08-29-06_52_27.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_c_stat,2023-08-29-05_35_11.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_xmlsec,2023-08-29-06_28_29.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_server_squid_blacklist,2023-08-29-05_25_32.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_server_squid_proxy,2023-08-29-06_48_54.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_glibc,2023-08-29-05_24_47.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_catman,2023-08-29-05_35_09.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_disk_schedule_udev,2023-08-29-06_50_49.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_basic_set_account_expiration_time,2023-08-29-06_46_24.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_lastb,2023-08-29-06_27_12.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_server_httpd_tls,2023-08-29-05_27_40.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_csplit,2023-08-29-06_35_19.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_auditctl,2023-08-29-06_48_16.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_aureport,2023-08-29-05_30_48.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_gcc_01,2023-08-29-05_35_16.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_lsscsi_3,2023-08-29-05_25_31.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_system_monitor_share_total,2023-08-29-05_27_05.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_xzcmp,2023-08-29-06_41_48.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_IOaccess_1Gfile,2023-08-29-06_35_31.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_ctags,2023-08-29-06_31_40.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_lsscsi_1,2023-08-29-06_52_32.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_cairo,2023-08-29-06_33_11.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_uid_old_uid,2023-08-29-06_46_22.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_password_change,2023-08-29-06_52_33.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_who,2023-08-29-05_30_22.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_disk_graphics_card,2023-08-29-06_27_13.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_pcre_use,2023-08-29-06_48_12.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_whereis,2023-08-29-06_41_51.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_autoscan,2023-08-29-05_24_44.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_libsecret,2023-08-29-06_25_27.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_net_mtr,2023-08-29-05_30_59.log,"timeout
+",0,0,0,0,0,0,0,0,1
+os-basic,oe_test_IOaccess_500Mfile,2023-08-29-06_51_14.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_dmraid,2023-08-29-05_24_48.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_kernel_sysctl,2023-08-29-06_30_20.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_zcat,2023-08-29-06_51_53.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_zipdetails,2023-08-29-06_35_17.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_reboot,2023-08-29-05_38_21.log,"timeout
+",0,0,0,0,0,0,0,0,1
+os-basic,oe_test_libunistring,2023-08-29-05_32_42.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_server_openssh_verifykey,2023-08-29-05_33_48.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+os-basic,oe_test_system_log_recorded,2023-08-29-05_36_12.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_server_squid_ip,2023-08-29-06_31_41.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_lsscsi_2,2023-08-29-05_25_09.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_zgrep_002,2023-08-29-06_34_44.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_auditc_01,2023-08-29-06_52_27.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_bzless,2023-08-29-06_35_18.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_timedatectl,2023-08-29-06_33_10.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_vim,2023-08-29-05_35_08.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_count_gperftools_function,2023-08-29-06_46_18.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-basic,oe_test_nmcli_set_bond,2023-08-29-05_35_10.log,,0,0,0,0,0,0,0,0,0
+os-basic,oe_test_disk_schedule_specific,2023-08-29-05_55_04.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_server_mariadb_compatibilty,2023-08-29-05_53_07.log,"timeout
+",0,0,0,0,0,0,0,0,1
+os-basic,oe_test_nmcli_config_connect,2023-08-29-06_30_21.log,"timeout
+",0,0,0,0,0,0,0,0,1
+os-basic,oe_test_IOaccess_100Mfile,2023-08-29-05_24_58.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-basic,oe_test_sos,2023-08-29-05_55_17.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+radvd,oe_test_service_radvd,2023-08-28-12_31_37.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+cachefilesd,oe_test_service_cachefilesd,2023-08-28-12_28_12.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+netcf,oe_test_service_netcf-transaction,2023-08-29-02_55_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+nftables,oe_test_nftables_backup_rules,2023-08-28-02_36_52.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_chains,2023-08-28-02_36_46.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_name_sets,2023-08-28-02_36_44.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_listen_package,2023-08-28-02_36_32.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+nftables,oe_test_service_nftables,2023-08-28-02_36_54.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+nftables,oe_test_nftables_variable_map,2023-08-28-02_36_45.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_anonymous_map,2023-08-28-02_36_31.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_replace_counters,2023-08-28-02_36_53.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+nftables,oe_test_nftables_create_counters,2023-08-28-02_36_17.log,"file missing
+",0,0,0,0,1,0,0,0,0
+ipmitool,oe_test_service_exchange-bmc-os-info,2023-08-28-12_22_08.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+ipmitool,oe_test_service_bmc-snmp-proxy,2023-08-28-12_21_45.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+ipmitool,oe_test_service_ipmievd,2023-08-28-12_22_28.log,"kernel module absent
+file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,1,1,1,1,1,0
+perl-libwww-perl,oe_test_perl-libwww-perl_lwp-dump,2023-08-28-02_43_38.log,,0,0,0,0,0,0,0,0,0
+perl-libwww-perl,oe_test_perl-libwww-perl_GET_01,2023-08-28-02_39_34.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+perl-libwww-perl,oe_test_perl-libwww-perl_POST_01,2023-08-28-02_45_34.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+rpmdevtools,oe_test_rpmdevtools_rpmdev-vercmp,2023-08-28-12_21_34.log,"file missing
+",0,0,0,0,1,0,0,0,0
+rpmdevtools,oe_test_rpmdevtools_rpmargs,2023-08-28-12_20_07.log,"timeout
+",0,0,0,0,0,0,0,0,1
