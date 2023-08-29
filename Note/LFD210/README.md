@@ -1,4 +1,4 @@
-# LFD210 笔记
+# [LFD210](https://training.linuxfoundation.cn/courses/83) 笔记
 
 打七折还大五百呢，有效只有一年，只能记笔记了
 
