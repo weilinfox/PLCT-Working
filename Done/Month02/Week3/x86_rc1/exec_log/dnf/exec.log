@@ -1,0 +1,91 @@
+Mon Aug 28 12:20:06 2023 - INFO  - start to run testcase:oe_test_dnf_alias.
+Mon Aug 28 12:20:12 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:20:12 2023 - INFO  - End to run testcase:oe_test_dnf_alias.
+Mon Aug 28 12:20:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:20:12 2023 - INFO  - start to run testcase:oe_test_dnf_all-repos.
+Mon Aug 28 12:20:30 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:20:30 2023 - INFO  - End to run testcase:oe_test_dnf_all-repos.
+Mon Aug 28 12:20:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:20:30 2023 - INFO  - start to run testcase:oe_test_dnf_assumeno_autoremove.
+Mon Aug 28 12:20:51 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:20:51 2023 - INFO  - End to run testcase:oe_test_dnf_assumeno_autoremove.
+Mon Aug 28 12:20:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:20:51 2023 - INFO  - start to run testcase:oe_test_dnf_automatic.
+Mon Aug 28 12:21:12 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:21:12 2023 - INFO  - End to run testcase:oe_test_dnf_automatic.
+Mon Aug 28 12:21:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:21:12 2023 - INFO  - start to run testcase:oe_test_dnf_check_diffenert-packages.
+Mon Aug 28 12:21:24 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:21:24 2023 - INFO  - End to run testcase:oe_test_dnf_check_diffenert-packages.
+Mon Aug 28 12:21:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:21:24 2023 - INFO  - start to run testcase:oe_test_dnf_makecache_clean.
+Mon Aug 28 12:21:57 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:21:57 2023 - INFO  - End to run testcase:oe_test_dnf_makecache_clean.
+Mon Aug 28 12:21:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:21:57 2023 - INFO  - start to run testcase:oe_test_dnf_distro-sync_dnf-3.
+Mon Aug 28 12:22:50 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:22:50 2023 - INFO  - End to run testcase:oe_test_dnf_distro-sync_dnf-3.
+Mon Aug 28 12:22:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:22:50 2023 - INFO  - start to run testcase:oe_test_dnf_enabled_enablerepo.
+Mon Aug 28 12:22:52 2023 - ERROR - The case exit by code 1.
+Mon Aug 28 12:22:52 2023 - INFO  - End to run testcase:oe_test_dnf_enabled_enablerepo.
+Mon Aug 28 12:22:52 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 12:22:53 2023 - INFO  - start to run testcase:oe_test_service_dnf-automatic-download.
+Mon Aug 28 12:22:58 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:22:58 2023 - INFO  - End to run testcase:oe_test_service_dnf-automatic-download.
+Mon Aug 28 12:22:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:22:59 2023 - INFO  - start to run testcase:oe_test_service_dnf-automatic-install.
+Mon Aug 28 12:23:05 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:05 2023 - INFO  - End to run testcase:oe_test_service_dnf-automatic-install.
+Mon Aug 28 12:23:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:05 2023 - INFO  - start to run testcase:oe_test_service_dnf-automatic-notifyonly.
+Mon Aug 28 12:23:14 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:14 2023 - INFO  - End to run testcase:oe_test_service_dnf-automatic-notifyonly.
+Mon Aug 28 12:23:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:15 2023 - INFO  - start to run testcase:oe_test_service_dnf-automatic.
+Mon Aug 28 12:23:20 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:20 2023 - INFO  - End to run testcase:oe_test_service_dnf-automatic.
+Mon Aug 28 12:23:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:20 2023 - INFO  - start to run testcase:oe_test_service_dnf-makecache.
+Mon Aug 28 12:23:29 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:29 2023 - INFO  - End to run testcase:oe_test_service_dnf-makecache.
+Mon Aug 28 12:23:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:29 2023 - INFO  - start to run testcase:oe_test_dnf_enhancement_exclude.
+Mon Aug 28 12:23:33 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:33 2023 - INFO  - End to run testcase:oe_test_dnf_enhancement_exclude.
+Mon Aug 28 12:23:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:34 2023 - INFO  - start to run testcase:oe_test_dnf_help_history_info.
+Mon Aug 28 12:23:40 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:40 2023 - INFO  - End to run testcase:oe_test_dnf_help_history_info.
+Mon Aug 28 12:23:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:40 2023 - INFO  - start to run testcase:oe_test_dnf_list_mark.
+Mon Aug 28 12:23:49 2023 - ERROR - The case exit by code 4.
+Mon Aug 28 12:23:49 2023 - INFO  - End to run testcase:oe_test_dnf_list_mark.
+Mon Aug 28 12:23:49 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 12:23:49 2023 - INFO  - start to run testcase:oe_test_dnf_nobest_nodocs_nogpgcheck.
+Mon Aug 28 12:23:56 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:56 2023 - INFO  - End to run testcase:oe_test_dnf_nobest_nodocs_nogpgcheck.
+Mon Aug 28 12:23:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:56 2023 - INFO  - start to run testcase:oe_test_dnf_priority.
+Mon Aug 28 12:23:58 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:23:58 2023 - INFO  - End to run testcase:oe_test_dnf_priority.
+Mon Aug 28 12:23:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:23:59 2023 - INFO  - start to run testcase:oe_test_dnf_provides_randomwait.
+Mon Aug 28 12:24:51 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:24:51 2023 - INFO  - End to run testcase:oe_test_dnf_provides_randomwait.
+Mon Aug 28 12:24:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:24:51 2023 - INFO  - start to run testcase:oe_test_dnf_reinstall_repoinfo.
+Mon Aug 28 12:25:14 2023 - ERROR - The case exit by code 1.
+Mon Aug 28 12:25:14 2023 - INFO  - End to run testcase:oe_test_dnf_reinstall_repoinfo.
+Mon Aug 28 12:25:14 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Aug 28 12:25:14 2023 - INFO  - start to run testcase:oe_test_dnf_repeat-install.
+Mon Aug 28 12:26:04 2023 - INFO  - The case exit by code 0.
+Mon Aug 28 12:26:04 2023 - INFO  - End to run testcase:oe_test_dnf_repeat-install.
+Mon Aug 28 12:26:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Aug 28 12:26:04 2023 - INFO  - start to run testcase:oe_test_dnf_repeat-upgrade-downgrade.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Mon Aug 28 12:56:04 2023 - WARN  - The case execution timeout.
+Mon Aug 28 12:56:04 2023 - ERROR - The case exit by code 143.
+Mon Aug 28 12:56:04 2023 - INFO  - End to run testcase:oe_test_dnf_repeat-upgrade-downgrade.
+Mon Aug 28 12:56:04 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
