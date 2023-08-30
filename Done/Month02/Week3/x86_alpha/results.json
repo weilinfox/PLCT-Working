@@ -1,0 +1,2128 @@
+[
+    {
+        "name": "multipath-tools",
+        "caseNum": 7,
+        "passedCaseNum": 6,
+        "failedCaseNum": 1,
+        "passedCases": [
+            {
+                "name": "oe_test_multipath-tools_mpathpersist",
+                "logname": "2023-08-22-02_29_02.log",
+                "trim": 1,
+                "addDisk": 1,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_multipathd",
+                "logname": "2023-08-22-02_37_39.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_multipath-tools_mpathconf",
+                "logname": "2023-08-22-02_28_57.log",
+                "trim": 1,
+                "addDisk": 1,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_multipathd",
+                "logname": "2023-08-22-02_37_17.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_multipath-tools_multipath_01",
+                "logname": "2023-08-22-02_31_51.log",
+                "trim": 1,
+                "addDisk": 1,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_multipath-tools_multipath_02",
+                "logname": "2023-08-22-02_34_33.log",
+                "trim": 1,
+                "addDisk": 1,
+                "multiMachine": 1,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_multipath-tools_kpartx",
+                "logname": "2023-08-22-02_26_05.log",
+                "cause": [],
+                "trim": 1,
+                "addDisk": 1,
+                "multiMachine": 1,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "fio",
+        "caseNum": 4,
+        "passedCaseNum": 0,
+        "failedCaseNum": 4,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_fio_001",
+                "logname": "2023-08-22-02_46_52.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 1,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_fio_003",
+                "logname": "2023-08-22-03_00_22.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 1,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_fio_004",
+                "logname": "2023-08-22-03_05_09.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 1,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_fio_002",
+                "logname": "2023-08-22-02_53_55.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 1,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "nghttp2",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_nghttpx",
+                "logname": "2023-08-22-03_13_21.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "cups-filters",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_cups-browsed",
+                "logname": "2023-08-22-03_07_36.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "kernel",
+        "caseNum": 29,
+        "passedCaseNum": 15,
+        "failedCaseNum": 14,
+        "passedCases": [
+            {
+                "name": "oe_test_xfs",
+                "logname": "2023-08-22-02_17_44.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nbd",
+                "logname": "2023-08-22-02_17_46.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_hqlogic",
+                "logname": "2023-08-22-02_17_38.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_qxl",
+                "logname": "2023-08-22-02_17_39.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_vlan_8021q",
+                "logname": "2023-08-22-02_17_46.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ipip",
+                "logname": "2023-08-22-02_17_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_kernel_cmd_02",
+                "logname": "2023-08-22-02_12_13.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_swappiness",
+                "logname": "2023-08-22-02_17_42.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_snd_aloop",
+                "logname": "2023-08-22-02_17_37.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_cpupower",
+                "logname": "2023-08-22-02_17_34.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_lpfc",
+                "logname": "2023-08-22-02_17_41.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_softdog",
+                "logname": "2023-08-22-02_17_43.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_qla2xxx",
+                "logname": "2023-08-22-02_17_50.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cache_rw",
+                "logname": "2023-08-22-02_17_36.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_kernel_cmd_03",
+                "logname": "2023-08-22-02_12_46.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_cpu_rand",
+                "logname": "2023-08-22-02_17_39.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_vport-geneve",
+                "logname": "2023-08-22-02_17_40.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_kernel_cmd_01",
+                "logname": "2023-08-22-02_12_07.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_swap_compress",
+                "logname": "2023-08-22-02_17_40.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_hinic",
+                "logname": "2023-08-22-02_17_37.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_fnic",
+                "logname": "2023-08-22-02_17_48.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_io_sched",
+                "logname": "2023-08-22-02_17_35.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_check_huge_task",
+                "logname": "2023-08-22-02_17_42.log",
+                "cause": [
+                    "timeout"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_hpsa",
+                "logname": "2023-08-22-02_17_49.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_wangxun",
+                "logname": "2023-08-22-02_17_45.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cifs",
+                "logname": "2023-08-22-02_17_43.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_libfc",
+                "logname": "2023-08-22-02_17_48.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_bnx2fc",
+                "logname": "2023-08-22-02_17_49.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_hifc",
+                "logname": "2023-08-22-02_17_47.log",
+                "cause": [
+                    "kernel module absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "libarchive",
+        "caseNum": 2,
+        "passedCaseNum": 2,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_libarchive_bsdtar",
+                "logname": "2023-08-22-03_01_29.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_libarchive_bsdcpio",
+                "logname": "2023-08-22-03_01_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "bison",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_bison",
+                "logname": "2023-08-22-03_22_15.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "openblas",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_openblas",
+                "logname": "2023-08-22-03_14_53.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "lxcfs",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_service_lxcfs",
+                "logname": "2023-08-22-03_12_15.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "ruby",
+        "caseNum": 12,
+        "passedCaseNum": 7,
+        "failedCaseNum": 5,
+        "passedCases": [
+            {
+                "name": "oe_test_rake_03",
+                "logname": "2023-08-22-02_17_21.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_rake_02",
+                "logname": "2023-08-22-02_16_39.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_gem",
+                "logname": "2023-08-22-02_12_52.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_rdoc_02",
+                "logname": "2023-08-22-02_18_00.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ri",
+                "logname": "2023-08-22-02_18_15.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_rake_01",
+                "logname": "2023-08-22-02_15_54.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_irb_02",
+                "logname": "2023-08-22-02_14_10.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_irb_03",
+                "logname": "2023-08-22-02_14_48.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_irb_01",
+                "logname": "2023-08-22-02_13_35.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_rdoc_01",
+                "logname": "2023-08-22-02_17_43.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_erb",
+                "logname": "2023-08-22-02_12_09.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ruby",
+                "logname": "2023-08-22-02_18_45.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "vdo",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_vdo",
+                "logname": "2023-08-22-03_22_15.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "intltool",
+        "caseNum": 6,
+        "passedCaseNum": 4,
+        "failedCaseNum": 2,
+        "passedCases": [
+            {
+                "name": "oe_test_intltool_intltool-merge_01",
+                "logname": "2023-08-22-02_35_34.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_intltool_intltoolize",
+                "logname": "2023-08-22-02_40_04.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_intltool_intltool-merge_02",
+                "logname": "2023-08-22-02_36_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_intltool_intltool-update",
+                "logname": "2023-08-22-02_36_57.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_intltool_intltool-prepare",
+                "logname": "2023-08-22-02_39_09.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_intltool_intltool-extract",
+                "logname": "2023-08-22-02_38_20.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "gssproxy",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_gssproxy",
+                "logname": "2023-08-22-03_10_33.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "memcached",
+        "caseNum": 3,
+        "passedCaseNum": 3,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_memcached_02",
+                "logname": "2023-08-22-02_58_25.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_memcached_01",
+                "logname": "2023-08-22-02_57_23.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_memcached",
+                "logname": "2023-08-22-02_59_13.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "rasdaemon",
+        "caseNum": 2,
+        "passedCaseNum": 0,
+        "failedCaseNum": 2,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_service_rasdaemon",
+                "logname": "2023-08-22-03_02_46.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_ras-mc-ctl",
+                "logname": "2023-08-22-03_04_11.log",
+                "cause": [
+                    "Broken testcase"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "irqbalance",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_service_irqbalance",
+                "logname": "2023-08-22-03_11_43.log",
+                "cause": [
+                    "preinstall absent",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "openwsman",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_openwsmand",
+                "logname": "2023-08-22-03_14_54.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "clevis",
+        "caseNum": 5,
+        "passedCaseNum": 2,
+        "failedCaseNum": 3,
+        "passedCases": [
+            {
+                "name": "oe_test_install_clevis",
+                "logname": "2023-08-22-02_40_22.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_tang_nbde",
+                "logname": "2023-08-22-02_41_54.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_tang_encrypt",
+                "logname": "2023-08-22-02_41_32.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_clevis-luks-askpass",
+                "logname": "2023-08-22-02_39_47.log",
+                "cause": [
+                    "systemd unit runtime error"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_high_nbde",
+                "logname": "2023-08-22-02_40_04.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 1,
+                "addDisk": 1,
+                "multiMachine": 1,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "sssd",
+        "caseNum": 17,
+        "passedCaseNum": 10,
+        "failedCaseNum": 7,
+        "passedCases": [
+            {
+                "name": "oe_test_service_sssd-nss",
+                "logname": "2023-08-22-02_15_12.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd-ssh",
+                "logname": "2023-08-22-02_18_07.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd-sudo",
+                "logname": "2023-08-22-02_18_36.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_sssd-nss",
+                "logname": "2023-08-22-02_20_27.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd-kcm",
+                "logname": "2023-08-22-02_14_07.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd-pam",
+                "logname": "2023-08-22-02_16_44.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd-autofs",
+                "logname": "2023-08-22-02_12_09.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_sssd-pam-priv",
+                "logname": "2023-08-22-02_21_28.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_sssd-kcm",
+                "logname": "2023-08-22-02_19_47.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd-pac",
+                "logname": "2023-08-22-02_15_52.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_socket_sssd-sudo",
+                "logname": "2023-08-22-02_23_43.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd",
+                "logname": "2023-08-22-02_17_27.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sssd-ifp",
+                "logname": "2023-08-22-02_12_58.log",
+                "cause": [
+                    "systemd unit restart failure",
+                    "systemd unit runtime error"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_sssd-pac",
+                "logname": "2023-08-22-02_20_46.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_sssd-pam",
+                "logname": "2023-08-22-02_21_49.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_sssd-ssh",
+                "logname": "2023-08-22-02_22_53.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_sssd-autofs",
+                "logname": "2023-08-22-02_19_02.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "chrpath",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_chrpath",
+                "logname": "2023-08-22-03_07_35.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "dnf",
+        "caseNum": 22,
+        "passedCaseNum": 18,
+        "failedCaseNum": 4,
+        "passedCases": [
+            {
+                "name": "oe_test_service_dnf-makecache",
+                "logname": "2023-08-22-02_20_43.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_dnf-automatic-download",
+                "logname": "2023-08-22-02_20_25.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_assumeno_autoremove",
+                "logname": "2023-08-22-02_13_15.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_check_diffenert-packages",
+                "logname": "2023-08-22-02_16_40.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_distro-sync_dnf-3",
+                "logname": "2023-08-22-02_19_25.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_help_history_info",
+                "logname": "2023-08-22-02_20_48.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_dnf-automatic-install",
+                "logname": "2023-08-22-02_20_30.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_alias",
+                "logname": "2023-08-22-02_12_08.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_makecache_clean",
+                "logname": "2023-08-22-02_18_06.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_nobest_nodocs_nogpgcheck",
+                "logname": "2023-08-22-02_21_23.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_repeat-install",
+                "logname": "2023-08-22-02_22_13.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_dnf-automatic-notifyonly",
+                "logname": "2023-08-22-02_20_34.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_all-repos",
+                "logname": "2023-08-22-02_12_14.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_enhancement_exclude",
+                "logname": "2023-08-22-02_20_44.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_provides_randomwait",
+                "logname": "2023-08-22-02_21_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_dnf-automatic",
+                "logname": "2023-08-22-02_20_39.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_priority",
+                "logname": "2023-08-22-02_21_29.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_automatic",
+                "logname": "2023-08-22-02_14_40.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_dnf_enabled_enablerepo",
+                "logname": "2023-08-22-02_20_23.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_list_mark",
+                "logname": "2023-08-22-02_20_53.log",
+                "cause": [
+                    "timeout"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_reinstall_repoinfo",
+                "logname": "2023-08-22-02_21_57.log",
+                "cause": [],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_dnf_repeat-upgrade-downgrade",
+                "logname": "2023-08-22-02_23_29.log",
+                "cause": [
+                    "timeout"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "sane-backends",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_socket_saned",
+                "logname": "2023-08-22-03_20_24.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "samba",
+        "caseNum": 5,
+        "passedCaseNum": 4,
+        "failedCaseNum": 1,
+        "passedCases": [
+            {
+                "name": "oe_test_service_smb",
+                "logname": "2023-08-22-02_50_42.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_winbind",
+                "logname": "2023-08-22-02_51_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_nmb",
+                "logname": "2023-08-22-02_47_54.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_ctdb",
+                "logname": "2023-08-22-02_46_52.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_service_samba",
+                "logname": "2023-08-22-02_48_55.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "avahi",
+        "caseNum": 3,
+        "passedCaseNum": 1,
+        "failedCaseNum": 2,
+        "passedCases": [
+            {
+                "name": "oe_test_service_avahi-dnsconfd",
+                "logname": "2023-08-22-02_55_17.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_service_avahi-daemon",
+                "logname": "2023-08-22-02_54_50.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_socket_avahi-daemon",
+                "logname": "2023-08-22-02_55_40.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "unbound",
+        "caseNum": 3,
+        "passedCaseNum": 2,
+        "failedCaseNum": 1,
+        "passedCases": [
+            {
+                "name": "oe_test_service_unbound",
+                "logname": "2023-08-22-02_59_10.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_unbound-anchor",
+                "logname": "2023-08-22-02_58_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_service_unbound-keygen",
+                "logname": "2023-08-22-02_58_41.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "libesmtp",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_libesmtp",
+                "logname": "2023-08-22-03_11_43.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "e2fsprogs",
+        "caseNum": 2,
+        "passedCaseNum": 1,
+        "failedCaseNum": 1,
+        "passedCases": [
+            {
+                "name": "oe_test_service_e2scrub_all",
+                "logname": "2023-08-22-03_01_24.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_service_e2scrub_reap",
+                "logname": "2023-08-22-03_01_24.log",
+                "cause": [
+                    "preinstall absent",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "grub2",
+        "caseNum": 2,
+        "passedCaseNum": 2,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_grub2-systemd-integration",
+                "logname": "2023-08-22-03_04_40.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_grub-boot-indeterminate",
+                "logname": "2023-08-22-03_04_40.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "security-tool",
+        "caseNum": 2,
+        "passedCaseNum": 2,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_security_tool",
+                "logname": "2023-08-22-03_03_01.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_openEuler-security",
+                "logname": "2023-08-22-03_03_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "krb5",
+        "caseNum": 3,
+        "passedCaseNum": 3,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_kadmin",
+                "logname": "2023-08-22-02_55_10.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_kprop",
+                "logname": "2023-08-22-02_55_49.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_krb5kdc",
+                "logname": "2023-08-22-02_56_26.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "ltrace",
+        "caseNum": 4,
+        "passedCaseNum": 4,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_ltrace_01",
+                "logname": "2023-08-22-02_46_53.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ltrace_03",
+                "logname": "2023-08-22-02_50_32.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ltrace_04",
+                "logname": "2023-08-22-02_52_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ltrace_02",
+                "logname": "2023-08-22-02_48_42.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "cvs",
+        "caseNum": 8,
+        "passedCaseNum": 8,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_socket_cvs",
+                "logname": "2023-08-22-02_22_43.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_target_cvs",
+                "logname": "2023-08-22-02_22_51.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cvs_cvs_01",
+                "logname": "2023-08-22-02_22_57.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cvs_cvs_05",
+                "logname": "2023-08-22-02_23_43.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cvs_cvs_06",
+                "logname": "2023-08-22-02_23_59.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cvs_cvs_04",
+                "logname": "2023-08-22-02_23_31.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cvs_cvs_02",
+                "logname": "2023-08-22-02_23_06.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cvs_cvs_03",
+                "logname": "2023-08-22-02_23_17.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "libdb",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_libdb",
+                "logname": "2023-08-22-03_22_15.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "nftables",
+        "caseNum": 10,
+        "passedCaseNum": 1,
+        "failedCaseNum": 9,
+        "passedCases": [
+            {
+                "name": "oe_test_iptables_to_nftables",
+                "logname": "2023-08-22-02_20_00.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_nftables_backup_rules",
+                "logname": "2023-08-22-02_20_04.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nftables_chains",
+                "logname": "2023-08-22-02_19_59.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nftables_name_sets",
+                "logname": "2023-08-22-02_19_57.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nftables_listen_package",
+                "logname": "2023-08-22-02_19_46.log",
+                "cause": [
+                    "preinstall absent",
+                    "timeout"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_nftables",
+                "logname": "2023-08-22-02_20_06.log",
+                "cause": [
+                    "preinstall absent",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nftables_variable_map",
+                "logname": "2023-08-22-02_19_58.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nftables_anonymous_map",
+                "logname": "2023-08-22-02_19_45.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nftables_replace_counters",
+                "logname": "2023-08-22-02_20_05.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_nftables_create_counters",
+                "logname": "2023-08-22-02_19_35.log",
+                "cause": [
+                    "file missing"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "procps-ng",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_procps-ng-pmap",
+                "logname": "2023-08-22-03_18_58.log",
+                "cause": [
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "dnsmasq",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_dnsmasq",
+                "logname": "2023-08-22-03_07_46.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "bolt",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_bolt",
+                "logname": "2023-08-22-03_06_02.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "flatpak",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_flatpak-system-helper",
+                "logname": "2023-08-22-03_09_03.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "ModemManager",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_service_ModemManager",
+                "logname": "2023-08-22-03_05_44.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "sysstat",
+        "caseNum": 4,
+        "passedCaseNum": 3,
+        "failedCaseNum": 1,
+        "passedCases": [
+            {
+                "name": "oe_test_service_sysstat-summary",
+                "logname": "2023-08-22-02_55_44.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_sysstat-collect",
+                "logname": "2023-08-22-02_53_34.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_sysstat_iostat",
+                "logname": "2023-08-22-02_56_49.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_service_sysstat",
+                "logname": "2023-08-22-02_54_23.log",
+                "cause": [
+                    "file missing",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "initscripts",
+        "caseNum": 5,
+        "passedCaseNum": 4,
+        "failedCaseNum": 1,
+        "passedCases": [
+            {
+                "name": "oe_test_service_loadmodules",
+                "logname": "2023-08-22-02_43_03.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_readonly-root",
+                "logname": "2023-08-22-02_44_09.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_network",
+                "logname": "2023-08-22-02_43_19.log",
+                "trim": 1,
+                "addDisk": 0,
+                "multiMachine": 1,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_netconsole",
+                "logname": "2023-08-22-02_43_47.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_service_import-state",
+                "logname": "2023-08-22-02_42_47.log",
+                "cause": [
+                    "preinstall absent",
+                    "systemd unit restart failure",
+                    "systemd unit runtime error",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "perl-libwww-perl",
+        "caseNum": 9,
+        "passedCaseNum": 7,
+        "failedCaseNum": 2,
+        "passedCases": [
+            {
+                "name": "oe_test_perl-libwww-perl_lwp_request_01",
+                "logname": "2023-08-22-02_29_14.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_perl-libwww-perl_HEAD_02",
+                "logname": "2023-08-22-02_27_58.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_perl-libwww-perl_lwp-dump",
+                "logname": "2023-08-22-02_28_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_perl-libwww-perl_POST_02",
+                "logname": "2023-08-22-02_33_39.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_perl-libwww-perl_lwp_request_02",
+                "logname": "2023-08-22-02_30_27.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_perl-libwww-perl_GET_02",
+                "logname": "2023-08-22-02_26_45.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_perl-libwww-perl_HEAD_01",
+                "logname": "2023-08-22-02_27_24.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_perl-libwww-perl_GET_01",
+                "logname": "2023-08-22-02_22_44.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_perl-libwww-perl_POST_01",
+                "logname": "2023-08-22-02_31_03.log",
+                "cause": [
+                    "file missing",
+                    "timeout"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "libksba",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_libksba",
+                "logname": "2023-08-22-03_23_44.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "geoclue2",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_geoclue",
+                "logname": "2023-08-22-03_09_30.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    }
+]

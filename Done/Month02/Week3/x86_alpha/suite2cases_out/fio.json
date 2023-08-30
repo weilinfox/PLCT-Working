@@ -1,8 +1,0 @@
-{
-    "path": "$OET_PATH/testcases/cli-test/fio",
-    "add disk": [
-        2,
-        2
-    ],
-    "cases": []
-}
