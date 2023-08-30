@@ -130,7 +130,7 @@ cp -r pinpong /usr/lib/python3.9/site-packages/
 python -c 'import pinpong'
 ```
 
-![pinpong_install](pinpong_install.png)
+![pinpong_install](./img/pinpong_install.png)
 
 ## 查看例程和板载资源
 
