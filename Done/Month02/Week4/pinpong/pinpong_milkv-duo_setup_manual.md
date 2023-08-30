@@ -7,6 +7,11 @@
 
 ![neofetch](./img/neofetch.png)
 
+**在其他操作系统上需要额外的或替代的操作，可以参考官方文档**
+
++ Windows 和 MacOS 上需要额外进行 [RNDIS 驱动配置](https://milkv.io/zh/docs/duo/getting-started/setup)
++ 不使用 dd 命令而是[使用 balenaEtcher 完成镜像写入](https://milkv.io/zh/docs/duo/getting-started/boot)
+
 ## 搭建开发环境
 
 ### 安装所需的软件包
