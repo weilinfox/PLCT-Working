@@ -4,7 +4,7 @@
 
 ### 1、安装对应的驱动
 
-[](https://milkv.io/zh/docs/duo/getting-started/setup)
+[https://milkv.io/zh/docs/duo/getting-started/setup](https://milkv.io/zh/docs/duo/getting-started/setup)
 
 ### 2、使用MobaXterm通过ssh方式连接milkv-duo   密码：milkv
 
@@ -64,4 +64,4 @@ SPI：以st7789.py为例，传入对应的spi设备号，可以通过ls /dev/查
 
 ### 6、引脚复用工具cvi_pinmux使用
 
-[](https://community.milkv.io/t/milk-v-duo-cvi-pinmux/292)
+[https://community.milkv.io/t/milk-v-duo-cvi-pinmux/292](https://community.milkv.io/t/milk-v-duo-cvi-pinmux/292)
