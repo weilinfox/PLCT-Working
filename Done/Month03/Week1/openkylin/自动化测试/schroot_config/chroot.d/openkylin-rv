@@ -1,0 +1,12 @@
+[openkylin-rv]
+type=directory
+union-type=overlay
+description=openkylin riscv
+directory=/opt/chroot/openkylin-rv
+source-root-groups=root,sbuild,admin,openkylin
+users=root
+root-users=openkylin,root
+groups=root
+root-groups=root
+profile=kylin
+preserve-environment=true
