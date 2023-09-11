@@ -1,0 +1,15 @@
+测试套/软件包名,测试用例名,日志文件,原因,Broken testcase,pkg not found,preinstall absent,kernel module absent,file missing,systemd unit restart failure,systemd unit runtime error,systemd unit enable failure,timeout
+ndisc6,oe_test_ndisc6_addr2name,2023-09-08-04_21_07.log,"file missing
+",0,0,0,0,1,0,0,0,0
+ndisc6,oe_test_ndisc6_name2addr,2023-09-08-04_22_33.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssh,oe_test_sec_ssh,2023-09-08-04_26_23.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssh,oe_test_openssh_port,2023-09-08-04_21_59.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+openssh,oe_test_service_sshd,2023-09-08-04_25_34.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,1,0,0,1,1,1,0
