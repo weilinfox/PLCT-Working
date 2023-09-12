@@ -1,0 +1,12 @@
+Mon Sep 11 21:32:00 2023 - INFO  - start to run testcase:oe_test_service_canberra-system-bootup.
+Mon Sep 11 21:32:25 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:32:25 2023 - INFO  - End to run testcase:oe_test_service_canberra-system-bootup.
+Mon Sep 11 21:32:26 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:32:28 2023 - INFO  - start to run testcase:oe_test_service_canberra-system-shutdown-reboot.
+Mon Sep 11 21:32:52 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:32:53 2023 - INFO  - End to run testcase:oe_test_service_canberra-system-shutdown-reboot.
+Mon Sep 11 21:32:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:32:56 2023 - INFO  - start to run testcase:oe_test_service_canberra-system-shutdown.
+Mon Sep 11 21:33:21 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:33:21 2023 - INFO  - End to run testcase:oe_test_service_canberra-system-shutdown.
+Mon Sep 11 21:33:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

@@ -1,0 +1,24 @@
+Mon Sep 11 21:15:23 2023 - INFO  - start to run testcase:oe_test_intltool_intltool-merge_01.
+Mon Sep 11 21:15:50 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:15:51 2023 - INFO  - End to run testcase:oe_test_intltool_intltool-merge_01.
+Mon Sep 11 21:15:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:15:54 2023 - INFO  - start to run testcase:oe_test_intltool_intltool-merge_02.
+Mon Sep 11 21:16:19 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:16:19 2023 - INFO  - End to run testcase:oe_test_intltool_intltool-merge_02.
+Mon Sep 11 21:16:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:16:22 2023 - INFO  - start to run testcase:oe_test_intltool_intltool-update.
+Mon Sep 11 21:17:01 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:17:02 2023 - INFO  - End to run testcase:oe_test_intltool_intltool-update.
+Mon Sep 11 21:17:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:17:05 2023 - INFO  - start to run testcase:oe_test_intltool_intltool-extract.
+Mon Sep 11 21:18:57 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:18:58 2023 - INFO  - End to run testcase:oe_test_intltool_intltool-extract.
+Mon Sep 11 21:18:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:19:01 2023 - INFO  - start to run testcase:oe_test_intltool_intltool-prepare.
+Mon Sep 11 21:19:21 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:19:22 2023 - INFO  - End to run testcase:oe_test_intltool_intltool-prepare.
+Mon Sep 11 21:19:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:19:25 2023 - INFO  - start to run testcase:oe_test_intltool_intltoolize.
+Mon Sep 11 21:19:47 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:19:47 2023 - INFO  - End to run testcase:oe_test_intltool_intltoolize.
+Mon Sep 11 21:19:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

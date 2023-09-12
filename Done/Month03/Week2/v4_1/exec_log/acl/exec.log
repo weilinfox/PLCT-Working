@@ -1,0 +1,64 @@
+Mon Sep 11 21:04:35 2023 - INFO  - start to run testcase:oe_test_acl_add_write_permissions.
+Mon Sep 11 21:04:49 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:04:49 2023 - INFO  - End to run testcase:oe_test_acl_add_write_permissions.
+Mon Sep 11 21:04:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:04:52 2023 - INFO  - start to run testcase:oe_test_acl_change_mask.
+Mon Sep 11 21:05:08 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:05:08 2023 - INFO  - End to run testcase:oe_test_acl_change_mask.
+Mon Sep 11 21:05:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:05:12 2023 - INFO  - start to run testcase:oe_test_acl_check_create.
+Mon Sep 11 21:05:19 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:05:19 2023 - INFO  - End to run testcase:oe_test_acl_check_create.
+Mon Sep 11 21:05:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:05:23 2023 - INFO  - start to run testcase:oe_test_acl_defaulr_rule.
+Mon Sep 11 21:05:31 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:05:32 2023 - INFO  - End to run testcase:oe_test_acl_defaulr_rule.
+Mon Sep 11 21:05:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:05:35 2023 - INFO  - start to run testcase:oe_test_acl_only_root_permission.
+Mon Sep 11 21:05:57 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:05:57 2023 - INFO  - End to run testcase:oe_test_acl_only_root_permission.
+Mon Sep 11 21:05:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:06:01 2023 - INFO  - start to run testcase:oe_test_acl_chacl.
+Mon Sep 11 21:06:21 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:06:21 2023 - INFO  - End to run testcase:oe_test_acl_chacl.
+Mon Sep 11 21:06:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:06:24 2023 - INFO  - start to run testcase:oe_test_acl_getfacl.
+Mon Sep 11 21:06:43 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:06:43 2023 - INFO  - End to run testcase:oe_test_acl_getfacl.
+Mon Sep 11 21:06:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:06:46 2023 - INFO  - start to run testcase:oe_test_acl_setfacl.
+Mon Sep 11 21:07:05 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:07:06 2023 - INFO  - End to run testcase:oe_test_acl_setfacl.
+Mon Sep 11 21:07:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:07:09 2023 - INFO  - start to run testcase:oe_test_access_providepam.
+Mon Sep 11 21:07:16 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:07:17 2023 - INFO  - End to run testcase:oe_test_access_providepam.
+Mon Sep 11 21:07:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:07:20 2023 - INFO  - start to run testcase:oe_test_acl_file.
+Mon Sep 11 21:07:50 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:07:51 2023 - INFO  - End to run testcase:oe_test_acl_file.
+Mon Sep 11 21:07:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:07:54 2023 - INFO  - start to run testcase:oe_test_acl_default_kernel_setting.
+Mon Sep 11 21:07:59 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:08:00 2023 - INFO  - End to run testcase:oe_test_acl_default_kernel_setting.
+Mon Sep 11 21:08:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:08:03 2023 - INFO  - start to run testcase:oe_test_acl_backup_recovery.
+Mon Sep 11 21:08:12 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:08:12 2023 - INFO  - End to run testcase:oe_test_acl_backup_recovery.
+Mon Sep 11 21:08:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:08:15 2023 - INFO  - start to run testcase:oe_test_acl_delete_acl.
+Mon Sep 11 21:08:24 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:08:24 2023 - INFO  - End to run testcase:oe_test_acl_delete_acl.
+Mon Sep 11 21:08:25 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:08:27 2023 - INFO  - start to run testcase:oe_test_acl_dir_write.
+Mon Sep 11 21:08:58 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:08:59 2023 - INFO  - End to run testcase:oe_test_acl_dir_write.
+Mon Sep 11 21:08:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:09:02 2023 - INFO  - start to run testcase:oe_test_acl_dir_read.
+Mon Sep 11 21:09:44 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:09:45 2023 - INFO  - End to run testcase:oe_test_acl_dir_read.
+Mon Sep 11 21:09:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:09:47 2023 - INFO  - start to run testcase:oe_test_acl_file_authorize.
+Mon Sep 11 21:10:13 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:10:13 2023 - INFO  - End to run testcase:oe_test_acl_file_authorize.
+Mon Sep 11 21:10:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

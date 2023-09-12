@@ -1,0 +1,171 @@
+Mon Sep 11 22:54:36 2023 - INFO  - start to run testcase:oe_test_audit_monitor_file_access.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Mon Sep 11 23:24:37 2023 - WARN  - The case execution timeout.
+Mon Sep 11 23:24:38 2023 - ERROR - The case exit by code 143.
+Mon Sep 11 23:24:38 2023 - INFO  - End to run testcase:oe_test_audit_monitor_file_access.
+Mon Sep 11 23:24:38 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Sep 11 23:24:41 2023 - INFO  - start to run testcase:oe_test_audit_monitor_dictionary_access.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Mon Sep 11 23:54:43 2023 - WARN  - The case execution timeout.
+Mon Sep 11 23:54:43 2023 - ERROR - The case exit by code 143.
+Mon Sep 11 23:54:43 2023 - INFO  - End to run testcase:oe_test_audit_monitor_dictionary_access.
+Mon Sep 11 23:54:44 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Sep 11 23:54:47 2023 - INFO  - start to run testcase:oe_test_audit_monitor_system_use.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 00:24:48 2023 - WARN  - The case execution timeout.
+Tue Sep 12 00:24:49 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 00:24:49 2023 - INFO  - End to run testcase:oe_test_audit_monitor_system_use.
+Tue Sep 12 00:24:50 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 00:24:52 2023 - INFO  - start to run testcase:oe_test_audit_monitor_do_command.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 00:54:53 2023 - WARN  - The case execution timeout.
+Tue Sep 12 00:54:54 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 00:54:54 2023 - INFO  - End to run testcase:oe_test_audit_monitor_do_command.
+Tue Sep 12 00:54:55 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 00:54:57 2023 - INFO  - start to run testcase:oe_test_audit_monitor_security_event.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 01:24:58 2023 - WARN  - The case execution timeout.
+Tue Sep 12 01:24:59 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 01:24:59 2023 - INFO  - End to run testcase:oe_test_audit_monitor_security_event.
+Tue Sep 12 01:25:00 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 01:25:02 2023 - INFO  - start to run testcase:oe_test_audit_monitor_network_visit.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 01:55:04 2023 - WARN  - The case execution timeout.
+Tue Sep 12 01:55:04 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 01:55:04 2023 - INFO  - End to run testcase:oe_test_audit_monitor_network_visit.
+Tue Sep 12 01:55:05 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 01:55:07 2023 - INFO  - start to run testcase:oe_test_audit_track_designated_access.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 02:25:08 2023 - WARN  - The case execution timeout.
+Tue Sep 12 02:25:09 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 02:25:09 2023 - INFO  - End to run testcase:oe_test_audit_track_designated_access.
+Tue Sep 12 02:25:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 02:25:12 2023 - INFO  - start to run testcase:oe_test_audit_use_d_audit.
+Tue Sep 12 02:25:23 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 02:25:23 2023 - INFO  - End to run testcase:oe_test_audit_use_d_audit.
+Tue Sep 12 02:25:24 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 02:25:26 2023 - INFO  - start to run testcase:oe_test_audit_use_w_audit.
+Tue Sep 12 02:25:34 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 02:25:35 2023 - INFO  - End to run testcase:oe_test_audit_use_w_audit.
+Tue Sep 12 02:25:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 02:25:38 2023 - INFO  - start to run testcase:oe_test_audit_rule_contact_strategy.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 02:55:39 2023 - WARN  - The case execution timeout.
+Tue Sep 12 02:55:39 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 02:55:40 2023 - INFO  - End to run testcase:oe_test_audit_rule_contact_strategy.
+Tue Sep 12 02:55:40 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 02:55:43 2023 - INFO  - start to run testcase:oe_test_audit_rule_conflict_strategy.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 03:25:44 2023 - WARN  - The case execution timeout.
+Tue Sep 12 03:25:45 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 03:25:45 2023 - INFO  - End to run testcase:oe_test_audit_rule_conflict_strategy.
+Tue Sep 12 03:25:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 03:25:48 2023 - INFO  - start to run testcase:oe_test_audit_rule_fetch_from_rule.
+Tue Sep 12 03:25:57 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 03:25:58 2023 - INFO  - End to run testcase:oe_test_audit_rule_fetch_from_rule.
+Tue Sep 12 03:25:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 03:26:01 2023 - INFO  - start to run testcase:oe_test_audit_fetch_file_in_order.
+Tue Sep 12 03:27:04 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 03:27:05 2023 - INFO  - End to run testcase:oe_test_audit_fetch_file_in_order.
+Tue Sep 12 03:27:05 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 03:27:07 2023 - INFO  - start to run testcase:oe_test_audit_count_time.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 03:57:09 2023 - WARN  - The case execution timeout.
+Tue Sep 12 03:57:09 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 03:57:10 2023 - INFO  - End to run testcase:oe_test_audit_count_time.
+Tue Sep 12 03:57:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 03:57:13 2023 - INFO  - start to run testcase:oe_test_audit_count_number_of_event.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 04:27:14 2023 - WARN  - The case execution timeout.
+Tue Sep 12 04:27:14 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 04:27:15 2023 - INFO  - End to run testcase:oe_test_audit_count_number_of_event.
+Tue Sep 12 04:27:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 04:27:18 2023 - INFO  - start to run testcase:oe_test_audit_show_event_list.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 04:57:19 2023 - WARN  - The case execution timeout.
+Tue Sep 12 04:57:19 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 04:57:20 2023 - INFO  - End to run testcase:oe_test_audit_show_event_list.
+Tue Sep 12 04:57:20 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 04:57:23 2023 - INFO  - start to run testcase:oe_test_audit_user_build_connection.
+Tue Sep 12 04:58:30 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 04:58:31 2023 - INFO  - End to run testcase:oe_test_audit_user_build_connection.
+Tue Sep 12 04:58:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 04:58:34 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_rotate.
+Tue Sep 12 05:00:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 05:00:05 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_rotate.
+Tue Sep 12 05:00:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 05:00:07 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_ignore.
+Tue Sep 12 05:01:02 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 05:01:03 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_ignore.
+Tue Sep 12 05:01:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 05:01:06 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_syslog.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 05:31:07 2023 - WARN  - The case execution timeout.
+Tue Sep 12 05:31:07 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 05:31:08 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_syslog.
+Tue Sep 12 05:31:08 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 05:31:11 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_suspend.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 06:01:12 2023 - WARN  - The case execution timeout.
+Tue Sep 12 06:01:13 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 06:01:13 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_suspend.
+Tue Sep 12 06:01:13 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 06:01:16 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_keep_logs.
+Tue Sep 12 06:07:09 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 06:07:10 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_keep_logs.
+Tue Sep 12 06:07:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 06:07:13 2023 - INFO  - start to run testcase:oe_test_audit_available_disk_space.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 06:37:14 2023 - WARN  - The case execution timeout.
+Tue Sep 12 06:37:15 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 06:37:15 2023 - INFO  - End to run testcase:oe_test_audit_available_disk_space.
+Tue Sep 12 06:37:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 06:37:18 2023 - INFO  - start to run testcase:oe_test_inject_time_fault.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Thu Sep 12 07:07:19 2024 - WARN  - The case execution timeout.
+Thu Sep 12 07:07:20 2024 - ERROR - The case exit by code 143.
+Thu Sep 12 07:07:20 2024 - INFO  - End to run testcase:oe_test_inject_time_fault.
+Thu Sep 12 07:07:20 2024 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu Sep 12 07:07:23 2024 - INFO  - start to run testcase:oe_test_service_auditd.
+Thu Sep 12 07:08:06 2024 - ERROR - The case exit by code 2.
+Thu Sep 12 07:08:06 2024 - INFO  - End to run testcase:oe_test_service_auditd.
+Thu Sep 12 07:08:07 2024 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu Sep 12 07:08:09 2024 - INFO  - start to run testcase:oe_test_audit_event_log.
+Thu Sep 12 07:08:23 2024 - ERROR - The case exit by code 1.
+Thu Sep 12 07:08:24 2024 - INFO  - End to run testcase:oe_test_audit_event_log.
+Thu Sep 12 07:08:24 2024 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu Sep 12 07:08:27 2024 - INFO  - start to run testcase:oe_test_audit_other.
+Thu Sep 12 07:08:38 2024 - INFO  - The case exit by code 0.
+Thu Sep 12 07:08:38 2024 - INFO  - End to run testcase:oe_test_audit_other.
+Thu Sep 12 07:08:39 2024 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu Sep 12 07:08:41 2024 - INFO  - start to run testcase:oe_test_start_audit.
+Thu Sep 12 07:08:54 2024 - INFO  - The case exit by code 0.
+Thu Sep 12 07:08:54 2024 - INFO  - End to run testcase:oe_test_start_audit.
+Thu Sep 12 07:08:54 2024 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Thu Sep 12 07:08:57 2024 - INFO  - start to run testcase:oe_test_audit_ausearch.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Thu Sep 12 07:38:58 2024 - WARN  - The case execution timeout.
+Thu Sep 12 07:38:59 2024 - ERROR - The case exit by code 143.
+Thu Sep 12 07:38:59 2024 - INFO  - End to run testcase:oe_test_audit_ausearch.
+Thu Sep 12 07:39:00 2024 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Thu Sep 12 07:39:02 2024 - INFO  - start to run testcase:oe_test_aulastlog.
+Thu Sep 12 07:39:26 2024 - INFO  - The case exit by code 0.
+Thu Sep 12 07:39:27 2024 - INFO  - End to run testcase:oe_test_aulastlog.
+Thu Sep 12 07:39:27 2024 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

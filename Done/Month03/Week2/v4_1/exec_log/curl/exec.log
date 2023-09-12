@@ -1,0 +1,36 @@
+Mon Sep 11 21:10:00 2023 - INFO  - start to run testcase:oe_test_curl_curl-config_001.
+Mon Sep 11 21:11:08 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:11:09 2023 - INFO  - End to run testcase:oe_test_curl_curl-config_001.
+Mon Sep 11 21:11:10 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:11:13 2023 - INFO  - start to run testcase:oe_test_curl_curl-config_002.
+Mon Sep 11 21:12:19 2023 - ERROR - The case exit by code 1.
+Mon Sep 11 21:12:19 2023 - INFO  - End to run testcase:oe_test_curl_curl-config_002.
+Mon Sep 11 21:12:20 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Sep 11 21:12:23 2023 - INFO  - start to run testcase:oe_test_curl_curl_001.
+Mon Sep 11 21:12:53 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:12:54 2023 - INFO  - End to run testcase:oe_test_curl_curl_001.
+Mon Sep 11 21:12:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:12:57 2023 - INFO  - start to run testcase:oe_test_curl_curl_002.
+Mon Sep 11 21:13:30 2023 - ERROR - The case exit by code 1.
+Mon Sep 11 21:13:31 2023 - INFO  - End to run testcase:oe_test_curl_curl_002.
+Mon Sep 11 21:13:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Sep 11 21:13:35 2023 - INFO  - start to run testcase:oe_test_curl_curl_003.
+Mon Sep 11 21:14:02 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:14:03 2023 - INFO  - End to run testcase:oe_test_curl_curl_003.
+Mon Sep 11 21:14:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:14:06 2023 - INFO  - start to run testcase:oe_test_curl_curl_004.
+Mon Sep 11 21:14:39 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:14:40 2023 - INFO  - End to run testcase:oe_test_curl_curl_004.
+Mon Sep 11 21:14:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:14:43 2023 - INFO  - start to run testcase:oe_test_curl_curl_005.
+Mon Sep 11 21:15:13 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:15:14 2023 - INFO  - End to run testcase:oe_test_curl_curl_005.
+Mon Sep 11 21:15:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Mon Sep 11 21:15:17 2023 - INFO  - start to run testcase:oe_test_curl_curl_006.
+Mon Sep 11 21:15:42 2023 - ERROR - The case exit by code 1.
+Mon Sep 11 21:15:43 2023 - INFO  - End to run testcase:oe_test_curl_curl_006.
+Mon Sep 11 21:15:43 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Mon Sep 11 21:15:46 2023 - INFO  - start to run testcase:oe_test_curl_curl_007.
+Mon Sep 11 21:16:09 2023 - INFO  - The case exit by code 0.
+Mon Sep 11 21:16:10 2023 - INFO  - End to run testcase:oe_test_curl_curl_007.
+Mon Sep 11 21:16:10 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
