@@ -1,0 +1,20 @@
+Wed Sep 13 07:24:26 2023 - INFO  - start to run testcase:oe_test_service_clevis-luks-askpass.
+Wed Sep 13 07:25:47 2023 - ERROR - The case exit by code 1.
+Wed Sep 13 07:25:47 2023 - INFO  - End to run testcase:oe_test_service_clevis-luks-askpass.
+Wed Sep 13 07:25:47 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Wed Sep 13 07:25:47 2023 - INFO  - start to run testcase:oe_test_high_nbde.
+Wed Sep 13 07:26:35 2023 - ERROR - The case exit by code 7.
+Wed Sep 13 07:26:36 2023 - INFO  - End to run testcase:oe_test_high_nbde.
+Wed Sep 13 07:26:36 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Wed Sep 13 07:26:36 2023 - INFO  - start to run testcase:oe_test_install_clevis.
+Wed Sep 13 07:27:06 2023 - INFO  - The case exit by code 0.
+Wed Sep 13 07:27:06 2023 - INFO  - End to run testcase:oe_test_install_clevis.
+Wed Sep 13 07:27:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed Sep 13 07:27:07 2023 - INFO  - start to run testcase:oe_test_tang_encrypt.
+Wed Sep 13 07:27:27 2023 - INFO  - The case exit by code 0.
+Wed Sep 13 07:27:27 2023 - INFO  - End to run testcase:oe_test_tang_encrypt.
+Wed Sep 13 07:27:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Wed Sep 13 07:27:27 2023 - INFO  - start to run testcase:oe_test_tang_nbde.
+Wed Sep 13 07:27:43 2023 - INFO  - The case exit by code 0.
+Wed Sep 13 07:27:43 2023 - INFO  - End to run testcase:oe_test_tang_nbde.
+Wed Sep 13 07:27:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
