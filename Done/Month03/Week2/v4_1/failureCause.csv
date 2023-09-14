@@ -86,6 +86,9 @@ systemd unit restart failure
 systemd unit runtime error
 systemd unit enable failure
 ",0,0,0,0,1,1,1,1,0
+polkit,oe_test_service_polkit,2023-09-15-00_32_54.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
 fftw,oe_test_fftw_fftwl-wisdom_02,2023-09-11-21_08_03.log,,0,0,0,0,0,0,0,0,0
 fftw,oe_test_fftw_fftw-wisdom_02,2023-09-11-21_05_36.log,,0,0,0,0,0,0,0,0,0
 fftw,oe_test_fftw_fftwf-wisdom_02,2023-09-11-21_06_51.log,,0,0,0,0,0,0,0,0,0

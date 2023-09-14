@@ -2541,6 +2541,27 @@
         "failedCases": []
     },
     {
+        "name": "polkit",
+        "caseNum": 1,
+        "passedCaseNum": 0,
+        "failedCaseNum": 1,
+        "passedCases": [],
+        "failedCases": [
+            {
+                "name": "oe_test_service_polkit",
+                "logname": "2023-09-15-00_32_54.log",
+                "cause": [
+                    "systemd unit restart failure",
+                    "systemd unit runtime error"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
         "name": "dos2unix",
         "caseNum": 1,
         "passedCaseNum": 1,
