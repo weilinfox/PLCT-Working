@@ -1,0 +1,160 @@
+Tue Sep 12 10:01:02 2023 - INFO  - start to run testcase:oe_test_FSIO_act_alias.
+Tue Sep 12 10:01:02 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:02 2023 - INFO  - End to run testcase:oe_test_FSIO_act_alias.
+Tue Sep 12 10:01:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:03 2023 - INFO  - start to run testcase:oe_test_FSIO_act_file_lack_inode.
+Tue Sep 12 10:01:03 2023 - ERROR - The case exit by code 6.
+Tue Sep 12 10:01:03 2023 - INFO  - End to run testcase:oe_test_FSIO_act_file_lack_inode.
+Tue Sep 12 10:01:03 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:01:04 2023 - INFO  - start to run testcase:oe_test_FSIO_act_hardlink.
+Tue Sep 12 10:01:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:04 2023 - INFO  - End to run testcase:oe_test_FSIO_act_hardlink.
+Tue Sep 12 10:01:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:04 2023 - INFO  - start to run testcase:oe_test_FSIO_bzip2.
+Tue Sep 12 10:01:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:04 2023 - INFO  - End to run testcase:oe_test_FSIO_bzip2.
+Tue Sep 12 10:01:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:05 2023 - INFO  - start to run testcase:oe_test_FSIO_change_proc.
+Tue Sep 12 10:01:05 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:05 2023 - INFO  - End to run testcase:oe_test_FSIO_change_proc.
+Tue Sep 12 10:01:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:05 2023 - INFO  - start to run testcase:oe_test_FSIO_chattr.
+Tue Sep 12 10:01:05 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:05 2023 - INFO  - End to run testcase:oe_test_FSIO_chattr.
+Tue Sep 12 10:01:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:06 2023 - INFO  - start to run testcase:oe_test_FSIO_check_alias.
+Tue Sep 12 10:01:06 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:06 2023 - INFO  - End to run testcase:oe_test_FSIO_check_alias.
+Tue Sep 12 10:01:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:06 2023 - INFO  - start to run testcase:oe_test_FSIO_check_block.
+Tue Sep 12 10:01:06 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:06 2023 - INFO  - End to run testcase:oe_test_FSIO_check_block.
+Tue Sep 12 10:01:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:06 2023 - INFO  - start to run testcase:oe_test_FSIO_check_file_info.
+Tue Sep 12 10:01:07 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:07 2023 - INFO  - End to run testcase:oe_test_FSIO_check_file_info.
+Tue Sep 12 10:01:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:07 2023 - INFO  - start to run testcase:oe_test_FSIO_chmod.
+Tue Sep 12 10:01:07 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:01:07 2023 - INFO  - End to run testcase:oe_test_FSIO_chmod.
+Tue Sep 12 10:01:07 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:01:07 2023 - INFO  - start to run testcase:oe_test_FSIO_chown.
+Tue Sep 12 10:01:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:08 2023 - INFO  - End to run testcase:oe_test_FSIO_chown.
+Tue Sep 12 10:01:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:08 2023 - INFO  - start to run testcase:oe_test_FSIO_concurrency_read_file.
+Tue Sep 12 10:03:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:04 2023 - INFO  - End to run testcase:oe_test_FSIO_concurrency_read_file.
+Tue Sep 12 10:03:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:04 2023 - INFO  - start to run testcase:oe_test_FSIO_concurrency_write_file.
+Tue Sep 12 10:04:15 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:15 2023 - INFO  - End to run testcase:oe_test_FSIO_concurrency_write_file.
+Tue Sep 12 10:04:15 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:15 2023 - INFO  - start to run testcase:oe_test_FSIO_cp_file.
+Tue Sep 12 10:04:16 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:16 2023 - INFO  - End to run testcase:oe_test_FSIO_cp_file.
+Tue Sep 12 10:04:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:16 2023 - INFO  - start to run testcase:oe_test_FSIO_create_block.
+Tue Sep 12 10:04:16 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:16 2023 - INFO  - End to run testcase:oe_test_FSIO_create_block.
+Tue Sep 12 10:04:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:17 2023 - INFO  - start to run testcase:oe_test_FSIO_create_character.
+Tue Sep 12 10:04:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:17 2023 - INFO  - End to run testcase:oe_test_FSIO_create_character.
+Tue Sep 12 10:04:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:17 2023 - INFO  - start to run testcase:oe_test_FSIO_create_hardlink_fail.
+Tue Sep 12 10:04:17 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:04:17 2023 - INFO  - End to run testcase:oe_test_FSIO_create_hardlink_fail.
+Tue Sep 12 10:04:18 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:04:18 2023 - INFO  - start to run testcase:oe_test_FSIO_create_mv_hardlink.
+Tue Sep 12 10:04:18 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:18 2023 - INFO  - End to run testcase:oe_test_FSIO_create_mv_hardlink.
+Tue Sep 12 10:04:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:18 2023 - INFO  - start to run testcase:oe_test_FSIO_create_softlink.
+Tue Sep 12 10:04:18 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:18 2023 - INFO  - End to run testcase:oe_test_FSIO_create_softlink.
+Tue Sep 12 10:04:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:19 2023 - INFO  - start to run testcase:oe_test_FSIO_create_softlink_diff_fs.
+Tue Sep 12 10:04:19 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:19 2023 - INFO  - End to run testcase:oe_test_FSIO_create_softlink_diff_fs.
+Tue Sep 12 10:04:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:19 2023 - INFO  - start to run testcase:oe_test_FSIO_create_softlink_dir.
+Tue Sep 12 10:04:19 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:19 2023 - INFO  - End to run testcase:oe_test_FSIO_create_softlink_dir.
+Tue Sep 12 10:04:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:19 2023 - INFO  - start to run testcase:oe_test_FSIO_create_softlink_file.
+Tue Sep 12 10:04:20 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:20 2023 - INFO  - End to run testcase:oe_test_FSIO_create_softlink_file.
+Tue Sep 12 10:04:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:20 2023 - INFO  - start to run testcase:oe_test_FSIO_dd_file.
+Tue Sep 12 10:04:20 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:20 2023 - INFO  - End to run testcase:oe_test_FSIO_dd_file.
+Tue Sep 12 10:04:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:20 2023 - INFO  - start to run testcase:oe_test_FSIO_filefrag.
+Tue Sep 12 10:04:21 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:04:21 2023 - INFO  - End to run testcase:oe_test_FSIO_filefrag.
+Tue Sep 12 10:04:21 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:04:21 2023 - INFO  - start to run testcase:oe_test_FSIO_gzip.
+Tue Sep 12 10:04:21 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:21 2023 - INFO  - End to run testcase:oe_test_FSIO_gzip.
+Tue Sep 12 10:04:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:22 2023 - INFO  - start to run testcase:oe_test_FSIO_gzip_overfs.
+Tue Sep 12 10:04:22 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:04:22 2023 - INFO  - End to run testcase:oe_test_FSIO_gzip_overfs.
+Tue Sep 12 10:04:22 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:04:22 2023 - INFO  - start to run testcase:oe_test_FSIO_modify_file.
+Tue Sep 12 10:04:27 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:27 2023 - INFO  - End to run testcase:oe_test_FSIO_modify_file.
+Tue Sep 12 10:04:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:27 2023 - INFO  - start to run testcase:oe_test_FSIO_modify_magicfile.
+Tue Sep 12 10:04:27 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:27 2023 - INFO  - End to run testcase:oe_test_FSIO_modify_magicfile.
+Tue Sep 12 10:04:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:27 2023 - INFO  - start to run testcase:oe_test_FSIO_mv_file_1.
+Tue Sep 12 10:04:27 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:28 2023 - INFO  - End to run testcase:oe_test_FSIO_mv_file_1.
+Tue Sep 12 10:04:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:28 2023 - INFO  - start to run testcase:oe_test_FSIO_mv_file_2.
+Tue Sep 12 10:04:28 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:28 2023 - INFO  - End to run testcase:oe_test_FSIO_mv_file_2.
+Tue Sep 12 10:04:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:28 2023 - INFO  - start to run testcase:oe_test_FSIO_rename_file.
+Tue Sep 12 10:04:28 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:28 2023 - INFO  - End to run testcase:oe_test_FSIO_rename_file.
+Tue Sep 12 10:04:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:28 2023 - INFO  - start to run testcase:oe_test_FSIO_rename_file_fail.
+Tue Sep 12 10:04:29 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:04:29 2023 - INFO  - End to run testcase:oe_test_FSIO_rename_file_fail.
+Tue Sep 12 10:04:29 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:04:29 2023 - INFO  - start to run testcase:oe_test_FSIO_rm_file.
+Tue Sep 12 10:04:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:29 2023 - INFO  - End to run testcase:oe_test_FSIO_rm_file.
+Tue Sep 12 10:04:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:29 2023 - INFO  - start to run testcase:oe_test_FSIO_rm_hardlink.
+Tue Sep 12 10:04:30 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:30 2023 - INFO  - End to run testcase:oe_test_FSIO_rm_hardlink.
+Tue Sep 12 10:04:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:30 2023 - INFO  - start to run testcase:oe_test_FSIO_rm_softlink.
+Tue Sep 12 10:04:30 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:30 2023 - INFO  - End to run testcase:oe_test_FSIO_rm_softlink.
+Tue Sep 12 10:04:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:30 2023 - INFO  - start to run testcase:oe_test_FSIO_sys_fs_check.
+Tue Sep 12 10:04:31 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:04:31 2023 - INFO  - End to run testcase:oe_test_FSIO_sys_fs_check.
+Tue Sep 12 10:04:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:04:31 2023 - INFO  - start to run testcase:oe_test_FSIO_tar.
+Tue Sep 12 10:04:35 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:35 2023 - INFO  - End to run testcase:oe_test_FSIO_tar.
+Tue Sep 12 10:04:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:35 2023 - INFO  - start to run testcase:oe_test_FSIO_touch_file.
+Tue Sep 12 10:04:35 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:35 2023 - INFO  - End to run testcase:oe_test_FSIO_touch_file.
+Tue Sep 12 10:04:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:35 2023 - INFO  - start to run testcase:oe_test_FSIO_zip_unzip.
+Tue Sep 12 10:04:36 2023 - ERROR - The case exit by code 8.
+Tue Sep 12 10:04:36 2023 - INFO  - End to run testcase:oe_test_FSIO_zip_unzip.
+Tue Sep 12 10:04:36 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:04:36 2023 - INFO  - start to run testcase:oe_test_FSIO_zip_unzip_overfs.
+Tue Sep 12 10:04:37 2023 - ERROR - The case exit by code 9.
+Tue Sep 12 10:04:37 2023 - INFO  - End to run testcase:oe_test_FSIO_zip_unzip_overfs.
+Tue Sep 12 10:04:37 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

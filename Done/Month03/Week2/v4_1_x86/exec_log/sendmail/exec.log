@@ -1,0 +1,12 @@
+Tue Sep 12 10:06:52 2023 - INFO  - start to run testcase:oe_test_service_sendmail.
+Tue Sep 12 10:07:19 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:07:19 2023 - INFO  - End to run testcase:oe_test_service_sendmail.
+Tue Sep 12 10:07:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:07:19 2023 - INFO  - start to run testcase:oe_test_service_sm-client.
+Tue Sep 12 10:07:40 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:07:40 2023 - INFO  - End to run testcase:oe_test_service_sm-client.
+Tue Sep 12 10:07:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:07:40 2023 - INFO  - start to run testcase:oe_test_sendmail_func_001.
+Tue Sep 12 10:07:50 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:07:50 2023 - INFO  - End to run testcase:oe_test_sendmail_func_001.
+Tue Sep 12 10:07:50 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

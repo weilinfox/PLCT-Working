@@ -1,0 +1,123 @@
+Tue Sep 12 09:57:34 2023 - INFO  - start to run testcase:oe_test_audit_monitor_file_access.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Tue Sep 12 10:27:34 2023 - WARN  - The case execution timeout.
+Tue Sep 12 10:27:34 2023 - ERROR - The case exit by code 143.
+Tue Sep 12 10:27:34 2023 - INFO  - End to run testcase:oe_test_audit_monitor_file_access.
+Tue Sep 12 10:27:35 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:35 2023 - INFO  - start to run testcase:oe_test_audit_monitor_dictionary_access.
+Tue Sep 12 10:27:36 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:27:36 2023 - INFO  - End to run testcase:oe_test_audit_monitor_dictionary_access.
+Tue Sep 12 10:27:36 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:36 2023 - INFO  - start to run testcase:oe_test_audit_monitor_system_use.
+Tue Sep 12 10:27:38 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:27:38 2023 - INFO  - End to run testcase:oe_test_audit_monitor_system_use.
+Tue Sep 12 10:27:38 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:38 2023 - INFO  - start to run testcase:oe_test_audit_monitor_do_command.
+Tue Sep 12 10:27:39 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:27:39 2023 - INFO  - End to run testcase:oe_test_audit_monitor_do_command.
+Tue Sep 12 10:27:39 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:39 2023 - INFO  - start to run testcase:oe_test_audit_monitor_security_event.
+Tue Sep 12 10:27:55 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:27:55 2023 - INFO  - End to run testcase:oe_test_audit_monitor_security_event.
+Tue Sep 12 10:27:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:27:55 2023 - INFO  - start to run testcase:oe_test_audit_monitor_network_visit.
+Tue Sep 12 10:27:56 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:27:56 2023 - INFO  - End to run testcase:oe_test_audit_monitor_network_visit.
+Tue Sep 12 10:27:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:56 2023 - INFO  - start to run testcase:oe_test_audit_track_designated_access.
+Tue Sep 12 10:27:56 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:27:56 2023 - INFO  - End to run testcase:oe_test_audit_track_designated_access.
+Tue Sep 12 10:27:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:57 2023 - INFO  - start to run testcase:oe_test_audit_use_d_audit.
+Tue Sep 12 10:27:57 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:27:57 2023 - INFO  - End to run testcase:oe_test_audit_use_d_audit.
+Tue Sep 12 10:27:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:57 2023 - INFO  - start to run testcase:oe_test_audit_use_w_audit.
+Tue Sep 12 10:27:58 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:27:58 2023 - INFO  - End to run testcase:oe_test_audit_use_w_audit.
+Tue Sep 12 10:27:58 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:27:58 2023 - INFO  - start to run testcase:oe_test_audit_rule_contact_strategy.
+Tue Sep 12 10:28:09 2023 - ERROR - The case exit by code 5.
+Tue Sep 12 10:28:09 2023 - INFO  - End to run testcase:oe_test_audit_rule_contact_strategy.
+Tue Sep 12 10:28:09 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:09 2023 - INFO  - start to run testcase:oe_test_audit_rule_conflict_strategy.
+Tue Sep 12 10:28:10 2023 - ERROR - The case exit by code 6.
+Tue Sep 12 10:28:10 2023 - INFO  - End to run testcase:oe_test_audit_rule_conflict_strategy.
+Tue Sep 12 10:28:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:10 2023 - INFO  - start to run testcase:oe_test_audit_rule_fetch_from_rule.
+Tue Sep 12 10:28:11 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:28:11 2023 - INFO  - End to run testcase:oe_test_audit_rule_fetch_from_rule.
+Tue Sep 12 10:28:11 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:11 2023 - INFO  - start to run testcase:oe_test_audit_fetch_file_in_order.
+Tue Sep 12 10:28:15 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:28:15 2023 - INFO  - End to run testcase:oe_test_audit_fetch_file_in_order.
+Tue Sep 12 10:28:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:16 2023 - INFO  - start to run testcase:oe_test_audit_count_time.
+Tue Sep 12 10:28:16 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:28:16 2023 - INFO  - End to run testcase:oe_test_audit_count_time.
+Tue Sep 12 10:28:16 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:16 2023 - INFO  - start to run testcase:oe_test_audit_count_number_of_event.
+Tue Sep 12 10:28:16 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:28:17 2023 - INFO  - End to run testcase:oe_test_audit_count_number_of_event.
+Tue Sep 12 10:28:17 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:17 2023 - INFO  - start to run testcase:oe_test_audit_show_event_list.
+Tue Sep 12 10:28:17 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:28:17 2023 - INFO  - End to run testcase:oe_test_audit_show_event_list.
+Tue Sep 12 10:28:17 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:17 2023 - INFO  - start to run testcase:oe_test_audit_user_build_connection.
+Tue Sep 12 10:28:53 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:28:53 2023 - INFO  - End to run testcase:oe_test_audit_user_build_connection.
+Tue Sep 12 10:28:53 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:53 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_rotate.
+Tue Sep 12 10:28:53 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:28:53 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_rotate.
+Tue Sep 12 10:28:53 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:28:54 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_ignore.
+Tue Sep 12 10:29:03 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:29:03 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_ignore.
+Tue Sep 12 10:29:03 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:29:03 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_syslog.
+Tue Sep 12 10:29:15 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:29:15 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_syslog.
+Tue Sep 12 10:29:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:29:15 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_suspend.
+Tue Sep 12 10:29:27 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:29:27 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_suspend.
+Tue Sep 12 10:29:28 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:29:28 2023 - INFO  - start to run testcase:oe_test_audit_max_log_file_keep_logs.
+Tue Sep 12 10:29:29 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:29:29 2023 - INFO  - End to run testcase:oe_test_audit_max_log_file_keep_logs.
+Tue Sep 12 10:29:29 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:29:29 2023 - INFO  - start to run testcase:oe_test_audit_available_disk_space.
+Tue Sep 12 10:31:47 2023 - ERROR - The case exit by code 35.
+Tue Sep 12 10:31:47 2023 - INFO  - End to run testcase:oe_test_audit_available_disk_space.
+Tue Sep 12 10:31:47 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:31:47 2023 - INFO  - start to run testcase:oe_test_inject_time_fault.
+Fri Sep 12 10:32:00 2025 - ERROR - The case exit by code 1.
+Fri Sep 12 10:32:00 2025 - INFO  - End to run testcase:oe_test_inject_time_fault.
+Fri Sep 12 10:32:00 2025 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Fri Sep 12 10:32:00 2025 - INFO  - start to run testcase:oe_test_service_auditd.
+Fri Sep 12 10:32:16 2025 - ERROR - The case exit by code 8.
+Fri Sep 12 10:32:16 2025 - INFO  - End to run testcase:oe_test_service_auditd.
+Fri Sep 12 10:32:16 2025 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Fri Sep 12 10:32:16 2025 - INFO  - start to run testcase:oe_test_audit_event_log.
+Fri Sep 12 10:32:16 2025 - ERROR - The case exit by code 2.
+Fri Sep 12 10:32:16 2025 - INFO  - End to run testcase:oe_test_audit_event_log.
+Fri Sep 12 10:32:16 2025 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Fri Sep 12 10:32:17 2025 - INFO  - start to run testcase:oe_test_audit_other.
+Fri Sep 12 10:32:17 2025 - ERROR - The case exit by code 8.
+Fri Sep 12 10:32:17 2025 - INFO  - End to run testcase:oe_test_audit_other.
+Fri Sep 12 10:32:17 2025 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Fri Sep 12 10:32:18 2025 - INFO  - start to run testcase:oe_test_start_audit.
+Fri Sep 12 10:32:18 2025 - ERROR - The case exit by code 4.
+Fri Sep 12 10:32:18 2025 - INFO  - End to run testcase:oe_test_start_audit.
+Fri Sep 12 10:32:18 2025 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Fri Sep 12 10:32:18 2025 - INFO  - start to run testcase:oe_test_audit_ausearch.
+Fri Sep 12 10:32:20 2025 - ERROR - The case exit by code 6.
+Fri Sep 12 10:32:20 2025 - INFO  - End to run testcase:oe_test_audit_ausearch.
+Fri Sep 12 10:32:20 2025 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Fri Sep 12 10:32:20 2025 - INFO  - start to run testcase:oe_test_aulastlog.
+Fri Sep 12 10:32:31 2025 - ERROR - The case exit by code 4.
+Fri Sep 12 10:32:32 2025 - INFO  - End to run testcase:oe_test_aulastlog.
+Fri Sep 12 10:32:32 2025 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

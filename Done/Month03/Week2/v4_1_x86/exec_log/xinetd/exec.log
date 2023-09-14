@@ -1,0 +1,8 @@
+Tue Sep 12 10:08:51 2023 - INFO  - start to run testcase:oe_test_service_xinetd.
+Tue Sep 12 10:09:10 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:09:10 2023 - INFO  - End to run testcase:oe_test_service_xinetd.
+Tue Sep 12 10:09:10 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:09:10 2023 - INFO  - start to run testcase:oe_test_service_xinetd_002.
+Tue Sep 12 10:09:14 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:09:14 2023 - INFO  - End to run testcase:oe_test_service_xinetd_002.
+Tue Sep 12 10:09:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

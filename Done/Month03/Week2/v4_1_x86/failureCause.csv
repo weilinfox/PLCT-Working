@@ -1,0 +1,287 @@
+测试套/软件包名,测试用例名,日志文件,原因,Broken testcase,pkg not found,preinstall absent,kernel module absent,file missing,systemd unit restart failure,systemd unit runtime error,systemd unit enable failure,timeout
+smoke-basic-os,oe_test_network_001,2023-09-12-10_02_51.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ip_ipv6_03,2023-09-12-10_13_57.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_dumpe2fs,2023-09-12-10_55_01.log,"file missing
+",0,0,0,0,1,0,0,0,0
+smoke-basic-os,oe_test_IPV6_traceroute6_02,2023-09-12-10_14_21.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_g++,2023-09-12-10_55_06.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+smoke-basic-os,oe_test_route_ipv6,2023-09-12-10_20_12.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_binutils-objcopy,2023-09-12-10_55_07.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+smoke-basic-os,oe_test_normal_tcpdump_02,2023-09-12-10_47_02.log,"timeout
+",0,0,0,0,0,0,0,0,1
+smoke-basic-os,oe_test_mkdosfs,2023-09-12-10_54_57.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_mtr,2023-09-12-10_42_59.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ip_ipv6_01,2023-09-12-10_13_55.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ethtool_01,2023-09-12-10_12_30.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ip_ipv6_04,2023-09-12-10_13_57.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_normal_tcpdump_03,2023-09-12-10_18_35.log,"file missing
+",0,0,0,0,1,0,0,0,0
+smoke-basic-os,oe_test_mke2fs,2023-09-12-10_55_02.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_normal_tcpdump_04,2023-09-12-10_47_09.log,"file missing
+",0,0,0,0,1,0,0,0,0
+smoke-basic-os,oe_test_journalctl,2023-09-12-10_02_18.log,"timeout
+",0,0,0,0,0,0,0,0,1
+smoke-basic-os,oe_test_tftp_ipv6,2023-09-12-10_40_02.log,"file missing
+",0,0,0,0,1,0,0,0,0
+smoke-basic-os,oe_test_rsyslog_03,2023-09-12-10_20_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+smoke-basic-os,oe_test_ipv6_VLAN_02,2023-09-12-10_14_31.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ncurses,2023-09-12-10_17_21.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_acpid_002,2023-09-12-10_55_03.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ipv6_VLAN_01,2023-09-12-10_14_31.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_arping,2023-09-12-10_10_00.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ifconfig_ipv6_01,2023-09-12-10_13_45.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_ip_ipv6_02,2023-09-12-10_13_56.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_sevice_001,2023-09-12-10_03_30.log,,0,0,0,0,0,0,0,0,0
+smoke-basic-os,oe_test_perl,2023-09-12-10_19_40.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+smoke-basic-os,oe_test_audit_fixed_memory_01,2023-09-12-10_45_43.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+smoke-basic-os,oe_test_iproute_ipv6_01,2023-09-12-10_13_59.log,,0,0,0,0,0,0,0,0,0
+irqbalance,oe_test_service_irqbalance,2023-09-12-10_11_03.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+curl,oe_test_curl_curl_002,2023-09-12-09_57_49.log,,0,0,0,0,0,0,0,0,0
+curl,oe_test_curl_curl-config_002,2023-09-12-09_57_40.log,,0,0,0,0,0,0,0,0,0
+curl,oe_test_curl_curl_006,2023-09-12-09_58_17.log,,0,0,0,0,0,0,0,0,0
+radvd,oe_test_service_radvd,2023-09-12-10_12_28.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+polkit,oe_test_service_polkit,2023-09-12-10_12_20.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+fftw,oe_test_fftw_fftwl-wisdom_02,2023-09-12-10_00_28.log,,0,0,0,0,0,0,0,0,0
+fftw,oe_test_fftw_fftw-wisdom_02,2023-09-12-09_59_22.log,,0,0,0,0,0,0,0,0,0
+fftw,oe_test_fftw_fftwf-wisdom_02,2023-09-12-09_59_58.log,,0,0,0,0,0,0,0,0,0
+fftw,oe_test_fftw_fftw-wisdom-to-conf,2023-09-12-09_57_36.log,,0,0,0,0,0,0,0,0,0
+dkms,oe_test_service_dkms,2023-09-12-10_10_14.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+open-iscsi,oe_test_service_iscsiuio,2023-09-12-09_59_38.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+open-iscsi,oe_test_service_iscsi,2023-09-12-09_59_18.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+open-iscsi,oe_test_socket_iscsiuio,2023-09-12-10_00_19.log,,0,0,0,0,0,0,0,0,0
+open-iscsi,oe_test_socket_iscsid,2023-09-12-09_59_59.log,"file missing
+",0,0,0,0,1,0,0,0,0
+open-iscsi,oe_test_open-iscsi_iscsiadm,2023-09-12-09_58_27.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+open-iscsi,oe_test_open-iscsi_iscsistart_iscsiuio,2023-09-12-09_58_41.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+iptables,oe_test_ip6tables-save,2023-09-12-10_01_37.log,,0,0,0,0,0,0,0,0,0
+iptables,oe_test_service_iptables,2023-09-12-10_01_17.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+iptables,oe_test_service_ip6tables,2023-09-12-10_01_00.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+iptables,oe_test_iptables-restore,2023-09-12-10_01_33.log,,0,0,0,0,0,0,0,0,0
+iptables,oe_test_ip6tables-restore_01,2023-09-12-10_01_40.log,,0,0,0,0,0,0,0,0,0
+automake,oe_test_automake,2023-09-12-10_08_56.log,"file missing
+",0,0,0,0,1,0,0,0,0
+cachefilesd,oe_test_service_cachefilesd,2023-09-12-10_09_39.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+samba,oe_test_service_samba,2023-09-12-10_01_56.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+mcstrans,oe_test_service_mcstransd,2023-09-12-10_07_55.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+mcstrans,oe_test_service_mcstrans,2023-09-12-10_08_14.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+xinetd,oe_test_service_xinetd,2023-09-12-10_08_51.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+audit,oe_test_audit_show_event_list,2023-09-12-10_28_17.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_monitor_do_command,2023-09-12-10_27_38.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_fetch_file_in_order,2023-09-12-10_28_11.log,"file missing
+",0,0,0,0,1,0,0,0,0
+audit,oe_test_audit_use_w_audit,2023-09-12-10_27_57.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_aulastlog,2025-09-12-10_32_20.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_count_number_of_event,2023-09-12-10_28_16.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_service_auditd,2025-09-12-10_32_00.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_monitor_network_visit,2023-09-12-10_27_55.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_monitor_file_access,2023-09-12-09_57_34.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+audit,oe_test_audit_track_designated_access,2023-09-12-10_27_56.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_max_log_file_suspend,2023-09-12-10_29_15.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_rule_fetch_from_rule,2023-09-12-10_28_10.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_inject_time_fault,2023-09-12-10_31_47.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_use_d_audit,2023-09-12-10_27_57.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_ausearch,2025-09-12-10_32_18.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_other,2025-09-12-10_32_17.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_event_log,2025-09-12-10_32_16.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_max_log_file_rotate,2023-09-12-10_28_53.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_count_time,2023-09-12-10_28_16.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_start_audit,2025-09-12-10_32_18.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_rule_conflict_strategy,2023-09-12-10_28_09.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_rule_contact_strategy,2023-09-12-10_27_58.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_max_log_file_ignore,2023-09-12-10_28_54.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_available_disk_space,2023-09-12-10_29_29.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_monitor_system_use,2023-09-12-10_27_37.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_max_log_file_keep_logs,2023-09-12-10_29_28.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_max_log_file_syslog,2023-09-12-10_29_03.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_monitor_dictionary_access,2023-09-12-10_27_35.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+audit,oe_test_audit_user_build_connection,2023-09-12-10_28_17.log,"file missing
+",0,0,0,0,1,0,0,0,0
+acl,oe_test_access_providepam,2023-09-12-09_57_43.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_001,2023-09-12-10_02_25.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_004,2023-09-12-10_11_57.log,,0,0,0,0,0,0,0,0,0
+fio,oe_test_fio_003,2023-09-12-10_09_16.log,"file missing
+",0,0,0,0,1,0,0,0,0
+fio,oe_test_fio_002,2023-09-12-10_05_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+glusterfs,oe_test_service_gluster-ta-volume,2023-09-12-10_02_28.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+libosinfo,oe_test_osinfo-db-import,2023-09-12-10_04_01.log,"file missing
+",0,0,0,0,1,0,0,0,0
+libosinfo,oe_test_osinfo-detect,2023-09-12-10_03_16.log,"file missing
+",0,0,0,0,1,0,0,0,0
+rtkit,oe_test_service_rtkit-daemon,2023-09-12-10_12_53.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+gdb,oe_test_gdb-breakpoints,2023-09-12-10_02_04.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+gdb,oe_test_gdb-watch,2023-09-12-10_02_06.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+gdb,oe_test_gdb-list,2023-09-12-10_02_05.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+gdb,oe_test_gdb-bt,2023-09-12-10_02_05.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+systemtap,oe_test_service_systemtap,2023-09-12-10_07_19.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+smartmontools,oe_test_service_smartd,2023-09-12-10_13_07.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+sendmail,oe_test_sendmail_func_001,2023-09-12-10_07_40.log,"file missing
+",0,0,0,0,1,0,0,0,0
+FS_File,oe_test_FSIO_zip_unzip,2023-09-12-10_04_35.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_filefrag,2023-09-12-10_04_20.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_create_hardlink_fail,2023-09-12-10_04_17.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_gzip_overfs,2023-09-12-10_04_22.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_zip_unzip_overfs,2023-09-12-10_04_36.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_sys_fs_check,2023-09-12-10_04_30.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_act_file_lack_inode,2023-09-12-10_01_03.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_rename_file_fail,2023-09-12-10_04_28.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+FS_File,oe_test_FSIO_chmod,2023-09-12-10_01_07.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+upower,oe_test_service_upower,2023-09-12-10_13_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+fontconfig,oe_test_fc-list,2023-09-12-10_04_25.log,,0,0,0,0,0,0,0,0,0
+ModemManager,oe_test_service_ModemManager,2023-09-12-10_09_15.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+NetworkManager,oe_test_service_NetworkManager,2023-09-12-09_59_44.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,1,0,0,1,1,1,0
+NetworkManager,oe_test_service_NetworkManager-dispatcher,2023-09-12-09_59_28.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,1,0,0,1,1,1,0
+NetworkManager,oe_test_service_NetworkManager-wait-online,2023-09-12-10_00_01.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,1,0,0,1,1,1,0
+bison,oe_test_bison,2023-09-12-10_13_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+cups,oe_test_socket_cups,2023-09-12-10_05_54.log,"file missing
+",0,0,0,0,1,0,0,0,0
+cups,oe_test_service_cups,2023-09-12-10_04_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+dnf,oe_test_dnf_reinstall_repoinfo,2023-09-12-10_13_43.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_repeat-upgrade-downgrade,2023-09-12-10_14_26.log,"timeout
+",0,0,0,0,0,0,0,0,1
+dnf,oe_test_dnf_enabled_enablerepo,2023-09-12-10_05_33.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_list_mark,2023-09-12-10_08_54.log,"timeout
+",0,0,0,0,0,0,0,0,1
+dnf,oe_test_dnf_priority,2023-09-12-10_09_19.log,,0,0,0,0,0,0,0,0,0
+net-snmp,oe_test_net-snmp_01,2023-09-12-10_05_20.log,,0,0,0,0,0,0,0,0,0
+net-snmp,oe_test_net-snmp_02,2023-09-12-10_05_39.log,"timeout
+",0,0,0,0,0,0,0,0,1
+intltool,oe_test_intltool_intltool-extract,2023-09-12-09_59_38.log,"file missing
+",0,0,0,0,1,0,0,0,0
+intltool,oe_test_intltool_intltool-prepare,2023-09-12-09_59_58.log,"file missing
+",0,0,0,0,1,0,0,0,0

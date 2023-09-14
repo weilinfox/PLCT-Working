@@ -1,0 +1,14 @@
+{
+    "path": "$OET_PATH/testcases/cli-test/fontconfig",
+    "cases": [
+        {
+            "name": "oe_test_fc-cat"
+        },
+        {
+            "name": "oe_test_fc-conflist"
+        },
+        {
+            "name": "oe_test_fc-cache"
+        }
+    ]
+}

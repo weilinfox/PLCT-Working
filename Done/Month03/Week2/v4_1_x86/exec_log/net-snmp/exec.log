@@ -1,0 +1,16 @@
+Tue Sep 12 10:03:52 2023 - INFO  - start to run testcase:oe_test_service_snmpd.
+Tue Sep 12 10:04:32 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:32 2023 - INFO  - End to run testcase:oe_test_service_snmpd.
+Tue Sep 12 10:04:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:33 2023 - INFO  - start to run testcase:oe_test_service_snmptrapd.
+Tue Sep 12 10:05:19 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:19 2023 - INFO  - End to run testcase:oe_test_service_snmptrapd.
+Tue Sep 12 10:05:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:20 2023 - INFO  - start to run testcase:oe_test_net-snmp_01.
+Tue Sep 12 10:05:39 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:05:39 2023 - INFO  - End to run testcase:oe_test_net-snmp_01.
+Tue Sep 12 10:05:39 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:05:39 2023 - INFO  - start to run testcase:oe_test_net-snmp_02.
+Tue Sep 12 10:05:57 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:05:57 2023 - INFO  - End to run testcase:oe_test_net-snmp_02.
+Tue Sep 12 10:05:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

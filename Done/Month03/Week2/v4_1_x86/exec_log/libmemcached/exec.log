@@ -1,0 +1,48 @@
+Tue Sep 12 09:57:36 2023 - INFO  - start to run testcase:oe_test_memaslap.
+Tue Sep 12 09:59:09 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:59:09 2023 - INFO  - End to run testcase:oe_test_memaslap.
+Tue Sep 12 09:59:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:59:09 2023 - INFO  - start to run testcase:oe_test_memcapable.
+Tue Sep 12 09:59:53 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:59:53 2023 - INFO  - End to run testcase:oe_test_memcapable.
+Tue Sep 12 09:59:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:59:53 2023 - INFO  - start to run testcase:oe_test_memcat.
+Tue Sep 12 10:00:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:00:17 2023 - INFO  - End to run testcase:oe_test_memcat.
+Tue Sep 12 10:00:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:00:17 2023 - INFO  - start to run testcase:oe_test_memcp.
+Tue Sep 12 10:00:59 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:00:59 2023 - INFO  - End to run testcase:oe_test_memcp.
+Tue Sep 12 10:00:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:00:59 2023 - INFO  - start to run testcase:oe_test_memdump-memerror.
+Tue Sep 12 10:01:22 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:22 2023 - INFO  - End to run testcase:oe_test_memdump-memerror.
+Tue Sep 12 10:01:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:22 2023 - INFO  - start to run testcase:oe_test_memexist.
+Tue Sep 12 10:01:42 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:42 2023 - INFO  - End to run testcase:oe_test_memexist.
+Tue Sep 12 10:01:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:42 2023 - INFO  - start to run testcase:oe_test_memflush.
+Tue Sep 12 10:02:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:04 2023 - INFO  - End to run testcase:oe_test_memflush.
+Tue Sep 12 10:02:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:04 2023 - INFO  - start to run testcase:oe_test_memping.
+Tue Sep 12 10:02:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:29 2023 - INFO  - End to run testcase:oe_test_memping.
+Tue Sep 12 10:02:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:29 2023 - INFO  - start to run testcase:oe_test_memrm.
+Tue Sep 12 10:02:52 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:52 2023 - INFO  - End to run testcase:oe_test_memrm.
+Tue Sep 12 10:02:52 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:52 2023 - INFO  - start to run testcase:oe_test_memslap.
+Tue Sep 12 10:03:16 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:16 2023 - INFO  - End to run testcase:oe_test_memslap.
+Tue Sep 12 10:03:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:16 2023 - INFO  - start to run testcase:oe_test_memstat.
+Tue Sep 12 10:03:39 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:39 2023 - INFO  - End to run testcase:oe_test_memstat.
+Tue Sep 12 10:03:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:39 2023 - INFO  - start to run testcase:oe_test_memtouch.
+Tue Sep 12 10:04:24 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:24 2023 - INFO  - End to run testcase:oe_test_memtouch.
+Tue Sep 12 10:04:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

@@ -1,0 +1,1242 @@
+Tue Sep 12 09:58:42 2023 - INFO  - start to run testcase:oe_test_acl_001.
+Tue Sep 12 09:58:42 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:42 2023 - INFO  - End to run testcase:oe_test_acl_001.
+Tue Sep 12 09:58:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:42 2023 - INFO  - start to run testcase:oe_test_basic_ssh_001.
+Tue Sep 12 09:58:43 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:43 2023 - INFO  - End to run testcase:oe_test_basic_ssh_001.
+Tue Sep 12 09:58:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:43 2023 - INFO  - start to run testcase:oe_test_cat_001.
+Tue Sep 12 09:58:44 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:44 2023 - INFO  - End to run testcase:oe_test_cat_001.
+Tue Sep 12 09:58:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:44 2023 - INFO  - start to run testcase:oe_test_cd_002.
+Tue Sep 12 09:58:44 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:44 2023 - INFO  - End to run testcase:oe_test_cd_002.
+Tue Sep 12 09:58:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:44 2023 - INFO  - start to run testcase:oe_test_chattr.
+Tue Sep 12 09:58:45 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:45 2023 - INFO  - End to run testcase:oe_test_chattr.
+Tue Sep 12 09:58:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:45 2023 - INFO  - start to run testcase:oe_test_chmod_001.
+Tue Sep 12 09:58:45 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:45 2023 - INFO  - End to run testcase:oe_test_chmod_001.
+Tue Sep 12 09:58:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:45 2023 - INFO  - start to run testcase:oe_test_chown_001.
+Tue Sep 12 09:58:46 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:46 2023 - INFO  - End to run testcase:oe_test_chown_001.
+Tue Sep 12 09:58:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:46 2023 - INFO  - start to run testcase:oe_test_cp_001.
+Tue Sep 12 09:58:46 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:46 2023 - INFO  - End to run testcase:oe_test_cp_001.
+Tue Sep 12 09:58:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:46 2023 - INFO  - start to run testcase:oe_test_CPUinfo_001.
+Tue Sep 12 09:58:49 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:58:49 2023 - INFO  - End to run testcase:oe_test_CPUinfo_001.
+Tue Sep 12 09:58:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:58:49 2023 - INFO  - start to run testcase:oe_test_criu.
+Tue Sep 12 09:59:55 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:59:55 2023 - INFO  - End to run testcase:oe_test_criu.
+Tue Sep 12 09:59:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:59:55 2023 - INFO  - start to run testcase:oe_test_dateinfo_001.
+Tue Sep 12 09:59:55 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:59:55 2023 - INFO  - End to run testcase:oe_test_dateinfo_001.
+Tue Sep 12 09:59:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:59:55 2023 - INFO  - start to run testcase:oe_test_dd_001.
+Tue Sep 12 09:59:56 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:59:56 2023 - INFO  - End to run testcase:oe_test_dd_001.
+Tue Sep 12 09:59:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:59:57 2023 - INFO  - start to run testcase:oe_test_df.
+Tue Sep 12 09:59:57 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:59:57 2023 - INFO  - End to run testcase:oe_test_df.
+Tue Sep 12 09:59:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:59:57 2023 - INFO  - start to run testcase:oe_test_file_001.
+Tue Sep 12 09:59:57 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 09:59:57 2023 - INFO  - End to run testcase:oe_test_file_001.
+Tue Sep 12 09:59:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 09:59:57 2023 - INFO  - start to run testcase:oe_test_golang.
+Tue Sep 12 10:01:42 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:43 2023 - INFO  - End to run testcase:oe_test_golang.
+Tue Sep 12 10:01:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:43 2023 - INFO  - start to run testcase:oe_test_grep_001.
+Tue Sep 12 10:01:43 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:43 2023 - INFO  - End to run testcase:oe_test_grep_001.
+Tue Sep 12 10:01:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:43 2023 - INFO  - start to run testcase:oe_test_group_001.
+Tue Sep 12 10:01:44 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:44 2023 - INFO  - End to run testcase:oe_test_group_001.
+Tue Sep 12 10:01:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:44 2023 - INFO  - start to run testcase:oe_test_group_002.
+Tue Sep 12 10:01:46 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:46 2023 - INFO  - End to run testcase:oe_test_group_002.
+Tue Sep 12 10:01:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:46 2023 - INFO  - start to run testcase:oe_test_haproxy.
+Tue Sep 12 10:01:53 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:53 2023 - INFO  - End to run testcase:oe_test_haproxy.
+Tue Sep 12 10:01:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:53 2023 - INFO  - start to run testcase:oe_test_hdparm.
+Tue Sep 12 10:01:56 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:01:56 2023 - INFO  - End to run testcase:oe_test_hdparm.
+Tue Sep 12 10:01:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:01:56 2023 - INFO  - start to run testcase:oe_test_httpd.
+Tue Sep 12 10:02:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:04 2023 - INFO  - End to run testcase:oe_test_httpd.
+Tue Sep 12 10:02:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:04 2023 - INFO  - start to run testcase:oe_test_iscsi.
+Tue Sep 12 10:02:18 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:18 2023 - INFO  - End to run testcase:oe_test_iscsi.
+Tue Sep 12 10:02:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:18 2023 - INFO  - start to run testcase:oe_test_journalctl.
+Tue Sep 12 10:02:18 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:02:18 2023 - INFO  - End to run testcase:oe_test_journalctl.
+Tue Sep 12 10:02:18 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:02:19 2023 - INFO  - start to run testcase:oe_test_krb5.
+Tue Sep 12 10:02:24 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:24 2023 - INFO  - End to run testcase:oe_test_krb5.
+Tue Sep 12 10:02:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:25 2023 - INFO  - start to run testcase:oe_test_ln_001.
+Tue Sep 12 10:02:25 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:25 2023 - INFO  - End to run testcase:oe_test_ln_001.
+Tue Sep 12 10:02:25 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:25 2023 - INFO  - start to run testcase:oe_test_less_001.
+Tue Sep 12 10:02:25 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:25 2023 - INFO  - End to run testcase:oe_test_less_001.
+Tue Sep 12 10:02:25 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:25 2023 - INFO  - start to run testcase:oe_test_localectl_001.
+Tue Sep 12 10:02:26 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:26 2023 - INFO  - End to run testcase:oe_test_localectl_001.
+Tue Sep 12 10:02:26 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:26 2023 - INFO  - start to run testcase:oe_test_logrotate_002.
+Tue Sep 12 10:02:27 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:27 2023 - INFO  - End to run testcase:oe_test_logrotate_002.
+Tue Sep 12 10:02:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:27 2023 - INFO  - start to run testcase:oe_test_log_001.
+Tue Sep 12 10:02:33 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:33 2023 - INFO  - End to run testcase:oe_test_log_001.
+Tue Sep 12 10:02:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:33 2023 - INFO  - start to run testcase:oe_test_logrotate_001.
+Tue Sep 12 10:02:34 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:34 2023 - INFO  - End to run testcase:oe_test_logrotate_001.
+Tue Sep 12 10:02:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:34 2023 - INFO  - start to run testcase:oe_test_logrotate_003.
+Tue Sep 12 10:02:35 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:35 2023 - INFO  - End to run testcase:oe_test_logrotate_003.
+Tue Sep 12 10:02:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:35 2023 - INFO  - start to run testcase:oe_test_ls_001.
+Tue Sep 12 10:02:36 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:36 2023 - INFO  - End to run testcase:oe_test_ls_001.
+Tue Sep 12 10:02:36 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:36 2023 - INFO  - start to run testcase:oe_test_lsscsi.
+Tue Sep 12 10:02:39 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:39 2023 - INFO  - End to run testcase:oe_test_lsscsi.
+Tue Sep 12 10:02:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:39 2023 - INFO  - start to run testcase:oe_test_lzo.
+Tue Sep 12 10:02:42 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:42 2023 - INFO  - End to run testcase:oe_test_lzo.
+Tue Sep 12 10:02:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:42 2023 - INFO  - start to run testcase:oe_test_MEMinfo_001.
+Tue Sep 12 10:02:45 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:45 2023 - INFO  - End to run testcase:oe_test_MEMinfo_001.
+Tue Sep 12 10:02:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:45 2023 - INFO  - start to run testcase:oe_test_mkdir_001.
+Tue Sep 12 10:02:45 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:45 2023 - INFO  - End to run testcase:oe_test_mkdir_001.
+Tue Sep 12 10:02:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:46 2023 - INFO  - start to run testcase:oe_test_mv_001.
+Tue Sep 12 10:02:46 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:46 2023 - INFO  - End to run testcase:oe_test_mv_001.
+Tue Sep 12 10:02:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:46 2023 - INFO  - start to run testcase:oe_test_ndctl.
+Tue Sep 12 10:02:51 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:02:51 2023 - INFO  - End to run testcase:oe_test_ndctl.
+Tue Sep 12 10:02:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:02:51 2023 - INFO  - start to run testcase:oe_test_network_001.
+Tue Sep 12 10:02:52 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:02:52 2023 - INFO  - End to run testcase:oe_test_network_001.
+Tue Sep 12 10:02:52 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:02:52 2023 - INFO  - start to run testcase:oe_test_nfs.
+Tue Sep 12 10:03:00 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:00 2023 - INFO  - End to run testcase:oe_test_nfs.
+Tue Sep 12 10:03:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:01 2023 - INFO  - start to run testcase:oe_test_numactl.
+Tue Sep 12 10:03:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:04 2023 - INFO  - End to run testcase:oe_test_numactl.
+Tue Sep 12 10:03:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:04 2023 - INFO  - start to run testcase:oe_test_openssl.
+Tue Sep 12 10:03:05 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:05 2023 - INFO  - End to run testcase:oe_test_openssl.
+Tue Sep 12 10:03:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:05 2023 - INFO  - start to run testcase:oe_test_pciutils.
+Tue Sep 12 10:03:11 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:11 2023 - INFO  - End to run testcase:oe_test_pciutils.
+Tue Sep 12 10:03:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:11 2023 - INFO  - start to run testcase:oe_test_perf.
+Tue Sep 12 10:03:23 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:23 2023 - INFO  - End to run testcase:oe_test_perf.
+Tue Sep 12 10:03:23 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:23 2023 - INFO  - start to run testcase:oe_test_pwd_001.
+Tue Sep 12 10:03:23 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:23 2023 - INFO  - End to run testcase:oe_test_pwd_001.
+Tue Sep 12 10:03:23 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:24 2023 - INFO  - start to run testcase:oe_test_rmdir_001.
+Tue Sep 12 10:03:24 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:24 2023 - INFO  - End to run testcase:oe_test_rmdir_001.
+Tue Sep 12 10:03:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:24 2023 - INFO  - start to run testcase:oe_test_rsync.
+Tue Sep 12 10:03:30 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:30 2023 - INFO  - End to run testcase:oe_test_rsync.
+Tue Sep 12 10:03:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:30 2023 - INFO  - start to run testcase:oe_test_sevice_001.
+Tue Sep 12 10:03:31 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:03:31 2023 - INFO  - End to run testcase:oe_test_sevice_001.
+Tue Sep 12 10:03:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:03:31 2023 - INFO  - start to run testcase:oe_test_sort.
+Tue Sep 12 10:03:31 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:03:31 2023 - INFO  - End to run testcase:oe_test_sort.
+Tue Sep 12 10:03:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:03:31 2023 - INFO  - start to run testcase:oe_test_skopeo.
+Tue Sep 12 10:04:06 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:06 2023 - INFO  - End to run testcase:oe_test_skopeo.
+Tue Sep 12 10:04:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:06 2023 - INFO  - start to run testcase:oe_test_syslog_dmesg_001.
+Tue Sep 12 10:04:06 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:06 2023 - INFO  - End to run testcase:oe_test_syslog_dmesg_001.
+Tue Sep 12 10:04:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:06 2023 - INFO  - start to run testcase:oe_test_syslog_journalctl_001.
+Tue Sep 12 10:04:07 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:07 2023 - INFO  - End to run testcase:oe_test_syslog_journalctl_001.
+Tue Sep 12 10:04:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:07 2023 - INFO  - start to run testcase:oe_test_syslog_journalctl_002.
+Tue Sep 12 10:04:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:08 2023 - INFO  - End to run testcase:oe_test_syslog_journalctl_002.
+Tue Sep 12 10:04:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:08 2023 - INFO  - start to run testcase:oe_test_syslog_journald_001.
+Tue Sep 12 10:04:09 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:09 2023 - INFO  - End to run testcase:oe_test_syslog_journald_001.
+Tue Sep 12 10:04:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:09 2023 - INFO  - start to run testcase:oe_test_syslog_logrotate_001.
+Tue Sep 12 10:04:09 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:09 2023 - INFO  - End to run testcase:oe_test_syslog_logrotate_001.
+Tue Sep 12 10:04:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:09 2023 - INFO  - start to run testcase:oe_test_tar_001.
+Tue Sep 12 10:04:13 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:04:13 2023 - INFO  - End to run testcase:oe_test_tar_001.
+Tue Sep 12 10:04:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:04:13 2023 - INFO  - start to run testcase:oe_test_touch_001.
+Tue Sep 12 10:05:13 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:13 2023 - INFO  - End to run testcase:oe_test_touch_001.
+Tue Sep 12 10:05:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:13 2023 - INFO  - start to run testcase:oe_test_umask_001.
+Tue Sep 12 10:05:14 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:14 2023 - INFO  - End to run testcase:oe_test_umask_001.
+Tue Sep 12 10:05:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:14 2023 - INFO  - start to run testcase:oe_test_user_001.
+Tue Sep 12 10:05:16 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:16 2023 - INFO  - End to run testcase:oe_test_user_001.
+Tue Sep 12 10:05:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:16 2023 - INFO  - start to run testcase:oe_test_user_002.
+Tue Sep 12 10:05:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:17 2023 - INFO  - End to run testcase:oe_test_user_002.
+Tue Sep 12 10:05:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:17 2023 - INFO  - start to run testcase:oe_test_user_003.
+Tue Sep 12 10:05:19 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:19 2023 - INFO  - End to run testcase:oe_test_user_003.
+Tue Sep 12 10:05:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:19 2023 - INFO  - start to run testcase:oe_test_rm_001.
+Tue Sep 12 10:05:19 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:19 2023 - INFO  - End to run testcase:oe_test_rm_001.
+Tue Sep 12 10:05:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:19 2023 - INFO  - start to run testcase:oe_test_which.
+Tue Sep 12 10:05:19 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:19 2023 - INFO  - End to run testcase:oe_test_which.
+Tue Sep 12 10:05:19 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:20 2023 - INFO  - start to run testcase:oe_test_yumgroup_001.
+Tue Sep 12 10:05:22 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:22 2023 - INFO  - End to run testcase:oe_test_yumgroup_001.
+Tue Sep 12 10:05:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:22 2023 - INFO  - start to run testcase:oe_test_mv_002.
+Tue Sep 12 10:05:22 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:22 2023 - INFO  - End to run testcase:oe_test_mv_002.
+Tue Sep 12 10:05:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:23 2023 - INFO  - start to run testcase:oe_test_uname.
+Tue Sep 12 10:05:23 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:23 2023 - INFO  - End to run testcase:oe_test_uname.
+Tue Sep 12 10:05:23 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:23 2023 - INFO  - start to run testcase:oe_test_wc.
+Tue Sep 12 10:05:23 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:23 2023 - INFO  - End to run testcase:oe_test_wc.
+Tue Sep 12 10:05:23 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:23 2023 - INFO  - start to run testcase:oe_test_chroncy_001.
+Tue Sep 12 10:05:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:29 2023 - INFO  - End to run testcase:oe_test_chroncy_001.
+Tue Sep 12 10:05:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:29 2023 - INFO  - start to run testcase:oe_test_diffstat_001.
+Tue Sep 12 10:05:32 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:05:32 2023 - INFO  - End to run testcase:oe_test_diffstat_001.
+Tue Sep 12 10:05:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:05:32 2023 - INFO  - start to run testcase:oe_test_rollback.
+Tue Sep 12 10:06:22 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:06:22 2023 - INFO  - End to run testcase:oe_test_rollback.
+Tue Sep 12 10:06:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:06:22 2023 - INFO  - start to run testcase:oe_test_gcc.
+Tue Sep 12 10:06:48 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:06:48 2023 - INFO  - End to run testcase:oe_test_gcc.
+Tue Sep 12 10:06:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:06:48 2023 - INFO  - start to run testcase:oe_test_cmp.
+Tue Sep 12 10:06:49 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:06:49 2023 - INFO  - End to run testcase:oe_test_cmp.
+Tue Sep 12 10:06:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:06:50 2023 - INFO  - start to run testcase:oe_test_umask_002.
+Tue Sep 12 10:06:51 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:06:51 2023 - INFO  - End to run testcase:oe_test_umask_002.
+Tue Sep 12 10:06:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:06:51 2023 - INFO  - start to run testcase:oe_test_llvm.
+Tue Sep 12 10:07:38 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:07:38 2023 - INFO  - End to run testcase:oe_test_llvm.
+Tue Sep 12 10:07:38 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:07:38 2023 - INFO  - start to run testcase:oe_test_acpid.
+Tue Sep 12 10:07:42 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:07:42 2023 - INFO  - End to run testcase:oe_test_acpid.
+Tue Sep 12 10:07:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:07:42 2023 - INFO  - start to run testcase:oe_test_aide_compare_database.
+Tue Sep 12 10:08:27 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:08:27 2023 - INFO  - End to run testcase:oe_test_aide_compare_database.
+Tue Sep 12 10:08:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:08:27 2023 - INFO  - start to run testcase:oe_test_aide_update_database.
+Tue Sep 12 10:10:00 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:10:00 2023 - INFO  - End to run testcase:oe_test_aide_update_database.
+Tue Sep 12 10:10:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:10:00 2023 - INFO  - start to run testcase:oe_test_arping.
+Tue Sep 12 10:10:01 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:10:01 2023 - INFO  - End to run testcase:oe_test_arping.
+Tue Sep 12 10:10:01 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:10:01 2023 - INFO  - start to run testcase:oe_test_atd.
+Tue Sep 12 10:11:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:04 2023 - INFO  - End to run testcase:oe_test_atd.
+Tue Sep 12 10:11:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:05 2023 - INFO  - start to run testcase:oe_test_augeas_augtool.
+Tue Sep 12 10:11:11 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:11 2023 - INFO  - End to run testcase:oe_test_augeas_augtool.
+Tue Sep 12 10:11:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:11 2023 - INFO  - start to run testcase:oe_test_bc.
+Tue Sep 12 10:11:11 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:11 2023 - INFO  - End to run testcase:oe_test_bc.
+Tue Sep 12 10:11:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:12 2023 - INFO  - start to run testcase:oe_test_bridge-utils_01.
+Tue Sep 12 10:11:15 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:15 2023 - INFO  - End to run testcase:oe_test_bridge-utils_01.
+Tue Sep 12 10:11:15 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:15 2023 - INFO  - start to run testcase:oe_test_chkconfig.
+Tue Sep 12 10:11:15 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:15 2023 - INFO  - End to run testcase:oe_test_chkconfig.
+Tue Sep 12 10:11:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:16 2023 - INFO  - start to run testcase:oe_test_chrt.
+Tue Sep 12 10:11:16 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:16 2023 - INFO  - End to run testcase:oe_test_chrt.
+Tue Sep 12 10:11:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:16 2023 - INFO  - start to run testcase:oe_test_cifsclient.
+Tue Sep 12 10:11:24 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:24 2023 - INFO  - End to run testcase:oe_test_cifsclient.
+Tue Sep 12 10:11:24 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:24 2023 - INFO  - start to run testcase:oe_test_cpio.
+Tue Sep 12 10:11:25 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:25 2023 - INFO  - End to run testcase:oe_test_cpio.
+Tue Sep 12 10:11:25 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:25 2023 - INFO  - start to run testcase:oe_test_curl_01.
+Tue Sep 12 10:11:33 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:33 2023 - INFO  - End to run testcase:oe_test_curl_01.
+Tue Sep 12 10:11:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:33 2023 - INFO  - start to run testcase:oe_test_curl_02.
+Tue Sep 12 10:11:49 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:49 2023 - INFO  - End to run testcase:oe_test_curl_02.
+Tue Sep 12 10:11:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:50 2023 - INFO  - start to run testcase:oe_test_curl_03.
+Tue Sep 12 10:11:50 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:50 2023 - INFO  - End to run testcase:oe_test_curl_03.
+Tue Sep 12 10:11:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:50 2023 - INFO  - start to run testcase:oe_test_dbus-binging-tool.
+Tue Sep 12 10:11:53 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:53 2023 - INFO  - End to run testcase:oe_test_dbus-binging-tool.
+Tue Sep 12 10:11:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:53 2023 - INFO  - start to run testcase:oe_test_dbus-cleanup-sockets.
+Tue Sep 12 10:11:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:54 2023 - INFO  - End to run testcase:oe_test_dbus-cleanup-sockets.
+Tue Sep 12 10:11:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:54 2023 - INFO  - start to run testcase:oe_test_dbus-daemon.
+Tue Sep 12 10:11:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:54 2023 - INFO  - End to run testcase:oe_test_dbus-daemon.
+Tue Sep 12 10:11:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:55 2023 - INFO  - start to run testcase:oe_test_dbus-monitor.
+Tue Sep 12 10:11:58 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:58 2023 - INFO  - End to run testcase:oe_test_dbus-monitor.
+Tue Sep 12 10:11:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:58 2023 - INFO  - start to run testcase:oe_test_dbus-send.
+Tue Sep 12 10:11:59 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:11:59 2023 - INFO  - End to run testcase:oe_test_dbus-send.
+Tue Sep 12 10:11:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:11:59 2023 - INFO  - start to run testcase:oe_test_dbus.
+Tue Sep 12 10:12:03 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:12:03 2023 - INFO  - End to run testcase:oe_test_dbus.
+Tue Sep 12 10:12:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:12:03 2023 - INFO  - start to run testcase:oe_test_dbus-uuidgen.
+Tue Sep 12 10:12:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:12:04 2023 - INFO  - End to run testcase:oe_test_dbus-uuidgen.
+Tue Sep 12 10:12:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:12:04 2023 - INFO  - start to run testcase:oe_test_dhclient_01.
+Tue Sep 12 10:12:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:12:08 2023 - INFO  - End to run testcase:oe_test_dhclient_01.
+Tue Sep 12 10:12:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:12:08 2023 - INFO  - start to run testcase:oe_test_dracut.
+Tue Sep 12 10:12:15 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:12:15 2023 - INFO  - End to run testcase:oe_test_dracut.
+Tue Sep 12 10:12:15 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:12:15 2023 - INFO  - start to run testcase:oe_test_ebtables.
+Tue Sep 12 10:12:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:12:29 2023 - INFO  - End to run testcase:oe_test_ebtables.
+Tue Sep 12 10:12:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:12:30 2023 - INFO  - start to run testcase:oe_test_ethtool_01.
+Tue Sep 12 10:12:31 2023 - ERROR - The case exit by code 20.
+Tue Sep 12 10:12:31 2023 - INFO  - End to run testcase:oe_test_ethtool_01.
+Tue Sep 12 10:12:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:12:31 2023 - INFO  - start to run testcase:oe_test_firewalld_server.
+Tue Sep 12 10:12:48 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:12:48 2023 - INFO  - End to run testcase:oe_test_firewalld_server.
+Tue Sep 12 10:12:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:12:48 2023 - INFO  - start to run testcase:oe_test_glibc_getaddrinfo_01.
+Tue Sep 12 10:13:32 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:32 2023 - INFO  - End to run testcase:oe_test_glibc_getaddrinfo_01.
+Tue Sep 12 10:13:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:32 2023 - INFO  - start to run testcase:oe_test_glibc_getaddrinfo_02.
+Tue Sep 12 10:13:36 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:36 2023 - INFO  - End to run testcase:oe_test_glibc_getaddrinfo_02.
+Tue Sep 12 10:13:36 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:36 2023 - INFO  - start to run testcase:oe_test_grub2_mkconfig.
+Tue Sep 12 10:13:37 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:37 2023 - INFO  - End to run testcase:oe_test_grub2_mkconfig.
+Tue Sep 12 10:13:37 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:37 2023 - INFO  - start to run testcase:oe_test_gzip.
+Tue Sep 12 10:13:37 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:37 2023 - INFO  - End to run testcase:oe_test_gzip.
+Tue Sep 12 10:13:37 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:38 2023 - INFO  - start to run testcase:oe_test_hwclock.
+Tue Sep 12 10:13:44 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:44 2023 - INFO  - End to run testcase:oe_test_hwclock.
+Tue Sep 12 10:13:44 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:44 2023 - INFO  - start to run testcase:oe_test_hwdata.
+Tue Sep 12 10:13:45 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:45 2023 - INFO  - End to run testcase:oe_test_hwdata.
+Tue Sep 12 10:13:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:45 2023 - INFO  - start to run testcase:oe_test_ifconfig_ipv6_01.
+Tue Sep 12 10:13:46 2023 - ERROR - The case exit by code 7.
+Tue Sep 12 10:13:46 2023 - INFO  - End to run testcase:oe_test_ifconfig_ipv6_01.
+Tue Sep 12 10:13:46 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:13:46 2023 - INFO  - start to run testcase:oe_test_ip6tables_01.
+Tue Sep 12 10:13:50 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:50 2023 - INFO  - End to run testcase:oe_test_ip6tables_01.
+Tue Sep 12 10:13:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:50 2023 - INFO  - start to run testcase:oe_test_ip6tables_02.
+Tue Sep 12 10:13:55 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:13:55 2023 - INFO  - End to run testcase:oe_test_ip6tables_02.
+Tue Sep 12 10:13:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:13:55 2023 - INFO  - start to run testcase:oe_test_ip_ipv6_01.
+Tue Sep 12 10:13:56 2023 - ERROR - The case exit by code 10.
+Tue Sep 12 10:13:56 2023 - INFO  - End to run testcase:oe_test_ip_ipv6_01.
+Tue Sep 12 10:13:56 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:13:56 2023 - INFO  - start to run testcase:oe_test_ip_ipv6_02.
+Tue Sep 12 10:13:57 2023 - ERROR - The case exit by code 16.
+Tue Sep 12 10:13:57 2023 - INFO  - End to run testcase:oe_test_ip_ipv6_02.
+Tue Sep 12 10:13:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:13:57 2023 - INFO  - start to run testcase:oe_test_ip_ipv6_03.
+Tue Sep 12 10:13:57 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:13:57 2023 - INFO  - End to run testcase:oe_test_ip_ipv6_03.
+Tue Sep 12 10:13:57 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:13:57 2023 - INFO  - start to run testcase:oe_test_ip_ipv6_04.
+Tue Sep 12 10:13:59 2023 - ERROR - The case exit by code 10.
+Tue Sep 12 10:13:59 2023 - INFO  - End to run testcase:oe_test_ip_ipv6_04.
+Tue Sep 12 10:13:59 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:13:59 2023 - INFO  - start to run testcase:oe_test_iproute_ipv6_01.
+Tue Sep 12 10:13:59 2023 - ERROR - The case exit by code 8.
+Tue Sep 12 10:13:59 2023 - INFO  - End to run testcase:oe_test_iproute_ipv6_01.
+Tue Sep 12 10:13:59 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:13:59 2023 - INFO  - start to run testcase:oe_test_iproute.
+Tue Sep 12 10:14:00 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:00 2023 - INFO  - End to run testcase:oe_test_iproute.
+Tue Sep 12 10:14:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:00 2023 - INFO  - start to run testcase:oe_test_ip_rule_01.
+Tue Sep 12 10:14:00 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:00 2023 - INFO  - End to run testcase:oe_test_ip_rule_01.
+Tue Sep 12 10:14:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:00 2023 - INFO  - start to run testcase:oe_test_ip_rule_02.
+Tue Sep 12 10:14:00 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:00 2023 - INFO  - End to run testcase:oe_test_ip_rule_02.
+Tue Sep 12 10:14:00 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:00 2023 - INFO  - start to run testcase:oe_test_iptables-save.
+Tue Sep 12 10:14:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:04 2023 - INFO  - End to run testcase:oe_test_iptables-save.
+Tue Sep 12 10:14:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:04 2023 - INFO  - start to run testcase:oe_test_iptables.
+Tue Sep 12 10:14:07 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:07 2023 - INFO  - End to run testcase:oe_test_iptables.
+Tue Sep 12 10:14:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:07 2023 - INFO  - start to run testcase:oe_test_ipv6_BRIDGE.
+Tue Sep 12 10:14:10 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:10 2023 - INFO  - End to run testcase:oe_test_ipv6_BRIDGE.
+Tue Sep 12 10:14:10 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:10 2023 - INFO  - start to run testcase:oe_test_ipv6_dnsmasq.
+Tue Sep 12 10:14:18 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:18 2023 - INFO  - End to run testcase:oe_test_ipv6_dnsmasq.
+Tue Sep 12 10:14:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:18 2023 - INFO  - start to run testcase:oe_test_IPV6_traceroute6_01.
+Tue Sep 12 10:14:21 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:21 2023 - INFO  - End to run testcase:oe_test_IPV6_traceroute6_01.
+Tue Sep 12 10:14:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:21 2023 - INFO  - start to run testcase:oe_test_IPV6_traceroute6_02.
+Tue Sep 12 10:14:27 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:14:27 2023 - INFO  - End to run testcase:oe_test_IPV6_traceroute6_02.
+Tue Sep 12 10:14:27 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:14:27 2023 - INFO  - start to run testcase:oe_test_IPV6_traceroute6_tracepath6.
+Tue Sep 12 10:14:30 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:30 2023 - INFO  - End to run testcase:oe_test_IPV6_traceroute6_tracepath6.
+Tue Sep 12 10:14:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:31 2023 - INFO  - start to run testcase:oe_test_ipv6_VLAN_01.
+Tue Sep 12 10:14:31 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:14:31 2023 - INFO  - End to run testcase:oe_test_ipv6_VLAN_01.
+Tue Sep 12 10:14:31 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:14:31 2023 - INFO  - start to run testcase:oe_test_ipv6_VLAN_02.
+Tue Sep 12 10:14:32 2023 - ERROR - The case exit by code 6.
+Tue Sep 12 10:14:32 2023 - INFO  - End to run testcase:oe_test_ipv6_VLAN_02.
+Tue Sep 12 10:14:32 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:14:32 2023 - INFO  - start to run testcase:oe_test_lldpad.
+Tue Sep 12 10:14:36 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:14:36 2023 - INFO  - End to run testcase:oe_test_lldpad.
+Tue Sep 12 10:14:36 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:14:36 2023 - INFO  - start to run testcase:oe_test_iscsid.
+Tue Sep 12 10:16:36 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:16:36 2023 - INFO  - End to run testcase:oe_test_iscsid.
+Tue Sep 12 10:16:36 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:16:36 2023 - INFO  - start to run testcase:oe_test_less.
+Tue Sep 12 10:16:37 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:16:37 2023 - INFO  - End to run testcase:oe_test_less.
+Tue Sep 12 10:16:37 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:16:37 2023 - INFO  - start to run testcase:oe_test_libcgroup_01.
+Tue Sep 12 10:16:40 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:16:40 2023 - INFO  - End to run testcase:oe_test_libcgroup_01.
+Tue Sep 12 10:16:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:16:40 2023 - INFO  - start to run testcase:oe_test_libcgroup_02.
+Tue Sep 12 10:16:43 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:16:43 2023 - INFO  - End to run testcase:oe_test_libcgroup_02.
+Tue Sep 12 10:16:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:16:43 2023 - INFO  - start to run testcase:oe_test_libcgroup_03.
+Tue Sep 12 10:16:49 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:16:49 2023 - INFO  - End to run testcase:oe_test_libcgroup_03.
+Tue Sep 12 10:16:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:16:50 2023 - INFO  - start to run testcase:oe_test_libcgroup_04.
+Tue Sep 12 10:16:53 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:16:53 2023 - INFO  - End to run testcase:oe_test_libcgroup_04.
+Tue Sep 12 10:16:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:16:53 2023 - INFO  - start to run testcase:oe_test_libuser_sm.
+Tue Sep 12 10:17:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:04 2023 - INFO  - End to run testcase:oe_test_libuser_sm.
+Tue Sep 12 10:17:04 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:04 2023 - INFO  - start to run testcase:oe_test_losetup.
+Tue Sep 12 10:17:06 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:06 2023 - INFO  - End to run testcase:oe_test_losetup.
+Tue Sep 12 10:17:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:06 2023 - INFO  - start to run testcase:oe_test_lsof.
+Tue Sep 12 10:17:13 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:13 2023 - INFO  - End to run testcase:oe_test_lsof.
+Tue Sep 12 10:17:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:13 2023 - INFO  - start to run testcase:oe_test_lz4_01.
+Tue Sep 12 10:17:16 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:16 2023 - INFO  - End to run testcase:oe_test_lz4_01.
+Tue Sep 12 10:17:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:16 2023 - INFO  - start to run testcase:oe_test_lz4_02.
+Tue Sep 12 10:17:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:17 2023 - INFO  - End to run testcase:oe_test_lz4_02.
+Tue Sep 12 10:17:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:17 2023 - INFO  - start to run testcase:oe_test_maildrop_delivery_agent.
+Tue Sep 12 10:17:20 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:20 2023 - INFO  - End to run testcase:oe_test_maildrop_delivery_agent.
+Tue Sep 12 10:17:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:21 2023 - INFO  - start to run testcase:oe_test_mktemp.
+Tue Sep 12 10:17:21 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:21 2023 - INFO  - End to run testcase:oe_test_mktemp.
+Tue Sep 12 10:17:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:21 2023 - INFO  - start to run testcase:oe_test_ncurses.
+Tue Sep 12 10:17:22 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:17:22 2023 - INFO  - End to run testcase:oe_test_ncurses.
+Tue Sep 12 10:17:22 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:17:22 2023 - INFO  - start to run testcase:oe_test_nfs_01.
+Tue Sep 12 10:17:27 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:17:27 2023 - INFO  - End to run testcase:oe_test_nfs_01.
+Tue Sep 12 10:17:27 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:17:27 2023 - INFO  - start to run testcase:oe_test_nfs_02.
+Tue Sep 12 10:18:03 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:18:03 2023 - INFO  - End to run testcase:oe_test_nfs_02.
+Tue Sep 12 10:18:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:18:03 2023 - INFO  - start to run testcase:oe_test_nfs_03.
+Tue Sep 12 10:18:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:18:08 2023 - INFO  - End to run testcase:oe_test_nfs_03.
+Tue Sep 12 10:18:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:18:09 2023 - INFO  - start to run testcase:oe_test_pcre_001.
+Tue Sep 12 10:18:26 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:18:26 2023 - INFO  - End to run testcase:oe_test_pcre_001.
+Tue Sep 12 10:18:26 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:18:26 2023 - INFO  - start to run testcase:oe_test_nmap.
+Tue Sep 12 10:18:34 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:18:35 2023 - INFO  - End to run testcase:oe_test_nmap.
+Tue Sep 12 10:18:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:18:35 2023 - INFO  - start to run testcase:oe_test_normal_tcpdump_03.
+Tue Sep 12 10:18:41 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:18:41 2023 - INFO  - End to run testcase:oe_test_normal_tcpdump_03.
+Tue Sep 12 10:18:41 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:18:41 2023 - INFO  - start to run testcase:oe_test_ntp_01.
+Tue Sep 12 10:18:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:18:54 2023 - INFO  - End to run testcase:oe_test_ntp_01.
+Tue Sep 12 10:18:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:18:54 2023 - INFO  - start to run testcase:oe_test_ntp_02.
+Tue Sep 12 10:19:38 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:38 2023 - INFO  - End to run testcase:oe_test_ntp_02.
+Tue Sep 12 10:19:38 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:38 2023 - INFO  - start to run testcase:oe_test_os-prober_01.
+Tue Sep 12 10:19:39 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:39 2023 - INFO  - End to run testcase:oe_test_os-prober_01.
+Tue Sep 12 10:19:39 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:39 2023 - INFO  - start to run testcase:oe_test_os-prober_02.
+Tue Sep 12 10:19:40 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:40 2023 - INFO  - End to run testcase:oe_test_os-prober_02.
+Tue Sep 12 10:19:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:40 2023 - INFO  - start to run testcase:oe_test_perl.
+Tue Sep 12 10:19:41 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:19:41 2023 - INFO  - End to run testcase:oe_test_perl.
+Tue Sep 12 10:19:41 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:19:41 2023 - INFO  - start to run testcase:oe_test_python_01.
+Tue Sep 12 10:19:42 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:42 2023 - INFO  - End to run testcase:oe_test_python_01.
+Tue Sep 12 10:19:42 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:42 2023 - INFO  - start to run testcase:oe_test_python_pip_install.
+Tue Sep 12 10:19:53 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:53 2023 - INFO  - End to run testcase:oe_test_python_pip_install.
+Tue Sep 12 10:19:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:54 2023 - INFO  - start to run testcase:oe_test_python_subprocess_01.
+Tue Sep 12 10:19:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:54 2023 - INFO  - End to run testcase:oe_test_python_subprocess_01.
+Tue Sep 12 10:19:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:54 2023 - INFO  - start to run testcase:oe_test_python_subprocess_02.
+Tue Sep 12 10:19:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:54 2023 - INFO  - End to run testcase:oe_test_python_subprocess_02.
+Tue Sep 12 10:19:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:55 2023 - INFO  - start to run testcase:oe_test_python_subprocess_03.
+Tue Sep 12 10:19:58 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:58 2023 - INFO  - End to run testcase:oe_test_python_subprocess_03.
+Tue Sep 12 10:19:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:58 2023 - INFO  - start to run testcase:oe_test_gettext.
+Tue Sep 12 10:19:59 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:19:59 2023 - INFO  - End to run testcase:oe_test_gettext.
+Tue Sep 12 10:19:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:19:59 2023 - INFO  - start to run testcase:oe_test_python_urllib3_urlopen_01.
+Tue Sep 12 10:20:05 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:05 2023 - INFO  - End to run testcase:oe_test_python_urllib3_urlopen_01.
+Tue Sep 12 10:20:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:06 2023 - INFO  - start to run testcase:oe_test_python_urllib3_urlopen_02.
+Tue Sep 12 10:20:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:08 2023 - INFO  - End to run testcase:oe_test_python_urllib3_urlopen_02.
+Tue Sep 12 10:20:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:08 2023 - INFO  - start to run testcase:oe_test_python_urllib3_urlopen_03.
+Tue Sep 12 10:20:09 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:09 2023 - INFO  - End to run testcase:oe_test_python_urllib3_urlopen_03.
+Tue Sep 12 10:20:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:09 2023 - INFO  - start to run testcase:oe_test_route_ipv4.
+Tue Sep 12 10:20:12 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:12 2023 - INFO  - End to run testcase:oe_test_route_ipv4.
+Tue Sep 12 10:20:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:12 2023 - INFO  - start to run testcase:oe_test_route_ipv6.
+Tue Sep 12 10:20:13 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:20:13 2023 - INFO  - End to run testcase:oe_test_route_ipv6.
+Tue Sep 12 10:20:13 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:20:13 2023 - INFO  - start to run testcase:oe_test_rpcbind.
+Tue Sep 12 10:20:28 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:29 2023 - INFO  - End to run testcase:oe_test_rpcbind.
+Tue Sep 12 10:20:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:29 2023 - INFO  - start to run testcase:oe_test_rpm_cmd.
+Tue Sep 12 10:20:32 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:32 2023 - INFO  - End to run testcase:oe_test_rpm_cmd.
+Tue Sep 12 10:20:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:32 2023 - INFO  - start to run testcase:oe_test_rpmrebuild.
+Tue Sep 12 10:20:40 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:40 2023 - INFO  - End to run testcase:oe_test_rpmrebuild.
+Tue Sep 12 10:20:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:40 2023 - INFO  - start to run testcase:oe_test_rsyslog_01.
+Tue Sep 12 10:20:49 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:49 2023 - INFO  - End to run testcase:oe_test_rsyslog_01.
+Tue Sep 12 10:20:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:49 2023 - INFO  - start to run testcase:oe_test_rsyslog_02.
+Tue Sep 12 10:20:50 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:20:50 2023 - INFO  - End to run testcase:oe_test_rsyslog_02.
+Tue Sep 12 10:20:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:20:50 2023 - INFO  - start to run testcase:oe_test_rsyslog_03.
+Tue Sep 12 10:20:51 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:20:51 2023 - INFO  - End to run testcase:oe_test_rsyslog_03.
+Tue Sep 12 10:20:51 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:20:51 2023 - INFO  - start to run testcase:oe_test_rsyslog_04.
+Tue Sep 12 10:21:06 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:21:06 2023 - INFO  - End to run testcase:oe_test_rsyslog_04.
+Tue Sep 12 10:21:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:21:06 2023 - INFO  - start to run testcase:oe_test_rsyslog_05.
+Tue Sep 12 10:23:20 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:23:20 2023 - INFO  - End to run testcase:oe_test_rsyslog_05.
+Tue Sep 12 10:23:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:23:20 2023 - INFO  - start to run testcase:oe_test_rsyslog_06.
+Tue Sep 12 10:23:28 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:23:28 2023 - INFO  - End to run testcase:oe_test_rsyslog_06.
+Tue Sep 12 10:23:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:23:28 2023 - INFO  - start to run testcase:oe_test_rsyslog_07.
+Tue Sep 12 10:23:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:23:30 2023 - INFO  - End to run testcase:oe_test_rsyslog_07.
+Tue Sep 12 10:23:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:23:30 2023 - INFO  - start to run testcase:oe_test_rsyslog_08.
+Tue Sep 12 10:23:33 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:23:33 2023 - INFO  - End to run testcase:oe_test_rsyslog_08.
+Tue Sep 12 10:23:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:23:33 2023 - INFO  - start to run testcase:oe_test_rsyslog_09.
+Tue Sep 12 10:24:06 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:24:06 2023 - INFO  - End to run testcase:oe_test_rsyslog_09.
+Tue Sep 12 10:24:06 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:24:06 2023 - INFO  - start to run testcase:oe_test_rsyslog_10.
+Tue Sep 12 10:39:07 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:07 2023 - INFO  - End to run testcase:oe_test_rsyslog_10.
+Tue Sep 12 10:39:07 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:07 2023 - INFO  - start to run testcase:oe_test_rule_ipv6.
+Tue Sep 12 10:39:07 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:08 2023 - INFO  - End to run testcase:oe_test_rule_ipv6.
+Tue Sep 12 10:39:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:08 2023 - INFO  - start to run testcase:oe_test_service.
+Tue Sep 12 10:39:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:08 2023 - INFO  - End to run testcase:oe_test_service.
+Tue Sep 12 10:39:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:08 2023 - INFO  - start to run testcase:oe_test_setools.
+Tue Sep 12 10:39:28 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:28 2023 - INFO  - End to run testcase:oe_test_setools.
+Tue Sep 12 10:39:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:28 2023 - INFO  - start to run testcase:oe_test_shadow.
+Tue Sep 12 10:39:32 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:32 2023 - INFO  - End to run testcase:oe_test_shadow.
+Tue Sep 12 10:39:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:32 2023 - INFO  - start to run testcase:oe_test_sshd.
+Tue Sep 12 10:39:32 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:32 2023 - INFO  - End to run testcase:oe_test_sshd.
+Tue Sep 12 10:39:32 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:33 2023 - INFO  - start to run testcase:oe_test_stat.
+Tue Sep 12 10:39:33 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:33 2023 - INFO  - End to run testcase:oe_test_stat.
+Tue Sep 12 10:39:33 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:33 2023 - INFO  - start to run testcase:oe_test_sudo_E.
+Tue Sep 12 10:39:34 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:34 2023 - INFO  - End to run testcase:oe_test_sudo_E.
+Tue Sep 12 10:39:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:34 2023 - INFO  - start to run testcase:oe_test_sudo_maxseq.
+Tue Sep 12 10:39:36 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:36 2023 - INFO  - End to run testcase:oe_test_sudo_maxseq.
+Tue Sep 12 10:39:36 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:39:36 2023 - INFO  - start to run testcase:oe_test_sudo.
+Tue Sep 12 10:39:43 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:43 2023 - INFO  - End to run testcase:oe_test_sudo.
+Tue Sep 12 10:39:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:39:43 2023 - INFO  - start to run testcase:oe_test_sudo_U.
+Tue Sep 12 10:39:50 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:50 2023 - INFO  - End to run testcase:oe_test_sudo_U.
+Tue Sep 12 10:39:50 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:39:51 2023 - INFO  - start to run testcase:oe_test_systemd_journald.
+Tue Sep 12 10:39:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:54 2023 - INFO  - End to run testcase:oe_test_systemd_journald.
+Tue Sep 12 10:39:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:39:54 2023 - INFO  - start to run testcase:oe_test_systemd-update-utmp.
+Tue Sep 12 10:39:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:39:54 2023 - INFO  - End to run testcase:oe_test_systemd-update-utmp.
+Tue Sep 12 10:39:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:39:55 2023 - INFO  - start to run testcase:oe_test_tcpdump.
+Tue Sep 12 10:40:02 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:40:02 2023 - INFO  - End to run testcase:oe_test_tcpdump.
+Tue Sep 12 10:40:02 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:40:02 2023 - INFO  - start to run testcase:oe_test_tftp_ipv6.
+Tue Sep 12 10:41:19 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:41:19 2023 - INFO  - End to run testcase:oe_test_tftp_ipv6.
+Tue Sep 12 10:41:19 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:19 2023 - INFO  - start to run testcase:oe_test_expat.
+Tue Sep 12 10:41:20 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:20 2023 - INFO  - End to run testcase:oe_test_expat.
+Tue Sep 12 10:41:20 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:20 2023 - INFO  - start to run testcase:oe_test_attr_001.
+Tue Sep 12 10:41:21 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:21 2023 - INFO  - End to run testcase:oe_test_attr_001.
+Tue Sep 12 10:41:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:21 2023 - INFO  - start to run testcase:oe_test_procps-ng-uptime.
+Tue Sep 12 10:41:21 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:21 2023 - INFO  - End to run testcase:oe_test_procps-ng-uptime.
+Tue Sep 12 10:41:21 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:21 2023 - INFO  - start to run testcase:oe_test_procps-ng-sysctl.
+Tue Sep 12 10:41:21 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:21 2023 - INFO  - End to run testcase:oe_test_procps-ng-sysctl.
+Tue Sep 12 10:41:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:22 2023 - INFO  - start to run testcase:oe_test_unalias_001.
+Tue Sep 12 10:41:22 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:22 2023 - INFO  - End to run testcase:oe_test_unalias_001.
+Tue Sep 12 10:41:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:22 2023 - INFO  - start to run testcase:oe_test_procps-ng-uptime.
+Tue Sep 12 10:41:22 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:22 2023 - INFO  - End to run testcase:oe_test_procps-ng-uptime.
+Tue Sep 12 10:41:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:23 2023 - INFO  - start to run testcase:oe_test_time_01.
+Tue Sep 12 10:41:26 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:26 2023 - INFO  - End to run testcase:oe_test_time_01.
+Tue Sep 12 10:41:26 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:26 2023 - INFO  - start to run testcase:oe_test_time_02.
+Tue Sep 12 10:41:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:41:29 2023 - INFO  - End to run testcase:oe_test_time_02.
+Tue Sep 12 10:41:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:41:29 2023 - INFO  - start to run testcase:oe_test_wget.
+Tue Sep 12 10:42:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:17 2023 - INFO  - End to run testcase:oe_test_wget.
+Tue Sep 12 10:42:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:17 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_01.
+Tue Sep 12 10:42:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:17 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_01.
+Tue Sep 12 10:42:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:18 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_02.
+Tue Sep 12 10:42:18 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:18 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_02.
+Tue Sep 12 10:42:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:18 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_03.
+Tue Sep 12 10:42:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:29 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_03.
+Tue Sep 12 10:42:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:29 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_04.
+Tue Sep 12 10:42:30 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:30 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_04.
+Tue Sep 12 10:42:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:30 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_05.
+Tue Sep 12 10:42:30 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:30 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_05.
+Tue Sep 12 10:42:30 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:31 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_06.
+Tue Sep 12 10:42:31 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:31 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_06.
+Tue Sep 12 10:42:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:31 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_07.
+Tue Sep 12 10:42:37 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:37 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_07.
+Tue Sep 12 10:42:37 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:37 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_08.
+Tue Sep 12 10:42:43 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:43 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_08.
+Tue Sep 12 10:42:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:43 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_09.
+Tue Sep 12 10:42:47 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:47 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_09.
+Tue Sep 12 10:42:47 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:47 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_10.
+Tue Sep 12 10:42:53 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:53 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_10.
+Tue Sep 12 10:42:53 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:53 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_11.
+Tue Sep 12 10:42:54 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:54 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_11.
+Tue Sep 12 10:42:54 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:54 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_12.
+Tue Sep 12 10:42:55 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:55 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_12.
+Tue Sep 12 10:42:55 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:55 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_13.
+Tue Sep 12 10:42:55 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:55 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_13.
+Tue Sep 12 10:42:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:56 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_14.
+Tue Sep 12 10:42:56 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:56 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_14.
+Tue Sep 12 10:42:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:56 2023 - INFO  - start to run testcase:oe_test_systemd_SCEN_15.
+Tue Sep 12 10:42:57 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:57 2023 - INFO  - End to run testcase:oe_test_systemd_SCEN_15.
+Tue Sep 12 10:42:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:57 2023 - INFO  - start to run testcase:oe_test_find.
+Tue Sep 12 10:42:58 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:58 2023 - INFO  - End to run testcase:oe_test_find.
+Tue Sep 12 10:42:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:58 2023 - INFO  - start to run testcase:oe_test_source.
+Tue Sep 12 10:42:59 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:59 2023 - INFO  - End to run testcase:oe_test_source.
+Tue Sep 12 10:42:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:59 2023 - INFO  - start to run testcase:oe_test_pwd_002.
+Tue Sep 12 10:42:59 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:42:59 2023 - INFO  - End to run testcase:oe_test_pwd_002.
+Tue Sep 12 10:42:59 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:42:59 2023 - INFO  - start to run testcase:oe_test_mtr.
+Tue Sep 12 10:43:48 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:43:48 2023 - INFO  - End to run testcase:oe_test_mtr.
+Tue Sep 12 10:43:48 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:43:48 2023 - INFO  - start to run testcase:oe_test_sadf_001.
+Tue Sep 12 10:44:12 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:44:12 2023 - INFO  - End to run testcase:oe_test_sadf_001.
+Tue Sep 12 10:44:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:44:12 2023 - INFO  - start to run testcase:oe_test_pstree.
+Tue Sep 12 10:44:12 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:44:12 2023 - INFO  - End to run testcase:oe_test_pstree.
+Tue Sep 12 10:44:12 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:44:12 2023 - INFO  - start to run testcase:oe_test_vmstat.
+Tue Sep 12 10:44:13 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:44:13 2023 - INFO  - End to run testcase:oe_test_vmstat.
+Tue Sep 12 10:44:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:44:13 2023 - INFO  - start to run testcase:oe_test_let.
+Tue Sep 12 10:44:13 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:44:13 2023 - INFO  - End to run testcase:oe_test_let.
+Tue Sep 12 10:44:13 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:44:13 2023 - INFO  - start to run testcase:oe_test_unset_001.
+Tue Sep 12 10:44:14 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:44:14 2023 - INFO  - End to run testcase:oe_test_unset_001.
+Tue Sep 12 10:44:14 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:44:14 2023 - INFO  - start to run testcase:oe_test_aide_config_cfgfile.
+Tue Sep 12 10:44:51 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:44:51 2023 - INFO  - End to run testcase:oe_test_aide_config_cfgfile.
+Tue Sep 12 10:44:51 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:44:51 2023 - INFO  - start to run testcase:oe_test_aide_config_check.
+Tue Sep 12 10:45:04 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:45:05 2023 - INFO  - End to run testcase:oe_test_aide_config_check.
+Tue Sep 12 10:45:05 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:45:05 2023 - INFO  - start to run testcase:oe_test_aide_basic_info.
+Tue Sep 12 10:45:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:45:08 2023 - INFO  - End to run testcase:oe_test_aide_basic_info.
+Tue Sep 12 10:45:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:45:08 2023 - INFO  - start to run testcase:oe_test_aide_init_database.
+Tue Sep 12 10:45:22 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:45:22 2023 - INFO  - End to run testcase:oe_test_aide_init_database.
+Tue Sep 12 10:45:22 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:45:22 2023 - INFO  - start to run testcase:oe_test_aide_security.
+Tue Sep 12 10:45:35 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:45:35 2023 - INFO  - End to run testcase:oe_test_aide_security.
+Tue Sep 12 10:45:35 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:45:35 2023 - INFO  - start to run testcase:oe_test_audit_abnormal_kill.
+Tue Sep 12 10:45:43 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:45:43 2023 - INFO  - End to run testcase:oe_test_audit_abnormal_kill.
+Tue Sep 12 10:45:43 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:45:43 2023 - INFO  - start to run testcase:oe_test_audit_fixed_memory_01.
+Tue Sep 12 10:45:47 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:45:47 2023 - INFO  - End to run testcase:oe_test_audit_fixed_memory_01.
+Tue Sep 12 10:45:47 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:45:47 2023 - INFO  - start to run testcase:oe_test_audit_fixed_memory_02.
+Tue Sep 12 10:46:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:08 2023 - INFO  - End to run testcase:oe_test_audit_fixed_memory_02.
+Tue Sep 12 10:46:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:08 2023 - INFO  - start to run testcase:oe_test_bbr_02.
+Tue Sep 12 10:46:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:08 2023 - INFO  - End to run testcase:oe_test_bbr_02.
+Tue Sep 12 10:46:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:08 2023 - INFO  - start to run testcase:oe_test_bbr_04.
+Tue Sep 12 10:46:09 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:09 2023 - INFO  - End to run testcase:oe_test_bbr_04.
+Tue Sep 12 10:46:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:09 2023 - INFO  - start to run testcase:oe_test_bonding_SCEN_05.
+Tue Sep 12 10:46:10 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:10 2023 - INFO  - End to run testcase:oe_test_bonding_SCEN_05.
+Tue Sep 12 10:46:10 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:10 2023 - INFO  - start to run testcase:oe_test_ima_v2_manual_gen_digest_01.
+Tue Sep 12 10:46:16 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:16 2023 - INFO  - End to run testcase:oe_test_ima_v2_manual_gen_digest_01.
+Tue Sep 12 10:46:16 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:17 2023 - INFO  - start to run testcase:oe_test_ipv6_sysctl_01.
+Tue Sep 12 10:46:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:17 2023 - INFO  - End to run testcase:oe_test_ipv6_sysctl_01.
+Tue Sep 12 10:46:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:17 2023 - INFO  - start to run testcase:oe_test_ipv6_sysctl_02.
+Tue Sep 12 10:46:17 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:17 2023 - INFO  - End to run testcase:oe_test_ipv6_sysctl_02.
+Tue Sep 12 10:46:17 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:17 2023 - INFO  - start to run testcase:oe_test_IPVLAN_07.
+Tue Sep 12 10:46:18 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:18 2023 - INFO  - End to run testcase:oe_test_IPVLAN_07.
+Tue Sep 12 10:46:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:18 2023 - INFO  - start to run testcase:oe_test_mpstat_01.
+Tue Sep 12 10:46:34 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:34 2023 - INFO  - End to run testcase:oe_test_mpstat_01.
+Tue Sep 12 10:46:34 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:34 2023 - INFO  - start to run testcase:oe_test_mtr_01.
+Tue Sep 12 10:46:57 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:46:57 2023 - INFO  - End to run testcase:oe_test_mtr_01.
+Tue Sep 12 10:46:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:46:57 2023 - INFO  - start to run testcase:oe_test_Netlink_ip_01.
+Tue Sep 12 10:47:01 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:47:01 2023 - INFO  - End to run testcase:oe_test_Netlink_ip_01.
+Tue Sep 12 10:47:01 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:47:01 2023 - INFO  - start to run testcase:oe_test_netstat_01.
+Tue Sep 12 10:47:02 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:47:02 2023 - INFO  - End to run testcase:oe_test_netstat_01.
+Tue Sep 12 10:47:02 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:47:02 2023 - INFO  - start to run testcase:oe_test_normal_tcpdump_02.
+Tue Sep 12 10:47:08 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:47:09 2023 - INFO  - End to run testcase:oe_test_normal_tcpdump_02.
+Tue Sep 12 10:47:09 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:47:09 2023 - INFO  - start to run testcase:oe_test_normal_tcpdump_04.
+Tue Sep 12 10:47:15 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:47:15 2023 - INFO  - End to run testcase:oe_test_normal_tcpdump_04.
+Tue Sep 12 10:47:15 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:47:15 2023 - INFO  - start to run testcase:oe_test_Numad_01.
+Tue Sep 12 10:47:18 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:47:18 2023 - INFO  - End to run testcase:oe_test_Numad_01.
+Tue Sep 12 10:47:18 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:47:18 2023 - INFO  - start to run testcase:oe_test_perf_top_01.
+Tue Sep 12 10:47:28 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:47:28 2023 - INFO  - End to run testcase:oe_test_perf_top_01.
+Tue Sep 12 10:47:28 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:47:28 2023 - INFO  - start to run testcase:oe_test_sar_01.
+Tue Sep 12 10:52:29 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:52:29 2023 - INFO  - End to run testcase:oe_test_sar_01.
+Tue Sep 12 10:52:29 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:52:29 2023 - INFO  - start to run testcase:oe_test_user_debug_iotop_03.
+Tue Sep 12 10:52:45 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:52:45 2023 - INFO  - End to run testcase:oe_test_user_debug_iotop_03.
+Tue Sep 12 10:52:45 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:52:45 2023 - INFO  - start to run testcase:oe_test_user_debug_iotop_SCEN_01.
+Tue Sep 12 10:52:46 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:52:46 2023 - INFO  - End to run testcase:oe_test_user_debug_iotop_SCEN_01.
+Tue Sep 12 10:52:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:52:46 2023 - INFO  - start to run testcase:oe_test_sed_001.
+Tue Sep 12 10:52:46 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:52:46 2023 - INFO  - End to run testcase:oe_test_sed_001.
+Tue Sep 12 10:52:46 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:52:47 2023 - INFO  - start to run testcase:oe_test_xz.
+Tue Sep 12 10:52:47 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:52:47 2023 - INFO  - End to run testcase:oe_test_xz.
+Tue Sep 12 10:52:47 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:52:48 2023 - INFO  - start to run testcase:oe_test_tr.
+Tue Sep 12 10:52:48 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:52:48 2023 - INFO  - End to run testcase:oe_test_tr.
+Tue Sep 12 10:52:48 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:52:48 2023 - INFO  - start to run testcase:oe_test_popt.
+Tue Sep 12 10:53:03 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:53:03 2023 - INFO  - End to run testcase:oe_test_popt.
+Tue Sep 12 10:53:03 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:53:03 2023 - INFO  - start to run testcase:oe_test_chkconfig_01.
+Tue Sep 12 10:53:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:53:08 2023 - INFO  - End to run testcase:oe_test_chkconfig_01.
+Tue Sep 12 10:53:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:53:08 2023 - INFO  - start to run testcase:oe_test_libxml2_001.
+Tue Sep 12 10:53:31 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:53:31 2023 - INFO  - End to run testcase:oe_test_libxml2_001.
+Tue Sep 12 10:53:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:53:31 2023 - INFO  - start to run testcase:oe_test_libxml2_002.
+Tue Sep 12 10:54:08 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:54:08 2023 - INFO  - End to run testcase:oe_test_libxml2_002.
+Tue Sep 12 10:54:08 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:54:08 2023 - INFO  - start to run testcase:oe_test_logrotate_004.
+Tue Sep 12 10:54:09 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:54:09 2023 - INFO  - End to run testcase:oe_test_logrotate_004.
+Tue Sep 12 10:54:09 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:54:09 2023 - INFO  - start to run testcase:oe_test_gcc_001.
+Tue Sep 12 10:54:31 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:54:31 2023 - INFO  - End to run testcase:oe_test_gcc_001.
+Tue Sep 12 10:54:31 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:54:31 2023 - INFO  - start to run testcase:oe_test_gcc_002.
+Tue Sep 12 10:54:56 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:54:56 2023 - INFO  - End to run testcase:oe_test_gcc_002.
+Tue Sep 12 10:54:56 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:54:57 2023 - INFO  - start to run testcase:oe_test_od.
+Tue Sep 12 10:54:57 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:54:57 2023 - INFO  - End to run testcase:oe_test_od.
+Tue Sep 12 10:54:57 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:54:57 2023 - INFO  - start to run testcase:oe_test_mkdosfs.
+Tue Sep 12 10:55:00 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:55:00 2023 - INFO  - End to run testcase:oe_test_mkdosfs.
+Tue Sep 12 10:55:01 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:55:01 2023 - INFO  - start to run testcase:oe_test_dumpe2fs.
+Tue Sep 12 10:55:02 2023 - ERROR - The case exit by code 4.
+Tue Sep 12 10:55:02 2023 - INFO  - End to run testcase:oe_test_dumpe2fs.
+Tue Sep 12 10:55:02 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:55:02 2023 - INFO  - start to run testcase:oe_test_mke2fs.
+Tue Sep 12 10:55:03 2023 - ERROR - The case exit by code 2.
+Tue Sep 12 10:55:03 2023 - INFO  - End to run testcase:oe_test_mke2fs.
+Tue Sep 12 10:55:03 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:55:03 2023 - INFO  - start to run testcase:oe_test_acpid_002.
+Tue Sep 12 10:55:06 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:55:06 2023 - INFO  - End to run testcase:oe_test_acpid_002.
+Tue Sep 12 10:55:06 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:55:06 2023 - INFO  - start to run testcase:oe_test_g++.
+Tue Sep 12 10:55:07 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:55:07 2023 - INFO  - End to run testcase:oe_test_g++.
+Tue Sep 12 10:55:07 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:55:07 2023 - INFO  - start to run testcase:oe_test_binutils-objcopy.
+Tue Sep 12 10:55:07 2023 - ERROR - The case exit by code 3.
+Tue Sep 12 10:55:07 2023 - INFO  - End to run testcase:oe_test_binutils-objcopy.
+Tue Sep 12 10:55:07 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:55:08 2023 - INFO  - start to run testcase:oe_test_ebtables_002.
+Tue Sep 12 10:55:11 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:55:11 2023 - INFO  - End to run testcase:oe_test_ebtables_002.
+Tue Sep 12 10:55:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+sudo: unable to load /usr/lib64/libsss_sudo.so: /usr/lib64/libsss_sudo.so: cannot open shared object file: No such file or directory
+sudo: unable to initialize SSS source. Is SSSD installed on your machine?
+Tue Sep 12 10:55:11 2023 - INFO  - start to run testcase:oe_test_lzo_002.
+Tue Sep 12 10:55:11 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:55:11 2023 - INFO  - End to run testcase:oe_test_lzo_002.
+Tue Sep 12 10:55:11 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.

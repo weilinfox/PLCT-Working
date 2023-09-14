@@ -1,0 +1,20 @@
+Tue Sep 12 10:01:00 2023 - INFO  - start to run testcase:oe_test_service_ip6tables.
+Tue Sep 12 10:01:17 2023 - ERROR - The case exit by code 8.
+Tue Sep 12 10:01:17 2023 - INFO  - End to run testcase:oe_test_service_ip6tables.
+Tue Sep 12 10:01:17 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:01:17 2023 - INFO  - start to run testcase:oe_test_service_iptables.
+Tue Sep 12 10:01:33 2023 - ERROR - The case exit by code 8.
+Tue Sep 12 10:01:33 2023 - INFO  - End to run testcase:oe_test_service_iptables.
+Tue Sep 12 10:01:33 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:01:33 2023 - INFO  - start to run testcase:oe_test_iptables-restore.
+Tue Sep 12 10:01:37 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:01:37 2023 - INFO  - End to run testcase:oe_test_iptables-restore.
+Tue Sep 12 10:01:37 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:01:37 2023 - INFO  - start to run testcase:oe_test_ip6tables-save.
+Tue Sep 12 10:01:40 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:01:40 2023 - INFO  - End to run testcase:oe_test_ip6tables-save.
+Tue Sep 12 10:01:40 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.
+Tue Sep 12 10:01:40 2023 - INFO  - start to run testcase:oe_test_ip6tables-restore_01.
+Tue Sep 12 10:01:44 2023 - ERROR - The case exit by code 1.
+Tue Sep 12 10:01:44 2023 - INFO  - End to run testcase:oe_test_ip6tables-restore_01.
+Tue Sep 12 10:01:44 2023 - INFO  - A total of 1 use cases were executed, with 0 successes and 1 failures.

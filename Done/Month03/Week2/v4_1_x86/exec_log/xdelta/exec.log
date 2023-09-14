@@ -1,0 +1,12 @@
+Tue Sep 12 10:06:16 2023 - INFO  - start to run testcase:oe_test_xdelta_001.
+Tue Sep 12 10:07:40 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:07:40 2023 - INFO  - End to run testcase:oe_test_xdelta_001.
+Tue Sep 12 10:07:40 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:07:41 2023 - INFO  - start to run testcase:oe_test_xdelta_002.
+Tue Sep 12 10:07:48 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:07:48 2023 - INFO  - End to run testcase:oe_test_xdelta_002.
+Tue Sep 12 10:07:49 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
+Tue Sep 12 10:07:49 2023 - INFO  - start to run testcase:oe_test_xdelta_003.
+Tue Sep 12 10:07:58 2023 - INFO  - The case exit by code 0.
+Tue Sep 12 10:07:58 2023 - INFO  - End to run testcase:oe_test_xdelta_003.
+Tue Sep 12 10:07:58 2023 - INFO  - A total of 1 use cases were executed, with 1 successes and 0 failures.
