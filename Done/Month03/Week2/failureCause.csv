@@ -1,0 +1,563 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因
+xfsprogs,oe_test_service_xfs_scrub_all,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/xfsprogs/oe_test_service_xfs_scrub_all/2023-09-11-22_16_11.log,None
+libgpg-error,oe_test_libgpg-error,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libgpg-error/oe_test_libgpg-error/2023-09-11-22_07_15.log,None
+opensm,oe_test_service_opensm,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/opensm/oe_test_service_opensm/2023-09-11-22_09_03.log,None
+mariadb,oe_test_mariadb-db,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/mariadb/oe_test_mariadb-db/2023-09-11-21_37_27.log,None
+,oe_test_service_mariadb,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/mariadb/oe_test_service_mariadb/2023-09-11-21_33_19.log,None
+,oe_test_mariadb-table,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/mariadb/oe_test_mariadb-table/2023-09-11-21_40_44.log,None
+babeltrace,oe_test_babeltrace,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/babeltrace/oe_test_babeltrace/2023-09-11-21_59_28.log,None
+libappstream-glib,oe_test_libappstream-glib_appstream-builder_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-builder_01/2023-09-11-21_11_27.log,None
+,oe_test_libappstream-glib_appstream-builder_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-builder_02/2023-09-11-21_11_52.log,None
+,oe_test_libappstream-glib_appstream-util_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-util_01/2023-09-11-21_12_45.log,None
+,oe_test_libappstream-glib_appstream-util_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-util_03/2023-09-11-21_13_40.log,None
+,oe_test_libappstream-glib_appstream-compose,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-compose/2023-09-11-21_12_16.log,None
+,oe_test_libappstream-glib_appstream-util_04,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-util_04/2023-09-11-21_14_07.log,None
+,oe_test_libappstream-glib_appstream-util_05,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-util_05/2023-09-11-21_14_32.log,None
+,oe_test_libappstream-glib_appstream-util_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libappstream-glib/oe_test_libappstream-glib_appstream-util_02/2023-09-11-21_13_11.log,None
+bluez,oe_test_service_bluetooth-mesh,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/bluez/oe_test_service_bluetooth-mesh/2023-09-11-21_46_09.log,None
+,oe_test_service_bluetooth,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/bluez/oe_test_service_bluetooth/2023-09-11-21_46_18.log,None
+xdelta,oe_test_xdelta_003,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/xdelta/oe_test_xdelta_003/2023-09-11-21_48_21.log,None
+,oe_test_xdelta_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/xdelta/oe_test_xdelta_002/2023-09-11-21_48_00.log,None
+,oe_test_xdelta_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/xdelta/oe_test_xdelta_001/2023-09-11-21_35_40.log,None
+bison,oe_test_bison,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/bison/oe_test_bison/2023-09-11-22_16_59.log,None
+automake,oe_test_automake,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/automake/oe_test_automake/2023-09-11-21_57_26.log,None
+intltool,oe_test_intltool_intltool-merge_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/intltool/oe_test_intltool_intltool-merge_01/2023-09-11-21_15_23.log,None
+,oe_test_intltool_intltoolize,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/intltool/oe_test_intltool_intltoolize/2023-09-11-21_19_25.log,None
+,oe_test_intltool_intltool-merge_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/intltool/oe_test_intltool_intltool-merge_02/2023-09-11-21_15_54.log,None
+,oe_test_intltool_intltool-prepare,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/intltool/oe_test_intltool_intltool-prepare/2023-09-11-21_19_01.log,None
+,oe_test_intltool_intltool-update,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/intltool/oe_test_intltool_intltool-update/2023-09-11-21_16_23.log,None
+,oe_test_intltool_intltool-extract,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/intltool/oe_test_intltool_intltool-extract/2023-09-11-21_17_06.log,None
+libxslt,oe_test_libxslt,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libxslt/oe_test_libxslt/2023-09-11-22_07_22.log,None
+sqlite,oe_test_sqlite_command_07,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_07/2023-09-11-21_06_35.log,None
+,oe_test_sqlite_command_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_01/2023-09-11-21_04_50.log,None
+,oe_test_sqlite_update_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_update_01/2023-09-11-21_07_48.log,None
+,oe_test_sqlite_command_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_03/2023-09-11-21_05_43.log,None
+,oe_test_sqlite_command_06,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_06/2023-09-11-21_06_15.log,None
+,oe_test_sqlite_command_04,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_04/2023-09-11-21_05_54.log,None
+,oe_test_sqlite_alter_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_alter_01/2023-09-11-21_04_40.log,None
+,oe_test_sqlite_function_04,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_function_04/2023-09-11-21_07_38.log,None
+,oe_test_sqlite_command_05,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_05/2023-09-11-21_06_05.log,None
+,oe_test_sqlite_function_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_function_01/2023-09-11-21_07_06.log,None
+,oe_test_sqlite_function_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_function_03/2023-09-11-21_07_26.log,None
+,oe_test_sqlite_delete_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_delete_01/2023-09-11-21_06_56.log,None
+,oe_test_sqlite_function_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_function_02/2023-09-11-21_07_17.log,None
+,oe_test_sqlite_command_08,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_08/2023-09-11-21_06_45.log,None
+,oe_test_sqlite_create_06,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_create_06/2023-09-11-21_08_08.log,None
+,oe_test_sqlite_command_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_command_02/2023-09-11-21_05_23.log,None
+,oe_test_sqlite_select_05,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sqlite/oe_test_sqlite_select_05/2023-09-11-21_07_58.log,None
+fribidi,oe_test_fribidi,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fribidi/oe_test_fribidi/2023-09-11-22_04_15.log,None
+telnet,oe_test_socket_telnet,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/telnet/oe_test_socket_telnet/2023-09-11-22_14_18.log,None
+glibc,oe_test_service_nscd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/glibc/oe_test_service_nscd/2023-09-11-21_49_10.log,None
+,oe_test_socket_nscd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/glibc/oe_test_socket_nscd/2023-09-11-21_50_03.log,None
+pam,oe_test_service_pam_namespace,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/pam/oe_test_service_pam_namespace/2023-09-11-22_10_50.log,None
+python-blivet,oe_test_service_blivet,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/python-blivet/oe_test_service_blivet/2023-09-11-22_10_58.log,None
+git,oe_test_socket_git,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/git/oe_test_socket_git/2023-09-11-22_04_26.log,None
+haveged,oe_test_service_haveged,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/haveged/oe_test_service_haveged/2023-09-11-22_05_25.log,None
+tog-pegasus,oe_test_service_tog-pegasus,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/tog-pegasus/oe_test_service_tog-pegasus/2023-09-11-22_14_53.log,None
+libcap,oe_test_acl_manage_net,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_manage_net/2023-09-11-21_12_06.log,None
+,oe_test_acl_allow_change_nochange,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_allow_change_nochange/2023-09-11-21_10_22.log,None
+,oe_test_libcap,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_libcap/2023-09-11-21_09_25.log,None
+,oe_test_acl_ignore_dal_across,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_ignore_dal_across/2023-09-11-21_09_38.log,None
+,oe_test_acl_allow_change_ownership,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_allow_change_ownership/2023-09-11-21_10_06.log,None
+,oe_test_acl_verwrite_previous_rules,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_verwrite_previous_rules/2023-09-11-21_09_56.log,None
+,oe_test_acl_send_kill_notbelong,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_send_kill_notbelong/2023-09-11-21_10_45.log,None
+,oe_test_acl_ordinary_users_setgid,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_ordinary_users_setgid/2023-09-11-21_11_07.log,None
+,oe_test_acl_bind_port,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcap/oe_test_acl_bind_port/2023-09-11-21_11_32.log,None
+e2fsprogs,oe_test_service_e2scrub_reap,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/e2fsprogs/oe_test_service_e2scrub_reap/2023-09-11-21_47_45.log,None
+,oe_test_service_e2scrub_all,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/e2fsprogs/oe_test_service_e2scrub_all/2023-09-11-21_47_34.log,None
+mlocate,oe_test_service_mlocate-updatedb,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/mlocate/oe_test_service_mlocate-updatedb/2023-09-11-22_07_30.log,None
+dos2unix,oe_test_dos2unix,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dos2unix/oe_test_dos2unix/2023-09-11-22_02_41.log,None
+open-isns,oe_test_service_isnsd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-isns/oe_test_service_isnsd/2023-09-11-22_08_54.log,None
+tftp,oe_test_service_tftp,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/tftp/oe_test_service_tftp/2023-09-11-21_53_19.log,None
+,oe_test_socket_tftp,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/tftp/oe_test_socket_tftp/2023-09-11-21_54_47.log,None
+graphviz,oe_test_graphviz,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/graphviz/oe_test_graphviz/2023-09-11-22_17_08.log,None
+flac,oe_test_flac,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/flac/oe_test_flac/2023-09-11-22_03_50.log,None
+acl,oe_test_acl_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_file/2023-09-11-21_07_20.log,None
+,oe_test_acl_add_write_permissions,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_add_write_permissions/2023-09-11-21_04_36.log,None
+,oe_test_acl_setfacl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_setfacl/2023-09-11-21_06_46.log,None
+,oe_test_acl_only_root_permission,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_only_root_permission/2023-09-11-21_05_35.log,None
+,oe_test_acl_chacl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_chacl/2023-09-11-21_06_01.log,None
+,oe_test_acl_delete_acl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_delete_acl/2023-09-11-21_08_15.log,None
+,oe_test_acl_change_mask,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_change_mask/2023-09-11-21_04_52.log,None
+,oe_test_acl_backup_recovery,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_backup_recovery/2023-09-11-21_08_03.log,None
+,oe_test_acl_dir_read,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_dir_read/2023-09-11-21_09_02.log,None
+,oe_test_acl_file_authorize,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_file_authorize/2023-09-11-21_09_48.log,None
+,oe_test_acl_defaulr_rule,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_defaulr_rule/2023-09-11-21_05_23.log,None
+,oe_test_acl_check_create,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_check_create/2023-09-11-21_05_12.log,None
+,oe_test_acl_getfacl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_getfacl/2023-09-11-21_06_25.log,None
+,oe_test_acl_default_kernel_setting,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_default_kernel_setting/2023-09-11-21_07_54.log,None
+,oe_test_access_providepam,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_access_providepam/2023-09-11-21_07_09.log,None
+,oe_test_acl_dir_write,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/acl/oe_test_acl_dir_write/2023-09-11-21_08_27.log,None
+libmemcached,oe_test_memexist,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memexist/2023-09-11-21_08_47.log,None
+,oe_test_memcp,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memcp/2023-09-11-21_07_36.log,None
+,oe_test_memflush,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memflush/2023-09-11-21_09_16.log,None
+,oe_test_memcat,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memcat/2023-09-11-21_07_09.log,None
+,oe_test_memrm,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memrm/2023-09-11-21_10_13.log,None
+,oe_test_memstat,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memstat/2023-09-11-21_12_55.log,None
+,oe_test_memslap,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memslap/2023-09-11-21_10_42.log,None
+,oe_test_memdump-memerror,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memdump-memerror/2023-09-11-21_08_20.log,None
+,oe_test_memaslap,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memaslap/2023-09-11-21_04_34.log,None
+,oe_test_memcapable,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memcapable/2023-09-11-21_06_16.log,None
+,oe_test_memping,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memping/2023-09-11-21_09_45.log,None
+,oe_test_memtouch,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libmemcached/oe_test_memtouch/2023-09-11-21_13_25.log,None
+libcanberra,oe_test_service_canberra-system-shutdown,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcanberra/oe_test_service_canberra-system-shutdown/2023-09-11-21_32_56.log,None
+,oe_test_service_canberra-system-shutdown-reboot,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcanberra/oe_test_service_canberra-system-shutdown-reboot/2023-09-11-21_32_28.log,None
+,oe_test_service_canberra-system-bootup,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libcanberra/oe_test_service_canberra-system-bootup/2023-09-11-21_32_00.log,None
+libksba,oe_test_libksba,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libksba/oe_test_libksba/2023-09-11-22_18_31.log,None
+tree,oe_test_tree,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/tree/oe_test_tree/2023-09-11-22_17_38.log,None
+fio,oe_test_fio_003,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fio/oe_test_fio_003/2023-09-11-21_31_19.log,None
+,oe_test_fio_001,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fio/oe_test_fio_001/2023-09-11-21_23_42.log,x86 fail
+,oe_test_fio_004,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fio/oe_test_fio_004/2023-09-11-21_37_55.log,x86 fail
+,oe_test_fio_002,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fio/oe_test_fio_002/2023-09-11-21_24_48.log,x86 fail
+glusterfs,oe_test_service_glusterd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/glusterfs/oe_test_service_glusterd/2023-09-11-21_17_22.log,None
+,oe_test_service_glusterfssharedstorage,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/glusterfs/oe_test_service_glusterfssharedstorage/2023-09-11-21_21_40.log,None
+,oe_test_service_glusterfsd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/glusterfs/oe_test_service_glusterfsd/2023-09-11-21_21_19.log,None
+,oe_test_service_glustereventsd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/glusterfs/oe_test_service_glustereventsd/2023-09-11-21_19_09.log,None
+,oe_test_service_gluster-ta-volume,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/glusterfs/oe_test_service_gluster-ta-volume/2023-09-11-21_23_20.log,x86 fail
+fftw,oe_test_fftw_fftwl-wisdom_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftwl-wisdom_01/2023-09-11-21_07_37.log,None
+,oe_test_fftw_fftw-wisdom_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftw-wisdom_01/2023-09-11-21_05_09.log,None
+,oe_test_fftw_fftwl-wisdom_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftwl-wisdom_03/2023-09-11-21_08_27.log,None
+,oe_test_fftw_fftw-wisdom_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftw-wisdom_03/2023-09-11-21_06_03.log,None
+,oe_test_fftw_fftwf-wisdom_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftwf-wisdom_03/2023-09-11-21_07_15.log,None
+,oe_test_fftw_fftwf-wisdom_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftwf-wisdom_01/2023-09-11-21_06_25.log,None
+,oe_test_fftw_fftw-wisdom_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftw-wisdom_02/2023-09-11-21_05_36.log,x86 fail
+,oe_test_fftw_fftwl-wisdom_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftwl-wisdom_02/2023-09-11-21_08_03.log,x86 fail
+,oe_test_fftw_fftwf-wisdom_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftwf-wisdom_02/2023-09-11-21_06_51.log,x86 fail
+,oe_test_fftw_fftw-wisdom-to-conf,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fftw/oe_test_fftw_fftw-wisdom-to-conf/2023-09-11-21_04_42.log,x86 fail
+FS_File,oe_test_FSIO_create_character,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_character/2023-09-11-21_16_54.log,None
+,oe_test_FSIO_touch_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_touch_file/2023-09-11-21_21_59.log,None
+,oe_test_FSIO_zip_unzip_overfs,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_zip_unzip_overfs/2023-09-11-21_22_23.log,None
+,oe_test_FSIO_tar,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_tar/2023-09-11-21_21_34.log,None
+,oe_test_FSIO_rename_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_rename_file/2023-09-11-21_20_10.log,None
+,oe_test_FSIO_act_alias,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_act_alias/2023-09-11-21_05_22.log,None
+,oe_test_FSIO_create_softlink_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_softlink_file/2023-09-11-21_18_10.log,None
+,oe_test_FSIO_create_softlink,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_softlink/2023-09-11-21_17_37.log,None
+,oe_test_FSIO_act_hardlink,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_act_hardlink/2023-09-11-21_06_10.log,None
+,oe_test_FSIO_check_file_info,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_check_file_info/2023-09-11-21_07_13.log,None
+,oe_test_FSIO_mv_file_1,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_mv_file_1/2023-09-11-21_19_42.log,None
+,oe_test_FSIO_chown,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_chown/2023-09-11-21_07_39.log,None
+,oe_test_FSIO_bzip2,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_bzip2/2023-09-11-21_06_22.log,None
+,oe_test_FSIO_rm_softlink,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_rm_softlink/2023-09-11-21_21_10.log,None
+,oe_test_FSIO_rm_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_rm_file/2023-09-11-21_20_48.log,None
+,oe_test_FSIO_mv_file_2,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_mv_file_2/2023-09-11-21_19_56.log,None
+,oe_test_FSIO_gzip,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_gzip/2023-09-11-21_18_47.log,None
+,oe_test_FSIO_dd_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_dd_file/2023-09-11-21_18_20.log,None
+,oe_test_FSIO_rm_hardlink,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_rm_hardlink/2023-09-11-21_20_59.log,None
+,oe_test_FSIO_concurrency_read_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_concurrency_read_file/2023-09-11-21_07_51.log,None
+,oe_test_FSIO_check_alias,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_check_alias/2023-09-11-21_06_55.log,None
+,oe_test_FSIO_change_proc,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_change_proc/2023-09-11-21_06_34.log,None
+,oe_test_FSIO_concurrency_write_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_concurrency_write_file/2023-09-11-21_09_59.log,None
+,oe_test_FSIO_check_block,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_check_block/2023-09-11-21_07_04.log,None
+,oe_test_FSIO_cp_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_cp_file/2023-09-11-21_16_28.log,None
+,oe_test_FSIO_create_softlink_dir,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_softlink_dir/2023-09-11-21_18_00.log,None
+,oe_test_FSIO_chattr,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_chattr/2023-09-11-21_06_44.log,None
+,oe_test_FSIO_gzip_overfs,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_gzip_overfs/2023-09-11-21_18_59.log,None
+,oe_test_FSIO_create_softlink_diff_fs,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_softlink_diff_fs/2023-09-11-21_17_47.log,None
+,oe_test_FSIO_modify_magicfile,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_modify_magicfile/2023-09-11-21_19_32.log,None
+,oe_test_FSIO_zip_unzip,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_zip_unzip/2023-09-11-21_22_10.log,None
+,oe_test_FSIO_modify_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_modify_file/2023-09-11-21_19_11.log,None
+,oe_test_FSIO_create_block,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_block/2023-09-11-21_16_42.log,None
+,oe_test_FSIO_act_file_lack_inode,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_act_file_lack_inode/2023-09-11-21_05_41.log,x86 fail
+,oe_test_FSIO_rename_file_fail,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_rename_file_fail/2023-09-11-21_20_26.log,x86 fail
+,oe_test_FSIO_create_hardlink_fail,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_hardlink_fail/2023-09-11-21_17_07.log,x86 fail
+,oe_test_FSIO_chmod,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_chmod/2023-09-11-21_07_26.log,x86 fail
+,oe_test_FSIO_filefrag,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_filefrag/2023-09-11-21_18_32.log,x86 fail
+,oe_test_FSIO_sys_fs_check,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_sys_fs_check/2023-09-11-21_21_20.log,x86 fail
+,oe_test_FSIO_create_mv_hardlink,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_mv_hardlink/2023-09-11-21_17_24.log,xfs 文件系统建立失败
+arpwatch,oe_test_service_arpwatch,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/arpwatch/oe_test_service_arpwatch/2023-09-11-21_58_41.log,arpwatch.service 启动失败，原因未知
+cups-filters,oe_test_service_cups-browsed,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/cups-filters/oe_test_service_cups-browsed/2023-09-11-22_01_01.log,cups-browsed.service 停止失败，报 assertion 'loop != NULL' failed
+sendmail,oe_test_service_sendmail,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sendmail/oe_test_service_sendmail/2023-09-11-21_41_32.log,None
+,oe_test_sendmail_func_001,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sendmail/oe_test_sendmail_func_001/2023-09-11-21_49_33.log,软件lsof未安装
+,oe_test_service_sm-client,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/sendmail/oe_test_service_sm-client/2023-09-11-21_46_38.log,sm-client.service 启动失败，报 /bin/chown: invalid user: ‘smmsp:smmsp’
+smartmontools,oe_test_service_smartd,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smartmontools/oe_test_service_smartd/2023-09-11-22_12_55.log,x86 fail
+dkms,oe_test_service_dkms,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dkms/oe_test_service_dkms/2023-09-11-22_01_47.log,x86 fail
+postfix,oe_test_postfix_configuration,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/postfix/oe_test_postfix_configuration/2023-09-11-21_56_04.log,postfix.service 启动失败，报 fatal: file /etc/postfix/main.cf: parameter mail_owner: unknown user name value: postfix
+,oe_test_service_postfix,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/postfix/oe_test_service_postfix/2023-09-11-21_51_57.log,postfix.service 启动失败，报 fatal: file /etc/postfix/main.cf: parameter mail_owner: unknown user name value: postfix
+fontconfig,oe_test_fc-cat,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fontconfig/oe_test_fc-cat/2023-09-11-21_29_11.log,None
+,oe_test_fc-cache,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fontconfig/oe_test_fc-cache/2023-09-11-21_29_34.log,None
+,oe_test_fc-conflist,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fontconfig/oe_test_fc-conflist/2023-09-11-21_29_23.log,None
+,oe_test_fc-list,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/fontconfig/oe_test_fc-list/2023-09-11-21_28_53.log,x86 fail
+irqbalance,oe_test_service_irqbalance,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/irqbalance/oe_test_service_irqbalance/2023-09-11-22_05_45.log,x86 fail
+gdb,oe_test_gdb_recovery_database,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/gdb/oe_test_gdb_recovery_database/2023-09-11-21_21_06.log,None
+,oe_test_gdb-list,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/gdb/oe_test_gdb-list/2023-09-11-21_22_02.log,None
+,oe_test_gdb-watch,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/gdb/oe_test_gdb-watch/2023-09-11-21_22_16.log,None
+,oe_test_gdb-breakpoints,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/gdb/oe_test_gdb-breakpoints/2023-09-11-21_21_29.log,None
+,oe_test_gdb-bt,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/gdb/oe_test_gdb-bt/2023-09-11-21_21_45.log,x86 fail
+cups,oe_test_socket_cups-lpd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/cups/oe_test_socket_cups-lpd/2023-09-11-21_31_56.log,None
+,oe_test_service_cups,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/cups/oe_test_service_cups/2023-09-11-21_31_07.log,x86 fail
+,oe_test_socket_cups,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/cups/oe_test_socket_cups/2023-09-11-21_33_34.log,x86 fail
+curl,oe_test_curl_curl-config_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl-config_001/2023-09-11-21_10_00.log,None
+,oe_test_curl_curl_003,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl_003/2023-09-11-21_13_35.log,None
+,oe_test_curl_curl_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl_001/2023-09-11-21_12_23.log,None
+,oe_test_curl_curl_004,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl_004/2023-09-11-21_14_06.log,None
+,oe_test_curl_curl_007,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl_007/2023-09-11-21_15_46.log,None
+,oe_test_curl_curl_005,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl_005/2023-09-11-21_14_43.log,None
+,oe_test_curl_curl-config_002,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl-config_002/2023-09-11-21_11_13.log,x86 fail
+,oe_test_curl_curl_006,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl_006/2023-09-11-21_15_17.log,x86 fail
+,oe_test_curl_curl_002,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/curl/oe_test_curl_curl_002/2023-09-11-21_12_57.log,x86 fail
+mcstrans,oe_test_service_mcstrans,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/mcstrans/oe_test_service_mcstrans/2023-09-11-21_50_33.log,x86 fail
+,oe_test_service_mcstransd,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/mcstrans/oe_test_service_mcstransd/2023-09-11-21_49_50.log,x86 fail
+upower,oe_test_service_upower,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/upower/oe_test_service_upower/2023-09-11-22_15_01.log,x86 fail
+xinetd,oe_test_service_xinetd_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/xinetd/oe_test_service_xinetd_002/2023-09-11-21_56_11.log,None
+,oe_test_service_xinetd,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/xinetd/oe_test_service_xinetd/2023-09-11-21_55_16.log,x86 fail
+dnf,oe_test_service_dnf-makecache,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_service_dnf-makecache/2023-09-11-23_20_16.log,None
+,oe_test_dnf_assumeno_autoremove,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_assumeno_autoremove/2023-09-11-22_56_39.log,None
+,oe_test_dnf_distro-sync_dnf-3,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_distro-sync_dnf-3/2023-09-11-23_10_18.log,None
+,oe_test_dnf_help_history_info,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_help_history_info/2023-09-11-23_21_32.log,None
+,oe_test_dnf_alias,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_alias/2023-09-11-22_54_37.log,None
+,oe_test_dnf_makecache_clean,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_makecache_clean/2023-09-11-23_04_34.log,None
+,oe_test_dnf_nobest_nodocs_nogpgcheck,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_nobest_nodocs_nogpgcheck/2023-09-11-23_25_54.log,None
+,oe_test_dnf_repeat-install,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_repeat-install/2023-09-11-23_37_45.log,None
+,oe_test_dnf_all-repos,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_all-repos/2023-09-11-22_55_17.log,None
+,oe_test_dnf_enhancement_exclude,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_enhancement_exclude/2023-09-11-23_20_30.log,None
+,oe_test_dnf_priority,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_priority/2023-09-11-23_27_39.log,None
+,oe_test_dnf_automatic,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_automatic/2023-09-11-22_59_04.log,None
+,oe_test_dnf_enabled_enablerepo,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_enabled_enablerepo/2023-09-11-23_14_19.log,x86 fail
+,oe_test_dnf_list_mark,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_list_mark/2023-09-11-23_22_58.log,x86 fail
+,oe_test_dnf_reinstall_repoinfo,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_reinstall_repoinfo/2023-09-11-23_33_26.log,x86 fail
+,oe_test_dnf_repeat-upgrade-downgrade,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_repeat-upgrade-downgrade/2023-09-11-23_47_47.log,x86 fail
+,oe_test_service_dnf-automatic-download,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_service_dnf-automatic-download/2023-09-11-23_14_48.log,"dnf-automatic-download.service 启动失败，报 Problem: package cgdcbxd-1.0.2-9.oe2309.riscv64 from @System requires libcgroup.so.2()(64bit), but none of the providers can be installed"
+,oe_test_dnf_check_diffenert-packages,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_check_diffenert-packages/2023-09-11-23_03_04.log,dnf check 出现错误，报 kde-filesystem-4-62.oe2309.riscv64 is obsoleted by kde-filesystem-4-62.oe2309.riscv64
+,oe_test_service_dnf-automatic-install,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_service_dnf-automatic-install/2023-09-11-23_16_13.log,"dnf-automatic-install.service 启动失败，报 Problem: package cgdcbxd-1.0.2-9.oe2309.riscv64 from @System requires libcgroup.so.2()(64bit), but none of the providers can be installed"
+,oe_test_service_dnf-automatic-notifyonly,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_service_dnf-automatic-notifyonly/2023-09-11-23_17_34.log,"dnf-automatic-notifyonly.service 启动失败，报 Problem: package cgdcbxd-1.0.2-9.oe2309.riscv64 from @System requires libcgroup.so.2()(64bit), but none of the providers can be installed"
+,oe_test_dnf_provides_randomwait,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_dnf_provides_randomwait/2023-09-11-23_28_21.log,测试 dnf -R 但是实际等待时间远超期望时间
+,oe_test_service_dnf-automatic,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/dnf/oe_test_service_dnf-automatic/2023-09-11-23_18_55.log,"dnf-automatic.service 启动失败，报 Problem: package cgdcbxd-1.0.2-9.oe2309.riscv64 from @System requires libcgroup.so.2()(64bit), but none of the providers can be installed"
+libosinfo,oe_test_osinfo-query,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libosinfo/oe_test_osinfo-query/2023-09-11-21_26_03.log,None
+,oe_test_osinfo-install-script,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libosinfo/oe_test_osinfo-install-script/2023-09-11-21_25_24.log,None
+,oe_test_osinfo-detect,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libosinfo/oe_test_osinfo-detect/2023-09-11-21_24_28.log,x86 fail
+,oe_test_osinfo-db-import,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/libosinfo/oe_test_osinfo-db-import/2023-09-11-21_26_51.log,x86 fail
+radvd,oe_test_service_radvd,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/radvd/oe_test_service_radvd/2023-09-11-22_12_07.log,x86 fail
+net-snmp,oe_test_service_snmptrapd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/net-snmp/oe_test_service_snmptrapd/2023-09-11-21_28_59.log,None
+,oe_test_service_snmpd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/net-snmp/oe_test_service_snmpd/2023-09-11-21_27_59.log,None
+,oe_test_net-snmp_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/net-snmp/oe_test_net-snmp_01/2023-09-11-21_29_54.log,x86 fail
+,oe_test_net-snmp_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/net-snmp/oe_test_net-snmp_02/2023-09-11-21_30_20.log,x86 fail
+colord,oe_test_service_colord,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/colord/oe_test_service_colord/2023-09-11-22_00_44.log,colord.service 异常退出，报 Failed at step USER spawning /usr/libexec/colord: No such process
+samba,oe_test_service_smb,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/samba/oe_test_service_smb/2023-09-11-21_27_16.log,None
+,oe_test_service_winbind,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/samba/oe_test_service_winbind/2023-09-11-21_28_35.log,None
+,oe_test_service_nmb,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/samba/oe_test_service_nmb/2023-09-11-21_22_36.log,None
+,oe_test_service_samba,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/samba/oe_test_service_samba/2023-09-11-21_23_30.log,x86 fail
+,oe_test_service_ctdb,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/samba/oe_test_service_ctdb/2023-09-11-21_20_43.log,ctdb.service 异常退出，原因未知
+iptables,oe_test_service_ip6tables,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/iptables/oe_test_service_ip6tables/2023-09-11-21_20_42.log,None
+,oe_test_service_iptables,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/iptables/oe_test_service_iptables/2023-09-11-21_21_25.log,None
+,oe_test_ip6tables-save,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/iptables/oe_test_ip6tables-save/2023-09-11-21_22_32.log,x86 fail
+,oe_test_ip6tables-restore_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/iptables/oe_test_ip6tables-restore_01/2023-09-11-21_22_54.log,x86 fail
+,oe_test_iptables-restore,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/iptables/oe_test_iptables-restore/2023-09-11-21_22_08.log,x86 fail
+cachefilesd,oe_test_service_cachefilesd,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/cachefilesd/oe_test_service_cachefilesd/2023-09-11-21_59_43.log,x86 fail
+quota,oe_test_service_quota_nld,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/quota/oe_test_service_quota_nld/2023-09-11-21_52_29.log,None
+,oe_test_service_rpc-rquotad,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/quota/oe_test_service_rpc-rquotad/2023-09-11-21_53_16.log,rpc-rquotad.service 启动失败，报 rpc-rquotad.service: Job rpc-rquotad.service/start failed with result 'dependency'.
+nss-pam-ldapd,oe_test_service_nslcd,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/nss-pam-ldapd/oe_test_service_nslcd/2023-09-11-22_08_48.log,nslcd.service 启动失败，报 nslcd: /etc/nslcd.conf:8: uid: not a valid uid: 'nslcd'
+audit,oe_test_audit_max_log_file_rotate,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_max_log_file_rotate/2023-09-12-04_58_34.log,None
+,oe_test_audit_rule_fetch_from_rule,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_rule_fetch_from_rule/2023-09-12-03_25_48.log,None
+,oe_test_start_audit,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_start_audit/2024-09-12-07_08_41.log,None
+,oe_test_aulastlog,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_aulastlog/2024-09-12-07_39_02.log,None
+,oe_test_audit_use_w_audit,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_use_w_audit/2023-09-12-02_25_26.log,None
+,oe_test_audit_max_log_file_ignore,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_max_log_file_ignore/2023-09-12-05_00_08.log,None
+,oe_test_audit_other,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_other/2024-09-12-07_08_27.log,None
+,oe_test_audit_max_log_file_suspend,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_max_log_file_suspend/2023-09-12-05_31_11.log,x86 fail
+,oe_test_audit_monitor_system_use,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_monitor_system_use/2023-09-11-23_54_47.log,x86 fail
+,oe_test_audit_max_log_file_syslog,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_max_log_file_syslog/2023-09-12-05_01_06.log,x86 fail
+,oe_test_inject_time_fault,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_inject_time_fault/2023-09-12-06_37_18.log,x86 fail
+,oe_test_audit_track_designated_access,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_track_designated_access/2023-09-12-01_55_07.log,x86 fail
+,oe_test_audit_fetch_file_in_order,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_fetch_file_in_order/2023-09-12-03_26_01.log,x86 fail
+,oe_test_audit_rule_conflict_strategy,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_rule_conflict_strategy/2023-09-12-02_55_43.log,x86 fail
+,oe_test_audit_available_disk_space,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_available_disk_space/2023-09-12-06_07_13.log,x86 fail
+,oe_test_audit_monitor_file_access,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_monitor_file_access/2023-09-11-22_54_36.log,x86 fail
+,oe_test_audit_count_number_of_event,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_count_number_of_event/2023-09-12-03_57_13.log,x86 fail
+,oe_test_audit_rule_contact_strategy,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_rule_contact_strategy/2023-09-12-02_25_38.log,x86 fail
+,oe_test_service_auditd,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_service_auditd/2024-09-12-07_07_23.log,x86 fail
+,oe_test_audit_show_event_list,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_show_event_list/2023-09-12-04_27_18.log,x86 fail
+,oe_test_audit_use_d_audit,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_use_d_audit/2023-09-12-02_25_12.log,x86 fail
+,oe_test_audit_count_time,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_count_time/2023-09-12-03_27_08.log,x86 fail
+,oe_test_audit_user_build_connection,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_user_build_connection/2023-09-12-04_57_23.log,x86 fail
+,oe_test_audit_monitor_do_command,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_monitor_do_command/2023-09-12-00_24_52.log,x86 fail
+,oe_test_audit_event_log,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_event_log/2024-09-12-07_08_10.log,x86 fail
+,oe_test_audit_ausearch,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_ausearch/2024-09-12-07_08_57.log,x86 fail
+,oe_test_audit_monitor_network_visit,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_monitor_network_visit/2023-09-12-01_25_02.log,x86 fail
+,oe_test_audit_max_log_file_keep_logs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_max_log_file_keep_logs/2023-09-12-06_01_16.log,x86 fail
+,oe_test_audit_monitor_dictionary_access,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_monitor_dictionary_access/2023-09-11-23_24_41.log,x86 fail
+,oe_test_audit_monitor_security_event,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/audit/oe_test_audit_monitor_security_event/2023-09-12-00_54_57.log,测试超时
+systemtap,oe_test_service_stap-server,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/systemtap/oe_test_service_stap-server/2023-09-11-21_36_32.log,None
+,oe_test_service_systemtap,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/systemtap/oe_test_service_systemtap/2023-09-11-21_38_35.log,x86 fail
+,oe_test_service_stap-exporter,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/systemtap/oe_test_service_stap-exporter/2023-09-11-21_34_38.log,stap-exporter.service 启动失败，报 stap-exporter[1290]: parse error: expected literal string or number
+open-iscsi,oe_test_socket_iscsid,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-iscsi/oe_test_socket_iscsid/2023-09-11-21_17_59.log,None
+,oe_test_service_iscsid,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-iscsi/oe_test_service_iscsid/2023-09-11-21_15_35.log,None
+,oe_test_service_iscsiuio,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-iscsi/oe_test_service_iscsiuio/2023-09-11-21_17_11.log,x86 fail
+,oe_test_open-iscsi_iscsiadm,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-iscsi/oe_test_open-iscsi_iscsiadm/2023-09-11-21_13_45.log,x86 fail
+,oe_test_open-iscsi_iscsistart_iscsiuio,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-iscsi/oe_test_open-iscsi_iscsistart_iscsiuio/2023-09-11-21_14_41.log,x86 fail
+,oe_test_socket_iscsiuio,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-iscsi/oe_test_socket_iscsiuio/2023-09-11-21_18_44.log,x86 fail
+,oe_test_service_iscsi,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/open-iscsi/oe_test_service_iscsi/2023-09-11-21_16_22.log,x86 fail
+NetworkManager,oe_test_libnetfilter_conntrack,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/NetworkManager/oe_test_libnetfilter_conntrack/2023-09-11-21_18_17.log,None
+,oe_test_service_nm-cloud-setup,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/NetworkManager/oe_test_service_nm-cloud-setup/2023-09-11-21_18_06.log,None
+,oe_test_service_NetworkManager-dispatcher,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/NetworkManager/oe_test_service_NetworkManager-dispatcher/2023-09-11-21_16_09.log,x86 fail
+,oe_test_service_NetworkManager-wait-online,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/NetworkManager/oe_test_service_NetworkManager-wait-online/2023-09-11-21_17_31.log,x86 fail
+,oe_test_service_NetworkManager,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/NetworkManager/oe_test_service_NetworkManager/2023-09-11-21_16_46.log,x86 fail
+smoke-basic-os,oe_test_ipv6_sysctl_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ipv6_sysctl_02/2023-09-11-19_22_45.log,None
+,oe_test_gettext,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_gettext/2023-09-12-01_57_12.log,None
+,oe_test_systemd_SCEN_15,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_15/2023-09-11-18_48_20.log,None
+,oe_test_ipv6_dnsmasq,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ipv6_dnsmasq/2023-09-12-01_24_45.log,None
+,oe_test_rsyslog_10,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_10/2023-09-12-02_15_51.log,None
+,oe_test_aide_compare_database,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_aide_compare_database/2023-09-12-00_04_13.log,None
+,oe_test_wc,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_wc/2023-09-11-23_57_51.log,None
+,oe_test_IPVLAN_07,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_IPVLAN_07/2023-09-11-19_22_54.log,None
+,oe_test_chmod_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_chmod_001/2023-09-11-22_55_35.log,None
+,oe_test_lsscsi,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_lsscsi/2023-09-11-23_39_58.log,None
+,oe_test_procps-ng-uptime,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_procps-ng-uptime/2023-09-11-18_41_29.log,None
+,oe_test_hwclock,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_hwclock/2023-09-12-01_18_43.log,None
+,oe_test_dbus,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dbus/2023-09-12-01_03_54.log,None
+,oe_test_maildrop_delivery_agent,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_maildrop_delivery_agent/2023-09-12-01_34_35.log,None
+,oe_test_popt,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_popt/2023-09-11-19_33_58.log,None
+,oe_test_ndctl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ndctl/2023-09-11-23_41_44.log,None
+,oe_test_sudo_E,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sudo_E/2023-09-11-18_34_05.log,None
+,oe_test_syslog_journald_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_syslog_journald_001/2023-09-11-23_53_55.log,None
+,oe_test_cmp,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_cmp/2023-09-12-00_00_45.log,None
+,oe_test_cat_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_cat_001/2023-09-11-22_55_04.log,None
+,oe_test_source,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_source/2023-09-11-18_48_52.log,None
+,oe_test_libcgroup_04,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libcgroup_04/2023-09-12-01_32_09.log,None
+,oe_test_rpmrebuild,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rpmrebuild/2023-09-12-02_00_54.log,None
+,oe_test_iptables,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_iptables/2023-09-12-01_24_07.log,None
+,oe_test_dbus-daemon,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dbus-daemon/2023-09-12-01_02_50.log,None
+,oe_test_lzo,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_lzo/2023-09-11-23_40_18.log,None
+,oe_test_iptables-save,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_iptables-save/2023-09-12-01_23_48.log,None
+,oe_test_syslog_logrotate_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_syslog_logrotate_001/2023-09-11-23_54_07.log,None
+,oe_test_systemd_SCEN_09,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_09/2023-09-11-18_46_27.log,None
+,oe_test_rule_ipv6,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rule_ipv6/2023-09-11-18_32_02.log,None
+,oe_test_cifsclient,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_cifsclient/2023-09-12-00_59_17.log,None
+,oe_test_basic_ssh_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_basic_ssh_001/2023-09-11-22_54_48.log,None
+,oe_test_grep_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_grep_001/2023-09-11-23_31_17.log,None
+,oe_test_mv_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mv_001/2023-09-11-23_41_33.log,None
+,oe_test_mtr_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mtr_01/2023-09-11-19_23_39.log,None
+,oe_test_nmap,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_nmap/2023-09-12-01_41_53.log,None
+,oe_test_user_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_user_001/2023-09-11-23_55_54.log,None
+,oe_test_rsyslog_09,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_09/2023-09-12-02_14_05.log,None
+,oe_test_dhclient_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dhclient_01/2023-09-12-01_04_38.log,None
+,oe_test_atd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_atd/2023-09-12-00_56_17.log,None
+,oe_test_logrotate_004,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_logrotate_004/2023-09-11-19_39_35.log,None
+,oe_test_audit_fixed_memory_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_audit_fixed_memory_01/2023-09-11-19_19_30.log,None
+,oe_test_python_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_01/2023-09-12-01_52_25.log,None
+,oe_test_systemd_SCEN_13,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_13/2023-09-11-18_47_46.log,None
+,oe_test_dbus-binging-tool,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dbus-binging-tool/2023-09-12-01_02_20.log,None
+,oe_test_sshd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sshd/2023-09-11-18_33_48.log,None
+,oe_test_libcgroup_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libcgroup_03/2023-09-12-01_31_22.log,None
+,oe_test_libuser_sm,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libuser_sm/2023-09-12-01_33_08.log,None
+,oe_test_find,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_find/2023-09-11-18_48_38.log,None
+,oe_test_expat,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_expat/2023-09-11-18_40_52.log,None
+,oe_test_aide_config_cfgfile,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_aide_config_cfgfile/2023-09-11-18_51_25.log,None
+,oe_test_umask_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_umask_002/2023-09-12-00_01_11.log,None
+,oe_test_tar_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_tar_001/2023-09-11-23_54_16.log,None
+,oe_test_gzip,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_gzip/2023-09-12-01_18_23.log,None
+,oe_test_sudo,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sudo/2023-09-11-18_35_54.log,None
+,oe_test_mv_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mv_002/2023-09-11-23_57_34.log,None
+,oe_test_user_003,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_user_003/2023-09-11-23_56_21.log,None
+,oe_test_syslog_journalctl_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_syslog_journalctl_001/2023-09-11-23_53_34.log,None
+,oe_test_ntp_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ntp_02/2023-09-12-01_44_19.log,None
+,oe_test_perl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_perl/2023-09-12-01_52_15.log,None
+,oe_test_sar_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sar_01/2023-09-11-19_26_59.log,None
+,oe_test_python_subprocess_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_subprocess_01/2023-09-12-01_56_33.log,None
+,oe_test_Numad_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_Numad_01/2023-09-11-19_25_43.log,None
+,oe_test_firewalld_server,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_firewalld_server/2023-09-12-01_08_54.log,None
+,oe_test_rsyslog_06,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_06/2023-09-12-02_10_30.log,None
+,oe_test_ebtables,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ebtables/2023-09-12-01_07_56.log,None
+,oe_test_rpm_cmd,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rpm_cmd/2023-09-12-02_00_16.log,None
+,oe_test_python_urllib3_urlopen_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_urllib3_urlopen_02/2023-09-12-01_58_00.log,None
+,oe_test_augeas_augtool,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_augeas_augtool/2023-09-12-00_57_37.log,None
+,oe_test_shadow,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_shadow/2023-09-11-18_33_33.log,None
+,oe_test_sevice_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sevice_001/2023-09-11-23_50_16.log,None
+,oe_test_dracut,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dracut/2023-09-12-01_04_57.log,None
+,oe_test_audit_fixed_memory_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_audit_fixed_memory_02/2023-09-11-19_19_43.log,None
+,oe_test_libcgroup_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libcgroup_02/2023-09-12-01_30_38.log,None
+,oe_test_user_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_user_002/2023-09-11-23_56_09.log,None
+,oe_test_aide_security,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_aide_security/2023-09-11-19_18_48.log,None
+,oe_test_ipv6_BRIDGE,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ipv6_BRIDGE/2023-09-12-01_24_26.log,None
+,oe_test_unset_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_unset_001/2023-09-11-18_51_17.log,None
+,oe_test_rmdir_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rmdir_001/2023-09-11-23_49_44.log,None
+,oe_test_vmstat,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_vmstat/2023-09-11-18_51_00.log,None
+,oe_test_user_debug_iotop_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_user_debug_iotop_03/2023-09-11-19_32_18.log,None
+,oe_test_bbr_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_bbr_02/2023-09-11-19_20_47.log,None
+,oe_test_chrt,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_chrt/2023-09-12-00_59_09.log,None
+,oe_test_systemd_SCEN_11,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_11/2023-09-11-18_47_12.log,None
+,oe_test_cp_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_cp_001/2023-09-11-22_55_56.log,None
+,oe_test_diffstat_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_diffstat_001/2023-09-11-23_59_24.log,None
+,oe_test_pcre_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_pcre_001/2023-09-12-01_40_15.log,None
+,oe_test_bridge-utils_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_bridge-utils_01/2023-09-12-00_58_37.log,None
+,oe_test_ntp_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ntp_01/2023-09-12-01_43_11.log,None
+,oe_test_systemd_SCEN_08,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_08/2023-09-11-18_46_04.log,None
+,oe_test_less,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_less/2023-09-12-01_29_46.log,None
+,oe_test_ip_rule_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip_rule_01/2023-09-12-01_23_30.log,None
+,oe_test_journalctl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_journalctl/2023-09-11-23_35_38.log,None
+,oe_test_pwd_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_pwd_002/2023-09-11-18_49_07.log,None
+,oe_test_ip6tables_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip6tables_01/2023-09-12-01_19_44.log,None
+,oe_test_systemd-update-utmp,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd-update-utmp/2023-09-11-18_37_53.log,None
+,oe_test_libxml2_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libxml2_002/2023-09-11-19_37_32.log,None
+,oe_test_sort,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sort/2023-09-11-23_50_24.log,None
+,oe_test_route_ipv4,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_route_ipv4/2023-09-12-01_58_57.log,None
+,oe_test_dbus-monitor,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dbus-monitor/2023-09-12-01_03_11.log,None
+,oe_test_acl_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_acl_001/2023-09-11-22_54_36.log,None
+,oe_test_uname,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_uname/2023-09-11-23_57_42.log,None
+,oe_test_mtr,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mtr/2023-09-11-18_49_16.log,None
+,oe_test_aide_basic_info,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_aide_basic_info/2023-09-11-19_18_07.log,None
+,oe_test_mpstat_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mpstat_01/2023-09-11-19_23_14.log,None
+,oe_test_dbus-uuidgen,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dbus-uuidgen/2023-09-12-01_04_19.log,None
+,oe_test_rsyslog_05,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_05/2023-09-12-02_06_22.log,None
+,oe_test_IPV6_traceroute6_tracepath6,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_IPV6_traceroute6_tracepath6/2023-09-12-01_25_51.log,None
+,oe_test_os-prober_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_os-prober_01/2023-09-12-01_45_57.log,None
+,oe_test_chroncy_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_chroncy_001/2023-09-11-23_58_00.log,None
+,oe_test_glibc_getaddrinfo_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_glibc_getaddrinfo_01/2023-09-12-01_10_16.log,None
+,oe_test_libxml2_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libxml2_001/2023-09-11-19_35_26.log,None
+,oe_test_nfs_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_nfs_01/2023-09-12-01_36_01.log,None
+,oe_test_systemd_SCEN_06,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_06/2023-09-11-18_45_23.log,None
+,oe_test_ip_rule_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip_rule_02/2023-09-12-01_23_39.log,None
+,oe_test_gcc,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_gcc/2023-09-12-00_00_23.log,None
+,oe_test_systemd_SCEN_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_01/2023-09-11-18_43_54.log,None
+,oe_test_netstat_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_netstat_01/2023-09-11-19_24_37.log,None
+,oe_test_ipv6_sysctl_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ipv6_sysctl_01/2023-09-11-19_22_36.log,None
+,oe_test_dbus-cleanup-sockets,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dbus-cleanup-sockets/2023-09-12-01_02_41.log,None
+,oe_test_cpio,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_cpio/2023-09-12-01_00_01.log,None
+,oe_test_losetup,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_losetup/2023-09-12-01_33_34.log,None
+,oe_test_acpid,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_acpid/2023-09-12-00_03_54.log,None
+,oe_test_cd_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_cd_002/2023-09-11-22_55_14.log,None
+,oe_test_xz,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_xz/2023-09-11-19_33_28.log,None
+,oe_test_Netlink_ip_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_Netlink_ip_01/2023-09-11-19_24_18.log,None
+,oe_test_stat,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_stat/2023-09-11-18_33_57.log,None
+,oe_test_sadf_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sadf_001/2023-09-11-18_50_21.log,None
+,oe_test_glibc_getaddrinfo_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_glibc_getaddrinfo_02/2023-09-12-01_11_26.log,None
+,oe_test_rm_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rm_001/2023-09-11-23_56_33.log,None
+,oe_test_touch_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_touch_001/2023-09-11-23_54_35.log,None
+,oe_test_localectl_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_localectl_001/2023-09-11-23_37_19.log,None
+,oe_test_gcc_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_gcc_001/2023-09-11-19_40_43.log,None
+,oe_test_logrotate_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_logrotate_001/2023-09-11-23_39_09.log,None
+,oe_test_lz4_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_lz4_01/2023-09-12-01_34_10.log,None
+,oe_test_attr_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_attr_001/2023-09-11-18_41_11.log,None
+,oe_test_curl_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_curl_01/2023-09-12-01_00_20.log,None
+,oe_test_less_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_less_001/2023-09-11-23_37_11.log,None
+,oe_test_iscsi,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_iscsi/2023-09-11-23_33_49.log,None
+,oe_test_logrotate_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_logrotate_002/2023-09-11-23_37_35.log,None
+,oe_test_procps-ng-sysctl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_procps-ng-sysctl/2023-09-11-18_41_38.log,None
+,oe_test_rsyslog_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_01/2023-09-12-02_01_22.log,None
+,oe_test_dbus-send,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dbus-send/2023-09-12-01_03_34.log,None
+,oe_test_rsyslog_07,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_07/2023-09-12-02_11_46.log,None
+,oe_test_chkconfig_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_chkconfig_01/2023-09-11-19_34_56.log,None
+,oe_test_service,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_service/2023-09-11-18_32_11.log,None
+,oe_test_python_subprocess_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_subprocess_03/2023-09-12-01_56_52.log,None
+,oe_test_hdparm,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_hdparm/2023-09-11-23_33_08.log,None
+,oe_test_chown_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_chown_001/2023-09-11-22_55_45.log,None
+,oe_test_python_urllib3_urlopen_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_urllib3_urlopen_03/2023-09-12-01_58_46.log,None
+,oe_test_bbr_04,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_bbr_04/2023-09-11-19_20_57.log,None
+,oe_test_krb5,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_krb5/2023-09-11-23_35_48.log,None
+,oe_test_dd_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dd_001/2023-09-11-23_27_13.log,None
+,oe_test_umask_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_umask_001/2023-09-11-23_55_45.log,None
+,oe_test_syslog_dmesg_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_syslog_dmesg_001/2023-09-11-23_53_25.log,None
+,oe_test_systemd_SCEN_05,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_05/2023-09-11-18_45_09.log,None
+,oe_test_rsyslog_04,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_04/2023-09-12-02_04_57.log,None
+,oe_test_bonding_SCEN_05,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_bonding_SCEN_05/2023-09-11-19_21_16.log,None
+,oe_test_ip6tables_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip6tables_02/2023-09-12-01_20_44.log,None
+,oe_test_systemd_SCEN_07,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_07/2023-09-11-18_45_44.log,None
+,oe_test_systemd_SCEN_10,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_10/2023-09-11-18_46_48.log,None
+,oe_test_mktemp,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mktemp/2023-09-12-01_35_34.log,None
+,oe_test_chkconfig,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_chkconfig/2023-09-12-00_58_58.log,None
+,oe_test_ls_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ls_001/2023-09-11-23_39_48.log,None
+,oe_test_openssl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_openssl/2023-09-11-23_47_02.log,None
+,oe_test_iproute,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_iproute/2023-09-12-01_23_22.log,None
+,oe_test_wget,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_wget/2023-09-11-18_42_42.log,None
+,oe_test_lzo_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_lzo_002/2023-09-11-19_46_01.log,None
+,oe_test_pciutils,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_pciutils/2023-09-11-23_47_24.log,None
+,oe_test_time_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_time_01/2023-09-11-18_42_03.log,None
+,oe_test_systemd_SCEN_04,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_04/2023-09-11-18_44_55.log,None
+,oe_test_gcc_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_gcc_002/2023-09-11-19_42_16.log,None
+,oe_test_logrotate_003,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_logrotate_003/2023-09-11-23_39_28.log,None
+,oe_test_ima_v2_manual_gen_digest_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ima_v2_manual_gen_digest_01/2023-09-11-19_21_38.log,None
+,oe_test_aide_config_check,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_aide_config_check/2023-09-11-19_17_47.log,None
+,oe_test_group_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_group_002/2023-09-11-23_31_39.log,None
+,oe_test_dateinfo_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dateinfo_001/2023-09-11-23_27_03.log,None
+,oe_test_let,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_let/2023-09-11-18_51_09.log,None
+,oe_test_unalias_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_unalias_001/2023-09-11-18_41_46.log,None
+,oe_test_chattr,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_chattr/2023-09-11-22_55_25.log,None
+,oe_test_numactl,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_numactl/2023-09-11-23_46_04.log,None
+,oe_test_bc,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_bc/2023-09-12-00_58_19.log,None
+,oe_test_audit_abnormal_kill,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_audit_abnormal_kill/2023-09-11-19_19_07.log,None
+,oe_test_python_pip_install,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_pip_install/2023-09-12-01_52_45.log,None
+,oe_test_df,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_df/2023-09-11-23_27_39.log,None
+,oe_test_which,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_which/2023-09-11-23_56_42.log,None
+,oe_test_systemd_SCEN_14,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_14/2023-09-11-18_48_03.log,None
+,oe_test_lz4_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_lz4_02/2023-09-12-01_34_24.log,None
+,oe_test_tr,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_tr/2023-09-11-19_33_49.log,None
+,oe_test_rsyslog_08,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_08/2023-09-12-02_12_56.log,None
+,oe_test_pwd_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_pwd_001/2023-09-11-23_49_25.log,None
+,oe_test_ln_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ln_001/2023-09-11-23_37_01.log,None
+,oe_test_systemd_SCEN_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_03/2023-09-11-18_44_27.log,None
+,oe_test_syslog_journalctl_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_syslog_journalctl_002/2023-09-11-23_53_44.log,None
+,oe_test_group_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_group_001/2023-09-11-23_31_27.log,None
+,oe_test_lsof,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_lsof/2023-09-12-01_33_47.log,None
+,oe_test_iscsid,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_iscsid/2023-09-12-01_26_58.log,None
+,oe_test_curl_03,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_curl_03/2023-09-12-01_02_11.log,None
+,oe_test_systemd_SCEN_12,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_12/2023-09-11-18_47_25.log,None
+,oe_test_sudo_U,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sudo_U/2023-09-11-18_36_14.log,None
+,oe_test_hwdata,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_hwdata/2023-09-12-01_18_59.log,None
+,oe_test_python_subprocess_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_subprocess_02/2023-09-12-01_56_43.log,None
+,oe_test_setools,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_setools/2023-09-11-18_32_30.log,None
+,oe_test_IPV6_traceroute6_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_IPV6_traceroute6_01/2023-09-12-01_25_07.log,None
+,oe_test_os-prober_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_os-prober_02/2023-09-12-01_51_54.log,None
+,oe_test_od,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_od/2023-09-11-19_43_35.log,None
+,oe_test_sed_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sed_001/2023-09-11-19_33_16.log,None
+,oe_test_sudo_maxseq,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_sudo_maxseq/2023-09-11-18_34_17.log,None
+,oe_test_time_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_time_02/2023-09-11-18_42_23.log,None
+,oe_test_rsync,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsync/2023-09-11-23_49_54.log,None
+,oe_test_rsyslog_02,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_02/2023-09-12-02_02_40.log,None
+,oe_test_lldpad,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_lldpad/2023-09-12-01_26_37.log,None
+,oe_test_file_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_file_001/2023-09-11-23_27_47.log,None
+,oe_test_ebtables_002,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ebtables_002/2023-09-11-19_45_42.log,None
+,oe_test_pstree,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_pstree/2023-09-11-18_50_49.log,None
+,oe_test_golang,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_golang/2023-09-11-23_28_00.log,None
+,oe_test_mkdir_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mkdir_001/2023-09-11-23_41_23.log,None
+,oe_test_systemd_journald,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_journald/2023-09-11-18_37_36.log,None
+,oe_test_libcgroup_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libcgroup_01/2023-09-12-01_29_55.log,None
+,oe_test_mkdosfs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mkdosfs/2023-09-11-19_43_45.log,将硬盘格式化时出现问题，无法在上面创建文件inode
+,oe_test_acpid_002,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_acpid_002/2023-09-11-19_44_54.log,x86 fail
+,oe_test_mke2fs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mke2fs/2023-09-11-19_44_31.log,x86 fail
+,oe_test_ip_ipv6_04,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip_ipv6_04/2023-09-12-01_22_38.log,x86 fail
+,oe_test_ipv6_VLAN_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ipv6_VLAN_02/2023-09-12-01_26_21.log,x86 fail
+,oe_test_normal_tcpdump_04,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_normal_tcpdump_04/2023-09-11-19_25_19.log,x86 fail
+,oe_test_binutils-objcopy,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_binutils-objcopy/2023-09-11-19_45_29.log,x86 fail
+,oe_test_dumpe2fs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dumpe2fs/2023-09-11-19_44_06.log,将硬盘格式化时出现问题，无法在上面创建文件inode
+,oe_test_ifconfig_ipv6_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ifconfig_ipv6_01/2023-09-12-01_19_18.log,x86 fail
+,oe_test_route_ipv6,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_route_ipv6/2023-09-12-01_59_20.log,x86 fail
+,oe_test_iproute_ipv6_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_iproute_ipv6_01/2023-09-12-01_23_06.log,x86 fail
+,oe_test_IPV6_traceroute6_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_IPV6_traceroute6_02/2023-09-12-01_25_27.log,x86 fail
+,oe_test_ip_ipv6_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip_ipv6_02/2023-09-12-01_22_03.log,x86 fail
+,oe_test_ipv6_VLAN_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ipv6_VLAN_01/2023-09-12-01_26_10.log,x86 fail
+,oe_test_rsyslog_03,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rsyslog_03/2023-09-12-02_03_48.log,x86 fail
+,oe_test_arping,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_arping/2023-09-12-00_56_06.log,x86 fail
+,oe_test_g++,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_g++/2023-09-11-19_45_15.log,x86 fail
+,oe_test_ip_ipv6_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip_ipv6_01/2023-09-12-01_21_44.log,x86 fail
+,oe_test_ethtool_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ethtool_01/2023-09-12-01_08_16.log,x86 fail
+,oe_test_normal_tcpdump_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_normal_tcpdump_02/2023-09-11-19_24_55.log,x86 fail
+,oe_test_normal_tcpdump_03,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_normal_tcpdump_03/2023-09-12-01_42_44.log,x86 fail
+,oe_test_ip_ipv6_03,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip_ipv6_03/2023-09-12-01_22_27.log,x86 fail
+,oe_test_network_001,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_network_001/2023-09-11-23_42_03.log,x86 fail
+,oe_test_ncurses,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ncurses/2023-09-12-01_35_45.log,x86 fail
+,oe_test_tftp_ipv6,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_tftp_ipv6/2023-09-11-18_38_25.log,x86 fail
+,oe_test_llvm,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_llvm/2023-09-12-00_01_39.log,clang 构建有问题，链接报 /usr/bin/ld: cannot find -lgcc: No such file or directory 以及类似错误
+,oe_test_nfs,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_nfs/2023-09-11-23_42_26.log,rpc 相关异常 /usr/lib/tmpfiles.d/rpcbind.conf:2: Failed to resolve user 'rpc': No such process 以及 /run/rpcbind/rpcbind.lock: No such file or directory
+,oe_test_skopeo,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_skopeo/2023-09-11-23_50_35.log,skopeo 安装失败，报 nothing provides containers-common needed by skopeo-1:1.8.0-1.oe2309.riscv64 from OS
+,oe_test_MEMinfo_001,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_MEMinfo_001/2023-09-11-23_40_36.log,测试套问题，预期的 lshw 输出不适合 rv 架构
+,oe_test_haproxy,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_haproxy/2023-09-11-23_31_52.log,httpd.service 异常退出，报 AH00543: httpd: bad user name apache
+,oe_test_rollback,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rollback/2023-09-11-23_59_43.log,测试假设 zenity 软件包没有预装，但是实际上它预装了，导致测试失败
+,oe_test_grub2_mkconfig,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_grub2_mkconfig/2023-09-12-01_11_45.log,rv 镜像并不是采用 grub 启动的，故 /boot 中的内容和 grub2-mkconfig 生成的内容有差别，导致测试失败
+,oe_test_aide_update_database,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_aide_update_database/2023-09-12-00_26_00.log,测试超时
+,oe_test_aide_init_database,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_aide_init_database/2023-09-11-19_18_28.log,aide –init 失败
+,oe_test_python_urllib3_urlopen_01,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_python_urllib3_urlopen_01/2023-09-12-01_57_34.log,httpd.service 异常退出，报 AH00543: httpd: bad user name apache
+,oe_test_perf,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_perf/2023-09-11-23_48_21.log,测试出错 cycles: PMU Hardware doesn't support sampling/overflow-interrupts. Try 'perf stat'
+,oe_test_user_debug_iotop_SCEN_01,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_user_debug_iotop_SCEN_01/2023-09-11-19_32_55.log,iotop 失败，原因未知
+,oe_test_perf_top_01,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_perf_top_01/2023-09-11-19_26_02.log,测试出错 cycles: PMU Hardware doesn't support sampling/overflow-interrupts. Try 'perf stat'
+,oe_test_httpd,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_httpd/2023-09-11-23_33_27.log,httpd.service 异常退出，报 AH00543: httpd: bad user name apache
+,oe_test_systemd_SCEN_02,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_SCEN_02/2023-09-11-18_44_08.log,TestA.service 异常退出，原因未知
+,oe_test_tcpdump,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_tcpdump/2023-09-11-18_38_01.log,tcpdump 出错，报 tcpdump: Couldn't find user 'tcpdump'
+,oe_test_yumgroup_001,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_yumgroup_001/2023-09-11-23_56_52.log,oe-rv目前软件仓内并没有划分软件包组
+,oe_test_criu,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_criu/2023-09-11-23_26_12.log,待测软件包 criu 不存在
+,oe_test_CPUinfo_001,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_CPUinfo_001/2023-09-11-22_56_07.log,测试套问题， lscpu 输出不符合预期
+,oe_test_curl_02,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_curl_02/2023-09-12-01_00_47.log,httpd.service 异常退出，报 AH00543: httpd: bad user name apache
+,oe_test_rpcbind,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_rpcbind/2023-09-12-01_59_42.log,rpcbind.service 启动失败，报 systemd-tmpfiles[29499]: /usr/lib/tmpfiles.d/rpcbind.conf:2: Failed to resolve user 'rpc': No such process 和 rpcbind[29498]: rpcbind: /run/rpcbind/rpcbind.lock: No such file or directory
+,oe_test_nfs_03,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_nfs_03/2023-09-12-01_37_48.log,rpc-statd.service 失败，报 systemd-tmpfiles[26246]: /usr/lib/tmpfiles.d/rpcbind.conf:2: Failed to resolve user 'rpc': No such process 和 rpcbind[26245]: rpcbind: /run/rpcbind/rpcbind.lock: No such file or directory
+,oe_test_log_001,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_log_001/2023-09-11-23_37_55.log,rsyslog 日志文件 /var/log/messages 中没有日志内容，始终为空
+,oe_test_nfs_02,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_nfs_02/2023-09-12-01_36_20.log,nfs-server.service 启动失败，原因未知
+ModemManager,oe_test_service_ModemManager,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/ModemManager/oe_test_service_ModemManager/2023-09-11-21_57_43.log,x86 fail
+rtkit,oe_test_service_rtkit-daemon,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/rtkit/oe_test_service_rtkit-daemon/2023-09-11-22_12_50.log,x86 fail
