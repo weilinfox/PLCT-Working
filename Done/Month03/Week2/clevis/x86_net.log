@@ -1,0 +1,66 @@
+[root@localhost ~]# cat mugen/conf/env.json
+{
+    "NODE": [
+        {
+            "ID": 1,
+            "LOCALTION": "local",
+            "MACHINE": "kvm",
+            "IPV6": "fe80::8af2:976f:ad2a:1b43",
+            "FRAME": "x86_64",
+            "NIC": "ens15",
+            "MAC": "52:54:00:11:45:01",
+            "IPV4": "10.0.0.1",
+            "USER": "root",
+            "PASSWORD": "openEuler12#$",
+            "SSH_PORT": 22,
+            "HOST_IP": "",
+            "HOST_USER": "",
+            "HOST_PASSWORD": "",
+            "HOST_SSH_PORT": ""
+        },
+        {
+            "ID": 2,
+            "LOCALTION": "remote",
+            "MACHINE": "kvm",
+            "IPV6": "fe80::caed:78c2:febe:2d0c",
+            "FRAME": "x86_64",
+            "NIC": "ens15",
+            "MAC": "52:54:00:11:45:09",
+            "IPV4": "10.0.0.9",
+            "USER": "root",
+            "PASSWORD": "openEuler12#$",
+            "SSH_PORT": 22,
+            "HOST_IP": "",
+            "HOST_USER": "",
+            "HOST_PASSWORD": "",
+            "HOST_SSH_PORT": ""
+        }
+    ]
+}[root@localhost ~]# ip link
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: ens15: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 52:54:00:11:45:01 brd ff:ff:ff:ff:ff:ff
+3: ens16: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 52:54:00:11:45:02 brd ff:ff:ff:ff:ff:ff
+[root@localhost ~]# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: ens15: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 52:54:00:11:45:01 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.0.1/24 brd 10.0.0.255 scope global noprefixroute ens15
+       valid_lft forever preferred_lft forever
+    inet6 fe80::8af2:976f:ad2a:1b43/64 scope link noprefixroute
+       valid_lft forever preferred_lft forever
+3: ens16: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 52:54:00:11:45:02 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute ens16
+       valid_lft 86256sec preferred_lft 86256sec
+    inet6 fec0::6c69:266b:c361:99b6/64 scope site dynamic noprefixroute
+       valid_lft 86260sec preferred_lft 14260sec
+    inet6 fe80::e7c:58d9:45bb:a3f5/64 scope link noprefixroute
+       valid_lft forever preferred_lft forever
