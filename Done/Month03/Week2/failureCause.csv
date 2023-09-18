@@ -157,12 +157,12 @@ FS_File,oe_test_FSIO_create_character,success,/home/hachi/Desktop/Work/PLCT-Work
 ,oe_test_FSIO_zip_unzip,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_zip_unzip/2023-09-11-21_22_10.log,None
 ,oe_test_FSIO_modify_file,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_modify_file/2023-09-11-21_19_11.log,None
 ,oe_test_FSIO_create_block,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_block/2023-09-11-21_16_42.log,None
-,oe_test_FSIO_act_file_lack_inode,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_act_file_lack_inode/2023-09-11-21_05_41.log,x86 fail
-,oe_test_FSIO_rename_file_fail,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_rename_file_fail/2023-09-11-21_20_26.log,x86 fail
-,oe_test_FSIO_create_hardlink_fail,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_hardlink_fail/2023-09-11-21_17_07.log,x86 fail
-,oe_test_FSIO_chmod,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_chmod/2023-09-11-21_07_26.log,x86 fail
-,oe_test_FSIO_filefrag,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_filefrag/2023-09-11-21_18_32.log,x86 fail
-,oe_test_FSIO_sys_fs_check,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_sys_fs_check/2023-09-11-21_21_20.log,x86 fail
+,oe_test_FSIO_act_file_lack_inode,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_act_file_lack_inode/2023-09-11-21_05_41.log,riscv 和 x86 失败原因不同
+,oe_test_FSIO_rename_file_fail,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_rename_file_fail/2023-09-11-21_20_26.log,riscv 和 x86 失败原因不同
+,oe_test_FSIO_create_hardlink_fail,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_hardlink_fail/2023-09-11-21_17_07.log,riscv 和 x86 失败原因不同
+,oe_test_FSIO_chmod,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_chmod/2023-09-11-21_07_26.log,riscv 和 x86 失败原因一致， chmod +x 测试结果不符合预期
+,oe_test_FSIO_filefrag,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_filefrag/2023-09-11-21_18_32.log,riscv 和 x86 失败原因不同
+,oe_test_FSIO_sys_fs_check,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_sys_fs_check/2023-09-11-21_21_20.log,riscv 和 x86 失败原因不同
 ,oe_test_FSIO_create_mv_hardlink,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/FS_File/oe_test_FSIO_create_mv_hardlink/2023-09-11-21_17_24.log,xfs 文件系统建立失败
 arpwatch,oe_test_service_arpwatch,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/arpwatch/oe_test_service_arpwatch/2023-09-11-21_58_41.log,arpwatch.service 启动失败，原因未知
 cups-filters,oe_test_service_cups-browsed,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/cups-filters/oe_test_service_cups-browsed/2023-09-11-22_01_01.log,cups-browsed.service 停止失败，报 assertion 'loop != NULL' failed
@@ -510,14 +510,14 @@ smoke-basic-os,oe_test_ipv6_sysctl_02,success,/home/hachi/Desktop/Work/PLCT-Work
 ,oe_test_mkdir_001,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mkdir_001/2023-09-11-23_41_23.log,None
 ,oe_test_systemd_journald,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_systemd_journald/2023-09-11-18_37_36.log,None
 ,oe_test_libcgroup_01,success,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_libcgroup_01/2023-09-12-01_29_55.log,None
-,oe_test_mkdosfs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mkdosfs/2023-09-11-19_43_45.log,将硬盘格式化时出现问题，无法在上面创建文件inode
-,oe_test_acpid_002,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_acpid_002/2023-09-11-19_44_54.log,x86 fail
-,oe_test_mke2fs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mke2fs/2023-09-11-19_44_31.log,x86 fail
+,oe_test_mkdosfs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mkdosfs/2023-09-11-19_43_45.log,riscv 和 x86 失败原因一致，mke2fs 报错，无法在上面创建文件 inode
+,oe_test_acpid_002,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_acpid_002/2023-09-11-19_44_54.log,riscv 和 x86 失败原因一致， rsyslog 相关问题， acpid.service 启动后无法从 /var/log/messages 查看到启动日志
+,oe_test_mke2fs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_mke2fs/2023-09-11-19_44_31.log,riscv 和 x86 失败原因一致，mke2fs 报错，无法在上面创建文件 inode
 ,oe_test_ip_ipv6_04,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ip_ipv6_04/2023-09-12-01_22_38.log,x86 fail
 ,oe_test_ipv6_VLAN_02,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ipv6_VLAN_02/2023-09-12-01_26_21.log,x86 fail
 ,oe_test_normal_tcpdump_04,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_normal_tcpdump_04/2023-09-11-19_25_19.log,x86 fail
 ,oe_test_binutils-objcopy,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_binutils-objcopy/2023-09-11-19_45_29.log,x86 fail
-,oe_test_dumpe2fs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dumpe2fs/2023-09-11-19_44_06.log,将硬盘格式化时出现问题，无法在上面创建文件inode
+,oe_test_dumpe2fs,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_dumpe2fs/2023-09-11-19_44_06.log,riscv 和 x86 失败原因一致，mke2fs 报错，无法在上面创建文件 inode
 ,oe_test_ifconfig_ipv6_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_ifconfig_ipv6_01/2023-09-12-01_19_18.log,x86 fail
 ,oe_test_route_ipv6,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_route_ipv6/2023-09-12-01_59_20.log,x86 fail
 ,oe_test_iproute_ipv6_01,x86 fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month03/Week2/v4_1/logs/smoke-basic-os/oe_test_iproute_ipv6_01/2023-09-12-01_23_06.log,x86 fail

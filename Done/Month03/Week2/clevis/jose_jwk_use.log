@@ -1,0 +1,329 @@
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ An ExecStart= process belonging to unit tangd-update.service has exited.
+░░
+░░ The process' exit code is 'exited' and its exit status is 1.
+Sep 12 20:45:06 openeuler-riscv64 systemd[1]: tangd-update.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ The unit tangd-update.service has entered the 'failed' state with result 'exit-code'.
+Sep 12 20:45:06 openeuler-riscv64 systemd[1]: Failed to start Tang Server key update script.
+░░ Subject: A start job for unit tangd-update.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ A start job for unit tangd-update.service has finished with a failure.
+░░
+░░ The job identifier is 4784 and the job result is failed.
+Sep 12 20:47:07 openeuler-riscv64 systemd[1]: Starting Tang Server key update script...
+░░ Subject: A start job for unit tangd-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ A start job for unit tangd-update.service has begun execution.
+░░
+░░ The job identifier is 4860.
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + TMP='{"protected":{"cty":"jwk-set+json"}}'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + trap exit ERR
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + shopt -s nullglob
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3616]: ++ jose alg -k hash
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + HASHES='S1
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: S224
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: S256
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: S384
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: S512'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + '[' 2 -ne 2 ']'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + '[' '!' -d /var/db/tang ']'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + '[' '!' -d /var/cache/tang ']'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3617]: ++ realpath /var/db/tang
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + src=/var/db/tang
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3618]: ++ realpath /var/cache/tang
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + dst=/var/cache/tang
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + payl=()
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + sign=()
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + for jwk in $src/*.jwk
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + jose jwk use -i /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk -r -u sign -u verify
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]: Invalid input!
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3619]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + jose jwk use -i /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk -r -u deriveKey
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]: Invalid input!
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3620]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + echo 'Skipping invalid key: /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: Skipping invalid key: /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + for jwk in $src/*.jwk
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + jose jwk use -i /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk -r -u sign -u verify
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]: Invalid input!
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3621]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + jose jwk use -i /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk -r -u deriveKey
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]: Invalid input!
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3622]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + echo 'Skipping invalid key: /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: Skipping invalid key: /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + '[' 0 -gt 0 ']'
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + shopt -s dotglob
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + for jwk in $src/*.jwk
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + for hsh in $HASHES
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]: ++ jose jwk thp -i /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk -a S1
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]: Invalid input!
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]: Usage: jose jwk thp -i JWK [-a ALG] [-o THP]
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]: Calculates the JWK thumbprint
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -i JSON --input=JSON     Parse JWK(Set) from JSON
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -i FILE --input=FILE     Read JWK(Set) from FILE
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -i -    --input=-        Read JWK(Set) standard input
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -a ALG  --algorithm=ALG  Use the specified hash algorithm (case sensitive)
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -a ?    --algorithm=?    List available hash algorithms
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:                            Default: "S256"
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -o FILE --output=FILE    Write thumbprint(s) to FILE
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -o -    --output=-       Write thumbprint(s) to standard input
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:                            Default: "-"
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3623]:   -f THP  --find=THP       Search input keys for JWK with the given thumbprint
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: + thp=
+Sep 12 20:47:08 openeuler-riscv64 tangd-update[3615]: ++ exit
+Sep 12 20:47:08 openeuler-riscv64 systemd[1]: tangd-update.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ An ExecStart= process belonging to unit tangd-update.service has exited.
+░░
+░░ The process' exit code is 'exited' and its exit status is 1.
+Sep 12 20:47:08 openeuler-riscv64 systemd[1]: tangd-update.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ The unit tangd-update.service has entered the 'failed' state with result 'exit-code'.
+Sep 12 20:47:08 openeuler-riscv64 systemd[1]: Failed to start Tang Server key update script.
+░░ Subject: A start job for unit tangd-update.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ A start job for unit tangd-update.service has finished with a failure.
+░░
+░░ The job identifier is 4860 and the job result is failed.
+Sep 12 20:47:15 openeuler-riscv64 systemd[1]: Starting Tang Server key update script...
+░░ Subject: A start job for unit tangd-update.service has begun execution
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ A start job for unit tangd-update.service has begun execution.
+░░
+░░ The job identifier is 4933.
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + TMP='{"protected":{"cty":"jwk-set+json"}}'
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + trap exit ERR
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + shopt -s nullglob
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3629]: ++ jose alg -k hash
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + HASHES='S1
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: S224
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: S256
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: S384
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: S512'
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + '[' 2 -ne 2 ']'
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + '[' '!' -d /var/db/tang ']'
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + '[' '!' -d /var/cache/tang ']'
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3630]: ++ realpath /var/db/tang
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + src=/var/db/tang
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3631]: ++ realpath /var/cache/tang
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + dst=/var/cache/tang
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + payl=()
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + sign=()
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + for jwk in $src/*.jwk
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + jose jwk use -i /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk -r -u sign -u verify
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]: Invalid input!
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3632]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + jose jwk use -i /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk -r -u deriveKey
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]: Invalid input!
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3633]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + echo 'Skipping invalid key: /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk'
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: Skipping invalid key: /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + for jwk in $src/*.jwk
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + jose jwk use -i /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk -r -u sign -u verify
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]: Invalid input!
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3634]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:15 openeuler-riscv64 tangd-update[3628]: + jose jwk use -i /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk -r -u deriveKey
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]: Invalid input!
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]: Usage: jose jwk use -i JWK [-a] [-r] -u OP [-o JWK [-s]]
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]: Validates the permissions of a key for the specified use(s)
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -i JSON       --input=JSON      Parse JWK(Set) from JSON
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -i FILE       --input=FILE      Read JWK(Set) from FILE
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -i -          --input=-         Read JWK(Set) standard input
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u sign       --use=sign        Validate the key for signing
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u verify     --use=verify      Validate the key for verifying
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u encrypt    --use=encrypt     Validate the key for encrypting
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u decrypt    --use=decrypt     Validate the key for decrypting
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u wrapKey    --use=wrapKey     Validate the key for wrapping
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u unwrapKey  --use=unwrapKey   Validate the key for unwrapping
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u deriveKey  --use=deriveKey   Validate the key for deriving keys
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -u deriveBits --use=deriveBits  Validate the key for deriving bits
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -a            --all             Succeeds only if all operations are allowed
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -r            --required        Operations must be explicitly allowed
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -o FILE       --output=FILE     Filter keys to FILE as JWK(Set)
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -o -          --output=-        Filter keys to standard output as JWK(Set)
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3635]:   -s            --set             Always output a JWKSet
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: + echo 'Skipping invalid key: /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk'
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: Skipping invalid key: /var/db/tang/kmJn8ITHKIce6dTgzERK5eJftarpSgIm7CneCW-aAC8.jwk
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: + '[' 0 -gt 0 ']'
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: + shopt -s dotglob
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: + for jwk in $src/*.jwk
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: + for hsh in $HASHES
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]: ++ jose jwk thp -i /var/db/tang/6Ej8b-3MqCNjTZo4bM6f25HquqImgJDzwgLOHRsz3-I.jwk -a S1
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]: Invalid input!
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]: Usage: jose jwk thp -i JWK [-a ALG] [-o THP]
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]: Calculates the JWK thumbprint
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -i JSON --input=JSON     Parse JWK(Set) from JSON
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -i FILE --input=FILE     Read JWK(Set) from FILE
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -i -    --input=-        Read JWK(Set) standard input
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -a ALG  --algorithm=ALG  Use the specified hash algorithm (case sensitive)
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -a ?    --algorithm=?    List available hash algorithms
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:                            Default: "S256"
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -o FILE --output=FILE    Write thumbprint(s) to FILE
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -o -    --output=-       Write thumbprint(s) to standard input
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:                            Default: "-"
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3636]:   -f THP  --find=THP       Search input keys for JWK with the given thumbprint
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: + thp=
+Sep 12 20:47:16 openeuler-riscv64 tangd-update[3628]: ++ exit
+Sep 12 20:47:16 openeuler-riscv64 systemd[1]: tangd-update.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ An ExecStart= process belonging to unit tangd-update.service has exited.
+░░
+░░ The process' exit code is 'exited' and its exit status is 1.
+Sep 12 20:47:16 openeuler-riscv64 systemd[1]: tangd-update.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ The unit tangd-update.service has entered the 'failed' state with result 'exit-code'.
+Sep 12 20:47:16 openeuler-riscv64 systemd[1]: Failed to start Tang Server key update script.
+░░ Subject: A start job for unit tangd-update.service has failed
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░
+░░ A start job for unit tangd-update.service has finished with a failure.
+░░
+░░ The job identifier is 4933 and the job result is failed.
