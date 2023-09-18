@@ -8,6 +8,7 @@ QEMU_BIOS=/home/hachi/mugen/qemu-img/workingDir/fw_payload_oe_uboot_2304.bin
 QEMU_SMP=4
 QEMU_MEM=4
 QEMU_PASSWD=openEuler12#$
+QEMU_DISK_ADD=4
 
 JSON_FILE=openssh_test.json
 
@@ -21,6 +22,7 @@ TAP_NAME=comtap
 #TAP_NAME=tap
 SCREEN_SNAME=comss
 QEMU_IMG=host_img
+QEMU_DISK=disk_img
 QEMU_MAC=52:54:00:11:45:
 
 ip -V >/dev/null || exit -1
@@ -133,6 +135,11 @@ for ((hostn=0; hostn<$hostc; hostn++)); do
 	sleep 1s
 
 	qemu-img create -f qcow2 -F qcow2 -b $QEMU_QCOW2 $QEMU_IMG$hostn.qcow2 >/dev/null
+	if [[ "$hostn" == "0" ]]; then
+		for ((di=1; di<=$QEMU_DISK_ADD; di++)); do
+			qemu-img create -f qcow2 $QEMU_DISK$di.qcow2 500M
+		done
+	fi
 
 	while netstat -anp 2>&1 | grep :$FREE_PORT >/dev/null; do
 		((FREE_PORT++))
@@ -151,6 +158,11 @@ for ((hostn=0; hostn<$hostc; hostn++)); do
 	((FREE_MAC++))
 	qemu_com=$qemu_com"-netdev user,id=usernet,hostfwd=tcp::$FREE_PORT-:22 -device virtio-net-pci,netdev=usernet,mac="`printf "$QEMU_MAC%02x" $FREE_MAC`" "
 	((FREE_MAC++))
+	if [[ "$hostn" == "0" ]]; then
+		for ((di=1; di<=$QEMU_DISK_ADD; di++)); do
+			qemu_com=$qemu_com"-drive file=$QEMU_DISK$di.qcow2,format=qcow2,id=hd$di,if=none -device virtio-blk-pci,drive=hd$di "
+		done
+	fi
 
 	echo $qemu_com
 	screen -S $SCREEN_SNAME$hostn -d -m $qemu_com
