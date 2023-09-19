@@ -1,0 +1,16 @@
+Tue Sep 19 12:06:52 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:06:57 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:07:04 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:07:04 2023 - INFO  - start to pre the test env
+Tue Sep 19 12:07:10 2023 - INFO  - pkgs:(NetworkManager-wifi) is already installed
+Tue Sep 19 12:07:10 2023 - INFO  - end to pre the test
+Tue Sep 19 12:07:11 2023 - INFO  - Start to run test.
+Connection 'test-macsec+' (a520925b-f2e7-4b1c-84e1-a7cdbae6b87d) successfully added.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/11)
+Tue Sep 19 12:07:13 2023 - INFO  - End to run test.
+Tue Sep 19 12:07:13 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:07:13 2023 - INFO  - Start to restore the test environment.
+Connection 'test-macsec+' (a520925b-f2e7-4b1c-84e1-a7cdbae6b87d) successfully deleted.
+Tue Sep 19 12:07:14 2023 - WARN  - no thing to do.
+Tue Sep 19 12:07:14 2023 - INFO  - End to restore the test environment.

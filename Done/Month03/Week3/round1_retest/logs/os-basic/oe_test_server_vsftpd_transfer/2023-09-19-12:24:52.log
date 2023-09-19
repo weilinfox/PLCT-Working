@@ -1,0 +1,32 @@
+Tue Sep 19 12:24:54 2023 - INFO  - Start loading data!
+Tue Sep 19 12:24:55 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:24:55 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:24:55 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 lsblk > /tmp/diskfile
+root@10.0.0.3's password: 
+Tue Sep 19 12:24:59 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:24:59 2023 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r root@10.0.0.3:/tmp/diskfile ./diskfile
+root@10.0.0.3's password: 
+diskfile                                        0%    0     0.0KB/s   --:-- ETAdiskfile                                      100%  157    21.6KB/s   00:00    
+Tue Sep 19 12:25:02 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:25:03 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:25:03 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:25:03 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 
+    umount /var/ftp/pub/
+    mv /etc/vsftpd/ftpusers.bak /etc/vsftpd/ftpusers
+    mv /etc/vsftpd/user_list.bak /etc/vsftpd/user_list
+    rm -rf /var/ftp/pub/upload_file1.txt
+    yum remove -y vsftpd
+root@10.0.0.3's password: 
+umount: /var/ftp/pub/: no mount point specified.
+mv: cannot stat '/etc/vsftpd/ftpusers.bak': No such file or directory
+mv: cannot stat '/etc/vsftpd/user_list.bak': No such file or directory
+No match for argument: vsftpd
+No packages marked for removal.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Tue Sep 19 12:25:11 2023 - WARN  - no thing to do.
+Tue Sep 19 12:25:12 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,13 @@
+Tue Sep 19 12:07:20 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:07:26 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:07:32 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:07:33 2023 - INFO  - Start to run test.
+Connection 'ethernet-enp0s3' (36505391-e2d8-4cb0-9b57-2bfbf65101b4) successfully added.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/12)
+Tue Sep 19 12:07:36 2023 - INFO  - End to run test.
+Tue Sep 19 12:07:36 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:07:36 2023 - INFO  - Start to restore the test environment.
+Error: unknown connection 'enp0s3'.
+Connection 'ethernet-enp0s3' (36505391-e2d8-4cb0-9b57-2bfbf65101b4) successfully deleted.
+Tue Sep 19 12:07:37 2023 - INFO  - End to restore the test environment.

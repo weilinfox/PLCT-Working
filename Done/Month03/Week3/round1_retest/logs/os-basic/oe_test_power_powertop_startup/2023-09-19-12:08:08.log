@@ -1,0 +1,9 @@
+Tue Sep 19 12:08:09 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:08:36 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:08:36 2023 - INFO  - Start to run test.
+Created symlink /etc/systemd/system/multi-user.target.wants/powertop.service → /usr/lib/systemd/system/powertop.service.
+enabled
+Tue Sep 19 12:08:41 2023 - INFO  - End to run test.
+Tue Sep 19 12:08:41 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:08:41 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:08:52 2023 - INFO  - End to restore the test environment.

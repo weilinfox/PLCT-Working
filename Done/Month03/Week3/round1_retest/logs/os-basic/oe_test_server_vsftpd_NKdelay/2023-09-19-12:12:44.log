@@ -1,0 +1,108 @@
+Tue Sep 19 12:12:46 2023 - INFO  - Start loading data!
+Tue Sep 19 12:12:46 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:12:47 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:12:47 2023 - WARN  - the connect port using the default configuration
+Tue Sep 19 12:12:50 2023 - INFO  - Loading data is complete!
+Tue Sep 19 12:12:51 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:12:51 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:12:52 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:12:52 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 yum install -y vsftpd;systemctl start vsftpd;chmod -R 777 /var/ftp/pub;
+    cd /var/ftp/pub;touch download_file1.txt download_file2.txt;
+    cp /etc/vsftpd/ftpusers /etc/vsftpd/ftpusers.bak;sed -i /root/d /etc/vsftpd/ftpusers;echo "#root" >> /etc/vsftpd/ftpusers;
+    cp /etc/vsftpd/user_list /etc/vsftpd/user_list.bak;sed -i /root/d /etc/vsftpd/user_list;echo "#root" >> /etc/vsftpd/user_list;
+    systemctl restart vsftpd;
+root@10.0.0.3's password: 
+Last metadata expiration check: 1:12:44 ago on Tue 19 Sep 2023 11:00:14 AM CST.
+Dependencies resolved.
+================================================================================
+ Package        Architecture    Version                  Repository        Size
+================================================================================
+Installing:
+ vsftpd         riscv64         3.0.5-1.oe2309           mainline         103 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 103 k
+Installed size: 279 k
+Downloading Packages:
+vsftpd-3.0.5-1.oe2309.riscv64.rpm               145 kB/s | 103 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           141 kB/s | 103 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : vsftpd-3.0.5-1.oe2309.riscv64                          1/1 
+  Running scriptlet: vsftpd-3.0.5-1.oe2309.riscv64                          1/1 
+  Verifying        : vsftpd-3.0.5-1.oe2309.riscv64                          1/1 
+
+Installed:
+  vsftpd-3.0.5-1.oe2309.riscv64                                                 
+
+Complete!
+oe_test_server_vsftpd_NKdelay.sh: line 35: setsebool: command not found
+Tue Sep 19 12:13:27 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:13:27 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:13:28 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 setsebool -P ftpd_full_access=on
+root@10.0.0.3's password: 
+bash: line 1: setsebool: command not found
+Tue Sep 19 12:13:31 2023 - ERROR - Failed in remote CMD operation:127
+Tue Sep 19 12:13:31 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:13:32 2023 - INFO  - Start to run test.
+Tue Sep 19 12:13:32 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:13:33 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:13:33 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 tc qdisc add dev enp0s2  root netem loss 20%
+root@10.0.0.3's password: 
+download_file1.txt
+download_file2.txt
+Tue Sep 19 12:13:39 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:13:40 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:13:40 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 tc qdisc del dev enp0s2  root netem loss 20%
+root@10.0.0.3's password: 
+Tue Sep 19 12:13:44 2023 - INFO  - End to run test.
+Tue Sep 19 12:13:44 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:13:45 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:13:45 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:13:46 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:13:46 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 mv /etc/vsftpd/ftpusers.bak /etc/vsftpd/ftpusers;mv /etc/vsftpd/user_list.bak /etc/vsftpd/user_list;
+    cd /var/ftp/pub;rm -rf download_file1.txt download_file2.txt;yum remove -y vsftpd
+root@10.0.0.3's password: 
+Dependencies resolved.
+================================================================================
+ Package        Architecture    Version                 Repository         Size
+================================================================================
+Removing:
+ vsftpd         riscv64         3.0.5-1.oe2309          @mainline         279 k
+
+Transaction Summary
+================================================================================
+Remove  1 Package
+
+Freed space: 279 k
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Running scriptlet: vsftpd-3.0.5-1.oe2309.riscv64                          1/1 
+  Erasing          : vsftpd-3.0.5-1.oe2309.riscv64                          1/1 
+  Running scriptlet: vsftpd-3.0.5-1.oe2309.riscv64                          1/1 
+  Verifying        : vsftpd-3.0.5-1.oe2309.riscv64                          1/1 
+
+Removed:
+  vsftpd-3.0.5-1.oe2309.riscv64                                                 
+
+Complete!
+usage: rpm_manage.py install|remove [-h] [--node NODE] [--pkgs PKG] [--tempfile TEPMFILE]
+rpm_manage.py: error: argument --node: invalid int value: 'ftp'
+Tue Sep 19 12:13:58 2023 - INFO  - End to restore the test environment.

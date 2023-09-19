@@ -1,0 +1,6 @@
+Tue Sep 19 12:44:56 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:45:02 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:45:09 2023 - INFO  - Start to restore the test environment.
+Error: No connection specified.
+Tue Sep 19 12:45:09 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,13 @@
+Tue Sep 19 12:17:58 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:18:46 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:18:46 2023 - INFO  - Start to run test.
+Your Powertop version is incompatible (maybe too old) or the generated HTML output is malformed
+Running PowerTOP, please wait...
+Tue Sep 19 12:18:50 2023 - ERROR - oe_test_power_powertop2tuned_optimize.sh line 30
+Cannot talk to TuneD daemon via DBus. Is TuneD daemon running?
+Requested profile 'new_profile_name' doesn't exist.
+Tue Sep 19 12:18:52 2023 - ERROR - oe_test_power_powertop2tuned_optimize.sh line 32
+Tue Sep 19 12:18:52 2023 - INFO  - End to run test.
+Tue Sep 19 12:18:53 2023 - ERROR - failed to execute the case.
+Tue Sep 19 12:18:53 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:19:13 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,16 @@
+Tue Sep 19 11:58:09 2023 - INFO  - Start environment preparation.
+Tue Sep 19 11:58:09 2023 - INFO  - End of environmental preparation!
+Tue Sep 19 11:58:09 2023 - INFO  - Start to run test.
+oe_test_envsubst.sh: line 31: envsubst: command not found
+Tue Sep 19 11:58:10 2023 - ERROR - Variable resolution failure
+Tue Sep 19 11:58:10 2023 - ERROR - oe_test_envsubst.sh line 32
+oe_test_envsubst.sh: line 33: envsubst: command not found
+Tue Sep 19 11:58:11 2023 - ERROR - check command fail
+Tue Sep 19 11:58:11 2023 - ERROR - oe_test_envsubst.sh line 34
+oe_test_envsubst.sh: line 35: envsubst: command not found
+Tue Sep 19 11:58:11 2023 - ERROR - check command fail
+Tue Sep 19 11:58:12 2023 - ERROR - oe_test_envsubst.sh line 36
+Tue Sep 19 11:58:12 2023 - INFO  - End to run test.
+Tue Sep 19 11:58:12 2023 - ERROR - failed to execute the case.
+Tue Sep 19 11:58:13 2023 - INFO  - Start to clean the test environment.
+Tue Sep 19 11:58:13 2023 - INFO  - End to clean the test environment.

@@ -1,0 +1,18 @@
+Tue Sep 19 11:59:51 2023 - INFO  - Start executing testcase.
+package kexec-tools is not installed
+Tue Sep 19 11:59:52 2023 - ERROR - oe_test_kernel_kdump.sh line 24
+oe_test_kernel_kdump.sh: line 25: grub2-mkconfig: command not found
+Tue Sep 19 11:59:52 2023 - ERROR - oe_test_kernel_kdump.sh line 26
+Failed to enable unit: Unit file kdump.service does not exist.
+Failed to start kdump.service: Unit kdump.service not found.
+Unit kdump.service could not be found.
+Tue Sep 19 11:59:53 2023 - ERROR - oe_test_kernel_kdump.sh line 30
+Failed to stop kdump.serviceactive.service: Unit kdump.serviceactive.service not loaded.
+Failed to disable unit: Unit file kdump.service does not exist.
+Tue Sep 19 11:59:54 2023 - ERROR - oe_test_kernel_kdump.sh line 34
+Tue Sep 19 11:59:54 2023 - INFO  - End of testcase execution.
+Tue Sep 19 11:59:55 2023 - ERROR - failed to execute the case.
+Tue Sep 19 11:59:55 2023 - INFO  - start environment cleanup.
+Failed to enable unit: Unit file kdump.service does not exist.
+Failed to start kdump.service: Unit kdump.service not found.
+Tue Sep 19 11:59:56 2023 - INFO  - Finish environment cleanup.

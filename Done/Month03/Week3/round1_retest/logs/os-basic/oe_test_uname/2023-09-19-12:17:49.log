@@ -1,0 +1,10 @@
+Tue Sep 19 12:17:51 2023 - INFO  - Start to run test.
+Linux openeuler-riscv64 6.4.0-1.0.0.4.oe2309.riscv64 #1 SMP Wed Jul 26 14:45:48 UTC 2023 riscv64 riscv64 riscv64 GNU/Linux
+Tue Sep 19 12:17:51 2023 - ERROR - Execution failed
+Tue Sep 19 12:17:51 2023 - ERROR - oe_test_uname.sh line 27
+openeuler-riscv64
+6.4.0-1.0.0.4.oe2309.riscv64
+Usage: uname [OPTION]...
+Tue Sep 19 12:17:52 2023 - INFO  - End to run test.
+Tue Sep 19 12:17:52 2023 - ERROR - failed to execute the case.
+Tue Sep 19 12:17:53 2023 - INFO  - oe_test_uname.sh post_test

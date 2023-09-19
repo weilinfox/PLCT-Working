@@ -1,0 +1,30 @@
+Tue Sep 19 11:59:34 2023 - INFO  - Start to pre test.
+Tue Sep 19 11:59:34 2023 - INFO  - Start to pre test.
+Tue Sep 19 11:59:34 2023 - INFO  - Start to run test.
+ Static hostname: openeuler-riscv64
+       Icon name: computer
+      Machine ID: 82a15c537a614274b9b5b6b107942764
+         Boot ID: d9704a53217646b4a27fe62f7e28c2af
+Operating System: openEuler 23.09
+          Kernel: Linux 6.4.0-1.0.0.4.oe2309.riscv64
+    Architecture: riscv64
+ Static hostname: my_host
+ Pretty hostname: Tester's notebook
+spawn hostnamectl set-hostname -H root@10.0.0.3 new_host
+root@10.0.0.3's password: 
+spawn hostnamectl status -H root@10.0.0.3
+root@10.0.0.3's password: 
+[0;94m Static hostname:[0m new_host
+[0;94m       Icon name:[0m computer
+[0;94m      Machine ID:[0m 82a15c537a614274b9b5b6b107942764
+[0;94m         Boot ID:[0m d9704a53217646b4a27fe62f7e28c2af
+[0;94mOperating System:[0m openEuler 23.09
+[0;94m          Kernel:[0m Linux 6.4.0-1.0.0.4.oe2309.riscv64
+[0;94m    Architecture:[0m riscv64
+[0;94m Static hostname:[0m new_host
+Tue Sep 19 11:59:42 2023 - INFO  - End to run test.
+Tue Sep 19 11:59:43 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 11:59:43 2023 - INFO  - Start to restore the test environment.
+spawn hostnamectl set-hostname -H root@10.0.0.3 openeuler-riscv64
+root@10.0.0.3's password: 
+Tue Sep 19 11:59:46 2023 - INFO  - End to restore the test environment.

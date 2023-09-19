@@ -1,0 +1,8 @@
+Tue Sep 19 12:00:21 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:00:27 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:00:34 2023 - INFO  - Start to restore the test environment.
+Cannot find device "blue"
+Cannot find device "red"
+Error: No connection specified.
+Tue Sep 19 12:00:35 2023 - INFO  - End to restore the test environment.

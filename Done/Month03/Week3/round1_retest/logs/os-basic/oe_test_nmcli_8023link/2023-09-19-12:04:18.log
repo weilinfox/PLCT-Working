@@ -1,0 +1,16 @@
+Tue Sep 19 12:04:19 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:04:25 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:04:32 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:04:32 2023 - INFO  - Start to run test.
+Connection 'test_con1' (9eb27780-6d4c-49c0-8bab-0bcff097da61) successfully added.
+connection.interface-name:              enp0s3
+802-3-ethernet.auto-negotiate:          no
+802-3-ethernet.auto-negotiate:          yes
+802-3-ethernet.speed:                   1000
+802-3-ethernet.duplex:                  full
+Tue Sep 19 12:04:35 2023 - INFO  - End to run test.
+Tue Sep 19 12:04:36 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:04:36 2023 - INFO  - Start to restore the test environment.
+Connection 'test_con1' (9eb27780-6d4c-49c0-8bab-0bcff097da61) successfully deleted.
+Tue Sep 19 12:04:37 2023 - INFO  - End to restore the test environment.
