@@ -1,4 +1,4 @@
-# Month 3 Week 2 工作报告 23/09/05-23/09/11
+# Month 3 Week 2 工作报告 23/09/12-23/09/15
 
 + oErv 2309 v4 的 mugen 测试进行了 [oe2309testv4_1](https://github.com/weilinfox/PLCT-Working/blob/master/Done/Month03/Week2/oe2309testv4_1) 部分的测试并提交日志 pr [#45](https://github.com/KotorinMinami/res_list/pull/45)
 + oE 2309 RC3 的 mugen 测试进行了 oe2309testv4_1 部分的 x86 对比测试并提交日志 pr [#46](https://github.com/KotorinMinami/res_list/pull/46) [#48](https://github.com/KotorinMinami/res_list/pull/48)
