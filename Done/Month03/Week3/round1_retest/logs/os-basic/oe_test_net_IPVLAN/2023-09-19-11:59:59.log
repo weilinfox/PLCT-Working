@@ -1,0 +1,12 @@
+Tue Sep 19 12:00:01 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:00:06 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:00:13 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:00:14 2023 - INFO  - Start to run test.
+4: my_ipvlan@enp0s3: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+Tue Sep 19 12:00:14 2023 - INFO  - End to run test.
+Tue Sep 19 12:00:15 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:00:15 2023 - INFO  - Start to restore the test environment.
+Error: unknown connection 'enp0s3'.
+Error: cannot delete unknown connection(s): 'enp0s3'.
+Tue Sep 19 12:00:16 2023 - INFO  - End to restore the test environment.

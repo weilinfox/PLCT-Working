@@ -2,7 +2,9 @@
 
 + oErv 2309 v4 的 mugen 测试进行了 [oe2309testv4_1](https://github.com/weilinfox/PLCT-Working/blob/master/Done/Month03/Week2/oe2309testv4_1) 部分的测试并提交日志 pr [#45](https://github.com/KotorinMinami/res_list/pull/45)
 + oE 2309 RC3 的 mugen 测试进行了 oe2309testv4_1 部分的 x86 对比测试并提交日志 pr [#46](https://github.com/KotorinMinami/res_list/pull/46) [#48](https://github.com/KotorinMinami/res_list/pull/48)
-+ 对 oe2309testv4_1 部分的日志进行分析
++ 对 oe2309testv4_1 部分的日志进行分析 [md 文档](https://github.com/weilinfox/PLCT-Working/tree/master/Done/Month03/Week2/md)
++ 协助老凯老师排查 clevis 测试套的失败原因 [clevis](https://github.com/weilinfox/PLCT-Working/tree/master/Done/Month03/Week2/clevis)
++ 一部分用例使用 mugen combination 功能进行，尝试编写 combination test 的自动化测试脚本 [combination_env.sh](https://github.com/weilinfox/PLCT-Working/blob/master/Note/combination_env.sh)
 
 ### fail 用例
 

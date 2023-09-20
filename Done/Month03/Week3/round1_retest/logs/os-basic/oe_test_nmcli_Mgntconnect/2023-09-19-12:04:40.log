@@ -1,0 +1,17 @@
+Tue Sep 19 12:04:42 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:04:48 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:04:54 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:04:55 2023 - INFO  - Start to prepare the test environment.
+Error: ethernet-enp0s3 - no such connection profile.
+Tue Sep 19 12:04:55 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:04:56 2023 - INFO  - Start to run test.
+Connection 'ethernet-enp0s3' (f068d2a7-4e00-4da6-884f-09e5647facb0) successfully added.
+Connection 'ethernet' (ee29c541-7597-4cd1-864f-e238af88b93e) successfully added.
+ipv4.method:                            auto
+3
+Tue Sep 19 12:04:59 2023 - INFO  - End to run test.
+Tue Sep 19 12:04:59 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:04:59 2023 - INFO  - Start to restore the test environment.
+Connection 'ethernet-enp0s3' (f068d2a7-4e00-4da6-884f-09e5647facb0) successfully deleted.
+Tue Sep 19 12:05:00 2023 - INFO  - End to restore the test environment.

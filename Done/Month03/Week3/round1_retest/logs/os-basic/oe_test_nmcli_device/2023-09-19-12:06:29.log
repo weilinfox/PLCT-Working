@@ -1,0 +1,15 @@
+Tue Sep 19 12:06:31 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:06:37 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:06:43 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:06:44 2023 - INFO  - Start to run test.
+Usage: nmcli device { COMMAND | help }
+enp0s3  ethernet  connected               Wired connection 2 
+GENERAL.DEVICE:                         enp0s3
+GENERAL.DEVICE:                         enp0s3
+enp0s3  ethernet 
+GENERAL.DEVICE:enp0s3
+                            Device details (enp0s3)
+Tue Sep 19 12:06:46 2023 - INFO  - End to run test.
+Tue Sep 19 12:06:46 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:06:47 2023 - INFO  - oe_test_nmcli_device.sh post_test

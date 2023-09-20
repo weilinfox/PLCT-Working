@@ -1,0 +1,15 @@
+Tue Sep 19 12:03:52 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:03:58 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:04:05 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:04:05 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:04:11 2023 - INFO  - pkgs:(net-tools) is already installed
+Tue Sep 19 12:04:11 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:04:12 2023 - INFO  - Start to run test.
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+enp0s3: flags=4419<UP,BROADCAST,RUNNING,PROMISC,MULTICAST>  mtu 1500
+Tue Sep 19 12:04:12 2023 - INFO  - End to run test.
+Tue Sep 19 12:04:13 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:04:13 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:04:14 2023 - WARN  - no thing to do.
+Tue Sep 19 12:04:14 2023 - INFO  - End to restore the test environment.

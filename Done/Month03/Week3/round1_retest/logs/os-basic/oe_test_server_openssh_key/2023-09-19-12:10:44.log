@@ -1,0 +1,66 @@
+Tue Sep 19 12:10:45 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:10:51 2023 - INFO  - pkgs:(openssh-server openssh-clients openssh) is already installed
+Tue Sep 19 12:10:52 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:10:52 2023 - INFO  - Start to run test.
+spawn ssh-keygen -t ecdsa
+Generating public/private ecdsa key pair.
+Enter file in which to save the key (/root/.ssh/id_ecdsa): 
+
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_ecdsa
+Your public key has been saved in /root/.ssh/id_ecdsa.pub
+The key fingerprint is:
+SHA256:tKVnODWXX44vjU/uFglb1zlZo+veBhWSoetq+nwEdzg root@openeuler-riscv64
+The key's randomart image is:
++---[ECDSA 256]---+
+|             .o  |
+|            .+ o.|
+|        . +.+ o O|
+|       . B E.= Xo|
+|        S =.o O =|
+|         +.. + * |
+|          ... + =|
+|        .... ..*.|
+|       .++. ...++|
++----[SHA256]-----+
+spawn ssh-copy-id root@10.0.0.3
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/root/.ssh/id_ecdsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+root@10.0.0.3's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'root@10.0.0.3'"
+and check to make sure that only the key(s) you wanted were added.
+
+spawn ssh root@10.0.0.3
+Last login: Tue Sep 19 11:34:31 2023
+
+
+Welcome to 6.4.0-1.0.0.4.oe2309.riscv64
+
+System information as of time: 	Tue Sep 19 12:11:00 PM CST 2023
+
+System load: 	[0;33;40m0.14[0m
+Processes: 	95
+Memory used: 	2.5%
+Swap used: 	0.0%
+Usage On: 	24%
+IP address: 	10.0.0.3
+IP address: 	10.0.2.15
+Users online: 	1
+
+
+[?2004h[root@openeuler-riscv64 ~]# exit
+[?2004llogout
+Connection to 10.0.0.3 closed.
+Tue Sep 19 12:11:01 2023 - INFO  - End to run test.
+Tue Sep 19 12:11:01 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:11:02 2023 - INFO  - Start to restores the test environment.
+Tue Sep 19 12:11:02 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:11:03 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:11:03 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 rm -rf /root/.ssh/authorized_keys
+Tue Sep 19 12:11:06 2023 - INFO  - End to restore the test environment.

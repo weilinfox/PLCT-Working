@@ -1,0 +1,17 @@
+Tue Sep 19 12:26:56 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:27:02 2023 - INFO  - pkgs:(firewalld) is already installed
+     Active: active (running) since Tue 2023-09-19 12:27:04 CST; 137ms ago
+Tue Sep 19 12:27:05 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:27:05 2023 - INFO  - Start to run test.
+ERROR:dbus.proxies:Introspect error on :1.165:/org/fedoraproject/FirewallD1: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Error: The name :1.165 was not provided by any .service files
+FirewallD is not running
+Tue Sep 19 12:27:21 2023 - ERROR - oe_test_server_httpd_checkfirewall.sh line 34
+FirewallD is not running
+Tue Sep 19 12:27:24 2023 - ERROR - oe_test_server_httpd_checkfirewall.sh line 36
+Tue Sep 19 12:27:24 2023 - INFO  - End to run test.
+Tue Sep 19 12:27:24 2023 - ERROR - failed to execute the case.
+Tue Sep 19 12:27:25 2023 - INFO  - Start to restore the test environment.
+FirewallD is not running
+Tue Sep 19 12:27:27 2023 - WARN  - no thing to do.
+Tue Sep 19 12:27:28 2023 - INFO  - End to restore the test environment.

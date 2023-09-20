@@ -1,0 +1,21 @@
+Tue Sep 19 11:59:17 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 11:59:22 2023 - INFO  - pkgs:(expect) is already installed
+Tue Sep 19 11:59:23 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 11:59:23 2023 - INFO  - Start to run test.
+expect-5.45.4-7.oe2309.riscv64
+expect version 5.45.4
+spawn ssh -o StrictHostKeyChecking no root@10.0.0.3 df -Th
+root@10.0.0.3's password: 
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/root      ext4       20G  4.3G   14G  24% /
+devtmpfs       devtmpfs  1.9G     0  1.9G   0% /dev
+tmpfs          tmpfs     2.0G     0  2.0G   0% /dev/shm
+tmpfs          tmpfs     782M  380K  782M   1% /run
+tmpfs          tmpfs     4.0M     0  4.0M   0% /sys/fs/cgroup
+tmpfs          tmpfs     2.0G     0  2.0G   0% /tmp
+/dev/vda1      ext2      504M   48M  431M  10% /boot
+Tue Sep 19 11:59:27 2023 - INFO  - End to run test.
+Tue Sep 19 11:59:27 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 11:59:28 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 11:59:28 2023 - WARN  - no thing to do.
+Tue Sep 19 11:59:28 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,105 @@
+Tue Sep 19 12:02:28 2023 - INFO  - Start to prepare the test environment.
+oe_test_net_ncat.sh: line 24: iptables: command not found
+Tue Sep 19 12:02:59 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:02:59 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:03:00 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 
+            yum install -y nmap iptables;
+            iptables -F;
+            systemctl stop firewalld
+root@10.0.0.3's password: 
+Last metadata expiration check: 1:02:52 ago on Tue 19 Sep 2023 11:00:14 AM CST.
+Dependencies resolved.
+================================================================================
+ Package         Architecture   Version                   Repository       Size
+================================================================================
+Installing:
+ iptables        riscv64        1.8.9-2.oe2309            mainline         78 k
+ nmap            riscv64        2:7.94-1.oe2309           mainline        6.1 M
+Installing dependencies:
+ libssh2         riscv64        1.11.0-1.oe2309           mainline        215 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages
+
+Total download size: 6.4 M
+Installed size: 26 M
+Downloading Packages:
+(1/3): iptables-1.8.9-2.oe2309.riscv64.rpm      100 kB/s |  78 kB     00:00    
+(2/3): libssh2-1.11.0-1.oe2309.riscv64.rpm      259 kB/s | 215 kB     00:00    
+(3/3): nmap-7.94-1.oe2309.riscv64.rpm           2.5 MB/s | 6.1 MB     00:02    
+--------------------------------------------------------------------------------
+Total                                           2.6 MB/s | 6.4 MB     00:02     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : libssh2-1.11.0-1.oe2309.riscv64                        1/3 
+  Installing       : nmap-2:7.94-1.oe2309.riscv64                           2/3 
+  Installing       : iptables-1.8.9-2.oe2309.riscv64                        3/3 
+  Running scriptlet: iptables-1.8.9-2.oe2309.riscv64                        3/3 
+  Verifying        : iptables-1.8.9-2.oe2309.riscv64                        1/3 
+  Verifying        : libssh2-1.11.0-1.oe2309.riscv64                        2/3 
+  Verifying        : nmap-2:7.94-1.oe2309.riscv64                           3/3 
+
+Installed:
+  iptables-1.8.9-2.oe2309.riscv64        libssh2-1.11.0-1.oe2309.riscv64       
+  nmap-2:7.94-1.oe2309.riscv64          
+
+Complete!
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
+Tue Sep 19 12:03:20 2023 - ERROR - Failed in remote CMD operation:5
+Tue Sep 19 12:03:21 2023 - INFO  - End to prepare the test environment.
+Start executing testcase.
+Tue Sep 19 12:03:21 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:03:22 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:03:22 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=0 -p 22 root@10.0.0.3 ncat -l 8080 >> ~/ncat_log 2>&1 &
+root@10.0.0.3's password: 
+Tue Sep 19 12:03:25 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:03:26 2023 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r root@10.0.0.3:/root/ncat_log .
+root@10.0.0.3's password: 
+ncat_log                                        0%    0     0.0KB/s   --:-- ETAncat_log                                      100%   13     1.7KB/s   00:00    
+End of testcase execution.
+Tue Sep 19 12:03:29 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:03:29 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:03:38 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:03:38 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:03:38 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 yum remove -y nmap; rm -rf ~/ncat_log
+root@10.0.0.3's password: 
+Dependencies resolved.
+================================================================================
+ Package        Architecture   Version                   Repository        Size
+================================================================================
+Removing:
+ nmap           riscv64        2:7.94-1.oe2309           @mainline         25 M
+Removing unused dependencies:
+ libssh2        riscv64        1.11.0-1.oe2309           @mainline        606 k
+
+Transaction Summary
+================================================================================
+Remove  2 Packages
+
+Freed space: 26 M
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Erasing          : nmap-2:7.94-1.oe2309.riscv64                           1/2 
+  Erasing          : libssh2-1.11.0-1.oe2309.riscv64                        2/2 
+  Running scriptlet: libssh2-1.11.0-1.oe2309.riscv64                        2/2 
+  Verifying        : libssh2-1.11.0-1.oe2309.riscv64                        1/2 
+  Verifying        : nmap-2:7.94-1.oe2309.riscv64                           2/2 
+
+Removed:
+  libssh2-1.11.0-1.oe2309.riscv64          nmap-2:7.94-1.oe2309.riscv64         
+
+Complete!
+Tue Sep 19 12:03:47 2023 - INFO  - End to restore the test environment.

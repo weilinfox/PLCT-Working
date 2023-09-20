@@ -1,0 +1,517 @@
++ source common_multipath-tools.sh
+++ source /root/mugen/libs/locallibs/common_lib.sh
++++ python3 --version
++++ '[' 0 -eq 0 ']'
++++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Sep 20 10:41:07 2023 - INFO  - Start to prepare the test environment.
++ deploy_env
+++ TEST_DISK 2
+++ id=2
+++ python3 /root/mugen/libs/locallibs/get_test_device.py --device disk --node 2
++ remote_disks='vdb vdc vdd vde'
+++ awk -F ' ' '{for(i=1;i<=NF;i++) if ($i!~/[0-9]/)j=i;print $j}'
+++ echo vdb vdc vdd vde
++ remote_disk=/dev/vde
++ P_SSH_CMD --node 2 --cmd 'dnf install -y scsi-target-utils; 
+        echo -e '\''n\np\n1\n\n+2000M\nw'\'' | fdisk /dev/vde; 
+        echo -e '\''<target iqn.2013-12.com.make:ws.httpd>\nbacking-store /dev/vde\n</target>'\'' >>/etc/tgt/targets.conf; 
+        systemctl restart tgtd; 
+        systemctl stop firewalld;'
++ python3 /root/mugen/libs/locallibs/ssh_cmd.py --node 2 --cmd 'dnf install -y scsi-target-utils; 
+        echo -e '\''n\np\n1\n\n+2000M\nw'\'' | fdisk /dev/vde; 
+        echo -e '\''<target iqn.2013-12.com.make:ws.httpd>\nbacking-store /dev/vde\n</target>'\'' >>/etc/tgt/targets.conf; 
+        systemctl restart tgtd; 
+        systemctl stop firewalld;'
+The device contains 'ext4' signature and it may remain on the device. It is recommended to wipe the device with wipefs(8) or fdisk --wipe, in order to avoid possible collisions.
+Value out of range.
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
++ DNF_REMOVE iscsi-initiator-utils
++ node=iscsi-initiator-utils
++ pkg_list=
++ mode=0
++ [[ -z '' ]]
++ [[ -z '' ]]
++ LOG_WARN 'no thing to do.'
++ message='no thing to do.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Wed Sep 20 10:41:41 2023 - WARN  - no thing to do.
++ return 0
++ DNF_INSTALL 'iscsi-initiator-utils multipath-tools device-mapper-event device-mapper'
++ pkgs='iscsi-initiator-utils multipath-tools device-mapper-event device-mapper'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'iscsi-initiator-utils multipath-tools device-mapper-event device-mapper' --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpvov5va43
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpvov5va43
++ systemctl restart iscsid
++ iscsiadm -m discovery -t sendtargets -p 10.0.0.3
+10.0.0.3:3260,1 iqn.2013-12.com.make:ws.httpd
++ iscsiadm -m node -T iqn.2013-12.com.make:ws.httpd -l
+Logging in to [iface: default, target: iqn.2013-12.com.make:ws.httpd, portal: 10.0.0.3,3260]
+Login to [iface: default, target: iqn.2013-12.com.make:ws.httpd, portal: 10.0.0.3,3260] successful.
++ mpathconf --enable --with_multipathd y
++ service multipathd start
+Redirecting to /bin/systemctl start multipathd.service
++ multipath -v2
++ multipath -ll
++ echo '
+defaults {
+       user_friendly_names       yes
+       max_fds                   max
+       queue_without_daemon      no
+       flush_on_last_del         yes
+}
+
+devices {
+       device {
+               vendor                  "IET "
+               product                 "VIRTUAL-DISK"
+               path_grouping_policy    multibus
+               getuid_callout          "/sbin/scsi_id -g -u -s/block/%n"
+               path_checker            directio
+               path_selector           "round-robin 0"
+               hardware_handler        "0"
+               failback                15
+               rr_weight               priorities
+               no_path_retry           queue
+               rr_min_io               100
+               product_blacklist       LUNZ
+       }
+}'
++ lsmod
++ grep dm_multipath
+dm_multipath          299008  0
+dm_mod               1560576  3 dm_multipath
++ modprobe dm_multipath
++ service multipathd restart
+Redirecting to /bin/systemctl restart multipathd.service
++ chkconfig --level 345 multipathd on
+Note: Forwarding request to 'systemctl enable multipathd.service'.
+Created symlink /etc/systemd/system/sysinit.target.wants/multipathd.service → /usr/lib/systemd/system/multipathd.service.
+Created symlink /etc/systemd/system/sockets.target.wants/multipathd.socket → /usr/lib/systemd/system/multipathd.socket.
+++ TEST_DISK 1
+++ id=1
+++ python3 /root/mugen/libs/locallibs/get_test_device.py --device disk --node 1
++ local_disks='sda vdb vdc vdd vde'
+++ echo sda vdb vdc vdd vde
+++ awk -F ' ' '/sd[a-z]/ {for(i=1;i<=NF;i++) if ($i~/sd/ && $i!~/[0-9]/)j=i;print $j}'
++ local_disk=sda
+++ ls /dev/mapper
+++ grep mpath
+++ head -n 1
++ test_mapper=mpatha
+++ ls -l /dev/mapper/
+++ grep mpatha
+++ awk -F / '{print $2}'
+++ head -n 1
++ test_dm=dm-0
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Wed Sep 20 10:42:26 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed Sep 20 10:42:27 2023 - INFO  - Start to run test.
++ multipath -v3
++ grep sda
+3010.726078 | set open fds limit to 1073741816/1073741816
+3010.726454 | loading /lib64/multipath/libchecktur.so checker
+3010.727579 | checker tur: message table size = 3
+3010.727845 | loading /lib64/multipath/libprioconst.so prioritizer
+3010.729654 | _init_foreign: foreign library "nvme" is not enabled
+3010.786104 | sda: size = 1024000
+3010.788495 | sda: vendor = IET
+3010.788889 | sda: product = VIRTUAL-DISK
+3010.789215 | sda: rev = 0001
+3010.794209 | sda: h:b:t:l = 0:0:0:1
+3010.802004 | sda: tgt_node_name = iqn.2013-12.com.make:ws.httpd
+3010.802195 | sda: uid_attribute = ID_SERIAL (setting: multipath internal)
+3010.802281 | sda: recheck_wwid = 1 (setting: multipath.conf defaults/devices section)
+3010.803967 | sda: 1020 cyl, 17 heads, 59 sectors/track, start at 0
+3010.804414 | sda: vpd_vendor_id = 0 "undef" (setting: multipath internal)
+3010.804676 | sda: serial = beaf11
+3010.804765 | sda: detect_checker = yes (setting: multipath internal)
+3010.807891 | sda: path_checker = tur (setting: multipath internal)
+3010.808014 | sda: checker timeout = 30 s (setting: kernel sysfs)
+3010.809122 | sda: tur state = up
+3010.809227 | sda: uid = 360000000000000000e00000000010001 (udev)
+3010.809309 | sda: detect_prio = yes (setting: multipath internal)
+3010.809393 | sda: prio = const (setting: multipath internal)
+3010.809468 | sda: prio args = "" (setting: multipath internal)
+3010.809544 | sda: const prio = 1
+3010.810891 | vda: device node name blacklisted
+3010.814415 | vdb: device node name blacklisted
+3010.815753 | vdc: device node name blacklisted
+3010.817475 | vdd: device node name blacklisted
+3010.818914 | vde: device node name blacklisted
+3010.819932 | dm-0: device node name blacklisted
+3010.824544 | multipath-tools v0.8.7 (09/08, 2021)
+3010.824826 | libdevmapper version 1.02.195
+3010.826069 | kernel device mapper v4.48.0
+3010.826288 | DM multipath kernel driver v1.14.0
+3010.828912 | sda: size = 1024000
+3010.829048 | sda: vendor = IET
+3010.829115 | sda: product = VIRTUAL-DISK
+3010.829178 | sda: rev = 0001
+3010.833660 | sda: h:b:t:l = 0:0:0:1
+3010.835100 | sda: tgt_node_name = iqn.2013-12.com.make:ws.httpd
+3010.835370 | sda: 1020 cyl, 17 heads, 59 sectors/track, start at 0
+3010.835445 | sda: vpd_vendor_id = 0 "undef" (setting: multipath internal)
+3010.835668 | sda: serial = beaf11
+3010.836914 | sda: tur state = up
+3010.837147 | sda 8:0: start coalesce
+3010.841459 | unloading tur checker
+3010.841928 | unloading const prioritizer
+360000000000000000e00000000010001 0:0:0:1 sda 8:0   1   undef undef  IET,VIRTUAL-DISK unknown
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ multipath -ll
++ grep mpath -A 10
+mpatha (360000000000000000e00000000010001) dm-0 IET,VIRTUAL-DISK
+size=500M features='0' hwhandler='0' wp=rw
+`-+- policy='service-time 0' prio=1 status=active
+  `- 0:0:0:1 sda 8:0 active ready running
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ multipath -l
++ grep mpath -A 10
+mpatha (360000000000000000e00000000010001) dm-0 IET,VIRTUAL-DISK
+size=500M features='0' hwhandler='0' wp=rw
+`-+- policy='service-time 0' prio=0 status=active
+  `- 0:0:0:1 sda 8:0 active undef running
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ multipath -v3 -f /dev/dm-0
+3011.288515 | set open fds limit to 1073741816/1073741816
+3011.289031 | loading /lib64/multipath/libchecktur.so checker
+3011.290723 | checker tur: message table size = 3
+3011.291030 | loading /lib64/multipath/libprioconst.so prioritizer
+3011.293401 | _init_foreign: foreign library "nvme" is not enabled
+3011.294036 | delegating command to multipathd
+3011.295717 | multipath-tools v0.8.7 (09/08, 2021)
+3011.295966 | libdevmapper version 1.02.195
+3011.296713 | kernel device mapper v4.48.0
+3011.296924 | DM multipath kernel driver v1.14.0
+3011.451535 | unloading tur checker
+3011.452761 | unloading const prioritizer
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ test -L /dev/mapper/mpatha1
++ CHECK_RESULT 1 1
++ actual_result=1
++ expect_result=1
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 1x
++ return 0
++ service multipathd restart
+Redirecting to /bin/systemctl restart multipathd.service
++ sleep 10
++ multipath -v3 -R 1 -F
+3022.178465 | set open fds limit to 1073741816/1073741816
+3022.178957 | loading /lib64/multipath/libchecktur.so checker
+3022.180492 | checker tur: message table size = 3
+3022.180708 | loading /lib64/multipath/libprioconst.so prioritizer
+3022.182361 | _init_foreign: foreign library "nvme" is not enabled
+3022.182770 | delegating command to multipathd
+3022.219058 | unloading tur checker
+3022.219679 | unloading const prioritizer
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 10
++ wait_time=10
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 10 --cmd '' --mode 1
++ test -L /dev/mapper/mpatha
++ CHECK_RESULT 1 1
++ actual_result=1
++ expect_result=1
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 1x
++ return 0
++ service multipathd restart
+Redirecting to /bin/systemctl restart multipathd.service
++ multipath -a /dev/dm-0
++ grep added
+3033.637675 | libdevmapper: libdm-common.c(662): Device dm-0 not found
+wwid '/dev/dm-0' added
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ grep 0000 /etc/multipath/wwids
+/360000000000000000e00000000010001/
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ multipath -v3 -C /dev/dm-0
++ grep -E 'checker|sda|/dev/dm-0'
+3033.710689 | loading /lib64/multipath/libchecktur.so checker
+3033.711680 | checker tur: message table size = 3
+3033.721211 | sda: size = 1024000
+3033.722934 | sda: vendor = IET
+3033.723187 | sda: product = VIRTUAL-DISK
+3033.723449 | sda: rev = 0001
+3033.728831 | sda: h:b:t:l = 0:0:0:1
+3033.733335 | sda: tgt_node_name = iqn.2013-12.com.make:ws.httpd
+3033.733455 | sda: uid_attribute = ID_SERIAL (setting: multipath internal)
+3033.733484 | sda: recheck_wwid = 1 (setting: multipath.conf defaults/devices section)
+3033.735308 | sda: uid = 360000000000000000e00000000010001 (udev)
+3033.735382 | mpatha: adding new path sda
+3033.738261 | sda: size = 1024000
+3033.739897 | sda: vendor = IET
+3033.740261 | sda: product = VIRTUAL-DISK
+3033.740495 | sda: rev = 0001
+3033.745429 | sda: h:b:t:l = 0:0:0:1
+3033.749938 | sda: tgt_node_name = iqn.2013-12.com.make:ws.httpd
+3033.750152 | /dev/dm-0: path sda is usable
+3033.750211 | /dev/dm-0: usable paths found
+3033.750646 | unloading tur checker
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ multipath -v3 -q
++ grep -C 10 'paths list'
+3033.895085 | sda: rev = 0001
+3033.900816 | sda: h:b:t:l = 0:0:0:1
+3033.902217 | sda: tgt_node_name = iqn.2013-12.com.make:ws.httpd
+3033.902456 | sda: 1020 cyl, 17 heads, 59 sectors/track, start at 0
+3033.902495 | sda: vpd_vendor_id = 0 "undef" (setting: multipath internal)
+3033.902672 | sda: serial = beaf11
+3033.904091 | sda: tur state = up
+3033.904144 | sda 8:0: start coalesce
+3033.906035 | unloading tur checker
+3033.906373 | unloading const prioritizer
+===== paths list =====
+uuid                              hcil    dev dev_t pri dm_st chk_st vend/prod/rev    dev_st 
+360000000000000000e00000000010001 0:0:0:1 sda 8:0   1   undef undef  IET,VIRTUAL-DISK unknown
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ multipath -v3 -d
++ grep -i dev
+3034.060025 | sda: recheck_wwid = 1 (setting: multipath.conf defaults/devices section)
+3034.065492 | sda: uid = 360000000000000000e00000000010001 (udev)
+3034.066913 | vda: device node name blacklisted
+3034.070705 | vdb: device node name blacklisted
+3034.072020 | vdc: device node name blacklisted
+3034.073424 | vdd: device node name blacklisted
+3034.074746 | vde: device node name blacklisted
+3034.075725 | dm-0: device node name blacklisted
+3034.079693 | libdevmapper version 1.02.195
+3034.081054 | kernel device mapper v4.48.0
+uuid                              hcil    dev dev_t pri dm_st chk_st vend/prod/rev    dev_st 
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Sep 20 10:42:51 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Sep 20 10:42:51 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Sep 20 10:42:51 2023 - INFO  - Start to restore the test environment.
++ clear_env
++ P_SSH_CMD --node 2 --cmd 'dnf remove -y scsi-target-utils; echo -e '\''d\nw\n'\'' | fdisk /dev/vde'
++ python3 /root/mugen/libs/locallibs/ssh_cmd.py --node 2 --cmd 'dnf remove -y scsi-target-utils; echo -e '\''d\nw\n'\'' | fdisk /dev/vde'
+Dependencies resolved.
+================================================================================
+ Package                 Arch        Version                Repository     Size
+================================================================================
+Removing:
+ scsi-target-utils       riscv64     1.0.79-4.oe2309        @mainline     631 k
+Removing unused dependencies:
+ lsof                    riscv64     4.97.0-3.oe2309        @mainline     220 k
+ pciutils                riscv64     3.9.0-1.oe2309         @mainline     317 k
+ perl-Config-General     noarch      2.65-1.oe2309          @mainline     108 k
+ rdma-core               riscv64     41.0-9.oe2309          @mainline     3.5 M
+ sg3_utils               riscv64     1.47-3.oe2309          @mainline     2.6 M
+
+Transaction Summary
+================================================================================
+Remove  6 Packages
+
+Freed space: 7.4 M
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Running scriptlet: scsi-target-utils-1.0.79-4.oe2309.riscv64              1/1 
+  Running scriptlet: scsi-target-utils-1.0.79-4.oe2309.riscv64              1/6 
+  Erasing          : scsi-target-utils-1.0.79-4.oe2309.riscv64              1/6 
+warning: /etc/tgt/targets.conf saved as /etc/tgt/targets.conf.rpmsave
+
+  Running scriptlet: scsi-target-utils-1.0.79-4.oe2309.riscv64              1/6 
+  Erasing          : perl-Config-General-2.65-1.oe2309.noarch               2/6 
+  Running scriptlet: rdma-core-41.0-9.oe2309.riscv64                        3/6 
+  Erasing          : rdma-core-41.0-9.oe2309.riscv64                        3/6 
+  Running scriptlet: rdma-core-41.0-9.oe2309.riscv64                        3/6 
+  Erasing          : pciutils-3.9.0-1.oe2309.riscv64                        4/6 
+  Running scriptlet: pciutils-3.9.0-1.oe2309.riscv64                        4/6 
+  Erasing          : lsof-4.97.0-3.oe2309.riscv64                           5/6 
+  Erasing          : sg3_utils-1.47-3.oe2309.riscv64                        6/6 
+  Running scriptlet: sg3_utils-1.47-3.oe2309.riscv64                        6/6 
+  Verifying        : lsof-4.97.0-3.oe2309.riscv64                           1/6 
+  Verifying        : pciutils-3.9.0-1.oe2309.riscv64                        2/6 
+  Verifying        : perl-Config-General-2.65-1.oe2309.noarch               3/6 
+  Verifying        : rdma-core-41.0-9.oe2309.riscv64                        4/6 
+  Verifying        : scsi-target-utils-1.0.79-4.oe2309.riscv64              5/6 
+  Verifying        : sg3_utils-1.47-3.oe2309.riscv64                        6/6 
+
+Removed:
+  lsof-4.97.0-3.oe2309.riscv64                pciutils-3.9.0-1.oe2309.riscv64  
+  perl-Config-General-2.65-1.oe2309.noarch    rdma-core-41.0-9.oe2309.riscv64  
+  scsi-target-utils-1.0.79-4.oe2309.riscv64   sg3_utils-1.47-3.oe2309.riscv64  
+
+Complete!
+
+Welcome to fdisk (util-linux 2.39.1).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Device does not contain a recognized partition table.
+Created a new DOS (MBR) disklabel with disk identifier 0x58e44086.
+
+Command (m for help): 
+Command (m for help): 
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
++ iscsiadm -m node --logoutall=all
+Logging out of session [sid: 1, target: iqn.2013-12.com.make:ws.httpd, portal: 10.0.0.3,3260]
+Logout of [sid: 1, target: iqn.2013-12.com.make:ws.httpd, portal: 10.0.0.3,3260] successful.
++ multipath -F
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpvov5va43 ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpvov5va43
++ '[' 0 -ne 0 ']'
+++ ls
+++ grep -vE .sh
++ del_file=
++ rm -rf /tmp/disk1
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Sep 20 10:44:49 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,5 @@
+Tue Sep 19 12:25:17 2023 - INFO  - Start executing testcase.
+Tue Sep 19 12:25:17 2023 - ERROR - oe_test_system_log_dmesg.sh line 24
+Tue Sep 19 12:25:18 2023 - INFO  - End of testcase execution.
+Tue Sep 19 12:25:18 2023 - ERROR - failed to execute the case.
+Tue Sep 19 12:25:19 2023 - INFO  - oe_test_system_log_dmesg.sh post_test

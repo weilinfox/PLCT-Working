@@ -1,0 +1,37 @@
+Tue Sep 19 12:45:15 2023 - INFO  - Start loading data!
+Tue Sep 19 12:45:15 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:45:16 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:45:16 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 lsblk > /tmp/diskfile
+The authenticity of host '10.0.0.3 (10.0.0.3)' can't be established.
+ED25519 key fingerprint is SHA256:Zkp9nXrCWyAkJeQW3PXH1QtouweM8pjpV5o7tw1Ya3o.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.0.0.3' (ED25519) to the list of known hosts.
+root@10.0.0.3's password: 
+Tue Sep 19 12:45:19 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:45:20 2023 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r root@10.0.0.3:/tmp/diskfile ./diskfile
+root@10.0.0.3's password: 
+diskfile                                        0%    0     0.0KB/s   --:-- ETAdiskfile                                      100%  157    23.8KB/s   00:00    
+Tue Sep 19 12:45:23 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:45:23 2023 - WARN  - the remote user uses the default configuration.
+Tue Sep 19 12:45:24 2023 - WARN  - the remote password uses the default configuration.
+Tue Sep 19 12:45:24 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 
+    umount /var/ftp/pub/
+    mv /etc/vsftpd/ftpusers.bak /etc/vsftpd/ftpusers
+    mv /etc/vsftpd/user_list.bak /etc/vsftpd/user_list
+    rm -rf /var/ftp/pub/upload_file1.txt
+    yum remove -y vsftpd
+root@10.0.0.3's password: 
+umount: /var/ftp/pub/: no mount point specified.
+mv: cannot stat '/etc/vsftpd/ftpusers.bak': No such file or directory
+mv: cannot stat '/etc/vsftpd/user_list.bak': No such file or directory
+No match for argument: vsftpd
+No packages marked for removal.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Tue Sep 19 12:45:31 2023 - WARN  - no thing to do.
+Tue Sep 19 12:45:31 2023 - INFO  - End to restore the test environment.

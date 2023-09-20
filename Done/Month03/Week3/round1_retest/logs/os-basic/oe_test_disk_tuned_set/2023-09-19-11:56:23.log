@@ -1,0 +1,12 @@
+Tue Sep 19 11:56:24 2023 - INFO  - Start to config the test environment.
+Tue Sep 19 11:56:31 2023 - INFO  - Start to config the test environment.
+Tue Sep 19 11:56:31 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 11:57:30 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 11:57:30 2023 - INFO  - Start to run test.
+Current active profile: my-profile
+Verfication succeeded, current system settings match the preset profile.
+mq-deadline
+Tue Sep 19 11:57:40 2023 - INFO  - End to run test.
+Tue Sep 19 11:57:40 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 11:57:41 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 11:58:03 2023 - INFO  - End to restore the test environment.

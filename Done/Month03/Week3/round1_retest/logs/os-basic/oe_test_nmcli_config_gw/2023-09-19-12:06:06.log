@@ -1,0 +1,147 @@
+Tue Sep 19 12:06:08 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:06:13 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:06:20 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:06:21 2023 - INFO  - Start to run test.
+Connection 'ethernet-enp0s3' (6e5da318-582e-4e30-a533-b027be36c3f0) successfully added.
+ipv4.gateway:                           192.0.2.1
+ipv6.gateway:                           2001:db8::1
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/9)
+
+===| nmcli interactive connection editor |===
+
+Editing existing '802-3-ethernet' connection: 'ethernet-enp0s3'
+
+Type 'help' or '?' for available commands.
+Type 'print' to show all the connection properties.
+Type 'describe [<setting>.<prop>]' for detailed property description.
+
+You may edit the following settings: connection, 802-3-ethernet (ethernet), 802-1x, dcb, sriov, ethtool, match, ipv4, ipv6, hostname, tc, proxy
+nmcli> set ipv4.gateway 192.0.3.1
+nmcli> set ipv6.gateway 2001:db9::1
+nmcli> print
+===============================================================================
+                 Connection profile details (ethernet-enp0s3)
+===============================================================================
+connection.id:                          ethernet-enp0s3
+connection.uuid:                        6e5da318-582e-4e30-a533-b027be36c3f0
+connection.stable-id:                   --
+connection.type:                        802-3-ethernet
+connection.interface-name:              enp0s3
+connection.autoconnect:                 yes
+connection.autoconnect-priority:        0
+connection.autoconnect-retries:         -1 (default)
+connection.multi-connect:               0 (default)
+connection.auth-retries:                -1
+connection.timestamp:                   1695096383
+connection.read-only:                   no
+connection.permissions:                 --
+connection.zone:                        --
+connection.master:                      --
+connection.slave-type:                  --
+connection.autoconnect-slaves:          -1 (default)
+connection.secondaries:                 --
+connection.gateway-ping-timeout:        0
+connection.metered:                     unknown
+connection.lldp:                        default
+connection.mdns:                        -1 (default)
+connection.llmnr:                       -1 (default)
+connection.dns-over-tls:                -1 (default)
+connection.mptcp-flags:                 0x0 (default)
+connection.wait-device-timeout:         -1
+connection.wait-activation-delay:       -1
+-------------------------------------------------------------------------------
+802-3-ethernet.port:                    --
+802-3-ethernet.speed:                   0
+802-3-ethernet.duplex:                  --
+802-3-ethernet.auto-negotiate:          no
+802-3-ethernet.mac-address:             --
+802-3-ethernet.cloned-mac-address:      --
+802-3-ethernet.generate-mac-address-mask:--
+802-3-ethernet.mac-address-blacklist:   --
+802-3-ethernet.mtu:                     auto
+802-3-ethernet.s390-subchannels:        --
+802-3-ethernet.s390-nettype:            --
+802-3-ethernet.s390-options:            --
+802-3-ethernet.wake-on-lan:             default
+802-3-ethernet.wake-on-lan-password:    --
+802-3-ethernet.accept-all-mac-addresses:-1 (default)
+-------------------------------------------------------------------------------
+ipv4.method:                            manual
+ipv4.dns:                               --
+ipv4.dns-search:                        --
+ipv4.dns-options:                       --
+ipv4.dns-priority:                      0
+ipv4.addresses:                         192.0.2.100/24
+ipv4.gateway:                           192.0.3.1
+ipv4.routes:                            --
+ipv4.route-metric:                      -1
+ipv4.route-table:                       0 (unspec)
+ipv4.routing-rules:                     --
+ipv4.replace-local-rule:                -1 (default)
+ipv4.ignore-auto-routes:                no
+ipv4.ignore-auto-dns:                   no
+ipv4.dhcp-client-id:                    --
+ipv4.dhcp-iaid:                         --
+ipv4.dhcp-timeout:                      0 (default)
+ipv4.dhcp-send-hostname:                yes
+ipv4.dhcp-hostname:                     --
+ipv4.dhcp-fqdn:                         --
+ipv4.dhcp-hostname-flags:               0x0 (none)
+ipv4.never-default:                     no
+ipv4.may-fail:                          yes
+ipv4.required-timeout:                  -1 (default)
+ipv4.dad-timeout:                       -1 (default)
+ipv4.dhcp-vendor-class-identifier:      --
+ipv4.link-local:                        0 (default)
+ipv4.dhcp-reject-servers:               --
+ipv4.auto-route-ext-gw:                 -1 (default)
+-------------------------------------------------------------------------------
+ipv6.method:                            manual
+ipv6.dns:                               --
+ipv6.dns-search:                        --
+ipv6.dns-options:                       --
+ipv6.dns-priority:                      0
+ipv6.addresses:                         2001:db8::100/64
+ipv6.gateway:                           2001:db9::1
+ipv6.routes:                            --
+ipv6.route-metric:                      -1
+ipv6.route-table:                       0 (unspec)
+ipv6.routing-rules:                     --
+ipv6.replace-local-rule:                -1 (default)
+ipv6.ignore-auto-routes:                no
+ipv6.ignore-auto-dns:                   no
+ipv6.never-default:                     no
+ipv6.may-fail:                          yes
+ipv6.required-timeout:                  -1 (default)
+ipv6.ip6-privacy:                       -1 (unknown)
+ipv6.addr-gen-mode:                     default
+ipv6.ra-timeout:                        0 (default)
+ipv6.mtu:                               auto
+ipv6.dhcp-duid:                         --
+ipv6.dhcp-iaid:                         --
+ipv6.dhcp-timeout:                      0 (default)
+ipv6.dhcp-send-hostname:                yes
+ipv6.dhcp-hostname:                     --
+ipv6.dhcp-hostname-flags:               0x0 (none)
+ipv6.auto-route-ext-gw:                 -1 (default)
+ipv6.token:                             --
+-------------------------------------------------------------------------------
+proxy.method:                           none
+proxy.browser-only:                     no
+proxy.pac-url:                          --
+proxy.pac-script:                       --
+-------------------------------------------------------------------------------
+nmcli> save persistent
+Connection 'ethernet-enp0s3' (6e5da318-582e-4e30-a533-b027be36c3f0) successfully updated.
+nmcli> active ethernet-enp0s3
+Unknown command: 'active ethernet-enp0s3'
+nmcli> quit
+ipv4.gateway:                           192.0.3.1
+ipv6.gateway:                           2001:db9::1
+Tue Sep 19 12:06:24 2023 - INFO  - End to run test.
+Tue Sep 19 12:06:25 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:06:25 2023 - INFO  - Start to restore the test environment.
+Error: unknown connection 'enp0s3'.
+Connection 'ethernet-enp0s3' (6e5da318-582e-4e30-a533-b027be36c3f0) successfully deleted.
+Tue Sep 19 12:06:26 2023 - INFO  - End to restore the test environment.

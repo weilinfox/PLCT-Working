@@ -1,0 +1,14 @@
+Tue Sep 19 12:43:40 2023 - INFO  - Start loading data!
+enp0s2
+Tue Sep 19 12:43:46 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:43:53 2023 - INFO  - Loading data is complete!
+Tue Sep 19 12:43:53 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:44:21 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:44:21 2023 - INFO  - Start to run test.
+     Active: active (running) since Tue 2023-09-19 12:44:20 CST; 926ms ago
+oe_test_ethtool.sh: line 39: ethtool: command not found
+Tue Sep 19 12:44:22 2023 - ERROR - oe_test_ethtool.sh line 39
+Tue Sep 19 12:44:22 2023 - INFO  - End to run test.
+Tue Sep 19 12:44:22 2023 - ERROR - failed to execute the case.
+Tue Sep 19 12:44:23 2023 - INFO  - Start to restore the test environment.
+Tue Sep 19 12:44:33 2023 - INFO  - End to restore the test environment.

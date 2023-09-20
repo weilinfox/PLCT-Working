@@ -1,0 +1,29 @@
+Tue Sep 19 12:05:05 2023 - INFO  - Start to config params of the case.
+enp0s2
+Tue Sep 19 12:05:11 2023 - INFO  - pkgs:(lshw) is already installed
+Tue Sep 19 12:05:18 2023 - INFO  - End to config params of the case.
+Tue Sep 19 12:05:18 2023 - INFO  - Start to run test.
+NAME                UUID                                  TYPE      DEVICE 
+enp0s2              c5ef5533-031e-465a-9543-093bf143cdb7  ethernet  enp0s2 
+Connection 'enp0s3' (7e1ff15e-009f-4615-94c4-980fca1f2aa0) successfully added.
+Valid connection types: 6lowpan, 802-11-olpc-mesh (olpc-mesh), 802-11-wireless (wifi), 802-3-ethernet (ethernet), adsl, bluetooth, bond, bridge, cdma, dummy, generic, gsm, infiniband, ip-tunnel, loopback, macsec, macvlan, ovs-bridge, ovs-dpdk, ovs-interface, ovs-patch, ovs-port, pppoe, team, tun, veth, vlan, vpn, vrf, vxlan, wifi-p2p, wimax, wireguard, wpan, bond-slave, bridge-slave, team-slave
+Enter connection type: 802-3-ethernet
+
+===| nmcli interactive connection editor |===
+
+Adding a new '802-3-ethernet' connection
+
+Type 'help' or '?' for available commands.
+Type 'print' to show all the connection properties.
+Type 'describe [<setting>.<prop>]' for detailed property description.
+
+You may edit the following settings: connection, 802-3-ethernet (ethernet), 802-1x, dcb, sriov, ethtool, match, ipv4, ipv6, hostname, tc, proxy
+nmcli> quit
+The connection is not saved. Do you really want to quit? (yes/no) [no] yes
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/5)
+Connection 'enp0s3' successfully deactivated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/5)
+Tue Sep 19 12:05:22 2023 - INFO  - End to run test.
+Tue Sep 19 12:05:22 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:05:22 2023 - INFO  - Start to restore the test environment.
+Connection 'enp0s3' (7e1ff15e-009f-4615-94c4-980fca1f2aa0) successfully deleted.
+Tue Sep 19 12:05:23 2023 - INFO  - End to restore the test environment.

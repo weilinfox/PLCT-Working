@@ -1,0 +1,48 @@
+Tue Sep 19 12:11:12 2023 - INFO  - Start to prepare the test environment.
+Tue Sep 19 12:11:17 2023 - INFO  - pkgs:(openssh-server openssh-clients openssh) is already installed
+Tue Sep 19 12:11:18 2023 - INFO  - End to prepare the test environment.
+Tue Sep 19 12:11:18 2023 - INFO  - Start to run test.
+     Active: active (running) since Tue 2023-09-19 11:57:57 CST; 13min ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:11:28 CST; 157ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:11:36 CST; 127ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:11:44 CST; 132ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:11:52 CST; 169ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:12:00 CST; 181ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:12:07 CST; 169ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:12:16 CST; 161ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:12:23 CST; 171ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+     Active: active (running) since Tue 2023-09-19 12:12:31 CST; 164ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/sshd.service".
+disabled
+Tue Sep 19 12:12:37 2023 - INFO  - End to run test.
+Tue Sep 19 12:12:37 2023 - INFO  - succeed to execute the case.
+Tue Sep 19 12:12:38 2023 - INFO  - Start to restore the test environment.
+Created symlink /etc/systemd/system/multi-user.target.wants/sshd.service → /usr/lib/systemd/system/sshd.service.
+Tue Sep 19 12:12:41 2023 - INFO  - End to restore the test environment.
