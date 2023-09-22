@@ -3,8 +3,8 @@
 MUGEN_DIR=/home/hachi/mugen/mugen
 
 WORKING_DIR=/home/hachi/mugen/com/workingDir
-QEMU_QCOW2=/home/hachi/mugen/qemu-img/workingDir/mugen_ready.qcow2
-QEMU_BIOS=/home/hachi/mugen/qemu-img/workingDir/fw_payload_oe_uboot_2304.bin
+QEMU_QCOW2=/home/hachi/mugen/qemu-img-rc3/workingDir/mugen-ready.qcow2
+QEMU_BIOS=/home/hachi/mugen/qemu-img-rc3/workingDir/fw_payload_oe_uboot_2304.bin
 QEMU_SMP=4
 QEMU_MEM=4
 QEMU_PASSWD=openEuler12#$
@@ -46,11 +46,11 @@ function SSH_CMD {
 	}
 	expect "# "
 	send "$3\r"
-	expect {
-		"# " {
-		send "exit\r"
-		expect eof
-	}
+	expect "# "
+	send "exit\r"
+	expect eof
+	catch wait result
+	exit [lindex \$result 3]
 EOF
 }
 
@@ -88,6 +88,7 @@ function SSH_CMD_OUT {
 		"# " {
 		send "exit\r"
 		expect eof
+		}
 	}
 EOF
 	SCP $1 $2 $fn
@@ -103,11 +104,25 @@ function SSH_WAIT_READY {
 	done
 }
 
+function SETUP_BRIDGE {
+	sudo ip -B link | grep " $BRIDGE_NAME:" >/dev/null && sudo ip link del $BRIDGE_NAME type bridge
+	sudo ip link add $BRIDGE_NAME type bridge
+	sudo ip addr add $BRIDGE_IP broadcast $BRIDGE_BRD dev $BRIDGE_NAME
+	sudo ip link set dev $BRIDGE_NAME up
+}
 
-sudo ip -B link | grep " $BRIDGE_NAME:" >/dev/null && sudo ip link del $BRIDGE_NAME type bridge
-sudo ip link add $BRIDGE_NAME type bridge
-sudo ip addr add $BRIDGE_IP broadcast $BRIDGE_BRD dev $BRIDGE_NAME
-sudo ip link set dev $BRIDGE_NAME up
+function SETUP_TAP {
+	if ip tuntap list | grep $TAP_NAME$1 >/dev/null; then
+		sudo ip link set dev $TAP_NAME$1 nomaster
+		sudo ip link set dev $TAP_NAME$1 down
+		sudo ip tuntap del dev $TAP_NAME$1 mod tap
+	fi
+	sudo ip tuntap add dev $TAP_NAME$1 mod tap
+	sudo ip link set dev $TAP_NAME$1 up
+	sudo ip link set dev $TAP_NAME$1 master $BRIDGE_NAME
+}
+
+SETUP_BRIDGE
 
 hostc=0
 for nms in `jq -r ".env | .[] | .type" $JSON_FILE`; do
@@ -120,32 +135,26 @@ done
 echo Find $hostc host
 
 FREE_PORT=12055
+FREE_IP=2
 FREE_MAC=0
 for ((hostn=0; hostn<$hostc; hostn++)); do
-	if ip tuntap list | grep $TAP_NAME$hostn >/dev/null; then
-		sudo ip link set dev $TAP_NAME$hostn nomaster
-		sudo ip link set dev $TAP_NAME$hostn down
-		sudo ip tuntap del dev $TAP_NAME$hostn mod tap
-	fi
-	sudo ip tuntap add dev $TAP_NAME$hostn mod tap
-	sudo ip link set dev $TAP_NAME$hostn up
-	sudo ip link set dev $TAP_NAME$hostn master $BRIDGE_NAME
-
 	screen -ls | grep $SCREEN_SNAME$hostn >/dev/null && screen -X -S $SCREEN_SNAME$hostn quit
 	sleep 1s
 
 	qemu-img create -f qcow2 -F qcow2 -b $QEMU_QCOW2 $QEMU_IMG$hostn.qcow2 >/dev/null
-	if [[ "$hostn" == "0" ]]; then
+	#if [[ "$hostn" == "0" ]]; then
 		for ((di=1; di<=$QEMU_DISK_ADD; di++)); do
-			qemu-img create -f qcow2 $QEMU_DISK$di.qcow2 500M
+			qemu-img create -f qcow2 $QEMU_DISK$hostn-$di.qcow2 500M
 		done
-	fi
+	#fi
 
 	while netstat -anp 2>&1 | grep :$FREE_PORT >/dev/null; do
 		((FREE_PORT++))
 	done
 
 	tapn=$TAP_NAME$hostn
+	((nt=hostn+9))
+	tapnn=$TAP_NAME$nt
 	qemu_com="qemu-system-riscv64 -nographic -machine virt -cpu rv64,sv39=on "
 	qemu_com=$qemu_com"-smp $QEMU_SMP -m ${QEMU_MEM}G "
 	qemu_com=$qemu_com"-bios $QEMU_BIOS "
@@ -155,14 +164,19 @@ for ((hostn=0; hostn<$hostc; hostn++)); do
 	qemu_com=$qemu_com"-device qemu-xhci -usb -device usb-kbd -device usb-tablet -device usb-audio,audiodev=snd0 "
 	qemu_com=$qemu_com"-device virtio-rng-device,rng=rng0 -device virtio-blk-device,drive=hd0 "
 	qemu_com=$qemu_com"-netdev tap,id=net$tapn,ifname=$tapn,script=no,downscript=no -device virtio-net-pci,netdev=net$tapn,mac="`printf "$QEMU_MAC%02x" $FREE_MAC`" "
+	SETUP_TAP $FREE_MAC
+	#SETUP_TAP $nt
+	#((FREE_MAC++))
+	#qemu_com=$qemu_com"-netdev tap,id=net$tapnn,ifname=$tapnn,script=no,downscript=no -device virtio-net-pci,netdev=net$tapnn,mac="`printf "$QEMU_MAC%02x" $FREE_MAC`" "
 	((FREE_MAC++))
 	qemu_com=$qemu_com"-netdev user,id=usernet,hostfwd=tcp::$FREE_PORT-:22 -device virtio-net-pci,netdev=usernet,mac="`printf "$QEMU_MAC%02x" $FREE_MAC`" "
+	SETUP_TAP $FREE_MAC
 	((FREE_MAC++))
-	if [[ "$hostn" == "0" ]]; then
+	#if [[ "$hostn" == "0" ]]; then
 		for ((di=1; di<=$QEMU_DISK_ADD; di++)); do
-			qemu_com=$qemu_com"-drive file=$QEMU_DISK$di.qcow2,format=qcow2,id=hd$di,if=none -device virtio-blk-pci,drive=hd$di "
+			qemu_com=$qemu_com"-drive file=$QEMU_DISK$hostn-$di.qcow2,format=qcow2,id=hd$hostn-$di,if=none -device virtio-blk-pci,drive=hd$hostn-$di "
 		done
-	fi
+	#fi
 
 	echo $qemu_com
 	screen -S $SCREEN_SNAME$hostn -d -m $qemu_com
@@ -186,6 +200,7 @@ for ((hostn=0; hostn<$hostc; hostn++)); do
 		SSH_CMD $FREE_PORT $QEMU_PASSWD "nmcli c m $nic ipv4.gateway $BRIDGE_IP"
 		SSH_CMD $FREE_PORT $QEMU_PASSWD "nmcli c m $nic ipv4.method manual"
 		SSH_CMD $FREE_PORT $QEMU_PASSWD "nmcli c up $nic"
+		SSH_CMD $FREE_PORT $QEMU_PASSWD "bash /root/mugen/mugen.sh -c --user root --password $QEMU_PASSWD --ip "`jq -r ".env | .[$hostn] | .ip" $JSON_FILE`
 		rm $tmpf
 	else
 		echo Cannot config tap

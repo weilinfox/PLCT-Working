@@ -5,7 +5,7 @@ tap="tap"
 ip="10.0.0.1/24"
 broadcast="10.0.0.255"
 
-if [ "$(brctl show | grep $bri)" != "" ]; then
+if [ "$(brctl show | grep -w $bri)" != "" ]; then
     echo "Find bridge"
 else
     echo "Add new bridge $bri"
@@ -15,7 +15,7 @@ else
     sudo ip link set dev $bri up
 fi
 
-if [ "$(ip link | grep ${tap}0)" != "" ]; then
+if [ "$(ip link | grep -w ${tap}0)" != "" ]; then
     echo "Find tap device"
 else
     echo "Add new taps ${tap}0-${tap}49"
