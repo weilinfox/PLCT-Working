@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MUGEN_DIR=/home/hachi/mugen/mugen
+# MUGEN_DIR=/home/hachi/mugen/mugen
 
 WORKING_DIR=/home/hachi/mugen/com/workingDir
 QEMU_QCOW2=/home/hachi/mugen/qemu-img-rc3/workingDir/mugen-ready.qcow2
