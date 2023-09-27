@@ -1,0 +1,761 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因
+lmdb,oe_test_lmdb,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lmdb/oe_test_lmdb/2023-09-27-18_21_01.log,None
+NetworkManager,oe_test_service_nm-cloud-setup,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/NetworkManager/oe_test_service_nm-cloud-setup/2023-09-27-13_13_12.log,None
+,oe_test_service_NetworkManager,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/NetworkManager/oe_test_service_NetworkManager/2023-09-27-13_11_53.log,None
+,oe_test_libnetfilter_conntrack,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/NetworkManager/oe_test_libnetfilter_conntrack/2023-09-27-13_13_24.log,None
+,oe_test_service_NetworkManager-wait-online,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/NetworkManager/oe_test_service_NetworkManager-wait-online/2023-09-27-13_12_38.log,None
+,oe_test_service_NetworkManager-dispatcher,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/NetworkManager/oe_test_service_NetworkManager-dispatcher/2023-09-27-13_11_18.log,None
+ltrace,oe_test_ltrace_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ltrace/oe_test_ltrace_03/2023-09-27-14_27_29.log,None
+,oe_test_ltrace_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ltrace/oe_test_ltrace_01/2023-09-27-14_26_41.log,None
+,oe_test_ltrace_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ltrace/oe_test_ltrace_02/2023-09-27-14_27_06.log,None
+,oe_test_ltrace_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ltrace/oe_test_ltrace_04/2023-09-27-14_27_56.log,None
+fprintd,oe_test_service_fprintd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/fprintd/oe_test_service_fprintd/2023-09-27-16_17_35.log,None
+krb5,oe_test_service_krb5kdc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/krb5/oe_test_service_krb5kdc/2023-09-27-12_24_38.log,None
+,oe_test_service_kadmin,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/krb5/oe_test_service_kadmin/2023-09-27-12_20_22.log,None
+,oe_test_service_kprop,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/krb5/oe_test_service_kprop/2023-09-27-12_22_44.log,None
+tog-pegasus,oe_test_service_tog-pegasus,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/tog-pegasus/oe_test_service_tog-pegasus/2023-09-27-17_06_27.log,None
+ntp,oe_test_service_ntpdate,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ntp/oe_test_service_ntpdate/2023-09-27-09_36_08.log,None
+,oe_test_service_ntpd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ntp/oe_test_service_ntpd/2023-09-27-09_37_18.log,None
+,oe_test_service_ntp-wait,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ntp/oe_test_service_ntp-wait/2023-09-27-09_38_08.log,None
+,oe_test_service_sntp,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ntp/oe_test_service_sntp/2023-09-27-09_39_58.log,None
+squid,oe_test_service_squid,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/squid/oe_test_service_squid/2023-09-27-17_03_25.log,None
+libesmtp,oe_test_libesmtp,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libesmtp/oe_test_libesmtp/2023-09-27-18_20_59.log,None
+colord,oe_test_service_colord,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/colord/oe_test_service_colord/2023-09-27-16_12_10.log,None
+nghttp2,oe_test_service_nghttpx,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nghttp2/oe_test_service_nghttpx/2023-09-27-16_36_34.log,None
+initial-setup,oe_test_service_initial-setup-reconfiguration,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/initial-setup/oe_test_service_initial-setup-reconfiguration/2023-09-27-18_20_54.log,None
+xz,oe_test_xz_unxz_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_unxz_03/2023-09-27-12_23_04.log,None
+,oe_test_xz_xzcat_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xzcat_01/2023-09-27-12_23_55.log,None
+,oe_test_xz_unxz_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_unxz_04/2023-09-27-12_23_27.log,None
+,oe_test_xz_xzcmp,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xzcmp/2023-09-27-12_25_07.log,None
+,oe_test_xz_unxz_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_unxz_01/2023-09-27-12_22_15.log,None
+,oe_test_xz_xzdiff_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xzdiff_02/2023-09-27-12_26_44.log,None
+,oe_test_xz_xz_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xz_01/2023-09-27-12_20_21.log,None
+,oe_test_xz_xzcat_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xzcat_02/2023-09-27-12_24_18.log,None
+,oe_test_xz_xz_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xz_02/2023-09-27-12_20_59.log,None
+,oe_test_xz_xzcat_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xzcat_03/2023-09-27-12_24_41.log,None
+,oe_test_xz,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz/2023-09-27-12_26_20.log,None
+,oe_test_xz_xzdiff_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xzdiff_01/2023-09-27-12_25_57.log,None
+,oe_test_xz_xz_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xz_04/2023-09-27-12_21_49.log,None
+,oe_test_xz_xz_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xz_03/2023-09-27-12_21_24.log,None
+,oe_test_xz_xzdec,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_xzdec/2023-09-27-12_25_31.log,None
+,oe_test_xz_unxz_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xz/oe_test_xz_unxz_02/2023-09-27-12_22_40.log,None
+authd,oe_test_socket_auth,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/authd/oe_test_socket_auth/2023-09-27-16_09_48.log,None
+lorax,oe_test_socket_lorax-composer,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lorax/oe_test_socket_lorax-composer/2023-09-27-16_03_59.log,None
+,oe_test_service_lorax-composer,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lorax/oe_test_service_lorax-composer/2023-09-27-15_58_17.log,None
+glibc,oe_test_socket_nscd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/glibc/oe_test_socket_nscd/2023-09-27-15_56_03.log,None
+,oe_test_service_nscd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/glibc/oe_test_service_nscd/2023-09-27-15_54_59.log,None
+libunistring,oe_test_libunistring,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libunistring/oe_test_libunistring/2023-09-27-16_30_13.log,None
+polkit,oe_test_service_polkit,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/polkit/oe_test_service_polkit/2023-09-27-16_50_07.log,None
+sqlite,oe_test_sqlite_command_06,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_06/2023-09-27-12_22_17.log,None
+,oe_test_sqlite_function_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_function_01/2023-09-27-12_23_15.log,None
+,oe_test_sqlite_create_06,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_create_06/2023-09-27-12_24_27.log,None
+,oe_test_sqlite_command_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_01/2023-09-27-12_20_47.log,None
+,oe_test_sqlite_function_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_function_03/2023-09-27-12_23_39.log,None
+,oe_test_sqlite_update_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_update_01/2023-09-27-12_24_04.log,None
+,oe_test_sqlite_command_08,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_08/2023-09-27-12_22_51.log,None
+,oe_test_sqlite_alter_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_alter_01/2023-09-27-12_20_23.log,None
+,oe_test_sqlite_command_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_04/2023-09-27-12_21_55.log,None
+,oe_test_sqlite_command_05,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_05/2023-09-27-12_22_06.log,None
+,oe_test_sqlite_function_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_function_04/2023-09-27-12_23_53.log,None
+,oe_test_sqlite_delete_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_delete_01/2023-09-27-12_23_04.log,None
+,oe_test_sqlite_command_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_03/2023-09-27-12_21_43.log,None
+,oe_test_sqlite_select_05,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_select_05/2023-09-27-12_24_16.log,None
+,oe_test_sqlite_command_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_02/2023-09-27-12_21_21.log,None
+,oe_test_sqlite_command_07,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_command_07/2023-09-27-12_22_38.log,None
+,oe_test_sqlite_function_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sqlite/oe_test_sqlite_function_02/2023-09-27-12_23_27.log,None
+realmd,oe_test_service_realmd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/realmd/oe_test_service_realmd/2023-09-27-16_58_11.log,None
+rdma-core,oe_test_service_srp_daemon,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rdma-core/oe_test_service_srp_daemon/2023-09-27-16_03_23.log,None
+,oe_test_socket_ibacm,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rdma-core/oe_test_socket_ibacm/2023-09-27-16_04_23.log,None
+pixman,oe_test_pixman,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/pixman/oe_test_pixman/2023-09-27-18_21_05.log,None
+man-db,oe_test_service_man-db-cache-update,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/man-db/oe_test_service_man-db-cache-update/2023-09-27-14_49_22.log,None
+,oe_test_service_man-db,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/man-db/oe_test_service_man-db/2023-09-27-14_49_40.log,None
+,oe_test_service_man-db_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/man-db/oe_test_service_man-db_01/2023-09-27-14_49_54.log,None
+psacct,oe_test_service_psacct,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/psacct/oe_test_service_psacct/2023-09-27-16_03_36.log,None
+,oe_test_psacct,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/psacct/oe_test_psacct/2023-09-27-16_03_06.log,None
+bind,oe_test_service_named-chroot,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/bind/oe_test_service_named-chroot/2023-09-27-09_37_59.log,None
+,oe_test_service_named,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/bind/oe_test_service_named/2023-09-27-09_40_21.log,None
+,oe_test_service_named-chroot-setup,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/bind/oe_test_service_named-chroot-setup/2023-09-27-09_35_58.log,None
+,oe_test_service_named-setup-rndc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/bind/oe_test_service_named-setup-rndc/2023-09-27-09_39_57.log,None
+bolt,oe_test_service_bolt,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/bolt/oe_test_service_bolt/2023-09-27-12_20_00.log,None
+telnet,oe_test_socket_telnet,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/telnet/oe_test_socket_telnet/2023-09-27-17_06_26.log,None
+sysprof,oe_test_service_sysprof3,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sysprof/oe_test_service_sysprof3/2023-09-27-16_05_44.log,None
+,oe_test_service_sysprof2,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sysprof/oe_test_service_sysprof2/2023-09-27-16_04_56.log,None
+sanlock,oe_test_sanlock_wdmd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_wdmd/2023-09-27-15_28_48.log,None
+,oe_test_sanlock_sanlk_resetd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_sanlk_resetd/2023-09-27-15_35_19.log,None
+,oe_test_sanlock_sanlk-reset_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_sanlk-reset_01/2023-09-27-15_29_50.log,None
+,oe_test_sanlock_base_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_base_04/2023-09-27-15_27_40.log,None
+,oe_test_sanlock_sanlk-reset_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_sanlk-reset_02/2023-09-27-15_32_23.log,None
+,oe_test_sanlock_base_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_base_01/2023-09-27-15_23_12.log,None
+,oe_test_sanlock_base_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_base_02/2023-09-27-15_24_57.log,None
+,oe_test_sanlock_base_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sanlock/oe_test_sanlock_base_03/2023-09-27-15_26_29.log,None
+nfs-utils,oe_test_service_nfs-blkmap,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-blkmap/2023-09-27-09_36_56.log,None
+,oe_test_service_rpc-statd-notify,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_rpc-statd-notify/2023-09-27-09_45_19.log,None
+,oe_test_target_rpc_pipefs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_target_rpc_pipefs/2023-09-27-09_47_28.log,None
+,oe_test_service_nfs-mountd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-mountd/2023-09-27-09_40_35.log,None
+,oe_test_target_nfs-client,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_target_nfs-client/2023-09-27-09_46_42.log,None
+,oe_test_service_nfs-server,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-server/2023-09-27-09_42_01.log,None
+,oe_test_service_nfs-idmap,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-idmap/2023-09-27-09_39_12.log,None
+,oe_test_service_rpc-statd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_rpc-statd/2023-09-27-09_46_01.log,None
+,oe_test_service_nfs-secure,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-secure/2023-09-27-09_41_19.log,None
+,oe_test_service_nfs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs/2023-09-27-09_43_01.log,None
+,oe_test_service_nfs-utils,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-utils/2023-09-27-09_43_55.log,None
+,oe_test_service_nfs-lock,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-lock/2023-09-27-09_39_53.log,None
+,oe_test_service_nfsdcld,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfsdcld/2023-09-27-09_37_46.log,None
+,oe_test_service_rpc-gssd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_rpc-gssd/2023-09-27-09_44_37.log,None
+,oe_test_service_auth-rpcgss-module,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_auth-rpcgss-module/2023-09-27-09_36_01.log,None
+,oe_test_service_nfs-idmapd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/nfs-utils/oe_test_service_nfs-idmapd/2023-09-27-09_38_30.log,None
+pcsc-lite,oe_test_service_pcscd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/pcsc-lite/oe_test_service_pcscd/2023-09-27-16_00_02.log,None
+,oe_test_socket_pcscd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/pcsc-lite/oe_test_socket_pcscd/2023-09-27-16_00_58.log,None
+chrony,oe_test_service_chrony-wait,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/chrony/oe_test_service_chrony-wait/2023-09-27-15_57_52.log,None
+,oe_test_service_chronyd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/chrony/oe_test_service_chronyd/2023-09-27-15_57_10.log,None
+grub2,oe_test_service_grub-boot-indeterminate,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/grub2/oe_test_service_grub-boot-indeterminate/2023-09-27-12_20_15.log,None
+,oe_test_service_grub2-systemd-integration,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/grub2/oe_test_service_grub2-systemd-integration/2023-09-27-12_20_44.log,None
+tang,oe_test_service_tangd-keygen,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/tang/oe_test_service_tangd-keygen/2023-09-27-09_36_04.log,None
+,oe_test_socket_tangd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/tang/oe_test_socket_tangd/2023-09-27-09_37_07.log,None
+,oe_test_service_tangd-update,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/tang/oe_test_service_tangd-update/2023-09-27-09_36_39.log,None
+openldap,oe_test_service_slapd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openldap/oe_test_service_slapd/2023-09-27-16_45_15.log,None
+mlocate,oe_test_service_mlocate-updatedb,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/mlocate/oe_test_service_mlocate-updatedb/2023-09-27-16_33_23.log,None
+arptables,oe_test_service_arptables,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/arptables/oe_test_service_arptables/2023-09-27-16_09_33.log,None
+gnome-shell,oe_test_gnome-shell,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/gnome-shell/oe_test_gnome-shell/2023-09-27-16_21_15.log,None
+byacc,oe_test_byacc_byacc_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/byacc/oe_test_byacc_byacc_02/2023-09-27-12_20_59.log,None
+,oe_test_byacc_yacc_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/byacc/oe_test_byacc_yacc_02/2023-09-27-12_21_49.log,None
+,oe_test_byacc_byacc_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/byacc/oe_test_byacc_byacc_01/2023-09-27-12_20_18.log,None
+,oe_test_byacc_yacc_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/byacc/oe_test_byacc_yacc_01/2023-09-27-12_21_24.log,None
+httpd,oe_test_service_httpd-init,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/httpd/oe_test_service_httpd-init/2023-09-27-09_36_56.log,None
+,oe_test_service_htcacheclean,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/httpd/oe_test_service_htcacheclean/2023-09-27-09_36_00.log,None
+,oe_test_socket_httpd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/httpd/oe_test_socket_httpd/2023-09-27-09_39_21.log,None
+,oe_test_service_httpd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/httpd/oe_test_service_httpd/2023-09-27-09_38_18.log,None
+libcap,oe_test_acl_ignore_dal_across,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_ignore_dal_across/2023-09-27-12_24_06.log,None
+,oe_test_acl_send_kill_notbelong,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_send_kill_notbelong/2023-09-27-12_25_18.log,None
+,oe_test_acl_bind_port,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_bind_port/2023-09-27-12_26_04.log,None
+,oe_test_acl_verwrite_previous_rules,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_verwrite_previous_rules/2023-09-27-12_24_25.log,None
+,oe_test_libcap,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_libcap/2023-09-27-12_23_52.log,None
+,oe_test_acl_allow_change_ownership,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_allow_change_ownership/2023-09-27-12_24_36.log,None
+,oe_test_acl_allow_change_nochange,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_allow_change_nochange/2023-09-27-12_24_54.log,None
+,oe_test_acl_ordinary_users_setgid,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_ordinary_users_setgid/2023-09-27-12_25_40.log,None
+,oe_test_acl_manage_net,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libcap/oe_test_acl_manage_net/2023-09-27-12_26_41.log,None
+automake,oe_test_automake,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/automake/oe_test_automake/2023-09-27-16_07_38.log,None
+libaec,oe_test_libaec_aec,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libaec/oe_test_libaec_aec/2023-09-27-17_10_10.log,None
+fcoe-utils,oe_test_service_fcoe,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/fcoe-utils/oe_test_service_fcoe/2023-09-27-16_15_56.log,None
+sane-backends,oe_test_socket_saned,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sane-backends/oe_test_socket_saned/2023-09-27-17_01_43.log,None
+intltool,oe_test_intltool_intltool-prepare,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/intltool/oe_test_intltool_intltool-prepare/2023-09-27-13_07_38.log,None
+,oe_test_intltool_intltool-update,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/intltool/oe_test_intltool_intltool-update/2023-09-27-13_05_09.log,None
+,oe_test_intltool_intltoolize,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/intltool/oe_test_intltool_intltoolize/2023-09-27-13_08_02.log,None
+,oe_test_intltool_intltool-extract,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/intltool/oe_test_intltool_intltool-extract/2023-09-27-13_05_51.log,None
+,oe_test_intltool_intltool-merge_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/intltool/oe_test_intltool_intltool-merge_02/2023-09-27-13_04_41.log,None
+,oe_test_intltool_intltool-merge_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/intltool/oe_test_intltool_intltool-merge_01/2023-09-27-13_04_13.log,None
+libmicrohttpd,oe_test_libmicrohttpd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libmicrohttpd/oe_test_libmicrohttpd/2023-09-27-16_28_53.log,None
+upower,oe_test_service_upower,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/upower/oe_test_service_upower/2023-09-27-17_06_26.log,None
+ModemManager,oe_test_service_ModemManager,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ModemManager/oe_test_service_ModemManager/2023-09-27-16_08_17.log,None
+geoclue2,oe_test_service_geoclue,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/geoclue2/oe_test_service_geoclue/2023-09-27-16_19_14.log,None
+createrepo_c,oe_test_createrepo_c_local_repo,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/createrepo_c/oe_test_createrepo_c_local_repo/2023-09-27-17_10_08.log,None
+e2fsprogs,oe_test_service_e2scrub_all,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/e2fsprogs/oe_test_service_e2scrub_all/2023-09-27-15_51_25.log,None
+,oe_test_service_e2scrub_reap,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/e2fsprogs/oe_test_service_e2scrub_reap/2023-09-27-15_51_38.log,None
+xdelta,oe_test_xdelta_002,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xdelta/oe_test_xdelta_002/2023-09-27-15_54_18.log,None
+,oe_test_xdelta_001,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xdelta/oe_test_xdelta_001/2023-09-27-15_40_51.log,None
+,oe_test_xdelta_003,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/xdelta/oe_test_xdelta_003/2023-09-27-15_54_45.log,None
+oddjob,oe_test_service_oddjobd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/oddjob/oe_test_service_oddjobd/2023-09-27-16_40_19.log,None
+rpcbind,oe_test_service_rpcbind,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpcbind/oe_test_service_rpcbind/2023-09-27-09_43_45.log,None
+,oe_test_socket_rpcbind,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpcbind/oe_test_socket_rpcbind/2023-09-27-09_44_36.log,None
+rsync,oe_test_socket_rsyncd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsync/oe_test_socket_rsyncd/2023-09-27-16_05_54.log,None
+,oe_test_service_rsyncd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsync/oe_test_service_rsyncd/2023-09-27-16_04_59.log,None
+protobuf-c,oe_test_protobuf-c_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/protobuf-c/oe_test_protobuf-c_01/2023-09-27-17_12_14.log,None
+vdo,oe_test_service_vdo,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/vdo/oe_test_service_vdo/2023-09-27-17_07_17.log,None
+protobuf,oe_test_protobuf,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/protobuf/oe_test_protobuf/2023-09-27-16_53_13.log,None
+dnsmasq,oe_test_service_dnsmasq,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnsmasq/oe_test_service_dnsmasq/2023-09-27-16_15_26.log,None
+pam,oe_test_service_pam_namespace,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/pam/oe_test_service_pam_namespace/2023-09-27-16_50_08.log,None
+lxc,oe_test_lxc_unshare_update,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_unshare_update/2023-09-27-12_41_10.log,None
+,oe_test_service_lxc-net,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_service_lxc-net/2023-09-27-12_30_00.log,None
+,oe_test_lxc_checkconfig_console,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_checkconfig_console/2023-09-27-12_42_32.log,None
+,oe_test_service_lxc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_service_lxc/2023-09-27-12_30_53.log,None
+,oe_test_lxc_execute_freeze,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_execute_freeze/2023-09-27-12_43_44.log,None
+,oe_test_lxc_info,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_info/2023-09-27-12_46_16.log,x86 fail
+,oe_test_lxc_snapshot_start,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_snapshot_start/2023-09-27-12_39_47.log,x86 fail
+,oe_test_lxc_autostart_cgroup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_autostart_cgroup/2023-09-27-12_36_59.log,x86 fail
+,oe_test_lxc_device_copy,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_device_copy/2023-09-27-12_38_23.log,x86 fail
+,oe_test_lxc_ls_monitor,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_ls_monitor/2023-09-27-12_34_11.log,x86 fail
+,oe_test_lxc_unfreeze_destroy,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_unfreeze_destroy/2023-09-27-12_35_33.log,x86 fail
+,oe_test_lxc_stop_top,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_stop_top/2023-09-27-12_44_54.log,x86 fail
+,oe_test_lxc_create_attach,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/lxc/oe_test_lxc_create_attach/2023-09-27-12_32_46.log,x86 fail
+openvpn,oe_test_openvpn,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvpn/oe_test_openvpn/2023-09-27-18_26_44.log,x86 fail
+iperf3,oe_test_iperf3_command_clientAndShared,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iperf3/oe_test_iperf3_command_clientAndShared/2023-09-27-15_39_17.log,None
+,oe_test_iperf3_client,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iperf3/oe_test_iperf3_client/2023-09-27-15_46_28.log,None
+,oe_test_iperf3_command_client,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iperf3/oe_test_iperf3_command_client/2023-09-27-15_35_58.log,x86 fail
+,oe_test_iperf3_command_serverAndBase,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iperf3/oe_test_iperf3_command_serverAndBase/2023-09-27-15_44_33.log,timeout
+dracut,oe_test_service_dracut-initqueue,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-initqueue/2023-09-27-12_29_36.log,None
+,oe_test_service_dracut-pre-udev,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-pre-udev/2023-09-27-12_30_32.log,None
+,oe_test_service_dracut-shutdown,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-shutdown/2023-09-27-12_30_42.log,None
+,oe_test_service_dracut-mount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-mount/2023-09-27-12_29_48.log,None
+,oe_test_service_dracut-pre-pivot,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-pre-pivot/2023-09-27-12_30_10.log,None
+,oe_test_service_dracut-pre-mount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-pre-mount/2023-09-27-12_29_59.log,None
+,oe_test_service_dracut-cmdline,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-cmdline/2023-09-27-12_29_25.log,None
+,oe_test_service_dracut-pre-trigger,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-pre-trigger/2023-09-27-12_30_21.log,None
+,oe_test_service_dracut-initramfs,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dracut/oe_test_service_dracut-initramfs/2023-09-27-12_31_12.log,x86 fail
+multipath-tools,oe_test_socket_multipathd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/multipath-tools/oe_test_socket_multipathd/2023-09-27-15_46_21.log,None
+,oe_test_multipath-tools_mpathconf,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/multipath-tools/oe_test_multipath-tools_mpathconf/2023-09-27-15_33_51.log,None
+,oe_test_multipath-tools_multipath_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/multipath-tools/oe_test_multipath-tools_multipath_02/2023-09-27-15_41_36.log,None
+,oe_test_multipath-tools_mpathpersist,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/multipath-tools/oe_test_multipath-tools_mpathpersist/2023-09-27-15_34_24.log,None
+,oe_test_multipath-tools_multipath_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/multipath-tools/oe_test_multipath-tools_multipath_01/2023-09-27-15_37_52.log,None
+,oe_test_service_multipathd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/multipath-tools/oe_test_service_multipathd/2023-09-27-15_45_19.log,None
+,oe_test_multipath-tools_kpartx,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/multipath-tools/oe_test_multipath-tools_kpartx/2023-09-27-15_30_05.log,x86 fail
+rsyslog,oe_test_rsyslog_function_facility,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_facility/2023-09-27-09_46_21.log,None
+,oe_test_rsyslog_function_postgreSQL,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_postgreSQL/2023-09-27-09_48_25.log,None
+,oe_test_rsyslog_parameter03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_parameter03/2023-09-27-09_57_02.log,None
+,oe_test_rsyslog_reliability_restart,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_reliability_restart/2023-09-27-10_28_31.log,None
+,oe_test_rsyslog_reliability_operation,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_reliability_operation/2023-09-27-10_28_26.log,None
+,oe_test_rsyslog_parameter02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_parameter02/2023-09-27-09_56_48.log,None
+,oe_test_rsyslog_function_imfile,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_imfile/2023-09-27-09_48_06.log,None
+,oe_test_rsyslog_parameter04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_parameter04/2023-09-27-09_57_14.log,None
+,oe_test_rsyslog_function_wildcard,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_wildcard/2023-09-27-09_56_03.log,None
+,oe_test_rsyslog_parameter01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_parameter01/2023-09-27-09_56_28.log,None
+,oe_test_rsyslog_function_rainerscript,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_rainerscript/2023-09-27-09_51_15.log,None
+,oe_test_rsyslog_function_template,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_template/2023-09-27-09_55_03.log,None
+,oe_test_rsyslog_function_discard,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_discard/2023-09-27-09_46_03.log,None
+,oe_test_service_rsyslog,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_service_rsyslog/2023-09-27-10_32_32.log,None
+,oe_test_rsyslog_function_priority,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_priority/2023-09-27-09_50_29.log,None
+,oe_test_rsyslog_abnormal_config,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_abnormal_config/2023-09-27-09_44_12.log,None
+,oe_test_rsyslog_reliability_network,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_reliability_network/2023-09-27-09_58_21.log,x86 fail
+,oe_test_rsyslog_function_attribute,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_attribute/2023-09-27-09_45_15.log,x86 fail
+,oe_test_rsyslog_abnormal_template,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_abnormal_template/2023-09-27-09_44_23.log,x86 fail
+,oe_test_rsyslog_function_relp,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_relp/2023-09-27-09_51_30.log,x86 fail
+,oe_test_rsyslog_function_udp,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_udp/2023-09-27-09_55_25.log,x86 fail
+,oe_test_rsyslog_function_tcp,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_tcp/2023-09-27-09_53_25.log,x86 fail
+,oe_test_rsyslog_function_httpd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_httpd/2023-09-27-09_47_16.log,x86 fail
+,oe_test_rsyslog_reliability_lenght,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_reliability_lenght/2023-09-27-09_57_29.log,x86 fail
+,oe_test_rsyslog_reliability_tcp,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_reliability_tcp/2023-09-27-10_31_01.log,x86 fail
+,oe_test_rsyslog_function_tcp_firewall,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_tcp_firewall/2023-09-27-09_54_13.log,x86 fail
+,oe_test_rsyslog_function_shell,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_shell/2023-09-27-09_53_03.log,preinstall absent
+samba,oe_test_service_smb,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/samba/oe_test_service_smb/2023-09-27-09_49_36.log,None
+,oe_test_service_nmb,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/samba/oe_test_service_nmb/2023-09-27-09_44_59.log,None
+,oe_test_service_winbind,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/samba/oe_test_service_winbind/2023-09-27-09_50_31.log,None
+,oe_test_service_samba,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/samba/oe_test_service_samba/2023-09-27-09_45_55.log,x86 fail
+,oe_test_service_ctdb,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/samba/oe_test_service_ctdb/2023-09-27-09_42_58.log,None
+systemd,oe_test_service_systemd-hostnamed,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-hostnamed/2023-09-27-18_44_29.log,None
+,oe_test_target_network-pre,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_network-pre/2023-09-27-19_33_15.log,None
+,oe_test_target_boot-complete,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_boot-complete/2023-09-27-19_22_21.log,None
+,oe_test_service_rescue,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_rescue/2023-09-27-18_37_25.log,None
+,oe_test_target_suspend,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_suspend/2023-09-27-19_43_31.log,None
+,oe_test_target_paths,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_paths/2023-09-27-19_33_59.log,None
+,oe_test_socket_systemd-initctl,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-initctl/2023-09-27-19_15_09.log,None
+,oe_test_service_systemd-hibernate,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-hibernate/2023-09-27-18_44_18.log,None
+,oe_test_target_runlevel5,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_runlevel5/2023-09-27-19_40_40.log,None
+,oe_test_target_system-update,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_system-update/2023-09-27-19_45_06.log,None
+,oe_test_service_systemd-update-utmp,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-update-utmp/2023-09-27-19_06_53.log,None
+,oe_test_service_systemd-machined,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-machined/2023-09-27-18_54_23.log,None
+,oe_test_service_systemd-sysctl,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-sysctl/2023-09-27-19_01_36.log,None
+,oe_test_target_nss-user-lookup,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_nss-user-lookup/2023-09-27-19_33_48.log,None
+,oe_test_target_multi-user,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_multi-user/2023-09-27-19_31_51.log,None
+,oe_test_target_rescue,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_rescue/2023-09-27-19_36_33.log,None
+,oe_test_service_dbus-org.freedesktop.machine1,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_dbus-org.freedesktop.machine1/2023-09-27-18_30_23.log,None
+,oe_test_target_runlevel4,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_runlevel4/2023-09-27-19_39_46.log,None
+,oe_test_service_systemd-poweroff,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-poweroff/2023-09-27-18_58_18.log,None
+,oe_test_target_remote-fs-pre,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_remote-fs-pre/2023-09-27-19_35_47.log,None
+,oe_test_service_system-update-cleanup,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_system-update-cleanup/2023-09-27-19_08_30.log,None
+,oe_test_socket_systemd-udevd-control,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-udevd-control/2023-09-27-19_20_51.log,None
+,oe_test_target_initrd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_initrd/2023-09-27-19_29_48.log,None
+,oe_test_target_time-sync,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_time-sync/2023-09-27-19_46_14.log,None
+,oe_test_target_halt,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_halt/2023-09-27-19_27_29.log,None
+,oe_test_service_debug-shell,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_debug-shell/2023-09-27-18_33_02.log,None
+,oe_test_service_systemd-udev-trigger,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-udev-trigger/2023-09-27-19_06_07.log,None
+,oe_test_service_ldconfig,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_ldconfig/2023-09-27-18_35_35.log,None
+,oe_test_service_systemd-sysusers,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-sysusers/2023-09-27-19_02_05.log,None
+,oe_test_service_systemd-kexec,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-kexec/2023-09-27-18_53_11.log,None
+,oe_test_target_graphical,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_graphical/2023-09-27-19_26_33.log,None
+,oe_test_service_systemd-firstboot,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-firstboot/2023-09-27-18_43_46.log,None
+,oe_test_service_systemd-boot-system-token,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-boot-system-token/2023-09-27-18_43_24.log,None
+,oe_test_service_systemd-localed,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-localed/2023-09-27-18_53_22.log,None
+,oe_test_target_local-fs-pre,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_local-fs-pre/2023-09-27-19_30_36.log,None
+,oe_test_target_kexec,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_kexec/2023-09-27-19_30_11.log,None
+,oe_test_target_initrd-fs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_initrd-fs/2023-09-27-19_28_18.log,None
+,oe_test_target_rpcbind,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_rpcbind/2023-09-27-19_37_03.log,None
+,oe_test_service_systemd-rfkill,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-rfkill/2023-09-27-19_00_58.log,None
+,oe_test_target_poweroff,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_poweroff/2023-09-27-19_34_28.log,None
+,oe_test_service_console-getty,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_console-getty/2023-09-27-18_26_35.log,None
+,oe_test_service_systemd-tmpfiles-setup-dev,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-tmpfiles-setup-dev/2023-09-27-19_04_27.log,None
+,oe_test_socket_systemd-udevd-kernel,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-udevd-kernel/2023-09-27-19_21_21.log,None
+,oe_test_service_systemd-random-seed,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-random-seed/2023-09-27-18_59_14.log,None
+,oe_test_service_systemd-pstore,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-pstore/2023-09-27-18_58_29.log,None
+,oe_test_service_systemd-update-done,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-update-done/2023-09-27-19_06_17.log,None
+,oe_test_target_ctrl-alt-del,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_ctrl-alt-del/2023-09-27-19_23_36.log,None
+,oe_test_target_runlevel3,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_runlevel3/2023-09-27-19_38_53.log,None
+,oe_test_service_initrd-udevadm-cleanup-db,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_initrd-udevadm-cleanup-db/2023-09-27-18_34_55.log,None
+,oe_test_service_kmod-static-nodes,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_kmod-static-nodes/2023-09-27-18_35_07.log,None
+,oe_test_target_remote-fs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_remote-fs/2023-09-27-19_35_58.log,None
+,oe_test_target_swap,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_swap/2023-09-27-19_43_53.log,None
+,oe_test_service_systemd-journald,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-journald/2023-09-27-18_48_28.log,None
+,oe_test_service_dbus-org.freedesktop.timedate1,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_dbus-org.freedesktop.timedate1/2023-09-27-18_32_32.log,None
+,oe_test_target_local-fs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_local-fs/2023-09-27-19_30_47.log,None
+,oe_test_target_first-boot-complete,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_first-boot-complete/2023-09-27-19_48_42.log,None
+,oe_test_service_systemd-exit,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-exit/2023-09-27-18_43_35.log,None
+,oe_test_service_systemd-ask-password-console,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-ask-password-console/2023-09-27-18_37_53.log,None
+,oe_test_socket_systemd-journald,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-journald/2023-09-27-19_16_52.log,None
+,oe_test_target_network-online,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_network-online/2023-09-27-19_32_46.log,None
+,oe_test_target_nss-lookup,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_nss-lookup/2023-09-27-19_33_37.log,None
+,oe_test_target_runlevel6,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_runlevel6/2023-09-27-19_41_32.log,None
+,oe_test_service_systemd-journal-flush,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-journal-flush/2023-09-27-18_49_00.log,None
+,oe_test_service_systemd-suspend-then-hibernate,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-suspend-then-hibernate/2023-09-27-19_01_25.log,None
+,oe_test_service_systemd-binfmt,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-binfmt/2023-09-27-18_38_51.log,None
+,oe_test_service_rc-local,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_rc-local/2023-09-27-18_36_51.log,None
+,oe_test_target_hibernate,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_hibernate/2023-09-27-19_27_55.log,None
+,oe_test_service_systemd-volatile-root,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-volatile-root/2023-09-27-19_08_20.log,None
+,oe_test_target_runlevel1,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_runlevel1/2023-09-27-19_37_33.log,None
+,oe_test_target_default,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_default/2023-09-27-19_23_47.log,None
+,oe_test_service_initrd-cleanup,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_initrd-cleanup/2023-09-27-18_34_15.log,None
+,oe_test_target_basic,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_basic/2023-09-27-19_21_52.log,None
+,oe_test_service_systemd-ask-password-wall,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-ask-password-wall/2023-09-27-18_38_22.log,None
+,oe_test_target_sockets,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_sockets/2023-09-27-19_43_02.log,None
+,oe_test_target_slices,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_slices/2023-09-27-19_42_34.log,None
+,oe_test_service_dbus-org.freedesktop.locale1,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_dbus-org.freedesktop.locale1/2023-09-27-18_29_21.log,None
+,oe_test_target_sigpwr,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_sigpwr/2023-09-27-19_41_54.log,None
+,oe_test_target_getty-pre,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_getty-pre/2023-09-27-19_25_35.log,None
+,oe_test_service_systemd-suspend,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-suspend/2023-09-27-19_01_14.log,None
+,oe_test_target_sleep,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_sleep/2023-09-27-19_42_23.log,None
+,oe_test_service_hwclock-save,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_hwclock-save/2023-09-27-18_33_38.log,None
+,oe_test_target_final,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_final/2023-09-27-19_25_23.log,None
+,oe_test_target_system-update-pre,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_system-update-pre/2023-09-27-19_44_55.log,None
+,oe_test_target_initrd-root-fs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_initrd-root-fs/2023-09-27-19_29_18.log,None
+,oe_test_target_runlevel0,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_runlevel0/2023-09-27-19_37_14.log,None
+,oe_test_target_network,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_network/2023-09-27-19_33_26.log,None
+,oe_test_target_emergency,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_emergency/2023-09-27-19_46_46.log,None
+,oe_test_service_systemd-halt,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-halt/2023-09-27-18_44_08.log,None
+,oe_test_service_systemd-udev-settle,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-udev-settle/2023-09-27-19_05_38.log,None
+,oe_test_socket_syslog,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_syslog/2023-09-27-19_14_03.log,None
+,oe_test_service_initrd-parse-etc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_initrd-parse-etc/2023-09-27-18_34_30.log,None
+,oe_test_service_systemd-update-utmp-runlevel,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-update-utmp-runlevel/2023-09-27-19_06_42.log,None
+,oe_test_target_suspend-then-hibernate,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_suspend-then-hibernate/2023-09-27-19_43_42.log,None
+,oe_test_service_systemd-user-sessions,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-user-sessions/2023-09-27-19_07_22.log,None
+,oe_test_service_systemd-journal-catalog-update,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-journal-catalog-update/2023-09-27-18_47_58.log,None
+,oe_test_target_sysinit,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_sysinit/2023-09-27-19_44_21.log,None
+,oe_test_target_exit,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_exit/2023-09-27-19_24_56.log,None
+,oe_test_service_systemd-hwdb-update,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-hwdb-update/2023-09-27-18_45_00.log,None
+,oe_test_target_hybrid-sleep,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_hybrid-sleep/2023-09-27-19_28_07.log,None
+,oe_test_target_timers,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_timers/2023-09-27-19_45_36.log,None
+,oe_test_service_systemd-timedated,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-timedated/2023-09-27-19_02_34.log,None
+,oe_test_service_emergency,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_emergency/2023-09-27-19_46_36.log,None
+,oe_test_service_systemd-remount-fs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-remount-fs/2023-09-27-18_59_54.log,None
+,oe_test_socket_systemd-coredump,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-coredump/2023-09-27-19_14_41.log,None
+,oe_test_service_systemd-tmpfiles-clean,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-tmpfiles-clean/2023-09-27-19_04_14.log,None
+,oe_test_target_time-set,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_time-set/2023-09-27-19_46_04.log,None
+,oe_test_service_systemd-hybrid-sleep,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-hybrid-sleep/2023-09-27-18_45_41.log,None
+,oe_test_service_systemd-machine-id-commit,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-machine-id-commit/2023-09-27-18_55_53.log,None
+,oe_test_service_systemd-bless-boot,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-bless-boot/2023-09-27-18_39_02.log,None
+,oe_test_service_systemd-reboot,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-reboot/2023-09-27-18_59_43.log,None
+,oe_test_service_systemd-tmpfiles-setup,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-tmpfiles-setup/2023-09-27-19_04_55.log,None
+,oe_test_target_getty,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_getty/2023-09-27-19_26_04.log,None
+,oe_test_target_reboot,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_reboot/2023-09-27-19_34_54.log,None
+,oe_test_target_initrd-root-device,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_initrd-root-device/2023-09-27-19_28_48.log,None
+,oe_test_target_umount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_umount/2023-09-27-19_46_25.log,None
+,oe_test_target_runlevel2,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_runlevel2/2023-09-27-19_38_02.log,None
+,oe_test_target_shutdown,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_shutdown/2023-09-27-19_41_43.log,None
+,oe_test_service_dbus-org.freedesktop.hostname1,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_dbus-org.freedesktop.hostname1/2023-09-27-18_27_10.log,None
+,oe_test_service_dbus-org.freedesktop.portable1,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_dbus-org.freedesktop.portable1/2023-09-27-18_31_56.log,x86 fail
+,oe_test_service_systemd-resolved,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-resolved/2023-09-27-19_00_22.log,x86 fail
+,oe_test_target_remote-cryptsetup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_remote-cryptsetup/2023-09-27-19_35_11.log,x86 fail
+,oe_test_service_systemd-initctl,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-initctl/2023-09-27-18_47_26.log,x86 fail
+,oe_test_target_remote-veritysetup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_remote-veritysetup/2023-09-27-19_48_52.log,x86 fail
+,oe_test_socket_systemd-networkd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-networkd/2023-09-27-19_19_42.log,x86 fail
+,oe_test_target_veritysetup-pre,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_veritysetup-pre/2023-09-27-19_50_36.log,x86 fail
+,oe_test_service_systemd-userdbd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-userdbd/2023-09-27-19_47_33.log,x86 fail
+,oe_test_service_systemd-udevd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-udevd/2023-09-27-19_05_06.log,x86 fail
+,oe_test_service_systemd-logind,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-logind/2023-09-27-18_53_52.log,x86 fail
+,oe_test_service_systemd-networkd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-networkd/2023-09-27-18_56_15.log,x86 fail
+,oe_test_service_systemd-networkd-wait-online,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-networkd-wait-online/2023-09-27-18_56_50.log,x86 fail
+,oe_test_service_systemd-fsck-root,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-fsck-root/2023-09-27-18_43_56.log,x86 fail
+,oe_test_socket_systemd-journald-dev-log,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-journald-dev-log/2023-09-27-19_16_18.log,x86 fail
+,oe_test_service_systemd-importd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-importd/2023-09-27-18_45_51.log,x86 fail
+,oe_test_service_systemd-journal-gatewayd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-journal-gatewayd/2023-09-27-18_49_28.log,x86 fail
+,oe_test_service_systemd-boot-check-no-failures,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-boot-check-no-failures/2023-09-27-18_39_13.log,x86 fail
+,oe_test_service_dbus-org.freedesktop.import1,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_dbus-org.freedesktop.import1/2023-09-27-18_27_41.log,x86 fail
+,oe_test_target_machines,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_machines/2023-09-27-19_31_15.log,x86 fail
+,oe_test_socket_systemd-journal-gatewayd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-journal-gatewayd/2023-09-27-19_17_23.log,x86 fail
+,oe_test_service_dbus-org.freedesktop.login1,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_dbus-org.freedesktop.login1/2023-09-27-18_29_52.log,x86 fail
+,oe_test_target_initrd-switch-root,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_initrd-switch-root/2023-09-27-19_29_59.log,x86 fail
+,oe_test_service_systemd-time-wait-sync,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-time-wait-sync/2023-09-27-19_03_39.log,x86 fail
+,oe_test_socket_systemd-userdbd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-userdbd/2023-09-27-19_48_07.log,x86 fail
+,oe_test_target_usb-gadget,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_usb-gadget/2023-09-27-19_49_27.log,x86 fail
+,oe_test_service_initrd-switch-root,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_initrd-switch-root/2023-09-27-18_34_43.log,x86 fail
+,oe_test_service_systemd-quotacheck,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-quotacheck/2023-09-27-18_58_39.log,x86 fail
+,oe_test_target_cryptsetup-pre,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_cryptsetup-pre/2023-09-27-19_22_49.log,x86 fail
+,oe_test_service_systemd-journal-upload,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-journal-upload/2023-09-27-18_51_56.log,x86 fail
+,oe_test_service_systemd-network-generator,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-network-generator/2023-09-27-18_57_25.log,x86 fail
+,oe_test_service_quotaon,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_quotaon/2023-09-27-18_36_05.log,x86 fail
+,oe_test_service_systemd-journal-remote,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-journal-remote/2023-09-27-18_50_39.log,x86 fail
+,oe_test_target_veritysetup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_veritysetup/2023-09-27-19_50_02.log,x86 fail
+,oe_test_service_systemd-portabled,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-portabled/2023-09-27-18_57_43.log,x86 fail
+,oe_test_service_systemd-timesyncd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-timesyncd/2023-09-27-19_03_05.log,x86 fail
+,oe_test_socket_systemd-rfkill,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-rfkill/2023-09-27-19_20_17.log,x86 fail
+,oe_test_target_cryptsetup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_target_cryptsetup/2023-09-27-19_23_02.log,x86 fail
+,oe_test_service_systemd-sysext,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-sysext/2023-09-27-19_46_57.log,x86 fail
+,oe_test_socket_systemd-journal-remote,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-journal-remote/2023-09-27-19_18_32.log,x86 fail
+,oe_test_service_systemd-vconsole-setup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-vconsole-setup/2023-09-27-19_07_50.log,x86 fail
+,oe_test_service_systemd-modules-load,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-modules-load/2023-09-27-18_56_03.log,systemd unit runtime error
+,oe_test_socket_systemd-journald-audit,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-journald-audit/2023-09-27-19_15_37.log,preinstall absent
+yajl,oe_test_yajl,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/yajl/oe_test_yajl/2023-09-27-17_08_25.log,x86 fail
+cockpit,oe_test_service_cockpit-motd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cockpit/oe_test_service_cockpit-motd/2023-09-27-14_31_11.log,None
+,oe_test_service_cockpit,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cockpit/oe_test_service_cockpit/2023-09-27-14_32_01.log,
+,oe_test_socket_cockpit,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cockpit/oe_test_socket_cockpit/2023-09-27-14_33_13.log,
+,oe_test_service_cockpit-wsinstance-http,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cockpit/oe_test_service_cockpit-wsinstance-http/2023-09-27-14_34_25.log,
+qpdf,oe_test_qpdf_qpdf_06,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_06/2023-09-27-12_23_02.log,None
+,oe_test_qpdf_zlib-flate,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_zlib-flate/2023-09-27-12_25_07.log,None
+,oe_test_qpdf_qpdf_05,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_05/2023-09-27-12_22_36.log,None
+,oe_test_qpdf_qpdf_07,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_07/2023-09-27-12_23_27.log,None
+,oe_test_qpdf_qpdf_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_04/2023-09-27-12_22_11.log,None
+,oe_test_qpdf_qpdf_09,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_09/2023-09-27-12_24_17.log,None
+,oe_test_qpdf_qpdf_03,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_03/2023-09-27-12_21_38.log,x86 fail
+,oe_test_qpdf_qpdf_02,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_02/2023-09-27-12_21_07.log,x86 fail
+,oe_test_qpdf_qpdf_10,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_10/2023-09-27-12_24_42.log,x86 fail
+,oe_test_qpdf_qpdf_08,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_08/2023-09-27-12_23_52.log,x86 fail
+,oe_test_qpdf_qpdf_01,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qpdf/oe_test_qpdf_qpdf_01/2023-09-27-12_20_27.log,x86 fail
+kexec-tools,oe_test_service_kdump,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kexec-tools/oe_test_service_kdump/2023-09-27-16_26_35.log,
+dbxtool,oe_test_service_dbxtool,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dbxtool/oe_test_service_dbxtool/2023-09-27-16_13_44.log,x86 fail
+keyutils,oe_test_keyutils-libs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/keyutils/oe_test_keyutils-libs/2023-09-27-14_39_12.log,None
+,oe_test_keyutils-keyctl,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/keyutils/oe_test_keyutils-keyctl/2023-09-27-14_38_51.log,None
+,oe_test_keyutils-api,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/keyutils/oe_test_keyutils-api/2023-09-27-14_38_29.log,x86 fail
+ipvsadm,oe_test_ipvs_SCEN_DR_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_02/2023-09-27-15_53_42.log,None
+,oe_test_ipvs_SCEN_TUN_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_02/2023-09-27-16_27_12.log,None
+,oe_test_ipvs_SCEN_TUN_07,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_07/2023-09-27-16_51_08.log,None
+,oe_test_ipvs_SCEN_TUN_08,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_08/2023-09-27-16_55_57.log,None
+,oe_test_service_ipvsadm,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_service_ipvsadm/2023-09-27-17_01_22.log,None
+,oe_test_ipvs_ADD_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_ADD_01/2023-09-27-15_37_41.log,None
+,oe_test_ipvs_SCEN_DR_08,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_08/2023-09-27-16_18_10.log,None
+,oe_test_ipvs_SCEN_TUN_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_01/2023-09-27-16_22_08.log,None
+,oe_test_ipvs_SCEN_DR_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_03/2023-09-27-15_57_52.log,None
+,oe_test_ipvs_WRONG_COMMAND_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_WRONG_COMMAND_01/2023-09-27-17_00_47.log,None
+,oe_test_ipvs_MOD_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_MOD_01/2023-09-27-15_38_43.log,None
+,oe_test_ipvs_SAVE_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SAVE_01/2023-09-27-15_39_16.log,None
+,oe_test_ipvs_DEL_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_DEL_01/2023-09-27-15_38_14.log,None
+,oe_test_ipvs_SCEN_DR_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_01/2023-09-27-15_49_38.log,None
+,oe_test_ipvs_SCEN_DR_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_04/2023-09-27-16_01_54.log,None
+,oe_test_ipvs_SCEN_TUN_04,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_04/2023-09-27-16_36_45.log,None
+,oe_test_ipvs_SCEN_on_firewalld_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_on_firewalld_01/2023-09-27-15_45_29.log,None
+,oe_test_ipvs_SCEN_TUN_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_03/2023-09-27-16_32_00.log,None
+,oe_test_ipvs_SCEN_DR_07,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_07/2023-09-27-16_14_13.log,None
+,oe_test_ipvs_SCEN_off_httpd_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_off_httpd_01/2023-09-27-15_41_42.log,None
+,oe_test_ipvs_SCEN_DR_05,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_05/2023-09-27-16_06_02.log,file missing/timeout
+,oe_test_ipvs_SCEN_TUN_05,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_05/2023-09-27-16_41_30.log,file missing/timeout
+,oe_test_ipvs_SCEN_TUN_06,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_06/2023-09-27-16_46_15.log,file missing/timeout
+,oe_test_ipvs_SCEN_DR_06,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_06/2023-09-27-16_10_07.log,file missing/timeout
+iptables,oe_test_service_ip6tables,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iptables/oe_test_service_ip6tables/2023-09-27-15_23_26.log,None
+,oe_test_service_iptables,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iptables/oe_test_service_iptables/2023-09-27-15_24_13.log,None
+,oe_test_ip6tables-save,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iptables/oe_test_ip6tables-save/2023-09-27-15_26_01.log,None
+,oe_test_iptables-restore,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iptables/oe_test_iptables-restore/2023-09-27-15_25_34.log,x86 fail
+,oe_test_ip6tables-restore_01,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iptables/oe_test_ip6tables-restore_01/2023-09-27-15_26_24.log,x86 fail
+strongswan,oe_test_service_charon-cmd_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_charon-cmd_02/2023-09-27-12_36_00.log,None
+,oe_test_service_swanctl_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_swanctl_02/2023-09-27-12_31_43.log,None
+,oe_test_service_charon-systemd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_charon-systemd/2023-09-27-12_29_05.log,None
+,oe_test_service_charon-cmd_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_charon-cmd_01/2023-09-27-12_33_59.log,None
+,oe_test_service_swanctl_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_swanctl_01/2023-09-27-12_29_29.log,None
+,oe_test_service_strongswan_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_strongswan_02/2023-09-27-12_24_42.log,None
+,oe_test_service_strongswan-swanctl,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_strongswan-swanctl/2023-09-27-12_21_18.log,x86 fail
+,oe_test_service_strongswan,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_strongswan/2023-09-27-12_20_27.log,x86 fail
+,oe_test_service_strongswan_01,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_strongswan_01/2023-09-27-12_22_18.log,x86 fail
+,oe_test_service_strongswan_03,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_strongswan_03/2023-09-27-12_26_52.log,x86 fail
+,oe_test_service_strongswan-starter,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_strongswan-starter/2023-09-27-12_38_03.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+dnf,oe_test_service_dnf-automatic-install,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_service_dnf-automatic-install/2023-09-27-10_01_06.log,None
+,oe_test_dnf_nobest_nodocs_nogpgcheck,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_nobest_nodocs_nogpgcheck/2023-09-27-10_11_21.log,None
+,oe_test_dnf_automatic,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_automatic/2023-09-27-09_41_35.log,None
+,oe_test_dnf_help_history_info,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_help_history_info/2023-09-27-10_06_48.log,None
+,oe_test_dnf_alias,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_alias/2023-09-27-09_35_58.log,None
+,oe_test_service_dnf-automatic-download,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_service_dnf-automatic-download/2023-09-27-09_59_35.log,None
+,oe_test_dnf_assumeno_autoremove,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_assumeno_autoremove/2023-09-27-09_38_44.log,None
+,oe_test_dnf_distro-sync_dnf-3,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_distro-sync_dnf-3/2023-09-27-09_54_30.log,None
+,oe_test_service_dnf-makecache,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_service_dnf-makecache/2023-09-27-10_05_25.log,None
+,oe_test_dnf_priority,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_priority/2023-09-27-10_13_18.log,None
+,oe_test_dnf_makecache_clean,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_makecache_clean/2023-09-27-09_47_56.log,None
+,oe_test_dnf_enhancement_exclude,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_enhancement_exclude/2023-09-27-10_05_40.log,None
+,oe_test_dnf_repeat-install,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_repeat-install/2023-09-27-10_24_24.log,None
+,oe_test_service_dnf-automatic,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_service_dnf-automatic/2023-09-27-10_03_58.log,None
+,oe_test_dnf_all-repos,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_all-repos/2023-09-27-09_36_59.log,None
+,oe_test_service_dnf-automatic-notifyonly,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_service_dnf-automatic-notifyonly/2023-09-27-10_02_32.log,None
+,oe_test_dnf_enabled_enablerepo,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_enabled_enablerepo/2023-09-27-09_59_04.log,x86 fail
+,oe_test_dnf_repeat-upgrade-downgrade,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_repeat-upgrade-downgrade/2023-09-27-10_35_35.log,x86 fail
+,oe_test_dnf_list_mark,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_list_mark/2023-09-27-10_08_23.log,x86 fail
+,oe_test_dnf_reinstall_repoinfo,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_reinstall_repoinfo/2023-09-27-10_19_34.log,x86 fail
+,oe_test_dnf_check_diffenert-packages,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_check_diffenert-packages/2023-09-27-09_46_33.log,None
+,oe_test_dnf_provides_randomwait,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_provides_randomwait/2023-09-27-10_14_04.log,oerv 和 x86 的软件源结构不同
+freeradius,oe_test_freeradius_freeradius-utils_radeapclient,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radeapclient/2023-09-27-12_57_23.log,None
+,oe_test_freeradius_freeradius-utils_radcryptAndRadeapclient,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radcryptAndRadeapclient/2023-09-27-12_54_57.log,None
+,oe_test_freeradius_freeradius_raddebugAndCheckrad,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius_raddebugAndCheckrad/2023-09-27-12_37_24.log,None
+,oe_test_service_radiusd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_service_radiusd/2023-09-27-14_07_18.log,x86 fail
+,oe_test_freeradius_freeradius-utils_radsniff2,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radsniff2/2023-09-27-13_32_24.log,x86 fail
+,oe_test_freeradius_freeradius-utils_radlast,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radlast/2023-09-27-12_59_50.log,x86 fail
+,oe_test_freeradius_freeradius-utils_radwho,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radwho/2023-09-27-14_05_02.log,x86 fail
+,oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt/2023-09-27-14_06_48.log,x86 fail
+,oe_test_freeradius_freeradius-utils_radtestAndRadwho,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radtestAndRadwho/2023-09-27-14_02_56.log,x86 fail
+,oe_test_freeradius_freeradius-utils_radsniff,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radsniff/2023-09-27-13_02_17.log,x86 fail
+,oe_test_freeradius_freeradius-utils_radzap,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radzap/2023-09-27-14_05_33.log,x86 fail
+,oe_test_freeradius_freeradius-utils_radlastAndRadsniff,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radlastAndRadsniff/2023-09-27-13_01_05.log,file missing
+,oe_test_freeradius_freeradius-utils_radclient2,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radclient2/2023-09-27-12_50_51.log,
+,oe_test_freeradius_freeradius-utils_radsqlrelay,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radsqlrelay/2023-09-27-13_32_51.log,file missing/timeout
+,oe_test_freeradius_freeradius-utils_radclient,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radclient/2023-09-27-12_47_30.log,
+,oe_test_freeradius_freeradius_radiusd,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius_radiusd/2023-09-27-12_46_16.log,file missing
+,oe_test_freeradius_freeradius-utils_rad_counter,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_rad_counter/2023-09-27-12_53_39.log,file missing
+,oe_test_freeradius_freeradius_radiusdAndRadmin,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius_radiusdAndRadmin/2023-09-27-12_46_55.log,file missing
+kernel,oe_test_softdog,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_softdog/2023-09-27-09_42_55.log,None
+,oe_test_vlan_8021q,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_vlan_8021q/2023-09-27-09_43_56.log,None
+,oe_test_kernel_cmd_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_kernel_cmd_02/2023-09-27-09_36_43.log,None
+,oe_test_lpfc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_lpfc/2023-09-27-09_42_17.log,None
+,oe_test_xfs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_xfs/2023-09-27-09_43_20.log,None
+,oe_test_vport-geneve,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_vport-geneve/2023-09-27-09_41_55.log,None
+,oe_test_ipip,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_ipip/2023-09-27-09_40_09.log,None
+,oe_test_qla2xxx,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_qla2xxx/2023-09-27-09_45_24.log,None
+,oe_test_snd_aloop,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_snd_aloop/2023-09-27-09_40_48.log,None
+,oe_test_kernel_cmd_03,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_kernel_cmd_03/2023-09-27-09_38_05.log,None
+,oe_test_swappiness,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_swappiness/2023-09-27-09_42_42.log,None
+,oe_test_libfc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_libfc/2023-09-27-09_44_51.log,None
+,oe_test_hqlogic,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_hqlogic/2023-09-27-09_41_15.log,None
+,oe_test_cache_rw,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_cache_rw/2023-09-27-09_40_33.log,None
+,oe_test_qxl,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_qxl/2023-09-27-09_41_44.log,None
+,oe_test_check_huge_task,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_check_huge_task/2023-09-27-09_42_30.log,x86 fail
+,oe_test_cifs,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_cifs/2023-09-27-09_43_06.log,x86 fail
+,oe_test_bnx2fc,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_bnx2fc/2023-09-27-09_45_12.log,x86 fail
+,oe_test_kernel_cmd_01,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_kernel_cmd_01/2023-09-27-09_36_06.log,x86 fail
+,oe_test_cpu_rand,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_cpu_rand/2023-09-27-09_41_32.log,x86 fail
+,oe_test_tcm_loop,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_tcm_loop/2023-09-27-09_45_37.log,x86 fail
+,oe_test_wangxun,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_wangxun/2023-09-27-09_43_34.log,x86 fail
+,oe_test_hpsa,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_hpsa/2023-09-27-09_45_01.log,x86 fail
+,oe_test_hinic,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_hinic/2023-09-27-09_40_59.log,x86 fail
+,oe_test_fnic,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_fnic/2023-09-27-09_44_36.log,x86 fail
+,oe_test_io_sched,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_io_sched/2023-09-27-09_40_20.log,x86 fail
+,oe_test_swap_compress,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_swap_compress/2023-09-27-09_42_05.log,x86 fail
+,oe_test_hifc,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_hifc/2023-09-27-09_44_20.log,x86 fail
+,oe_test_service_cpupower,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_service_cpupower/2023-09-27-09_39_23.log,preinstall absent/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+,oe_test_nbd,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_nbd/2023-09-27-09_44_07.log,
+net-tools,oe_test_net-tools_iptunnel,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/net-tools/oe_test_net-tools_iptunnel/2023-09-27-14_23_33.log,None
+,oe_test_net-tools_netstat,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/net-tools/oe_test_net-tools_netstat/2023-09-27-14_22_23.log,None
+,oe_test_net-tools_ipmaddr,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/net-tools/oe_test_net-tools_ipmaddr/2023-09-27-14_23_10.log,x86 fail
+,oe_test_net-tools_route,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/net-tools/oe_test_net-tools_route/2023-09-27-14_22_45.log,x86 fail
+,oe_test_service_arp-ethers,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/net-tools/oe_test_service_arp-ethers/2023-09-27-14_21_31.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+cachefilesd,oe_test_service_cachefilesd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cachefilesd/oe_test_service_cachefilesd/2023-09-27-16_11_30.log,x86 fail
+crontabs,oe_test_crontabs,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/crontabs/oe_test_crontabs/2023-09-27-16_13_28.log,x86 fail
+clevis,oe_test_tang_encrypt,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/clevis/oe_test_tang_encrypt/2023-09-27-15_37_58.log,x86 fail
+,oe_test_high_nbde,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/clevis/oe_test_high_nbde/2023-09-27-15_31_56.log,x86 fail
+,oe_test_service_clevis-luks-askpass,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/clevis/oe_test_service_clevis-luks-askpass/2023-09-27-15_30_14.log,x86 fail
+,oe_test_tang_nbde,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/clevis/oe_test_tang_nbde/2023-09-27-15_38_56.log,file missing
+,oe_test_install_clevis,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/clevis/oe_test_install_clevis/2023-09-27-15_36_40.log,file missing
+rpmdevtools,oe_test_rpmdevtools_rpmdev-rmdevelrpms,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpmdevtools/oe_test_rpmdevtools_rpmdev-rmdevelrpms/2023-09-27-15_26_34.log,None
+,oe_test_rpmdevtools_rpmdev-bumpspec,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpmdevtools/oe_test_rpmdevtools_rpmdev-bumpspec/2023-09-27-15_59_08.log,None
+,oe_test_rpmdevtools_rpmdev-vercmp,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpmdevtools/oe_test_rpmdevtools_rpmdev-vercmp/2023-09-27-15_27_43.log,None
+,oe_test_rpmdevtools_rpmargs,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpmdevtools/oe_test_rpmdevtools_rpmargs/2023-09-27-15_23_28.log,x86 fail
+,oe_test_rpmdevtools_rpmdev-wipetree,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpmdevtools/oe_test_rpmdevtools_rpmdev-wipetree/2023-09-27-15_29_02.log,Broken testcase/timeout
+cryptsetup,oe_test_encrypt_data,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cryptsetup/oe_test_encrypt_data/2023-09-27-14_43_09.log,x86 fail
+,oe_test_use_luks,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cryptsetup/oe_test_use_luks/2023-09-27-14_45_33.log,x86 fail
+,oe_test_luks_encrypted,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cryptsetup/oe_test_luks_encrypted/2023-09-27-14_44_12.log,x86 fail
+os-storage,oe_test_storage_fileCMD_chown,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_chown/2023-09-27-18_57_36.log,None
+,oe_test_storage_fileCMD_grep,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_grep/2023-09-27-18_59_02.log,None
+,oe_test_storage_smb_repeat_restart,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_repeat_restart/2023-09-27-20_13_29.log,None
+,oe_test_storage_Mutipath_initramfs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_initramfs/2023-09-27-18_50_49.log,None
+,oe_test_storage_fileCMD_ln,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_ln/2023-09-27-18_36_15.log,None
+,oe_test_storage_diskpartiton_parted_delete,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_parted_delete/2023-09-27-18_49_27.log,None
+,oe_test_storage_fileCMD_cp,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_cp/2023-09-27-18_41_06.log,None
+,oe_test_storage_smb_cmd_testparm,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_cmd_testparm/2023-09-27-20_07_46.log,None
+,oe_test_storage_nfs_network_latency,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_network_latency/2023-09-27-19_51_24.log,None
+,oe_test_storage_nfs_exportfs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_exportfs/2023-09-27-19_46_12.log,None
+,oe_test_storage_nfs_mount_readonly,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_mount_readonly/2023-09-27-19_44_40.log,None
+,oe_test_storage_nfs_rpcinfo,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_rpcinfo/2023-09-27-19_44_18.log,None
+,oe_test_storage_lvm_help_info,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_help_info/2023-09-27-18_41_17.log,None
+,oe_test_storage_fileCMD_mkdir,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_mkdir/2023-09-27-18_46_47.log,None
+,oe_test_storage_DevMgmt_fstrim,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_DevMgmt_fstrim/2023-09-27-20_35_47.log,None
+,oe_test_storage_fileCMD_df,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_df/2023-09-27-18_48_48.log,None
+,oe_test_storage_mount_private,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_private/2023-09-27-18_34_11.log,None
+,oe_test_storage_Mutipath_configure_defaults,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_configure_defaults/2023-09-27-19_02_10.log,None
+,oe_test_storage_nfs_restrict_hostname,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_restrict_hostname/2023-09-27-19_53_24.log,None
+,oe_test_storage_Mutipath_mpathconf,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_mpathconf/2023-09-27-18_27_35.log,None
+,oe_test_storage_smb_share_dir,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_share_dir/2023-09-27-20_25_27.log,None
+,oe_test_storage_nfs_modify_port,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_modify_port/2023-09-27-19_41_32.log,None
+,oe_test_storage_ext4_create,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext4_create/2023-09-27-18_46_58.log,None
+,oe_test_storage_lvm_set_regionsize,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_set_regionsize/2023-09-27-20_31_54.log,None
+,oe_test_storage_lvm_resize_PV,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_resize_PV/2023-09-27-19_01_08.log,None
+,oe_test_storage_lvm_activation,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_activation/2023-09-27-18_37_51.log,None
+,oe_test_storage_lvm_print,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_print/2023-09-27-18_57_15.log,None
+,oe_test_storage_fileCMD_touch,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_touch/2023-09-27-18_57_49.log,None
+,oe_test_storage_nfs_share_mount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_share_mount/2023-09-27-19_49_50.log,None
+,oe_test_storage_Mutipath_configure_parameter,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_configure_parameter/2023-09-27-18_32_51.log,None
+,oe_test_storage_fileCMD_ls,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_ls/2023-09-27-18_44_47.log,None
+,oe_test_storage_lvm_rename,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_rename/2023-09-27-18_30_20.log,None
+,oe_test_storage_mount_shared,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_shared/2023-09-27-18_29_57.log,None
+,oe_test_storage_lvm_create_thinSnapshot,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_create_thinSnapshot/2023-09-27-19_02_55.log,None
+,oe_test_storage_smb_cmd_smbpasswd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_cmd_smbpasswd/2023-09-27-19_57_49.log,None
+,oe_test_storage_Mutipath_various_fields,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_various_fields/2023-09-27-18_48_25.log,None
+,oe_test_storage_smb_automatically_mount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_automatically_mount/2023-09-27-20_21_39.log,None
+,oe_test_storage_nfs_mount_root,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_mount_root/2023-09-27-19_42_19.log,None
+,oe_test_storage_nfs_mount_RW,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_mount_RW/2023-09-27-19_48_17.log,None
+,oe_test_storage_Mutipath_configure_section,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_configure_section/2023-09-27-18_56_06.log,None
+,oe_test_storage_lvm_VG_transfer,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_VG_transfer/2023-09-27-20_32_34.log,None
+,oe_test_storage_smb_cmd_smbstatus,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_cmd_smbstatus/2023-09-27-19_59_48.log,None
+,oe_test_storage_smb_mount_umount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_mount_umount/2023-09-27-20_23_27.log,None
+,oe_test_storage_nfs_repeat_restart,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_repeat_restart/2023-09-27-19_05_10.log,None
+,oe_test_storage_lvm_set_lvconvert_volume,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_set_lvconvert_volume/2023-09-27-20_32_54.log,None
+,oe_test_storage_nfs_v3_v4,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_v3_v4/2023-09-27-19_58_16.log,None
+,oe_test_storage_fileCMD_gzip,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_gzip/2023-09-27-18_44_35.log,None
+,oe_test_storage_mount_prevent_copy,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_prevent_copy/2023-09-27-18_36_26.log,None
+,oe_test_storage_fileCMD_pwd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_pwd/2023-09-27-18_29_45.log,None
+,oe_test_storage_fileCMD_mv,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_mv/2023-09-27-18_34_00.log,None
+,oe_test_storage_fileCMD_unzip,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_unzip/2023-09-27-18_56_29.log,None
+,oe_test_storage_smb_guest_share,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_guest_share/2023-09-27-20_09_16.log,None
+,oe_test_storage_smb_host_share,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_host_share/2023-09-27-20_11_26.log,None
+,oe_test_storage_smb_write_full,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_write_full/2023-09-27-20_27_14.log,None
+,oe_test_storage_nfs_RPC,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_RPC/2023-09-27-19_43_53.log,None
+,oe_test_storage_diskpartiton_parted_create,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_parted_create/2023-09-27-19_03_18.log,None
+,oe_test_storage_smb_mount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_mount/2023-09-27-20_05_10.log,None
+,oe_test_storage_smb_POSIX_ACL,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_POSIX_ACL/2023-09-27-20_09_38.log,None
+,oe_test_storage_Mutipath_view_info,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_view_info/2023-09-27-18_42_33.log,None
+,oe_test_storage_lvm_rename_VG,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_rename_VG/2023-09-27-18_32_14.log,None
+,oe_test_storage_fileCMD_tar,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_tar/2023-09-27-18_40_44.log,None
+,oe_test_storage_fileCMD_file,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_file/2023-09-27-18_26_43.log,None
+,oe_test_storage_lvm_print_history,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_print_history/2023-09-27-18_39_42.log,None
+,oe_test_storage_fileCMD_chmod,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_chmod/2023-09-27-18_44_25.log,None
+,oe_test_storage_smb_cmd_rpcclient,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_cmd_rpcclient/2023-09-27-20_03_40.log,None
+,oe_test_storage_Mutipath_configure_device,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_configure_device/2023-09-27-18_41_49.log,None
+,oe_test_storage_nfs_start_server,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_start_server/2023-09-27-19_56_39.log,None
+,oe_test_storage_fileaccess_bashrc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileaccess_bashrc/2023-09-27-18_43_38.log,None
+,oe_test_storage_diskpartiton_view_lsblk,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_view_lsblk/2023-09-27-18_45_18.log,None
+,oe_test_storage_nfs_showmount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_showmount/2023-09-27-19_41_57.log,None
+,oe_test_storage_fileCMD_zip,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_zip/2023-09-27-19_00_43.log,None
+,oe_test_storage_fileCMD_rmdir,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_rmdir/2023-09-27-18_44_14.log,None
+,oe_test_storage_Mutipath_configure_blacklist,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_configure_blacklist/2023-09-27-19_04_21.log,None
+,oe_test_storage_btrfs_001,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_btrfs_001/2023-09-27-20_36_20.log,None
+,oe_test_storage_smb_multi-user_mount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_multi-user_mount/2023-09-27-20_06_30.log,None
+,oe_test_storage_fileCMD_sort,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_sort/2023-09-27-19_00_14.log,None
+,oe_test_storage_fileCMD_cd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_cd/2023-09-27-19_03_59.log,None
+,oe_test_storage_lvm_print_info,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_print_info/2023-09-27-18_47_51.log,None
+,oe_test_storage_btrfs_002,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_btrfs_002/2023-09-27-20_36_46.log,None
+,oe_test_storage_diskpartiton_parted_view,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_parted_view/2023-09-27-18_37_07.log,None
+,oe_test_storage_lvm_pvs,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_pvs/2023-09-27-18_49_49.log,None
+,oe_test_storage_nfs_repeat_mount,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_repeat_mount/2023-09-27-19_46_33.log,None
+,oe_test_storage_nfs_write_full,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_write_full/2023-09-27-19_54_49.log,None
+,oe_test_storage_nfs_restrict_ip,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_restrict_ip/2023-09-27-20_02_14.log,None
+,oe_test_storage_fileCMD_wc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_wc/2023-09-27-19_04_10.log,None
+,oe_test_storage_ext4_resize,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext4_resize/2023-09-27-18_32_32.log,None
+,oe_test_storage_smb_cmd_smbcontrol,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_cmd_smbcontrol/2023-09-27-19_57_00.log,None
+,oe_test_storage_smb_3.0,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_3.0/2023-09-27-20_00_38.log,None
+,oe_test_storage_ext3_create,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext3_create/2023-09-27-18_43_52.log,x86 fail
+,oe_test_storage_ext3_resize,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext3_resize/2023-09-27-19_01_51.log,x86 fail
+,oe_test_storage_mount_copy,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_copy/2023-09-27-19_04_46.log,x86 fail
+,oe_test_storage_DevMgmt_lsblk,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_DevMgmt_lsblk/2023-09-27-18_35_04.log,x86 fail
+,oe_test_storage_DevMgmt_block_drop,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_DevMgmt_block_drop/2023-09-27-18_30_40.log,x86 fail
+,oe_test_storage_mount_findmnt,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_findmnt/2023-09-27-18_43_15.log,x86 fail
+,oe_test_storage_xfs_Increase_size,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_xfs_Increase_size/2023-09-27-20_08_42.log,x86 fail
+,oe_test_storage_xfs_restore,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_xfs_restore/2023-09-27-20_19_45.log,x86 fail
+,oe_test_storage_lvm_set_lvconvert_raid1,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_set_lvconvert_raid1/2023-09-27-20_34_01.log,x86 fail
+,oe_test_storage_lvm_replace_raid,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_replace_raid/2023-09-27-18_48_58.log,x86 fail
+,oe_test_storage_lvm_raid_synchronization,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_raid_synchronization/2023-09-27-18_31_03.log,x86 fail
+,oe_test_storage_lvm_merge_VG,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_merge_VG/2023-09-27-18_40_02.log,x86 fail
+,oe_test_storage_lvm_add_VG,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_add_VG/2023-09-27-18_28_11.log,x86 fail
+,oe_test_storage_diskpartiton_create_raid5,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_create_raid5/2023-09-27-18_59_32.log,x86 fail
+,oe_test_storage_fileCMD_mkfs,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_mkfs/2023-09-27-18_35_33.log,x86 fail
+,oe_test_storage_mount_block_device,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_block_device/2023-09-27-18_28_55.log,x86 fail
+,oe_test_storage_repair_e2fsck,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_repair_e2fsck/2023-09-27-19_57_21.log,x86 fail
+,oe_test_storage_vfat_mount_write,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_vfat_mount_write/2023-09-27-20_08_08.log,x86 fail
+,oe_test_storage_lvm_specify_size,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_specify_size/2023-09-27-20_33_41.log,x86 fail
+,oe_test_storage_xfs_create,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_xfs_create/2023-09-27-20_25_04.log,x86 fail
+,oe_test_storage_smb_abnormal_poweroff,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_abnormal_poweroff/2023-09-27-20_16_23.log,x86 fail
+,oe_test_storage_lvm_query_lvmsnap,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_query_lvmsnap/2023-09-27-18_33_35.log,x86 fail
+,oe_test_storage_smb_cmd_smbclient,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_cmd_smbclient/2023-09-27-20_29_52.log,x86 fail
+,oe_test_storage_mount_umount,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_umount/2023-09-27-18_38_11.log,x86 fail
+,oe_test_storage_ext3_mount_write,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext3_mount_write/2023-09-27-19_03_36.log,x86 fail
+,oe_test_storage_lvm_set_limit,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_set_limit/2023-09-27-20_34_22.log,x86 fail
+,oe_test_storage_lvm_separate_raid,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_separate_raid/2023-09-27-18_47_29.log,x86 fail
+,oe_test_storage_diskpartiton_fdisk_settype,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_fdisk_settype/2023-09-27-18_37_26.log,x86 fail
+,oe_test_storage_diskpartiton_create_raid1,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_create_raid1/2023-09-27-18_50_08.log,x86 fail
+,oe_test_storage_fileCMD_dd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_dd/2023-09-27-19_00_24.log,x86 fail
+,oe_test_storage_lvm_create_raid,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_create_raid/2023-09-27-18_41_29.log,x86 fail
+,oe_test_storage_Mutipath_dmsetup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_Mutipath_dmsetup/2023-09-27-18_28_01.log,x86 fail
+,oe_test_storage_diskpartiton_fdisk_delete,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_fdisk_delete/2023-09-27-19_02_33.log,x86 fail
+,oe_test_storage_lvm_split_VG,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_split_VG/2023-09-27-20_35_22.log,x86 fail
+,oe_test_storage_longname_list,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_longname_list/2023-09-27-18_45_27.log,x86 fail
+,oe_test_storage_lvm_lvdisplay_lvscan,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_lvdisplay_lvscan/2023-09-27-18_56_55.log,x86 fail
+,oe_test_storage_xfs_backup,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_xfs_backup/2023-09-27-20_31_24.log,x86 fail
+,oe_test_storage_ext3_mount,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext3_mount/2023-09-27-18_42_12.log,x86 fail
+,oe_test_storage_repair_xfs,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_repair_xfs/2023-09-27-20_00_09.log,x86 fail
+,oe_test_storage_lvm_create_cache,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_create_cache/2023-09-27-18_34_35.log,x86 fail
+,oe_test_storage_ext4_mount_write,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext4_mount_write/2023-09-27-18_38_52.log,x86 fail
+,oe_test_storage_lvm_cling,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_cling/2023-09-27-18_44_58.log,x86 fail
+,oe_test_storage_lvm_set_label,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_set_label/2023-09-27-20_34_42.log,x86 fail
+,oe_test_storage_ext4_mount,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_ext4_mount/2023-09-27-18_42_55.log,x86 fail
+,oe_test_storage_diskpartiton_create_raid0,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_create_raid0/2023-09-27-18_31_35.log,x86 fail
+,oe_test_storage_lvm_snapshot_tag,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_snapshot_tag/2023-09-27-20_33_14.log,x86 fail
+,oe_test_storage_lvm_create_snapshot,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_create_snapshot/2023-09-27-18_35_56.log,x86 fail
+,oe_test_storage_lvm_set_lvconvert_raid,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_set_lvconvert_raid/2023-09-27-20_35_02.log,x86 fail
+,oe_test_storage_DevMgmt_swap,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_DevMgmt_swap/2023-09-27-18_55_01.log,x86 fail
+,oe_test_storage_mount_mobile_point,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_mobile_point/2023-09-27-18_39_13.log,x86 fail
+,oe_test_storage_DevMgmt_disk_operation,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_DevMgmt_disk_operation/2023-09-27-18_40_21.log,x86 fail
+,oe_test_storage_lvm_expand_stripeLV,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_expand_stripeLV/2023-09-27-18_28_33.log,x86 fail
+,oe_test_storage_lvm_activation_missing,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_activation_missing/2023-09-27-18_59_12.log,x86 fail
+,oe_test_storage_lvm_change_number,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_change_number/2023-09-27-18_29_21.log,x86 fail
+,oe_test_storage_mount_UUID,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_UUID/2023-09-27-18_46_26.log,x86 fail
+,oe_test_storage_diskpartiton_fdisk,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_fdisk/2023-09-27-18_38_33.log,x86 fail
+,oe_test_storage_diskpartiton_parted_resize,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_parted_resize/2023-09-27-18_48_02.log,x86 fail
+,oe_test_storage_longname_modify,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_longname_modify/2023-09-27-18_45_51.log,x86 fail
+,oe_test_storage_mount_repeat,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_mount_repeat/2023-09-27-18_36_36.log,x86 fail
+,oe_test_storage_diskpartiton_view_fdisk,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_diskpartiton_view_fdisk/2023-09-27-18_33_14.log,x86 fail
+,oe_test_storage_fileCMD_cat,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_fileCMD_cat/2023-09-27-18_33_24.log,x86 fail
+,oe_test_storage_lvm_snapshot_merge,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_snapshot_merge/2023-09-27-20_32_13.log,x86 fail
+,oe_test_storage_lvm_replace_badraid,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_lvm_replace_badraid/2023-09-27-19_01_28.log,x86 fail
+,oe_test_storage_smb_network_latency,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_network_latency/2023-09-27-20_20_14.log,timeout
+,oe_test_storage_nfs_configure_nfsv4,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_configure_nfsv4/2023-09-27-19_38_13.log,file missing/timeout
+,oe_test_storage_nfs_repeat_restartServer,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_repeat_restartServer/2023-09-27-19_08_07.log,file missing/timeout
+,oe_test_storage_smb_credential_files,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_credential_files/2023-09-27-20_19_06.log,timeout
+glusterfs,oe_test_service_glusterfsd,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/glusterfs/oe_test_service_glusterfsd/2023-09-27-14_14_51.log,None
+,oe_test_service_glusterfssharedstorage,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/glusterfs/oe_test_service_glusterfssharedstorage/2023-09-27-14_15_12.log,None
+,oe_test_service_gluster-ta-volume,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/glusterfs/oe_test_service_gluster-ta-volume/2023-09-27-14_16_52.log,x86 fail
+,oe_test_service_glustereventsd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/glusterfs/oe_test_service_glustereventsd/2023-09-27-14_12_47.log,x86 fail
+,oe_test_service_glusterd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/glusterfs/oe_test_service_glusterd/2023-09-27-14_11_08.log,x86 fail
+openvswitch,oe_test_service_ovn-northd,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_ovn-northd/2023-09-27-12_57_35.log,x86 fail
+,oe_test_service_ovn-controller-vtep,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_ovn-controller-vtep/2023-09-27-12_58_39.log,x86 fail
+,oe_test_service_openvswitch-ipsec,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_openvswitch-ipsec/2023-09-27-13_00_01.log,x86 fail
+,oe_test_service_ovn-controller,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_ovn-controller/2023-09-27-12_56_43.log,x86 fail
+,oe_test_service_ovsdb-server,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_ovsdb-server/2023-09-27-12_55_23.log,systemd unit restart failure/systemd unit runtime error
+,oe_test_service_ovs-vswitchd,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_ovs-vswitchd/2023-09-27-12_56_03.log,systemd unit restart failure/systemd unit runtime error
+,oe_test_service_openvswitch,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_openvswitch/2023-09-27-12_54_34.log,systemd unit restart failure/systemd unit runtime error
+openssl,oe_test_openssl_sm2,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_sm2/2023-09-27-12_49_45.log,None
+,oe_test_openssl_concurrent_operations,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_concurrent_operations/2023-09-27-12_28_21.log,None
+,oe_test_openssl_encrypting_character_string,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_encrypting_character_string/2023-09-27-12_33_58.log,None
+,oe_test_openssl_symmetrically_encrypts_decrypts_files,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_symmetrically_encrypts_decrypts_files/2023-09-27-12_48_09.log,None
+,oe_test_openssl_repeated_execution,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_repeated_execution/2023-09-27-12_42_19.log,None
+,oe_test_openssl_enc,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_enc/2023-09-27-12_49_00.log,None
+,oe_test_openssl_hmac,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_hmac/2023-09-27-12_50_07.log,None
+,oe_test_openssl_sm4,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_sm4/2023-09-27-12_49_55.log,None
+,oe_test_openssl_related_concurrent_operations,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_related_concurrent_operations/2023-09-27-12_39_01.log,None
+,oe_test_openssl_one_way_encryption,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_one_way_encryption/2023-09-27-12_38_51.log,None
+,oe_test_openssl_generate_random_number,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_generate_random_number/2023-09-27-12_36_45.log,None
+,oe_test_openssl_message_digest,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_message_digest/2023-09-27-12_38_40.log,None
+,oe_test_openssl_symmetric_encryption_decryption,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_symmetric_encryption_decryption/2023-09-27-12_48_50.log,None
+,oe_test_openssl_generate_password,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_generate_password/2023-09-27-12_36_23.log,x86 fail
+,oe_test_openssl_incorrect_public_private_key,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_incorrect_public_private_key/2023-09-27-12_38_25.log,x86 fail
+,oe_test_openssl_reliability,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_reliability/2023-09-27-12_39_33.log,x86 fail
+,oe_test_openssl_rc4_encryption_file,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_rc4_encryption_file/2023-09-27-12_49_22.log,x86 fail
+,oe_test_openssl_DSA_algorithm,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_DSA_algorithm/2023-09-27-12_32_27.log,x86 fail
+,oe_test_openssl_RSA_algorithm,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_RSA_algorithm/2023-09-27-12_47_56.log,x86 fail
+,oe_test_openssl_encrypte_decrypte_emails,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_encrypte_decrypte_emails/2023-09-27-12_33_42.log,x86 fail
+,oe_test_openssl_empty_private_key,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_empty_private_key/2023-09-27-12_32_51.log,x86 fail
+,oe_test_openssl_generate_key_pair,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_generate_key_pair/2023-09-27-12_36_08.log,x86 fail
+,oe_test_openssl_empty_public_key,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_empty_public_key/2023-09-27-12_33_06.log,x86 fail
+,oe_test_openssl_create_CA_applying_certificate,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_create_CA_applying_certificate/2023-09-27-12_28_46.log,x86 fail
+,oe_test_openssl_remove_mod_ssl,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_remove_mod_ssl/2023-09-27-12_40_57.log,x86 fail
+,oe_test_openssl_speed,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_speed/2023-09-27-12_50_17.log,x86 fail
+,oe_test_openssl_file_signature_verification,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_file_signature_verification/2023-09-27-12_35_38.log,x86 fail
+,oe_test_openssl_encrypt_decrypt_file_asymmetrically,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_encrypt_decrypt_file_asymmetrically/2023-09-27-12_33_28.log,x86 fail
+,oe_test_openssl_Implements_https,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_Implements_https/2023-09-27-12_36_55.log,x86 fail
+,oe_test_openssl_repeat_restart,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_repeat_restart/2023-09-27-12_43_07.log,x86 fail
+,oe_test_openssl_delete_configuration_file,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_delete_configuration_file/2023-09-27-12_30_24.log,x86 fail
+,oe_test_openssl_Diffie_Hellman,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_Diffie_Hellman/2023-09-27-12_31_53.log,x86 fail
+,oe_test_openssl_expired_certificate,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openssl/oe_test_openssl_expired_certificate/2023-09-27-12_34_09.log,x86 fail
+haveged,oe_test_service_haveged,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/haveged/oe_test_service_haveged/2023-09-27-16_22_50.log,None
+perl-libwww-perl,oe_test_perl-libwww-perl_lwp_request_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_lwp_request_01/2023-09-27-12_32_26.log,None
+,oe_test_perl-libwww-perl_HEAD_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_HEAD_02/2023-09-27-12_31_14.log,None
+,oe_test_perl-libwww-perl_GET_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_GET_01/2023-09-27-12_27_33.log,None
+,oe_test_perl-libwww-perl_lwp_request_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_lwp_request_02/2023-09-27-12_33_06.log,None
+,oe_test_perl-libwww-perl_GET_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_GET_02/2023-09-27-12_30_06.log,None
+,oe_test_perl-libwww-perl_POST_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_POST_01/2023-09-27-12_33_38.log,None
+,oe_test_perl-libwww-perl_POST_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_POST_02/2023-09-27-12_36_00.log,None
+,oe_test_perl-libwww-perl_HEAD_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_HEAD_01/2023-09-27-12_30_39.log,None
+,oe_test_perl-libwww-perl_lwp-dump,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/perl-libwww-perl/oe_test_perl-libwww-perl_lwp-dump/2023-09-27-12_31_49.log,x86 fail
+pbzip2,oe_test_pbzip2_01,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/pbzip2/oe_test_pbzip2_01/2023-09-27-14_53_06.log,None
+,oe_test_pbzip2_02,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/pbzip2/oe_test_pbzip2_02/2023-09-27-14_53_28.log,None
+,oe_test_pbzip2_03,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/pbzip2/oe_test_pbzip2_03/2023-09-27-14_53_50.log,x86 fail
+qperf,oe_test_qperf_01,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qperf/oe_test_qperf_01/2023-09-27-16_59_05.log,
+sendmail,oe_test_service_sm-client,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sendmail/oe_test_service_sm-client/2023-09-27-15_49_23.log,None
+,oe_test_service_sendmail,success,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sendmail/oe_test_service_sendmail/2023-09-27-15_44_05.log,None
+,oe_test_sendmail_func_001,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/sendmail/oe_test_sendmail_func_001/2023-09-27-15_54_19.log,软件lsof未安装
+libtiff,oe_test_libtiff,x86 fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/libtiff/oe_test_libtiff/2023-09-27-17_11_15.log,x86 fail
