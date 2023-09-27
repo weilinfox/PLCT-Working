@@ -1,0 +1,630 @@
+测试套/软件包名,测试用例名,日志文件,原因,Broken testcase,pkg not found,preinstall absent,kernel module absent,file missing,systemd unit restart failure,systemd unit runtime error,systemd unit enable failure,timeout
+openvpn,oe_test_openvpn,2023-09-27-14_50_28.log,"timeout
+",0,0,0,0,0,0,0,0,1
+chrony,oe_test_service_chronyd,2023-09-27-14_04_51.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+chrony,oe_test_service_chrony-wait,2023-09-27-14_05_07.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+rpmdevtools,oe_test_rpmdevtools_rpmargs,2023-09-27-15_09_33.log,"timeout
+",0,0,0,0,0,0,0,0,1
+rpmdevtools,oe_test_rpmdevtools_rpmdev-vercmp,2023-09-27-15_11_58.log,"file missing
+",0,0,0,0,1,0,0,0,0
+perl-libwww-perl,oe_test_perl-libwww-perl_POST_01,2023-09-27-15_34_58.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+perl-libwww-perl,oe_test_perl-libwww-perl_GET_01,2023-09-27-15_28_04.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+perl-libwww-perl,oe_test_perl-libwww-perl_lwp-dump,2023-09-27-15_34_07.log,,0,0,0,0,0,0,0,0,0
+geoclue2,oe_test_service_geoclue,2023-09-27-14_13_22.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+qpdf,oe_test_qpdf_qpdf_08,2023-09-27-15_03_26.log,,0,0,0,0,0,0,0,0,0
+qpdf,oe_test_qpdf_qpdf_03,2023-09-27-15_03_08.log,,0,0,0,0,0,0,0,0,0
+qpdf,oe_test_qpdf_qpdf_02,2023-09-27-15_03_04.log,,0,0,0,0,0,0,0,0,0
+qpdf,oe_test_qpdf_qpdf_01,2023-09-27-15_02_42.log,,0,0,0,0,0,0,0,0,0
+qpdf,oe_test_qpdf_qpdf_10,2023-09-27-15_03_33.log,,0,0,0,0,0,0,0,0,0
+strongswan,oe_test_service_strongswan-swanctl,2023-09-27-15_35_53.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+strongswan,oe_test_service_strongswan_01,2023-09-27-15_36_13.log,,0,0,0,0,0,0,0,0,0
+strongswan,oe_test_service_strongswan_03,2023-09-27-15_38_03.log,,0,0,0,0,0,0,0,0,0
+strongswan,oe_test_service_strongswan,2023-09-27-15_35_28.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+libtiff,oe_test_libtiff,2023-09-27-14_28_55.log,"file missing
+",0,0,0,0,1,0,0,0,0
+clevis,oe_test_high_nbde,2023-09-27-14_04_57.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+clevis,oe_test_tang_encrypt,2023-09-27-14_05_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+clevis,oe_test_service_clevis-luks-askpass,2023-09-27-14_04_51.log,"systemd unit runtime error
+",0,0,0,0,0,0,1,0,0
+polkit,oe_test_service_polkit,2023-09-27-15_01_07.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+lmdb,oe_test_lmdb,2023-09-27-15_25_44.log,"file missing
+",0,0,0,0,1,0,0,0,0
+libmicrohttpd,oe_test_libmicrohttpd,2023-09-27-14_27_24.log,"file missing
+",0,0,0,0,1,0,0,0,0
+systemd,oe_test_socket_systemd-networkd,2023-09-27-15_42_03.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_target_veritysetup-pre,2023-09-27-15_52_57.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_target_cryptsetup-pre,2023-09-27-15_43_38.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_dbus-org.freedesktop.login1,2023-09-27-15_25_32.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+systemd,oe_test_socket_systemd-rfkill,2023-09-27-15_42_19.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-journal-upload,2023-09-27-15_32_24.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+systemd,oe_test_service_systemd-fsck-root,2023-09-27-15_29_53.log,"systemd unit runtime error
+",0,0,0,0,0,0,1,0,0
+systemd,oe_test_target_initrd-switch-root,2023-09-27-15_45_50.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-portabled,2023-09-27-15_34_06.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_service_systemd-network-generator,2023-09-27-15_34_05.log,"preinstall absent
+systemd unit runtime error
+systemd unit enable failure
+",0,0,1,0,0,0,1,1,0
+systemd,oe_test_service_systemd-userdbd,2023-09-27-15_51_36.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_service_systemd-logind,2023-09-27-15_32_58.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+systemd,oe_test_socket_systemd-userdbd,2023-09-27-15_51_52.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-boot-check-no-failures,2023-09-27-15_29_14.log,"systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,0,1,1,1,0
+systemd,oe_test_service_systemd-importd,2023-09-27-15_30_27.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+systemd,oe_test_service_systemd-timesyncd,2023-09-27-15_36_19.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_service_quotaon,2023-09-27-15_27_48.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+systemd,oe_test_target_remote-cryptsetup,2023-09-27-15_47_15.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-udevd,2023-09-27-15_37_07.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+systemd,oe_test_service_systemd-journal-remote,2023-09-27-15_32_06.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+systemd,oe_test_service_systemd-vconsole-setup,2023-09-27-15_38_21.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_target_cryptsetup,2023-09-27-15_43_39.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-networkd,2023-09-27-15_33_33.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_service_dbus-org.freedesktop.import1,2023-09-27-15_22_53.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+systemd,oe_test_service_systemd-initctl,2023-09-27-15_30_46.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_target_usb-gadget,2023-09-27-15_52_25.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-quotacheck,2023-09-27-15_34_22.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_socket_systemd-journal-gatewayd,2023-09-27-15_41_28.log,"file missing
+",0,0,0,0,1,0,0,0,0
+systemd,oe_test_service_systemd-resolved,2023-09-27-15_35_10.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_target_remote-veritysetup,2023-09-27-15_52_09.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-journal-gatewayd,2023-09-27-15_31_49.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+systemd,oe_test_service_initrd-switch-root,2023-09-27-15_27_16.log,"preinstall absent
+systemd unit runtime error
+",0,0,1,0,0,0,1,0,0
+systemd,oe_test_socket_systemd-journal-remote,2023-09-27-15_41_45.log,"file missing
+",0,0,0,0,1,0,0,0,0
+systemd,oe_test_service_systemd-ask-password-wall,2023-09-27-15_28_57.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+systemd,oe_test_target_veritysetup,2023-09-27-15_52_41.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_initrd-udevadm-cleanup-db,2023-09-27-15_27_16.log,"systemd unit runtime error
+",0,0,0,0,0,0,1,0,0
+systemd,oe_test_service_systemd-sysext,2023-09-27-15_51_20.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_service_systemd-time-wait-sync,2023-09-27-15_36_35.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_service_dbus-org.freedesktop.portable1,2023-09-27-15_26_10.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+systemd,oe_test_target_machines,2023-09-27-15_46_08.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_socket_systemd-journald-dev-log,2023-09-27-15_40_57.log,,0,0,0,0,0,0,0,0,0
+systemd,oe_test_service_systemd-networkd-wait-online,2023-09-27-15_33_49.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+iptables,oe_test_ip6tables-save,2023-09-27-15_27_34.log,,0,0,0,0,0,0,0,0,0
+iptables,oe_test_service_iptables,2023-09-27-15_25_11.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+iptables,oe_test_service_ip6tables,2023-09-27-15_24_55.log,"preinstall absent
+systemd unit restart failure
+systemd unit runtime error
+",0,0,1,0,0,1,1,0,0
+iptables,oe_test_iptables-restore,2023-09-27-15_25_27.log,,0,0,0,0,0,0,0,0,0
+iptables,oe_test_ip6tables-restore_01,2023-09-27-15_27_38.log,,0,0,0,0,0,0,0,0,0
+automake,oe_test_automake,2023-09-27-14_02_50.log,"file missing
+",0,0,0,0,1,0,0,0,0
+cachefilesd,oe_test_service_cachefilesd,2023-09-27-14_04_29.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+samba,oe_test_service_samba,2023-09-27-15_32_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+lxc,oe_test_lxc_device_copy,2023-09-27-14_35_11.log,"file missing
+",0,0,0,0,1,0,0,0,0
+lxc,oe_test_lxc_snapshot_start,2023-09-27-14_35_21.log,"file missing
+",0,0,0,0,1,0,0,0,0
+lxc,oe_test_lxc_ls_monitor,2023-09-27-14_34_41.log,"file missing
+",0,0,0,0,1,0,0,0,0
+lxc,oe_test_lxc_info,2023-09-27-14_36_12.log,"file missing
+",0,0,0,0,1,0,0,0,0
+lxc,oe_test_lxc_autostart_cgroup,2023-09-27-14_35_01.log,"file missing
+",0,0,0,0,1,0,0,0,0
+lxc,oe_test_service_lxc-net,2023-09-27-14_33_50.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+lxc,oe_test_lxc_unfreeze_destroy,2023-09-27-14_34_51.log,"file missing
+",0,0,0,0,1,0,0,0,0
+lxc,oe_test_lxc_create_attach,2023-09-27-14_34_31.log,"file missing
+",0,0,0,0,1,0,0,0,0
+lxc,oe_test_lxc_stop_top,2023-09-27-14_36_02.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+yajl,oe_test_yajl,2023-09-27-15_41_07.log,"file missing
+",0,0,0,0,1,0,0,0,0
+kernel,oe_test_io_sched,2023-09-27-14_21_48.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+kernel,oe_test_hinic,2023-09-27-14_21_49.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_cpu_rand,2023-09-27-14_21_50.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_wangxun,2023-09-27-14_21_54.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_check_huge_task,2023-09-27-14_21_52.log,"timeout
+",0,0,0,0,0,0,0,0,1
+kernel,oe_test_kernel_cmd_01,2023-09-27-14_21_17.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_hpsa,2023-09-27-14_21_58.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_libfc,2023-09-27-14_21_58.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_tcm_loop,2023-09-27-14_21_59.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_swap_compress,2023-09-27-14_21_51.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+kernel,oe_test_fnic,2023-09-27-14_21_57.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_cifs,2023-09-27-14_21_53.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_bnx2fc,2023-09-27-14_21_59.log,,0,0,0,0,0,0,0,0,0
+kernel,oe_test_hifc,2023-09-27-14_21_57.log,"kernel module absent
+",0,0,0,1,0,0,0,0,0
+keyutils,oe_test_keyutils-api,2023-09-27-14_23_22.log,"file missing
+",0,0,0,0,1,0,0,0,0
+nfs-utils,oe_test_service_auth-rpcgss-module,2023-09-27-14_42_46.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+nfs-utils,oe_test_service_nfs-server,2023-09-27-14_47_00.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+nfs-utils,oe_test_service_nfs-mountd,2023-09-27-14_46_20.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+nfs-utils,oe_test_service_nfs-idmapd,2023-09-27-14_43_48.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+nfs-utils,oe_test_target_nfs-client,2023-09-27-14_49_06.log,"file missing
+",0,0,0,0,1,0,0,0,0
+nfs-utils,oe_test_service_rpc-statd-notify,2023-09-27-14_48_24.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+nfs-utils,oe_test_service_nfs-utils,2023-09-27-14_47_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+nfs-utils,oe_test_service_rpc-statd,2023-09-27-14_48_45.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+nfs-utils,oe_test_service_nfs-secure,2023-09-27-14_46_40.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+nfs-utils,oe_test_target_rpc_pipefs,2023-09-27-14_49_27.log,,0,0,0,0,0,0,0,0,0
+nfs-utils,oe_test_service_rpc-gssd,2023-09-27-14_48_03.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+nfs-utils,oe_test_service_nfs-idmap,2023-09-27-14_44_08.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+nfs-utils,oe_test_service_nfs-blkmap,2023-09-27-14_43_07.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+ipvsadm,oe_test_ipvs_SCEN_TUN_03,2023-09-27-14_33_33.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+ipvsadm,oe_test_ipvs_SCEN_TUN_04,2023-09-27-14_35_07.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+ipvsadm,oe_test_ipvs_SCEN_DR_03,2023-09-27-14_26_38.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+ipvsadm,oe_test_ipvs_SCEN_DR_08,2023-09-27-14_29_46.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+ipvsadm,oe_test_ipvs_SCEN_TUN_08,2023-09-27-14_41_22.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+ipvsadm,oe_test_ipvs_SCEN_DR_04,2023-09-27-14_27_17.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+ipvsadm,oe_test_ipvs_SCEN_on_firewalld_01,2023-09-27-14_24_37.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+crontabs,oe_test_crontabs,2023-09-27-14_08_45.log,,0,0,0,0,0,0,0,0,0
+glusterfs,oe_test_service_glusterfssharedstorage,2023-09-27-14_14_28.log,"systemd unit restart failure
+",0,0,0,0,0,1,0,0,0
+glusterfs,oe_test_service_gluster-ta-volume,2023-09-27-14_14_46.log,"systemd unit restart failure
+",0,0,0,0,0,1,0,0,0
+glusterfs,oe_test_service_glusterd,2023-09-27-14_13_22.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+glusterfs,oe_test_service_glustereventsd,2023-09-27-14_13_47.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+fprintd,oe_test_service_fprintd,2023-09-27-14_11_44.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+rsyslog,oe_test_rsyslog_reliability_network,2023-09-27-15_36_33.log,"timeout
+",0,0,0,0,0,0,0,0,1
+rsyslog,oe_test_rsyslog_reliability_lenght,2023-09-27-15_36_12.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+rsyslog,oe_test_rsyslog_abnormal_template,2023-09-27-15_30_59.log,"timeout
+",0,0,0,0,0,0,0,0,1
+rsyslog,oe_test_rsyslog_function_tcp_firewall,2023-09-27-15_35_04.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+rsyslog,oe_test_rsyslog_function_attribute,2023-09-27-15_31_40.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+rsyslog,oe_test_rsyslog_function_httpd,2023-09-27-15_32_44.log,"timeout
+",0,0,0,0,0,0,0,0,1
+rsyslog,oe_test_rsyslog_reliability_tcp,2023-09-27-16_08_41.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+rsyslog,oe_test_rsyslog_function_tcp,2023-09-27-15_34_42.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+rsyslog,oe_test_rsyslog_function_relp,2023-09-27-15_34_14.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+rsyslog,oe_test_rsyslog_function_udp,2023-09-27-15_35_37.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+iperf3,oe_test_iperf3_command_client,2023-09-27-15_25_13.log,"file missing
+",0,0,0,0,1,0,0,0,0
+freeradius,oe_test_freeradius_freeradius-utils_radsniff,2023-09-27-15_38_11.log,"timeout
+",0,0,0,0,0,0,0,0,1
+freeradius,oe_test_freeradius_freeradius-utils_rlm_ippool_toolAndSmbencrypt,2023-09-27-16_09_46.log,"file missing
+",0,0,0,0,1,0,0,0,0
+freeradius,oe_test_freeradius_freeradius-utils_radwho,2023-09-27-16_08_56.log,"file missing
+",0,0,0,0,1,0,0,0,0
+freeradius,oe_test_freeradius_freeradius-utils_radlast,2023-09-27-15_37_33.log,,0,0,0,0,0,0,0,0,0
+freeradius,oe_test_freeradius_freeradius-utils_radsniff2,2023-09-27-16_08_11.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+freeradius,oe_test_service_radiusd,2023-09-27-16_09_48.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+freeradius,oe_test_freeradius_freeradius-utils_radtestAndRadwho,2023-09-27-16_08_53.log,"file missing
+",0,0,0,0,1,0,0,0,0
+freeradius,oe_test_freeradius_freeradius-utils_radzap,2023-09-27-16_08_58.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openvswitch,oe_test_service_ovn-controller-vtep,2023-09-27-14_52_45.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+openvswitch,oe_test_service_openvswitch-ipsec,2023-09-27-14_52_58.log,"systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,0,1,1,0,0
+openvswitch,oe_test_service_ovn-controller,2023-09-27-14_52_31.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+openvswitch,oe_test_service_ovn-northd,2023-09-27-14_52_33.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+cryptsetup,oe_test_luks_encrypted,2023-09-27-15_24_02.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+cryptsetup,oe_test_encrypt_data,2023-09-27-15_21_59.log,"file missing
+",0,0,0,0,1,0,0,0,0
+cryptsetup,oe_test_use_luks,2023-09-27-15_24_11.log,"file missing
+",0,0,0,0,1,0,0,0,0
+sendmail,oe_test_sendmail_func_001,2023-09-27-15_34_09.log,"file missing
+",0,0,0,0,1,0,0,0,0
+createrepo_c,oe_test_createrepo_c_local_repo,2023-09-27-14_07_45.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_speed,2023-09-27-14_53_49.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_expired_certificate,2023-09-27-14_50_39.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssl,oe_test_openssl_encrypt_decrypt_file_asymmetrically,2023-09-27-14_50_37.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_empty_public_key,2023-09-27-14_50_37.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_incorrect_public_private_key,2023-09-27-14_51_04.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_empty_private_key,2023-09-27-14_50_36.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_Diffie_Hellman,2023-09-27-14_50_35.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_file_signature_verification,2023-09-27-14_50_45.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_repeat_restart,2023-09-27-14_51_24.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssl,oe_test_openssl_remove_mod_ssl,2023-09-27-14_51_17.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssl,oe_test_openssl_generate_key_pair,2023-09-27-14_50_46.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_delete_configuration_file,2023-09-27-14_50_28.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssl,oe_test_openssl_DSA_algorithm,2023-09-27-14_50_35.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_generate_password,2023-09-27-14_50_47.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_encrypte_decrypte_emails,2023-09-27-14_50_38.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_RSA_algorithm,2023-09-27-14_53_15.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+openssl,oe_test_openssl_reliability,2023-09-27-14_51_09.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssl,oe_test_openssl_rc4_encryption_file,2023-09-27-14_53_47.log,,0,0,0,0,0,0,0,0,0
+openssl,oe_test_openssl_Implements_https,2023-09-27-14_50_57.log,"file missing
+",0,0,0,0,1,0,0,0,0
+openssl,oe_test_openssl_create_CA_applying_certificate,2023-09-27-14_50_11.log,,0,0,0,0,0,0,0,0,0
+pixman,oe_test_pixman,2023-09-27-14_59_27.log,"file missing
+",0,0,0,0,1,0,0,0,0
+dracut,oe_test_service_dracut-initramfs,2023-09-27-15_22_22.log,"timeout
+",0,0,0,0,0,0,0,0,1
+dnsmasq,oe_test_service_dnsmasq,2023-09-27-14_10_04.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+libunistring,oe_test_libunistring,2023-09-27-14_30_15.log,"file missing
+",0,0,0,0,1,0,0,0,0
+multipath-tools,oe_test_multipath-tools_kpartx,2023-09-27-14_38_01.log,,0,0,0,0,0,0,0,0,0
+multipath-tools,oe_test_multipath-tools_multipath_01,2023-09-27-14_41_56.log,"timeout
+",0,0,0,0,0,0,0,0,1
+ModemManager,oe_test_service_ModemManager,2023-09-27-14_37_17.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+systemd unit enable failure
+",0,0,0,0,1,1,1,1,0
+pbzip2,oe_test_pbzip2_03,2023-09-27-14_56_30.log,,0,0,0,0,0,0,0,0,0
+dbxtool,oe_test_service_dbxtool,2023-09-27-15_22_00.log,"file missing
+systemd unit restart failure
+systemd unit runtime error
+",0,0,0,0,1,1,1,0,0
+net-tools,oe_test_net-tools_route,2023-09-27-14_39_16.log,,0,0,0,0,0,0,0,0,0
+net-tools,oe_test_net-tools_ipmaddr,2023-09-27-14_39_17.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_fileCMD_unzip,2023-09-27-14_06_40.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_ext4_mount,2023-09-27-14_04_58.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_smb_cmd_smbclient,2023-09-27-14_20_01.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+os-storage,oe_test_storage_DevMgmt_disk_operation,2023-09-27-14_04_41.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_longname_list,2023-09-27-14_05_08.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_print_history,2023-09-27-14_04_40.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_resize_PV,2023-09-27-14_07_59.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_smb_write_full,2023-09-27-14_19_05.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+os-storage,oe_test_storage_diskpartiton_create_raid1,2023-09-27-14_05_53.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-storage,oe_test_storage_xfs_create,2023-09-27-14_18_48.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_merge_VG,2023-09-27-14_04_40.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_activation,2023-09-27-14_04_25.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_ext4_resize,2023-09-27-14_03_48.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_ext3_mount,2023-09-27-14_04_52.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_activation_missing,2023-09-27-14_07_44.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_create_raid5,2023-09-27-14_07_45.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-storage,oe_test_storage_lvm_print_info,2023-09-27-14_05_35.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_split_VG,2023-09-27-14_20_25.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_rename,2023-09-27-14_03_21.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_help_info,2023-09-27-14_04_46.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_snapshot_merge,2023-09-27-14_20_18.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_xfs_backup,2023-09-27-14_20_12.log,"timeout
+",0,0,0,0,0,0,0,0,1
+os-storage,oe_test_storage_lvm_print,2023-09-27-14_06_42.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_ext4_create,2023-09-27-14_05_24.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_fileCMD_zip,2023-09-27-14_07_59.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_add_VG,2023-09-27-14_03_10.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_create_thinSnapshot,2023-09-27-14_08_09.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_ext4_mount_write,2023-09-27-14_04_29.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_fdisk_settype,2023-09-27-14_04_20.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_create_cache,2023-09-27-14_04_00.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_mount_mobile_point,2023-09-27-14_04_32.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_mount_private,2023-09-27-14_03_55.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_ext3_resize,2023-09-27-14_08_01.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_DevMgmt_fstrim,2023-09-27-14_20_26.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_DevMgmt_swap,2023-09-27-14_06_18.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_expand_stripeLV,2023-09-27-14_03_11.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_ext3_create,2023-09-27-14_05_03.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_view_fdisk,2023-09-27-14_03_53.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_mount_findmnt,2023-09-27-14_04_59.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_set_lvconvert_raid,2023-09-27-14_20_25.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_lvm_replace_badraid,2023-09-27-14_08_00.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_ext3_mount_write,2023-09-27-14_08_10.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_parted_create,2023-09-27-14_08_09.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_Mutipath_dmsetup,2023-09-27-14_03_10.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_fileCMD_dd,2023-09-27-14_07_58.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_create_raid0,2023-09-27-14_03_37.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_parted_delete,2023-09-27-14_05_50.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_set_lvconvert_volume,2023-09-27-14_20_20.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_mount_copy,2023-09-27-14_08_18.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_smb_abnormal_poweroff,2023-09-27-14_16_49.log,"file missing
+timeout
+",0,0,0,0,1,0,0,0,1
+os-storage,oe_test_storage_mount_repeat,2023-09-27-14_04_16.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_VG_transfer,2023-09-27-14_20_19.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_fileCMD_mkfs,2023-09-27-14_04_10.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_lvdisplay_lvscan,2023-09-27-14_06_41.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_mount_umount,2023-09-27-14_04_26.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_query_lvmsnap,2023-09-27-14_03_54.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_specify_size,2023-09-27-14_20_21.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_set_lvconvert_raid1,2023-09-27-14_20_22.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_create_raid,2023-09-27-14_04_47.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_lvm_raid_synchronization,2023-09-27-14_03_26.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_DevMgmt_block_drop,2023-09-27-14_03_22.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_change_number,2023-09-27-14_03_15.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_lvm_set_label,2023-09-27-14_20_24.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_repair_xfs,2023-09-27-14_13_55.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_fileCMD_cat,2023-09-27-14_03_53.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_separate_raid,2023-09-27-14_05_34.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_lvm_set_limit,2023-09-27-14_20_23.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_xfs_restore,2023-09-27-14_17_58.log,"timeout
+",0,0,0,0,0,0,0,0,1
+os-storage,oe_test_storage_mount_UUID,2023-09-27-14_05_20.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_snapshot_tag,2023-09-27-14_20_20.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_lvm_pvs,2023-09-27-14_05_52.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_create_snapshot,2023-09-27-14_04_15.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_DevMgmt_lsblk,2023-09-27-14_04_01.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_replace_raid,2023-09-27-14_05_43.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_diskpartiton_parted_view,2023-09-27-14_04_19.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_longname_modify,2023-09-27-14_05_13.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_repair_e2fsck,2023-09-27-14_13_23.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_mount_block_device,2023-09-27-14_03_12.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_rename_VG,2023-09-27-14_03_47.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_xfs_Increase_size,2023-09-27-14_15_09.log,"file missing
+",0,0,0,0,1,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_fdisk_delete,2023-09-27-14_08_06.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_parted_resize,2023-09-27-14_05_35.log,"preinstall absent
+",0,0,1,0,0,0,0,0,0
+os-storage,oe_test_storage_lvm_cling,2023-09-27-14_05_06.log,"preinstall absent
+timeout
+",0,0,1,0,0,0,0,0,1
+os-storage,oe_test_storage_vfat_mount_write,2023-09-27-14_15_02.log,,0,0,0,0,0,0,0,0,0
+os-storage,oe_test_storage_diskpartiton_fdisk,2023-09-27-14_04_29.log,,0,0,0,0,0,0,0,0,0
+sanlock,oe_test_sanlock_base_02,2023-09-27-15_33_47.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_reinstall_repoinfo,2023-09-27-15_35_58.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_repeat-upgrade-downgrade,2023-09-27-15_36_42.log,"timeout
+",0,0,0,0,0,0,0,0,1
+dnf,oe_test_dnf_enabled_enablerepo,2023-09-27-15_32_47.log,,0,0,0,0,0,0,0,0,0
+dnf,oe_test_dnf_list_mark,2023-09-27-15_34_19.log,"timeout
+",0,0,0,0,0,0,0,0,1
+dnf,oe_test_dnf_priority,2023-09-27-15_34_32.log,,0,0,0,0,0,0,0,0,0
+intltool,oe_test_intltool_intltool-extract,2023-09-27-14_19_06.log,"file missing
+",0,0,0,0,1,0,0,0,0
+intltool,oe_test_intltool_intltool-prepare,2023-09-27-14_19_22.log,"file missing
+",0,0,0,0,1,0,0,0,0
