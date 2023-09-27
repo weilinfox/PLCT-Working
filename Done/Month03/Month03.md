@@ -17,7 +17,7 @@
 
 ## mugen 测试脚本
 
-+ mugen 自动化测试脚本在应用 python subprocessing 包产生了一些问题，编写了使用 screen 工具管理 qemu 进程的方案作为备选 [qemu_test.py](https://github.com/weilinfox/PLCT-Working/blob/master/Note/qemu_test_screen.py) pr [#21](https://github.com/brsf11/mugen-riscv/pull/21)
++ mugen 自动化测试脚本在应用 python subprocessing 包产生了一些问题，编写了使用 screen 工具管理 qemu 进程的方案作为备选；同时在配置额外网卡时不配置 gateway ，防止该条路由优先级更高导致外网访问流量异常 [qemu_test.py](https://github.com/weilinfox/PLCT-Working/blob/master/Note/qemu_test_screen.py) pr [#21](https://github.com/brsf11/mugen-riscv/pull/21)
 + mugen 测试流程的改进需要利用 mugen combination 功能进行，尝试编写 combination test 的自动化测试脚本 [combination_env.sh](https://github.com/weilinfox/PLCT-Working/blob/master/Note/combination_env.sh)
 + mugen 测试常有手动测试需求，编写了自动配置手动测试环境的脚本 [manual_env_setup.sh](https://github.com/weilinfox/PLCT-Working/blob/master/Note/manual_env_setup.sh)
 
