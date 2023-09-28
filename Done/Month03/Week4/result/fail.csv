@@ -1,39 +1,39 @@
 测试套/软件包名,测试用例名,状态,日志文件,原因
-iperf3,oe_test_iperf3_command_serverAndBase,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/iperf3/oe_test_iperf3_command_serverAndBase/2023-09-27-15_44_33.log,手动重测通过
-rsyslog,oe_test_rsyslog_function_shell,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rsyslog/oe_test_rsyslog_function_shell/2023-09-27-09_53_03.log,原因未知
-samba,oe_test_service_ctdb,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/samba/oe_test_service_ctdb/2023-09-27-09_42_58.log,ctdb systemd 启动失败，原因未知
-systemd,oe_test_service_systemd-modules-load,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_service_systemd-modules-load/2023-09-27-18_56_03.log,失败原因未知
-,oe_test_socket_systemd-journald-audit,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/systemd/oe_test_socket_systemd-journald-audit/2023-09-27-19_15_37.log,"报 Socket service systemd-journald.service already active, refusing."
-cockpit,oe_test_service_cockpit,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cockpit/oe_test_service_cockpit/2023-09-27-14_32_01.log,cockpit 不在支持范围
-,oe_test_socket_cockpit,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cockpit/oe_test_socket_cockpit/2023-09-27-14_33_13.log,cockpit 不在支持范围
-,oe_test_service_cockpit-wsinstance-http,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/cockpit/oe_test_service_cockpit-wsinstance-http/2023-09-27-14_34_25.log,cockpit 不在支持范围
-kexec-tools,oe_test_service_kdump,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kexec-tools/oe_test_service_kdump/2023-09-27-16_26_35.log,kexec-tools 不在支持范围
-ipvsadm,oe_test_ipvs_SCEN_DR_05,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_05/2023-09-27-16_06_02.log,httpd 启动失败
-,oe_test_ipvs_SCEN_TUN_05,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_05/2023-09-27-16_41_30.log,file missing/timeout
-,oe_test_ipvs_SCEN_TUN_06,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_TUN_06/2023-09-27-16_46_15.log,file missing/timeout
-,oe_test_ipvs_SCEN_DR_06,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/ipvsadm/oe_test_ipvs_SCEN_DR_06/2023-09-27-16_10_07.log,file missing/timeout
-strongswan,oe_test_service_strongswan-starter,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/strongswan/oe_test_service_strongswan-starter/2023-09-27-12_38_03.log,plugin 'openssl': failedd  to load - openssl_plugin_create returned NULL
-dnf,oe_test_dnf_check_diffenert-packages,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_check_diffenert-packages/2023-09-27-09_46_33.log,None
-,oe_test_dnf_provides_randomwait,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/dnf/oe_test_dnf_provides_randomwait/2023-09-27-10_14_04.log,没有对riscv架构进行适配
-freeradius,oe_test_freeradius_freeradius-utils_radlastAndRadsniff,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radlastAndRadsniff/2023-09-27-13_01_05.log,（未验证）line34 由 -gt 改为 -ge ，手动重新测试可以通过
-,oe_test_freeradius_freeradius-utils_radclient2,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radclient2/2023-09-27-12_50_51.log,（未验证）line43 由 -eq 改为 -le ，手动重新测试可以通过
-,oe_test_freeradius_freeradius-utils_radsqlrelay,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radsqlrelay/2023-09-27-13_32_51.log,file missing/timeout
-,oe_test_freeradius_freeradius-utils_radclient,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_radclient/2023-09-27-12_47_30.log,
-,oe_test_freeradius_freeradius_radiusd,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius_radiusd/2023-09-27-12_46_16.log,file missing
-,oe_test_freeradius_freeradius-utils_rad_counter,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius-utils_rad_counter/2023-09-27-12_53_39.log,file missing
-,oe_test_freeradius_freeradius_radiusdAndRadmin,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/freeradius/oe_test_freeradius_freeradius_radiusdAndRadmin/2023-09-27-12_46_55.log,file missing
-kernel,oe_test_service_cpupower,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_service_cpupower/2023-09-27-09_39_23.log,需要硬件支持
-,oe_test_nbd,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/kernel/oe_test_nbd/2023-09-27-09_44_07.log,（未验证）在 rmmod 前添加 SLEEP_WAIT 10 重测通过
-net-tools,oe_test_service_arp-ethers,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/net-tools/oe_test_service_arp-ethers/2023-09-27-14_21_31.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
-clevis,oe_test_tang_nbde,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/clevis/oe_test_tang_nbde/2023-09-27-15_38_56.log,file missing
-,oe_test_install_clevis,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/clevis/oe_test_install_clevis/2023-09-27-15_36_40.log,file missing
-rpmdevtools,oe_test_rpmdevtools_rpmdev-wipetree,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/rpmdevtools/oe_test_rpmdevtools_rpmdev-wipetree/2023-09-27-15_29_02.log,Broken testcase/timeout
-os-storage,oe_test_storage_smb_network_latency,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_network_latency/2023-09-27-20_20_14.log,timeout
-,oe_test_storage_nfs_configure_nfsv4,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_configure_nfsv4/2023-09-27-19_38_13.log,file missing/timeout
-,oe_test_storage_nfs_repeat_restartServer,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_nfs_repeat_restartServer/2023-09-27-19_08_07.log,file missing/timeout
-,oe_test_storage_smb_credential_files,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/os-storage/oe_test_storage_smb_credential_files/2023-09-27-20_19_06.log,timeout
-openvswitch,oe_test_service_ovsdb-server,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_ovsdb-server/2023-09-27-12_55_23.log,systemd unit restart failure/systemd unit runtime error
-,oe_test_service_ovs-vswitchd,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_ovs-vswitchd/2023-09-27-12_56_03.log,（未验证）openvswitch的spec有问题：当不构建dpdk子包时，openvswitch安装列表中没有ovs-vswitchd文件、而只有ovs-vswitchd.nodpdk，导致服务启动失败。手动建立这个符号链接测试通过
-,oe_test_service_openvswitch,fail,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/openvswitch/oe_test_service_openvswitch/2023-09-27-12_54_34.log,systemd unit restart failure/systemd unit runtime error
-haveged,oe_test_service_haveged,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/haveged/oe_test_service_haveged/2023-09-27-16_22_50.log,None
-qperf,oe_test_qperf_01,fail_x86NotTest,/home/hachi/Desktop/Work/mugen/res_list/oe-rv2309/mugen-riscv_rc4//logs/qperf/oe_test_qperf_01/2023-09-27-16_59_05.log,
+iperf3,oe_test_iperf3_command_serverAndBase,fail,./mugen-riscv/logs/iperf3/oe_test_iperf3_command_serverAndBase/2023-09-27-15_44_33.log,手动重测通过
+rsyslog,oe_test_rsyslog_function_shell,fail,./mugen-riscv/logs/rsyslog/oe_test_rsyslog_function_shell/2023-09-27-09_53_03.log,原因未知
+samba,oe_test_service_ctdb,fail,./mugen-riscv/logs/samba/oe_test_service_ctdb/2023-09-27-09_42_58.log,ctdb systemd 启动失败，原因未知
+systemd,oe_test_service_systemd-modules-load,fail,./mugen-riscv/logs/systemd/oe_test_service_systemd-modules-load/2023-09-27-18_56_03.log,失败原因未知
+,oe_test_socket_systemd-journald-audit,fail,./mugen-riscv/logs/systemd/oe_test_socket_systemd-journald-audit/2023-09-27-19_15_37.log,"报 Socket service systemd-journald.service already active, refusing."
+cockpit,oe_test_service_cockpit,fail_x86NotTest,./mugen-riscv/logs/cockpit/oe_test_service_cockpit/2023-09-27-14_32_01.log,cockpit 不在支持范围
+,oe_test_socket_cockpit,fail_x86NotTest,./mugen-riscv/logs/cockpit/oe_test_socket_cockpit/2023-09-27-14_33_13.log,cockpit 不在支持范围
+,oe_test_service_cockpit-wsinstance-http,fail_x86NotTest,./mugen-riscv/logs/cockpit/oe_test_service_cockpit-wsinstance-http/2023-09-27-14_34_25.log,cockpit 不在支持范围
+kexec-tools,oe_test_service_kdump,fail_x86NotTest,./mugen-riscv/logs/kexec-tools/oe_test_service_kdump/2023-09-27-16_26_35.log,kexec-tools 不在支持范围
+ipvsadm,oe_test_ipvs_SCEN_DR_05,fail,./mugen-riscv/logs/ipvsadm/oe_test_ipvs_SCEN_DR_05/2023-09-27-16_06_02.log,httpd 启动失败
+,oe_test_ipvs_SCEN_TUN_05,fail,./mugen-riscv/logs/ipvsadm/oe_test_ipvs_SCEN_TUN_05/2023-09-27-16_41_30.log,file missing/timeout
+,oe_test_ipvs_SCEN_TUN_06,fail,./mugen-riscv/logs/ipvsadm/oe_test_ipvs_SCEN_TUN_06/2023-09-27-16_46_15.log,file missing/timeout
+,oe_test_ipvs_SCEN_DR_06,fail,./mugen-riscv/logs/ipvsadm/oe_test_ipvs_SCEN_DR_06/2023-09-27-16_10_07.log,file missing/timeout
+strongswan,oe_test_service_strongswan-starter,fail,./mugen-riscv/logs/strongswan/oe_test_service_strongswan-starter/2023-09-27-12_38_03.log,plugin 'openssl': failedd  to load - openssl_plugin_create returned NULL
+dnf,oe_test_dnf_check_diffenert-packages,fail,./mugen-riscv/logs/dnf/oe_test_dnf_check_diffenert-packages/2023-09-27-09_46_33.log,None
+,oe_test_dnf_provides_randomwait,fail,./mugen-riscv/logs/dnf/oe_test_dnf_provides_randomwait/2023-09-27-10_14_04.log,没有对riscv架构进行适配
+freeradius,oe_test_freeradius_freeradius-utils_radlastAndRadsniff,fail,./mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radlastAndRadsniff/2023-09-27-13_01_05.log,（未验证）line34 由 -gt 改为 -ge ，手动重新测试可以通过
+,oe_test_freeradius_freeradius-utils_radclient2,fail,./mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient2/2023-09-27-12_50_51.log,（未验证）line43 由 -eq 改为 -le ，手动重新测试可以通过
+,oe_test_freeradius_freeradius-utils_radsqlrelay,fail,./mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radsqlrelay/2023-09-27-13_32_51.log,file missing/timeout
+,oe_test_freeradius_freeradius-utils_radclient,fail,./mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_radclient/2023-09-27-12_47_30.log,
+,oe_test_freeradius_freeradius_radiusd,fail,./mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_radiusd/2023-09-27-12_46_16.log,file missing
+,oe_test_freeradius_freeradius-utils_rad_counter,fail,./mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius-utils_rad_counter/2023-09-27-12_53_39.log,file missing
+,oe_test_freeradius_freeradius_radiusdAndRadmin,fail,./mugen-riscv/logs/freeradius/oe_test_freeradius_freeradius_radiusdAndRadmin/2023-09-27-12_46_55.log,file missing
+kernel,oe_test_service_cpupower,fail,./mugen-riscv/logs/kernel/oe_test_service_cpupower/2023-09-27-09_39_23.log,需要硬件支持
+,oe_test_nbd,fail,./mugen-riscv/logs/kernel/oe_test_nbd/2023-09-27-09_44_07.log,（未验证）在 rmmod 前添加 SLEEP_WAIT 10 重测通过
+net-tools,oe_test_service_arp-ethers,fail,./mugen-riscv/logs/net-tools/oe_test_service_arp-ethers/2023-09-27-14_21_31.log,file missing/systemd unit restart failure/systemd unit runtime error/systemd unit enable failure
+clevis,oe_test_tang_nbde,fail,./mugen-riscv/logs/clevis/oe_test_tang_nbde/2023-09-27-15_38_56.log,file missing
+,oe_test_install_clevis,fail,./mugen-riscv/logs/clevis/oe_test_install_clevis/2023-09-27-15_36_40.log,file missing
+rpmdevtools,oe_test_rpmdevtools_rpmdev-wipetree,fail,./mugen-riscv/logs/rpmdevtools/oe_test_rpmdevtools_rpmdev-wipetree/2023-09-27-15_29_02.log,Broken testcase/timeout
+os-storage,oe_test_storage_smb_network_latency,fail,./mugen-riscv/logs/os-storage/oe_test_storage_smb_network_latency/2023-09-27-20_20_14.log,timeout
+,oe_test_storage_nfs_configure_nfsv4,fail,./mugen-riscv/logs/os-storage/oe_test_storage_nfs_configure_nfsv4/2023-09-27-19_38_13.log,file missing/timeout
+,oe_test_storage_nfs_repeat_restartServer,fail,./mugen-riscv/logs/os-storage/oe_test_storage_nfs_repeat_restartServer/2023-09-27-19_08_07.log,file missing/timeout
+,oe_test_storage_smb_credential_files,fail,./mugen-riscv/logs/os-storage/oe_test_storage_smb_credential_files/2023-09-27-20_19_06.log,timeout
+openvswitch,oe_test_service_ovsdb-server,fail,./mugen-riscv/logs/openvswitch/oe_test_service_ovsdb-server/2023-09-27-12_55_23.log,systemd unit restart failure/systemd unit runtime error
+,oe_test_service_ovs-vswitchd,fail,./mugen-riscv/logs/openvswitch/oe_test_service_ovs-vswitchd/2023-09-27-12_56_03.log,（未验证）openvswitch的spec有问题：当不构建dpdk子包时，openvswitch安装列表中没有ovs-vswitchd文件、而只有ovs-vswitchd.nodpdk，导致服务启动失败。手动建立这个符号链接测试通过
+,oe_test_service_openvswitch,fail,./mugen-riscv/logs/openvswitch/oe_test_service_openvswitch/2023-09-27-12_54_34.log,systemd unit restart failure/systemd unit runtime error
+haveged,oe_test_service_haveged,fail_x86NotTest,./mugen-riscv/logs/haveged/oe_test_service_haveged/2023-09-27-16_22_50.log,None
+qperf,oe_test_qperf_01,fail_x86NotTest,./mugen-riscv/logs/qperf/oe_test_qperf_01/2023-09-27-16_59_05.log,
