@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# MUGEN_DIR=/home/hachi/mugen/mugen
+MUGEN_DIR=/home/hachi/mugen/mugen
 
 WORKING_DIR=/home/hachi/mugen/com/workingDir
-QEMU_QCOW2=/home/hachi/mugen/qemu-img-rc3/workingDir/mugen-ready.qcow2
-QEMU_BIOS=/home/hachi/mugen/qemu-img-rc3/workingDir/fw_payload_oe_uboot_2304.bin
+QEMU_QCOW2=/home/hachi/mugen/qemu-img-rc4/workingDir/mugen-ready.qcow2
+QEMU_BIOS=/home/hachi/mugen/qemu-img-rc4/workingDir/fw_payload_oe_uboot_2304.bin
 QEMU_SMP=4
 QEMU_MEM=4
 QEMU_PASSWD=openEuler12#$
@@ -197,7 +197,7 @@ for ((hostn=0; hostn<$hostc; hostn++)); do
 		SSH_CMD $FREE_PORT $QEMU_PASSWD "nmcli c m $nic ipv4.gateway $BRIDGE_IP"
 		SSH_CMD $FREE_PORT $QEMU_PASSWD "nmcli c m $nic ipv4.method manual"
 		SSH_CMD $FREE_PORT $QEMU_PASSWD "nmcli c up $nic"
-		SSH_CMD $FREE_PORT $QEMU_PASSWD "rm -f /root/mugen/conf/env.conf"
+		SSH_CMD $FREE_PORT $QEMU_PASSWD "rm -f /root/mugen/conf/env.json"
 		SSH_CMD $FREE_PORT $QEMU_PASSWD "bash /root/mugen/mugen.sh -c --user root --password $QEMU_PASSWD --ip "`printf "$TAP_IP%d" $FREE_IP`
 		((FREE_IP++))
 		rm $tmpf
