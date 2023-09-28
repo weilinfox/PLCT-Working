@@ -1,0 +1,311 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Thu Sep 28 11:07:06 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL 'freeradius freeradius-utils perl-DBD-MySQL mysql5 mysql5-server freeradius-mysql'
++ pkgs='freeradius freeradius-utils perl-DBD-MySQL mysql5 mysql5-server freeradius-mysql'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'freeradius freeradius-utils perl-DBD-MySQL mysql5 mysql5-server freeradius-mysql' --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: 1 day, 2:08:23 ago on Wed 27 Sep 2023 08:59:17 AM CST.
+Package freeradius-3.0.26-1.oe2309.riscv64 is already installed.
+Package perl-DBD-MySQL-4.050-4.oe2309.riscv64 is already installed.
+Error: 
+ Problem: problem with installed package mariadb-4:10.5.22-1.oe2309.riscv64
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from @System
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from OS
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from EPOL
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from everything
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from debuginfo
+  - cannot install the best candidate for the job
+(try to add '\''--allowerasing'\'' to command line to replace conflicting packages or '\''--skip-broken'\'' to skip uninstallable packages or '\''--nobest'\'' to use not only best candidate packages)'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: 1 day, 2:08:23 ago on Wed 27 Sep 2023 08:59:17 AM CST.
+Package freeradius-3.0.26-1.oe2309.riscv64 is already installed.
+Package perl-DBD-MySQL-4.050-4.oe2309.riscv64 is already installed.
+Error: 
+ Problem: problem with installed package mariadb-4:10.5.22-1.oe2309.riscv64
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from @System
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from OS
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from EPOL
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from everything
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from debuginfo
+  - cannot install the best candidate for the job
+(try to add '\''--allowerasing'\'' to command line to replace conflicting packages or '\''--skip-broken'\'' to skip uninstallable packages or '\''--nobest'\'' to use not only best candidate packages)'
++ systemctl start mysqld
+Failed to start mysqld.service: Unit mysqld.service not found.
++ SLEEP_WAIT 2
++ wait_time=2
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 2 --cmd '' --mode 1
++ mysqladmin -uroot password Test123
+mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)'
+Check that mysqld is running and that the socket: '/var/lib/mysql/mysql.sock' exists!
++ mysql -uroot -pTest123 -e 'create database radius;
+                               use radius;
+                               source /etc/raddb/mods-config/sql/main/mysql/schema.sql;                       
+    '
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
++ sed -i 's/driver = "rlm_sql_null"/driver = "rlm_sql_mysql"/g' /etc/raddb/mods-available/sql
+sed: can't read /etc/raddb/mods-available/sql: No such file or directory
++ sed -i 's/dialect = "sqlite"/dialect = "mysql"/g' /etc/raddb/mods-available/sql
+sed: can't read /etc/raddb/mods-available/sql: No such file or directory
++ sed -i '/server = "localhost"/a server = "localhost"' /etc/raddb/mods-available/sql
+sed: can't read /etc/raddb/mods-available/sql: No such file or directory
++ sed -i '/port = 3306/a port = 3306' /etc/raddb/mods-available/sql
+sed: can't read /etc/raddb/mods-available/sql: No such file or directory
++ sed -i '/login = "radius"/a login = "root"' /etc/raddb/mods-available/sql
+sed: can't read /etc/raddb/mods-available/sql: No such file or directory
++ sed -i '/password = "radpass"/a password = "Test123"' /etc/raddb/mods-available/sql
+sed: can't read /etc/raddb/mods-available/sql: No such file or directory
++ ln -s /etc/raddb/mods-available/sql /etc/raddb/mods-enabled/
+ln: failed to create symbolic link '/etc/raddb/mods-enabled/': No such file or directory
++ echo 'insert into radcheck (username,attribute,op,value) values ('\''wjf'\'','\''Cleartext-Password'\'','\'':='\'','\''wjf123'\'');'
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Thu Sep 28 11:07:45 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Thu Sep 28 11:07:46 2023 - INFO  - Start to run test.
++ grep usage
++ radsqlrelay '-?'
++ CHECK_RESULT 1 0 0 'radsqlrelay -? execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radsqlrelay -? execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radsqlrelay -? execution failed.'
++ LOG_ERROR 'radsqlrelay -? execution failed.'
++ message='radsqlrelay -? execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radsqlrelay -? execution failed.'
+Thu Sep 28 11:07:46 2023 - ERROR - radsqlrelay -? execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 48'
++ message='oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 48'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 48'
+Thu Sep 28 11:07:46 2023 - ERROR - oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 48
++ '[' 0 -eq 1 ']'
++ return 0
++ radsqlrelay -1 -d mysql -b radius -h localhost -p Test123 -u root /tmp/radius.sql
+oe_test_freeradius_freeradius-utils_radsqlrelay.sh: line 49: radsqlrelay: command not found
++ mysql -uroot -pTest123 -e 'use radius;
+                               select * from radcheck where username='\''wjf'\'';
+    '
++ grep wjf
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
++ CHECK_RESULT 1 0 0 'radsqlrelay -1 -d -b -h -p -u execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radsqlrelay -1 -d -b -h -p -u execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radsqlrelay -1 -d -b -h -p -u execution failed.'
++ LOG_ERROR 'radsqlrelay -1 -d -b -h -p -u execution failed.'
++ message='radsqlrelay -1 -d -b -h -p -u execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radsqlrelay -1 -d -b -h -p -u execution failed.'
+Thu Sep 28 11:07:47 2023 - ERROR - radsqlrelay -1 -d -b -h -p -u execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 53'
++ message='oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 53'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 53'
+Thu Sep 28 11:07:47 2023 - ERROR - oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 53
++ '[' 0 -eq 1 ']'
++ return 0
++ echo Test123
++ mysql -uroot -pTest123 -e 'use radius;
+                               delete from radcheck where username='\''wjf'\'';
+    '
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
++ echo 'insert into radcheck (username,attribute,op,value) values ('\''wjf'\'','\''Cleartext-Password'\'','\'':='\'','\''wjf123'\'');'
++ radsqlrelay -1 -d mysql -b radius -h localhost -f /tmp/passwdfile.txt -u root /tmp/radius.sql
+oe_test_freeradius_freeradius-utils_radsqlrelay.sh: line 59: radsqlrelay: command not found
++ mysql -uroot -pTest123 -e 'use radius;
+                               select * from radcheck where username='\''wjf'\'';
+    '
++ grep wjf
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
++ CHECK_RESULT 1 0 0 'radsqlrelay -f execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radsqlrelay -f execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radsqlrelay -f execution failed.'
++ LOG_ERROR 'radsqlrelay -f execution failed.'
++ message='radsqlrelay -f execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radsqlrelay -f execution failed.'
+Thu Sep 28 11:07:48 2023 - ERROR - radsqlrelay -f execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 63'
++ message='oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 63'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 63'
+Thu Sep 28 11:07:49 2023 - ERROR - oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 63
++ '[' 0 -eq 1 ']'
++ return 0
++ mysql -uroot -pTest123 -e 'use radius;
+                               delete from radcheck where username='\''wjf'\'';
+    '
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
++ echo 'insert into radcheck (username,attribute,op,value) values ('\''wjf'\'','\''Cleartext-Password'\'','\'':='\'','\''wjf123'\'');'
++ radsqlrelay -1 -d mysql -b radius -h 127.0.0.1 -p Test123 -u root -P 3306 /tmp/radius.sql
+oe_test_freeradius_freeradius-utils_radsqlrelay.sh: line 68: radsqlrelay: command not found
++ mysql -uroot -pTest123 -e 'use radius;
+                               select * from radcheck where username='\''wjf'\'';
+    '
++ grep wjf
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
++ CHECK_RESULT 1 0 0 'radsqlrelay -P execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radsqlrelay -P execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radsqlrelay -P execution failed.'
++ LOG_ERROR 'radsqlrelay -P execution failed.'
++ message='radsqlrelay -P execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radsqlrelay -P execution failed.'
+Thu Sep 28 11:07:49 2023 - ERROR - radsqlrelay -P execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 72'
++ message='oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 72'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 72'
+Thu Sep 28 11:07:50 2023 - ERROR - oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 72
++ '[' 0 -eq 1 ']'
++ return 0
++ mysql -uroot -pTest123 -e 'use radius;
+                               delete from radcheck where username='\''wjf'\'';
+    '
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
++ echo 'insert into radcheck (username,attribute,op,value) values ('\''wjf'\'','\''Cleartext-Password'\'','\'':='\'','\''wjf123'\'');'
++ radsqlrelay -1 -d mysql -b radius -h localhost -p Test123 -u root -x /tmp/radius.sql
++ grep 'Connecting to DBI'
+oe_test_freeradius_freeradius-utils_radsqlrelay.sh: line 77: radsqlrelay: command not found
++ CHECK_RESULT 1 0 0 'radsqlrelay -x execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='radsqlrelay -x execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'radsqlrelay -x execution failed.'
++ LOG_ERROR 'radsqlrelay -x execution failed.'
++ message='radsqlrelay -x execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'radsqlrelay -x execution failed.'
+Thu Sep 28 11:07:50 2023 - ERROR - radsqlrelay -x execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 78'
++ message='oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 78'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 78'
+Thu Sep 28 11:07:51 2023 - ERROR - oe_test_freeradius_freeradius-utils_radsqlrelay.sh line 78
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Thu Sep 28 11:07:51 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 5
++ test 5 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Thu Sep 28 11:07:52 2023 - ERROR - failed to execute the case.
++ exit 5
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Thu Sep 28 11:07:52 2023 - INFO  - Start to restore the test environment.
++ systemctl stop mysqld
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
++ SLEEP_WAIT 2
++ wait_time=2
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 2 --cmd '' --mode 1
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: 1 day, 2:08:23 ago on Wed 27 Sep 2023 08:59:17 AM CST.
+Package freeradius-3.0.26-1.oe2309.riscv64 is already installed.
+Package perl-DBD-MySQL-4.050-4.oe2309.riscv64 is already installed.
+Error: 
+ Problem: problem with installed package mariadb-4:10.5.22-1.oe2309.riscv64
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from @System
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from OS
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from EPOL
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from everything
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from debuginfo
+  - cannot install the best candidate for the job
+(try to add '--allowerasing' to command line to replace conflicting packages or '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages) ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: 1 day, 2:08:23 ago on Wed 27 Sep 2023 08:59:17 AM CST.
+Package freeradius-3.0.26-1.oe2309.riscv64 is already installed.
+Package perl-DBD-MySQL-4.050-4.oe2309.riscv64 is already installed.
+Error: 
+ Problem: problem with installed package mariadb-4:10.5.22-1.oe2309.riscv64
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from @System
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from OS
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from EPOL
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from everything
+  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from debuginfo
+  - cannot install the best candidate for the job
+(try to add '\''--allowerasing'\'' to command line to replace conflicting packages or '\''--skip-broken'\'' to skip uninstallable packages or '\''--nobest'\'' to use not only best candidate packages)'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 192, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 163, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 1 day, 2:08:23 ago on Wed 27 Sep 2023 08:59:17 AM CST.\nPackage freeradius-3.0.26-1.oe2309.riscv64 is already installed.\nPackage perl-DBD-MySQL-4.050-4.oe2309.riscv64 is already installed.\nError: \n Problem: problem with installed package mariadb-4:10.5.22-1.oe2309.riscv64\n  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from @System\n  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from OS\n  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from EPOL\n  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from everything\n  - package mysql5-5.7.43-1.oe2309.riscv64 from OS conflicts with mariadb provided by mariadb-4:10.5.22-1.oe2309.riscv64 from debuginfo\n  - cannot install the best candidate for the job\n(try to add '--allowerasing' to command line to replace conflicting packages or '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)"
++ '[' 0 -ne 0 ']'
++ rm -rf /var/lib/mysql
++ rm -rf /etc/raddb
++ rm -rf /var/log/radius
++ rm -rf /tmp/passwdfile.txt
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Thu Sep 28 11:07:57 2023 - INFO  - End to restore the test environment.

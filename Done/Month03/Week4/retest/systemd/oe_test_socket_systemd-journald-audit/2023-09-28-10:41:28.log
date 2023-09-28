@@ -1,0 +1,31 @@
+Thu Sep 28 10:41:32 2023 - INFO  - Start environmental preparation.
+Warning: Stopping systemd-journald.service, but it can still be activated by:
+  systemd-journald.socket
+Thu Sep 28 10:41:34 2023 - INFO  - End of environmental preparation!
+Thu Sep 28 10:41:34 2023 - INFO  - Start testing...
+     Active: active (running) since Thu 2023-09-28 10:41:34 CST; 5s ago
+     Active: inactive (dead) since Thu 2023-09-28 10:41:40 CST; 5s ago
+Job failed. See "journalctl -xe" for details.
+Thu Sep 28 10:41:46 2023 - ERROR - systemd-journald-audit.socket start failed
+Thu Sep 28 10:41:47 2023 - ERROR - ../common/common_lib.sh line 44
+Thu Sep 28 10:41:53 2023 - ERROR - systemd-journald-audit.socket start failed
+Thu Sep 28 10:41:53 2023 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/sockets.target.wants/systemd-journald-audit.socket
+/etc/systemd/system/systemd-journald.service.wants/systemd-journald-audit.socket
+Removed "/etc/systemd/system/sockets.target.wants/systemd-journald-audit.socket".
+Removed "/etc/systemd/system/systemd-journald.service.wants/systemd-journald-audit.socket".
+find: ‘/etc/systemd/system/sockets.target.wants/systemd-journald-audit.socket’: No such file or directory
+find: ‘/etc/systemd/system/systemd-journald.service.wants/systemd-journald-audit.socket’: No such file or directory
+Sep 28 10:41:46 openeuler-riscv64 systemd[1]: Failed to listen on Journal Audit Socket.
+Thu Sep 28 10:42:01 2023 - ERROR - There is an error message for the log of systemd-journald-audit.socket
+Thu Sep 28 10:42:02 2023 - ERROR - ../common/common_lib.sh line 28
+Job failed. See "journalctl -xe" for details.
+Failed to reload systemd-journald-audit.socket: Job type reload is not applicable for unit systemd-journald-audit.socket.
+     Active: inactive (dead) since Thu 2023-09-28 10:41:40 CST; 22s ago
+Thu Sep 28 10:42:03 2023 - ERROR - systemd-journald-audit.socket reload causes the service status to change
+Thu Sep 28 10:42:03 2023 - ERROR - ../common/common_lib.sh line 95
+Thu Sep 28 10:42:04 2023 - INFO  - Finish test!
+Thu Sep 28 10:42:04 2023 - ERROR - failed to execute the case.
+Thu Sep 28 10:42:05 2023 - INFO  - Start environment cleanup.
+Job failed. See "journalctl -xe" for details.
+Thu Sep 28 10:42:06 2023 - INFO  - Finish environment cleanup!

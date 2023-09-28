@@ -1,0 +1,9 @@
+Thu Sep 28 10:41:20 2023 - INFO  - Start testing...
+Thu Sep 28 10:41:21 2023 - INFO  - systemd-modules-load.service is an early boot service that loads kernel modules based on static configuration.
+     Active: active (exited) since Thu 2023-09-28 10:33:44 CST; 7min ago
+Thu Sep 28 10:41:22 2023 - ERROR - There is an error for the status of systemd-modules-load.service
+Thu Sep 28 10:41:22 2023 - ERROR - ../common/common_lib.sh line 54
+Thu Sep 28 10:41:23 2023 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Thu Sep 28 10:41:23 2023 - INFO  - Finish test!
+Thu Sep 28 10:41:24 2023 - ERROR - failed to execute the case.
+Thu Sep 28 10:41:24 2023 - INFO  - oe_test_service_systemd-modules-load.sh post_test

@@ -1,0 +1,495 @@
+(1/1) => gcc
+gcc-12.3.1-16.oe2309.riscv64
+	/usr/bin/gcc	PIC
+	/usr/bin/gcc-ar	PIC
+	/usr/bin/gcc-nm	PIC
+	/usr/bin/gcc-ranlib	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc-12	PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/collect2	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto-wrapper	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto1	PIC
++ CHECK_RESULT 0 0 0 'Failed option: -v'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -v'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -q gcc
++ grep 'gcc.*'
+gcc-12.3.1-16.oe2309.riscv64
+	/usr/bin/gcc
+	/usr/bin/gcc-ar
+	/usr/bin/gcc-nm
+	/usr/bin/gcc-ranlib
+	/usr/bin/riscv64-openEuler-linux-gcc
+	/usr/bin/riscv64-openEuler-linux-gcc-12
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/collect2
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto-wrapper
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto1
++ CHECK_RESULT 0 0 0 'Failed option: -q'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -q'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -qq gcc
++ grep 'gcc.*'
+gcc-12.3.1-16.oe2309.riscv64
+	/usr/bin/gcc
+	/usr/bin/gcc-ar
+	/usr/bin/gcc-nm
+	/usr/bin/gcc-ranlib
+	/usr/bin/riscv64-openEuler-linux-gcc
+	/usr/bin/riscv64-openEuler-linux-gcc-12
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/collect2
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto-wrapper
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto1
++ CHECK_RESULT 0 0 0 'Failed option: -qq'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -qq'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -e gcc
++ grep /usr/bin
++ grep -A 20 'gcc.*'
+	/usr/bin/gcc	PIC
+	/usr/bin/gcc-ar	PIC
+	/usr/bin/gcc-nm	PIC
+	/usr/bin/gcc-ranlib	PIC
+	/usr/bin/gcov	PIC
+	/usr/bin/gcov-dump	PIC
+	/usr/bin/gcov-tool	PIC
+	/usr/bin/lto-dump	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc-12	PIC
++ CHECK_RESULT 0 0 0 'Failed option: -e'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -e'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -l gcc
++ grep -A 20 'gcc.*'
++ grep /usr/lib
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so	DSO PIC
++ CHECK_RESULT 0 0 0 'Failed option: -l'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -l'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -p gcc
++ grep PIC
+	/usr/bin/gcc	PIC
+	/usr/bin/gcc-ar	PIC
+	/usr/bin/gcc-nm	PIC
+	/usr/bin/gcc-ranlib	PIC
+	/usr/bin/gcov	PIC
+	/usr/bin/gcov-dump	PIC
+	/usr/bin/gcov-tool	PIC
+	/usr/bin/lto-dump	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc-12	PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/collect2	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto-wrapper	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto1	PIC
++ CHECK_RESULT 0 0 0 'Failed option: -p'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -p'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -np gcc
++ CHECK_RESULT 0 0 0 'Failed option: -np'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -np'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -P gcc
++ CHECK_RESULT 0 0 0 'Failed option: -P'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -P'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -nP gcc
++ CHECK_RESULT 0 0 0 'Failed option: -nP'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -nP'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -r gcc
++ CHECK_RESULT 0 0 0 'Failed option: -r'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -r'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -ro gcc
++ grep PIC
+	/usr/bin/gcc	PIC
+	/usr/bin/gcc-ar	PIC
+	/usr/bin/gcc-nm	PIC
+	/usr/bin/gcc-ranlib	PIC
+	/usr/bin/gcov	PIC
+	/usr/bin/gcov-dump	PIC
+	/usr/bin/gcov-tool	PIC
+	/usr/bin/lto-dump	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc-12	PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/collect2	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto-wrapper	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto1	PIC
++ CHECK_RESULT 0 0 0 'Failed option: -ro'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -ro'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -s -o record1 gcc-12.3.1-16.oe2309.riscv64.rpm
+++ ls -l record1.dso_pic record1.pic
+++ wc -l
++ num_record1=2
++ test 2 -ge 1
++ CHECK_RESULT 0 0 0 'Failed option: -s '
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -s '
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -t gcc
++ grep PIC
+	/usr/bin/gcc	PIC
+	/usr/bin/gcc-ar	PIC
+	/usr/bin/gcc-nm	PIC
+	/usr/bin/gcc-ranlib	PIC
+	/usr/bin/gcov	PIC
+	/usr/bin/gcov-dump	PIC
+	/usr/bin/gcov-tool	PIC
+	/usr/bin/lto-dump	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc-12	PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/collect2	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto-wrapper	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto1	PIC
++ CHECK_RESULT 0 0 0 'Failed option: -t'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -t'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpminfo -T ./tmp_dir gcc-12.3.1-16.oe2309.riscv64.rpm
+
+gcc-12.3.1-16.oe2309.riscv64
+	/usr/bin/gcc	PIC
+	/usr/bin/gcc-ar	PIC
+	/usr/bin/gcc-nm	PIC
+	/usr/bin/gcc-ranlib	PIC
+	/usr/bin/gcov	PIC
+	/usr/bin/gcov-dump	PIC
+	/usr/bin/gcov-tool	PIC
+	/usr/bin/lto-dump	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc	PIC
+	/usr/bin/riscv64-openEuler-linux-gcc-12	PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbegin.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtbeginT.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtend.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtendS.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crti.o	DSO PIC
+	/usr/lib/gcc/riscv64-openEuler-linux/12/crtn.o	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/collect2	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/liblto_plugin.so	DSO PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto-wrapper	PIC
+	/usr/libexec/gcc/riscv64-openEuler-linux/12/lto1	PIC
++ rpmls -l CUnit-2.1.3-24.oe2309.riscv64.rpm
++ grep ''
+-rw-r--r--  root     root     /etc/ima/digest_lists.tlv/0-metadata_list-compact_tlv-CUnit-2.1.3-24.oe2309.riscv64
+-rw-r--r--  root     root     /etc/ima/digest_lists/0-metadata_list-compact-CUnit-2.1.3-24.oe2309.riscv64
+lrwxrwxrwx  root     root     /usr/lib64/libcunit.so.1
+-rwxr-xr-x  root     root     /usr/lib64/libcunit.so.1.0.1
+drwxr-xr-x  root     root     /usr/share/CUnit
+-rw-r--r--  root     root     /usr/share/CUnit/CUnit-List.dtd
+-rw-r--r--  root     root     /usr/share/CUnit/CUnit-List.xsl
+-rw-r--r--  root     root     /usr/share/CUnit/CUnit-Run.dtd
+-rw-r--r--  root     root     /usr/share/CUnit/CUnit-Run.xsl
+-rw-r--r--  root     root     /usr/share/CUnit/Memory-Dump.dtd
+-rw-r--r--  root     root     /usr/share/CUnit/Memory-Dump.xsl
+drwxr-xr-x  root     root     /usr/share/CUnit/Test
+-rwxr-xr-x  root     root     /usr/share/CUnit/Test/test_cunit
+drwxr-xr-x  root     root     /usr/share/doc/CUnit
+-rw-r--r--  root     root     /usr/share/doc/CUnit/AUTHORS
+-rw-r--r--  root     root     /usr/share/doc/CUnit/COPYING
+-rw-r--r--  root     root     /usr/share/doc/CUnit/ChangeLog
+-rw-r--r--  root     root     /usr/share/doc/CUnit/NEWS
+-rw-r--r--  root     root     /usr/share/doc/CUnit/README
+-rw-r--r--  root     root     /usr/share/doc/CUnit/TODO
+-rw-r--r--  root     root     /usr/share/doc/CUnit/VERSION
++ CHECK_RESULT 0 0 0 'Failed command: rpmls'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed command: rpmls'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmpeek -h
++ grep -A 1 Usage:
++ grep rpmpeek
+    rpmpeek [-n] [-h] RPM command [args...]
++ CHECK_RESULT 0 0 0 'Failed option: -h'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -h'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmpeek CUnit-2.1.3-24.oe2309.riscv64.rpm ls -l
++ grep usr
+drwxr-xr-x 4 root root 80 Sep 28 12:13 usr
++ CHECK_RESULT 0 0 0 'Failed command: rpmpeek'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed command: rpmpeek'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmpeek -n CUnit-2.1.3-24.oe2309.riscv64.rpm ls -l
+total 0
+drwxr-xr-x 3 root root 60 Sep 28 12:13 etc
+drwxr-xr-x 4 root root 80 Sep 28 12:13 usr
++ CHECK_RESULT 0 0 0 'Failed option: -n'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -n'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmsodiff -h
++ grep -A 1 Usage:
++ grep rpmsodiff
+    rpmsodiff [-h] libname-v1-alt1.i586.rpm libname-v2-alt2.i586.rpm
++ CHECK_RESULT 0 0 0 'Failed option: -h'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -h'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmsodiff CUnit-2.1.3-24.oe2309.riscv64.rpm CUnit-2.1.3-24.oe2309.riscv64.rpm
+	common sonames:
+libcunit.so.1	/usr/lib64/libcunit.so.1.0.1	/usr/lib64/libcunit.so.1.0.1
+
+libcunit.so.1 definitions unchanged
+
+vim:ft=diff
++ CHECK_RESULT 0 0 0 'Failed command: rpmsodiff'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed command: rpmsodiff'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmsoname -h
++ grep -A 1 Usage:
++ grep rpmsoname
+    rpmsoname [-h] [options] [FILE...] [DIR...]
++ CHECK_RESULT 0 0 0 'Failed option: -h'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -h'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmsoname -p CUnit-2.1.3-24.oe2309.riscv64.rpm
++ grep /usr/lib64
+/usr/lib64/libcunit.so.1.0.1	libcunit.so.1
++ CHECK_RESULT 0 0 0 'Failed option: -p'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed option: -p'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ rpmsoname CUnit-2.1.3-24.oe2309.riscv64.rpm
++ grep /usr
+/usr/lib64/libcunit.so.1.0.1	libcunit.so.1
++ CHECK_RESULT 0 0 0 'Failed command: rpmsoname'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Failed command: rpmsoname'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Thu Sep 28 12:13:39 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 1
++ test 1 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Thu Sep 28 12:13:40 2023 - ERROR - failed to execute the case.
++ exit 1
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Thu Sep 28 12:13:40 2023 - INFO  - Start to restore the test environment.
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z '' ]]
++ [[ -z '' ]]
++ LOG_WARN 'no thing to do.'
++ message='no thing to do.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Thu Sep 28 12:13:41 2023 - WARN  - no thing to do.
++ return 0
++ userdel -rf user_test
++ rm -rf /ALT CUnit-2.1.3-24.oe2309.riscv64.rpm gcc-12.3.1-16.oe2309.riscv64.rpm record record1.dso_pic record1.pic ./tmp_dir
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Thu Sep 28 12:13:42 2023 - INFO  - End to restore the test environment.

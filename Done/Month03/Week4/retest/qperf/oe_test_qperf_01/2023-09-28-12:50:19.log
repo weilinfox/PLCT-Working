@@ -1,0 +1,55 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Thu Sep 28 12:50:23 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL qperf
++ pkgs=qperf
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs qperf --node 1 --tempfile ''
+Thu Sep 28 12:50:32 2023 - INFO  - pkgs:(qperf) is already installed
++ tmpfile2=
++ '[' -z '' ']'
++ tmpfile=
++ DNF_INSTALL qperf 2
++ pkgs=qperf
++ node=2
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs qperf --node 2 --tempfile ''
+Thu Sep 28 12:50:46 2023 - INFO  - pkgs:(qperf) is already installed
++ tmpfile2=
++ '[' -z '' ']'
++ tmpfile=
++ SSH_CMD 'systemctl stop firewalld && nohup qperf &' 10.0.0.3 'openEuler12#$' root
++ cmd='systemctl stop firewalld && nohup qperf &'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'systemctl stop firewalld && nohup qperf &' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Thu Sep 28 12:50:47 2023 - WARN  - the remote user uses the default configuration.
+Thu Sep 28 12:50:48 2023 - WARN  - the remote password uses the default configuration.
+Thu Sep 28 12:50:48 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=0 -p 22 root@10.0.0.3 systemctl stop firewalld && nohup qperf &
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+Thu Sep 28 13:20:19 2023 - ERROR - Timeout : Command 'bash -x oe_test_qperf_01.sh' timed out after 1799.9998507970004 seconds
