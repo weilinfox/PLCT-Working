@@ -1,0 +1,150 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ grep expect
++ rpm -qa
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Tue Oct 10 16:42:54 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL iSulad
++ pkgs=iSulad
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs iSulad --node 1 --tempfile ''
+Tue Oct 10 16:43:11 2023 - INFO  - pkgs:(iSulad) is already installed
++ tmpfile2=
++ '[' -z '' ']'
++ tmpfile=
++ cp /etc/isulad/daemon.json /etc/isulad/daemon.json.bak
++ sed -i '/registry-mirrors/a\"https:\/\/docker.io\"' /etc/isulad/daemon.json
++ sed -i s/lcr/runc/ /etc/isulad/daemon.json
++ systemctl restart isulad.service
++ isula pull busybox
+Image "busybox" pulling
+Image "a58323eebc13bd1a9d3ca1dd0840d04a45ef0fc58e2c9516d533672f42fa36e1" pulled
++ isula create -it busybox
+7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908
+++ grep -vi NAMES
+++ awk '{print $NF}'
+++ isula ps -a
++ container_id=7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908
++ isula start 7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Tue Oct 10 16:43:28 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Tue Oct 10 16:43:29 2023 - INFO  - Start to run test.
++ test -d testdir
++ mkdir testdir
++ touch testdir/mytest.txt
++ isula cp testdir 7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908:/home
++ CHECK_RESULT 0 0 0 'File copy failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='File copy failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ isula exec -it 7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908 /bin/sh -c 'ls /home/testdir'
+[0;0mmytest.txt[m
++ CHECK_RESULT 0 0 0 'There is no such file or directory'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='There is no such file or directory'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ isula cp 7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908:/home /tmp
++ CHECK_RESULT 0 0 0 'File copy failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='File copy failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ test -f /tmp/home/testdir/mytest.txt
++ CHECK_RESULT 0 0 0 'There is no such file'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='There is no such file'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Tue Oct 10 16:43:33 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Tue Oct 10 16:43:34 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Tue Oct 10 16:43:35 2023 - INFO  - Start to restore the test environment.
++ grep -vi NAMES
++ xargs -I '{}' isula stop '{}'
++ isula ps -a
++ awk '{print $NF}'
+7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908
++ xargs -I '{}' isula rm -f '{}'
++ isula ps -a
++ grep -vi NAMES
++ awk '{print $NF}'
+7b93195e8bbb5041de0464c8c58579b70623b2d42cc52abd4b63f4b8cbf37908
++ isula rmi busybox
+Image "busybox" removed
++ mv -f /etc/isulad/daemon.json.bak /etc/isulad/daemon.json
++ rm -rf testdir /tmp/home
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z '' ]]
++ [[ -z '' ]]
++ LOG_WARN 'no thing to do.'
++ message='no thing to do.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Tue Oct 10 16:43:50 2023 - WARN  - no thing to do.
++ return 0
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Tue Oct 10 16:43:50 2023 - INFO  - End to restore the test environment.
