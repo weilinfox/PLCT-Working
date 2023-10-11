@@ -1,0 +1,154 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 11 15:59:07 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL iSulad
++ pkgs=iSulad
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs iSulad --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpoag320s4
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpoag320s4
++ cp /etc/isulad/daemon.json /etc/isulad/daemon.json.bak
++ sed -i '/registry-mirrors/a\"https:\/\/docker.io\"' /etc/isulad/daemon.json
++ sed -i s/lcr/runc/ /etc/isulad/daemon.json
++ systemctl restart isulad.service
++ isula pull busybox
+Image "busybox" pulling
+Image "a58323eebc13bd1a9d3ca1dd0840d04a45ef0fc58e2c9516d533672f42fa36e1" pulled
++ isula create -it busybox
+49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
+++ isula ps -a
+++ grep -vi NAMES
+++ awk '{print $NF}'
++ container_id=49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ isula start 49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Wed Oct 11 16:00:24 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed Oct 11 16:00:24 2023 - INFO  - Start to run test.
++ isula inspect -f '{{.State.Status}}' 49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ grep -i running
+running
++ CHECK_RESULT 0 0 0 'Container startup failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Container startup failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ isula pause 49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
+49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ isula inspect -f '{{.State.Status}}' 49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ grep -i paused
+paused
++ CHECK_RESULT 0 0 0 'Container paused failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Container paused failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ isula unpause 49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
+49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ isula inspect -f '{{.State.Status}}' 49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ grep -i running
+running
++ CHECK_RESULT 0 0 0 'Container startup failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Container startup failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ isula info
++ grep -i name
+Name: openeuler
++ CHECK_RESULT 0 0 0 'Query failed '
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Query failed '
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 11 16:00:27 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Oct 11 16:00:28 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 11 16:00:28 2023 - INFO  - Start to restore the test environment.
++ isula ps -a
++ grep -vi NAMES
++ awk '{print $NF}'
++ xargs -I '{}' isula stop '{}'
+49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ isula ps -a
++ grep -vi NAMES
++ awk '{print $NF}'
++ xargs -I '{}' isula rm -f '{}'
+49764ea45144c825b7a2efa730c46c1dca372bdc2a411ba9a4569b8fc97f87b1
++ isula rmi busybox
+Image "busybox" removed
++ mv -f /etc/isulad/daemon.json.bak /etc/isulad/daemon.json
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpoag320s4 ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpoag320s4
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 11 16:00:54 2023 - INFO  - End to restore the test environment.
