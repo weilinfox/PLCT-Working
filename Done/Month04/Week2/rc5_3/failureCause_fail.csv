@@ -1,0 +1,12 @@
+测试套/软件包名,测试用例名,状态,日志文件,原因
+,oe_test_intltool_intltool-merge_01,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/intltool/oe_test_intltool_intltool-merge_01/2023-10-10-19_46_33.log,None
+,oe_test_intltool_intltoolize,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/intltool/oe_test_intltool_intltoolize/2023-10-10-19_51_59.log,None
+,oe_test_intltool_intltool-merge_02,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/intltool/oe_test_intltool_intltool-merge_02/2023-10-10-19_47_51.log,None
+,oe_test_intltool_intltool-update,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/intltool/oe_test_intltool_intltool-update/2023-10-10-19_48_43.log,None
+,oe_test_install_clevis,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/clevis/oe_test_install_clevis/2023-10-10-20_27_17.log,file missing
+,oe_test_tang_nbde,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/clevis/oe_test_tang_nbde/2023-10-10-20_30_38.log,file missing
+,oe_test_service_ovsdb-server,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/openvswitch/oe_test_service_ovsdb-server/2023-10-10-19_45_29.log,systemd unit restart failure/systemd unit runtime error
+,oe_test_service_openvswitch,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/openvswitch/oe_test_service_openvswitch/2023-10-10-19_43_48.log,systemd unit restart failure/systemd unit runtime error
+,oe_test_service_ovs-vswitchd,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/openvswitch/oe_test_service_ovs-vswitchd/2023-10-10-19_46_45.log,systemd unit restart failure/systemd unit runtime error
+,oe_test_storage_nfs_repeat_restartServer,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/os-storage/oe_test_storage_nfs_repeat_restartServer/2023-10-10-19_23_12.log,file missing/timeout
+,oe_test_storage_nfs_configure_nfsv4,fail,/home/hachi/Desktop/Work/PLCT-Working/Done/Month04/Week2/rc5_3/logs/os-storage/oe_test_storage_nfs_configure_nfsv4/2023-10-10-19_53_18.log,file missing/timeout
