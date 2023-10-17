@@ -1,0 +1,665 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environmental preparation.'
++ message='Start environmental preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environmental preparation.'
+Tue Oct 17 12:49:33 2023 - INFO  - Start environmental preparation.
++ DNF_INSTALL net-tools
++ pkgs=net-tools
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs net-tools --node 1 --tempfile ''
+Tue Oct 17 12:49:40 2023 - INFO  - pkgs:(net-tools) is already installed
++ tmpfile2=
++ '[' -z '' ']'
++ tmpfile=
++ echo ping NODE2
+ping NODE2
++ ping -c 1 10.0.0.3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=4.40 ms
+
+--- 10.0.0.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.401/4.401/4.401/0.000 ms
++ echo ping NODE1
+ping NODE1
++ ping -c 1 10.0.0.2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=1.82 ms
+
+--- 10.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.819/1.819/1.819/0.000 ms
++ SSH_CMD 'sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld' 10.0.0.3 'openEuler12#$' root
++ cmd='sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 12:49:41 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 12:49:41 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 12:49:42 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+Last metadata expiration check: 1:48:14 ago on Tue Oct 17 11:01:34 2023.
+Dependencies resolved.
+================================================================================
+ Package                     Architecture  Version               Repo      Size
+================================================================================
+Installing:
+ httpd                       riscv64       2.4.55-3.oe2309       OS       1.2 M
+ net-tools                   riscv64       2.10-3.oe2309         OS       201 k
+Installing dependencies:
+ apr                         riscv64       1.7.0-5.oe2309        OS       106 k
+ apr-util                    riscv64       1.6.1-14.oe2309       OS       111 k
+ httpd-filesystem            noarch        2.4.55-3.oe2309       OS        11 k
+ httpd-tools                 riscv64       2.4.55-3.oe2309       OS        69 k
+ mariadb-connector-c         riscv64       3.3.5-1.oe2309        OS       188 k
+ mod_http2                   riscv64       2.0.20-1.oe2309       OS       119 k
+ openEuler-logos-httpd       noarch        1.0-8.oe2309          OS        11 k
+
+Transaction Summary
+================================================================================
+Install  9 Packages
+
+Total download size: 2.0 M
+Installed size: 6.5 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-util-1.6.1-14.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-util-1.6.1-14.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] httpd-2.4.55-3.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/httpd-2.4.55-3.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-util-1.6.1-14.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-util-1.6.1-14.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[FAILED] apr-1.7.0-5.oe2309.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2309.riscv64: Cannot download, all mirrors were already tried without success
+Failed to start httpd.service: Unit httpd.service not found.
++ ret=0
++ test 0 -ne 0
++ return 0
++ sudo systemctl start firewalld
+++ TEST_NIC 1
+++ id=1
+++ python3 /root/mugen/libs/locallibs/get_test_device.py --device nic --node 1
+Tue Oct 17 12:49:56 2023 - INFO  - pkgs:(lshw) is already installed
++ net_cards=enp0s3
+++ echo enp0s3
+++ awk -F ' ' '{print $1}'
++ net_card2=enp0s3
+++ TEST_NIC 2
+++ id=2
+++ python3 /root/mugen/libs/locallibs/get_test_device.py --device nic --node 2
++ remote_net_cards=enp0s3
+++ echo enp0s3
+++ awk -F ' ' '{print $1}'
++ remote_net_card2=enp0s3
+++ sudo firewall-cmd --get-zone-of-interface=enp0s2
++ zone1=public
+++ sudo firewall-cmd --get-zone-of-interface=enp0s3
++ zone2=public
++ echo ping NODE2
+ping NODE2
++ ping -c 1 10.0.0.3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=1.24 ms
+
+--- 10.0.0.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.236/1.236/1.236/0.000 ms
++ echo ping NODE1
+ping NODE1
++ ping -c 1 10.0.0.2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=0.380 ms
+
+--- 10.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.380/0.380/0.380/0.000 ms
++ LOG_INFO 'End of environmental preparation!'
++ message='End of environmental preparation!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of environmental preparation!'
+Tue Oct 17 12:50:52 2023 - INFO  - End of environmental preparation!
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ echo ping NODE4
+ping NODE4
++ ping -c 1 10.0.0.5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=3.94 ms
+
+--- 10.0.0.5 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.938/3.938/3.938/0.000 ms
++ echo ping NODE3
+ping NODE3
++ ping -c 1 10.0.0.4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=2.86 ms
+
+--- 10.0.0.4 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.858/2.858/2.858/0.000 ms
++ echo ping NODE2
+ping NODE2
++ ping -c 1 10.0.0.3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=1.10 ms
+
+--- 10.0.0.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.101/1.101/1.101/0.000 ms
++ echo ping NODE1
+ping NODE1
++ ping -c 1 10.0.0.2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=0.489 ms
+
+--- 10.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.489/0.489/0.489/0.000 ms
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Tue Oct 17 12:50:52 2023 - INFO  - Start executing testcase.
++ sudo ifconfig enp0s3 192.168.100.1/24
++ sudo ifconfig enp0s3 up
++ SSH_CMD 'sudo ifconfig enp0s3 192.168.100.2/24;sudo ifconfig enp0s3 up;sudo route add -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1' 10.0.0.3 'openEuler12#$' root
++ cmd='sudo ifconfig enp0s3 192.168.100.2/24;sudo ifconfig enp0s3 up;sudo route add -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'sudo ifconfig enp0s3 192.168.100.2/24;sudo ifconfig enp0s3 up;sudo route add -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 12:50:53 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 12:50:54 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 12:50:54 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 sudo ifconfig enp0s3 192.168.100.2/24;sudo ifconfig enp0s3 up;sudo route add -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+sudo: ifconfig: command not found
+sudo: ifconfig: command not found
+sudo: route: command not found
++ ret=1
++ test 1 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:1'
++ message='Failed in remote CMD operation:1'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:1'
+Tue Oct 17 12:50:58 2023 - ERROR - Failed in remote CMD operation:1
++ return 1
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ SSH_CMD 'curl http://10.0.0.2' 10.0.0.4 'openEuler12#$' root
++ cmd='curl http://10.0.0.2'
++ remoteip=10.0.0.4
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'curl http://10.0.0.2' -i 10.0.0.4 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 12:51:00 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 12:51:00 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 12:51:01 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.4 curl http://10.0.0.2
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.4's password: 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to 10.0.0.2 port 80 after 4 ms: Couldn't connect to server
++ ret=7
++ test 7 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:7'
++ message='Failed in remote CMD operation:7'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:7'
+Tue Oct 17 12:51:04 2023 - ERROR - Failed in remote CMD operation:7
++ return 7
++ CHECK_RESULT 7 0 1
++ actual_result=7
++ expect_result=0
++ mode=1
++ error_log=
++ exit_mode=0
++ '[' -z 7 ']'
++ '[' 1 -eq 0 ']'
++ test 7x == 0x
++ return 0
++ echo net.ipv4.ip_forward=1
++ sysctl -p
+kernel.sysrq = 0
+net.ipv4.ip_forward = 0
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.default.send_redirects = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv4.conf.all.secure_redirects = 0
+net.ipv4.conf.default.secure_redirects = 0
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+net.ipv4.icmp_ignore_bogus_error_responses = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.tcp_syncookies = 1
+kernel.dmesg_restrict = 1
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv6.conf.default.accept_redirects = 0
+net.ipv4.ip_forward = 1
+net.ipv4.ip_forward = 1
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --zone=external --change-interface=enp0s2
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --zone=internal --change-interface=enp0s3
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --zone=external --add-masquerade
+Warning: ALREADY_ENABLED: masquerade already enabled in 'external'
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -F
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -F
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -t mangle -F
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ grep success
++ sudo firewall-cmd --direct --passthrough ipv4 -X
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -X
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -t mangle -X
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -A INPUT -i lo -j ACCEPT
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -A OUTPUT -o lo -j ACCEPT
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -P INPUT ACCEPT
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -P OUTPUT ACCEPT
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -P FORWARD ACCEPT
++ grep success
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -A PREROUTING -d 10.0.0.2 -p tcp --dport 80 -j DNAT --to-destination 192.168.100.2:80
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -A POSTROUTING -d 192.168.100.2 -p tcp --dport 80 -j SNAT --to 192.168.100.1
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SSH_CMD 'curl http://10.0.0.2' 10.0.0.4 'openEuler12#$' root
++ cmd='curl http://10.0.0.2'
++ remoteip=10.0.0.4
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'curl http://10.0.0.2' -i 10.0.0.4 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 12:52:00 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 12:52:01 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 12:52:01 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.4 curl http://10.0.0.2
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.4's password: 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to 10.0.0.2 port 80 after 5 ms: Couldn't connect to server
++ ret=7
++ test 7 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:7'
++ message='Failed in remote CMD operation:7'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:7'
+Tue Oct 17 12:52:05 2023 - ERROR - Failed in remote CMD operation:7
++ return 7
++ CHECK_RESULT 7
++ actual_result=7
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 7 ']'
++ '[' 0 -eq 0 ']'
++ test 7x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_firewalld_dnat.sh line 100'
++ message='oe_test_firewalld_dnat.sh line 100'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_firewalld_dnat.sh line 100'
+Tue Oct 17 12:52:05 2023 - ERROR - oe_test_firewalld_dnat.sh line 100
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'Finish testcase execution.'
++ message='Finish testcase execution.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish testcase execution.'
+Tue Oct 17 12:52:05 2023 - INFO  - Finish testcase execution.
++ echo ping NODE4
+ping NODE4
++ ping -c 1 10.0.0.5
+PING 10.0.0.5 (10.0.0.5) 56(84) bytes of data.
+64 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=1.48 ms
+
+--- 10.0.0.5 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.483/1.483/1.483/0.000 ms
++ echo ping NODE3
+ping NODE3
++ ping -c 1 10.0.0.4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=1.62 ms
+
+--- 10.0.0.4 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.621/1.621/1.621/0.000 ms
++ echo ping NODE2
+ping NODE2
++ ping -c 1 10.0.0.3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=1.50 ms
+
+--- 10.0.0.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.502/1.502/1.502/0.000 ms
++ echo ping NODE1
+ping NODE1
++ ping -c 1 10.0.0.2
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=0.313 ms
+
+--- 10.0.0.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.313/0.313/0.313/0.000 ms
++ CASE_RESULT 0
++ case_re=0
++ test -z 1
++ test 1 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Tue Oct 17 12:52:06 2023 - ERROR - failed to execute the case.
++ exit 1
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Tue Oct 17 12:52:06 2023 - INFO  - start environment cleanup.
++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -D POSTROUTING -d 192.168.100.2 -p tcp --dport 80 -j SNAT --to 192.168.100.1
+success
++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -D PREROUTING -d 10.0.0.2 -p tcp --dport 80 -j DNAT --to-destination 192.168.100.2:80
+success
++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -F
+success
++ sudo firewall-cmd --zone=external --remove-masquerade
+success
++ '[' '!' -z public ']'
++ sudo firewall-cmd --zone=public --change-interface=enp0s2
+success
++ '[' '!' -z public ']'
++ sudo firewall-cmd --zone=public --change-interface=enp0s3
+success
++ sudo firewall-cmd --reload
+success
++ sudo systemctl start firewalld
++ sudo ip addr del 192.168.100.1 dev enp0s3
+Warning: Executing wildcard deletion to stay compatible with old scripts.
+         Explicitly specify the prefix length (192.168.100.1/32) to avoid this warning.
+         This special behaviour is likely to disappear in further releases,
+         fix your scripts!
++ sudo systemctl stop httpd
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z '' ]]
++ [[ -z '' ]]
++ LOG_WARN 'no thing to do.'
++ message='no thing to do.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Tue Oct 17 12:52:35 2023 - WARN  - no thing to do.
++ return 0
++ rm -rf /tmp/ip_remote
++ SSH_CMD 'sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev enp0s3;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote' 10.0.0.3 'openEuler12#$' root
++ cmd='sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev enp0s3;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev enp0s3;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 12:52:36 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 12:52:36 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 12:52:37 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev enp0s3;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Warning: Executing wildcard deletion to stay compatible with old scripts.
+         Explicitly specify the prefix length (192.168.100.2/32) to avoid this warning.
+         This special behaviour is likely to disappear in further releases,
+         fix your scripts!
+RTNETLINK answers: Cannot assign requested address
+sudo: route: command not found
+No match for argument: net-tools
+No match for argument: httpd
+No packages marked for removal.
+Dependencies resolved.
+Nothing to do.
+Complete!
++ ret=0
++ test 0 -ne 0
++ return 0
++ LOG_INFO 'Finish environment cleanup!'
++ message='Finish environment cleanup!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup!'
+Tue Oct 17 12:52:43 2023 - INFO  - Finish environment cleanup!
