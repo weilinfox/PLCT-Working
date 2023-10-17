@@ -1,0 +1,121 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n '' ']'
++ trap POST_TEST_DEFAULT EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n '' ']'
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Mon Oct 16 22:46:15 2023 - INFO  - Start to run test.
++ service auditd restart
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
++ aureport --success
++ grep 'Success Summary Report'
+Success Summary Report
++ CHECK_RESULT 0 0 0 'aureport --success failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='aureport --success failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ aureport --failed
++ grep 'Failed Summary Report'
+Failed Summary Report
++ CHECK_RESULT 0 0 0 'aureport --failed failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='aureport --failed failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ aureport -e -ts today -te today
+
+Event Report
+===================================
+# date time event type auid success
+===================================
+1. 10/16/23 22:44:35 6731 DAEMON_START -1 yes
+2. 10/16/23 22:44:35 16023 PROCTITLE -2 unset
+3. 10/16/23 22:44:35 16024 CONFIG_CHANGE -1 yes
+4. 10/16/23 22:44:36 16025 SERVICE_START -1 yes
+5. 10/16/23 22:44:36 16026 CONFIG_CHANGE 0 yes
+6. 10/16/23 22:44:38 16027 CONFIG_CHANGE 0 yes
+7. 10/16/23 22:44:38 6732 DAEMON_END 0 yes
+8. 10/16/23 22:44:40 5248 DAEMON_START -1 yes
+9. 10/16/23 22:44:40 16031 SYSCALL -1 yes
+10. 10/16/23 22:44:41 16032 SERVICE_START -1 yes
+11. 10/16/23 22:44:48 5249 DAEMON_END 0 yes
+12. 10/16/23 22:44:50 1579 DAEMON_START -1 yes
+13. 10/16/23 22:44:50 16035 PROCTITLE -2 unset
+14. 10/16/23 22:44:50 16036 CONFIG_CHANGE -1 yes
+15. 10/16/23 22:44:50 16037 SERVICE_START -1 yes
+16. 10/16/23 22:44:58 1580 DAEMON_END 0 yes
+17. 10/16/23 22:45:00 1154 DAEMON_START -1 yes
+18. 10/16/23 22:45:00 16041 SYSCALL -1 yes
+19. 10/16/23 22:45:01 16042 SERVICE_START -1 yes
+20. 10/16/23 22:45:08 1155 DAEMON_END 0 yes
+21. 10/16/23 22:45:11 9488 DAEMON_START -1 yes
+22. 10/16/23 22:45:11 16045 PROCTITLE -2 unset
+23. 10/16/23 22:45:11 16046 CONFIG_CHANGE -1 yes
+24. 10/16/23 22:45:11 16047 SERVICE_START -1 yes
+25. 10/16/23 22:45:11 16048 CONFIG_CHANGE 0 yes
+26. 10/16/23 22:45:11 16049 SYSCALL 0 yes
+27. 10/16/23 22:45:14 16050 CONFIG_CHANGE 0 yes
+28. 10/16/23 22:45:21 9489 DAEMON_END 0 yes
+29. 10/16/23 22:46:08 2298 DAEMON_START -1 yes
+30. 10/16/23 22:46:08 16102 PROCTITLE -2 unset
+31. 10/16/23 22:46:08 16103 CONFIG_CHANGE -1 yes
+32. 10/16/23 22:46:09 16104 SERVICE_START -1 yes
+33. 10/16/23 22:46:16 2299 DAEMON_END 0 yes
+34. 10/16/23 22:46:18 2599 DAEMON_START -1 yes
+35. 10/16/23 22:46:18 16108 SYSCALL -1 yes
+36. 10/16/23 22:46:19 16109 SERVICE_START -1 yes
++ CHECK_RESULT 0 0 0 'aureport failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='aureport failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Mon Oct 16 22:46:19 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Mon Oct 16 22:46:19 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ POST_TEST_DEFAULT
++ LOG_INFO 'oe_test_audit_show_event_list.sh post_test'
++ message='oe_test_audit_show_event_list.sh post_test'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'oe_test_audit_show_event_list.sh post_test'
+Mon Oct 16 22:46:20 2023 - INFO  - oe_test_audit_show_event_list.sh post_test

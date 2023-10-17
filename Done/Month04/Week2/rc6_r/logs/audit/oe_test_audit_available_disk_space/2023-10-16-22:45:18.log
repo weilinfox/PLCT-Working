@@ -1,0 +1,970 @@
++ source ../common/comlib.sh
+++ source /root/mugen/libs/locallibs/common_lib.sh
++++ python3 --version
++++ '[' 0 -eq 0 ']'
++++ source /root/mugen/libs/locallibs/common_lib_python.sh
++++ find /etc -name auditd.conf
+++ AUDIT_PATH=/etc/audit/auditd.conf
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Mon Oct 16 22:45:21 2023 - INFO  - Start to prepare the test environment.
++ cp -raf /var/log/ /tmp/
++ sed -i 's/log_file = \/var\/log\/audit\/audit.log/log_file = \/tmp\/log\/audit\/audit.log/g' /etc/audit/auditd.conf
++ sed -i 's/max_log_file_action = ROTATE/max_log_file_action = KEEP_LOGS/g' /etc/audit/auditd.conf
++ service auditd restart
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Mon Oct 16 22:45:25 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Mon Oct 16 22:45:25 2023 - INFO  - Start to run test.
+++ df -m /tmp/log/audit/
+++ awk NR==2
+++ awk '{print $4-74}'
++ count_size=1875
++ dd if=/dev/zero of=/tmp/log/audit/audit_log bs=1M count=1875
+1875+0 records in
+1875+0 records out
+1966080000 bytes (2.0 GB, 1.8 GiB) copied, 5.20821 s, 377 MB/s
++ (( j=0 ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:32
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:32
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:32 -te 22:45:32
+----
+time->Mon Oct 16 22:45:32 2023
+type=PROCTITLE msg=audit(1697467532.350:16056): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467532.350:16056): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fc57b6c40 a2=450 a3=0 items=0 ppid=24540 pid=24593 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467532.350:16056): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:32 2023
+type=PROCTITLE msg=audit(1697467532.442:16057): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467532.442:16057): item=1 name="/tmp/available_disk_space" inode=166 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467532.442:16057): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467532.442:16057): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467532.442:16057): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ffb65f9a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24596 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:32 2023
+type=PROCTITLE msg=audit(1697467532.482:16058): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467532.482:16058): item=1 name="/tmp/available_disk_space" inode=166 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467532.482:16058): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467532.482:16058): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467532.482:16058): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2b126acbf0 a2=0 a3=0 items=2 ppid=24540 pid=24597 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:32 2023
+type=PROCTITLE msg=audit(1697467532.558:16059): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467532.558:16059): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467532.558:16059): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fccd1bc40 a2=450 a3=0 items=0 ppid=24540 pid=24599 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467532.558:16059): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:34
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:34
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:34 -te 22:45:34
+----
+time->Mon Oct 16 22:45:34 2023
+type=PROCTITLE msg=audit(1697467534.174:16060): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467534.174:16060): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ff690ac40 a2=450 a3=0 items=0 ppid=24540 pid=24603 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467534.174:16060): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:34 2023
+type=PROCTITLE msg=audit(1697467534.266:16061): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467534.266:16061): item=1 name="/tmp/available_disk_space" inode=167 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467534.266:16061): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467534.266:16061): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467534.266:16061): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fd112b9a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24606 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:34 2023
+type=PROCTITLE msg=audit(1697467534.302:16062): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467534.302:16062): item=1 name="/tmp/available_disk_space" inode=167 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467534.302:16062): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467534.302:16062): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467534.302:16062): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2aeacecbf0 a2=0 a3=0 items=2 ppid=24540 pid=24607 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:34 2023
+type=PROCTITLE msg=audit(1697467534.390:16063): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467534.390:16063): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467534.390:16063): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ffc864c40 a2=450 a3=0 items=0 ppid=24540 pid=24609 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467534.390:16063): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:36
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:36
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:36 -te 22:45:36
+----
+time->Mon Oct 16 22:45:36 2023
+type=PROCTITLE msg=audit(1697467536.022:16064): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467536.022:16064): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe34a4c40 a2=450 a3=0 items=0 ppid=24540 pid=24613 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467536.022:16064): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:36 2023
+type=PROCTITLE msg=audit(1697467536.114:16065): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467536.114:16065): item=1 name="/tmp/available_disk_space" inode=168 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467536.114:16065): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467536.114:16065): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467536.114:16065): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fc87a79a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24616 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:36 2023
+type=PROCTITLE msg=audit(1697467536.154:16066): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467536.154:16066): item=1 name="/tmp/available_disk_space" inode=168 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467536.154:16066): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467536.154:16066): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467536.154:16066): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2adbf82bf0 a2=0 a3=0 items=2 ppid=24540 pid=24617 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:36 2023
+type=PROCTITLE msg=audit(1697467536.226:16067): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467536.226:16067): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467536.226:16067): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe8dd8c40 a2=450 a3=0 items=0 ppid=24540 pid=24619 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467536.226:16067): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:37
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:37
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:37 -te 22:45:37
+----
+time->Mon Oct 16 22:45:37 2023
+type=PROCTITLE msg=audit(1697467537.854:16068): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467537.854:16068): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fcbd78c40 a2=450 a3=0 items=0 ppid=24540 pid=24623 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467537.854:16068): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:37 2023
+type=PROCTITLE msg=audit(1697467537.918:16069): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467537.918:16069): item=1 name="/tmp/available_disk_space" inode=169 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467537.918:16069): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467537.918:16069): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467537.918:16069): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fff4629a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24626 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:37 2023
+type=PROCTITLE msg=audit(1697467537.958:16070): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467537.958:16070): item=1 name="/tmp/available_disk_space" inode=169 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467537.958:16070): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467537.958:16070): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467537.958:16070): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2b0153dbf0 a2=0 a3=0 items=2 ppid=24540 pid=24627 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:39
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:39
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:39 -te 22:45:39
+----
+time->Mon Oct 16 22:45:39 2023
+type=PROCTITLE msg=audit(1697467539.642:16072): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467539.642:16072): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe2326c40 a2=450 a3=0 items=0 ppid=24540 pid=24633 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467539.642:16072): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:39 2023
+type=PROCTITLE msg=audit(1697467539.738:16073): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467539.738:16073): item=1 name="/tmp/available_disk_space" inode=170 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467539.738:16073): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467539.738:16073): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467539.738:16073): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fe637f9a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24636 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:39 2023
+type=PROCTITLE msg=audit(1697467539.782:16074): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467539.782:16074): item=1 name="/tmp/available_disk_space" inode=170 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467539.782:16074): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467539.782:16074): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467539.782:16074): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2aea9dcbf0 a2=0 a3=0 items=2 ppid=24540 pid=24637 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:39 2023
+type=PROCTITLE msg=audit(1697467539.846:16075): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467539.846:16075): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467539.846:16075): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fc7462c40 a2=450 a3=0 items=0 ppid=24540 pid=24639 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467539.846:16075): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:41
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:41
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:41 -te 22:45:41
+----
+time->Mon Oct 16 22:45:41 2023
+type=PROCTITLE msg=audit(1697467541.422:16076): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467541.422:16076): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe910ac40 a2=450 a3=0 items=0 ppid=24540 pid=24643 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467541.422:16076): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:41 2023
+type=PROCTITLE msg=audit(1697467541.506:16077): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467541.506:16077): item=1 name="/tmp/available_disk_space" inode=171 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467541.506:16077): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467541.506:16077): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467541.506:16077): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fc2f679a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24646 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:41 2023
+type=PROCTITLE msg=audit(1697467541.534:16078): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467541.534:16078): item=1 name="/tmp/available_disk_space" inode=171 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467541.534:16078): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467541.534:16078): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467541.534:16078): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2acef4fbf0 a2=0 a3=0 items=2 ppid=24540 pid=24647 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:41 2023
+type=PROCTITLE msg=audit(1697467541.606:16079): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467541.606:16079): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467541.606:16079): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3febf00c40 a2=450 a3=0 items=0 ppid=24540 pid=24649 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467541.606:16079): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:43
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:43
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:43 -te 22:45:43
+----
+time->Mon Oct 16 22:45:43 2023
+type=PROCTITLE msg=audit(1697467543.203:16080): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467543.203:16080): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3febf8cc40 a2=450 a3=0 items=0 ppid=24540 pid=24653 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467543.203:16080): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:43 2023
+type=PROCTITLE msg=audit(1697467543.295:16081): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467543.295:16081): item=1 name="/tmp/available_disk_space" inode=172 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467543.295:16081): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467543.295:16081): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467543.295:16081): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ffd8789a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24656 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:43 2023
+type=PROCTITLE msg=audit(1697467543.339:16082): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467543.339:16082): item=1 name="/tmp/available_disk_space" inode=172 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467543.339:16082): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467543.339:16082): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467543.339:16082): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2af335ebf0 a2=0 a3=0 items=2 ppid=24540 pid=24657 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:43 2023
+type=PROCTITLE msg=audit(1697467543.427:16083): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467543.427:16083): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467543.427:16083): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fdd452c40 a2=450 a3=0 items=0 ppid=24540 pid=24659 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467543.427:16083): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:45
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:45
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:45 -te 22:45:45
+----
+time->Mon Oct 16 22:45:45 2023
+type=PROCTITLE msg=audit(1697467545.031:16084): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467545.031:16084): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fc56fdc40 a2=450 a3=0 items=0 ppid=24540 pid=24663 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467545.031:16084): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:45 2023
+type=PROCTITLE msg=audit(1697467545.111:16085): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467545.111:16085): item=1 name="/tmp/available_disk_space" inode=173 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467545.111:16085): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467545.111:16085): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467545.111:16085): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ffd21b9a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24666 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:45 2023
+type=PROCTITLE msg=audit(1697467545.135:16086): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467545.135:16086): item=1 name="/tmp/available_disk_space" inode=173 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467545.135:16086): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467545.135:16086): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467545.135:16086): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2af8f38bf0 a2=0 a3=0 items=2 ppid=24540 pid=24667 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:45 2023
+type=PROCTITLE msg=audit(1697467545.207:16087): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467545.207:16087): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467545.207:16087): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fd307fc40 a2=450 a3=0 items=0 ppid=24540 pid=24669 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467545.207:16087): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:46
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:46
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:46 -te 22:45:46
+----
+time->Mon Oct 16 22:45:46 2023
+type=PROCTITLE msg=audit(1697467546.783:16088): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467546.783:16088): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fff8bcc40 a2=450 a3=0 items=0 ppid=24540 pid=24673 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467546.783:16088): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:46 2023
+type=PROCTITLE msg=audit(1697467546.875:16089): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467546.875:16089): item=1 name="/tmp/available_disk_space" inode=174 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467546.875:16089): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467546.875:16089): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467546.875:16089): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fea27c9a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24676 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:46 2023
+type=PROCTITLE msg=audit(1697467546.915:16090): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467546.915:16090): item=1 name="/tmp/available_disk_space" inode=174 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467546.915:16090): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467546.915:16090): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467546.915:16090): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2b0b780bf0 a2=0 a3=0 items=2 ppid=24540 pid=24677 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:48
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:48
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:48 -te 22:45:48
+----
+time->Mon Oct 16 22:45:48 2023
+type=PROCTITLE msg=audit(1697467548.627:16092): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467548.627:16092): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fff1b6c40 a2=450 a3=0 items=0 ppid=24540 pid=24683 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467548.627:16092): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:48 2023
+type=PROCTITLE msg=audit(1697467548.683:16093): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467548.683:16093): item=1 name="/tmp/available_disk_space" inode=175 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467548.683:16093): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467548.683:16093): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467548.683:16093): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ff5c719a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24686 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:48 2023
+type=PROCTITLE msg=audit(1697467548.715:16094): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467548.715:16094): item=1 name="/tmp/available_disk_space" inode=175 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467548.715:16094): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467548.715:16094): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467548.715:16094): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2abeeacbf0 a2=0 a3=0 items=2 ppid=24540 pid=24687 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:48 2023
+type=PROCTITLE msg=audit(1697467548.799:16095): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467548.799:16095): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467548.799:16095): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ff0580c40 a2=450 a3=0 items=0 ppid=24540 pid=24689 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467548.799:16095): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ CHECK_RESULT 0 0 0 'search first'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='search first'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( j++ ))
++ (( j<10 ))
++ SLEEP_WAIT 1
++ wait_time=1
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 1 --cmd '' --mode 1
++ grep -iE 'Audit daemon is low on disk space for logging' /var/log/messages
+Oct 16 22:45:32 openeuler auditd[24569]: Audit daemon is low on disk space for logging
++ CHECK_RESULT 0 0 0 'grep logging first failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='grep logging first failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ df -m /tmp/log/audit/
+++ awk NR==2
+++ awk '{print $4-49}'
++ count_size=25
++ dd if=/dev/zero of=/tmp/log/audit/audit_log bs=1M count=25
+25+0 records in
+25+0 records out
+26214400 bytes (26 MB, 25 MiB) copied, 0.0908768 s, 288 MB/s
++ search_log available_disk_space
++ audit_key=available_disk_space
++ auditctl -w /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 ' add rules failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=' add rules failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
+++ date +%T
++ starttime=22:45:52
++ touch /tmp/available_disk_space
++ rm -rf /tmp/available_disk_space
+++ date +%T
++ endtime=22:45:52
++ auditctl -W /tmp/available_disk_space -p rwxa -k available_disk_space
++ CHECK_RESULT 0 0 0 'second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ (( i=0 ))
++ (( i<10 ))
++ ausearch -k available_disk_space -ts 22:45:52 -te 22:45:52
+----
+time->Mon Oct 16 22:45:52 2023
+type=PROCTITLE msg=audit(1697467552.459:16096): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1697467552.459:16096): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fdd440c40 a2=450 a3=0 items=0 ppid=24540 pid=24699 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467552.459:16096): auid=0 ses=18 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Mon Oct 16 22:45:52 2023
+type=PROCTITLE msg=audit(1697467552.547:16097): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467552.547:16097): item=1 name="/tmp/available_disk_space" inode=176 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467552.547:16097): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467552.547:16097): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467552.547:16097): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fcf8e19a3 a2=941 a3=1b6 items=2 ppid=24540 pid=24702 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:52 2023
+type=PROCTITLE msg=audit(1697467552.587:16098): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1697467552.587:16098): item=1 name="/tmp/available_disk_space" inode=176 dev=00:29 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1697467552.587:16098): item=0 name="/tmp/" inode=1 dev=00:29 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1697467552.587:16098): cwd="/root/mugen/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1697467552.587:16098): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2b1ce49bf0 a2=0 a3=0 items=2 ppid=24540 pid=24703 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Mon Oct 16 22:45:52 2023
+type=PROCTITLE msg=audit(1697467552.675:16099): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1697467552.675:16099): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1697467552.675:16099): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fd2c92c40 a2=450 a3=0 items=0 ppid=24540 pid=24705 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=ttyS0 ses=18 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1697467552.675:16099): auid=0 ses=18 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
++ [[ 0 -ne 0 ]]
++ break
++ [[ 0 -eq 10 ]]
++ SLEEP_WAIT 5
++ wait_time=5
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 5 --cmd '' --mode 1
++ service auditd status
++ grep 'active (running)'
+Redirecting to /bin/systemctl status auditd.service
+     Active: active (running) since Mon 2023-10-16 22:45:24 CST; 33s ago
++ CHECK_RESULT 0 0 0 'grep active failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='grep active failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SLEEP_WAIT 5
++ wait_time=5
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 5 --cmd '' --mode 1
++ service auditd status
++ grep 'Audit daemon is low on disk space for logging'
+Redirecting to /bin/systemctl status auditd.service
+Oct 16 22:45:32 openeuler auditd[24569]: Audit daemon is low on disk space for logging
++ CHECK_RESULT 0 0 0 'grep logging second failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='grep logging second failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Mon Oct 16 22:46:04 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Mon Oct 16 22:46:05 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Mon Oct 16 22:46:05 2023 - INFO  - Start to restore the test environment.
++ sed -i 's/log_file = \/tmp\/log\/audit\/audit.log/log_file = \/var\/log\/audit\/audit.log/g' /etc/audit/auditd.conf
++ sed -i 's/max_log_file_action = KEEP_LOGS/max_log_file_action = ROTATE/g' /etc/audit/auditd.conf
++ service auditd restart
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
++ rm -rf /tmp/log
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Mon Oct 16 22:46:09 2023 - INFO  - End to restore the test environment.

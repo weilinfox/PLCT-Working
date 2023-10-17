@@ -1,0 +1,170 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environmental preparation.'
++ message='Start environmental preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environmental preparation.'
+Tue Oct 17 00:18:29 2023 - INFO  - Start environmental preparation.
++ DNF_INSTALL net-tools
++ pkgs=net-tools
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs net-tools --node 1 --tempfile ''
+Tue Oct 17 00:18:35 2023 - INFO  - pkgs:(net-tools) is already installed
++ tmpfile2=
++ '[' -z '' ']'
++ tmpfile=
++ SSH_CMD 'sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld' 10.0.0.3 'openEuler12#$' root
++ cmd='sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 00:18:36 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 00:18:36 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 00:18:37 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 sudo dnf install -y httpd net-tools
+        sudo systemctl start httpd
+        sudo systemctl stop firewalld
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+OS                                              2.7 kB/s | 1.7 kB     00:00    
+OS                                              4.1 MB/s |  21 MB     00:05    
+++ post_test
+++ LOG_INFO 'start environment cleanup.'
+++ message='start environment cleanup.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Tue Oct 17 00:19:14 2023 - ERROR - KeyboardInterrupt : 使用ctrl c结束了进程.
+Tue Oct 17 00:19:14 2023 - INFO  - start environment cleanup.
+++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -D POSTROUTING -d 192.168.100.2 -p tcp --dport 80 -j SNAT --to 192.168.100.1
+++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -D PREROUTING -d 10.0.0.2 -p tcp --dport 80 -j DNAT --to-destination 192.168.100.2:80
+Error: COMMAND_FAILED: '/sbin/iptables -w10 -t nat -D PREROUTING -d 10.0.0.2 -p tcp --dport 80 -j DNAT --to-destination 192.168.100.2:80' failed: iptables: No chain/target/match by that name.
+
+++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -F
+success
+++ sudo firewall-cmd --zone=external --remove-masquerade
+success
+++ '[' '!' -z '' ']'
+++ '[' '!' -z '' ']'
+++ sudo firewall-cmd --zone=internal --remove-interface=
+Error: INVALID_INTERFACE
+++ sudo firewall-cmd --reload
+success
+++ sudo systemctl start firewalld
+++ sudo ip addr del 192.168.100.1 dev ''
+Warning: Executing wildcard deletion to stay compatible with old scripts.
+         Explicitly specify the prefix length (192.168.100.1/32) to avoid this warning.
+         This special behaviour is likely to disappear in further releases,
+         fix your scripts!
+Cannot find device ""
+++ sudo systemctl stop httpd
+Failed to stop httpd.service: Unit httpd.service not loaded.
+++ DNF_REMOVE
+++ node=1
+++ pkg_list=
+++ mode=0
+++ [[ -z '' ]]
+++ [[ -z '' ]]
+++ LOG_WARN 'no thing to do.'
+++ message='no thing to do.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Tue Oct 17 00:19:37 2023 - WARN  - no thing to do.
+++ return 0
+++ rm -rf /tmp/ip_remote
+++ SSH_CMD 'sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote' 10.0.0.3 'openEuler12#$' root
+++ cmd='sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote'
+++ remoteip=10.0.0.3
+++ remotepasswd='openEuler12#$'
+++ remoteuser=root
+++ timeout=300
+++ connport=22
+++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 00:19:38 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 00:19:38 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 00:19:39 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
++++ post_test
++++ LOG_INFO 'start environment cleanup.'
++++ message='start environment cleanup.'
++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Tue Oct 17 00:19:42 2023 - INFO  - start environment cleanup.
++++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -D POSTROUTING -d 192.168.100.2 -p tcp --dport 80 -j SNAT --to 192.168.100.1
+Error: COMMAND_FAILED: '/sbin/iptables -w10 -t nat -D POSTROUTING -d 192.168.100.2 -p tcp --dport 80 -j SNAT --to 192.168.100.1' failed: iptables: No chain/target/match by that name.
+
++++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -D PREROUTING -d 10.0.0.2 -p tcp --dport 80 -j DNAT --to-destination 192.168.100.2:80
+Error: COMMAND_FAILED: '/sbin/iptables -w10 -t nat -D PREROUTING -d 10.0.0.2 -p tcp --dport 80 -j DNAT --to-destination 192.168.100.2:80' failed: iptables: No chain/target/match by that name.
+
++++ sudo firewall-cmd --direct --passthrough ipv4 -t nat -F
+success
++++ sudo firewall-cmd --zone=external --remove-masquerade
+success
++++ '[' '!' -z '' ']'
++++ '[' '!' -z '' ']'
++++ sudo firewall-cmd --zone=internal --remove-interface=
+Error: INVALID_INTERFACE
++++ sudo firewall-cmd --reload
+success
++++ sudo systemctl start firewalld
++++ sudo ip addr del 192.168.100.1 dev ''
+Warning: Executing wildcard deletion to stay compatible with old scripts.
+         Explicitly specify the prefix length (192.168.100.1/32) to avoid this warning.
+         This special behaviour is likely to disappear in further releases,
+         fix your scripts!
+Cannot find device ""
++++ sudo systemctl stop httpd
+Failed to stop httpd.service: Unit httpd.service not loaded.
++++ DNF_REMOVE
++++ node=1
++++ pkg_list=
++++ mode=0
++++ [[ -z '' ]]
++++ [[ -z '' ]]
++++ LOG_WARN 'no thing to do.'
++++ message='no thing to do.'
++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Tue Oct 17 00:20:07 2023 - WARN  - no thing to do.
++++ return 0
++++ rm -rf /tmp/ip_remote
++++ SSH_CMD 'sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote' 10.0.0.3 'openEuler12#$' root
++++ cmd='sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote'
++++ remoteip=10.0.0.3
++++ remotepasswd='openEuler12#$'
++++ remoteuser=root
++++ timeout=300
++++ connport=22
++++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Tue Oct 17 00:20:07 2023 - WARN  - the remote user uses the default configuration.
+Tue Oct 17 00:20:08 2023 - WARN  - the remote password uses the default configuration.
+Tue Oct 17 00:20:08 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 sudo systemctl stop httpd;sudo ip addr del 192.168.100.2 dev ;sudo route del -net 192.168.100.0 netmask 255.255.255.0 gw 192.168.100.1;sudo yum remove -y net-tools httpd;rm -rf /root/ip_remote
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Command line is not complete. Try option "help"
+SIOCDELRT: No such process

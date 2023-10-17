@@ -1,0 +1,319 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start environmental preparation.'
++ message='Start environmental preparation.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start environmental preparation.'
+Mon Oct 16 17:00:02 2023 - INFO  - Start environmental preparation.
++ DNF_INSTALL httpd
++ pkgs=httpd
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs httpd --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: 1:11:05 ago on Mon Oct 16 15:49:18 2023.
+Dependencies resolved.
+================================================================================
+ Package                     Architecture  Version               Repo      Size
+================================================================================
+Installing:
+ httpd                       riscv64       2.4.55-3.oe2309       OS       1.2 M
+Installing dependencies:
+ apr                         riscv64       1.7.0-5.oe2309        OS       106 k
+ apr-util                    riscv64       1.6.1-14.oe2309       OS       111 k
+ httpd-filesystem            noarch        2.4.55-3.oe2309       OS        11 k
+ httpd-tools                 riscv64       2.4.55-3.oe2309       OS        69 k
+ mariadb-connector-c         riscv64       3.3.5-1.oe2309        OS       188 k
+ mod_http2                   riscv64       2.0.20-1.oe2309       OS       119 k
+ openEuler-logos-httpd       noarch        1.0-8.oe2309          OS        11 k
+
+Transaction Summary
+================================================================================
+Install  8 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-util-1.6.1-14.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-util-1.6.1-14.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] httpd-2.4.55-3.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/httpd-2.4.55-3.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[FAILED] apr-1.7.0-5.oe2309.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2309.riscv64: Cannot download, all mirrors were already tried without success'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: 1:11:05 ago on Mon Oct 16 15:49:18 2023.
+Dependencies resolved.
+================================================================================
+ Package                     Architecture  Version               Repo      Size
+================================================================================
+Installing:
+ httpd                       riscv64       2.4.55-3.oe2309       OS       1.2 M
+Installing dependencies:
+ apr                         riscv64       1.7.0-5.oe2309        OS       106 k
+ apr-util                    riscv64       1.6.1-14.oe2309       OS       111 k
+ httpd-filesystem            noarch        2.4.55-3.oe2309       OS        11 k
+ httpd-tools                 riscv64       2.4.55-3.oe2309       OS        69 k
+ mariadb-connector-c         riscv64       3.3.5-1.oe2309        OS       188 k
+ mod_http2                   riscv64       2.0.20-1.oe2309       OS       119 k
+ openEuler-logos-httpd       noarch        1.0-8.oe2309          OS        11 k
+
+Transaction Summary
+================================================================================
+Install  8 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-util-1.6.1-14.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-util-1.6.1-14.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] httpd-2.4.55-3.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/httpd-2.4.55-3.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[FAILED] apr-1.7.0-5.oe2309.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2309.riscv64: Cannot download, all mirrors were already tried without success'
++ sudo systemctl start httpd
+Failed to start httpd.service: Unit httpd.service not found.
++ sudo systemctl start firewalld auditd
++ LOG_INFO 'End of environmental preparation!'
++ message='End of environmental preparation!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End of environmental preparation!'
+Mon Oct 16 17:00:25 2023 - INFO  - End of environmental preparation!
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start executing testcase.'
++ message='Start executing testcase.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start executing testcase.'
+Mon Oct 16 17:00:25 2023 - INFO  - Start executing testcase.
++ SSH_CMD 'curl http://10.0.0.2' 10.0.0.3 'openEuler12#$' root
++ cmd='curl http://10.0.0.2'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'curl http://10.0.0.2' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Mon Oct 16 17:00:26 2023 - WARN  - the remote user uses the default configuration.
+Mon Oct 16 17:00:26 2023 - WARN  - the remote password uses the default configuration.
+Mon Oct 16 17:00:27 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 curl http://10.0.0.2
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to 10.0.0.2 port 80 after 3 ms: Couldn't connect to server
++ ret=7
++ test 7 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:7'
++ message='Failed in remote CMD operation:7'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:7'
+Mon Oct 16 17:00:30 2023 - ERROR - Failed in remote CMD operation:7
++ return 7
++ CHECK_RESULT 7 0 1
++ actual_result=7
++ expect_result=0
++ mode=1
++ error_log=
++ exit_mode=0
++ '[' -z 7 ']'
++ '[' 1 -eq 0 ']'
++ test 7x == 0x
++ return 0
++ sudo firewall-cmd --zone=public --add-service=http
+success
++ sudo firewall-cmd --zone=public '--add-rich-rule=rule service name=http log limit value=1/m audit accept'
+success
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ SSH_CMD 'curl http://10.0.0.2' 10.0.0.3 'openEuler12#$' root
++ cmd='curl http://10.0.0.2'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'curl http://10.0.0.2' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Mon Oct 16 17:00:37 2023 - WARN  - the remote user uses the default configuration.
+Mon Oct 16 17:00:38 2023 - WARN  - the remote password uses the default configuration.
+Mon Oct 16 17:00:38 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 curl http://10.0.0.2
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to 10.0.0.2 port 80 after 4 ms: Couldn't connect to server
++ ret=7
++ test 7 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:7'
++ message='Failed in remote CMD operation:7'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:7'
+Mon Oct 16 17:00:41 2023 - ERROR - Failed in remote CMD operation:7
++ return 7
++ CHECK_RESULT 7
++ actual_result=7
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 7 ']'
++ '[' 0 -eq 0 ']'
++ test 7x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_firewalld_richrule_allowippak.sh line 38'
++ message='oe_test_firewalld_richrule_allowippak.sh line 38'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_firewalld_richrule_allowippak.sh line 38'
+Mon Oct 16 17:00:42 2023 - ERROR - oe_test_firewalld_richrule_allowippak.sh line 38
++ '[' 0 -eq 1 ']'
++ return 0
++ grep 'type=NETFILTER_PKT msg=audit' /var/log/audit/audit.log
++ grep 10.0.0.2
+type=NETFILTER_PKT msg=audit(1697446841.295:1880): mark=0x0 saddr=10.0.0.3 daddr=10.0.0.2 proto=6
++ CHECK_RESULT 0
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'Finish testcase execution.'
++ message='Finish testcase execution.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish testcase execution.'
+Mon Oct 16 17:00:42 2023 - INFO  - Finish testcase execution.
++ CASE_RESULT 0
++ case_re=0
++ test -z 1
++ test 1 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Mon Oct 16 17:00:42 2023 - ERROR - failed to execute the case.
++ exit 1
++ post_test
++ LOG_INFO 'start environment cleanup.'
++ message='start environment cleanup.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'start environment cleanup.'
+Mon Oct 16 17:00:43 2023 - INFO  - start environment cleanup.
++ sudo firewall-cmd --zone=public '--remove-rich-rule=rule service name=http log limit value=1/m audit accept'
+success
++ sudo systemctl stop httpd
+Failed to stop httpd.service: Unit httpd.service not loaded.
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: 1:11:05 ago on Mon Oct 16 15:49:18 2023.
+Dependencies resolved.
+================================================================================
+ Package                     Architecture  Version               Repo      Size
+================================================================================
+Installing:
+ httpd                       riscv64       2.4.55-3.oe2309       OS       1.2 M
+Installing dependencies:
+ apr                         riscv64       1.7.0-5.oe2309        OS       106 k
+ apr-util                    riscv64       1.6.1-14.oe2309       OS       111 k
+ httpd-filesystem            noarch        2.4.55-3.oe2309       OS        11 k
+ httpd-tools                 riscv64       2.4.55-3.oe2309       OS        69 k
+ mariadb-connector-c         riscv64       3.3.5-1.oe2309        OS       188 k
+ mod_http2                   riscv64       2.0.20-1.oe2309       OS       119 k
+ openEuler-logos-httpd       noarch        1.0-8.oe2309          OS        11 k
+
+Transaction Summary
+================================================================================
+Install  8 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-util-1.6.1-14.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-util-1.6.1-14.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] httpd-2.4.55-3.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/httpd-2.4.55-3.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[FAILED] apr-1.7.0-5.oe2309.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2309.riscv64: Cannot download, all mirrors were already tried without success ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: 1:11:05 ago on Mon Oct 16 15:49:18 2023.
+Dependencies resolved.
+================================================================================
+ Package                     Architecture  Version               Repo      Size
+================================================================================
+Installing:
+ httpd                       riscv64       2.4.55-3.oe2309       OS       1.2 M
+Installing dependencies:
+ apr                         riscv64       1.7.0-5.oe2309        OS       106 k
+ apr-util                    riscv64       1.6.1-14.oe2309       OS       111 k
+ httpd-filesystem            noarch        2.4.55-3.oe2309       OS        11 k
+ httpd-tools                 riscv64       2.4.55-3.oe2309       OS        69 k
+ mariadb-connector-c         riscv64       3.3.5-1.oe2309        OS       188 k
+ mod_http2                   riscv64       2.0.20-1.oe2309       OS       119 k
+ openEuler-logos-httpd       noarch        1.0-8.oe2309          OS        11 k
+
+Transaction Summary
+================================================================================
+Install  8 Packages
+
+Total download size: 1.8 M
+Installed size: 5.6 M
+Downloading Packages:
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-util-1.6.1-14.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-util-1.6.1-14.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] httpd-2.4.55-3.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/httpd-2.4.55-3.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn'\''t resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]
+[FAILED] apr-1.7.0-5.oe2309.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success
+
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Error downloading packages:
+  apr-1.7.0-5.oe2309.riscv64: Cannot download, all mirrors were already tried without success'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 192, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 163, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 1:11:05 ago on Mon Oct 16 15:49:18 2023.\nDependencies resolved.\n================================================================================\n Package                     Architecture  Version               Repo      Size\n================================================================================\nInstalling:\n httpd                       riscv64       2.4.55-3.oe2309       OS       1.2 M\nInstalling dependencies:\n apr                         riscv64       1.7.0-5.oe2309        OS       106 k\n apr-util                    riscv64       1.6.1-14.oe2309       OS       111 k\n httpd-filesystem            noarch        2.4.55-3.oe2309       OS        11 k\n httpd-tools                 riscv64       2.4.55-3.oe2309       OS        69 k\n mariadb-connector-c         riscv64       3.3.5-1.oe2309        OS       188 k\n mod_http2                   riscv64       2.0.20-1.oe2309       OS       119 k\n openEuler-logos-httpd       noarch        1.0-8.oe2309          OS        11 k\n\nTransaction Summary\n================================================================================\nInstall  8 Packages\n\nTotal download size: 1.8 M\nInstalled size: 5.6 M\nDownloading Packages:\n[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]\n[MIRROR] apr-util-1.6.1-14.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-util-1.6.1-14.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]\n[MIRROR] httpd-2.4.55-3.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/httpd-2.4.55-3.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]\n[MIRROR] apr-1.7.0-5.oe2309.riscv64.rpm: Curl error (6): Couldn't resolve host name for http://repo.tarsier-infra.com/openEuler-RISC-V/obs/hwobs_2309/riscv64/apr-1.7.0-5.oe2309.riscv64.rpm [Could not resolve host: repo.tarsier-infra.com]\n[FAILED] apr-1.7.0-5.oe2309.riscv64.rpm: No more mirrors to try - All mirrors were already tried without success\n\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Error downloading packages:\n  apr-1.7.0-5.oe2309.riscv64: Cannot download, all mirrors were already tried without success"
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'Finish environment cleanup!'
++ message='Finish environment cleanup!'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Finish environment cleanup!'
+Mon Oct 16 17:00:50 2023 - INFO  - Finish environment cleanup!
