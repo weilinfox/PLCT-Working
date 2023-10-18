@@ -2,7 +2,7 @@
 compat-openssl11,,
 containers-common,,
 duktape,,
-edk2,libguestfs,否
+edk2,,
 evince,,
 gtk-vnc,,
 jitterentropy-library,,
