@@ -1,0 +1,6 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+Wed Oct 18 21:12:29 2023 - ERROR - KeyboardInterrupt : 使用ctrl c结束了进程.

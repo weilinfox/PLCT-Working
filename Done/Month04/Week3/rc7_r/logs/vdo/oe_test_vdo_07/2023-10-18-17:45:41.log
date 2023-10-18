@@ -1,0 +1,172 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 17:45:43 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL vdo
++ pkgs=vdo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs vdo --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpqasw0ifz
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpqasw0ifz
++ dd if=/dev/zero of=vdo_test_device bs=1M count=10240
+10240+0 records in
+10240+0 records out
+10737418240 bytes (11 GB, 10 GiB) copied, 153.973 s, 69.7 MB/s
++ losetup /dev/loop0 vdo_test_device
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+Creating VDO my_vdo_volume
+      Logical blocks defaulted to 1569686 blocks.
+      The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+      It can grow to address at most 16 TB of physical storage in 8192 slabs.
+      If a larger maximum size might be needed, use bigger slabs.
+Starting VDO my_vdo_volume
+Starting compression on VDO my_vdo_volume
+VDO instance 0 volume is ready at /dev/mapper/my_vdo_volume
++ touch /var/log/vdo_enableDeduplication.log
++ LOG_INFO 'End to prepare the test environment'
++ message='End to prepare the test environment'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment'
+Wed Oct 18 17:48:54 2023 - INFO  - End to prepare the test environment
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run testcase:oe_test_vdo_07.'
++ message='Start to run testcase:oe_test_vdo_07.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run testcase:oe_test_vdo_07.'
+Wed Oct 18 17:48:54 2023 - INFO  - Start to run testcase:oe_test_vdo_07.
++ vdo enableDeduplication --help
++ grep 'usage: vdo enableDeduplication'
+usage: vdo enableDeduplication [-h] (-a | -n <volume>) [-f <file>]
++ CHECK_RESULT 0 0 0 'Check vdo enableDeduplication --help failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo enableDeduplication --help failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo enableDeduplication -a
++ grep 'Enabling deduplication'
+Enabling deduplication on vdo my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo enableDeduplication -a failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo enableDeduplication -a failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo enableDeduplication -n my_vdo_volume
++ grep 'Enabling deduplication'
+Enabling deduplication on vdo my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo enableDeduplication -n failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo enableDeduplication -n failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo enableDeduplication --verbose -n my_vdo_volume
++ grep 'Enabling deduplication'
+Enabling deduplication on vdo my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo enableDeduplication --verbose failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo enableDeduplication --verbose failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo enableDeduplication -n my_vdo_volume -f /etc/vdoconf.yml
++ grep 'Enabling deduplication'
+Enabling deduplication on vdo my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo enableDeduplication -f failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo enableDeduplication -f failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo enableDeduplication -n my_vdo_volume --logfile /var/log/vdo_enableDeduplication.log
++ grep 'Enabling deduplication'
+Enabling deduplication on vdo my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo enableDeduplication --logfile failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo enableDeduplication --logfile failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 17:49:12 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Oct 18 17:49:12 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 17:49:12 2023 - INFO  - Start to restore the test environment.
++ sudo rm /var/log/vdo_enableDeduplication.log
++ vdo remove -n my_vdo_volume
+Removing VDO my_vdo_volume
+Stopping VDO my_vdo_volume
++ losetup -d /dev/loop0
++ rm vdo_test_device -f
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpqasw0ifz ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpqasw0ifz
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 17:49:34 2023 - INFO  - End to restore the test environment.

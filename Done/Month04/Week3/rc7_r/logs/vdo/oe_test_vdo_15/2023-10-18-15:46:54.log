@@ -1,0 +1,189 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 15:46:57 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL vdo
++ pkgs=vdo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs vdo --node 1 --tempfile ''
++ tmpfile2=/tmp/tmphbpclkj4
++ '[' -z '' ']'
++ tmpfile=/tmp/tmphbpclkj4
++ dd if=/dev/zero of=vdo_test_device bs=1M count=10240
+10240+0 records in
+10240+0 records out
+10737418240 bytes (11 GB, 10 GiB) copied, 155.295 s, 69.1 MB/s
++ losetup /dev/loop0 vdo_test_device
++ LOG_INFO 'End to prepare the test environment'
++ message='End to prepare the test environment'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment'
+Wed Oct 18 15:50:01 2023 - INFO  - End to prepare the test environment
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run testcase:oe_test_vdo_15.'
++ message='Start to run testcase:oe_test_vdo_15.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run testcase:oe_test_vdo_15.'
+Wed Oct 18 15:50:02 2023 - INFO  - Start to run testcase:oe_test_vdo_15.
++ vdoformat --help
++ grep OPTIONS
+OPTIONS
++ CHECK_RESULT 0 0 0 'Check vdoformat --help failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --help failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoformat /dev/loop0 --force
++ grep 'Logical blocks'
+Logical blocks defaulted to 1569686 blocks.
++ CHECK_RESULT 0 0 0 'Check vdoformat --force failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --force failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoformat --logical-size=10G /dev/loop0 --force
+Found existing signature on /dev/loop0 at offset 0: LABEL="(null)" UUID="23aa22f1-3d4e-4976-a4b4-2c938af973ac" TYPE="vdo" USAGE="other".
+Formatting device already containing a known signature.
+The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+It can grow to address at most 16 TB of physical storage in 8192 slabs.
+If a larger maximum size might be needed, use bigger slabs.
++ CHECK_RESULT 0 0 0 'Check vdoformat --logical-size failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --logical-size failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoformat /dev/loop0 --slab-bits=19 --force
++ grep defaulted
+Logical blocks defaulted to 1569686 blocks.
++ CHECK_RESULT 0 0 0 'Check vdoformat --slab-bits failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --slab-bits failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoformat /dev/loop0 --uds-checkpoint-frequency=10 --force
+Found existing signature on /dev/loop0 at offset 0: LABEL="(null)" UUID="5734d2cd-62b7-4cb8-aaf8-27b205a7a9f2" TYPE="vdo" USAGE="other".
+Formatting device already containing a known signature.
+Logical blocks defaulted to 1569686 blocks.
+The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+It can grow to address at most 16 TB of physical storage in 8192 slabs.
+If a larger maximum size might be needed, use bigger slabs.
++ CHECK_RESULT 0 0 0 'Check vdoformat --uds-checkpoint-frequency failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --uds-checkpoint-frequency failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoformat /dev/loop0 --uds-memory-size=0.5 --force
++ grep 'Logical blocks'
+Logical blocks defaulted to 1046397 blocks.
++ CHECK_RESULT 0 0 0 'Check vdoformat --uds-memory-size failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --uds-memory-size failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoformat /dev/loop0 --verbose --force
++ grep 'Formatting '\''/dev/loop0'\'''
+Formatting '/dev/loop0' with default logical and 2621440 physical blocks of 4096 bytes.
++ CHECK_RESULT 0 0 0 'Check vdoformat --verbose failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --verbose failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoformat --version
++ grep 'vdoformat version'
+vdoformat version is: 6.2.6.14
++ CHECK_RESULT 0 0 0 'Check vdoformat --version -a failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoformat --version -a failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 15:50:08 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Oct 18 15:50:08 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 15:50:09 2023 - INFO  - Start to restore the test environment.
++ losetup -d /dev/loop0
++ rm vdo_test_device -f
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmphbpclkj4 ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmphbpclkj4
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 15:50:27 2023 - INFO  - End to restore the test environment.

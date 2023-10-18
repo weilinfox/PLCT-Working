@@ -1,0 +1,389 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 21:08:44 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL vdo
++ pkgs=vdo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs vdo --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpvhbr_foa
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpvhbr_foa
++ dd if=/dev/zero of=vdo_test_device bs=1M count=10240
+10240+0 records in
+10240+0 records out
+10737418240 bytes (11 GB, 10 GiB) copied, 151.383 s, 70.9 MB/s
++ losetup /dev/loop0 vdo_test_device
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+Creating VDO my_vdo_volume
+      Logical blocks defaulted to 1569686 blocks.
+      The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+      It can grow to address at most 16 TB of physical storage in 8192 slabs.
+      If a larger maximum size might be needed, use bigger slabs.
+Starting VDO my_vdo_volume
+Starting compression on VDO my_vdo_volume
+VDO instance 0 volume is ready at /dev/mapper/my_vdo_volume
++ touch /var/log/vdo_remove.log
++ LOG_INFO 'End to prepare the test environment'
++ message='End to prepare the test environment'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment'
+Wed Oct 18 21:11:51 2023 - INFO  - End to prepare the test environment
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run testcase:oe_test_vdo_13.'
++ message='Start to run testcase:oe_test_vdo_13.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run testcase:oe_test_vdo_13.'
+Wed Oct 18 21:11:51 2023 - INFO  - Start to run testcase:oe_test_vdo_13.
++ vdo remove --help
++ grep 'usage: vdo remove'
+usage: vdo remove [-h] (-a | -n <volume>) [--force] [-f <file>]
++ CHECK_RESULT 0 0 0 'Check vdo remove --help failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --help failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo remove -a
++ grep Removing
+Removing VDO my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo remove -a failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove -a failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+Creating VDO my_vdo_volume
+      Logical blocks defaulted to 1569686 blocks.
+      The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+      It can grow to address at most 16 TB of physical storage in 8192 slabs.
+      If a larger maximum size might be needed, use bigger slabs.
+Starting VDO my_vdo_volume
+Starting compression on VDO my_vdo_volume
+VDO instance 0 volume is ready at /dev/mapper/my_vdo_volume
++ vdo remove -n my_vdo_volume
++ grep Removing
+Removing VDO my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo remove -n failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove -n failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+Creating VDO my_vdo_volume
+      Logical blocks defaulted to 1569686 blocks.
+      The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+      It can grow to address at most 16 TB of physical storage in 8192 slabs.
+      If a larger maximum size might be needed, use bigger slabs.
+Starting VDO my_vdo_volume
+Starting compression on VDO my_vdo_volume
+VDO instance 0 volume is ready at /dev/mapper/my_vdo_volume
++ vdo remove --verbose -n my_vdo_volume
++ grep Removing
+Removing VDO my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdo remove --verbose failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --verbose failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+Creating VDO my_vdo_volume
+      Logical blocks defaulted to 1569686 blocks.
+      The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+      It can grow to address at most 16 TB of physical storage in 8192 slabs.
+      If a larger maximum size might be needed, use bigger slabs.
+Starting VDO my_vdo_volume
+Starting compression on VDO my_vdo_volume
+VDO instance 0 volume is ready at /dev/mapper/my_vdo_volume
++ vdo remove -n my_vdo_volume -f /etc/vdoconf.yml
++ grep Removing
+Traceback (most recent call last):
+  File "/usr/bin/vdo", line 158, in <module>
+    main()
+  File "/usr/bin/vdo", line 117, in main
+    arguments = VDOArgumentParser().parse_args()
+                ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/vdo/vdomgmnt/VDOArgumentParser.py", line 268, in __init__
+    self._disableCompressionCommandParser = subparserAdder.add_parser(
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/argparse.py", line 1205, in add_parser
+    parser = self._parser_class(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/site-packages/vdo/vdomgmnt/VDOArgumentParser.py", line 83, in __init__
+    super(VDOArgumentParser.CommandArgumentParser, self).__init__(*args,
+  File "/usr/lib64/python3.11/argparse.py", line 1772, in __init__
+    self._positionals = add_group(_('positional arguments'))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/gettext.py", line 605, in gettext
+    return dgettext(_current_domain, message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/gettext.py", line 568, in dgettext
+    t = translation(domain, _localedirs.get(domain, None))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/gettext.py", line 511, in translation
+    mofiles = find(domain, localedir, languages, all=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/gettext.py", line 475, in find
+    if val:
+KeyboardInterrupt
+++ post_test
+++ LOG_INFO 'Start to restore the test environment.'
+++ message='Start to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:12:27 2023 - ERROR - KeyboardInterrupt : 使用ctrl c结束了进程.
+Wed Oct 18 21:12:27 2023 - INFO  - Start to restore the test environment.
+++ sudo rm /var/log/vdo_remove.log
+++ losetup -d /dev/loop0
+++ rm vdo_test_device -f
+++ DNF_REMOVE
+++ node=1
+++ pkg_list=
+++ mode=0
+++ [[ -z /tmp/tmpvhbr_foa ]]
+++ '[' 0 -ne 0 ']'
+++ '[' 1 == 0 ']'
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpvhbr_foa
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 29, in <module>
+    import ssh_cmd
+  File "/root/mugen/libs/locallibs/ssh_cmd.py", line 23, in <module>
+    import paramiko
+  File "/usr/lib/python3.11/site-packages/paramiko/__init__.py", line 22, in <module>
+    from paramiko.transport import (
+  File "/usr/lib/python3.11/site-packages/paramiko/transport.py", line 93, in <module>
+    from paramiko.dsskey import DSSKey
+  File "/usr/lib/python3.11/site-packages/paramiko/dsskey.py", line 37, in <module>
+    from paramiko.pkey import PKey
+  File "/usr/lib/python3.11/site-packages/paramiko/pkey.py", line 64, in <module>
+    class UnknownKeyType(Exception):
+KeyboardInterrupt
++++ post_test
++++ LOG_INFO 'Start to restore the test environment.'
++++ message='Start to restore the test environment.'
++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:12:29 2023 - INFO  - Start to restore the test environment.
++++ sudo rm /var/log/vdo_remove.log
+rm: cannot remove '/var/log/vdo_remove.log': No such file or directory
++++ losetup -d /dev/loop0
++++ rm vdo_test_device -f
++++ DNF_REMOVE
++++ node=1
++++ pkg_list=
++++ mode=0
++++ [[ -z /tmp/tmpvhbr_foa ]]
++++ '[' 0 -ne 0 ']'
++++ '[' 1 == 0 ']'
++++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpvhbr_foa
+++++ post_test
+++++ LOG_INFO 'Start to restore the test environment.'
+++++ message='Start to restore the test environment.'
+++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:12:30 2023 - INFO  - Start to restore the test environment.
+++++ sudo rm /var/log/vdo_remove.log
+++++ losetup -d /dev/loop0
+++++ rm vdo_test_device -f
+++++ DNF_REMOVE
+++++ node=1
+++++ pkg_list=
+++++ mode=0
+++++ [[ -z /tmp/tmpvhbr_foa ]]
+++++ '[' 0 -ne 0 ']'
+++++ '[' 1 == 0 ']'
+++++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpvhbr_foa
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 22, in <module>
+    import subprocess
+  File "/usr/lib64/python3.11/subprocess.py", line 51, in <module>
+    import threading
+  File "/usr/lib64/python3.11/threading.py", line 498, in <module>
+    class BoundedSemaphore(Semaphore):
+KeyboardInterrupt
++++++ post_test
++++++ LOG_INFO 'Start to restore the test environment.'
++++++ message='Start to restore the test environment.'
++++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:12:31 2023 - INFO  - Start to restore the test environment.
++++++ sudo rm /var/log/vdo_remove.log
+rm: cannot remove '/var/log/vdo_remove.log': No such file or directory
++++++ losetup -d /dev/loop0
++++++ rm vdo_test_device -f
++++++ DNF_REMOVE
++++++ node=1
++++++ pkg_list=
++++++ mode=0
++++++ [[ -z /tmp/tmpvhbr_foa ]]
++++++ '[' 0 -ne 0 ']'
++++++ '[' 1 == 0 ']'
++++++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpvhbr_foa
++++++ '[' 0 -ne 0 ']'
++++++ LOG_INFO 'End to restore the test environment.'
++++++ message='End to restore the test environment.'
++++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:12:43 2023 - INFO  - End to restore the test environment.
+++++ '[' 0 -ne 0 ']'
+++++ LOG_INFO 'End to restore the test environment.'
+++++ message='End to restore the test environment.'
+++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:12:43 2023 - INFO  - End to restore the test environment.
++++ '[' 0 -ne 0 ']'
++++ LOG_INFO 'End to restore the test environment.'
++++ message='End to restore the test environment.'
++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:12:43 2023 - INFO  - End to restore the test environment.
+++ '[' 0 -ne 0 ']'
+++ LOG_INFO 'End to restore the test environment.'
+++ message='End to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:12:44 2023 - INFO  - End to restore the test environment.
++ CHECK_RESULT 130 0 0 'Check vdo remove -f failed'
++ actual_result=130
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove -f failed'
++ exit_mode=0
++ '[' -z 130 ']'
++ '[' 0 -eq 0 ']'
++ test 130x '!=' 0x
++ test -n 'Check vdo remove -f failed'
++ LOG_ERROR 'Check vdo remove -f failed'
++ message='Check vdo remove -f failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove -f failed'
+Wed Oct 18 21:12:44 2023 - ERROR - Check vdo remove -f failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 53'
++ message='oe_test_vdo_13.sh line 53'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 53'
+Wed Oct 18 21:12:44 2023 - ERROR - oe_test_vdo_13.sh line 53
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+oe_test_vdo_13.sh: line 54: /usr/bin/vdo: No such file or directory
++ vdo remove -n my_vdo_volume --logfile /var/log/vdo_remove.log
+oe_test_vdo_13.sh: line 56: /usr/bin/vdo: No such file or directory
++ grep Removing
++ CHECK_RESULT 1 0 0 'Check vdo remove --logfile failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --logfile failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove --logfile failed'
++ LOG_ERROR 'Check vdo remove --logfile failed'
++ message='Check vdo remove --logfile failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove --logfile failed'
+Wed Oct 18 21:12:45 2023 - ERROR - Check vdo remove --logfile failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 57'
++ message='oe_test_vdo_13.sh line 57'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 57'
+Wed Oct 18 21:12:45 2023 - ERROR - oe_test_vdo_13.sh line 57
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+oe_test_vdo_13.sh: line 58: /usr/bin/vdo: No such file or directory
++ vdo remove -n my_vdo_volume --force
+oe_test_vdo_13.sh: line 60: /usr/bin/vdo: No such file or directory
++ grep Removing
++ CHECK_RESULT 1 0 0 'Check vdo remove --force failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --force failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove --force failed'
++ LOG_ERROR 'Check vdo remove --force failed'
++ message='Check vdo remove --force failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove --force failed'
+Wed Oct 18 21:12:46 2023 - ERROR - Check vdo remove --force failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 61'
++ message='oe_test_vdo_13.sh line 61'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 61'
+Wed Oct 18 21:12:46 2023 - ERROR - oe_test_vdo_13.sh line 61
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 21:12:47 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 3
++ test 3 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Oct 18 21:12:47 2023 - ERROR - failed to execute the case.
++ exit 3
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:12:47 2023 - INFO  - Start to restore the test environment.
++ sudo rm /var/log/vdo_remove.log
+rm: cannot remove '/var/log/vdo_remove.log': No such file or directory
++ losetup -d /dev/loop0
++ rm vdo_test_device -f
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpvhbr_foa ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpvhbr_foa
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:12:53 2023 - INFO  - End to restore the test environment.

@@ -1,0 +1,415 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 22:30:43 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL vdo
++ pkgs=vdo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs vdo --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: 1 day, 2:01:58 ago on Tue Oct 17 20:29:06 2023.
+Dependencies resolved.
+================================================================================
+ Package       Architecture      Version                     Repository    Size
+================================================================================
+Installing:
+ vdo           riscv64           6.2.6.14-3.oe2309           OS           870 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 870 k
+Installed size: 7.9 M
+Downloading Packages:
+vdo-6.2.6.14-3.oe2309.riscv64.rpm               808 kB/s | 870 kB     00:01    
+--------------------------------------------------------------------------------
+Total                                           795 kB/s | 870 kB     00:01     
+Running transaction check
+Waiting for process with pid 19286 to finish.
+Error: transaction check vs depsolve:
+kmod-kvdo >= 6.2 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+python3-PyYAML >= 3.10 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+To diagnose the problem, try running: '\''rpm -Va --nofiles --nodigest'\''.
+You probably have corrupted RPMDB, running '\''rpm --rebuilddb'\'' might fix the issue.
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: 1 day, 2:01:58 ago on Tue Oct 17 20:29:06 2023.
+Dependencies resolved.
+================================================================================
+ Package       Architecture      Version                     Repository    Size
+================================================================================
+Installing:
+ vdo           riscv64           6.2.6.14-3.oe2309           OS           870 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 870 k
+Installed size: 7.9 M
+Downloading Packages:
+vdo-6.2.6.14-3.oe2309.riscv64.rpm               808 kB/s | 870 kB     00:01    
+--------------------------------------------------------------------------------
+Total                                           795 kB/s | 870 kB     00:01     
+Running transaction check
+Waiting for process with pid 19286 to finish.
+Error: transaction check vs depsolve:
+kmod-kvdo >= 6.2 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+python3-PyYAML >= 3.10 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+To diagnose the problem, try running: '\''rpm -Va --nofiles --nodigest'\''.
+You probably have corrupted RPMDB, running '\''rpm --rebuilddb'\'' might fix the issue.
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.'
++ dd if=/dev/zero of=vdo_test_device bs=1M count=10240
+10240+0 records in
+10240+0 records out
+10737418240 bytes (11 GB, 10 GiB) copied, 160.562 s, 66.9 MB/s
++ losetup /dev/loop0 vdo_test_device
+losetup: vdo_test_device: failed to set up loop device: No such file or directory
++ vdo create -n my_vdo_volume --device /dev/loop0
+oe_test_vdo_09.sh: line 29: vdo: command not found
++ touch /var/log/vdo_list.log
++ touch /var/log/vdo_printConfigFile.log
++ LOG_INFO 'End to prepare the test environment'
++ message='End to prepare the test environment'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment'
+Wed Oct 18 22:39:19 2023 - INFO  - End to prepare the test environment
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run testcase:oe_test_vdo_09.'
++ message='Start to run testcase:oe_test_vdo_09.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run testcase:oe_test_vdo_09.'
+Wed Oct 18 22:39:19 2023 - INFO  - Start to run testcase:oe_test_vdo_09.
++ vdo list --help
++ grep 'usage: vdo list'
+oe_test_vdo_09.sh: line 38: vdo: command not found
++ CHECK_RESULT 1 0 0 'Check vdo list --help failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo list --help failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo list --help failed'
++ LOG_ERROR 'Check vdo list --help failed'
++ message='Check vdo list --help failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo list --help failed'
+Wed Oct 18 22:39:20 2023 - ERROR - Check vdo list --help failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 39'
++ message='oe_test_vdo_09.sh line 39'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 39'
+Wed Oct 18 22:39:20 2023 - ERROR - oe_test_vdo_09.sh line 39
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo list -a
+oe_test_vdo_09.sh: line 41: vdo: command not found
++ grep my_vdo_volume
++ CHECK_RESULT 1 0 0 'Check vdo list -a failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo list -a failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo list -a failed'
++ LOG_ERROR 'Check vdo list -a failed'
++ message='Check vdo list -a failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo list -a failed'
+Wed Oct 18 22:39:20 2023 - ERROR - Check vdo list -a failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 42'
++ message='oe_test_vdo_09.sh line 42'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 42'
+Wed Oct 18 22:39:21 2023 - ERROR - oe_test_vdo_09.sh line 42
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo list --verbose
+oe_test_vdo_09.sh: line 44: vdo: command not found
++ grep 'dmsetup status'
++ CHECK_RESULT 1 0 0 'Check vdo list --verbose failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo list --verbose failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo list --verbose failed'
++ LOG_ERROR 'Check vdo list --verbose failed'
++ message='Check vdo list --verbose failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo list --verbose failed'
+Wed Oct 18 22:39:21 2023 - ERROR - Check vdo list --verbose failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 45'
++ message='oe_test_vdo_09.sh line 45'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 45'
+Wed Oct 18 22:39:22 2023 - ERROR - oe_test_vdo_09.sh line 45
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo list -f /etc/vdoconf.yml
+oe_test_vdo_09.sh: line 47: vdo: command not found
++ grep my_vdo_volume
++ CHECK_RESULT 1 0 0 'Check vdo list -f failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo list -f failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo list -f failed'
++ LOG_ERROR 'Check vdo list -f failed'
++ message='Check vdo list -f failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo list -f failed'
+Wed Oct 18 22:39:22 2023 - ERROR - Check vdo list -f failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 48'
++ message='oe_test_vdo_09.sh line 48'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 48'
+Wed Oct 18 22:39:22 2023 - ERROR - oe_test_vdo_09.sh line 48
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo list --logfile /var/log/vdo_list.log
+oe_test_vdo_09.sh: line 50: vdo: command not found
++ grep my_vdo_volume
++ CHECK_RESULT 1 0 0 'Check vdo list --logfile failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo list --logfile failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo list --logfile failed'
++ LOG_ERROR 'Check vdo list --logfile failed'
++ message='Check vdo list --logfile failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo list --logfile failed'
+Wed Oct 18 22:39:23 2023 - ERROR - Check vdo list --logfile failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 51'
++ message='oe_test_vdo_09.sh line 51'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 51'
+Wed Oct 18 22:39:23 2023 - ERROR - oe_test_vdo_09.sh line 51
++ '[' 0 -eq 1 ']'
++ return 0
++ grep 'usage: vdo printConfigFile'
++ vdo printConfigFile --help
+oe_test_vdo_09.sh: line 53: vdo: command not found
++ CHECK_RESULT 1 0 0 'Check vdo printConfigFile --help failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo printConfigFile --help failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo printConfigFile --help failed'
++ LOG_ERROR 'Check vdo printConfigFile --help failed'
++ message='Check vdo printConfigFile --help failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo printConfigFile --help failed'
+Wed Oct 18 22:39:24 2023 - ERROR - Check vdo printConfigFile --help failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 54'
++ message='oe_test_vdo_09.sh line 54'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 54'
+Wed Oct 18 22:39:24 2023 - ERROR - oe_test_vdo_09.sh line 54
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo printConfigFile --verbose
+oe_test_vdo_09.sh: line 56: vdo: command not found
++ grep config:
++ CHECK_RESULT 1 0 0 'Check vdo printConfigFile --verbose failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo printConfigFile --verbose failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo printConfigFile --verbose failed'
++ LOG_ERROR 'Check vdo printConfigFile --verbose failed'
++ message='Check vdo printConfigFile --verbose failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo printConfigFile --verbose failed'
+Wed Oct 18 22:39:24 2023 - ERROR - Check vdo printConfigFile --verbose failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 57'
++ message='oe_test_vdo_09.sh line 57'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 57'
+Wed Oct 18 22:39:25 2023 - ERROR - oe_test_vdo_09.sh line 57
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo printConfigFile -f /etc/vdoconf.yml
++ grep config:
+oe_test_vdo_09.sh: line 59: vdo: command not found
++ CHECK_RESULT 1 0 0 'Check vdo printConfigFile -f failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo printConfigFile -f failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo printConfigFile -f failed'
++ LOG_ERROR 'Check vdo printConfigFile -f failed'
++ message='Check vdo printConfigFile -f failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo printConfigFile -f failed'
+Wed Oct 18 22:39:25 2023 - ERROR - Check vdo printConfigFile -f failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 60'
++ message='oe_test_vdo_09.sh line 60'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 60'
+Wed Oct 18 22:39:26 2023 - ERROR - oe_test_vdo_09.sh line 60
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo printConfigFile --logfile /var/log/vdo_printConfigFile.log
+oe_test_vdo_09.sh: line 62: vdo: command not found
++ grep config:
++ CHECK_RESULT 1 0 0 'Check vdo printConfigFile --logfile failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo printConfigFile --logfile failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo printConfigFile --logfile failed'
++ LOG_ERROR 'Check vdo printConfigFile --logfile failed'
++ message='Check vdo printConfigFile --logfile failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo printConfigFile --logfile failed'
+Wed Oct 18 22:39:26 2023 - ERROR - Check vdo printConfigFile --logfile failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_09.sh line 63'
++ message='oe_test_vdo_09.sh line 63'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_09.sh line 63'
+Wed Oct 18 22:39:27 2023 - ERROR - oe_test_vdo_09.sh line 63
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 22:39:27 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 9
++ test 9 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Oct 18 22:39:27 2023 - ERROR - failed to execute the case.
++ exit 9
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 22:39:28 2023 - INFO  - Start to restore the test environment.
++ sudo rm /var/log/vdo_list.log
++ sudo rm /var/log/vdo_printConfigFile.log
++ vdo remove -n my_vdo_volume
+oe_test_vdo_09.sh: line 73: vdo: command not found
++ losetup -d /dev/loop0
+losetup: /dev/loop0: detach failed: No such device or address
++ rm vdo_test_device -f
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: 1 day, 2:01:58 ago on Tue Oct 17 20:29:06 2023.
+Dependencies resolved.
+================================================================================
+ Package       Architecture      Version                     Repository    Size
+================================================================================
+Installing:
+ vdo           riscv64           6.2.6.14-3.oe2309           OS           870 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 870 k
+Installed size: 7.9 M
+Downloading Packages:
+vdo-6.2.6.14-3.oe2309.riscv64.rpm               808 kB/s | 870 kB     00:01    
+--------------------------------------------------------------------------------
+Total                                           795 kB/s | 870 kB     00:01     
+Running transaction check
+Waiting for process with pid 19286 to finish.
+Error: transaction check vs depsolve:
+kmod-kvdo >= 6.2 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+python3-PyYAML >= 3.10 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+To diagnose the problem, try running: 'rpm -Va --nofiles --nodigest'.
+You probably have corrupted RPMDB, running 'rpm --rebuilddb' might fix the issue.
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'. ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: 1 day, 2:01:58 ago on Tue Oct 17 20:29:06 2023.
+Dependencies resolved.
+================================================================================
+ Package       Architecture      Version                     Repository    Size
+================================================================================
+Installing:
+ vdo           riscv64           6.2.6.14-3.oe2309           OS           870 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 870 k
+Installed size: 7.9 M
+Downloading Packages:
+vdo-6.2.6.14-3.oe2309.riscv64.rpm               808 kB/s | 870 kB     00:01    
+--------------------------------------------------------------------------------
+Total                                           795 kB/s | 870 kB     00:01     
+Running transaction check
+Waiting for process with pid 19286 to finish.
+Error: transaction check vs depsolve:
+kmod-kvdo >= 6.2 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+python3-PyYAML >= 3.10 is needed by vdo-6.2.6.14-3.oe2309.riscv64
+To diagnose the problem, try running: '\''rpm -Va --nofiles --nodigest'\''.
+You probably have corrupted RPMDB, running '\''rpm --rebuilddb'\'' might fix the issue.
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 192, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 163, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 1 day, 2:01:58 ago on Tue Oct 17 20:29:06 2023.\nDependencies resolved.\n================================================================================\n Package       Architecture      Version                     Repository    Size\n================================================================================\nInstalling:\n vdo           riscv64           6.2.6.14-3.oe2309           OS           870 k\n\nTransaction Summary\n================================================================================\nInstall  1 Package\n\nTotal download size: 870 k\nInstalled size: 7.9 M\nDownloading Packages:\nvdo-6.2.6.14-3.oe2309.riscv64.rpm               808 kB/s | 870 kB     00:01    \n--------------------------------------------------------------------------------\nTotal                                           795 kB/s | 870 kB     00:01     \nRunning transaction check\nWaiting for process with pid 19286 to finish.\nError: transaction check vs depsolve:\nkmod-kvdo >= 6.2 is needed by vdo-6.2.6.14-3.oe2309.riscv64\npython3-PyYAML >= 3.10 is needed by vdo-6.2.6.14-3.oe2309.riscv64\nTo diagnose the problem, try running: 'rpm -Va --nofiles --nodigest'.\nYou probably have corrupted RPMDB, running 'rpm --rebuilddb' might fix the issue.\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'."
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 22:39:31 2023 - INFO  - End to restore the test environment.

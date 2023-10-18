@@ -1,0 +1,221 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 21:58:55 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL vdo
++ pkgs=vdo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs vdo --node 1 --tempfile ''
++ tmpfile2=/tmp/tmpmze9isi_
++ '[' -z '' ']'
++ tmpfile=/tmp/tmpmze9isi_
++ dd if=/dev/zero of=vdo_test_device bs=1M count=10240
+10240+0 records in
+10240+0 records out
+10737418240 bytes (11 GB, 10 GiB) copied, 155.004 s, 69.3 MB/s
++ losetup /dev/loop0 vdo_test_device
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+vdo: WARNING - unable to determine VDO service my_vdo_volume instance number: [Errno 2] No such file or directory: '/sys/kvdo/my_vdo_volume/instance'
+Creating VDO my_vdo_volume
+      Logical blocks defaulted to 1569686 blocks.
+      The VDO volume can address 6 GB in 3 data slabs, each 2 GB.
+      It can grow to address at most 16 TB of physical storage in 8192 slabs.
+      If a larger maximum size might be needed, use bigger slabs.
+Starting VDO my_vdo_volume
+Starting compression on VDO my_vdo_volume
+VDO instance 0 volume is ready at /dev/mapper/my_vdo_volume
++ LOG_INFO 'End to prepare the test environment'
++ message='End to prepare the test environment'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment'
+Wed Oct 18 22:23:15 2023 - INFO  - End to prepare the test environment
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run testcase:oe_test_vdo_14.'
++ message='Start to run testcase:oe_test_vdo_14.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run testcase:oe_test_vdo_14.'
+Wed Oct 18 22:23:16 2023 - INFO  - Start to run testcase:oe_test_vdo_14.
++ vdodmeventd --help
++ grep OPTIONS
+OPTIONS
++ CHECK_RESULT 0 0 0 'Check vdodmeventd --help failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdodmeventd --help failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdodmeventd --unregister my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdodmeventd --unregister failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdodmeventd --unregister failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdodmeventd --register my_vdo_volume
++ CHECK_RESULT 0 0 0 'Check vdodmeventd --register failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdodmeventd --register failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdodmeventd --version
++ grep 'vdodmeventd version'
+vdodmeventd version is: 6.2.6.14
++ CHECK_RESULT 0 0 0 'Check vdodmeventd --version failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdodmeventd --version failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdodumpconfig /dev/loop0
++ grep VDOConfig:
+VDOConfig:
++ CHECK_RESULT 0 0 0 'Check vdodumpconfig failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdodumpconfig failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoreadonly /dev/loop0
++ CHECK_RESULT 0 0 0 'Check vdoreadonly failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdoreadonly failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoforcerebuild /dev/loop0
++ CHECK_RESULT 0 0 0 'Check vdodumpconfig failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdodumpconfig failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdoprepareupgrade /dev/loop0
+oe_test_vdo_14.sh: line 57: vdoprepareupgrade: command not found
++ CHECK_RESULT 127 0 0 'Check vdoprepareupgrade failed'
++ actual_result=127
++ expect_result=0
++ mode=0
++ error_log='Check vdoprepareupgrade failed'
++ exit_mode=0
++ '[' -z 127 ']'
++ '[' 0 -eq 0 ']'
++ test 127x '!=' 0x
++ test -n 'Check vdoprepareupgrade failed'
++ LOG_ERROR 'Check vdoprepareupgrade failed'
++ message='Check vdoprepareupgrade failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdoprepareupgrade failed'
+Wed Oct 18 22:23:16 2023 - ERROR - Check vdoprepareupgrade failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_14.sh line 58'
++ message='oe_test_vdo_14.sh line 58'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_14.sh line 58'
+Wed Oct 18 22:23:17 2023 - ERROR - oe_test_vdo_14.sh line 58
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 22:23:17 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 1
++ test 1 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Oct 18 22:23:18 2023 - ERROR - failed to execute the case.
++ exit 1
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 22:23:18 2023 - INFO  - Start to restore the test environment.
++ vdo remove -n my_vdo_volume
+Removing VDO my_vdo_volume
+Stopping VDO my_vdo_volume
++ losetup -d /dev/loop0
++ rm vdo_test_device -f
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmpmze9isi_ ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpmze9isi_
+Wed Oct 18 22:28:54 2023 - ERROR - Timeout : Command 'bash -x oe_test_vdo_14.sh' timed out after 1799.9997181939998 seconds
+++ post_test
+++ LOG_INFO 'Start to restore the test environment.'
+++ message='Start to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 22:36:38 2023 - INFO  - Start to restore the test environment.
+++ vdo remove -n my_vdo_volume
+oe_test_vdo_14.sh: line 66: /usr/bin/vdo: No such file or directory
+++ losetup -d /dev/loop0
+losetup: /dev/loop0: detach failed: No such device or address
+++ rm vdo_test_device -f
+++ DNF_REMOVE
+++ node=1
+++ pkg_list=
+++ mode=0
+++ [[ -z /tmp/tmpmze9isi_ ]]
+++ '[' 0 -ne 0 ']'
+++ '[' 1 == 0 ']'
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmpmze9isi_
+++ '[' 0 -ne 0 ']'
+++ LOG_INFO 'End to restore the test environment.'
+++ message='End to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 22:36:43 2023 - INFO  - End to restore the test environment.
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 22:36:44 2023 - INFO  - End to restore the test environment.

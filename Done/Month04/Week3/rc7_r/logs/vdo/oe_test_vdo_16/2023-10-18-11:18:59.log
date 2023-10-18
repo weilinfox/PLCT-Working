@@ -1,0 +1,298 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 11:19:02 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL vdo
++ pkgs=vdo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs vdo --node 1 --tempfile ''
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 187, in <module>
+    exitcode, output = rpm_install(args.pkgs, args.node, args.tempfile)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 116, in rpm_install
+    exitcode, result = func(conn=conn, cmd="dnf -y install " + pkgs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 42, in local_cmd
+    exitcode, output = subprocess.getstatusoutput(cmd)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 671, in getstatusoutput
+    data = check_output(cmd, shell=True, text=True, stderr=STDOUT,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/subprocess.py", line 1196, in communicate
+    stdout = self.stdout.read()
+             ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
++ tmpfile2=
+++ post_test
+++ LOG_INFO 'Start to restore the test environment.'
+++ message='Start to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 11:23:24 2023 - ERROR - KeyboardInterrupt : 使用ctrl c结束了进程.
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/mugen_log.py", line 21, in <module>
+    import argparse
+  File "/usr/lib64/python3.11/argparse.py", line 89, in <module>
+    import re as _re
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 701, in _load_unlocked
+KeyboardInterrupt
++++ post_test
++++ LOG_INFO 'Start to restore the test environment.'
++++ message='Start to restore the test environment.'
++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 11:23:25 2023 - INFO  - Start to restore the test environment.
++++ vdo remove -n my_vdo_volume
+oe_test_vdo_16.sh: line 60: vdo: command not found
++++ losetup -d /dev/loop0
+losetup: /dev/loop0: failed to use device: No such device
++++ rm vdo_test_device -f
++++ DNF_REMOVE
++++ node=1
++++ pkg_list=
++++ mode=0
++++ [[ -z '' ]]
++++ [[ -z '' ]]
++++ LOG_WARN 'no thing to do.'
++++ message='no thing to do.'
++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Wed Oct 18 11:23:26 2023 - WARN  - no thing to do.
++++ return 0
++++ LOG_INFO 'End to restore the test environment.'
++++ message='End to restore the test environment.'
++++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 11:23:26 2023 - INFO  - End to restore the test environment.
+++ vdo remove -n my_vdo_volume
+oe_test_vdo_16.sh: line 60: vdo: command not found
+++ losetup -d /dev/loop0
+losetup: /dev/loop0: failed to use device: No such device
+++ rm vdo_test_device -f
+++ DNF_REMOVE
+++ node=1
+++ pkg_list=
+++ mode=0
+++ [[ -z '' ]]
+++ [[ -z '' ]]
+++ LOG_WARN 'no thing to do.'
+++ message='no thing to do.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Wed Oct 18 11:23:26 2023 - WARN  - no thing to do.
+++ return 0
+++ LOG_INFO 'End to restore the test environment.'
+++ message='End to restore the test environment.'
+++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 11:23:27 2023 - INFO  - End to restore the test environment.
++ '[' -z '' ']'
++ tmpfile=
++ dd if=/dev/zero of=vdo_test_device bs=1M count=10240
+10240+0 records in
+10240+0 records out
+10737418240 bytes (11 GB, 10 GiB) copied, 314.729 s, 34.1 MB/s
++ losetup /dev/loop0 vdo_test_device
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: ERROR - Kernel module kvdo not installed
+vdo: ERROR - modprobe: FATAL: Module kvdo not found in directory /lib/modules/6.4.0-10.1.0.20.oe2309.riscv64
+Creating VDO my_vdo_volume
++ LOG_INFO 'End to prepare the test environment'
++ message='End to prepare the test environment'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment'
+Wed Oct 18 11:28:53 2023 - INFO  - End to prepare the test environment
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run testcase:oe_test_vdo_16.'
++ message='Start to run testcase:oe_test_vdo_16.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run testcase:oe_test_vdo_16.'
+Wed Oct 18 11:28:54 2023 - INFO  - Start to run testcase:oe_test_vdo_16.
++ grep 'Usage: vdostats'
++ vdostats --help
++ CHECK_RESULT 1 0 0 'Check vdostats --help failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdostats --help failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdostats --help failed'
++ LOG_ERROR 'Check vdostats --help failed'
++ message='Check vdostats --help failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdostats --help failed'
+Wed Oct 18 11:28:57 2023 - ERROR - Check vdostats --help failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_16.sh line 37'
++ message='oe_test_vdo_16.sh line 37'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_16.sh line 37'
+Wed Oct 18 11:28:57 2023 - ERROR - oe_test_vdo_16.sh line 37
++ '[' 0 -eq 1 ']'
++ return 0
++ grep 'my_vdo_volume : '
++ vdostats --all my_vdo_volume
+'my_vdo_volume': No such file or directory
++ CHECK_RESULT 1 0 0 'Check vdostats --all failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdostats --all failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdostats --all failed'
++ LOG_ERROR 'Check vdostats --all failed'
++ message='Check vdostats --all failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdostats --all failed'
+Wed Oct 18 11:29:00 2023 - ERROR - Check vdostats --all failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_16.sh line 40'
++ message='oe_test_vdo_16.sh line 40'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_16.sh line 40'
+Wed Oct 18 11:29:00 2023 - ERROR - oe_test_vdo_16.sh line 40
++ '[' 0 -eq 1 ']'
++ return 0
++ vdostats --human-readable my_vdo_volume
++ grep 'Available Use%'
+'my_vdo_volume': No such file or directory
++ CHECK_RESULT 1 0 0 'Check vdostats --human-readable failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdostats --human-readable failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdostats --human-readable failed'
++ LOG_ERROR 'Check vdostats --human-readable failed'
++ message='Check vdostats --human-readable failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdostats --human-readable failed'
+Wed Oct 18 11:29:03 2023 - ERROR - Check vdostats --human-readable failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_16.sh line 43'
++ message='oe_test_vdo_16.sh line 43'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_16.sh line 43'
+Wed Oct 18 11:29:03 2023 - ERROR - oe_test_vdo_16.sh line 43
++ '[' 0 -eq 1 ']'
++ return 0
++ vdostats --si my_vdo_volume
++ grep 'Space saving%'
+'my_vdo_volume': No such file or directory
++ CHECK_RESULT 1 0 0 'Check vdostats --si failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdostats --si failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdostats --si failed'
++ LOG_ERROR 'Check vdostats --si failed'
++ message='Check vdostats --si failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdostats --si failed'
+Wed Oct 18 11:29:07 2023 - ERROR - Check vdostats --si failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_16.sh line 46'
++ message='oe_test_vdo_16.sh line 46'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_16.sh line 46'
+Wed Oct 18 11:29:08 2023 - ERROR - oe_test_vdo_16.sh line 46
++ '[' 0 -eq 1 ']'
++ return 0
++ grep ' release version'
++ vdostats --verbose my_vdo_volume
+'my_vdo_volume': No such file or directory
++ CHECK_RESULT 1 0 0 'Check vdostats --verbose failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdostats --verbose failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdostats --verbose failed'
++ LOG_ERROR 'Check vdostats --verbose failed'
++ message='Check vdostats --verbose failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdostats --verbose failed'
+Wed Oct 18 11:29:11 2023 - ERROR - Check vdostats --verbose failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_16.sh line 49'
++ message='oe_test_vdo_16.sh line 49'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_16.sh line 49'
+Wed Oct 18 11:29:12 2023 - ERROR - oe_test_vdo_16.sh line 49
++ '[' 0 -eq 1 ']'
++ return 0
++ vdostats --version
+133524.31
++ CHECK_RESULT 0 0 0 'Check vdostats --version failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdostats --version failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 11:29:15 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 5
++ test 5 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Oct 18 11:29:16 2023 - ERROR - failed to execute the case.
++ exit 5
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 11:29:16 2023 - INFO  - Start to restore the test environment.
++ vdo remove -n my_vdo_volume
+vdo: ERROR - VDO volume my_vdo_volume not found
++ losetup -d /dev/loop0
++ rm vdo_test_device -f
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z '' ]]
++ [[ -z '' ]]
++ LOG_WARN 'no thing to do.'
++ message='no thing to do.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level warn --message 'no thing to do.'
+Wed Oct 18 11:29:37 2023 - WARN  - no thing to do.
++ return 0
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 11:29:38 2023 - INFO  - End to restore the test environment.

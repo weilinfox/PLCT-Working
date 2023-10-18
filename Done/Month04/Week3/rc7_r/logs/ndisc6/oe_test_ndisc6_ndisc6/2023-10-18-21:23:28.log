@@ -1,0 +1,498 @@
++ source ../common/common_ndisc6.sh
+++ source /root/mugen/libs/locallibs/common_lib.sh
++++ python3 --version
++++ '[' 0 -eq 0 ']'
++++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 21:23:31 2023 - INFO  - Start to prepare the test environment.
++ deploy_env
++ DNF_INSTALL 'ndisc6 xinetd time'
++ pkgs='ndisc6 xinetd time'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'ndisc6 xinetd time' --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.
+Package time-1.9-10.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package         Architecture     Version                     Repository   Size
+================================================================================
+Installing:
+ ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k
+ xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 151 k
+Installed size: 439 k
+Downloading Packages:
+(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    
+(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 151 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem
+  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.
+Package time-1.9-10.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package         Architecture     Version                     Repository   Size
+================================================================================
+Installing:
+ ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k
+ xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 151 k
+Installed size: 439 k
+Downloading Packages:
+(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    
+(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 151 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem
+  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
+++ hostname
++ hostname_init=openeuler
++ hostname newlocalhost
+++ ip addr show enp0s2
+++ grep -w inet6
+++ awk '{print $2}'
+++ awk -F / '{print $1}'
+++ awk 'NR==1{print $1}'
++ NODE1_IPV6=fe80::a87e:72ff:fe35:2
+++ P_SSH_CMD --node 2 --cmd 'ip addr show enp0s2'
+++ python3 /root/mugen/libs/locallibs/ssh_cmd.py --node 2 --cmd 'ip addr show enp0s2'
+++ grep -w inet6
+++ awk '{print $2}'
+++ awk -F / '{print $1}'
+++ awk 'NR==1{print $1}'
++ NODE2_IPV6=fe80::a87e:72ff:fe35:3
++ cp /etc/resolv.conf /etc/resolv.conf-bak
++ sed -i 's/name/#&/' /etc/resolv.conf
++ sed -i 6s/yes/no/g /etc/xinetd.d/echo-stream
+sed: can't read /etc/xinetd.d/echo-stream: No such file or directory
++ systemctl restart xinetd
+Failed to restart xinetd.service: Unit xinetd.service not found.
++ DNF_INSTALL xinetd 2
++ pkgs=xinetd
++ node=2
++ '[' -z 'Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.
+Package time-1.9-10.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package         Architecture     Version                     Repository   Size
+================================================================================
+Installing:
+ ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k
+ xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 151 k
+Installed size: 439 k
+Downloading Packages:
+(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    
+(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 151 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem
+  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.' ']'
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs xinetd --node 2 --tempfile 'Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.
+Package time-1.9-10.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package         Architecture     Version                     Repository   Size
+================================================================================
+Installing:
+ ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k
+ xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 151 k
+Installed size: 439 k
+Downloading Packages:
+(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    
+(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 151 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem
+  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 187, in <module>
+    exitcode, output = rpm_install(args.pkgs, args.node, args.tempfile)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 121, in rpm_install
+    with open(tmpfile, "a+") as f:
+         ^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.\nPackage time-1.9-10.oe2309.riscv64 is already installed.\nDependencies resolved.\n================================================================================\n Package         Architecture     Version                     Repository   Size\n================================================================================\nInstalling:\n ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k\n xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k\n\nTransaction Summary\n================================================================================\nInstall  2 Packages\n\nTotal download size: 151 k\nInstalled size: 439 k\nDownloading Packages:\n(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    \n(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    \n--------------------------------------------------------------------------------\nTotal                                           188 kB/s | 151 kB     00:00     \nRunning transaction check\nTransaction check succeeded.\nRunning transaction test\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Transaction test error:\n  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem\n  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem\n\nError Summary\n-------------\nDisk Requirements:\n   At least 1MB more space needed on the / filesystem."
++ tmpfile2=
++ '[' -z 'Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.
+Package time-1.9-10.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package         Architecture     Version                     Repository   Size
+================================================================================
+Installing:
+ ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k
+ xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 151 k
+Installed size: 439 k
+Downloading Packages:
+(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    
+(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 151 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem
+  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.' ']'
++ P_SSH_CMD --node 2 --cmd 'sed -i '\''6s/yes/no/g'\'' /etc/xinetd.d/echo-stream;systemctl restart xinetd;'
++ python3 /root/mugen/libs/locallibs/ssh_cmd.py --node 2 --cmd 'sed -i '\''6s/yes/no/g'\'' /etc/xinetd.d/echo-stream;systemctl restart xinetd;'
+
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Wed Oct 18 21:24:40 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed Oct 18 21:24:40 2023 - INFO  - Start to run test.
++ ndisc6 -1 -r 3 -w 1000 fe80::a87e:72ff:fe35:3 enp0s2
+oe_test_ndisc6_ndisc6.sh: line 28: ndisc6: command not found
++ grep -i 52:54:00:11:45:02
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ndisc6_ndisc6.sh line 29'
++ message='oe_test_ndisc6_ndisc6.sh line 29'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ndisc6_ndisc6.sh line 29'
+Wed Oct 18 21:24:40 2023 - ERROR - oe_test_ndisc6_ndisc6.sh line 29
++ '[' 0 -eq 1 ']'
++ return 0
++ ndisc6 -m -r 3 -w 1000 fe80::a87e:72ff:fe35:3 enp0s2
+oe_test_ndisc6_ndisc6.sh: line 30: ndisc6: command not found
++ grep -i 52:54:00:11:45:02
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ndisc6_ndisc6.sh line 31'
++ message='oe_test_ndisc6_ndisc6.sh line 31'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ndisc6_ndisc6.sh line 31'
+Wed Oct 18 21:24:41 2023 - ERROR - oe_test_ndisc6_ndisc6.sh line 31
++ '[' 0 -eq 1 ']'
++ return 0
++ grep -i 52:54:00:11:45:02
++ ndisc6 -n -r 3 -w 1000 fe80::a87e:72ff:fe35:3 enp0s2
+oe_test_ndisc6_ndisc6.sh: line 32: ndisc6: command not found
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ndisc6_ndisc6.sh line 33'
++ message='oe_test_ndisc6_ndisc6.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ndisc6_ndisc6.sh line 33'
+Wed Oct 18 21:24:41 2023 - ERROR - oe_test_ndisc6_ndisc6.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ ndisc6 -q -r 3 -w 1000 fe80::a87e:72ff:fe35:3 enp0s2
+oe_test_ndisc6_ndisc6.sh: line 34: ndisc6: command not found
++ grep -i 52:54:00:11:45:02
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ndisc6_ndisc6.sh line 35'
++ message='oe_test_ndisc6_ndisc6.sh line 35'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ndisc6_ndisc6.sh line 35'
+Wed Oct 18 21:24:42 2023 - ERROR - oe_test_ndisc6_ndisc6.sh line 35
++ '[' 0 -eq 1 ']'
++ return 0
+++ rpm -qa ndisc6
+++ awk -F - '{print $2}'
++ ndisc6_version=
++ ndisc6 -V
+oe_test_ndisc6_ndisc6.sh: line 37: ndisc6: command not found
++ grep ''
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ndisc6_ndisc6.sh line 38'
++ message='oe_test_ndisc6_ndisc6.sh line 38'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ndisc6_ndisc6.sh line 38'
+Wed Oct 18 21:24:44 2023 - ERROR - oe_test_ndisc6_ndisc6.sh line 38
++ '[' 0 -eq 1 ']'
++ return 0
++ ndisc6 -v -r 3 -w 1000 fe80::a87e:72ff:fe35:3 enp0s2
+oe_test_ndisc6_ndisc6.sh: line 39: ndisc6: command not found
++ grep -i 52:54:00:11:45:02
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ndisc6_ndisc6.sh line 40'
++ message='oe_test_ndisc6_ndisc6.sh line 40'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ndisc6_ndisc6.sh line 40'
+Wed Oct 18 21:24:44 2023 - ERROR - oe_test_ndisc6_ndisc6.sh line 40
++ '[' 0 -eq 1 ']'
++ return 0
++ ndisc6 -h
+oe_test_ndisc6_ndisc6.sh: line 41: ndisc6: command not found
++ grep ndisc6
++ CHECK_RESULT 1
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log=
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n ''
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_ndisc6_ndisc6.sh line 42'
++ message='oe_test_ndisc6_ndisc6.sh line 42'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_ndisc6_ndisc6.sh line 42'
+Wed Oct 18 21:24:44 2023 - ERROR - oe_test_ndisc6_ndisc6.sh line 42
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 21:24:45 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 7
++ test 7 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Oct 18 21:24:45 2023 - ERROR - failed to execute the case.
++ exit 7
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:24:45 2023 - INFO  - Start to restore the test environment.
++ clear_env
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.
+Package time-1.9-10.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package         Architecture     Version                     Repository   Size
+================================================================================
+Installing:
+ ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k
+ xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 151 k
+Installed size: 439 k
+Downloading Packages:
+(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    
+(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 151 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Transaction test error:
+  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem
+  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem. ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.
+Package time-1.9-10.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package         Architecture     Version                     Repository   Size
+================================================================================
+Installing:
+ ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k
+ xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 151 k
+Installed size: 439 k
+Downloading Packages:
+(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    
+(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 151 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem
+  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 192, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 163, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 2:31:05 ago on Wed Oct 18 18:52:47 2023.\nPackage time-1.9-10.oe2309.riscv64 is already installed.\nDependencies resolved.\n================================================================================\n Package         Architecture     Version                     Repository   Size\n================================================================================\nInstalling:\n ndisc6          riscv64          1.0.4-7.oe2309              OS           69 k\n xinetd          riscv64          2:2.3.15-35.oe2309          OS           82 k\n\nTransaction Summary\n================================================================================\nInstall  2 Packages\n\nTotal download size: 151 k\nInstalled size: 439 k\nDownloading Packages:\n(1/2): xinetd-2.3.15-35.oe2309.riscv64.rpm      107 kB/s |  82 kB     00:00    \n(2/2): ndisc6-1.0.4-7.oe2309.riscv64.rpm         88 kB/s |  69 kB     00:00    \n--------------------------------------------------------------------------------\nTotal                                           188 kB/s | 151 kB     00:00     \nRunning transaction check\nTransaction check succeeded.\nRunning transaction test\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Transaction test error:\n  installing package xinetd-2:2.3.15-35.oe2309.riscv64 needs 288KB more space on the / filesystem\n  installing package ndisc6-1.0.4-7.oe2309.riscv64 needs 648KB more space on the / filesystem\n\nError Summary\n-------------\nDisk Requirements:\n   At least 1MB more space needed on the / filesystem."
++ '[' 0 -ne 0 ']'
++ hostname openeuler
++ cp -rf /etc/resolv.conf-bak /etc/resolv.conf
++ rm -rf file runtime /etc/resolv.conf-bak
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:24:48 2023 - INFO  - End to restore the test environment.

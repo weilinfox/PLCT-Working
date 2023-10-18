@@ -1,0 +1,600 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 21:15:52 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL 'iperf3 net-tools'
++ pkgs='iperf3 net-tools'
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs 'iperf3 net-tools' --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.
+Package net-tools-2.10-3.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package          Architecture      Version                  Repository    Size
+================================================================================
+Installing:
+ iperf3           riscv64           3.13-2.oe2309            OS            87 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 87 k
+Installed size: 233 k
+Downloading Packages:
+iperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           137 kB/s |  87 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.
+Package net-tools-2.10-3.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package          Architecture      Version                  Repository    Size
+================================================================================
+Installing:
+ iperf3           riscv64           3.13-2.oe2309            OS            87 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 87 k
+Installed size: 233 k
+Downloading Packages:
+iperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           137 kB/s |  87 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
++ DNF_INSTALL iperf3 2
++ pkgs=iperf3
++ node=2
++ '[' -z 'Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.
+Package net-tools-2.10-3.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package          Architecture      Version                  Repository    Size
+================================================================================
+Installing:
+ iperf3           riscv64           3.13-2.oe2309            OS            87 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 87 k
+Installed size: 233 k
+Downloading Packages:
+iperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           137 kB/s |  87 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.' ']'
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs iperf3 --node 2 --tempfile 'Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.
+Package net-tools-2.10-3.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package          Architecture      Version                  Repository    Size
+================================================================================
+Installing:
+ iperf3           riscv64           3.13-2.oe2309            OS            87 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 87 k
+Installed size: 233 k
+Downloading Packages:
+iperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           137 kB/s |  87 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 187, in <module>
+    exitcode, output = rpm_install(args.pkgs, args.node, args.tempfile)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 121, in rpm_install
+    with open(tmpfile, "a+") as f:
+         ^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.\nPackage net-tools-2.10-3.oe2309.riscv64 is already installed.\nDependencies resolved.\n================================================================================\n Package          Architecture      Version                  Repository    Size\n================================================================================\nInstalling:\n iperf3           riscv64           3.13-2.oe2309            OS            87 k\n\nTransaction Summary\n================================================================================\nInstall  1 Package\n\nTotal download size: 87 k\nInstalled size: 233 k\nDownloading Packages:\niperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    \n--------------------------------------------------------------------------------\nTotal                                           137 kB/s |  87 kB     00:00     \nRunning transaction check\nTransaction check succeeded.\nRunning transaction test\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Transaction test error:\n  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem\n\nError Summary\n-------------\nDisk Requirements:\n   At least 1MB more space needed on the / filesystem."
++ tmpfile2=
++ '[' -z 'Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.
+Package net-tools-2.10-3.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package          Architecture      Version                  Repository    Size
+================================================================================
+Installing:
+ iperf3           riscv64           3.13-2.oe2309            OS            87 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 87 k
+Installed size: 233 k
+Downloading Packages:
+iperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           137 kB/s |  87 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.' ']'
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Wed Oct 18 21:16:48 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed Oct 18 21:16:48 2023 - INFO  - Start to run test.
++ iperf3 -v
+oe_test_iperf3_command_serverAndBase.sh: line 32: iperf3: command not found
+++ rpm -q iperf3
+++ awk -F - '{print $2}'
++ grep
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
++ CHECK_RESULT 2 0 0 'iperf3 -v execution failed.'
++ actual_result=2
++ expect_result=0
++ mode=0
++ error_log='iperf3 -v execution failed.'
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 0 -eq 0 ']'
++ test 2x '!=' 0x
++ test -n 'iperf3 -v execution failed.'
++ LOG_ERROR 'iperf3 -v execution failed.'
++ message='iperf3 -v execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 -v execution failed.'
+Wed Oct 18 21:16:48 2023 - ERROR - iperf3 -v execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 33'
++ message='oe_test_iperf3_command_serverAndBase.sh line 33'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 33'
+Wed Oct 18 21:16:49 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 33
++ '[' 0 -eq 1 ']'
++ return 0
++ iperf3 --version
+oe_test_iperf3_command_serverAndBase.sh: line 34: iperf3: command not found
+++ rpm -q iperf3
+++ awk -F - '{print $2}'
++ grep
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
++ CHECK_RESULT 2 0 0 'iperf3 --version execution failed.'
++ actual_result=2
++ expect_result=0
++ mode=0
++ error_log='iperf3 --version execution failed.'
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 0 -eq 0 ']'
++ test 2x '!=' 0x
++ test -n 'iperf3 --version execution failed.'
++ LOG_ERROR 'iperf3 --version execution failed.'
++ message='iperf3 --version execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 --version execution failed.'
+Wed Oct 18 21:16:49 2023 - ERROR - iperf3 --version execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 35'
++ message='oe_test_iperf3_command_serverAndBase.sh line 35'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 35'
+Wed Oct 18 21:16:50 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 35
++ '[' 0 -eq 1 ']'
++ return 0
++ iperf3 -h
++ grep Usage
+oe_test_iperf3_command_serverAndBase.sh: line 36: iperf3: command not found
++ CHECK_RESULT 1 0 0 'iperf3 -h execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='iperf3 -h execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'iperf3 -h execution failed.'
++ LOG_ERROR 'iperf3 -h execution failed.'
++ message='iperf3 -h execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 -h execution failed.'
+Wed Oct 18 21:16:50 2023 - ERROR - iperf3 -h execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 37'
++ message='oe_test_iperf3_command_serverAndBase.sh line 37'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 37'
+Wed Oct 18 21:16:51 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 37
++ '[' 0 -eq 1 ']'
++ return 0
++ iperf3 --help
+oe_test_iperf3_command_serverAndBase.sh: line 38: iperf3: command not found
++ grep Usage
++ CHECK_RESULT 1 0 0 'iperf3 --help execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='iperf3 --help execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'iperf3 --help execution failed.'
++ LOG_ERROR 'iperf3 --help execution failed.'
++ message='iperf3 --help execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 --help execution failed.'
+Wed Oct 18 21:16:51 2023 - ERROR - iperf3 --help execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 39'
++ message='oe_test_iperf3_command_serverAndBase.sh line 39'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 39'
+Wed Oct 18 21:16:52 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 39
++ '[' 0 -eq 1 ']'
++ return 0
++ systemctl stop firewalld
++ SLEEP_WAIT 2
++ wait_time=2
++ cmd=
++ iperf3 -s
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 2 --cmd '' --mode 1
+oe_test_iperf3_command_serverAndBase.sh: line 41: iperf3: command not found
++ netstat -lnp
++ grep 5201
++ grep iperf3
++ CHECK_RESULT 1 0 0 'iperf3 -s execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='iperf3 -s execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'iperf3 -s execution failed.'
++ LOG_ERROR 'iperf3 -s execution failed.'
++ message='iperf3 -s execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 -s execution failed.'
+Wed Oct 18 21:16:55 2023 - ERROR - iperf3 -s execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 44'
++ message='oe_test_iperf3_command_serverAndBase.sh line 44'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 44'
+Wed Oct 18 21:16:56 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 44
++ '[' 0 -eq 1 ']'
++ return 0
++ SSH_CMD 'iperf3 -c 10.0.0.2' 10.0.0.3 'openEuler12#$' root
++ cmd='iperf3 -c 10.0.0.2'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'iperf3 -c 10.0.0.2' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
++ grep 'iperf Done'
+Wed Oct 18 21:16:56 2023 - WARN  - the remote user uses the default configuration.
+Wed Oct 18 21:16:57 2023 - WARN  - the remote password uses the default configuration.
+Wed Oct 18 21:16:57 2023 - WARN  - the connect port using the default configuration
++ ret=1
++ test 1 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:1'
++ message='Failed in remote CMD operation:1'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:1'
+Wed Oct 18 21:17:00 2023 - ERROR - Failed in remote CMD operation:1
++ return 1
++ CHECK_RESULT 1 0 0 'iperf3 -c serverIP execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='iperf3 -c serverIP execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'iperf3 -c serverIP execution failed.'
++ LOG_ERROR 'iperf3 -c serverIP execution failed.'
++ message='iperf3 -c serverIP execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 -c serverIP execution failed.'
+Wed Oct 18 21:17:01 2023 - ERROR - iperf3 -c serverIP execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 46'
++ message='oe_test_iperf3_command_serverAndBase.sh line 46'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 46'
+Wed Oct 18 21:17:01 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 46
++ '[' 0 -eq 1 ']'
++ return 0
+++ pgrep -f 'iperf3 -s'
++ kill -9
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+++ GET_FREE_PORT 10.0.0.2
+++ ip=10.0.0.2
+++ start_port=1000
+++ end_port=10000
+++ python3 /root/mugen/libs/locallibs/free_port.py get --ip 10.0.0.2 --start 1000 --end 10000
+/root/mugen/libs/locallibs/free_port.py:26: DeprecationWarning: 'telnetlib' is deprecated and slated for removal in Python 3.13
+  import telnetlib
++ rdport=5363
++ SLEEP_WAIT 2
++ iperf3 -s -p 5363
+oe_test_iperf3_command_serverAndBase.sh: line 49: iperf3: command not found
++ wait_time=2
++ cmd=
++ mode=1
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 2 --cmd '' --mode 1
++ netstat -lnp
++ grep 5363
++ grep iperf3
++ CHECK_RESULT 1 0 0 'iperf3 -s -p execution failed.'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='iperf3 -s -p execution failed.'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'iperf3 -s -p execution failed.'
++ LOG_ERROR 'iperf3 -s -p execution failed.'
++ message='iperf3 -s -p execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 -s -p execution failed.'
+Wed Oct 18 21:17:05 2023 - ERROR - iperf3 -s -p execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 52'
++ message='oe_test_iperf3_command_serverAndBase.sh line 52'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 52'
+Wed Oct 18 21:17:06 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 52
++ '[' 0 -eq 1 ']'
++ return 0
+++ pgrep -f 'iperf3 -s -p 5363'
++ kill -9
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
++ SLEEP_WAIT 2
++ wait_time=2
++ cmd=
++ mode=1
++ iperf3 -s -I /tmp/iperf3_pid
++ python3 /root/mugen/libs/locallibs/sleep_wait.py --time 2 --cmd '' --mode 1
+oe_test_iperf3_command_serverAndBase.sh: line 54: iperf3: command not found
+++ pgrep -f 'iperf3 -s -I'
++ result=
+++ cat /tmp/iperf3_pid
+cat: /tmp/iperf3_pid: No such file or directory
++ result1=
++ '[' '' -eq '' ']'
+oe_test_iperf3_command_serverAndBase.sh: line 58: [: : integer expression expected
++ CHECK_RESULT 2 0 0 'iperf3 -s -I execution failed.'
++ actual_result=2
++ expect_result=0
++ mode=0
++ error_log='iperf3 -s -I execution failed.'
++ exit_mode=0
++ '[' -z 2 ']'
++ '[' 0 -eq 0 ']'
++ test 2x '!=' 0x
++ test -n 'iperf3 -s -I execution failed.'
++ LOG_ERROR 'iperf3 -s -I execution failed.'
++ message='iperf3 -s -I execution failed.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'iperf3 -s -I execution failed.'
+Wed Oct 18 21:17:09 2023 - ERROR - iperf3 -s -I execution failed.
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_iperf3_command_serverAndBase.sh line 59'
++ message='oe_test_iperf3_command_serverAndBase.sh line 59'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_iperf3_command_serverAndBase.sh line 59'
+Wed Oct 18 21:17:09 2023 - ERROR - oe_test_iperf3_command_serverAndBase.sh line 59
++ '[' 0 -eq 1 ']'
++ return 0
++ kill -9 ''
+oe_test_iperf3_command_serverAndBase.sh: line 60: kill: `': not a pid or valid job spec
++ iperf3 -s -1
++ SSH_CMD 'iperf3 -c 10.0.0.2' 10.0.0.3 'openEuler12#$' root
+oe_test_iperf3_command_serverAndBase.sh: line 61: iperf3: command not found
++ cmd='iperf3 -c 10.0.0.2'
++ remoteip=10.0.0.3
++ remotepasswd='openEuler12#$'
++ remoteuser=root
++ timeout=300
++ connport=22
++ bash /root/mugen/libs/locallibs/sshcmd.sh -c 'iperf3 -c 10.0.0.2' -i 10.0.0.3 -u root -p 'openEuler12#$' -t 300 -o 22
+Wed Oct 18 21:17:10 2023 - WARN  - the remote user uses the default configuration.
+Wed Oct 18 21:17:10 2023 - WARN  - the remote password uses the default configuration.
+Wed Oct 18 21:17:11 2023 - WARN  - the connect port using the default configuration
+spawn ssh -o ConnectTimeout=300 -p 22 root@10.0.0.3 iperf3 -c 10.0.0.2
+
+Authorized users only. All activities may be monitored and reported.
+root@10.0.0.3's password: 
+iperf3: error - unable to connect to server: Connection refused
++ ret=1
++ test 1 -ne 0
++ LOG_ERROR 'Failed in remote CMD operation:1'
++ message='Failed in remote CMD operation:1'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Failed in remote CMD operation:1'
+Wed Oct 18 21:17:14 2023 - ERROR - Failed in remote CMD operation:1
++ return 1
+++ pgrep -f 'iperf3 -s'
++ '[' -z ']'
++ CHECK_RESULT 0 0 0 'iperf3 -s -1 execution failed.'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='iperf3 -s -1 execution failed.'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 21:17:15 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 8
++ test 8 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Oct 18 21:17:15 2023 - ERROR - failed to execute the case.
++ exit 8
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:17:15 2023 - INFO  - Start to restore the test environment.
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.
+Package net-tools-2.10-3.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package          Architecture      Version                  Repository    Size
+================================================================================
+Installing:
+ iperf3           riscv64           3.13-2.oe2309            OS            87 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 87 k
+Installed size: 233 k
+Downloading Packages:
+iperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           137 kB/s |  87 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Transaction test error:
+  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem. ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.
+Package net-tools-2.10-3.oe2309.riscv64 is already installed.
+Dependencies resolved.
+================================================================================
+ Package          Architecture      Version                  Repository    Size
+================================================================================
+Installing:
+ iperf3           riscv64           3.13-2.oe2309            OS            87 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 87 k
+Installed size: 233 k
+Downloading Packages:
+iperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           137 kB/s |  87 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 1MB more space needed on the / filesystem.'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 192, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 163, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 2:23:26 ago on Wed Oct 18 18:52:47 2023.\nPackage net-tools-2.10-3.oe2309.riscv64 is already installed.\nDependencies resolved.\n================================================================================\n Package          Architecture      Version                  Repository    Size\n================================================================================\nInstalling:\n iperf3           riscv64           3.13-2.oe2309            OS            87 k\n\nTransaction Summary\n================================================================================\nInstall  1 Package\n\nTotal download size: 87 k\nInstalled size: 233 k\nDownloading Packages:\niperf3-3.13-2.oe2309.riscv64.rpm                140 kB/s |  87 kB     00:00    \n--------------------------------------------------------------------------------\nTotal                                           137 kB/s |  87 kB     00:00     \nRunning transaction check\nTransaction check succeeded.\nRunning transaction test\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Transaction test error:\n  installing package iperf3-3.13-2.oe2309.riscv64 needs 288KB more space on the / filesystem\n\nError Summary\n-------------\nDisk Requirements:\n   At least 1MB more space needed on the / filesystem."
++ '[' 0 -ne 0 ']'
++ rm -rf /tmp/iperf3_pid
++ systemctl start firewalld
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:17:20 2023 - INFO  - End to restore the test environment.

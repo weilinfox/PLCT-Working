@@ -1,0 +1,261 @@
++ source /root/mugen/libs/locallibs/common_lib.sh
+++ python3 --version
+++ '[' 0 -eq 0 ']'
+++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ grep expect
++ rpm -qa
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 11:24:02 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL vdo
++ pkgs=vdo
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs vdo --node 1 --tempfile ''
++ tmpfile2=/tmp/tmphdbsj3j5
++ '[' -z '' ']'
++ tmpfile=/tmp/tmphdbsj3j5
++ dd if=/dev/zero of=vdo_test_device bs=1M count=10240
+10240+0 records in
+10240+0 records out
+10737418240 bytes (11 GB, 10 GiB) copied, 247.19 s, 43.4 MB/s
++ losetup /dev/loop0 vdo_test_device
+losetup: vdo_test_device: failed to set up loop device: Device or resource busy
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: ERROR - Kernel module kvdo not installed
+vdo: ERROR - modprobe: FATAL: Module kvdo not found in directory /lib/modules/6.4.0-10.1.0.20.oe2309.riscv64
+Creating VDO my_vdo_volume
++ touch /var/log/vdo_remove.log
++ LOG_INFO 'End to prepare the test environment'
++ message='End to prepare the test environment'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment'
+Wed Oct 18 11:28:54 2023 - INFO  - End to prepare the test environment
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run testcase:oe_test_vdo_13.'
++ message='Start to run testcase:oe_test_vdo_13.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run testcase:oe_test_vdo_13.'
+Wed Oct 18 11:28:55 2023 - INFO  - Start to run testcase:oe_test_vdo_13.
++ vdo remove --help
++ grep 'usage: vdo remove'
+usage: vdo remove [-h] (-a | -n <volume>) [--force] [-f <file>]
++ CHECK_RESULT 0 0 0 'Check vdo remove --help failed'
++ actual_result=0
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --help failed'
++ exit_mode=0
++ '[' -z 0 ']'
++ '[' 0 -eq 0 ']'
++ test 0x '!=' 0x
++ return 0
++ vdo remove -a
++ grep Removing
++ CHECK_RESULT 1 0 0 'Check vdo remove -a failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove -a failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove -a failed'
++ LOG_ERROR 'Check vdo remove -a failed'
++ message='Check vdo remove -a failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove -a failed'
+Wed Oct 18 11:29:01 2023 - ERROR - Check vdo remove -a failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 41'
++ message='oe_test_vdo_13.sh line 41'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 41'
+Wed Oct 18 11:29:02 2023 - ERROR - oe_test_vdo_13.sh line 41
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: ERROR - Kernel module kvdo not installed
+vdo: ERROR - modprobe: FATAL: Module kvdo not found in directory /lib/modules/6.4.0-10.1.0.20.oe2309.riscv64
+Creating VDO my_vdo_volume
++ vdo remove -n my_vdo_volume
++ grep Removing
+vdo: ERROR - VDO volume my_vdo_volume not found
++ CHECK_RESULT 1 0 0 'Check vdo remove -n failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove -n failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove -n failed'
++ LOG_ERROR 'Check vdo remove -n failed'
++ message='Check vdo remove -n failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove -n failed'
+Wed Oct 18 11:29:08 2023 - ERROR - Check vdo remove -n failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 45'
++ message='oe_test_vdo_13.sh line 45'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 45'
+Wed Oct 18 11:29:09 2023 - ERROR - oe_test_vdo_13.sh line 45
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: ERROR - Kernel module kvdo not installed
+vdo: ERROR - modprobe: FATAL: Module kvdo not found in directory /lib/modules/6.4.0-10.1.0.20.oe2309.riscv64
+Creating VDO my_vdo_volume
++ grep Removing
++ vdo remove --verbose -n my_vdo_volume
+vdo: ERROR - VDO volume my_vdo_volume not found
++ CHECK_RESULT 1 0 0 'Check vdo remove --verbose failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --verbose failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove --verbose failed'
++ LOG_ERROR 'Check vdo remove --verbose failed'
++ message='Check vdo remove --verbose failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove --verbose failed'
+Wed Oct 18 11:29:15 2023 - ERROR - Check vdo remove --verbose failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 49'
++ message='oe_test_vdo_13.sh line 49'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 49'
+Wed Oct 18 11:29:16 2023 - ERROR - oe_test_vdo_13.sh line 49
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: ERROR - Kernel module kvdo not installed
+vdo: ERROR - modprobe: FATAL: Module kvdo not found in directory /lib/modules/6.4.0-10.1.0.20.oe2309.riscv64
+Creating VDO my_vdo_volume
++ grep Removing
++ vdo remove -n my_vdo_volume -f /etc/vdoconf.yml
+vdo: ERROR - VDO volume my_vdo_volume not found
++ CHECK_RESULT 1 0 0 'Check vdo remove -f failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove -f failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove -f failed'
++ LOG_ERROR 'Check vdo remove -f failed'
++ message='Check vdo remove -f failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove -f failed'
+Wed Oct 18 11:29:22 2023 - ERROR - Check vdo remove -f failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 53'
++ message='oe_test_vdo_13.sh line 53'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 53'
+Wed Oct 18 11:29:23 2023 - ERROR - oe_test_vdo_13.sh line 53
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: ERROR - Kernel module kvdo not installed
+vdo: ERROR - modprobe: FATAL: Module kvdo not found in directory /lib/modules/6.4.0-10.1.0.20.oe2309.riscv64
+Creating VDO my_vdo_volume
++ vdo remove -n my_vdo_volume --logfile /var/log/vdo_remove.log
++ grep Removing
+vdo: ERROR - VDO volume my_vdo_volume not found
++ CHECK_RESULT 1 0 0 'Check vdo remove --logfile failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --logfile failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove --logfile failed'
++ LOG_ERROR 'Check vdo remove --logfile failed'
++ message='Check vdo remove --logfile failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove --logfile failed'
+Wed Oct 18 11:29:33 2023 - ERROR - Check vdo remove --logfile failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 57'
++ message='oe_test_vdo_13.sh line 57'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 57'
+Wed Oct 18 11:29:34 2023 - ERROR - oe_test_vdo_13.sh line 57
++ '[' 0 -eq 1 ']'
++ return 0
++ vdo create -n my_vdo_volume --device /dev/loop0
+vdo: ERROR - Kernel module kvdo not installed
+vdo: ERROR - modprobe: FATAL: Module kvdo not found in directory /lib/modules/6.4.0-10.1.0.20.oe2309.riscv64
+Creating VDO my_vdo_volume
++ vdo remove -n my_vdo_volume --force
++ grep Removing
+vdo: ERROR - VDO volume my_vdo_volume not found
++ CHECK_RESULT 1 0 0 'Check vdo remove --force failed'
++ actual_result=1
++ expect_result=0
++ mode=0
++ error_log='Check vdo remove --force failed'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 0 -eq 0 ']'
++ test 1x '!=' 0x
++ test -n 'Check vdo remove --force failed'
++ LOG_ERROR 'Check vdo remove --force failed'
++ message='Check vdo remove --force failed'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'Check vdo remove --force failed'
+Wed Oct 18 11:29:41 2023 - ERROR - Check vdo remove --force failed
++ (( exec_result++ ))
++ LOG_ERROR 'oe_test_vdo_13.sh line 61'
++ message='oe_test_vdo_13.sh line 61'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'oe_test_vdo_13.sh line 61'
+Wed Oct 18 11:29:42 2023 - ERROR - oe_test_vdo_13.sh line 61
++ '[' 0 -eq 1 ']'
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 11:29:42 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z 6
++ test 6 -gt 0
++ LOG_ERROR 'failed to execute the case.'
++ message='failed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level error --message 'failed to execute the case.'
+Wed Oct 18 11:29:43 2023 - ERROR - failed to execute the case.
++ exit 6
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 11:29:43 2023 - INFO  - Start to restore the test environment.
++ sudo rm /var/log/vdo_remove.log
++ losetup -d /dev/loop0
+losetup: /dev/loop0: detach failed: No such device or address
++ rm vdo_test_device -f
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z /tmp/tmphdbsj3j5 ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile /tmp/tmphdbsj3j5
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 11:29:56 2023 - INFO  - End to restore the test environment.

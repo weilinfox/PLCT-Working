@@ -1,0 +1,577 @@
++ source ../common/common_lib.sh
+++ source /root/mugen/libs/locallibs/common_lib.sh
++++ python3 --version
++++ '[' 0 -eq 0 ']'
++++ source /root/mugen/libs/locallibs/common_lib_python.sh
++ main
+++ type -t post_test
++ '[' -n function ']'
++ trap post_test EXIT INT HUP TERM
++ rpm -qa
++ grep expect
+++ type -t config_params
++ '[' -n '' ']'
+++ type -t pre_test
++ '[' -n function ']'
++ pre_test
++ LOG_INFO 'Start to prepare the test environment.'
++ message='Start to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to prepare the test environment.'
+Wed Oct 18 21:43:07 2023 - INFO  - Start to prepare the test environment.
++ DNF_INSTALL fwupd
++ pkgs=fwupd
++ node=1
++ '[' -z '' ']'
++ tmpfile=
+++ python3 /root/mugen/libs/locallibs/rpm_manage.py install --pkgs fwupd --node 1 --tempfile ''
++ tmpfile2='Last metadata expiration check: 2:50:42 ago on Wed Oct 18 18:52:47 2023.
+Dependencies resolved.
+================================================================================
+ Package                 Architecture  Version                   Repo      Size
+================================================================================
+Installing:
+ fwupd                   riscv64       1.8.6-6.oe2309            OS       3.2 M
+Installing dependencies:
+ btrfs-progs             riscv64       6.1.2-1.oe2309            OS       789 k
+ cxl-libs                riscv64       75-1.oe2309               OS        49 k
+ daxctl-libs             riscv64       75-1.oe2309               OS        39 k
+ efivar-libs             riscv64       38-2.oe2309               OS        94 k
+ gcab                    riscv64       1.5-1.oe2309              OS        81 k
+ gdisk                   riscv64       1.0.9-1.oe2309            OS       195 k
+ iniparser               riscv64       4.1-5.oe2309              OS       116 k
+ libatasmart             riscv64       0.19-19.oe2309            OS        42 k
+ libblockdev             riscv64       2.28-2.oe2309             OS       208 k
+ libbytesize             riscv64       2.7-1.oe2309              OS        35 k
+ libcbor                 riscv64       0.9.0-1.oe2309            OS        27 k
+ libgudev                riscv64       238-1.oe2309              OS        30 k
+ libjcat                 riscv64       0.1.11-2.oe2309           OS        58 k
+ libudisks2              riscv64       2.9.4-4.oe2309            OS       155 k
+ libxmlb                 riscv64       0.3.9-1.oe2309            OS        92 k
+ lvm2-dbusd              riscv64       8:2.03.21-3.oe2309        OS       158 k
+ lzo                     riscv64       2.10-3.oe2309             OS        64 k
+ multipath-tools         riscv64       0.8.7-8.oe2309            OS       272 k
+ ndctl                   riscv64       75-1.oe2309               OS       178 k
+ ndctl-libs              riscv64       75-1.oe2309               OS        78 k
+ oniguruma               riscv64       6.9.8-1.oe2309            OS       159 k
+ protobuf                riscv64       3.19.6-1.oe2309           OS       957 k
+ protobuf-c              riscv64       1.4.1-1.oe2309            OS       109 k
+ protobuf-compiler       riscv64       3.19.6-1.oe2309           OS       850 k
+ volume_key              riscv64       0.3.12-4.oe2309           OS       143 k
+Installing weak dependencies:
+ jq                      riscv64       1.6-3.oe2309              OS       161 k
+ udisks2                 riscv64       2.9.4-4.oe2309            OS       448 k
+ vdo                     riscv64       6.2.6.14-3.oe2309         OS       870 k
+
+Transaction Summary
+================================================================================
+Install  29 Packages
+
+Total size: 9.5 M
+Installed size: 38 M
+Downloading Packages:
+[SKIPPED] btrfs-progs-6.1.2-1.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] cxl-libs-75-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] daxctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] efivar-libs-38-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] fwupd-1.8.6-6.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] gcab-1.5-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] gdisk-1.0.9-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] iniparser-4.1-5.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] jq-1.6-3.oe2309.riscv64.rpm: Already downloaded                      
+[SKIPPED] libatasmart-0.19-19.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] libblockdev-2.28-2.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libbytesize-2.7-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] libcbor-0.9.0-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] libgudev-238-1.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] libjcat-0.1.11-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] libudisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libxmlb-0.3.9-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] lvm2-dbusd-2.03.21-3.oe2309.riscv64.rpm: Already downloaded          
+[SKIPPED] lzo-2.10-3.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] multipath-tools-0.8.7-8.oe2309.riscv64.rpm: Already downloaded       
+[SKIPPED] ndctl-75-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] ndctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] oniguruma-6.9.8-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-3.19.6-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-c-1.4.1-1.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] protobuf-compiler-3.19.6-1.oe2309.riscv64.rpm: Already downloaded    
+[SKIPPED] udisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] vdo-6.2.6.14-3.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] volume_key-0.3.12-4.oe2309.riscv64.rpm: Already downloaded           
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package protobuf-3.19.6-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package libgudev-238-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package gdisk-1.0.9-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package daxctl-libs-75-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package ndctl-libs-75-1.oe2309.riscv64 needs 6MB more space on the / filesystem
+  installing package protobuf-compiler-3.19.6-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package protobuf-c-1.4.1-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package volume_key-0.3.12-4.oe2309.riscv64 needs 10MB more space on the / filesystem
+  installing package vdo-6.2.6.14-3.oe2309.riscv64 needs 18MB more space on the / filesystem
+  installing package oniguruma-6.9.8-1.oe2309.riscv64 needs 19MB more space on the / filesystem
+  installing package jq-1.6-3.oe2309.riscv64 needs 20MB more space on the / filesystem
+  installing package multipath-tools-0.8.7-8.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package lzo-2.10-3.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package btrfs-progs-6.1.2-1.oe2309.riscv64 needs 27MB more space on the / filesystem
+  installing package lvm2-dbusd-8:2.03.21-3.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libxmlb-0.3.9-1.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libudisks2-2.9.4-4.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libjcat-0.1.11-2.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libcbor-0.9.0-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libbytesize-2.7-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libatasmart-0.19-19.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package iniparser-4.1-5.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package gcab-1.5-1.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package efivar-libs-38-2.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package cxl-libs-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package ndctl-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package libblockdev-2.28-2.oe2309.riscv64 needs 32MB more space on the / filesystem
+  installing package udisks2-2.9.4-4.oe2309.riscv64 needs 34MB more space on the / filesystem
+  installing package fwupd-1.8.6-6.oe2309.riscv64 needs 40MB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 40MB more space needed on the / filesystem.'
++ '[' -z '' ']'
++ tmpfile='Last metadata expiration check: 2:50:42 ago on Wed Oct 18 18:52:47 2023.
+Dependencies resolved.
+================================================================================
+ Package                 Architecture  Version                   Repo      Size
+================================================================================
+Installing:
+ fwupd                   riscv64       1.8.6-6.oe2309            OS       3.2 M
+Installing dependencies:
+ btrfs-progs             riscv64       6.1.2-1.oe2309            OS       789 k
+ cxl-libs                riscv64       75-1.oe2309               OS        49 k
+ daxctl-libs             riscv64       75-1.oe2309               OS        39 k
+ efivar-libs             riscv64       38-2.oe2309               OS        94 k
+ gcab                    riscv64       1.5-1.oe2309              OS        81 k
+ gdisk                   riscv64       1.0.9-1.oe2309            OS       195 k
+ iniparser               riscv64       4.1-5.oe2309              OS       116 k
+ libatasmart             riscv64       0.19-19.oe2309            OS        42 k
+ libblockdev             riscv64       2.28-2.oe2309             OS       208 k
+ libbytesize             riscv64       2.7-1.oe2309              OS        35 k
+ libcbor                 riscv64       0.9.0-1.oe2309            OS        27 k
+ libgudev                riscv64       238-1.oe2309              OS        30 k
+ libjcat                 riscv64       0.1.11-2.oe2309           OS        58 k
+ libudisks2              riscv64       2.9.4-4.oe2309            OS       155 k
+ libxmlb                 riscv64       0.3.9-1.oe2309            OS        92 k
+ lvm2-dbusd              riscv64       8:2.03.21-3.oe2309        OS       158 k
+ lzo                     riscv64       2.10-3.oe2309             OS        64 k
+ multipath-tools         riscv64       0.8.7-8.oe2309            OS       272 k
+ ndctl                   riscv64       75-1.oe2309               OS       178 k
+ ndctl-libs              riscv64       75-1.oe2309               OS        78 k
+ oniguruma               riscv64       6.9.8-1.oe2309            OS       159 k
+ protobuf                riscv64       3.19.6-1.oe2309           OS       957 k
+ protobuf-c              riscv64       1.4.1-1.oe2309            OS       109 k
+ protobuf-compiler       riscv64       3.19.6-1.oe2309           OS       850 k
+ volume_key              riscv64       0.3.12-4.oe2309           OS       143 k
+Installing weak dependencies:
+ jq                      riscv64       1.6-3.oe2309              OS       161 k
+ udisks2                 riscv64       2.9.4-4.oe2309            OS       448 k
+ vdo                     riscv64       6.2.6.14-3.oe2309         OS       870 k
+
+Transaction Summary
+================================================================================
+Install  29 Packages
+
+Total size: 9.5 M
+Installed size: 38 M
+Downloading Packages:
+[SKIPPED] btrfs-progs-6.1.2-1.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] cxl-libs-75-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] daxctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] efivar-libs-38-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] fwupd-1.8.6-6.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] gcab-1.5-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] gdisk-1.0.9-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] iniparser-4.1-5.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] jq-1.6-3.oe2309.riscv64.rpm: Already downloaded                      
+[SKIPPED] libatasmart-0.19-19.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] libblockdev-2.28-2.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libbytesize-2.7-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] libcbor-0.9.0-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] libgudev-238-1.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] libjcat-0.1.11-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] libudisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libxmlb-0.3.9-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] lvm2-dbusd-2.03.21-3.oe2309.riscv64.rpm: Already downloaded          
+[SKIPPED] lzo-2.10-3.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] multipath-tools-0.8.7-8.oe2309.riscv64.rpm: Already downloaded       
+[SKIPPED] ndctl-75-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] ndctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] oniguruma-6.9.8-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-3.19.6-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-c-1.4.1-1.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] protobuf-compiler-3.19.6-1.oe2309.riscv64.rpm: Already downloaded    
+[SKIPPED] udisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] vdo-6.2.6.14-3.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] volume_key-0.3.12-4.oe2309.riscv64.rpm: Already downloaded           
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package protobuf-3.19.6-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package libgudev-238-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package gdisk-1.0.9-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package daxctl-libs-75-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package ndctl-libs-75-1.oe2309.riscv64 needs 6MB more space on the / filesystem
+  installing package protobuf-compiler-3.19.6-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package protobuf-c-1.4.1-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package volume_key-0.3.12-4.oe2309.riscv64 needs 10MB more space on the / filesystem
+  installing package vdo-6.2.6.14-3.oe2309.riscv64 needs 18MB more space on the / filesystem
+  installing package oniguruma-6.9.8-1.oe2309.riscv64 needs 19MB more space on the / filesystem
+  installing package jq-1.6-3.oe2309.riscv64 needs 20MB more space on the / filesystem
+  installing package multipath-tools-0.8.7-8.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package lzo-2.10-3.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package btrfs-progs-6.1.2-1.oe2309.riscv64 needs 27MB more space on the / filesystem
+  installing package lvm2-dbusd-8:2.03.21-3.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libxmlb-0.3.9-1.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libudisks2-2.9.4-4.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libjcat-0.1.11-2.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libcbor-0.9.0-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libbytesize-2.7-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libatasmart-0.19-19.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package iniparser-4.1-5.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package gcab-1.5-1.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package efivar-libs-38-2.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package cxl-libs-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package ndctl-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package libblockdev-2.28-2.oe2309.riscv64 needs 32MB more space on the / filesystem
+  installing package udisks2-2.9.4-4.oe2309.riscv64 needs 34MB more space on the / filesystem
+  installing package fwupd-1.8.6-6.oe2309.riscv64 needs 40MB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 40MB more space needed on the / filesystem.'
++ touch /var/lib/fwupd/pending.db
+touch: cannot touch '/var/lib/fwupd/pending.db': No such file or directory
++ LOG_INFO 'End to prepare the test environment.'
++ message='End to prepare the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to prepare the test environment.'
+Wed Oct 18 21:43:36 2023 - INFO  - End to prepare the test environment.
+++ type -t run_test
++ '[' -n function ']'
++ run_test
++ LOG_INFO 'Start to run test.'
++ message='Start to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to run test.'
+Wed Oct 18 21:43:36 2023 - INFO  - Start to run test.
++ test_oneshot fwupd-refresh.service 'inactive (dead)'
++ service=fwupd-refresh.service
++ status='inactive (dead)'
++ systemctl status fwupd-refresh.service
++ grep Active
++ grep -v 'inactive (dead)'
+Unit fwupd-refresh.service could not be found.
++ CHECK_RESULT 1 0 1 'There is an error for the status of fwupd-refresh.service'
++ actual_result=1
++ expect_result=0
++ mode=1
++ error_log='There is an error for the status of fwupd-refresh.service'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 1 -eq 0 ']'
++ test 1x == 0x
++ return 0
++ test_enabled fwupd-refresh.service
++ service=fwupd-refresh.service
+++ systemctl is-enabled fwupd-refresh.service
++ state=not-found
++ '[' not-found == enabled ']'
++ '[' not-found == disabled ']'
++ '[' not-found == masked ']'
++ '[' not-found == static ']'
++ LOG_INFO 'Unit is indirect, ignoring.'
++ message='Unit is indirect, ignoring.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Unit is indirect, ignoring.'
+Wed Oct 18 21:43:37 2023 - INFO  - Unit is indirect, ignoring.
++ grep -i 'fail\|error'
++ journalctl -u fwupd-refresh.service
++ grep -v -i 'DEBUG\|INFO\|WARNING'
++ CHECK_RESULT 1 0 1 'There is an error message for the log of fwupd-refresh.service'
++ actual_result=1
++ expect_result=0
++ mode=1
++ error_log='There is an error message for the log of fwupd-refresh.service'
++ exit_mode=0
++ '[' -z 1 ']'
++ '[' 1 -eq 0 ']'
++ test 1x == 0x
++ return 0
++ LOG_INFO 'End to run test.'
++ message='End to run test.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to run test.'
+Wed Oct 18 21:43:37 2023 - INFO  - End to run test.
++ CASE_RESULT 0
++ case_re=0
++ test -z ''
++ test 0 -eq 0
++ LOG_INFO 'succeed to execute the case.'
++ message='succeed to execute the case.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'succeed to execute the case.'
+Wed Oct 18 21:43:37 2023 - INFO  - succeed to execute the case.
++ exec_result=
++ exit 0
++ post_test
++ LOG_INFO 'Start to restore the test environment.'
++ message='Start to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'Start to restore the test environment.'
+Wed Oct 18 21:43:38 2023 - INFO  - Start to restore the test environment.
++ rm -rf /var/lib/fwupd/pending.db
++ DNF_REMOVE
++ node=1
++ pkg_list=
++ mode=0
++ [[ -z Last metadata expiration check: 2:50:42 ago on Wed Oct 18 18:52:47 2023.
+Dependencies resolved.
+================================================================================
+ Package                 Architecture  Version                   Repo      Size
+================================================================================
+Installing:
+ fwupd                   riscv64       1.8.6-6.oe2309            OS       3.2 M
+Installing dependencies:
+ btrfs-progs             riscv64       6.1.2-1.oe2309            OS       789 k
+ cxl-libs                riscv64       75-1.oe2309               OS        49 k
+ daxctl-libs             riscv64       75-1.oe2309               OS        39 k
+ efivar-libs             riscv64       38-2.oe2309               OS        94 k
+ gcab                    riscv64       1.5-1.oe2309              OS        81 k
+ gdisk                   riscv64       1.0.9-1.oe2309            OS       195 k
+ iniparser               riscv64       4.1-5.oe2309              OS       116 k
+ libatasmart             riscv64       0.19-19.oe2309            OS        42 k
+ libblockdev             riscv64       2.28-2.oe2309             OS       208 k
+ libbytesize             riscv64       2.7-1.oe2309              OS        35 k
+ libcbor                 riscv64       0.9.0-1.oe2309            OS        27 k
+ libgudev                riscv64       238-1.oe2309              OS        30 k
+ libjcat                 riscv64       0.1.11-2.oe2309           OS        58 k
+ libudisks2              riscv64       2.9.4-4.oe2309            OS       155 k
+ libxmlb                 riscv64       0.3.9-1.oe2309            OS        92 k
+ lvm2-dbusd              riscv64       8:2.03.21-3.oe2309        OS       158 k
+ lzo                     riscv64       2.10-3.oe2309             OS        64 k
+ multipath-tools         riscv64       0.8.7-8.oe2309            OS       272 k
+ ndctl                   riscv64       75-1.oe2309               OS       178 k
+ ndctl-libs              riscv64       75-1.oe2309               OS        78 k
+ oniguruma               riscv64       6.9.8-1.oe2309            OS       159 k
+ protobuf                riscv64       3.19.6-1.oe2309           OS       957 k
+ protobuf-c              riscv64       1.4.1-1.oe2309            OS       109 k
+ protobuf-compiler       riscv64       3.19.6-1.oe2309           OS       850 k
+ volume_key              riscv64       0.3.12-4.oe2309           OS       143 k
+Installing weak dependencies:
+ jq                      riscv64       1.6-3.oe2309              OS       161 k
+ udisks2                 riscv64       2.9.4-4.oe2309            OS       448 k
+ vdo                     riscv64       6.2.6.14-3.oe2309         OS       870 k
+
+Transaction Summary
+================================================================================
+Install  29 Packages
+
+Total size: 9.5 M
+Installed size: 38 M
+Downloading Packages:
+[SKIPPED] btrfs-progs-6.1.2-1.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] cxl-libs-75-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] daxctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] efivar-libs-38-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] fwupd-1.8.6-6.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] gcab-1.5-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] gdisk-1.0.9-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] iniparser-4.1-5.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] jq-1.6-3.oe2309.riscv64.rpm: Already downloaded                      
+[SKIPPED] libatasmart-0.19-19.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] libblockdev-2.28-2.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libbytesize-2.7-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] libcbor-0.9.0-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] libgudev-238-1.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] libjcat-0.1.11-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] libudisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libxmlb-0.3.9-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] lvm2-dbusd-2.03.21-3.oe2309.riscv64.rpm: Already downloaded          
+[SKIPPED] lzo-2.10-3.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] multipath-tools-0.8.7-8.oe2309.riscv64.rpm: Already downloaded       
+[SKIPPED] ndctl-75-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] ndctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] oniguruma-6.9.8-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-3.19.6-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-c-1.4.1-1.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] protobuf-compiler-3.19.6-1.oe2309.riscv64.rpm: Already downloaded    
+[SKIPPED] udisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] vdo-6.2.6.14-3.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] volume_key-0.3.12-4.oe2309.riscv64.rpm: Already downloaded           
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing 'dnf clean packages'.
+Error: Transaction test error:
+  installing package protobuf-3.19.6-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package libgudev-238-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package gdisk-1.0.9-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package daxctl-libs-75-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package ndctl-libs-75-1.oe2309.riscv64 needs 6MB more space on the / filesystem
+  installing package protobuf-compiler-3.19.6-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package protobuf-c-1.4.1-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package volume_key-0.3.12-4.oe2309.riscv64 needs 10MB more space on the / filesystem
+  installing package vdo-6.2.6.14-3.oe2309.riscv64 needs 18MB more space on the / filesystem
+  installing package oniguruma-6.9.8-1.oe2309.riscv64 needs 19MB more space on the / filesystem
+  installing package jq-1.6-3.oe2309.riscv64 needs 20MB more space on the / filesystem
+  installing package multipath-tools-0.8.7-8.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package lzo-2.10-3.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package btrfs-progs-6.1.2-1.oe2309.riscv64 needs 27MB more space on the / filesystem
+  installing package lvm2-dbusd-8:2.03.21-3.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libxmlb-0.3.9-1.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libudisks2-2.9.4-4.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libjcat-0.1.11-2.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libcbor-0.9.0-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libbytesize-2.7-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libatasmart-0.19-19.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package iniparser-4.1-5.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package gcab-1.5-1.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package efivar-libs-38-2.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package cxl-libs-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package ndctl-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package libblockdev-2.28-2.oe2309.riscv64 needs 32MB more space on the / filesystem
+  installing package udisks2-2.9.4-4.oe2309.riscv64 needs 34MB more space on the / filesystem
+  installing package fwupd-1.8.6-6.oe2309.riscv64 needs 40MB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 40MB more space needed on the / filesystem. ]]
++ '[' 0 -ne 0 ']'
++ '[' 1 == 0 ']'
++ python3 /root/mugen/libs/locallibs/rpm_manage.py remove --node 1 --pkgs '' --tempfile 'Last metadata expiration check: 2:50:42 ago on Wed Oct 18 18:52:47 2023.
+Dependencies resolved.
+================================================================================
+ Package                 Architecture  Version                   Repo      Size
+================================================================================
+Installing:
+ fwupd                   riscv64       1.8.6-6.oe2309            OS       3.2 M
+Installing dependencies:
+ btrfs-progs             riscv64       6.1.2-1.oe2309            OS       789 k
+ cxl-libs                riscv64       75-1.oe2309               OS        49 k
+ daxctl-libs             riscv64       75-1.oe2309               OS        39 k
+ efivar-libs             riscv64       38-2.oe2309               OS        94 k
+ gcab                    riscv64       1.5-1.oe2309              OS        81 k
+ gdisk                   riscv64       1.0.9-1.oe2309            OS       195 k
+ iniparser               riscv64       4.1-5.oe2309              OS       116 k
+ libatasmart             riscv64       0.19-19.oe2309            OS        42 k
+ libblockdev             riscv64       2.28-2.oe2309             OS       208 k
+ libbytesize             riscv64       2.7-1.oe2309              OS        35 k
+ libcbor                 riscv64       0.9.0-1.oe2309            OS        27 k
+ libgudev                riscv64       238-1.oe2309              OS        30 k
+ libjcat                 riscv64       0.1.11-2.oe2309           OS        58 k
+ libudisks2              riscv64       2.9.4-4.oe2309            OS       155 k
+ libxmlb                 riscv64       0.3.9-1.oe2309            OS        92 k
+ lvm2-dbusd              riscv64       8:2.03.21-3.oe2309        OS       158 k
+ lzo                     riscv64       2.10-3.oe2309             OS        64 k
+ multipath-tools         riscv64       0.8.7-8.oe2309            OS       272 k
+ ndctl                   riscv64       75-1.oe2309               OS       178 k
+ ndctl-libs              riscv64       75-1.oe2309               OS        78 k
+ oniguruma               riscv64       6.9.8-1.oe2309            OS       159 k
+ protobuf                riscv64       3.19.6-1.oe2309           OS       957 k
+ protobuf-c              riscv64       1.4.1-1.oe2309            OS       109 k
+ protobuf-compiler       riscv64       3.19.6-1.oe2309           OS       850 k
+ volume_key              riscv64       0.3.12-4.oe2309           OS       143 k
+Installing weak dependencies:
+ jq                      riscv64       1.6-3.oe2309              OS       161 k
+ udisks2                 riscv64       2.9.4-4.oe2309            OS       448 k
+ vdo                     riscv64       6.2.6.14-3.oe2309         OS       870 k
+
+Transaction Summary
+================================================================================
+Install  29 Packages
+
+Total size: 9.5 M
+Installed size: 38 M
+Downloading Packages:
+[SKIPPED] btrfs-progs-6.1.2-1.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] cxl-libs-75-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] daxctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] efivar-libs-38-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] fwupd-1.8.6-6.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] gcab-1.5-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] gdisk-1.0.9-1.oe2309.riscv64.rpm: Already downloaded                 
+[SKIPPED] iniparser-4.1-5.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] jq-1.6-3.oe2309.riscv64.rpm: Already downloaded                      
+[SKIPPED] libatasmart-0.19-19.oe2309.riscv64.rpm: Already downloaded           
+[SKIPPED] libblockdev-2.28-2.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libbytesize-2.7-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] libcbor-0.9.0-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] libgudev-238-1.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] libjcat-0.1.11-2.oe2309.riscv64.rpm: Already downloaded              
+[SKIPPED] libudisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] libxmlb-0.3.9-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] lvm2-dbusd-2.03.21-3.oe2309.riscv64.rpm: Already downloaded          
+[SKIPPED] lzo-2.10-3.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] multipath-tools-0.8.7-8.oe2309.riscv64.rpm: Already downloaded       
+[SKIPPED] ndctl-75-1.oe2309.riscv64.rpm: Already downloaded                    
+[SKIPPED] ndctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] oniguruma-6.9.8-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-3.19.6-1.oe2309.riscv64.rpm: Already downloaded             
+[SKIPPED] protobuf-c-1.4.1-1.oe2309.riscv64.rpm: Already downloaded            
+[SKIPPED] protobuf-compiler-3.19.6-1.oe2309.riscv64.rpm: Already downloaded    
+[SKIPPED] udisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded               
+[SKIPPED] vdo-6.2.6.14-3.oe2309.riscv64.rpm: Already downloaded                
+[SKIPPED] volume_key-0.3.12-4.oe2309.riscv64.rpm: Already downloaded           
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+The downloaded packages were saved in cache until the next successful transaction.
+You can remove cached packages by executing '\''dnf clean packages'\''.
+Error: Transaction test error:
+  installing package protobuf-3.19.6-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package libgudev-238-1.oe2309.riscv64 needs 4MB more space on the / filesystem
+  installing package gdisk-1.0.9-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package daxctl-libs-75-1.oe2309.riscv64 needs 5MB more space on the / filesystem
+  installing package ndctl-libs-75-1.oe2309.riscv64 needs 6MB more space on the / filesystem
+  installing package protobuf-compiler-3.19.6-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package protobuf-c-1.4.1-1.oe2309.riscv64 needs 9MB more space on the / filesystem
+  installing package volume_key-0.3.12-4.oe2309.riscv64 needs 10MB more space on the / filesystem
+  installing package vdo-6.2.6.14-3.oe2309.riscv64 needs 18MB more space on the / filesystem
+  installing package oniguruma-6.9.8-1.oe2309.riscv64 needs 19MB more space on the / filesystem
+  installing package jq-1.6-3.oe2309.riscv64 needs 20MB more space on the / filesystem
+  installing package multipath-tools-0.8.7-8.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package lzo-2.10-3.oe2309.riscv64 needs 21MB more space on the / filesystem
+  installing package btrfs-progs-6.1.2-1.oe2309.riscv64 needs 27MB more space on the / filesystem
+  installing package lvm2-dbusd-8:2.03.21-3.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libxmlb-0.3.9-1.oe2309.riscv64 needs 28MB more space on the / filesystem
+  installing package libudisks2-2.9.4-4.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libjcat-0.1.11-2.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libcbor-0.9.0-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libbytesize-2.7-1.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package libatasmart-0.19-19.oe2309.riscv64 needs 29MB more space on the / filesystem
+  installing package iniparser-4.1-5.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package gcab-1.5-1.oe2309.riscv64 needs 30MB more space on the / filesystem
+  installing package efivar-libs-38-2.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package cxl-libs-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package ndctl-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem
+  installing package libblockdev-2.28-2.oe2309.riscv64 needs 32MB more space on the / filesystem
+  installing package udisks2-2.9.4-4.oe2309.riscv64 needs 34MB more space on the / filesystem
+  installing package fwupd-1.8.6-6.oe2309.riscv64 needs 40MB more space on the / filesystem
+
+Error Summary
+-------------
+Disk Requirements:
+   At least 40MB more space needed on the / filesystem.'
+Traceback (most recent call last):
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 192, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/mugen/libs/locallibs/rpm_manage.py", line 163, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 2:50:42 ago on Wed Oct 18 18:52:47 2023.\nDependencies resolved.\n================================================================================\n Package                 Architecture  Version                   Repo      Size\n================================================================================\nInstalling:\n fwupd                   riscv64       1.8.6-6.oe2309            OS       3.2 M\nInstalling dependencies:\n btrfs-progs             riscv64       6.1.2-1.oe2309            OS       789 k\n cxl-libs                riscv64       75-1.oe2309               OS        49 k\n daxctl-libs             riscv64       75-1.oe2309               OS        39 k\n efivar-libs             riscv64       38-2.oe2309               OS        94 k\n gcab                    riscv64       1.5-1.oe2309              OS        81 k\n gdisk                   riscv64       1.0.9-1.oe2309            OS       195 k\n iniparser               riscv64       4.1-5.oe2309              OS       116 k\n libatasmart             riscv64       0.19-19.oe2309            OS        42 k\n libblockdev             riscv64       2.28-2.oe2309             OS       208 k\n libbytesize             riscv64       2.7-1.oe2309              OS        35 k\n libcbor                 riscv64       0.9.0-1.oe2309            OS        27 k\n libgudev                riscv64       238-1.oe2309              OS        30 k\n libjcat                 riscv64       0.1.11-2.oe2309           OS        58 k\n libudisks2              riscv64       2.9.4-4.oe2309            OS       155 k\n libxmlb                 riscv64       0.3.9-1.oe2309            OS        92 k\n lvm2-dbusd              riscv64       8:2.03.21-3.oe2309        OS       158 k\n lzo                     riscv64       2.10-3.oe2309             OS        64 k\n multipath-tools         riscv64       0.8.7-8.oe2309            OS       272 k\n ndctl                   riscv64       75-1.oe2309               OS       178 k\n ndctl-libs              riscv64       75-1.oe2309               OS        78 k\n oniguruma               riscv64       6.9.8-1.oe2309            OS       159 k\n protobuf                riscv64       3.19.6-1.oe2309           OS       957 k\n protobuf-c              riscv64       1.4.1-1.oe2309            OS       109 k\n protobuf-compiler       riscv64       3.19.6-1.oe2309           OS       850 k\n volume_key              riscv64       0.3.12-4.oe2309           OS       143 k\nInstalling weak dependencies:\n jq                      riscv64       1.6-3.oe2309              OS       161 k\n udisks2                 riscv64       2.9.4-4.oe2309            OS       448 k\n vdo                     riscv64       6.2.6.14-3.oe2309         OS       870 k\n\nTransaction Summary\n================================================================================\nInstall  29 Packages\n\nTotal size: 9.5 M\nInstalled size: 38 M\nDownloading Packages:\n[SKIPPED] btrfs-progs-6.1.2-1.oe2309.riscv64.rpm: Already downloaded           \n[SKIPPED] cxl-libs-75-1.oe2309.riscv64.rpm: Already downloaded                 \n[SKIPPED] daxctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded              \n[SKIPPED] efivar-libs-38-2.oe2309.riscv64.rpm: Already downloaded              \n[SKIPPED] fwupd-1.8.6-6.oe2309.riscv64.rpm: Already downloaded                 \n[SKIPPED] gcab-1.5-1.oe2309.riscv64.rpm: Already downloaded                    \n[SKIPPED] gdisk-1.0.9-1.oe2309.riscv64.rpm: Already downloaded                 \n[SKIPPED] iniparser-4.1-5.oe2309.riscv64.rpm: Already downloaded               \n[SKIPPED] jq-1.6-3.oe2309.riscv64.rpm: Already downloaded                      \n[SKIPPED] libatasmart-0.19-19.oe2309.riscv64.rpm: Already downloaded           \n[SKIPPED] libblockdev-2.28-2.oe2309.riscv64.rpm: Already downloaded            \n[SKIPPED] libbytesize-2.7-1.oe2309.riscv64.rpm: Already downloaded             \n[SKIPPED] libcbor-0.9.0-1.oe2309.riscv64.rpm: Already downloaded               \n[SKIPPED] libgudev-238-1.oe2309.riscv64.rpm: Already downloaded                \n[SKIPPED] libjcat-0.1.11-2.oe2309.riscv64.rpm: Already downloaded              \n[SKIPPED] libudisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded            \n[SKIPPED] libxmlb-0.3.9-1.oe2309.riscv64.rpm: Already downloaded               \n[SKIPPED] lvm2-dbusd-2.03.21-3.oe2309.riscv64.rpm: Already downloaded          \n[SKIPPED] lzo-2.10-3.oe2309.riscv64.rpm: Already downloaded                    \n[SKIPPED] multipath-tools-0.8.7-8.oe2309.riscv64.rpm: Already downloaded       \n[SKIPPED] ndctl-75-1.oe2309.riscv64.rpm: Already downloaded                    \n[SKIPPED] ndctl-libs-75-1.oe2309.riscv64.rpm: Already downloaded               \n[SKIPPED] oniguruma-6.9.8-1.oe2309.riscv64.rpm: Already downloaded             \n[SKIPPED] protobuf-3.19.6-1.oe2309.riscv64.rpm: Already downloaded             \n[SKIPPED] protobuf-c-1.4.1-1.oe2309.riscv64.rpm: Already downloaded            \n[SKIPPED] protobuf-compiler-3.19.6-1.oe2309.riscv64.rpm: Already downloaded    \n[SKIPPED] udisks2-2.9.4-4.oe2309.riscv64.rpm: Already downloaded               \n[SKIPPED] vdo-6.2.6.14-3.oe2309.riscv64.rpm: Already downloaded                \n[SKIPPED] volume_key-0.3.12-4.oe2309.riscv64.rpm: Already downloaded           \nRunning transaction check\nTransaction check succeeded.\nRunning transaction test\nThe downloaded packages were saved in cache until the next successful transaction.\nYou can remove cached packages by executing 'dnf clean packages'.\nError: Transaction test error:\n  installing package protobuf-3.19.6-1.oe2309.riscv64 needs 4MB more space on the / filesystem\n  installing package libgudev-238-1.oe2309.riscv64 needs 4MB more space on the / filesystem\n  installing package gdisk-1.0.9-1.oe2309.riscv64 needs 5MB more space on the / filesystem\n  installing package daxctl-libs-75-1.oe2309.riscv64 needs 5MB more space on the / filesystem\n  installing package ndctl-libs-75-1.oe2309.riscv64 needs 6MB more space on the / filesystem\n  installing package protobuf-compiler-3.19.6-1.oe2309.riscv64 needs 9MB more space on the / filesystem\n  installing package protobuf-c-1.4.1-1.oe2309.riscv64 needs 9MB more space on the / filesystem\n  installing package volume_key-0.3.12-4.oe2309.riscv64 needs 10MB more space on the / filesystem\n  installing package vdo-6.2.6.14-3.oe2309.riscv64 needs 18MB more space on the / filesystem\n  installing package oniguruma-6.9.8-1.oe2309.riscv64 needs 19MB more space on the / filesystem\n  installing package jq-1.6-3.oe2309.riscv64 needs 20MB more space on the / filesystem\n  installing package multipath-tools-0.8.7-8.oe2309.riscv64 needs 21MB more space on the / filesystem\n  installing package lzo-2.10-3.oe2309.riscv64 needs 21MB more space on the / filesystem\n  installing package btrfs-progs-6.1.2-1.oe2309.riscv64 needs 27MB more space on the / filesystem\n  installing package lvm2-dbusd-8:2.03.21-3.oe2309.riscv64 needs 28MB more space on the / filesystem\n  installing package libxmlb-0.3.9-1.oe2309.riscv64 needs 28MB more space on the / filesystem\n  installing package libudisks2-2.9.4-4.oe2309.riscv64 needs 29MB more space on the / filesystem\n  installing package libjcat-0.1.11-2.oe2309.riscv64 needs 29MB more space on the / filesystem\n  installing package libcbor-0.9.0-1.oe2309.riscv64 needs 29MB more space on the / filesystem\n  installing package libbytesize-2.7-1.oe2309.riscv64 needs 29MB more space on the / filesystem\n  installing package libatasmart-0.19-19.oe2309.riscv64 needs 29MB more space on the / filesystem\n  installing package iniparser-4.1-5.oe2309.riscv64 needs 30MB more space on the / filesystem\n  installing package gcab-1.5-1.oe2309.riscv64 needs 30MB more space on the / filesystem\n  installing package efivar-libs-38-2.oe2309.riscv64 needs 31MB more space on the / filesystem\n  installing package cxl-libs-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem\n  installing package ndctl-75-1.oe2309.riscv64 needs 31MB more space on the / filesystem\n  installing package libblockdev-2.28-2.oe2309.riscv64 needs 32MB more space on the / filesystem\n  installing package udisks2-2.9.4-4.oe2309.riscv64 needs 34MB more space on the / filesystem\n  installing package fwupd-1.8.6-6.oe2309.riscv64 needs 40MB more space on the / filesystem\n\nError Summary\n-------------\nDisk Requirements:\n   At least 40MB more space needed on the / filesystem."
++ '[' 0 -ne 0 ']'
++ LOG_INFO 'End to restore the test environment.'
++ message='End to restore the test environment.'
++ python3 /root/mugen/libs/locallibs/mugen_log.py --level info --message 'End to restore the test environment.'
+Wed Oct 18 21:43:40 2023 - INFO  - End to restore the test environment.
